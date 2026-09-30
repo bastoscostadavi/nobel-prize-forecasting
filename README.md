@@ -62,9 +62,3 @@ Agents are run as Claude Code subagents (no API key needed), each given only its
 - **Stage 1 (nomination):** 10 runs × 100 nominator subagents. Each run's nominations are merged into `results/<category>/<candidate-list-id>/candidates.csv`.
 - **Baseline:** `scripts/oneshot_nominators.py` (API) or a single subagent produces a one-shot nominator list for comparison, saved to `results/<category>/nominators/`.
 - **Stage 2 (committee):** private opening rankings, 2–3 discussion rounds with random speaker order and chair summaries, then a secret ballot (majority, runoff if needed). Candidate order is shuffled per run. Run-to-run variation comes from shuffling and model sampling (temperature is not controllable on most frontier models).
-
-## Caveats
-
-- Nobel deliberations are secret for 50 years. Personas are built only from public information and are an approximation.
-- Probabilities reflect the model's simulated behaviour, not ground truth. We should backtest on past years (e.g. 2015–2025) to check calibration.
-- Committee rosters were compiled from public sources; verify against nobelprize.org before relying on them.

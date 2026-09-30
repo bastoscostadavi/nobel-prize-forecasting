@@ -4,15 +4,17 @@ Forecast the 2026 Nobel Prizes by **simulating the committee deliberations** and
 
 ## Idea
 
-1. Each prize category has a committee. Each committee member is modelled as an LLM agent with a persona (field, institution, known scholarly leanings, past nominations and statements, voting record where public).
-2. For each simulation, the agents are given the same candidate shortlist and dossiers, **discuss over several rounds**, then **cast a vote**.
-3. A voting rule that mirrors the real procedure turns the votes into a winner (or shared winners).
-4. Repeat **1000 times** per category. The share of runs each candidate wins is its forecast probability.
+The simulation mirrors the real process in two stages.
+
+1. **Nomination.** 100 nominator agents, sampled to match the nominator population (subfield and country shares from OpenAlex publication data), each read their own `profile.md` and submit one nomination. Nominations are merged into a candidate list.
+2. **Committee.** Committee agents deliberate over the candidate list and vote; a voting rule mirroring the real procedure picks the winner.
+
+Each stage is repeated over several runs; the share of runs a candidate wins is its forecast probability. Scope: Physics first, then Chemistry, Medicine, Economics, Peace (Literature dropped: its real decision is a second vote by the full Swedish Academy).
 
 ```
-candidates + dossiers ──► committee agents ──► deliberation rounds ──► secret ballot ──► winner
-                                   ▲                                                       │
-                                   └───────────────── ×1000 runs ──► win probabilities ◄───┘
+nominator agents ──► nominations ──► candidate list ──► committee agents ──► deliberation ──► ballot ──► winner
+                                                                                                         │
+                                                         × runs ──► win probabilities ◄──────────────────┘
 ```
 
 ## Experiments
@@ -53,12 +55,13 @@ results/<category>/
     winners/<experiment>/    runs/<run_id>.json + summary.csv (win share per candidate)
 ```
 
-## Planned pipeline (`scripts/`)
+## Pipeline
 
-- `build_personas` – turns each `committee/<member>/profile.md` into a persona prompt in that same member folder.
-- `simulate` – runs one deliberation: N rounds of discussion, then structured votes; writes to `runs/`.
-- `run_batch` – repeats `simulate` 1000× per category with varied seeds/temperature and speaker order.
-- `aggregate` – counts winners across runs, outputs probabilities with uncertainty to `results/`.
+Agents are run as Claude Code subagents (no API key needed), each given only its profile and the task, with no web access.
+
+- **Stage 1 (nomination):** 10 runs × 100 nominator subagents. Each run's nominations are merged into `results/<category>/<candidate-list-id>/candidates.csv`.
+- **Baseline:** `scripts/oneshot_nominators.py` (API) or a single subagent produces a one-shot nominator list for comparison, saved to `results/<category>/nominators/`.
+- **Stage 2 (committee):** private opening rankings, 2–3 discussion rounds with random speaker order and chair summaries, then a secret ballot (majority, runoff if needed). Candidate order is shuffled per run. Run-to-run variation comes from shuffling and model sampling (temperature is not controllable on most frontier models).
 
 ## Caveats
 

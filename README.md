@@ -42,12 +42,15 @@ Comparing 2 vs 1 isolates the effect of deliberation; 3 vs 2 isolates the effect
 
 ```
 agent-data/<category>/
-  committee/<member-slug>/   one folder per committee member = that agent's data
-                             (profile.md: bio, footprint, statements, persona, sources)
-  candidates/                shortlist + dossiers for that category (to be built)
-scripts/                     orchestration (to be built)
-runs/                        raw transcripts and votes from every simulation
-results/                     aggregated probabilities per category
+  committee/<member-slug>/   one folder per committee member (profile.md)
+  nominators/                nominator profiles + sampling frame (agent inputs only)
+scripts/                     orchestration
+results/<category>/
+  nominators/                nominator lists produced by models (e.g. one-shot baseline)
+  <candidate-list-id>/       one folder per way of producing a candidate list
+    nominations/             raw nominations
+    candidates.csv           merged candidate list
+    winners/<experiment>/    runs/<run_id>.json + summary.csv (win share per candidate)
 ```
 
 ## Planned pipeline (`scripts/`)

@@ -45,7 +45,11 @@ Comparing 2 vs 1 isolates the effect of deliberation; 3 vs 2 isolates the effect
 ```
 agent-data/<category>/
   committee/<member-slug>/   one folder per committee member (profile.md)
-  nominators/                nominator profiles + sampling frame (agent inputs only)
+  nominators/
+    frame/                   sampling frame: OpenAlex subfield/region shares, KVA physics
+                             class, living laureates, Nordic professor estimate, fetch scripts
+    <list-id>/<slug>/        one profile.md per nominator (NOMINATOR_PROFILE_TEMPLATE.md),
+                             e.g. oneshot-claude/ = profiles for the Claude one-shot list
 scripts/                     orchestration
 results/<category>/
   nominators/                nominator lists produced by models (e.g. one-shot baseline)
@@ -60,5 +64,6 @@ results/<category>/
 Agents are run as Claude Code subagents (no API key needed), each given only its profile and the task, with no web access.
 
 - **Stage 1 (nomination):** 10 runs × 100 nominator subagents. Each run's nominations are merged into `results/<category>/<candidate-list-id>/candidates.csv`.
-- **Baseline:** `scripts/oneshot_nominators.py` (API) or a single subagent produces a one-shot nominator list for comparison, saved to `results/<category>/nominators/`.
+- **Nominator lists:** a model is asked in one shot for 100 representative nominators (`scripts/oneshot_nominators.py` via API, or a single subagent), saved to `results/<category>/nominators/oneshot_<model>_<date>.csv`. Physics has lists from Claude Opus 5.5 and GPT-6 Sol. These are compared against the OpenAlex-based frame in `agent-data/<category>/nominators/frame/`.
+- **Nominator profiles:** each nominator on a list gets a web-researched `profile.md` (verified alive and affiliation, biography, research footprint, persona with no nominations or predictions). Done for the Claude physics list.
 - **Stage 2 (committee):** private opening rankings, 2–3 discussion rounds with random speaker order and chair summaries, then a secret ballot (majority, runoff if needed). Candidate order is shuffled per run. Run-to-run variation comes from shuffling and model sampling (temperature is not controllable on most frontier models).

@@ -2,19 +2,30 @@
 
 ## How the sample was balanced
 
-- **Source:** Model knowledge only. No web search and no files were used. Nominators are confidential, so every row shows a plausible nominator, not a confirmed one.
-- **Group mix (weighted by expected nominations submitted, not by invitations sent):**
-  - `invited_university_professor` 35: This is the largest pool. The Academy invites chair holders at a rotating set of universities worldwide, but response rates are modest.
-  - `nordic_professor` 22: Every permanent physics professor in Sweden, Denmark, Finland, Iceland and Norway is invited each year. Weighted by country: SE 8, DK 5, FI 4, NO 4, IS 1.
-  - `academy_member` 15: Mostly Swedish members of the Class for Physics, who are engaged and nominate at a high rate. One foreign member is included.
-  - `laureate` 15: Laureates have a permanent right to nominate and use it at a high rate. The rows lean US-based, with recent laureates included.
-  - `other_invited` 13: Scientists invited individually, mainly directors and researchers at research institutes and laboratories (Max Planck, CERN, RIKEN, CAS, CNRS, IAS).
-  - `nobel_committee_member` 0: The 2026 committee is excluded. No current members are included.
-- **Regions:** Nordic 37, rest of Europe 27, North America 23, Asia (including Israel) 11, Oceania 1, Latin America 1. The Nordic share is inflated on purpose, because the statutes give Nordic professors and Academy members automatic nominating rights and they respond at a high rate.
-- **Subfields:** Condensed matter and quantum/atomic/optical physics dominate, as they do across the physics professoriate. Particle physics, astrophysics and cosmology, and applied or materials physics make up the rest.
-- **Selection:** Where possible, I picked working, mid-career or senior professors rather than only famous names, and I included only people I believe are alive. I recorded no view on whom any of them would nominate.
+The aim was to match the likely population of people who actually submit nominations, not the population of famous physicists.
 
-## Exact prompt
+- **Groups (per §7 of the Nobel statutes, physics rules).** Most nominations come from professors at universities that the Academy invites on a rotating basis, so they make up the majority (55). Tenured Nordic physics professors are permanent nominators and are over-represented relative to their numbers, so they get 13. Living laureates nominate at a high rate per head but are few, so they get 12. Other individually invited scientists, mainly at non-university institutes (CERN, Max Planck, national labs, RIKEN, CAS, Perimeter, Weizmann, AMOLF, ICFO, Flatiron), get 12. Royal Swedish Academy physics-class members get 8. `nobel_committee_member` has 0 rows because all members of the 2026 committee are excluded (members: Mark Pearce (chair), Olle Eriksson, Göran Johansson, Stefan Kröll, Eva Lindroth; co-opted: Ulf Danielsson (secretary), Bernhard Mehlig, Eva Olsson). Former committee members appear as Academy members.
+- **Regions.** North America 31, Nordic 22, rest of Europe 26, East and South Asia 17, Israel 2, Oceania 1, Latin America 1. The US is the largest single source. The Nordic countries are heavily over-represented relative to their population because of their permanent rights. China's share is rising. Russia is not included, given how weak scientific ties with Sweden have been since 2022. This is a judgement call.
+- **Subfields.** The sample leans towards condensed matter, AMO/quantum optics and quantum information, which make up the largest parts of physics faculty. It also covers astrophysics and cosmology, particle and astroparticle physics, photonics, statistical and soft-matter physics, and materials/applied physics.
+- **Institutions.** Within each country, the sample favours large research-university departments that are likely to be on invitation lists, plus some mid-sized departments. Well-known prize candidates are not over-sampled.
+
+## Sources used for checking
+
+- NobelPrize.org, "The Nobel Committee for Physics" and "Nomination and selection of physics laureates" (committee composition and nominator categories)
+- Wikipedia and institutional pages for affiliation and status checks, including:
+  - Klaus Mølmer (University of Copenhagen research portal)
+  - Robert Myers (Perimeter news: director term ended in 2024, now faculty)
+  - Hideo Ohno (Tohoku: special honorary professor after serving as president 2018–2024)
+  - Susanne Viefers (UiO)
+  - Joseph Lykken (Fermilab Quantum Division)
+  - Lars Samuelson (Lund and SUSTech)
+  - Rudolf Gross (TUM emeritus of excellence since March 2025)
+  - Mete Atatüre (head of the Cavendish Laboratory)
+- The remaining affiliations come from model knowledge (cutoff mid-2026) and were not all checked individually online. Being alive and current affiliation are believed correct but are not guaranteed.
+
+Web access was allowed for this task.
+
+## Exact task prompt
 
 ```
 The Nobel Prize in Physics is decided in October 2026. Nominations were due 31 January 2026.
@@ -25,9 +36,9 @@ The sample should be representative of the actual population of nominations: mat
 Exclude members of the 2026 Nobel Committee for Physics.
 For each person give: name, institution, country, subfield, nominator group (one of: academy_member, nobel_committee_member, laureate, nordic_professor, invited_university_professor, other_invited), and a one-sentence reason they fit the sample. Do not say whom they would nominate.
 
-Save two files with Write:
+Save with Write (overwrite if they exist):
 1. /Users/davicosta/Desktop/projects/nobel-prize-forecasting/results/physics/nominators/oneshot_claude-opus-5-5_2026-09-30.csv with header: name,institution,country,subfield,group,reason (quote fields containing commas).
-2. /Users/davicosta/Desktop/projects/nobel-prize-forecasting/results/physics/nominators/oneshot_claude-opus-5-5_2026-09-30_note.md containing a short note explaining how you balanced the sample, and the exact prompt above.
+2. /Users/davicosta/Desktop/projects/nobel-prize-forecasting/results/physics/nominators/oneshot_claude-opus-5-5_2026-09-30_note.md: a short note on how you balanced the sample, which sources you used to check it, and the exact task prompt above (note that web access was allowed).
 
-Final reply: just "done" plus the counts by group and by region.
+Final reply: "done" plus counts by group and by region.
 ```

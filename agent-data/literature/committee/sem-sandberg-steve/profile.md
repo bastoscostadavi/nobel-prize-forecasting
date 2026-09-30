@@ -1,10 +1,48 @@
 # Steve Sem-Sandberg
 
 - **Role:** Member
-- **Swedish Academy chair (seat) number:** 14 (per Wikipedia; secondary source)
-- **Background:** b. 1958, elected 2020. Seat, birth year and election year from Wikipedia; Academy page gives only name and role.
-- **Sources:** https://www.svenskaakademien.se/en/the-nobel-prize-in-literature/the-nobel-committee ; https://en.wikipedia.org/wiki/Swedish_Academy ; https://www.nobelprize.org/about/the-nobel-committee-for-literature/ (403 on fetch; surfaced via search only)
+- **Committee:** Nobel Committee for Literature, Swedish Academy (listed on nobelprize.org every year 2022–2026, not in 2021; term end not published). Swedish Academy seat 14, succeeding Kristina Lugn.
+- **Institution:** Swedish Academy; critic at Dagens Nyheter (since 2008)
+- **Research field / background:** Novelist, essayist, critic and translator; documentary historical fiction about Central Europe, Nazism and 20th-century trauma.
+- **Verification:** Committee role confirmed on svenskaakademien.se and nobelprize.org 2026. Archived nobelprize.org pages show him from 2022. Election: HBL reports Carlberg and Sem-Sandberg elected together in autumn 2020; English Wikipedia gives 15 April 2021 (likely the formal entry date). The existing file said "elected 2020", which I keep. Born 1958 in Oslo (Academy page).
+- **Sources:**
+  - https://www.svenskaakademien.se/en/the-nobel-prize-in-literature/the-nobel-committee
+  - https://www.svenskaakademien.se/svenska-akademien/de-aderton/stol-nr-14-steve-sem-sandberg
+  - https://www.nobelprize.org/about/the-nobel-committee-for-literature/
+  - https://en.wikipedia.org/wiki/Swedish_Academy
+  - https://en.wikipedia.org/wiki/Steve_Sem-Sandberg
+  - https://www.hbl.fi/kultur/ingrid-carlberg-och-steve-sem-sandberg-invalda-i-svenska-akademien/
+  - https://www.nobelprize.org/prizes/literature/2025/prize-announcement/
+  - https://www.washingtontimes.com/news/2025/oct/9/laszlo-krasznahorkai-hungarian-master-absurdist-excess-wins-nobel/ (AP)
+  - https://web.archive.org/web/20221015/https://www.nobelprize.org/about/the-nobel-committee-for-literature/
 
-## Persona notes
+## Biography
 
-TODO
+Born 1958 in Oslo to Norwegian parents; grew up in Sweden (Vendelsömalm) and attended the French School in Stockholm. Debuted in 1976 with two science-fiction novels (Wikipedia). Worked for many years at Svenska Dagbladet's culture desk (1988–2008 per Wikipedia), including as editor of the essay page *Under strecket* and deputy culture editor, and has been a critic at Dagens Nyheter since 2008. Has lived for long periods in Prague and Vienna. Awards include the Dobloug Prize (2005), the Sorescu Prize (2007), the August Prize and De Nio's Grand Prize (2009), the Prix Médicis étranger (2016), the Eyvind Johnson Prize (2020) and the Selma Lagerlöf Prize (2024, per Wikipedia). Translated into about thirty languages. Succeeded Kristina Lugn on seat 14.
+
+## Research / intellectual footprint
+
+- **Central Europe essays:** *Den kluvna spegeln. En resa genom det andra Europa* (1991); *Prag (no exit)* (2002), a literary guide to Prague with Kafka and Vladimír Holan. The Academy calls these genre-crossing hybrids of travel writing and reportage "under the cloak of the essay."
+- **Documentary "trilogy":** *Theres* (1996, Ulrike Meinhof), *Allt förgängligt är bara en bild* (1999, Rilke), *Ravensbrück* (2003, Milena Jesenská); collected as *Tre romaner* (2011).
+- **Nazism and trauma:** *De fattiga i Łódź* (2009; *The Emperor of Lies*), on the Łódź ghetto and Chaim Rumkowski; *De utvalda* (2014; *The Chosen Ones*), on the Spiegelgrund clinic in Vienna; *Stormen* (2016; *The Tempest*), on Quisling-era Norway.
+- **Büchner and after:** *W.* (2019) and *Jägarna i Armentières. Büchnervariationer* (2020), based on archival study of the Woyzeck case; *Oceanen* (2022) on Rousseau's 45 days on Île Saint-Pierre; *De heligas stad* (2025) on Anabaptist Münster in 1534.
+- **Concerns (Academy):** power structures and identity, the struggle of ideologies, working through the suffering of Nazism and WWII; recreating a period's mentality through language.
+
+## Public statements and values
+
+- After the 2025 announcement he gave the Nobel Prize Museum interview on the laureate (headline quote: "As a debut novel, it is magnificent"). To AP he said the laureate was "an extension of the European modernist kind of epic writing," and praised "weighty, rolling syntax" allowing "a lightness of touch and a great lyrical beauty."
+- I found no other interviews in which he discusses Nobel criteria in general. His criticism in DN is extensive but was not reviewed here.
+
+## Connections
+
+Long ties to SvD and DN culture sections; Prague and Vienna literary milieus. Elected alongside Ingrid Carlberg in 2020. Joined the committee for 2022 (replacing Jesper Svenbro on the published roster). Committee colleagues Olsson, Mattson, Swärd, Palm.
+
+## Persona
+
+You are Steve Sem-Sandberg, a Norwegian-born Swedish novelist, essayist and long-time newspaper critic. You have been on the Nobel Committee since 2022. Much of your life has gone into Central Europe: Prague, Vienna, Kafka, Büchner, Rilke, Milena Jesenská. Your big novels are built on archives and document the Łódź ghetto, the Spiegelgrund child-euthanasia clinic and Quisling's Norway. You care about how power, ideology and identity shape people, how literature can work through historical catastrophe without simplifying it, and how style can bring back a period's mentality. You admire ambitious epic and modernist writing and hybrid forms that mix essay, reportage and fiction. You notice syntax, structure and the ethical demands of writing about suffering. As a working critic you are used to judging quickly and in public, and you back your views with a broad command of European literary history. In committee you are erudite, precise and historically minded. You place writers in traditions, press on formal ambition and on whether a work goes beyond its subject, and you are sceptical of work that stays illustrative or merely topical.
+
+## Uncertainty
+
+- Election date: autumn 2020 (HBL) vs 15 April 2021 (Wikipedia). Probably election vs formal entry.
+- His tastes are inferred mostly from his own fiction and essays and from a single set of 2025 Nobel remarks. His DN criticism was not surveyed.
+- The SvD period (1988–2008) and the Selma Lagerlöf Prize 2024 come from Wikipedia only. Term end not published.

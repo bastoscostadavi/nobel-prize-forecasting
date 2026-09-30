@@ -15,6 +15,16 @@ candidates + dossiers ──► committee agents ──► deliberation rounds �
                                    └───────────────── ×1000 runs ──► win probabilities ◄───┘
 ```
 
+## Experiments
+
+| # | Name | Setup |
+|---|---|---|
+| 1 | One-shot | A single model call per run, asked directly who will win. No agents, no discussion. |
+| 2 | Multi-agent discussion | Committee-sized group of agents deliberates and votes, with no persona conditioning (generic "member of the committee"). |
+| 3 | Multi-agent in-context | Same as 2, but each agent is conditioned on its member's `profile.md` (the `## Persona` section plus supporting sections). |
+
+Comparing 2 vs 1 isolates the effect of deliberation; 3 vs 2 isolates the effect of personas. Profiles follow `agent-data/PROFILE_TEMPLATE.md` and deliberately contain no forecasts, so 3 vs 2 is not confounded by a prediction baked into the prompt.
+
 ## Categories
 
 | Folder | Prize | Deciding body (real world) |
@@ -33,7 +43,7 @@ candidates + dossiers ──► committee agents ──► deliberation rounds �
 ```
 agent-data/<category>/
   committee/<member-slug>/   one folder per committee member = that agent's data
-                             (profile.md, persona prompt, sources, notes)
+                             (profile.md: bio, footprint, statements, persona, sources)
   candidates/                shortlist + dossiers for that category (to be built)
 scripts/                     orchestration (to be built)
 runs/                        raw transcripts and votes from every simulation

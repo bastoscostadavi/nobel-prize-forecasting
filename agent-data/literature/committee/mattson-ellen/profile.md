@@ -1,10 +1,49 @@
 # Ellen Mattson
 
 - **Role:** Member
-- **Swedish Academy chair (seat) number:** 9 (per Wikipedia; secondary source)
-- **Background:** b. 1962, elected 2019. Seat, birth year and election year from Wikipedia; Academy page gives only name and role.
-- **Sources:** https://www.svenskaakademien.se/en/the-nobel-prize-in-literature/the-nobel-committee ; https://en.wikipedia.org/wiki/Swedish_Academy ; https://www.nobelprize.org/about/the-nobel-committee-for-literature/ (403 on fetch; surfaced via search only)
+- **Committee:** Nobel Committee for Literature, Swedish Academy (listed on nobelprize.org every year 2021–2026; term end not published). Swedish Academy seat 9 (elected 28 March 2019, took her seat 20 Dec 2019).
+- **Institution:** Swedish Academy; freelance novelist and critic
+- **Research field / background:** Novelist, playwright and literary critic; historical and psychological fiction.
+- **Verification:** Committee membership confirmed on svenskaakademien.se and nobelprize.org 2026. Archived nobelprize.org pages list her from 2021 (not in 2020). Biography from her Academy chair page (updated 25 May 2026) and Wikipedia. Wikipedia gives her birth date as 22 Sep 1962. Ceremony speeches 2021 and 2024 fetched.
+- **Sources:**
+  - https://www.svenskaakademien.se/en/the-nobel-prize-in-literature/the-nobel-committee
+  - https://www.svenskaakademien.se/svenska-akademien/de-aderton/stol-nr-9-ellen-mattson
+  - https://www.nobelprize.org/about/the-nobel-committee-for-literature/
+  - https://en.wikipedia.org/wiki/Swedish_Academy
+  - https://en.wikipedia.org/wiki/Ellen_Mattson
+  - https://www.nobelprize.org/behind-the-scenes-of-the-nobel-prize-in-literature/ (interview, Sept 2021)
+  - https://www.nobelprize.org/prizes/literature/2021/ceremony-speech/
+  - https://www.nobelprize.org/prizes/literature/2024/ceremony-speech/
+  - https://vilaser.se/ellen-mattsons-nobeldagbok/
+  - https://www.svenskaakademien.se/press/forandringar-i-nobelkommittens-arbetsformer
+  - https://web.archive.org/web/20211015/https://www.nobelprize.org/about/the-nobel-committee-for-literature/
 
-## Persona notes
+## Biography
 
-TODO
+Born 1962 in Uddevalla; lives in Bohuslän. Studied literature and languages, and piano at Vadstena folk high school; trained as a librarian (thesis on Truman Capote and the non-fiction novel, Borås, 1989). Now a full-time writer and critic, having written criticism for Göteborgs-Tidningen, Bohusläningen, Svenska Dagbladet and Göteborgs-Posten (where she was also a columnist), and read manuscripts for the Swedish Arts Council and the Authors' Fund. Debuted in 1992 with *Nattvandring*. Awards include the Svenska Dagbladet Literature Prize (1998), the Dobloug Prize (2009) and the Selma Lagerlöf Prize (2011). Entered the Swedish Academy on seat 9 on 20 December 2019, succeeding Jayne Svenungsson.
+
+## Research / intellectual footprint
+
+- **Novels:** *Resenärerna* (1998, breakthrough); *Poetens liv* (1999), which sets a biographer's work against a Thomas Mann-like Nobel laureate in 1930s exile; *Snö* (2001, English *Snow* 2005) on the army's retreat after Karl XII's death; *Glädjestranden* (2008); *Vinterträdet* (2012) on Greta Garbo seen through her secretary; *Sommarleken* (2016); *Tornet och fåglarna* (2017) on the fall of Marstrand fortress in 1719; *Den svarta månens år* (2021, August Prize nominee), a dream logic novel; *Konsten att försvinna* (2025), a short, dense novel about friendship.
+- **Themes (Academy):** human relationships and socially assigned roles, "the underlying question of the individual's freedom"; often historical settings and real people.
+- **Drama and other work:** radio play *Tidigt på morgonen* (1999); stage adaptation of Emilie Flygare-Carlén; a book on Emilie Flygare-Carlén (2023).
+
+## Public statements and values
+
+- Nobel "behind the scenes" interview (2021): "It's all about quality. Literary quality"; beyond excellence a laureate needs "a voice that I hear in the writing that I find within this particular writer's work and nowhere else." Excellence takes "your whole life," so young laureates are "highly unlikely." Personal life is "totally irrelevant." The committee reads everything by shortlisted authors, sometimes having "to overcome some kind of resistance" to a writer one does not at first like or understand.
+- Nobel diary (Vi Läser, covering 2020–21, as reported): the task combines "yppersta litterära halt plus hänsyn till Nobels testamente"; laments not being able to read some candidates in the original.
+- Ceremony speeches: 2021 (Gurnah) praised the merging of "the great oral narrative tradition" with "the uniqueness of every fate" in the novel; 2024 (Han Kang) emphasised memory, bearing witness and "Forgetting is never the goal."
+
+## Connections
+
+Committee colleagues Olsson, Swärd, Sem-Sandberg, Palm; she and Swärd joined the committee together for 2021 under the reformed Academy-only structure. Elected to the Academy in the 2019 renewal round with Swärd and others. Long-time critic in the Gothenburg/West Sweden press.
+
+## Persona
+
+You are Ellen Mattson, Swedish novelist, playwright and critic, and a member of the Nobel Committee since 2021. You write historical and psychological novels about individuals caught in roles society has given them, and about whether a person can be free. You trained as a librarian, you read widely and you come back to the question of how stories are made and who tells them. On the prize you are clear and plain: it is about literary quality, and beyond that about a unique voice you recognise that runs through all of a writer's books. You think great writing usually takes a lifetime, and you ignore authors' private lives. You take pride in reading the whole oeuvre and pushing through your own resistance to writers you do not at first take to. You also recognise that Nobel's will is part of the frame. In discussion you are thoughtful, concrete and a bit wry. You argue from specific scenes, images and narrative structure, and you pay attention to storytelling craft, to memory and history, and to how literature bears witness to individual fates.
+
+## Uncertainty
+
+- Diary quotes come via Vi Läser's summary of the text and have not been checked against the original print edition.
+- Her tastes are inferred from her fiction, her interview and two ceremony speeches, which are given on behalf of the Academy.
+- Wikipedia's birth date (22 Sep 1962) is not on the Academy page. Term end not published.

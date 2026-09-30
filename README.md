@@ -1,6 +1,6 @@
 # Nobel Prize Forecasting 2026
 
-Forecast the 2026 Nobel Prizes by **simulating the committee deliberations** and aggregating the outcomes over many runs.
+Forecast the 2026 Nobel Prizes by **simulating the nominations and the committee deliberations** and aggregating the outcomes over many runs.
 
 ## Idea
 

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B022",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of optical lattice clocks based on magic-wavelength trapping, which brought atomic timekeeping to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B039",
+    "B033"
+  ],
+  "statement": {
+    "case_for": "Having read the eight ballots, I move my first choice from circuit QED (B039) to the optical lattice clock (B022), and I do so because the case is stronger, not because it is popular. Six of eight colleagues rank it in their top three, and the reasons they give are the ones I would apply myself. The magic-wavelength lattice removes Doppler and recoil shifts while keeping thousands of atoms in the interrogation, so a basic quantum phenomenon (the atomic transition) becomes visible and controllable with extreme attention to every systematic. Independent clocks at RIKEN/Tokyo, JILA, NIST, PTB, SYRTE and elsewhere now agree at the 1e-18 level, which is exactly the cross-laboratory reproducibility I look for. It already delivers tests of relativity and of constant variation, centimetre-scale relativistic geodesy and a route to redefining the second. Attribution is the cleanest on the list: Katori for the concept and first demonstration, Ye for taking performance and comparison to the frontier. The discovery, not an application, is what is rewarded here, and this one is a concrete experimental advance in measurement physics.",
+    "case_against": "The strongest objection is one of novelty relative to earlier prizes: the 2005 prize (Hall, Haensch) gave frequency combs and the 2012 prize (Wineland, Haroche) gave single-ion control and clocks, so some will see the lattice clock as an incremental refinement of precision spectroscopy rather than a new regime of physics. There is also a real attribution gap, since Lemonde, Ludlow, Takamoto, Ovsiannikov and others contributed and cannot be credited, and the redefinition of the second has not yet happened. I think the first objection is answered by the new physics (many-body clocks, spin exchange, millimetre-scale redshift) but I acknowledge that this is a judgment call.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B022 first as a pure measurement advance that reset the limits of what can be measured, with the Hall/Haensch 2005 and Wineland 2012 overlap to be handled in the citation, and ranks B033 (trapped ions) above circuit QED.",
+        "response": "I agree on both the merit and the need to handle the overlap in the wording of the citation, which is why my proposed text names the magic-wavelength lattice and the 1e-18 regime rather than clocks in general. Where I differ is on trapped-ion computing: you value the gate fidelities, and so do I, but I think the prize question there is whether the unit is Cirac-Zoller's proposal or the Innsbruck/NIST experiments, and Wineland's 2012 prize already took the control of single ions. That is why I keep B033 only as an alternative, not as the lead."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B022 first, stressing agreement between independent laboratories as the evidence, and notes that the proximity of B039 to the 2025 circuit prize and the missing names (Girvin, Devoret) complicate a fair configuration.",
+        "response": "I accept both of your points about B039 and they are what moved me. As a theorist embedded in this field I should say plainly that Girvin's role in the 2004 proposal and the Yale transmon work make a Blais/Wallraff/Schoelkopf trio contestable, and that a second circuits prize within a year of Clarke, Devoret and Martinis is hard to defend. I would still disagree gently with the suggestion that circuit QED is more engineering than discovery: strong and ultrastrong coupling in solid state is new light-matter physics. But the clock case does not depend on settling that argument."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks baryon acoustic oscillations first as a clean discovery from nature, and ranks B022 third with the question of whether it counts as a discovery or as an instrument development.",
+        "response": "The discovery-versus-instrument question is a fair one and I do not want to dodge it. My answer is that the lattice clock did reveal something: that thousands of interacting atoms can be controlled so that systematics are the limit rather than the atoms, and it opened measurements of redshift at millimetre scales that were not possible before. On BAO I defer to you and Pearce on astrophysics, but I note that it has only three supporters and that the credit is spread across the SDSS and 2dFGRS collaborations. I would want the committee to be sure it prefers a standard-ruler detection to a measurement-technology prize before it ranks it over B022."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks fluctuation theorems first for their universality as exact statements far from equilibrium, while noting that priority between the several relations is contested and that the credited names omit key originators.",
+        "response": "I see the elegance, and as a theorist I like exact relations, but your own reservation about priority (Evans, Cohen, Morriss, Gallavotti, Kurchan and others) seems to me decisive for a three-name prize, and the experimental confirmations were done by people outside the list. By contrast the clock credit is separable and both laureates are central, so I cannot move B027 above B022 at this stage."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee wants to wait for the redefinition of the second before rewarding lattice clocks.",
+      "How much weight the 2005 and 2012 prizes should carry against the lattice clock; I rate it a separate step but others may not.",
+      "Whether the Yale and Girvin credit for circuit QED can be resolved within three names, and whether any circuit-QED prize is acceptable within a year of the 2025 prize.",
+      "Whether the trapped-ion candidate should honour the 1995 proposal or the experimental demonstrations, given Wineland's 2012 prize."
+    ],
+    "conflict_note": "I direct the Wallenberg Centre for Quantum Technology and work in superconducting circuits, with close Chalmers ties to Per Delsing and C. M. Wilson (my co-authors on the dynamical Casimir effect), and I have co-authored work on phonons coupled to artificial atoms (relevant to B032). This is a potential recusal issue for B039 and B032, and I would recuse myself from discussion of B039's ranking in a final decision. The Chalmers hosting of 2025 laureates is also a connection. No specific conflict is apparent for B022, whose candidates have no connection to me in the provided profile."
+  }
+}

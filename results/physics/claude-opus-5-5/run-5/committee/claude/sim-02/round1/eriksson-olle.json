@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Charles L. Kane",
+          "Laurens W. Molenkamp",
+          "Qi-Kun Xue"
+        ],
+        "citation": "for the theoretical prediction and experimental realization of the quantum spin Hall state and the quantum anomalous Hall effect, establishing topological insulators as a new class of quantum matter"
+      }
+    ]
+  },
+  "alternatives": [
+    "B015",
+    "B030"
+  ],
+  "statement": {
+    "case_for": "B003 is a complete discovery arc in condensed-matter physics. Kane's Z2 theory predicted a new phase of matter defined by band topology rather than symmetry breaking. Molenkamp then measured the quantum spin Hall edge channels in HgTe wells, and Xue's group measured the quantized quantum anomalous Hall effect in magnetic topological insulator films. These are quantitative results that can be checked: quantized conductance, ARPES spectra and DFT band inversions, so theory and experiment actually reinforced each other. More than fifteen years of independent confirmation across HgTe, Bi-based and magnetically doped materials make this the most robust case on the list in my own field. The result also shows once more that quantum mechanics keeps producing surprises that matter for materials and low-dissipation electronics. Reading the opening ballots, I see that B003 is the only candidate where three members (Olsson, Johansson and Pearce, besides me) independently accepted the same core physics. Pearce and Johansson placed it at 3 and 4, and Olsson also put it first.",
+    "case_against": "The strongest reservation is attribution and overlap. B003 leaves out Mele, whose joint Kane-Mele paper is the origin of the Z2 idea. It also leaves out Hasan (3D topological insulators) and the Bernevig-Hughes-Zhang HgTe proposal, without which Molenkamp's experiment would not have been targeted. The 2016 prize on topological phase transitions and topological phases (Thouless, Haldane, Kosterlitz) also covers neighbouring ground, so the novelty argument is not trivial. Finally, B003 is compound: the QSH and QAH parts are different experiments by different groups, so the citation risks reading as a bundle. B015 is the cleaner two-person case on attribution, and the one that has the broadest opening support.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked B003 third and credited Kane and Molenkamp only, noting that the narrower B003 list omits Mele and Hasan, and treating Xue's QAH work as a separate experiment. He placed IceCube (B014) first as an instrument-builder achievement and B015 second.",
+        "response": "I agree that Xue's work is a distinct experiment, and I accept that a Kane-Molenkamp pair is the safest minimal configuration. But I would keep Xue in. Quantized transport without a magnetic field is the strongest experimental proof that the topology is real, not just a spin Hall edge signal, and it connects to magnetism, where I can judge the evidence. On B014 I defer to you and to Ulf on instrumentation, but I would ask whether the individual credit to Halzen and Karle really survives the collaboration and AMANDA questions that Eva Olsson also raised. For me B014 is a strong discovery with a harder credit problem than B003."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked optical lattice clocks (B015) first as the most precise measurement instruments ever built, with clear systematics budgets, independent confirmation by many groups, and a clean two-laureate configuration of Katori and Ye.",
+        "response": "I take this seriously and I ranked B015 fourth for exactly the reasons you give: it is quantitative and heavily reproduced, which is what I value. My difference with you is on weighing. A clock is an outstanding instrument and measurement, but the discovery of a new state of matter with protected edge states changes how a whole community thinks about band structure. I would not call that weighing settled, and if the committee wants the cleanest attribution, B015 is the better choice and I could support it. I would ask you whether the pending redefinition of the second should make us wait or recognise now, as Ulf also asked."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson placed B018 second, arguing topological insulators are a conceptually new phase confirmed by ARPES, but with Kane, Molenkamp and Hasan (leaving Mele out and Xue's QAH off the list).",
+        "response": "We agree on the physics and differ only on names. I would not swap Xue for Hasan in the supplied B018 configuration. Hasan's ARPES observation of 3D topological insulators is important, but the 3D story is largely a confirmation of Fu-Kane-Mele predictions, while QAH is a distinct quantized-transport discovery with a second independent experimental group. If the committee prefers the compact QSH plus 3D story, B018 is a defensible alternative, but it then needs Mele, which pushes the credit above three names and forces a hard choice."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked fluctuation theorems (B005) first for their simple, universal and provable mechanism, and placed B018 third while stressing that Kane, Mele and Molenkamp is the natural trio and that the 2016 prize overlaps topologically.",
+        "response": "I accept your point about Mele, and I consider it the strongest attribution objection to B003. Where I disagree is on the 2016 overlap. Thouless, Haldane and Kosterlitz recognised topological phase transitions and quantized Hall-type invariants in model systems, while this prize would recognise a new family of real materials with protected edge states. That is a distinct, experimental discovery. On B005, I find the exact relations elegant and agree they are rigorous, but only your ballot ranks it, and I would like to hear how experimental impact beyond single-molecule work, and the missing Gallavotti and Cohen credit, would be handled."
+      }
+    ],
+    "uncertainties": [
+      "Whether the three-name limit can be reconciled with Mele, Hasan and the Bernevig-Hughes-Zhang proposal, or whether Kane-Molenkamp alone would be the more defensible citation.",
+      "Whether Xue's quantum anomalous Hall experiment belongs in the same prize as the QSH discovery or should be treated as a later achievement.",
+      "How much the 2016 topological-phase prize reduces the room for another topology prize.",
+      "Weighing B015 against B003: broad opening support and clean attribution against the depth of a new state of matter. This is not fully settled for me."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I know none of the credited names for B003 as collaborators or students. My theoretical magnetism and electronic-structure work is related to the field, which affects my judgment of the evidence but is not a recusal issue."
+  }
+}

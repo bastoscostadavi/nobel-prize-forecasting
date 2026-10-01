@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-03",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B047",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and development of optical lattice clocks, which opened a new regime of precision in the measurement of time and frequency"
+      }
+    ]
+  },
+  "alternatives": ["B006", "B038"],
+  "statement": {
+    "case_for": "Optical lattice clocks are a measurement advance of the kind I think physics is limited by. Katori's magic-wavelength proposal removed the trade-off between long interrogation times and trap-induced shifts, and the first strontium lattice clock showed it worked. Ye's group then pushed accuracy and stability to roughly 1e-18 and used the many-body (degenerate Fermi gas) clock to cut the quantum projection noise limit. The result is verified by independent laboratories (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE and others) whose cross-comparisons agree, which is the reproducibility standard I care about. It has changed what can be measured: millimetre-scale gravitational redshift, relativistic geodesy, bounds on drifting constants and ultralight dark matter, and a credible route to a redefinition of the second. The attribution is as clean as it gets on this list: a two-person prize that matches the supplied credit, with a concept and first demonstration on one side and the accuracy and stability records on the other.",
+    "case_against": "The strongest objection is novelty. The frequency comb (2005) and ion control (2012) prizes already recognised the toolbox, and a committee could see lattice clocks as an excellent refinement of metrology rather than a new discovery. The fundamental-physics payoff so far consists of upper limits and null results, and the redefinition of the second has not happened yet. Credit is also left out: Lemonde, Ludlow and the Yb and Sr groups, and others, made real contributions. If the committee wants a discovery rather than an instrument, topological insulators (B006) or circuit QED (B038) have a more obvious claim to a new phenomenon.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks lattice clocks only seventh. He credits the precision and the reproduction across laboratories, but worries about overlap with the comb and ion-clock prizes and about the fundamental-physics payoff being limited to upper limits.",
+        "response": "I accept the overlap concern as a real argument, but I read it differently. The 2005 and 2012 prizes honoured the frequency comb and single-ion quantum control, which are tools. Parallel interrogation of many neutral atoms in a magic-wavelength lattice is a distinct idea that makes stability at the 1e-18 level reachable in practice. The null results are also measurements. A bound on ultralight dark matter or on constant drift, with a stated uncertainty, is information about nature, and the geodesy and redshift tests are positive measurements at a new scale. I would still like to see the citation stress the lattice concept and avoid a general 'precision' phrasing that invites the overlap objection."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks lattice clocks second behind IceCube. He values the originality and long-lasting experimental realisation, and wants to know whether it is sufficiently distinct from the comb and ion prizes and how credit should be shared with other clock groups.",
+        "response": "I agree on the merit and share the credit question. My view is that the cut at two names is defensible because the decisive contributions are traceable: Katori for the scheme and first lattice clock, Ye for taking it to the accuracy and coherence frontier. On B048 I do not dispute the discovery, since a diffuse flux seen in several event topologies is convincing, but I cannot judge the source-identification claims independently. Both objections for B048, which are the large-collaboration credit and the small number of sources, are more serious than the corresponding ones for the clocks, where nearly every lab can check the number. I would rather see neutrino astronomy mature by another cycle than put two names on a collaboration this large."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth also ranks lattice clocks first and values atomic physics in which theory and experiment agree quantitatively. She regards the split of credit relative to Hall-Hänsch and ion-clock work as settled enough, and sees the 2025 overlap as the issue for circuit QED.",
+        "response": "I agree with the merit, but I do not think the credit split is quite as settled as you suggest. The overlap issue is not only about Hall and Hänsch. The lattice-clock community includes groups that were not named here, and I would like us to agree on a citation that is explicit about what is recognised (the lattice scheme and the accuracy it enabled). On your higher-ranked B007, I find the physics interesting, but five credited names for what is really two platforms makes the allocation harder than the clock case. I would not choose it ahead of B047 unless we can agree on a defensible three."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first. He argues it is a distinct discovery (strong light-matter coupling on a chip) from the 2025 macroscopic tunnelling prize, a platform for dispersive readout and quantum processors, and he notes his own possible bias.",
+        "response": "I take the distinction seriously and I have it fifth, not low, because dispersive readout is a genuine measurement method. My reservation is timing and overlap: after a 2025 prize in superconducting circuits, a second prize in the same technology so soon would invite the question of whether the committee is rewarding one field twice, and Girvin and Huang are missing from the credit. Your candour about potential bias is appreciated. I would add that I have a loose institutional tie of my own to your side through WACQT (Chalmers-led), so I would rather we both note that and let the others weigh the argument on its merits."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators first. He values the clean Kane-Mele model, the sharp prediction and the decisive transport experiment, and he accepts that the choice of three from four names is contested.",
+        "response": "As an experimentalist, I find the HgTe edge-transport measurement convincing and the idea durable. I do not think its case is weak. My difficulty is attribution, not merit. Bernevig, Hughes and Zhang proposed the HgTe version and are outside the credit, Mele is hard to separate from Kane, and 2016 already recognised topological phases. I am not convinced the topological insulator case is cleaner than the lattice-clock case, but if the committee prefers a condensed-matter discovery with a clear prediction-then-experiment structure, B006 is my first alternative."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will see lattice clocks as sufficiently distinct from the 2005 comb and 2012 ion-control prizes, and how to word the citation to make that distinction.",
+      "I have not independently verified the latest published uncertainty records or the Sr versus Yb priority details.",
+      "Whether a third name is warranted for the clock-comparison and stability work, or whether the two-name configuration is final.",
+      "Whether a second prize part would help: a two-part prize would leave at most one name for the other part and I have found no natural pairing."
+    ],
+    "conflict_note": "No recusal-level conflict is apparent for B047 from my profile. For disclosure: I spent a year in John Hall's laboratory during my PhD, and Jun Ye is, as far as I know, closely associated with Hall's JILA group; this is a distant scientific lineage, not a collaboration, but colleagues should know. I am also in the WACQT leadership, which overlaps institutionally with Göran Johansson's Chalmers home and bears on the circuit-QED discussion (B038), and I am on the management team of a Lund spin-off (Deep Light Vision) that works in a different field from all shortlisted candidates."
+  }
+}

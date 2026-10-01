@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B041",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realisation of optical lattice clocks, enabling measurement of time and frequency at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B032",
+    "B031"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are the clearest case on the list of a new measurement capability that has changed what can be observed. Katori's magic-wavelength proposal removes the lattice light shift while keeping Lamb-Dicke confinement, and Ye's group showed that interrogating a very large number of atoms with long coherence gives both record systematic uncertainty and record stability, near 1e-18. The achievement is concrete and quantitative, and it has been reproduced independently with Sr, Yb and Hg in many laboratories, which is the standard of evidence I look for. It has opened millimetre-scale gravitational redshift measurements, searches for varying constants and dark matter, relativistic geodesy and the prospective redefinition of the second. A two-person prize fits the lineage, with Katori on the concept and first demonstration and Ye on bringing the platform to its present performance. Three of the seven members who ranked it put it first, and I see that support as grounded in the physics rather than as agreement for its own sake.",
+    "case_against": "The strongest reservation is overlap with earlier clock-related prizes, namely Hall and Haensch in 2005 for the frequency comb and Wineland in 2012 for ion control. A committee could judge this an incremental refinement of recognised work. Credit is also not perfectly clean, because the PTB, SYRTE and NIST groups, and the ion-clock community, drove the accuracy race. Three members ranked B041 seventh, which tells me the case is not self-evident outside atomic physics. The impact beyond metrology is still largely prospective, since the redefinition of the second has not been decided.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B041 first as an atomic theorist, valuing the magic-wavelength concept plus the record accuracy, while acknowledging that weighing Katori's concept against Ye's accuracy record is a judgement and that overlap with 2012 may matter.",
+        "response": "I agree on the structure of the credit, but I would not treat the weighting as a problem. The idea and first Sr lattice demonstration (Katori) and the demonstration that the idea scales to 1e-18 with many-body effects under control (Ye) are two distinct and necessary steps. On the 2012 overlap, ion control gave single-particle clocks and quantum logic, while the lattice clock rests on a different principle, namely many-atom interrogation with engineered cancellation of the trap shift. I would still want the citation to say 'optical lattice clocks' and not 'precision clocks' in general, so the prize does not look like a second clock prize."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators first, arguing that band topology classifies phases of matter and that theory and experiment fit together cleanly, but he notes that the Bernevig-Hughes-Zhang prediction for HgTe is missing from the credited names.",
+        "response": "I accept that B032 is a major conceptual advance and that the theory-to-experiment chain is attractive, so it is my first alternative. My reservation is the credit problem you name yourself. Kane, Mele, Molenkamp and Hasan are four names, Bernevig, Hughes and Zhang and Fu are outside the set, and the HgTe experiment followed a proposal that is not credited. A prize that is clean on the physics but incomplete in attribution is a harder choice than B041, where the two named people clearly cover the decisive steps. If the committee can settle the allocation I would not oppose B032, but I do not think it should rank above B041 as things stand."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks topological insulators first because it is a prediction that nature then confirmed in HgTe wells and then in 3D crystals, and he also values twisted bilayer graphene as a theory-predicted effect found by experiment.",
+        "response": "I share the weight you give to predictions confirmed by experiment, and optical lattice clocks fit that pattern too: the magic-wavelength condition was a prediction, and the 1e-18 uncertainty budgets are direct experimental tests of it. My disagreement is with B046, where I think the field is not yet settled. The pairing mechanism is unresolved and twist-angle disorder limits reproducibility, which is the kind of experimental caveat I would want resolved before an award. For B032 the maturity is clearly better, and I see your point there."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, the chair, ranks IceCube's high-energy astrophysical neutrinos first as a new observational window built on careful calibration and background control, and ranks the optical lattice clock third as a precision technology he respects.",
+        "response": "I respect the IceCube case as a real new window, and I favour instrument-driven discoveries as you do. Where I differ is maturity: source identification is only partial, as your own uncertainties say, and the allocation among AMANDA and IceCube founders is open beyond the two names. The clock result is more mature and independently reproduced, and its follow-on tests are already under way. Since you rank B041 third, I would ask whether the two-name credit and the reproducibility across laboratories would make it an acceptable fallback for you."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee sees optical lattice clocks as sufficiently distinct from the 2005 frequency-comb and 2012 ion-control prizes.",
+      "How to weigh the competing claims of PTB, SYRTE and NIST groups on the accuracy race against the two proposed names.",
+      "My recollection of the record uncertainty and stability values is from memory and has not been checked against the primary literature in this process.",
+      "Whether the still-pending redefinition of the second should be a maturity condition."
+    ],
+    "conflict_note": "No specific conflict is apparent for B041 from my profile. My PhD advisor Sune Svanberg and a stay in John Hall's lab connect me to the broader laser-spectroscopy community, but I have no direct collaboration with Katori or Ye. For B031, my WACQT role overlaps institutionally with Chalmers and Goran Johansson, and my own rare-earth quantum-memory work is adjacent to superconducting-circuit quantum information; I would flag this if that candidate came into play."
+  }
+}

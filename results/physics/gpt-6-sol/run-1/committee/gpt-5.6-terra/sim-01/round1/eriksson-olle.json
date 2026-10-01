@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B026",
+        "laureates": [
+          "Antoine Georges",
+          "Gabriel Kotliar",
+          "Dieter Vollhardt"
+        ],
+        "citation": "for the development of dynamical mean-field theory of strongly correlated electrons"
+      }
+    ]
+  },
+  "alternatives": [
+    "B055",
+    "B053"
+  ],
+  "statement": {
+    "case_for": "B026 remains my preferred achievement. Dynamical mean-field theory supplied a durable, quantitatively productive framework for electronic correlations, linking solvable local many-body physics to real correlated materials. Its importance is not merely computational: it changed the physical language used for metal-insulator transitions, spectral properties, and emergent magnetism, while allowing stringent comparison with spectroscopy and electronic-structure calculations. Georges, Kotliar, and Vollhardt provide a defensible three-person representation of the large-dimensional foundation and the modern formulation that made the method broadly useful.",
+    "case_against": "The strongest reservation is attribution. DMFT has antecedents and depends on a substantial subsequent ecosystem of impurity solvers and material-specific implementations; archival review must distinguish the foundational formulation from those later indispensable advances. The prize should therefore remain tightly framed around the development of the theory rather than its many applications.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig argues that DMFT made strong correlations quantitatively tractable, but notes that credit is spread across the large-dimensional foundation, broadly usable formulation, solvers, and later implementations.",
+        "response": "I agree with both the scientific assessment and the caution. The proposed trio is strongest precisely because it spans the foundational large-dimensional route and the formulation that established DMFT as a general working method. Solver and implementation advances are essential consequences, but do not displace this identifiable conceptual core."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson emphasizes that spherical-aberration correction is a mature, commercialized advance that transformed electron microscopy into an atomic-scale quantitative instrument, while warning that theory, engineering, and parallel developers require historical scrutiny.",
+        "response": "B055 is an excellent alternative and particularly compelling for materials science. I nevertheless place B026 ahead because it created a more general physical framework for a central class of quantum materials. Olsson's attribution concern is also substantial: the long technical lineage and multiple implementation routes make the final individual allocation less settled than the proposed DMFT core."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth argues that the recollision picture and its quantum formulations supplied the conceptual basis of high-harmonic and attosecond science, with extensive experimental validation.",
+        "response": "I accept the maturity and conceptual coherence of B020, and it is an unusually strong theory-to-experiment case. Its citation must, however, carefully separate foundational recollision theory from the broader experimental attosecond revolution. For this round, DMFT has the clearer connection to a long-standing, independently benchmarked physical framework across many material classes."
+      }
+    ],
+    "uncertainties": [
+      "The historical boundary between early infinite-dimensional correlated-electron work and the modern DMFT formulation requires specialist attribution review.",
+      "Whether B055's aberration-correction lineage can be allocated cleanly among the proposed three names remains unresolved."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

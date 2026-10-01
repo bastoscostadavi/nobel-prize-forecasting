@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-5.6-terra",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/terra-round2-danielsson-ulf-ntcd_x8g",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/terra-round2-danielsson-ulf-ntcd_x8g/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "1b8f13946f800f075aaae74028c4ff644f80562e24edd4ede4aa8ba73691d17e",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/danielsson-ulf/profile.md",
+      "sha256": "fcf33777601a72c06737e0a9d35e15cfc9f82195d2936787096d9f982d068f51"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/shortlist.json",
+      "sha256": "dc6eb2c0c3d540004828a4d09b3026fef5c5be051024273470724ea4cf451f8a"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/danielsson-ulf.json",
+      "sha256": "a3c04c394b42c1a7b147d22e4517e6f8a196f097831736cbd6742be7a161d021"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/eriksson-olle.json",
+      "sha256": "44f91a84f9167131511636acaa4c13ca2793dacd4947d536396bb2d7ec7a8812"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/johansson-goran.json",
+      "sha256": "1694a1d251dd457733298ea1aa4747295db44d4447a0a6cca881d566aa5e8598"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/kroll-stefan.json",
+      "sha256": "bada49387f7cdd016711fba051cc7af79c3558db7e127eb2fdffc0ed7862484d"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/lindroth-eva.json",
+      "sha256": "d76b5131d611e602c245ef9b48d0d2ee863381752a0aa1c36466e5dfd5ed6b2e"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/mehlig-bernhard.json",
+      "sha256": "94b11f593f0c8e78c73f43f42aacda5b687e1ce7f8c72362b2ab88d24064fa24"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/olsson-eva.json",
+      "sha256": "ec6699c39072629f1fde35c657d3d605468f6047466466d9e7369647c98541cb"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/round1/pearce-mark.json",
+      "sha256": "3b0b442d75272ed24f254208dcc9e10f2417d580d4672be6bc57548c730c62d9"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/chair_summary_round1.json",
+      "sha256": "563ab64fe5cf4dd6c05af75e02b3d5b2f34602aec4e79d8c9476b2bfca28bde3"
+    }
+  ],
+  "thread_id": "01a0f603-4341-70e0-ab6e-364d8c9eafe6",
+  "usage": {
+    "input_tokens": 22638,
+    "cached_input_tokens": 5888,
+    "output_tokens": 911,
+    "reasoning_tokens": null,
+    "total_tokens": 23549
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-01T05:50:25.215759Z"
+}

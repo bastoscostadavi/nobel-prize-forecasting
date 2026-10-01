@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B046",
+        "laureates": [
+          "Antoine Georges",
+          "Gabriel Kotliar",
+          "Dieter Vollhardt"
+        ],
+        "citation": "for the dynamical mean-field theory of strongly correlated electrons"
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B017"
+  ],
+  "statement": {
+    "case_for": "DMFT supplied a controlled and extraordinarily productive framework for connecting local electronic correlations to measurable spectra and phases of real materials. It has endured for decades, been extended and tested across a wide range of correlated systems, and changed both quantitative theory and the interpretation of experiments. Georges, Kotliar, and Vollhardt form a coherent account of the central conceptual and methodological development.",
+    "case_against": "This is principally recognition of a theoretical framework rather than one discrete experimental discovery. Its local approximation also makes it important to define the original achievement carefully and not silently credit the later nonlocal extensions that addressed its limitations.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig places DMFT highly and emphasizes its role as a common language for correlated materials, while noting that the locality approximation complicates the boundary of the achievement.",
+        "response": "I agree that this boundary is essential. The citation should be confined to dynamical mean-field theory itself, whose success lies in making local correlation physics quantitatively usable; later cluster and nonlocal developments should not be folded into the prize claim."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argues that optical lattice clocks have clear complementary attribution, exceptional reproducibility, and broad metrological uptake.",
+        "response": "This is a very strong alternative, and the demonstrated reproducibility of lattice clocks answers an important maturity criterion. I nevertheless retain DMFT narrowly ahead because it reorganized our understanding of an extensive class of quantum materials, whereas the committee should still judge whether the clock advance is best framed as a Nobel-level physical discovery rather than an outstanding metrological technology."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson stresses that spherical-aberration correction made electron microscopy an independently adopted atomic-scale quantitative probe with unequivocal materials impact.",
+        "response": "I share that assessment and regard B017 as especially compelling because theory, instrument realization, and durable experimental use meet in one achievement. The remaining issue is historical attribution across corrector designs and implementations; DMFT has the more compact conceptual attribution at this stage."
+      }
+    ],
+    "uncertainties": [
+      "Whether the theoretical-method character of DMFT satisfies the intended balance between foundational conceptual advances and experimentally demonstrated discoveries.",
+      "The precise historical division of credit among the original DMFT formulation and subsequent extensions."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B058",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "for dynamical mean-field theory of correlated electrons"
+      }
+    ]
+  },
+  "alternatives": [
+    "B006",
+    "B005"
+  ],
+  "statement": {
+    "case_for": "Dynamical mean-field theory gave correlated-electron physics a durable quantitative framework, connecting an otherwise intractable many-body problem to experimentally relevant materials. Its predictive and interpretive role has been tested across decades of work on correlated systems, and the proposed three names form a coherent core spanning the modern formulation and its development into a broadly usable method.",
+    "case_against": "The historical line from precursor mean-field approaches to later implementations is extensive, so the exact division of credit needs archival scrutiny. Unlike a single landmark observation, the achievement is a theoretical framework whose experimental consequences are distributed across many materials and techniques.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks B058 highly, emphasizing that it transformed the tractable understanding of strongly correlated electrons, while noting that credit extends beyond three people.",
+        "response": "I agree with both the centrality and the attribution caution. The wide subsequent implementation community should not obscure that Georges, Vollhardt, and Kotliar provide a defensible, bounded core; historical review should test that conclusion before a final decision."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks B006 first because aberration correction made electron microscopy routinely atom-resolved, robust, commercialized, and broadly useful.",
+        "response": "This is a very strong alternative, particularly for materials physics: reliable atomic-scale characterization has changed how we can test theory and identify structure. I would nevertheless place B058 ahead because it established a general physical account of correlation rather than an enabling instrument; B006 also requires especially careful separation of the original electron-optical insight from later engineering realization."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B005 first, stressing the mature, reproducible performance and clear complementary attribution of Katori and Ye for optical lattice clocks.",
+        "response": "The clocks are an exceptionally clean and mature case, with compelling attribution. Their major metrological achievement remains a leading alternative, but I favor B058 this round because correlated-electron physics has yielded a comparably deep, long-established change in our quantitative understanding of real materials."
+      }
+    ],
+    "uncertainties": [
+      "Whether the three proposed architects adequately represent the foundational and early practical development of dynamical mean-field theory.",
+      "How directly the framework's many materials successes can be tied to a single citation without overstating predictive universality."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

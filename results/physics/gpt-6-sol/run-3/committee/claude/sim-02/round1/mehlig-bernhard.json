@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-02",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B049",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction and experimental discovery of the quantum spin Hall effect and topological insulators"
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Topological insulators have the structure I look for: a simple, general mechanism (the Z2 invariant and protected helical edge states) that is analytically transparent and was then tested in a decisive experiment (HgTe quantum wells). The idea has travelled well beyond solid-state physics into photonics, cold atoms and acoustics, which is the kind of universality I value. It is independently confirmed in several material systems over fifteen to twenty years, so the maturity question is settled, and it enjoys the broadest opening support among the theory-led candidates (five ranked it, three in their top three). After reading the ballots I move it ahead of my own opening first choice, B011, mainly because the support for B011 is only mine and I cannot honestly argue that my enthusiasm for an analytically clean model should outweigh a field-wide verdict.",
+    "case_against": "The credited trio leaves out a pivotal step. The HgTe quantum-well prediction by Bernevig, Hughes and Zhang is what made the Molenkamp experiment possible, and the 3D topological insulator work (Fu, Kane, Mele, Moore, Balents, Hasan and others) is a separate, partly competing story; Kane-Mele's graphene proposal is also not the system in which the effect was finally seen, because spin-orbit gaps in graphene are tiny. The 2016 prize on topological phases adds a possible overlap objection. If the committee concludes that the three-person limit cannot represent this history fairly, I would rather lose this configuration than award it on a distorted record.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "B049 is a new state of matter with a clean theory-plus-experiment story (Kane and Mele for the Z2 classification and quantum spin Hall proposal, Molenkamp for HgTe edge transport), confirmed in many laboratories and arguably overdue.",
+        "response": "I agree on the science and on the maturity. Where I would qualify your account is attribution. Calling it a clean trio treats Molenkamp's experiment as the realisation of Kane-Mele, but it realised the Bernevig-Hughes-Zhang HgTe proposal, and Kane and Mele's graphene mechanism was not what was observed. I think the citation therefore has to be worded around the quantum spin Hall effect and topological insulators as a concept and a first observation, not around a single lineage. I also doubt that one prize should absorb the 3D materials as well, as you suggest as a possibility. Splitting 2D and 3D would not fit within the person limit, so I would keep the 2D citation and accept that the 3D discoverers are left out."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "B008 is the top-ranked candidate: the optical lattice clock combines Katori's magic-wavelength idea with Ye's record accuracy, is mature, and the attribution is clean, while B049 suffers from a genuine attribution problem with Bernevig, Hughes and Zhang.",
+        "response": "I take your attribution point on B049 seriously and share it, which is why I list the omission as my main reservation. But I do not think a clean attribution is by itself an argument for B008. The lattice clock is an outstanding, mature measurement advance, and I would be content with it as the alternative. My difficulty is the overlap with the 2005 frequency-comb prize and the 2012 prize for controlling single quantum systems, which you and Kroll both acknowledge. Is the novelty of the lattice clock a new physical principle (magic-wavelength trapping of many atoms to beat the quantum projection noise limit) or a very large improvement in an established technology? I would like to hear that argued from the atomic-physics side before I accept that attribution cleanliness decides it."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "B049 is strongly influential and confirmed, but the omission of Zhang, Bernevig, Hughes, Moore, Fu and Hasan is a real attribution problem, the quantised edge-transport evidence is more delicate than the topology concept, and it overlaps with the 2016 topological-phase prize.",
+        "response": "I agree with the delicacy of the edge transport: the HgTe conductance plateaus are a robust result, but nonlocal and long-edge measurements are less clean than the textbook picture, and that is a fair experimental caveat. On the 2016 overlap I would answer that the 2016 prize honoured topological phase transitions and the integer quantum Hall-type phases (TKNN-class, Haldane), whereas the Z2 class and time-reversal-protected edge states are a different symmetry-class concept, so I do not see it as a repeat. I also note that your own first choice, B012, was explicitly flagged by you and by Kroll as possibly too close to the 2025 circuits prize. I would not treat that proximity as disqualifying, but it argues for waiting rather than moving it to the top now."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "B008 is the right kind of measurement advance, with Katori and Ye the clean pair, and the main questions are whether the 2005 comb and ion-clock prizes already cover the area and whether to wait for the SI second redefinition.",
+        "response": "I agree that the redefinition of the second should not be a precondition, since the physics is already secure. My reservation about B008 is a matter of weighing, not a defect: it is primarily an advance in measurement precision whose new physics (tests of constants, redshift at millimetre scale) is still prospective, while B049 already changed how a whole community thinks about electronic phases. I would not call that a decisive argument, and I could vote for B008 without discomfort."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts a Kane-Mele-Molenkamp configuration given that Bernevig, Hughes and Zhang (HgTe prediction) and the 3D topological insulator discoverers are not credited, and whether the citation wording can avoid misstating the lineage.",
+      "Whether the 2016 topological-phase prize makes a topological insulator prize look like a repeat to the wider committee and Academy.",
+      "Whether B011 (KPZ universality) can be made fair: Parisi's omission, the role of the exact-solution mathematicians (Tracy-Widom connection, exact solutions of the KPZ equation) and the dominance of one liquid-crystal experiment are all unresolved, and I am the only member who ranked it.",
+      "Whether a technology-heavy candidate such as B008 should be valued above a concept-driven one on equal footing."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for any of the shortlisted candidates or their credited names. As a general note, I am in the same Gothenburg physics environment as Goran Johansson and Eva Olsson (Chalmers), whose preferred areas (circuit QED, aberration-corrected electron microscopy) are on the shortlist; I have no specific collaboration with them and do not think it requires recusal."
+  }
+}

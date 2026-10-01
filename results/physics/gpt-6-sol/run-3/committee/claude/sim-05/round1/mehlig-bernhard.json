@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-05",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction of the quantum spin Hall effect and Z2 topological insulators, and its first experimental observation in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B040",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "I moved my preferred prize from my own opening first choice (B008, active-matter flocking) to B061. Kane and Mele's 2005 papers are a clean, general and rigorously analysed idea: spin-orbit coupling in graphene gives a time-reversal-invariant insulator with a Z2 invariant and protected helical edge states. Molenkamp's 2007 HgTe transport experiment gave the decisive measurement, a quantised conductance of 2e^2/h that matches the theory. Four of the five members who ranked B061 placed it in their top four, and it is the only shortlisted candidate with both strong conceptual originality and more than a decade and a half of independent confirmation (HgTe, InAs/GaSb, 3D materials, ARPES). I regard it as arguably overdue. The 2016 prize honoured topological phase transitions and the Haldane Chern insulator. It did not honour the time-reversal-invariant Z2 class, so the overlap is partial and does not amount to duplication.",
+    "case_against": "The attribution problem is real. The HgTe quantum-well proposal that told Molenkamp what to measure came from Bernevig, Hughes and Zhang, and the 3D generalisation came from Fu, Kane and Mele together with Moore and Balents. A prize to Kane, Mele and Molenkamp therefore leaves out people whose contribution the experiment depended on. Several colleagues have flagged this, and I cannot dismiss it. The topological-band-theory lineage (Haldane 2016, Thouless) also makes some members see this as the same field again. If the committee judges that the credit cannot be drawn cleanly with three names, B040 is the better-attributed alternative. A second concern is that this is a condensed-matter prize in a year when several other fields wait.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked B061 first as a conceptually original new class of matter, with a clean theory-plus-experiment split into three, while acknowledging that credit for the HgTe proposal and the 3D generalisation sits outside the slate.",
+        "response": "I agree on the conceptual weight and on the theory-plus-experiment split. I would be less relaxed about the omissions. The BHZ proposal is not a peripheral addition: it is the reason Molenkamp's group knew which quantum wells to grow and which thickness to use. The Kane-Mele paper also did not by itself fix the experimental platform, since the graphene gap is tiny. So the case for B061 rests on the Z2 classification and the observation of the helical edge state, not on the claim that the three names cover the whole chain. A citation that names the prediction of the effect and its first observation is accurate, and I think it should be worded to say so."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranked B046 first and placed B061 only sixth, calling the omission of Bernevig, Hughes and Zhang a serious attribution issue and noting partial overlap with the 2016 prize.",
+        "response": "I take the attribution objection seriously, and it is the main reason I now describe B061 as contestable instead of obvious. Where I disagree is on the weight. Kane and Mele identified the Z2 invariant and showed it is the robust quantity, which is the general mechanism. BHZ then predicted a specific realisation. A prize can reasonably credit the general mechanism and the first observation without having to include every step in the chain. On overlap with 2016, Thouless-Haldane-Kosterlitz concerned integer-quantised Hall conductance and topological phase transitions in systems that break time reversal. Time-reversal-invariant topological insulators are a different symmetry class. I also see a fairness problem in preferring B046, since correctors have a comparable credit dispute in the TEM versus STEM branches (Krivanek), which you flagged yourself."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked B040 first as a measurement advance at the 1e-18 level that enables tests of constants, relativistic geodesy and a redefinition of the second, with a clean two-person attribution to Katori and Ye.",
+        "response": "This is the strongest competing case, and I rank it as my first alternative. The attribution is cleaner than for B061, and I accept that. My reservation is about the overlap you mention: the 2005 comb prize and the 2012 ion-control prize already cover adjacent precision-spectroscopy ground, and ion clocks reached comparable uncertainties on a similar timescale, so the prize risks looking like a third award for better clocks. It also still rests on a redefinition of the second that has not yet happened. I would be comfortable with B040 if the committee prefers attribution that is cleaner over conceptual novelty, but I do not think the broad opening support alone settles the matter."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked B055 (circuit QED) first, as the architecture behind superconducting qubits, while admitting that Girvin's absence from the credited names makes the credit imperfect and that the timing relative to the 2025 prize needs care.",
+        "response": "I find the technological pull of circuit QED persuasive, but the same attribution defect that troubles me in B061 is more serious here. Blais, Wallraff and Schoelkopf are named, yet Girvin and Huang shared the 2004 proposal, and your own ballot treats Blais as the only theory name. So B055 is not a cleaner alternative to B061. It also comes right after the 2025 prize on macroscopic quantum tunnelling in circuits, which makes the timing harder. I would want to see whether the committee can agree a credit rule for circuit QED before moving it above a topological-insulator prize."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept Kane, Mele and Molenkamp as sufficient given that Bernevig, Hughes and Zhang proposed the HgTe realisation, or will want a configuration that names a different set.",
+      "Whether the 2016 topological-phases prize makes a second topology prize this soon look repetitive. I read it as a different symmetry class, but I am not certain the committee will.",
+      "My own B008 case (flocking) has no support from any colleague. I do not know whether that reflects a real weakness in the experimental confirmation of the Toner-Tu exponents or a difference in field tastes, and I have not tried to settle it.",
+      "My details on the HgTe and graphene credit chain come from general knowledge and have not been verified against the literature."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for any shortlisted candidate. I know of no collaboration with Kane, Mele, Molenkamp, Katori, Ye, Toner, Vicsek or Tu. I work in the same Gothenburg physics environment as Johansson and Olsson, which is an institutional familiarity and not a conflict. I have written on machine learning for active matter, which is near B008, but this is subject proximity only, and B008 is not my preferred configuration."
+  }
+}

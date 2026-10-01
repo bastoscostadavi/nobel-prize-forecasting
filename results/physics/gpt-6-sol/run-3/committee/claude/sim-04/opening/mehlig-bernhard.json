@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-04",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B008",
+      "proposed_laureates": ["Mehran Kardar", "Yi-Cheng Zhang", "Kazumasa A. Takeuchi"],
+      "assessment": {
+        "nobel_worthiness": "The KPZ equation is a minimal stochastic model that defines a universality class for non-equilibrium interface growth, with exact solutions and links to random matrices (Tracy-Widom statistics). It is the kind of simple, general mechanism behind messy phenomena that I value most, and it has reshaped non-equilibrium statistical physics and many neighbouring fields.",
+        "attribution": "The 1986 equation is credited to Kardar, Parisi and Zhang; Parisi is not among the supplied credited names and I cannot add him. Kardar and Zhang would be the theory laureates and Takeuchi the experimental one, who confirmed the universal fluctuation distributions in liquid-crystal turbulence. The exact-solution contributions (Johansson, Spohn, Sasamoto, Amir-Corwin-Quastel and others) are not credited here, so credit is somewhat incomplete.",
+        "maturity": "Mature in theory, with decades of analysis. The experimental confirmation (2010 onward) is independent and quantitative, and later experiments and numerics have reproduced the scaling and distributions. Recognition seems timely.",
+        "uncertainties": [
+          "Whether the committee would want to credit the exact-solution work by mathematical physicists rather than the experiment.",
+          "Parisi's role in the original paper falls outside the credited names, and he already holds a prize for complex-systems work.",
+          "I have not independently verified the experimental details beyond my general knowledge."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B002",
+      "proposed_laureates": ["John Toner", "Tamás Vicsek", "Yuhai Tu"],
+      "assessment": {
+        "nobel_worthiness": "The Vicsek model and the Toner-Tu hydrodynamic theory show that long-range order can exist in a two-dimensional flocking system, because non-equilibrium dynamics evades the Mermin-Wagner theorem. It is a clean, universal mechanism with a rigorous theory, and it has opened up active matter as a field spanning biology and soft matter.",
+        "attribution": "Vicsek introduced the minimal numerical model (1995), and Toner and Tu supplied the continuum theory and the renormalisation-group exponents. The three credited names map naturally to a three-person prize. Others (e.g. Ramaswamy, Marchetti, Cates for related active-matter theory) are outside the list, which I accept for this candidate.",
+        "maturity": "The theory is robust and the numerical evidence is strong. Experimental confirmation of the specific Toner-Tu exponents is weaker and comes mainly from analogue systems (colloidal rollers, bacterial and cell suspensions, some animal groups), so the confirmation is less direct than for KPZ.",
+        "uncertainties": [
+          "Quantitative experimental tests of the predicted scaling exponents remain limited.",
+          "The boundary between active-matter theory credits is blurry, and the choice of three names could be contested.",
+          "Whether the committee sees this as physics proper or as biology-adjacent."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B057",
+      "proposed_laureates": ["Charles L. Kane", "Eugene J. Mele", "Laurens W. Molenkamp"],
+      "assessment": {
+        "nobel_worthiness": "The Z2 topological insulator and the quantum spin Hall effect introduced a new topological classification of band insulators with protected edge and surface states, together with a decisive experimental realisation in HgTe. It is conceptually fundamental and has founded a large and productive field.",
+        "attribution": "Kane and Mele supplied the theory (2005), and Molenkamp's group delivered the experimental discovery in HgTe quantum wells (2007), following the Bernevig-Hughes-Zhang prediction. BHZ and Zhang's role, and the 3D materials work (Hasan, Cava, Moore, Balents, Fu), are not in the supplied credited names. This causes a real attribution problem, but the three names give a defensible configuration.",
+        "maturity": "Highly mature, with many independent confirmations and a stable interpretation. The 2016 prize recognised topological phase transitions, so the committee would need to explain what this adds, but I think the case holds.",
+        "uncertainties": [
+          "Unresolved credit for Bernevig, Hughes and Zhang, and for the 3D topological insulator discoveries.",
+          "Possible overlap with the 2016 prize rationale.",
+          "My own expertise is closer to statistical than to topological band theory, so I defer to colleagues on the materials aspects."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B004",
+      "proposed_laureates": ["Michael V. Berry", "Yakir Aharonov"],
+      "assessment": {
+        "nobel_worthiness": "Geometric phases are a unifying concept, with the Aharonov-Bohm effect and the Berry phase appearing across quantum mechanics, optics, molecular physics and condensed matter (quantised Hall response, polarisation, Berry curvature). The ideas are simple, general and have held up.",
+        "attribution": "Berry (1984) and Aharonov are credited. Bohm is deceased and Aharonov-Bohm is a 1959 paper by two people, so a prize for the effect itself is complicated. Simon, Pancharatnam and Anandan are outside the list. A two-person configuration is feasible but the credit story is messy.",
+        "maturity": "Very mature, with decisive experimental confirmation (Chambers, Tonomura) and wide use. If anything, recognition is late.",
+        "uncertainties": [
+          "Bohm's death and the paper's priority make the Aharonov-Bohm part hard to credit.",
+          "Whether the prize should reward the conceptual idea or specific demonstrations.",
+          "Pancharatnam and Simon's priority claims."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B028",
+      "proposed_laureates": ["Alexander A. Belavin", "Alexander M. Polyakov", "Alexander B. Zamolodchikov"],
+      "assessment": {
+        "nobel_worthiness": "Two-dimensional conformal field theory gave exact critical exponents and operator algebras for 2D critical phenomena and underlies string worldsheet theory. It is an example of a simple structural insight that yields universal results, in the spirit of the renormalisation-group tradition.",
+        "attribution": "The 1984 BPZ paper has three authors that match the credited names, which makes the attribution clean. Zamolodchikov died in 2023 (as I recall; I have not verified it), which would rule him out of a prize, so the configuration may in practice be reduced.",
+        "maturity": "Fully mature, with confirmation through exact lattice solutions, numerics and experiment (e.g. critical exponents, Ising and Potts systems, quantum Hall edge theories).",
+        "uncertainties": [
+          "Whether living status of the names allows a three-person prize.",
+          "It is a mathematical-physics advance whose experimental tests are indirect, and the committee has traditionally favoured evidence from experiment.",
+          "Other contributors (Friedan, Qiu, Shenker, Cardy, Dotsenko, Fateev) lie outside the credited names."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B007",
+      "proposed_laureates": ["Andrea J. Liu", "Sidney R. Nagel"],
+      "assessment": {
+        "nobel_worthiness": "The jamming picture treats the onset of rigidity in disordered packings of grains, foams and emulsions as a critical point with scaling and a universal origin in isostaticity. It brings a statistical-physics view to granular and soft matter and gives a clean, testable organising idea.",
+        "attribution": "Liu and Nagel's 1998 proposal is the conceptual origin, and a two-person configuration is natural. O'Hern, Silbert and Langer, and the isostatic-mechanics community (Wyart, Lubensky), contributed substantially but are not in the credited names.",
+        "maturity": "The picture is influential, but the nature of the transition, the role of critical exponents in real (non-ideal) systems and the relation to the glass transition are still debated. This is less settled than the higher-ranked items.",
+        "uncertainties": [
+          "Applicability of ideal jamming scaling to experimental systems with friction and thermal effects.",
+          "Unresolved connection to the glass transition.",
+          "Credit to the numerical and theoretical co-developers."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B006",
+      "proposed_laureates": ["Immanuel Bloch", "Markus Greiner", "Peter Zoller"],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices realise Hubbard-type models with tunable parameters, as shown by the Mott-insulator transition (Greiner et al.), and later by single-site imaging, so strongly correlated many-body physics can be studied directly. The close link between a clean model and experiment appeals to me.",
+        "attribution": "Zoller (with Jaksch et al.) provided the theory proposal, Greiner and Bloch the experimental realisation, and Bloch led the quantum-gas microscope era. Jaksch, Cirac and Hänsch are outside this credit set, and Greiner's and Bloch's roles overlap with the Mott-insulator paper that also names Hänsch. A three-person split is plausible but contestable.",
+        "maturity": "Mature in its core results. The goal of simulating open problems such as the 2D Fermi-Hubbard phase diagram has not been fully reached, so some of the promise is still unrealised.",
+        "uncertainties": [
+          "Overlap with other candidates crediting Zoller, Bloch or Cirac, and the 2001 BEC prize.",
+          "Whether the quantum-simulation outcome justifies recognition now or later."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B054",
+      "proposed_laureates": ["Antoine Georges", "Gabriel Kotliar", "Dieter Vollhardt"],
+      "assessment": {
+        "nobel_worthiness": "Dynamical mean-field theory exploits the infinite-dimension limit to give an exactly controlled local description of strongly correlated electrons, describing the Mott transition and combining with first-principles methods. It is a powerful and conceptually clear approach from statistical physics.",
+        "attribution": "Metzner and Vollhardt began the infinite-dimension limit (1989), Georges and Kotliar developed the mapping to an impurity problem (1992), and Müller-Hartmann also contributed. Metzner and Müller-Hartmann are not in the credited names (Müller-Hartmann is deceased), so the configuration is not complete.",
+        "maturity": "Widely used and mature, but as a method its accuracy is limited when non-local correlations matter, and the main verdict on its power comes from comparison to materials. It is a method rather than a discovery, which the committee may weigh against it.",
+        "uncertainties": [
+          "Whether this is a discovery or a computational method for prize purposes.",
+          "Incomplete attribution, including Metzner and Müller-Hartmann.",
+          "Systematic limitations from the neglect of non-local correlations."
+        ]
+      }
+    }
+  ]
+}

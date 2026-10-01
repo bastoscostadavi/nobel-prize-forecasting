@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B048",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of the optical lattice clock, enabling measurement of time and frequency at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B019",
+    "B036"
+  ],
+  "statement": {
+    "case_for": "I opened with topological insulators (B019), but my colleagues' arguments have moved me to put the optical lattice clock first. B048 is the only entry that all eight of us ranked, six of us in the top three, and the reasons hold up when I probe them as I would a calculation. The magic-wavelength idea removes the lattice light shift while atoms sit in the Lamb-Dicke regime, so many atoms can be interrogated at once without Doppler or recoil broadening. This was then taken to fractional uncertainties near 1e-18, with independent clocks and international comparisons that agree. It is verified, quantitatively demanding and reproduced worldwide, which is the standard I care about as someone who has spent years checking that different DFT codes agree. It also yields new physics: millimetre-scale gravitational redshift, bounds on drifting constants, many-body (spin-exchange) clock physics, and a likely redefinition of the second. Attribution is the cleanest on the shortlist: Katori for the concept and first realisation, Ye for record accuracy and the many-body regime, a natural two-person prize with no obvious omission among the credited names.",
+    "case_against": "The strongest reservation is that this is an instrument and method advance building on the 2005 frequency-comb prize and the 2012 ion-control prize, and a purist could say it is not a new physical discovery of the kind a condensed-matter physicist usually gets excited about. Credit among Lemonde, Takamoto, Boyd, Ludlow, Hollberg and the ion-clock community is not cleanly separable from the supplied text, and the redefinition of the second is still pending, so one could argue the timing is better a few years from now. My own opening favourite, B019, has the opposite problem. The physics is deeper, but four colleagues noted that Bernevig, Hughes, Zhang, Fu and Moore are missing from the credited trio, and the 2016 topology prize overlaps. A weak attribution is a worse flaw than a modest novelty question.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "The optical lattice clock is the cleanest case of a new measurement method that changed what can be measured, with Katori and Ye as the two decisive names, and earlier prizes for combs and trapping keep this award focused.",
+        "response": "I agree, and it is the main reason I moved. Your point that comb and trapping credit has already been given is what lets the clock stand as its own achievement. What I weigh most is that the 1e-18 performance is reproduced across several national laboratories and several species (Sr, Yb, Hg), which separates a verified advance from one group's record. I would add one caution to your account: the question of Katori as originator and Ye as developer deserves a precise sentence in the citation, so that it does not read as a metrology prize with a vague scope."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "The magic-wavelength lattice clock combines an original idea with a decisive leap in precision, but you flag the open question of whether it is distinct enough from the 2005 comb and 2012 ion-control prizes.",
+        "response": "This is the question I take most seriously, and I think the answer is yes, but it must be argued and not assumed. The comb prize recognised a ruler for optical frequencies and the 2012 prize recognised control of single quantum systems. Neither gives a way to interrogate vast numbers of neutral atoms at once with the lattice shift cancelled, which is a different physical mechanism and a different error budget. Your point about Ye's many-body spin-exchange understanding helps, because it shows the clock is also a platform for correlated quantum matter. I would want the committee text to say so explicitly, so the prize is not read as a refinement of earlier work."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "You put circuit QED first for its high originality and its role as the basis of superconducting quantum processors, but you flag the 2025 prize on macroscopic quantum tunnelling in superconducting circuits and your own close ties to these groups.",
+        "response": "I respect the case, since cQED is the architecture behind essentially every superconducting processor. I would qualify it on two grounds. First, the 2025 prize, which I chaired, recognised this superconducting-circuit lineage, and I think the committee would struggle to justify returning to it so soon, especially with Girvin and Huang missing from the credited trio. Second, I am glad you disclosed your conflict, and I think it should be minuted so that your ranking is read with it in mind. On B019, which you rank third, I accept your point that credit among Kane-Mele, Bernevig-Hughes-Zhang and Fu-Kane-Mele is contested, and it is why I am no longer putting it first."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You value the pairing of theory prediction and experimental discovery in twisted bilayer graphene and rank it sixth, while noting that the superconducting mechanism is unsettled and recognition may be slightly early.",
+        "response": "I rank B036 second myself, and the pairing is what attracts me: a flat band predicted in 2011 by Bistritzer and MacDonald and then found to host correlated insulators and superconductivity in 2018 is exactly the kind of surprise, like graphene itself, that I like. Where I differ from your rank is that the flat-band picture is well supported by spectroscopy and calculation, so I would not call the central discovery premature. I do agree that the open mechanism question is a real maturity concern, and that device-dependent twist-angle disorder makes reproducibility less clean than for the clock. That is why I place it as an alternative and not as my first choice."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards the optical lattice clock as a sufficiently distinct physical achievement from the 2005 frequency-comb and 2012 ion-control prizes.",
+      "Whether the pending redefinition of the second makes recognition better timed later, and how to weigh the contributions of Lemonde, Takamoto and other lattice-clock groups against Katori and Ye.",
+      "Whether the credited B019 trio can be defended given the Bernevig-Hughes-Zhang proposal and the 3D topological insulator work, and how much weight the 2016 prize should carry.",
+      "I am working from memory for the priority chronology and for the clock accuracy records, and have not verified them against primary papers at this stage."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the preferred configuration: I have no stated tie to Katori, Ye, Kane, Mele, Molenkamp, MacDonald or Jarillo-Herrero. For transparency, I chaired the 2025 committee that awarded the superconducting-circuit prize, which bears on how I view B001, and my DFT and spin-dynamics work for MAX IV and ESS is a general field connection to condensed-matter candidates such as B019 and B036, not a personal tie to any named candidate."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-03",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction of the quantum spin Hall effect and Z2 topological insulators, and the first experimental observation of the quantum spin Hall state"
+      }
+    ]
+  },
+  "alternatives": [
+    "B056",
+    "B032"
+  ],
+  "statement": {
+    "case_for": "Topological insulators are the kind of result I trust most: a simple, general mechanism (a Z2 invariant of the band structure, protected helical edge and surface states) that was predicted precisely enough for experiment to test, and that then was. Kane and Mele supplied the decisive theory, and Molenkamp's HgTe quantum-well transport turned it into an observed state of matter. After about fifteen years of independent confirmation in many materials and by transport and ARPES, the interpretation is stable and recognition is timely rather than premature. It has reorganised how condensed-matter physics classifies phases and has spread into photonics, cold atoms and mechanics. The 2016 prize recognised topological phase transitions and the Haldane and TKNN lineage, but this is a distinct, experimentally anchored achievement with its own clear credit line, and the three-person triple fits the prize limit.",
+    "case_against": "The strongest reservation is attribution. The HgTe experiment followed the Bernevig-Hughes-Zhang proposal, and the 3D topological insulator work (Fu-Kane-Mele, Moore-Balents, Roy, and the ARPES confirmations by Hasan and others) is only partly captured by the three credited names. Any citation therefore risks leaving out Bernevig, Hughes and Zhang, and the late Shoucheng Zhang's absence is a real problem for how the committee would defend the choice. There is also a conceptual overlap with the 2016 prize that critics can use, and I am the member most predisposed to the theory side of this field, so I should discount my own enthusiasm.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clock first as a measurement invention of the first rank: magic-wavelength trapping removes Doppler and recoil shifts while keeping a large atom number, pushing uncertainty into the 1e-18 range, with a clean two-person credit.",
+        "response": "I agree that the credit is cleaner than in topological insulators and that the maturity is excellent, which is why I keep the clock as my first alternative. My hesitation is not about merit but about novelty of mechanism: the clock rests on a chain of recent recognition (laser cooling, the frequency comb in 2005) and is an enormous refinement of metrology that is still waiting on the redefinition of the second. I would ask Kroll whether he thinks the lattice clock is a discovery of a new principle in the way the Z2 classification is, or a superb realisation of a known one; if the committee is comfortable rewarding instrumentation of this quality, I would not stand in the way."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks topological insulators first on the grounds that it opened a new class of quantum matter, with fifteen years of independent confirmation in HgTe, InAs/GaSb and ARPES-measured 3D materials, and regards the credited triple as coherent.",
+        "response": "I share the scientific verdict, but I would qualify the 'coherent triple' point: the experimental side of the field is broader than Molenkamp alone, since the 3D materials were established largely by photoemission groups who are not on the list. I would like Eriksson, who knows the materials side better than I do, to say whether a citation restricted to the quantum spin Hall effect and its Z2 classification is defensible, or whether it is better to word the citation so that the 3D story is not implicitly claimed."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson places circuit QED first for strong, controllable coupling of an artificial atom to a single microwave photon, the architecture of superconducting qubits, but ranks topological insulators only sixth and notes the overlap with the 2016 prize and the omission of Zhang.",
+        "response": "The Zhang omission is the most serious objection to my own first choice and I take it seriously rather than dismissing it. On overlap, I disagree: the 2016 prize was about topological phase transitions and integer quantum Hall-type topology, while Kane-Mele introduced the Z2 classification with time-reversal symmetry and a material-specific route that did not exist before. On circuit QED I accept the strength of the science, but with the 2025 prize on macroscopic quantum tunnelling in superconducting circuits so recent, I think a second superconducting-circuit award within a year is harder to defend than an award in a field the committee has not recently touched."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube first as the opening of neutrino astronomy with a cubic-kilometre detector, and regards Halzen and Karle as a defensible two-person credit despite the large collaboration.",
+        "response": "I rank IceCube seventh, not because the discovery is weak but because the credit story is the hardest of all eight candidates: AMANDA, DUMAND and Baikal pioneers, the early Markov-Reines-Learned proposals, and the collaboration-wide analysis make any two-name statement contestable, and the source identification is still maturing. I would find the case more persuasive if Pearce can say what, concretely, Halzen and Karle did that the others did not."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee can word a citation that is faithful to Kane, Mele and Molenkamp without implicitly excluding Bernevig, Hughes and Zhang.",
+      "How much weight to give the 2016 topological-phases prize when judging novelty, and how that interacts with timing against the 2025 condensed-matter and circuits prize.",
+      "Whether the optical lattice clock should be treated as a new principle or as superb instrumentation, and whether the redefinition of the second makes timing better or merely later.",
+      "The status of the 3D topological insulator and ARPES contributions in the credited triple."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for these candidates. I share a Gothenburg physics environment with Johansson and Olsson (Chalmers), and I have no known collaboration with any credited candidate; I am, however, a theorist in a neighbouring field of statistical physics and may be biased toward clean theory-led mechanisms."
+  }
+}

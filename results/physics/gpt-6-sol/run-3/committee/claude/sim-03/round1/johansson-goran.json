@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B056",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "For the invention and development of the optical lattice clock, enabling measurement of time and frequency at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": ["B058", "B007"],
+  "statement": {
+    "case_for": "The optical lattice clock is the cleanest case on the shortlist of an experiment that opened a new regime and is controlled in every physical detail. Katori's magic-wavelength idea lets thousands of neutral atoms be interrogated without Doppler, recoil or net light-shift penalties, and Ye's group pushed it to fractional uncertainties near 1e-18, with many-body clock physics and millimetre-scale gravitational redshift measurements. It has been reproduced and surpassed at JILA, RIKEN/Tokyo, PTB, NIST, SYRTE and other laboratories, and it now feeds tests of constancy of fundamental constants, searches for dark-matter couplings, and the pending redefinition of the second. The attribution is compact, with two principal contributors, and it received the broadest opening support of any shortlisted candidate (all eight members ranked it, five in their top three). I opened with circuit QED at rank 1 and still think it is a first-rate discovery, but after reading the ballots I judge the clock to be the stronger collective choice.",
+    "case_against": "The strongest reservation is that the committee already honoured the frequency comb (2005) and trapped-ion control and clocks (2012), so a sceptic can call the lattice clock a very successful refinement of precision metrology rather than a discovery about nature, and the practical payoff (redefinition of the second) has not yet happened. Competing claims from other clock groups (Lemonde, Ludlow, Bloom, Takamoto, ion and Al+ clock communities) also mean the two-name credit will not satisfy everyone.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks circuit QED sixth and warns that the 2025 prize on macroscopic quantum tunnelling in circuits reduces the appetite for another circuit-related award so soon, while also noting that Devoret, Nakamura and others share credit.",
+        "response": "I agree this is a real risk, and it is the main reason I now place circuit QED behind the clock. Circuit QED is a distinct achievement (strong single-photon coupling and dispersive readout, rather than macroscopic tunnelling), but a committee that has just rewarded Clarke, Devoret and Martinis will find it hard to defend a second superconducting-circuit prize within a year, and as director of a superconducting quantum programme I should not be the one pushing it. I would keep it as a candidate for a later year. I disagree only mildly with the framing of Devoret and Nakamura as missing names: their work concerns qubit design, not the cavity coupling, though Girvin's omission from the supplied names is a genuine gap."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clock first as a measurement invention of the first rank, notes the independent reproduction worldwide, and flags that Ye's closeness to the comb and cooling tradition might raise overlap questions with earlier prizes.",
+        "response": "I share this assessment and would add the physics reason it is not merely incremental: the magic-wavelength condition is a new idea that removes the dominant systematic and lets one interrogate a very large atom number simultaneously, which is what turned accuracy and stability together to 1e-18. On overlap, the comb prize rewarded the ruler for optical frequencies and the ion prize rewarded control of single quantum systems; neither covers a many-atom neutral clock with a magic trap. I would still like to see the committee write the citation narrowly around the lattice clock so the overlap argument does not get traction."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators first as a simple, universal organising principle, but concedes credit for HgTe theory and 3D topological insulators is spread over names outside the Kane, Mele, Molenkamp trio.",
+        "response": "The idea is certainly deep, and I ranked it sixth mainly because of deference to condensed-matter colleagues, not scepticism of the physics. My qualification is the attribution you already point to: Bernevig, Hughes and Zhang predicted the HgTe route that Molenkamp realised, and 3D topological insulators (Fu, Kane, Mele, Moore, Hasan) are a separate strand, so a three-name prize risks mis-assigning the decisive theory. The 2016 prize on topological phases also overlaps in concept. The clock case has a much cleaner two-person credit chain, and I would want your help testing whether a topological citation could be written without leaving a visible hole."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce puts IceCube first as a genuinely new observational window and a decades-long instrument achievement, and ranks the optical lattice clock fifth.",
+        "response": "I take the neutrino-astronomy case seriously and defer to you and Danielsson on astroparticle matters, but my concern is maturity relative to the clock. The diffuse flux is established, yet the sources of most of it are still unresolved, and the AMANDA lineage and collaboration size make a two-name credit awkward. The lattice clock has been reproduced at the 1e-18 level in many independent laboratories and has no comparable attribution problem. I would not oppose IceCube later, once source identification has matured, but I would not rank it above the clock now."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks the optical lattice clock first as a clean case of atomic physics yielding a new measurement capability, and raises whether the committee sees it as metrology rather than a discovery about nature.",
+        "response": "That framing is the right question and I think the answer favours the clock: gravitational redshift resolved across a millimetre, bounds on drifts of fundamental constants and dark-matter coupling searches are statements about nature that this instrument enables, and the controlled many-body physics in the lattice is itself a new regime. I agree with you that the line against the 2005 and 2012 prizes must be drawn carefully in the citation."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will view the lattice clock as a discovery about nature or as precision metrology, given the 2005 and 2012 prizes.",
+      "Whether Lemonde, Ludlow, Bloom or other clock groups have claims strong enough to change the two-name credit.",
+      "Whether recognition should wait for the redefinition of the second, or whether it is already timely.",
+      "How far the 2025 superconducting-circuit prize should weigh against circuit QED if it comes back in a later year."
+    ],
+    "conflict_note": "I direct the Wallenberg Centre for Quantum Technology and work in superconducting circuits and microwave quantum optics, which is the field of the B058 circuit QED candidate (Blais, Wallraff, Schoelkopf). That is a field closeness that may require recusal or extra caution on B058, and I have not relied on it in my preferred configuration. Chalmers also hosted the 2025 laureates as guest researchers, but that does not touch the shortlisted candidates. No specific personal or institutional connection to Katori, Ye or the other shortlisted candidates is apparent from my profile."
+  }
+}

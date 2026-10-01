@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-04",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "for the dynamical mean-field theory of strongly correlated electrons"
+      }
+    ]
+  },
+  "alternatives": [
+    "B018",
+    "B013"
+  ],
+  "statement": {
+    "case_for": "DMFT gave correlated-electron physics a quantitatively useful language for local quantum dynamics and made sustained comparison between many-body theory and measured material spectra possible. Its methodological predictions and use across correlated materials have been tested over decades. Georges, Vollhardt, and Kotliar provide a compact attribution spanning the foundational mean-field approach and its practical conceptual formulation.",
+    "case_against": "The achievement is a theoretical framework rather than a single experimental discovery, and its mean-field character, later extensions, and wider intellectual lineage make both the citation boundary and three-person attribution less sharp than for some experimental candidates.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig judges DMFT a powerful, established workhorse but notes that its mean-field character and extensive subsequent extensions complicate delimiting credit.",
+        "response": "I agree that the boundary needs care. That is precisely why the citation should remain confined to dynamical mean-field theory itself, rather than claiming all later correlated-electron advances. The method's durable explanatory and spectroscopic value nevertheless makes the foundational trio a defensible configuration."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson emphasizes the unusually durable materials and technological importance of Nd-Fe-B permanent magnets, while warning that parallel industrial development requires archival scrutiny.",
+        "response": "B018 is an excellent alternative: its material performance and applications are indisputable and close to my own field. I retain B004 because it established a broadly transferable physical framework, but agree that B018 has a clearer mature application record and deserves detailed priority review."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argues that optical lattice clocks unite clear attribution, independent reproduction, and unmistakable metrological and fundamental-physics impact.",
+        "response": "This is a strong case for B013 and its compact Katori-Ye attribution. My qualification is that the final framing must distinguish the lattice-clock invention from the wider optical-clock and frequency-metrology enterprise; on that issue B004's core theoretical object is comparably well defined."
+      }
+    ],
+    "uncertainties": [
+      "Whether the foundational formulation of DMFT can be separated sufficiently cleanly from its later extensions and broader many-body lineage.",
+      "Whether a primarily theoretical framework should take precedence over more directly observable and technologically established alternatives."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

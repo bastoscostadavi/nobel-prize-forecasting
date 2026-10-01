@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B021",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "for foundational principles of quantum error correction and fault-tolerant quantum computation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B009",
+    "B029"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction established that quantum coherence can be protected and processed despite local errors, converting scalable quantum computation from an apparent physical impossibility into a sharply formulated scientific programme. Shor and Steane supplied seminal code constructions, while Kitaev introduced an exceptionally deep topological route to fault tolerance. The principles are rigorous, mature, and now provide the common physical framework against which experimental quantum hardware is tested.",
+    "case_against": "The achievement combines broad quantum error correction with the more specific topological approach, and many other contributors have essential claims; three names therefore inevitably compress a large intellectual history. Moreover, fully fault-tolerant quantum computation has not yet been demonstrated at useful scale, so the citation must reward the established physical principle rather than prospective technological performance.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig stresses that Shor, Steane, and Kitaev are individually foundational but that any three-person allocation omits many major contributors.",
+        "response": "I agree that attribution is necessarily selective. The three names are nevertheless defensible if the citation explicitly centers foundational principles: Shor and Steane represent seminal error-correcting codes, and Kitaev a qualitatively distinct, physically powerful fault-tolerant architecture. We should not imply that they alone created the entire field."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll places optical lattice clocks first because their magic-wavelength principle, experimental realization, reproducibility, and precision are exceptionally mature.",
+        "response": "I agree that B009 is an outstanding alternative with unusually clean attribution to Katori and Ye, and its cross-laboratory robustness is a major strength. I retain B021 narrowly because error correction addresses a more basic limitation imposed by decoherence; however, the incomplete realization of full fault tolerance is a real maturity qualification that makes B009 highly competitive."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson argues that the Aharonov-Bohm effect and Berry phase are deeply confirmed foundational advances, while warning that a joint citation must not blur their distinct origins.",
+        "response": "That qualification is exactly right. B029 remains a powerful alternative, but its two historically distinct discoveries require a more convincing unifying formulation than B021, whose linked code and fault-tolerance principles form a single physical programme."
+      }
+    ],
+    "uncertainties": [
+      "Whether a citation can delimit quantum error correction broadly from Kitaev's specifically topological fault-tolerance programme without overstating their unity.",
+      "Which further foundational contributors, if any, have claims comparable to the three proposed laureates."
+    ],
+    "conflict_note": "As director of WACQT and a Chalmers researcher in superconducting quantum circuits, I have a professional connection to the wider quantum-computing field; no direct connection to the proposed laureates is apparent from the supplied profile."
+  }
+}

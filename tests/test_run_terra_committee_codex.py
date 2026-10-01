@@ -40,7 +40,11 @@ class TerraCommitteeDispatcherTests(unittest.TestCase):
             for stage in dispatcher.STAGES
         }
         self.assertEqual(len(labels["opening"]), 2)
-        self.assertTrue(labels["opening"][0].endswith(f"/{member}/profile.md"))
+        self.assertTrue(
+            labels["opening"][0].endswith(
+                f"/{member}/profile_{dispatcher.PROFILE_VERSION}.md"
+            )
+        )
         self.assertTrue(labels["opening"][1].endswith("/longlist.json"))
         self.assertEqual(len(labels["round1"]), 10)
         self.assertTrue(all("/opening/" in item for item in labels["round1"][2:]))

@@ -11,13 +11,17 @@ export const meta = {
   ],
 }
 
-// args: { sims: ["results/physics/<list>/run-<n>/committee/claude/sim-XX", ...], model: "sonnet", effort: "high" }
+// args: { sims: ["results/physics/<list>/run-<n>/committee/claude/sim-XX", ...], model: "sonnet", effort: "high", profile_version: "v1" | "v2" }
 const ROOT = '/Users/davicosta/Desktop/projects/nobel-prize-forecasting'
 const MEMBERS = [
   'danielsson-ulf', 'eriksson-olle', 'johansson-goran', 'kroll-stefan',
   'lindroth-eva', 'mehlig-bernhard', 'olsson-eva', 'pearce-mark',
 ]
 const CHAIR = 'pearce-mark'
+const PROFILE_VERSION = args.profile_version || 'v2'
+if (!['v1', 'v2'].includes(PROFILE_VERSION)) {
+  throw new Error(`profile_version must be "v1" or "v2"; got ${JSON.stringify(PROFILE_VERSION)}`)
+}
 const PROMPT = {
   opening: 'prompts/physics_committee_claude_opening_v1.md',
   round1: 'prompts/physics_committee_claude_round1_v1.md',
@@ -50,8 +54,11 @@ const COORD_RESULT = {
 }
 
 const parse = sim => {
-  const m = sim.match(/results\/physics\/([^/]+)\/run-(\d+)\/committee\/claude\/(sim-\d+)$/)
-  return { list: m[1], run: Number(m[2]), simId: m[3] }
+  const m = sim.match(/results\/physics\/([^/]+)\/run-(\d+)\/committee\/(claude[^/]*)\/(sim-\d+)$/)
+  const arm = m[3]
+  const expected = arm === 'claude-profile-v2' ? 'v2' : 'v1'
+  if (expected !== PROFILE_VERSION) throw new Error(`${sim} is a profile ${expected} arm but profile_version is ${PROFILE_VERSION}`)
+  return { list: m[1], run: Number(m[2]), arm, simId: m[4] }
 }
 
 const memberPrompt = (stage, sim, member) => {
@@ -64,10 +71,11 @@ Read the protocol ${PROMPT[stage]} and follow it exactly. Assignment:
 - run: ${run}
 - simulation_id: ${simId}
 - member_id: ${member}
-- your profile: agent-data/physics/committee/${member}/profile.md
+- your profile: agent-data/physics/committee/${member}/profile_${PROFILE_VERSION}.md
 - your output file: ${sim}/${OUTPUT[stage](member)}
 - model metadata: copy committee_model and reasoning_effort from ${sim}/metadata.json
 
+Where the protocol uses the legacy generic name \`profile.md\`, it means the assigned \`profile_${PROFILE_VERSION}.md\` path above.
 Read only the files the protocol allows for this stage. Write only your own output file. Then run the self-check command given at the end of the protocol and fix your file until it prints OK.
 Return ok (true only if the check printed OK), runtime_model (the exact model ID you are running as), and a one-line note.`
 }
@@ -97,7 +105,7 @@ const stage = (sim, name, members) =>
 // ({opening, round1, chair, round2, final}: [member ids]) and whether shortlist / slate already validate.
 // args.keep_openings[sim] is the older form covering openings only.
 // state keys may be the full sim path or the short form <list>/run-<n>/sim-XX
-const short = sim => sim.replace('results/physics/', '').replace('/committee/claude/', '/')
+const short = sim => sim.replace('results/physics/', '').replace(/\/committee\/claude[^/]*\//, '/')
 const st = sim => ((args.state || {})[sim]) || ((args.state || {})[short(sim)]) || { opening: ((args.keep_openings || {})[sim]) || [] }
 const todo = (sim, name, members) => {
   const done = st(sim)[name] || []

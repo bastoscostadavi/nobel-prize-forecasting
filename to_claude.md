@@ -122,7 +122,9 @@ olsson-eva
 pearce-mark
 ```
 
-Their profiles are under `agent-data/physics/committee/<member-id>/profile.md`.
+Their profiles are under `agent-data/physics/committee/<member-id>/profile_v1.md`
+and `profile_v2.md`. Use one version consistently for all eight members and
+record the selected version in the simulation audit.
 
 ## Required workflow for each simulation
 

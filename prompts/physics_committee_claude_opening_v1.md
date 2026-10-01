@@ -86,12 +86,14 @@ only your own opening-ballot file. Do not modify the profile or committee packet
 ## Claude simulation boundaries
 
 `<SIM>` is your assigned simulation directory. Every `committee/...` path above
-means `<SIM>/...`. Committee profiles are at
-`agent-data/physics/committee/<member-id>/profile.md`.
+means `<SIM>/...`. Your profile is
+`agent-data/physics/committee/<member-id>/profile_<version>.md`, with the version
+given in your assignment (`profile_v1.md` for `committee/claude/`,
+`profile_v2.md` for `committee/claude-profile-v2/`).
 
 Do not read anything else under `results/physics/<list-id>/run-<n>/committee/`:
-not the GPT simulation files there, not `committee/gpt/`, and not any other
-`committee/claude/sim-XX` directory. Do not read other runs. Do not use the web.
+not the GPT simulation files there, not `committee/gpt*/`, and not any other
+Claude simulation directory (any other `committee/claude*/sim-XX`). Do not read other runs. Do not use the web.
 
 Add `"simulation_id": "<sim-XX>"` immediately after `"run"` in your JSON. Use
 the `committee_model` and `reasoning_effort` values from `<SIM>/metadata.json`

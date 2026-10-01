@@ -48,7 +48,12 @@ ROOT = Path(__file__).resolve().parent.parent
 LISTS = ("claude-opus-5-5", "gpt-6-sol")
 RUNS = range(1, 7)
 SIMS = [f"sim-{i:02d}" for i in range(1, 6)]
-MANIFEST = ROOT / "results" / "physics" / "claude_committee_progress.json"
+# committee/<arm>/sim-XX; the arm records which profile set the members used
+ARMS = {"claude": "v1", "claude-profile-v2": "v2"}
+MANIFESTS = {
+    "claude": ROOT / "results" / "physics" / "claude_committee_progress.json",
+    "claude-profile-v2": ROOT / "results" / "physics" / "claude_profile_v2_committee_progress.json",
+}
 
 
 def fail(message: str) -> None:
@@ -61,7 +66,7 @@ def encode(value: dict) -> str:
 
 def identity(sim: Path) -> tuple[Path, str, int, str]:
     sim = sim.resolve()
-    if sim.parent.name != "claude" or sim.parent.parent.name != "committee":
+    if sim.parent.name not in ARMS or sim.parent.parent.name != "committee":
         fail(f"not a Claude simulation directory: {sim}")
     run_dir = sim.parents[2]
     try:
@@ -118,9 +123,10 @@ def build_packet(sim: Path, model: str | None = None, effort: str | None = None)
     ]
     if shuffle(reversed_candidates) != (longlist, ballot_map):
         fail("packet generation is not deterministic under candidate reordering")
+    saved = load_json(sim / "metadata.json") if (sim / "metadata.json").exists() else {}
     if model is None:
-        saved = load_json(sim / "metadata.json")
         model, effort = saved["committee_model"], saved["reasoning_effort"]
+    arm = sim.resolve().parent.name
     metadata = {
         "schema_version": 1,
         "committee_provider": PROVIDER,
@@ -132,6 +138,8 @@ def build_packet(sim: Path, model: str | None = None, effort: str | None = None)
         "seed_label": label,
         "candidate_input": "../../../candidates.json",
         "candidate_input_sha256": hashlib.sha256((run_dir / "candidates.json").read_bytes()).hexdigest(),
+        **({"profile_version": ARMS[arm], "profiles": f"agent-data/physics/committee/<member-id>/profile_{ARMS[arm]}.md"}
+           if arm != "claude" or "profile_version" in saved else {}),
         "members": sorted(EXPECTED_MEMBERS),
         "chair": CHAIR,
         "prompts": PROMPTS,
@@ -540,14 +548,15 @@ def validate_sim(sim: Path) -> dict:
     return decision
 
 
-def progress() -> None:
+def progress(arm: str = "claude") -> None:
+    MANIFEST = MANIFESTS[arm]
     manifest = load_json(MANIFEST) if MANIFEST.exists() else {}
     simulations = manifest.get("simulations", {})
     for list_id in LISTS:
         for run in RUNS:
             for sim_id in SIMS:
                 key = f"{list_id}/run-{run}/{sim_id}"
-                sim = ROOT / "results" / "physics" / list_id / f"run-{run}" / "committee" / "claude" / sim_id
+                sim = ROOT / "results" / "physics" / list_id / f"run-{run}" / "committee" / arm / sim_id
                 entry = simulations.get(key, {"status": "pending", "commit": None})
                 if sim.exists() and (sim / "decision.json").exists():
                     try:
@@ -577,6 +586,8 @@ def progress() -> None:
     MANIFEST.write_text(encode({
         "schema_version": 1,
         "committee_provider": PROVIDER,
+        "arm": arm,
+        "profile_version": ARMS[arm],
         "totals": dict(sorted(counts.items())),
         "simulations": simulations,
     }), encoding="utf-8")
@@ -631,7 +642,8 @@ def main() -> None:
     p.add_argument("sims", nargs="+", type=Path)
     p = sub.add_parser("check-chair")
     p.add_argument("sim", type=Path)
-    sub.add_parser("progress")
+    p = sub.add_parser("progress")
+    p.add_argument("--arm", choices=sorted(ARMS), default="claude")
     args = parser.parse_args()
 
     if args.command == "prepare":
@@ -672,7 +684,7 @@ def main() -> None:
             decision = validate_sim(sim)
             print(f"OK: {sim}: complete; winner {decision['winner']['proposal_id']}")
     elif args.command == "progress":
-        progress()
+        progress(args.arm)
 
 
 if __name__ == "__main__":

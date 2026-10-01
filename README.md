@@ -7,7 +7,7 @@ Forecast the 2026 Nobel Prizes by **simulating the nominations and the committee
 The simulation mirrors the real process in two stages.
 
 1. **Nomination.** 100 nominator agents, each conditioned on a real physicist's `profile.md`, submit one nomination each. Nominations are merged into a candidate list.
-2. **Committee.** One agent per real committee member, each conditioned on that member's `profile.md`, reviews the complete merged longlist, deliberates and votes. The simulation treats the committee decision as the outcome and omits the later Physics Class and Academy ratification.
+2. **Committee.** One agent per real committee member, each conditioned on a versioned member profile (`profile_v1.md` or `profile_v2.md`), reviews the complete merged longlist, deliberates and votes. The simulation treats the committee decision as the outcome and omits the later Physics Class and Academy ratification.
 
 Profiles (`agent-data/PROFILE_TEMPLATE.md`, `agent-data/NOMINATOR_PROFILE_TEMPLATE.md`) describe expertise and taste but deliberately contain no nominations or predictions.
 
@@ -45,7 +45,7 @@ artifact. The complete protocol and schemas are documented in
 
 ```
 agent-data/<category>/
-  committee/<member-slug>/   one folder per committee member (profile.md)
+  committee/<member-slug>/   one folder per committee member (profile_v1.md, profile_v2.md)
   nominators/<list-id>/      one folder per nominator list, named after the model that drafted it
     nominators.csv           the 100 nominators
     list_note.md             how the list was drafted
@@ -72,6 +72,12 @@ Agents are run through a documented orchestration workflow, each given only the 
 The versioned Physics phase-2 methodology is in `docs/PHYSICS_PHASE2.md`.
 The arm allocation, output paths, exclusions, and comparison rules are in
 `docs/PHYSICS_EXPERIMENT_DESIGN.md`.
+
+Committee profile files are versioned in place. `profile_v1.md` preserves the
+profiles used by the completed experiments; `profile_v2.md` is the neutral,
+factual sensitivity version. The isolated OpenAI runner defaults to v2 and can
+select v1 with `PHYSICS_COMMITTEE_PROFILE_VERSION=v1`. The Claude workflow
+accepts `profile_version: "v1"` or `"v2"` and defaults to v2.
 
 ## Current Physics results
 

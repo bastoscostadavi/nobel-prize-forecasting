@@ -54,8 +54,9 @@ scripts/                     orchestration
 results/<category>/<list-id>/
   run-<n>/nominations/       raw nominations from one nomination run
   run-<n>/candidates.csv     merged candidate list for that run
-  run-<n>/committee/         committee transcript, ballots, winner
+  run-<n>/committee/<model>/ full committee simulations, transcripts and decisions
   summary.csv                win share per candidate across runs
+results/physics/oneshot/     global zero-context comparison predictions
 ```
 
 ## Pipeline
@@ -65,6 +66,9 @@ Agents are run through a documented orchestration workflow, each given only the 
 1. **Nominator list:** a model drafts 100 nominators matching the eligible nominator groups, countries and subfields (`scripts/generate_nominator_list.py`, or a subagent). Physics has lists drafted by Claude Opus 5.5 and GPT-6 Sol.
 2. **Nominator profiles:** each nominator gets a web-researched `profile.md` (checked alive and current affiliation; biography, research footprint, persona; no nominations or predictions).
 3. **Nomination:** 6 runs per nominator list × 100 nominator subagents (`scripts/nominations.workflow.js`). Each run's nominations are consolidated without frequency-based exclusion into `candidates.json` and `candidates.csv`.
-4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a support-based union shortlist, hold two written discussion rounds, and rank a fixed proposal slate by secret ballot. Candidate order is deterministically shuffled and nomination-frequency signals are hidden. Five votes decide; otherwise a fully recorded instant runoff is used.
+4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a support-based union shortlist, hold two written discussion rounds, and rank a fixed proposal slate by secret ballot. Candidate order is deterministically shuffled and nomination-frequency signals are hidden. Five votes decide; otherwise a fully recorded instant runoff is used. Physics runs five Claude and five GPT-5.6 Terra (`high`) committees for each of 12 nomination runs: 120 full committee simulations.
+5. **Zero-context baseline:** 60 independent GPT-6.1 Sol (`high`) requests each receive only the fixed question asking who will win the 2026 Nobel Prize in Physics. They do not see nomination runs, candidate lists, profiles, or committee outputs, and are analyzed separately from the committee simulations.
 
 The versioned Physics phase-2 methodology is in `docs/PHYSICS_PHASE2.md`.
+The arm allocation, output paths, exclusions, and comparison rules are in
+`docs/PHYSICS_EXPERIMENT_DESIGN.md`.

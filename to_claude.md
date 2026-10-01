@@ -10,12 +10,15 @@ The final Physics experiment has **12 nomination runs**:
 - `results/physics/claude-opus-5-5/run-1` through `run-6`
 - `results/physics/gpt-6-sol/run-1` through `run-6`
 
-Each nomination run must receive **10 independent committee simulations**:
+Each nomination run must receive **10 independent full committee simulations**:
 
-- 5 committee simulations performed by GPT
+- 5 committee simulations performed by GPT-5.6 Terra at high reasoning
 - 5 committee simulations performed by Claude
 
-This produces `12 × 10 = 120` committee simulations: 60 GPT and 60 Claude.
+This produces `12 × 10 = 120` committee simulations: 60 GPT-5.6 Terra and 60
+Claude. A separate global baseline contains 60 zero-context one-shot GPT-6.1
+Sol predictions, for 180 total outputs. The baseline predictions are not
+committee simulations and are not paired to nomination runs.
 Applying both committee models to every nomination run is essential. Do not
 assign one nominator list to GPT and the other to Claude, because that would
 confound the committee model with the nomination-list source.
@@ -32,10 +35,10 @@ results/physics/<list-id>/run-<n>/committee/claude/sim-04/
 results/physics/<list-id>/run-<n>/committee/claude/sim-05/
 ```
 
-Claude must not create or edit anything under `committee/gpt/`. GPT owns those
-paths. The existing one-off committee simulations for runs 1–3 belong to GPT
-and will be migrated by GPT; do not move, rename, rewrite, or use their
-substantive outputs.
+Claude must not create or edit anything under `committee/gpt-5.6-terra/` or
+`results/physics/oneshot/gpt-6.1-sol/`. GPT owns those paths. The existing flat
+GPT-6.1 Sol committee simulations are legacy/pilot records outside the primary
+arms; do not move, rename, rewrite, relabel, or use their substantive outputs.
 
 ## Current readiness and safe starting point
 
@@ -95,7 +98,8 @@ Each `sim-XX` is an independent committee simulation.
   deterministic candidate presentation order.
 - Do not read another simulation's openings, discussions, ballots, summaries,
   slate, or decision.
-- Do not read GPT committee outputs, including the existing simulations.
+- Do not read GPT committee outputs, including the existing pilot simulations.
+- Do not read or create GPT-6.1 Sol one-shot baseline outputs.
 - Do not use nomination counts, source candidate IDs, or nominator identities in
   the blinded member-facing longlist.
 - Do not use other nomination runs as evidence inside a simulation.
@@ -301,11 +305,13 @@ schema-invalid simulation.
 
 ## Repository and commit boundaries
 
-- Preserve existing raw nominations, candidate files, GPT simulations, prompts,
-  scripts, and user changes.
+- Preserve existing raw nominations, candidate files, GPT simulations, one-shot
+  outputs, prompts, scripts, and user changes.
 - Do not delete or rewrite the existing flat `committee/` records. GPT will
-  migrate its own records.
+  preserve them as legacy/pilot records outside the primary arms.
 - Write result artifacts only under `committee/claude/sim-01` through `sim-05`.
+- Never create or edit `committee/gpt-5.6-terra/` or
+  `results/physics/oneshot/gpt-6.1-sol/`.
 - If Claude needs helper code or Claude-specific prompt copies, use clearly
   Claude-scoped new files to minimize merge conflicts.
 - Never stage unrelated changes. Inspect `git status --short` before committing.

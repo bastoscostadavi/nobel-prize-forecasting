@@ -2,31 +2,32 @@
 
 ## Scope
 
-Phase 2 starts from the nomination JSON files produced in phase 1. The initial
-batch contains six complete 100-nomination runs:
+Phase 2 starts from the nomination JSON files produced in phase 1. The complete
+design contains 12 100-nomination runs:
 
-- `claude-opus-5-5`, runs 1-3
-- `gpt-6-sol`, runs 1-3
+- `claude-opus-5-5`, runs 1-6
+- `gpt-6-sol`, runs 1-6
 
-Both run-4 directories are retained as incomplete inputs and are excluded until
-they contain 100 valid nominations. Mixing partial and complete runs would make
-the downstream outcome frequencies incomparable.
+No run may enter phase 2 until its canonical candidate consolidation passes the
+validator. Mixing partial and complete runs would make downstream outcome
+frequencies incomparable.
 
 The list identifiers describe the model that originally proposed the nominator
 sample. They do not describe the model used for consolidation or committee
-simulation.
+simulation. The complete arm allocation and analysis rules are specified in
+`docs/PHYSICS_EXPERIMENT_DESIGN.md`.
 
 ## Model and execution settings
 
-Candidate consolidation uses `gpt-6.1-sol` with `high` reasoning effort through
-Codex multi-agent orchestration. This explicit model identifier is recorded in
-each `candidates.json` file. The choice balances long-context synthesis quality
-and cost for a repeated, reviewable workflow. OpenAI's model-selection guidance
-describes GPT-6.1 Sol as appropriate for complex technical work and coordinated
-deliverables:
+Candidate consolidation records the actual model and reasoning effort in each
+`candidates.json` file. Existing validated consolidations used `gpt-6.1-sol`
+with `high` reasoning effort through Codex multi-agent orchestration. The
+consolidation model is not the committee model and does not assign a run to an
+experimental arm. Relevant official model documentation is:
 
 - https://developers.openai.com/api/docs/guides/model-selection
 - https://developers.openai.com/api/docs/models/gpt-6.1-sol
+- https://developers.openai.com/api/docs/models/gpt-5.6-terra
 
 The consolidation agents receive no web access. Their only evidence is the 100
 nomination JSON files in the assigned run plus the versioned prompt in
@@ -83,7 +84,8 @@ The simplification is documented rather than presented as the literal legal
 procedure.
 
 For each run, all eight 2026 committee personas receive the consolidated
-longlist. The implemented committee protocol is:
+longlist. Five Claude committees and five GPT-5.6 Terra committees independently
+apply the same protocol to every run. The implemented committee protocol is:
 
 1. private opening rankings;
 2. a union shortlist based on committee support, not nomination count alone;
@@ -94,24 +96,31 @@ longlist. The implemented committee protocol is:
    to three laureates, two achievements sharing the prize, or no award.
 
 All committee prompts, intermediate statements, summaries, ballots, and final
-decisions will be saved under each run's `committee/` directory.
+decisions are saved under one of these simulation roots:
+
+```text
+committee/claude/sim-01..05/
+committee/gpt-5.6-terra/sim-01..05/
+```
+
+Paths below are relative to one simulation root unless explicitly described as
+legacy. The separate GPT-6.1 Sol one-shot baseline has no committee stages and
+is documented in `docs/PHYSICS_EXPERIMENT_DESIGN.md`.
 
 ## Blinded committee opening packets
 
 `scripts/prepare_committee_longlist.py` prepares packets only from complete,
 validated runs with a matching consolidation CSV. It does not modify nomination
-files or the consolidation output triplet. For the initial six-run batch:
+files or the consolidation output triplet. For a primary-arm run, orchestration
+must target the selected model and simulation root. A legacy script invocation
+that can only write directly to the flat run-level `committee/` directory must
+not be used for a primary-arm simulation until it accepts that output root.
 
-```bash
-python3 scripts/prepare_committee_longlist.py \
-  results/physics/claude-opus-5-5/run-{1,2,3} \
-  results/physics/gpt-6-sol/run-{1,2,3}
-python3 scripts/prepare_committee_longlist.py --check \
-  results/physics/claude-opus-5-5/run-{1,2,3} \
-  results/physics/gpt-6-sol/run-{1,2,3}
-```
+Where the v1 protocol or tooling below names `committee/<artifact>`, interpret
+`committee/` as the selected simulation root, for example
+`committee/gpt-5.6-terra/sim-01/`.
 
-Each run receives two files:
+Each simulation receives two files:
 
 - `committee/longlist.json`: the member-facing packet, with only
   `schema_version: 1` and a `candidates` array. Every entry contains exactly
@@ -149,8 +158,8 @@ dispatched longlist or crosswalk.
 
 The versioned opening protocol is
 `prompts/physics_committee_opening_v1.md`. Dispatch each member separately using
-`gpt-6.1-sol` and `high` reasoning effort, supplying their member ID, own profile,
-this run's `longlist.json`, and a private
+the arm's actual committee model and reasoning setting, supplying their member
+ID, own profile, this simulation's `longlist.json`, and a private
 `committee/opening/<member-id>.json` output path. Only the assigned profile and
 longlist are evidence for that opening assessment; other members' work and
 consolidation provenance are excluded. The member ranks exactly eight distinct
@@ -211,7 +220,8 @@ simulated ballots count. After the decision, winning blinded IDs are decoded to
 source candidate IDs for auditability.
 
 `scripts/summarize_physics_decisions.py` produces
-`results/physics/decision_summary.csv`. In the initial six complete runs, every
-committee selected optical lattice clocks with Hidetoshi Katori and Jun Ye.
-This is a six-run simulation result, not a calibrated 100% real-world
-probability; the two incomplete run-4 inputs and future runs remain excluded.
+`results/physics/decision_summary.csv`. Summaries must report Claude committees,
+GPT-5.6 Terra committees, and the global GPT-6.1 Sol one-shot baseline as
+separate arms. Six earlier flat GPT-6.1 Sol committee decisions are retained as
+legacy/pilot data and excluded from the primary arms; they must never be
+relabeled as Terra results.

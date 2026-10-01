@@ -1,0 +1,95 @@
+# Physics experiment design
+
+## Experimental units
+
+Physics uses 12 nomination runs: six from each independently drafted nominator
+list.
+
+- `results/physics/claude-opus-5-5/run-1` through `run-6`
+- `results/physics/gpt-6-sol/run-1` through `run-6`
+
+The nominator-list directory identifies the source of the nominator sample. It
+does not identify the model that later simulates the committee.
+
+## Primary committee arms
+
+Every nomination run is evaluated by both committee models. Each model performs
+five independent full committee simulations per run.
+
+| Arm | Model | Reasoning | Simulations per nomination run | Total |
+|---|---|---:|---:|---:|
+| Claude committee | actual Claude runtime model, recorded per artifact | actual runtime setting | 5 | 60 |
+| OpenAI committee | `gpt-5.6-terra` | `high` | 5 | 60 |
+
+This paired allocation yields 120 full committee simulations. It prevents
+nominator-list source from being confounded with committee model.
+
+The required output roots are:
+
+```text
+results/physics/<list-id>/run-<n>/committee/claude/sim-01..05/
+results/physics/<list-id>/run-<n>/committee/gpt-5.6-terra/sim-01..05/
+```
+
+Each full simulation must retain the complete discussion record described in
+`docs/PHYSICS_PHASE2.md`: blinded longlist and crosswalk, eight private opening
+assessments, shortlist, eight round-1 statements, chair synthesis, eight
+round-2 statements, frozen proposal slate, eight private final ballots, tally,
+decision, and runtime metadata.
+
+## Global zero-context baseline
+
+A separate comparison arm consists of 60 independent one-shot requests to
+`gpt-6.1-sol` at `high` reasoning effort. This arm is global rather than paired
+to nomination runs. The complete user content of every request is the same
+fixed question: `Who do you predict will win the 2026 Nobel Prize in Physics?`
+
+The one-shot model must not receive or inspect:
+
+- a candidate list or nomination file;
+- a nominator-list ID or nomination-run ID;
+- committee-member profiles;
+- committee prompts, discussions, ballots, or decisions; or
+- another one-shot prediction.
+
+Outputs are stored independently as:
+
+```text
+results/physics/oneshot/gpt-6.1-sol/pred-001/
+...
+results/physics/oneshot/gpt-6.1-sol/pred-060/
+```
+
+Each prediction must record the exact fixed prompt, exact runtime model,
+reasoning effort, prediction ID, answer, and concise rationale. The baseline
+has no simulated committee discussion and must never be counted as a committee
+simulation.
+
+## Counts and comparisons
+
+The design produces 180 outputs in total:
+
+- 60 full Claude committee simulations;
+- 60 full GPT-5.6 Terra committee simulations; and
+- 60 GPT-6.1 Sol zero-context one-shot predictions.
+
+The 120 committee simulations and 60 one-shot predictions are distinct
+experimental arms. Primary committee comparisons should preserve the paired
+structure by nomination run. The Sol baseline is analyzed only as a global
+comparison distribution; it has no valid run-level pairing.
+
+## Legacy pilot outputs
+
+Six earlier flat committee simulations under the run-level `committee/`
+directories used GPT-6.1 Sol. Preserve them as legacy/pilot records. They are
+excluded from all three primary arms, must not be relabeled as GPT-5.6 Terra,
+and must not be used as evidence by a new simulation.
+
+## Reproducibility metadata
+
+Every generated artifact must report the actual model identifier and actual
+reasoning setting exposed by its runtime. Never infer, substitute, or relabel a
+model. Also record the prompt version, output ID, and input identity. For a
+committee simulation, the input identity is its nomination-list ID and run. For
+the global one-shot baseline, the input identity is the fixed prompt version
+and prediction ID only.

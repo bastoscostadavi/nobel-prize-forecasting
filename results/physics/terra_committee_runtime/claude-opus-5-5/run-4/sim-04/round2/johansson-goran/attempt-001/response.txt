@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Peter W. Shor",
+          "Alexei Kitaev",
+          "Andrew M. Steane"
+        ],
+        "citation": "for foundational quantum-error-correction codes and fault-tolerance principles"
+      }
+    ]
+  },
+  "alternatives": [
+    "B034",
+    "B020"
+  ],
+  "statement": {
+    "case_for": "My configuration is unchanged. B003 established the decisive physical insight that quantum coherence can be protected by encoding information collectively and correcting noise, rather than relying solely on ever-better isolated components. Shor and Steane made the code constructions concrete, while Kitaev supplied distinct foundational ideas on topological coding and fault tolerance. The result is now a durable, experimentally testable framework across hardware platforms. The citation has been narrowed to the demonstrated codes and fault-tolerance principles, avoiding any claim that large-scale useful quantum computation has already been realized.",
+    "case_against": "The absence of transformative-scale fault-tolerant operation remains a real maturity qualification, and the historical boundary among codes, thresholds, topological approaches, and later implementations needs careful review. The proposed three names are compelling representatives of distinct foundational contributions, but the supplied record alone cannot settle whether they exhaust the relevant historical credit.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argues that optical lattice clocks provide a complete, independently replicated path from Katori's magic-wavelength concept to Ye's mature precision instrument, whereas corrected quantum computation has not reached full practical scale.",
+        "response": "I agree that B034 is exceptionally mature, compactly attributed, and does not require future applications to establish its merit. But B003 need not be judged by the eventual scale or commercial utility of a quantum computer. Its prize-worthy result is the established physical principle that structured encoding and correction can overcome decoherence; that principle is already experimentally accessible and has reorganized quantum-device physics."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth regards the unresolved demonstration of full fault tolerance as sufficient reason to prefer the fully established and reproducible achievement of optical lattice clocks.",
+        "response": "Her caution properly shapes the citation. I would not award B003 for successful large-scale fault-tolerant computation, which remains unfinished. Yet the relevant comparison is between an experimentally supported foundational mechanism and a completed metrological architecture, not between a speculative technology and a working clock. The former has a broader and already secure physical significance."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson similarly supports B003 while urging a citation limited to foundational codes and fault-tolerance principles rather than practical performance at transformative scale.",
+        "response": "I endorse that delimitation. It answers the chair's maturity question by separating demonstrated quantum-error-correction physics from still-unrealized large-scale computation. It also provides a disciplined basis for retaining Kitaev, Steane, and Shor: their distinct foundational contributions, rather than later platform-specific implementations, are the proposed subject of recognition."
+      }
+    ],
+    "uncertainties": [
+      "Whether historical expert review confirms that Kitaev, Steane, and Shor are the most complete three-person representation of foundational quantum error correction and fault tolerance.",
+      "How unambiguously present experiments demonstrate fault-tolerant behavior, as distinct from error suppression or component-level error correction.",
+      "How narrowly the final citation can define the foundational achievement without implying completed large-scale quantum computation."
+    ],
+    "conflict_note": "I direct WACQT and work in superconducting-circuit quantum technology, giving me field proximity to quantum-information research. The supplied evidence identifies no direct institutional, collaborative, or personal connection to the three proposed laureates; no specific conflict is apparent, but this proximity should remain disclosed."
+  }
+}

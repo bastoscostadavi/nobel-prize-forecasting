@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-04",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "for foundational quantum-error-correction codes and fault-tolerant quantum information"
+      }
+    ]
+  },
+  "alternatives": [
+    "B034",
+    "B013"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction is an unusually clear physical answer to decoherence: it showed that quantum information can be protected through encoded collective degrees of freedom rather than merely by improving isolated components. Shor and Steane supplied seminal code constructions, while Kitaev provided foundational topological and fault-tolerance ideas. The framework is now tested across hardware platforms and provides the quantitative organizing principle for scalable quantum devices, even though their final technological scale remains open.",
+    "case_against": "The strongest reservation is that complete fault-tolerant quantum computation has not yet been achieved at transformative scale. We should ensure that the citation recognizes the established foundational physics of error correction, rather than implying that the eventual practical performance of large quantum computers has already been demonstrated.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes that optical lattice clocks combine clear attribution to Katori and Ye with extraordinary independently reproduced performance and direct scientific applications.",
+        "response": "I agree that B034 is a particularly mature and clean alternative, and its metrological robustness deserves serious consideration. I still place B003 ahead because error correction resolves a more fundamental obstacle in quantum physics and has already become an experimentally testable framework, not merely a prospective technology."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth notes that quantum error correction is increasingly tested in hardware but that threshold performance and the ultimate practical scale remain unsettled.",
+        "response": "That qualification is essential. It argues for a citation confined to the foundational codes and fault-tolerance principles; it does not, in my view, weaken the evidence that those principles have transformed how decoherence is understood and controlled."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig argues that dynamical mean-field theory is a mature, widely predictive framework for strongly correlated materials, while recognizing distributed credit between formal foundations and later development.",
+        "response": "I share the assessment of DMFT's exceptional scientific value and its close connection to spectroscopy and real materials. Its status as an approximation and the difficulty of isolating a single discovery from a broad methodological development make B013 less sharply prize-defining than B003 at present."
+      }
+    ],
+    "uncertainties": [
+      "Whether present experimental demonstrations have crossed a sufficiently unambiguous fault-tolerance threshold for a prize centered on this field.",
+      "Whether the historical scope of Kitaev's contribution should be framed specifically as topological coding and fault-tolerance foundations alongside the Shor and Steane codes."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

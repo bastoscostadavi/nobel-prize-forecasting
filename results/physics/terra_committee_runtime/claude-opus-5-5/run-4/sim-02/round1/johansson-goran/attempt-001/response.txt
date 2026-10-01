@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Immanuel Bloch",
+          "Markus Greiner",
+          "Peter Zoller"
+        ],
+        "citation": "for establishing optical-lattice quantum simulators as controllable laboratories for quantum many-body physics"
+      }
+    ]
+  },
+  "alternatives": [
+    "B045",
+    "B011"
+  ],
+  "statement": {
+    "case_for": "B001 recognizes a mature transformation in experimental many-body physics: optical lattices permit the preparation, control, and microscopic interrogation of model Hamiltonians with a cleanliness unavailable in ordinary materials. The achievement has produced a durable dialogue between theory and experiment across many laboratories. Bloch and Greiner represent defining experimental realizations, while Zoller represents essential theoretical direction toward quantum simulation. It is a prize for a demonstrated new regime of physics, rather than for a prospective quantum-computing application.",
+    "case_against": "The most serious reservation is attribution. The intellectual and experimental lineage is broad, and Juan Ignacio Cirac has a strong claim to foundational theoretical credit. The citation must be kept specifically to optical-lattice many-body simulation, rather than expanded into all cold-atom quantum information, if this three-person selection is to remain historically defensible.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argues that B045 is a mature, widely reproduced advance in precision measurement, with Katori's magic-wavelength concept and Ye's experimental development providing a particularly clear attribution.",
+        "response": "I agree that B045 has exemplary maturity and an unusually clean two-person account. My qualification is that its strongest case is still precision metrology and its applications, whereas B001 more directly established a new controllable physical setting for investigating interacting quantum matter. B045 remains my leading alternative."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson emphasizes that B011 introduced a fundamental classification of electronic matter, pairing the Kane-Mele quantum-spin-Hall framework with Molenkamp's landmark experimental realization.",
+        "response": "That is a compelling conceptual and experimental combination, and the two-decade reproducibility is important. I would nevertheless require sharper delimitation from the wider topological-matter story before preferring it; B001 has a more coherent platform-level citation and a more direct alignment between its theoretical targets and repeatedly controllable experiments."
+      }
+    ],
+    "uncertainties": [
+      "Whether the historical record supports Zoller rather than Cirac as the third laureate for the narrowly framed optical-lattice achievement.",
+      "How sharply optical-lattice quantum simulation can be separated from trapped-ion computation and broader atomic quantum-information proposals."
+    ],
+    "conflict_note": "No specific connection to the shortlisted credited names is apparent from the supplied profile."
+  }
+}

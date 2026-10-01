@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Peter W. Shor",
+          "Alexei Kitaev",
+          "Andrew M. Steane"
+        ],
+        "citation": "for foundational quantum error-correction codes and fault-tolerant quantum computation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B020",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "B003 remains my preferred configuration. Error correction resolved a fundamental physical objection to scalable quantum information processing: decoherence need not make coherent computation impossible. Shor and Steane supplied decisive code constructions, while Kitaev provided foundational topological and fault-tolerance ideas. The principles have moved well beyond proposal, guiding reproducible experiments on several hardware platforms. Its central scientific claim is already secure even though useful large-scale machines are not.",
+    "case_against": "The strongest reservation is that full fault-tolerant quantum computation at transformative scale has not yet been achieved, so a prize must recognize the foundational physical framework rather than imply that the technological objective has been realized. The historical boundary between codes, fault-tolerance thresholds, and later hardware implementations also requires careful citation drafting.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll judges B003 essential and experimentally central, but notes that practical large-scale quantum advantage from corrected hardware is not yet established.",
+        "response": "I agree with that qualification. It argues against framing the award around future computation, not against the discovery itself: the correction framework is a durable and experimentally testable result about quantum physics under noise."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth places B034 first because optical lattice clocks combine clean atomic control, exceptionally clear attribution to Katori and Ye, and mature independent performance.",
+        "response": "B034 is an exceptionally strong alternative, particularly on reproducibility and compact attribution. I nevertheless retain B003 because it established a more general conceptual route by which quantum coherence can be protected; its scientific importance does not depend on the eventual metrological or commercial outcome of a particular platform."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig emphasizes that B003 is increasingly demonstrated in hardware but that the eventual architecture and scale of fault-tolerant computation remain unsettled.",
+        "response": "That is a fair distinction. Architectural uncertainty is expected for a general principle; the key question is whether the correction mechanism itself is sound and robust, and the accumulated multi-platform evidence supports that conclusion."
+      }
+    ],
+    "uncertainties": [
+      "Whether the proposed three names fully capture the historically distinct development of quantum error correction and fault tolerance.",
+      "How best to delimit the citation from ongoing hardware-specific demonstrations."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

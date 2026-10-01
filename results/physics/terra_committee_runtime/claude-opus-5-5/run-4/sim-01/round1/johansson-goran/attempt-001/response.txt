@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B027",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "for establishing circuit quantum electrodynamics with superconducting circuits"
+      }
+    ]
+  },
+  "alternatives": [
+    "B014",
+    "B013"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made single artificial atoms and microwave fields coherently controllable in a reproducible chip-scale setting. Blais supplied the defining dispersive-circuit framework, while Wallraff and Schoelkopf provided the decisive experimental realization. The achievement opened a genuinely new regime of quantum optics, whose fundamental phenomena have since been reproduced broadly; its significance does not depend on eventual commercial quantum computers.",
+    "case_against": "The field has many indispensable contributors, and a citation must sharply distinguish the foundational light-matter platform from later superconducting-processor engineering. Its closeness to an active technological programme also calls for particular care in judging enduring scientific, rather than anticipated, impact.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll regards circuit QED as a reproducible, powerful platform but questions whether its ultimate standing depends on quantum computing delivering sustained impact.",
+        "response": "I share the need to avoid rewarding technological promise. However, controllable strong light-matter coupling and quantum-optical phenomena in superconducting circuits are already a durable experimental discovery independent of whether a universal processor is ultimately built."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson emphasizes that optical lattice clocks combine a clear magic-wavelength concept with independent, exceptionally precise realization by Katori and Ye.",
+        "response": "This is a very strong alternative: its maturity and two-person attribution are unusually clean. I retain circuit QED narrowly because it established a new physical platform, but B014 may be preferable if the committee judges its metrological discovery more sharply delimited."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig notes that quantum error correction is foundational but that large-scale fault-tolerant computation remains unrealized and attribution spans a broad literature.",
+        "response": "I agree. Error correction is conceptually profound, but the absence of a persuasive large-scale fault-tolerant realization and the diffuse attribution make it less ready than circuit QED for this award."
+      }
+    ],
+    "uncertainties": [
+      "Whether the historical boundary of foundational circuit QED can be stated without omitting comparably essential contributors.",
+      "Whether the prize should favor the more mature and more cleanly bounded optical-lattice-clock achievement."
+    ],
+    "conflict_note": "My WACQT directorship and long-standing work with Chalmers superconducting-circuit groups create close field and institutional proximity to B027, although the supplied profile identifies no direct collaboration with its named laureates; this may require recusal review."
+  }
+}

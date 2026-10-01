@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B035",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realization of optical lattice clocks, opening a new regime of precision in the measurement of time"
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are a new way of measuring time. Katori's magic-wavelength proposal removes the light shift while Lamb-Dicke confinement removes Doppler and recoil, and this allows a very large number of atoms to be interrogated at once. Ye's group then took the concept to fractional uncertainties near 1e-18 and used the many-atom ensemble to study many-body effects in the clock. The result is not a one-off record: NIST/JILA, RIKEN, PTB, SYRTE/LNE-SYRTE, NPL and others operate such clocks, intercompare them over optical fibre, and agree at the 1e-18 level. It has opened measurements that were not possible before, namely millimetre-scale gravitational redshift, relativistic geodesy, searches for variation of fundamental constants and dark-matter candidates, and it is the basis for the planned redefinition of the second. This is a clear case of progress in physics being set by how precisely we can measure, with an original idea, careful experimental demonstration and a broad, still growing user community. A two-person prize also fits the attribution cleanly: concept and first demonstration (Katori) and the accuracy and stability frontier (Ye).",
+    "case_against": "The strongest reservation is novelty relative to earlier prizes. The 2005 prize (Hall and Haensch) gave us the frequency comb that makes optical clocks countable, and the 2012 prize (Wineland, with Haroche) recognised trapped-ion control, including single-ion optical clocks. A reviewer may argue that the lattice clock is an excellent continuation rather than a distinct discovery. There is also an attribution risk: Ye's records depended on laser stabilization, comb work and a large JILA team, and groups such as SYRTE (Lemonde) and Takamoto/Katori's own team contributed to the early demonstrations, so the credited pair is a judgment. Finally, the redefinition of the second has not yet happened, so some would call the practical payoff still pending, although I do not think a prize needs it.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B035 first as clean atomic physics with theory and experiment in agreement at the highest precision, sees Katori and Ye as a compact configuration, and flags the overlap with the 2005 comb and 2012 ion-control prizes as the question the committee must answer.",
+        "response": "I agree on the configuration and on the maturity, and I share the concern about overlap. Where I would push a little further is on what distinguishes the lattice clock from the ion clocks. The key is not accuracy alone, which single ions also deliver, but that the lattice clock reaches that accuracy while interrogating about a million atoms, which gives stability that single ions cannot match in practical averaging times. This is a different physical route, and it is what makes tests like the millimetre-scale redshift measurement possible. I would want the citation to say that, rather than imply a simple continuation of 2012."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, who ranks IceCube first and B035 second, values instrument-driven discovery and notes that Hall and Haensch already honoured the comb and that other groups (Paris, NIST, PTB) have lattice clocks.",
+        "response": "I accept that the instrument-versus-discovery distinction is where we really differ, and I think we agree more than the rankings show, since both of us weigh a new observational capability heavily. My reservation about IceCube is not its merit, which I think is high, but that I cannot judge from the supplied names how to split credit between the detector builders and a collaboration of hundreds, whereas for the clock the experimental history is short and traceable to two groups. On the other groups, I would say that SYRTE and PTB mostly confirmed and refined after the Katori proposal and the Ye accuracy demonstrations, and I do not see them as displacing either name, though I would like the record to be checked."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first, argues that it is distinct from the 2025 prize because it supplies the strong-coupling and readout architecture, and acknowledges his closeness to that community.",
+        "response": "I take the point that circuit QED is distinct in content from macroscopic tunnelling, and I rank it as a landmark of dispersive readout. My difficulty is practical: the 2025 prize is one year old, the credited trio leaves out Girvin, who is on the founding paper, and whether this is a physics discovery or the engineering of a platform that has not yet delivered fault tolerance is still arguable. I would keep it as a strong future candidate rather than the right choice now. I also note that you flagged your own ties, which I think is the right approach."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks topological insulators first as a new classification of states with a clean theory-plus-experiment trio, and accepts that the BHZ prediction for HgTe sits outside the credited names.",
+        "response": "I do not dispute the scientific importance of the quantum spin Hall effect, and I recognise it as the strongest alternative. My reservation is the attribution one that you raise yourself: the HgTe proposal that made Molenkamp's experiment possible came from Bernevig, Hughes and Zhang, who are not in the trio, and Zhang is deceased, so a clean three-person split is not a given. The lattice-clock configuration does not have that problem. If the committee decides the topological case can be settled with a trio that credits the theory fairly, I would support it as an alternative, and I would ask the condensed-matter members to say how decisive the BHZ proposal was."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks aberration-corrected electron optics first as a tool-driven invention, notes that it is mature and arguably overdue, and flags Krivanek as outside the credited names.",
+        "response": "We agree that a methods prize is legitimate, and I ranked it fourth for that reason. My concern is the same as yours: Krivanek's STEM corrector work is a strong claim that breaks the three-person set, and the committee may worry that the 1986 electron microscope prize makes this look like a repeat. I would also want to hear from you whether the impact has been mainly in materials and chemistry rather than in physics itself, because that affects how I weigh it against a clock that is new physics measurement in its own right."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards the lattice clock as distinct from the 2005 comb and 2012 ion-control prizes, which depends on how heavily the many-atom stability and Lamb-Dicke lattice concept is weighted.",
+      "Whether contributions from SYRTE, PTB and the Tokyo/RIKEN group beyond Katori and Ye (for example early Sr and Yb demonstrations) change the fair attribution; I have not verified the priority dates myself.",
+      "Whether waiting for the formal redefinition of the second would make the prize more or less natural; I do not think it is required."
+    ],
+    "conflict_note": "I have a mild personal connection to the precision-measurement community: during my PhD I spent a year in John Hall's laboratory in Boulder, and Jun Ye is a JILA colleague in Hall's circle, so I have a loose professional link to that environment, though no collaboration or direct supervision with Ye or Katori that I know of. I would flag this for the committee to judge but do not think it requires recusal. I am also in the WACQT leadership, which overlaps institutionally with Göran Johansson's Chalmers, and in a company (Deep Light Vision); neither bears on the lattice-clock candidate."
+  }
+}

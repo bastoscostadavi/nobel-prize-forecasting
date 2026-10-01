@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B013",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and realization of optical lattice clocks, in which magic-wavelength trapping of many neutral atoms brought the measurement of time to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": ["B001", "B046"],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged from round 1: a single prize part for the optical lattice clock (B013), credited to Hidetoshi Katori and Jun Ye. Having read the complete exchange, I find the case rests on one mechanism and one measured result, not on counting support. At the magic wavelength the lattice light shift cancels in the clock transition while thousands of atoms are held in the Lamb-Dicke regime, and that is what lets the clock average down quickly and reach systematic uncertainties near 10^-18. The result has been reproduced and compared across independent laboratories. As a theorist who works with experimentalists, I value that the shifts are understood in detail and that the claim is verified by clocks agreeing with each other, not by a single group's report. It also opens physics: gravitational redshift resolved over millimetres, bounds on drifting constants, dark-matter searches. I would write the citation around the lattice concept and its realization, so that it reads as a distinct achievement and does not read as a continuation of the frequency-comb or ion-control prizes. I do not require a second prize part. Adding one would need a candidate with a clean attribution inside the one-person budget that remains, and none of the shortlisted alternatives offers that.",
+    "case_against": "I must correct a statement in my own round-1 file. I wrote that Ye already shares the 2005 prize; Kroll, Mehlig and Danielsson's exchange rightly pointed out that the 2005 prize went to Glauber, Hall and Hänsch and that Ye was Hall's collaborator, not a laureate. That removes the objection of honouring a laureate twice, and I withdraw it. The remaining objection is the real one: whether lattice clocks are a distinct achievement or the next step on a line already recognised by the 1997 laser-cooling, 2005 comb and 2012 ion-control prizes. I think they are distinct, because many-atom interrogation with a cancelled light shift is neither a ruler nor single-ion control, but a sceptical colleague can reasonably disagree. Second, Lemonde, Ludlow, Oates, Takamoto, Derevianko, Bloom and the SYRTE, PTB and NIST groups made real contributions that a two-name credit leaves out. I cannot verify early strontium and ytterbium priority dates from the supplied material, and Lindroth's and Kroll's recollections are not a substitute for a check. Third, the redefinition of the second has not happened, so some of the impact is still ahead.",
+    "responses": [
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson asks whether Katori and Ye are credited for the same achievement or for separable contributions, and insists the prize reward the original work and not a second group that did it much better.",
+        "response": "I think this is the central question for the citation and my answer is that they are two necessary steps of one achievement, not a first discoverer and a later refiner. Katori proposed the magic-wavelength lattice and demonstrated the first strontium lattice clock. Ye's group did not merely do it better; it showed that many-atom interrogation could reach the accuracy and stability regime, with the many-body and density-shift control that made 10^-18 credible. The word 'realization' in the citation covers that. I would accept wording that names the lattice concept first, as my citation does, and I would not accept wording built around an accuracy record, because that is the version that reads as a lifetime award to Ye. I agree with your reservation about this being decided by the same standard we apply to every other candidate, which is that we have found the people who did the original work."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth states that Katori's proposal and early demonstrations and Ye's record realization are the two decisive steps, and that the contributions of Lemonde, Ludlow and others are real but secondary.",
+        "response": "I accept the two-step account as the most defensible reading, and I am glad you stated it plainly. I would qualify 'secondary' the way Kroll does: an accuracy claim at 10^-18 only counts once independent clocks agree, and the SYRTE, PTB and NIST comparisons supplied that. That argues for a citation worded around invention and realization, and not for adding names, since the three-person budget leaves room for at most one more person and I cannot tell the committee who. If you can check the early priority of the strontium lattice clock against the record, I would like that done before the vote. You also know the atomic-structure side better than I do, and I take your own warning about proximity to the field seriously, which is a reason for the rest of us to test the conceptual-depth claim rather than inherit it."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig argues that the prize must rest on what is new in the lattice clock, namely many-atom interrogation with cancelled light shifts and the 10^-18 regime, and resists treating it as a natural next step in a metrology series.",
+        "response": "I agree and I have changed my own wording because of it. In round 1 I partly leaned on continuity with earlier prizes; I now think that is the wrong argument, because it gives the sceptic exactly the objection he wants. The better argument is the one you made: a simple general principle, tested to a regime of precision that earlier methods could not reach, and confirmed independently. I would add that the physical test is not only the number but what the number buys: millimetre-scale redshift and constraints on constants are statements about nature. On KPZ, I remain outside statistical mechanics and weigh your judgement of its depth heavily, but you yourself record that the exact-solution contributors fall outside any three-name credit and that Parisi's earlier prize complicates the wording, and I cannot see a configuration I could defend for it."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, as chair, asks whether an additional prize in the superconducting-circuit area, B054, rests on distinct physics given the 2025 prize, and says that the broadest-supported candidate is not necessarily the most important one, with the Higgs having arguably greater weight but a hard attribution problem.",
+        "response": "On B054 I want to be clear about my position in this round: I am conflicted, I do not advocate it, and I will not vote on it. The 2025 prize recognised macroscopic quantum tunnelling and energy quantization in a circuit; circuit QED is a separate achievement, strong coupling of a single photon to an artificial atom, but your question is fair, and the credit boundary with the Yale group is unsettled, so I cannot ask the committee to place it ahead of B013 and I have removed it from my alternatives. On the Higgs I share your point about scientific weight. I keep B001 as my first alternative for that reason. But I defer to you and Eva on particle physics: if no committee member can propose a defensible three-person selection from Gianotti, Della Negra, Jenni and Virdee, the weight of the discovery does not remove the attribution problem, and I would not rush it into this year to balance a metrology prize."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson reconsiders the optical lattice clock as the best-aligned candidate but still values magic-angle twisted bilayer graphene (B046) as the more surprising discovery and rejects the label premature.",
+        "response": "You make a fair point about earlier prizes: an unsettled pairing mechanism did not stop recognition of cuprate superconductivity or the quantum Hall effects, so I am no longer using the mechanism alone as my argument against B046. I have moved it to my second alternative. What keeps me from ranking it first is the credit and the sample dependence: Cao as first author of the 2018 discovery papers cannot be named within three people, Bistritzer's 2011 paper originates the magic-angle prediction, and twist-angle disorder still complicates comparison between groups. I would also resist your two-name form, because dropping Bistritzer or the experimental co-discoverers invites a dispute that the clock does not carry. If the committee wants a condensed-matter prize, it should wait until the experimental credit can be stated without such a choice."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept the lattice clock as distinct from the 2005 comb and 2012 ion-control prizes, which I believe it is but cannot prove to a sceptic.",
+      "Whether the early strontium and ytterbium lattice-clock priority dates, and the relative roles of Katori, Ye, Lemonde and others, are as stated; I have not verified them and am relying on Lindroth and Kroll for atomic-physics history.",
+      "Whether the redefinition of the second should affect timing; I think the physics case stands on the independent 10^-18 comparisons and not on the redefinition, but Kroll and Olsson are right that the largest payoff may still be ahead.",
+      "Whether any three-person selection from the ATLAS and CMS leaders (B001) can be defended; I defer to the particle physicists on this."
+    ],
+    "conflict_note": "Updated disclosure. B054 (circuit QED) is in my own field: I direct the Wallenberg Centre for Quantum Technology, work with Chalmers superconducting-circuit groups and know the credited people professionally. I remain recused from advocating or voting on B054 and have dropped it from my alternatives; I ask the committee to treat my round-1 remarks on it as a disclosure, not as evidence. I have no known connection with Katori, Ye or the other lattice-clock groups, and no conflict for B013, B001 or B046. I share an institution with Olsson, which is relevant to B054 and B015 only."
+  }
+}

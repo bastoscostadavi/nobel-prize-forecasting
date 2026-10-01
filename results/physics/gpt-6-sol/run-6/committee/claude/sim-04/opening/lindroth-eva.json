@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-04",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B012",
+      "proposed_laureates": ["Hidetoshi Katori", "Jun Ye"],
+      "assessment": {
+        "nobel_worthiness": "Katori's magic-wavelength lattice idea removes Doppler and recoil shifts while keeping many atoms, and Ye's strontium realization pushed clocks to roughly 1e-18 fractional uncertainty. It is a clean and somewhat unexpected route to extreme precision, enabling tests of fundamental constants, gravitational time dilation over millimetres, and a path to redefining the second. As an atomic theorist I value that the result is quantitative and understood from first principles.",
+        "attribution": "Katori proposed the optical lattice clock concept and demonstrated early strontium operation; Ye's JILA group drove the performance frontier and the systematics and many-body understanding. A two-name prize is a fair configuration. The 2005 prize (Hall, Hänsch) honoured the frequency comb, so this is a distinct step.",
+        "maturity": "Several independent laboratories (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE and others) operate and compare lattice clocks, and the community is preparing a redefinition of the second. Mature and timely.",
+        "uncertainties": [
+          "Contributions from other precision-clock work (for example ion clocks) and how much of it should be recognised alongside lattice clocks cannot be settled from the supplied text.",
+          "I rely on memory for exact accuracy figures and dates and have not verified them independently."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B003",
+      "proposed_laureates": ["David E. Pritchard", "Mark A. Kasevich"],
+      "assessment": {
+        "nobel_worthiness": "Atom interferometry makes the wave nature of matter into a precision sensor for gravity, rotation and constants, and into tests of the equivalence principle. It speaks directly to the quantum-classical boundary I find compelling and has real instrumentation consequences.",
+        "attribution": "Pritchard's group pioneered atom optics and early interferometry with gratings; Kasevich (with Chu) made the light-pulse interferometer a precision gravimeter and gyroscope; Mlynek's group did early grating and double-slit atom experiments. Two names is defensible but leaves Mlynek out, and people outside the supplied list (Chu, Bordé) complicate a fair split.",
+        "maturity": "Reproduced by many laboratories, with field instruments and large-baseline tests under way. The core science is mature, while the headline fundamental tests are still improving.",
+        "uncertainties": [
+          "Allocation of credit among Pritchard, Kasevich and Mlynek is unresolved, and the roles of people outside the credited names matter.",
+          "Some of the most ambitious claims (large momentum transfer, long baselines) are still developing."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B010",
+      "proposed_laureates": ["Juan Ignacio Cirac", "Peter Zoller", "Rainer Blatt"],
+      "assessment": {
+        "nobel_worthiness": "Cirac and Zoller proposed trapped-ion quantum gates and later quantum simulators, and Blatt realized high-fidelity gates and digital simulation with ions. The work shows that individual quantum systems can be controlled well enough to compute and simulate, a fundamental advance in how quantum mechanics is used.",
+        "attribution": "The Cirac-Zoller 1995 proposal is the key theoretical idea and Blatt's group gave decisive implementations. Bloch fits more naturally with the optical-lattice simulation candidate. The boundary with the 2012 prize to Wineland needs careful handling.",
+        "maturity": "Reproduced across ion and atom platforms and now a large field. The 2012 and 2022 prizes reduce the novelty available, so timing is less pressing.",
+        "uncertainties": [
+          "Overlap with already recognised work on ion control and entanglement could make a new prize look redundant.",
+          "Whether theory and experiment credit fit one prize without Bloch is unresolved."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B022",
+      "proposed_laureates": ["Michael Berry", "Yakir Aharonov"],
+      "assessment": {
+        "nobel_worthiness": "The Aharonov-Bohm effect showed that potentials have physical consequences in quantum mechanics, and Berry's geometric phase revealed a general structure in adiabatic evolution that runs through molecules, atoms and topological matter. Few ideas are as unexpected and as widely used.",
+        "attribution": "Aharonov carries the 1959 effect (Bohm is not among the credited names) and Berry is the central figure for the 1984 geometric phase. The two-name configuration is plausible but combines two related, distinct discoveries.",
+        "maturity": "Both effects are confirmed in many experiments and are textbook material. The concern is timeliness and the compound nature of the claim, not confirmation.",
+        "uncertainties": [
+          "The prize would join two separate discoveries, and contributions by people outside the supplied names (for example Bohm, Pancharatnam) are not represented.",
+          "Whether the age of the discoveries makes recognition now appropriate is a judgement call."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B028",
+      "proposed_laureates": ["Carlton M. Caves", "H. Jeff Kimble", "Roman Schnabel"],
+      "assessment": {
+        "nobel_worthiness": "Squeezed light beats the standard quantum limit in interferometry and is now used in gravitational-wave detectors. Caves identified the limit and the remedy, and experiments showed it works in kilometre-scale instruments.",
+        "attribution": "Caves provided the theoretical proposal, Kimble contributed early squeezed-state generation and cavity QED, and Schnabel's group developed detector-grade squeezing at GEO600 and beyond. Mavalvala is a strong alternative. Early experimental squeezing (Slusher and colleagues) is outside the supplied names.",
+        "maturity": "The method is proven in LIGO, Virgo and GEO600 operation. Recognition is plausible, but the 2017 prize already covered gravitational-wave detection.",
+        "uncertainties": [
+          "Credit for the first experimental squeezing lies outside the supplied names and could challenge fairness.",
+          "Choosing among Schnabel, Mavalvala and Kimble is uncertain."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B033",
+      "proposed_laureates": ["Charles H. Bennett", "Gilles Brassard", "Artur Ekert"],
+      "assessment": {
+        "nobel_worthiness": "Quantum key distribution ties the foundations of quantum mechanics (no cloning, entanglement) to secure communication and was a conceptual starting point for quantum information science. The idea is original and general.",
+        "attribution": "Bennett and Brassard (BB84) are the clear originators, and Ekert's 1991 entanglement-based protocol connects to Bell tests. Three names are compatible with a prize, though Ekert's relative role is debated.",
+        "maturity": "Many experimental demonstrations exist, along with satellite and commercial systems. The 2022 prize on Bell tests covers part of the foundational ground.",
+        "uncertainties": [
+          "It may be judged closer to information science than to a physics discovery.",
+          "Practical implementation security is a separate issue from the principle."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B026",
+      "proposed_laureates": ["Immanuel Bloch", "Markus Greiner", "Tilman Esslinger"],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices realize Hubbard models cleanly, with the superfluid-Mott transition, single-site-resolved microscopy and Fermi-Hubbard experiments. This gives unusual quantitative control of many-body quantum systems, close to my own interests.",
+        "attribution": "Greiner's Mott-insulator experiment, Bloch's lattice and microscopy work, and Esslinger's Fermi-Hubbard experiments are all important. Zoller supplied the theory proposal and is not in my proposed set, so theory credit remains open.",
+        "maturity": "Mature and reproduced by many groups, though the central open questions (for example the low-temperature Fermi-Hubbard phase diagram) are not settled.",
+        "uncertainties": [
+          "Bloch and Zoller are credited in B010 as well, so recognition could be split or duplicated.",
+          "The payoff for real solid-state problems is still emerging."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B047",
+      "proposed_laureates": ["Wilson Sibbett", "Peter F. Moulton"],
+      "assessment": {
+        "nobel_worthiness": "Titanium-sapphire gain media and Kerr-lens mode-locking provided broadband femtosecond lasers that underlie frequency combs, high-harmonic generation and attosecond physics, which I know well. The original motivation was technological, so it ranks lower for me than discoveries about nature.",
+        "attribution": "Moulton developed the Ti:sapphire laser medium and Sibbett's group demonstrated Kerr-lens mode-locking. Other members of that team are not among the supplied names, so the configuration is incomplete.",
+        "maturity": "Universally adopted with enormous downstream impact. Recognition would be overdue rather than premature, but it is an enabling instrument more than a conceptual finding.",
+        "uncertainties": [
+          "The committee may regard it as enabling technology rather than a discovery of nature.",
+          "Credit for Kerr-lens mode-locking involves people outside the supplied names, and I cannot verify the original experimental details."
+        ]
+      }
+    }
+  ]
+}

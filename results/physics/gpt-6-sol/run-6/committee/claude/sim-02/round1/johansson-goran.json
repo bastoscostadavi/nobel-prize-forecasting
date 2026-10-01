@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B013",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and realization of optical lattice clocks, bringing atomic timekeeping to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": ["B001", "B054"],
+  "statement": {
+    "case_for": "I have moved my own first-place candidate, circuit QED (B054), to an alternative and now put the optical lattice clock first. It is the one candidate where a clean two-person credit (Katori's magic-wavelength concept, Ye's record-accuracy realisation) meets a result that has been reproduced and compared across several independent laboratories at the 10^-18 level. It is a new regime of control over many neutral atoms, not only an incremental improvement. It also opens concrete physics: tests of time dilation over millimetres, constraints on drifting constants, and a roadmap to redefining the second. As a theorist who works with experimentalists, I value that the Hamiltonian and the systematic shifts are understood in detail, and that the result is robust rather than a promise still to be delivered. Six of eight members placed it in their top three for different reasons, which is a stronger signal than my own proximity-driven enthusiasm for B054.",
+    "case_against": "The strongest objection is overlap with earlier prizes on laser cooling, frequency combs (2005) and ion-trap quantum control (2012), which could make the clock look like a continuation of work already recognised. Ye already shares the 2005 prize. A second reservation is that other lattice-clock pioneers (Lemonde, Ludlow, Takamoto and the Yb groups) are not credited. The three-person limit and the Katori and Ye split mean that some of them will feel overlooked, and I cannot fully settle priority from the supplied text.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B013 first as a textbook case of a technique that moves the precision frontier by orders of magnitude, with a clean two-laureate configuration and wide independent confirmation, while acknowledging overlap with the 2005 prize.",
+        "response": "I agree on the merit and the configuration. I would add that the discovery is more than the numbers: lattice clocks measure gravitational redshift across millimetres and let many-body effects be controlled, which is a qualitatively new capability. I disagree mildly with treating overlap with 2005 as only a technicality. The citation should be written around the lattice concept and its realisation, not frequency combs, so that Ye's earlier prize is context. Your own doubt about early Sr-clock priority is shared, and I would want Lindroth to check it, since she knows the atomic-physics history better than I do."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B013 first and B050 second. She favours the clock for its conceptual clarity and independent reproduction, and weighs the quantum simulation of Hubbard models as a genuine new way to study many-body physics, though she says the credit among Bloch, Greiner, Esslinger and Zoller is a real dilemma.",
+        "response": "I share your first choice. On B050 I qualify your enthusiasm. The credit problem you identify is real: dropping either Esslinger or Zoller leaves a decisive experiment or the founding proposal outside the prize, and I ranked it sixth for that reason. More importantly, the simulators have not yet answered a condensed-matter question that other methods could not. That is the test I would apply, and it makes me hesitant to rank B050 above the clock now."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson places magic-angle twisted bilayer graphene (B046) first, as an example of experiment overturning theory with robust reproduction by dozens of groups, and proposes only MacDonald and Jarillo-Herrero. He ranks the lattice clock seventh and defers to atomic physicists.",
+        "response": "I take the experimental side of your case seriously. Moiré quantum matter is a real new field and the continuum-model prediction has been quantitatively tested. I still think it is premature: the pairing mechanism is not understood, twist-angle disorder complicates sample comparisons, and eight years is short. I would also resist your two-name version, because Bistritzer's 2011 paper is the origin of the magic-angle prediction and omitting him invites a credit dispute. I would keep B046 as the leading condensed-matter candidate for a later year, not this one."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks the KPZ universality class (B042) first as a surprisingly universal, rigorously analysable mechanism with clean experiments on liquid-crystal turbulence, and sees the timing as appropriate.",
+        "response": "I respect the elegance, and universality is a strong argument. I am less convinced that the credit configuration works. Kardar and Zhang are credited, but the exact solutions by Spohn, Sasamoto, Amir, Corwin and Quastel are what made the universality quantitative, and the Takeuchi experiment is one platform. I would need a clearer account of which results the prize would cite. I am also outside the statistical mechanics community, so I weigh your view heavily on the physics and ask whether the 2021 complex-systems prize reduces room for it."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee judges the lattice clock to add enough beyond the 2005 frequency-comb and 2012 ion-trap prizes.",
+      "Whether Lemonde, Ludlow, Takamoto and the Yb groups require a different credit split or a wider citation than Katori and Ye.",
+      "Whether superconducting circuits are felt to be covered by the 2025 prize, which affects how seriously B054 can be considered this year.",
+      "For B001, whether any three-person selection from two very large collaborations is defensible, which I leave to the particle physicists."
+    ],
+    "conflict_note": "B054 (circuit QED) lies in my own field. I direct the Wallenberg Centre for Quantum Technology, work with Chalmers superconducting-circuit groups, and know the credited people professionally, so I should be recused from advocating or voting on B054 and treat my first-place ranking of it as potentially biased. I also have a loose link to mesoscopic transport, which bears on B030 but not on the shortlist. No specific connection to B013 is apparent from my profile."
+  }
+}

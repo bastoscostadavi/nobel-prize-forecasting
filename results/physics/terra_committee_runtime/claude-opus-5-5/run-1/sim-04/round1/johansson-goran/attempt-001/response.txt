@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B017",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realization of optical lattice clocks"
+      }
+    ]
+  },
+  "alternatives": [
+    "B009",
+    "B003"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks unite a sharply defined physical idea, the magic-wavelength lattice-clock architecture, with decisive independent realization. Their performance is reproducible across laboratories and has made precision timekeeping a powerful probe of fundamental physics. Katori and Ye provide an unusually coherent and limited attribution for a mature achievement.",
+    "case_against": "The boundary between the original lattice-clock invention and the many later advances in clock operation, comparison, and metrology needs careful historical documentation. The prospective redefinition of the second is not itself the scientific basis for an award.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes that lattice clocks are repeatedly demonstrated across laboratories and already constitute a highly capable precision-measurement platform.",
+        "response": "I agree. This reproducibility is particularly important: it shows that the achievement is a durable experimental regime, rather than an exceptional result confined to one apparatus. It moves B017 ahead of quantum-computing candidates whose ultimate scalable operation remains less settled."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson argues that quantum error correction is the principle making scalable quantum computing conceivable, while noting that a large-scale fault-tolerant computer has not yet been demonstrated.",
+        "response": "I retain B009 as a strong alternative because its conceptual breakthrough is profound and the named contributions are foundational. But I qualify its readiness: increasingly persuasive logical-qubit experiments do not yet demonstrate the full fault-tolerant regime, whereas lattice clocks have already achieved broad, independently reproduced physical capability."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth regards the Aharonov-Bohm effect and Berry phase as deeply established quantum insights, while questioning the framing of two effects in one prize.",
+        "response": "I share the admiration for B024, but the citation joins historically distinct discoveries with wider relevant credit. B017 has the clearer unity of concept and realization, and a more straightforward two-person attribution."
+      }
+    ],
+    "uncertainties": [
+      "Whether the nomination record adequately distinguishes Katori and Ye's foundational contributions from later essential technical developments.",
+      "Whether quantum error correction should wait for an unambiguous large-scale fault-tolerant demonstration."
+    ],
+    "conflict_note": "I direct WACQT, a national superconducting-quantum-computing programme; this institutional connection to quantum computing may warrant recusal review for B009, though no direct connection to the B017 laureates is apparent from the supplied profile."
+  }
+}

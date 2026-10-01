@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B027",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "for establishing quantum error correction and fault-tolerant quantum computation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "B027 identifies a fundamental physical resolution of the decoherence problem: quantum information can be protected and computation made scalable through codes, fault-tolerant procedures, and topological ideas. Shor, Steane, and Kitaev represent distinct, tightly connected foundational advances. Although large-scale machines remain unfinished, the underlying physics is mature, has guided every serious hardware programme, and is now being tested through increasingly convincing logical-qubit experiments.",
+    "case_against": "The decisive practical demonstration—a fully fault-tolerant logical quantum computer capable of sustained scalable computation—has not yet occurred. Attribution is also necessarily selective in a broad field with important additional contributors, so the historical boundaries among codes, thresholds, fault tolerance, and topological protection require careful review.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig emphasizes that the principles are established but that full fault tolerance is unfinished and the foundational contributor set is broad.",
+        "response": "I agree that practical completion must not be claimed prematurely and that the credit boundary needs scrutiny. Yet the prize-worthy achievement is the discovery that error-prone quantum hardware can in principle be made reliable, not a future commercial-scale processor. The three proposed names supply a coherent and complementary core for that discovery."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson judges Rydberg arrays compelling but cautions that computation-specific claims may not yet have the long-term maturity required for a prize.",
+        "response": "That caution strengthens the distinction I would make. B012 is an excellent alternative because it opened a controllable many-body regime, but its eventual computational role is still evolving. B027 concerns the already durable physical framework by which any scalable quantum-computing platform must confront decoherence."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argues that optical lattice clocks have exceptional reproducibility, clear attribution, and a fully mature metrological record.",
+        "response": "I find B046 an exceptionally strong alternative and agree that Katori and Ye offer unusually clear attribution. My preference for B027 rests on the latter's more fundamental change in what physics permits for complex quantum systems, while accepting that the clock achievement is presently more mature experimentally."
+      }
+    ],
+    "uncertainties": [
+      "Whether the present logical-qubit demonstrations have crossed a sufficiently durable fault-tolerance threshold for recognition now.",
+      "Whether the proposed three names adequately delimit the foundational achievement without excluding equally indispensable early contributors."
+    ],
+    "conflict_note": "No direct connection to the named B027 laureates is apparent from the supplied profile; as director of WACQT, I have a general professional connection to the quantum-computing field."
+  }
+}

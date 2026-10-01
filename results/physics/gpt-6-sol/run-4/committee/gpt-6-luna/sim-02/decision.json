@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-02",
+  "committee_provider": "openai",
+  "committee_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "rule": {
+    "method": "instant runoff over exhaustive rankings",
+    "majority_votes": 5,
+    "elimination_order": [
+      "fewest current first-active preferences",
+      "fewest explicit round-2 supporters",
+      "lowest full-ballot Borda score",
+      "proposal_id ascending"
+    ],
+    "recusals": "disclosed but not adjudicated in this simulation"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "counts": {
+        "P000": 0,
+        "P001": 2,
+        "P002": 1,
+        "P003": 1,
+        "P004": 1,
+        "P005": 1,
+        "P006": 1,
+        "P007": 1
+      },
+      "eliminated": "P000",
+      "elimination_tie_break": {
+        "fewest_current_votes": 0,
+        "round2_explicit_supporters": 0,
+        "full_ballot_borda": 8,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 2,
+      "counts": {
+        "P001": 2,
+        "P002": 1,
+        "P003": 1,
+        "P004": 1,
+        "P005": 1,
+        "P006": 1,
+        "P007": 1
+      },
+      "eliminated": "P006",
+      "elimination_tie_break": {
+        "fewest_current_votes": 1,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 35,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 3,
+      "counts": {
+        "P001": 2,
+        "P002": 1,
+        "P003": 2,
+        "P004": 1,
+        "P005": 1,
+        "P007": 1
+      },
+      "eliminated": "P005",
+      "elimination_tie_break": {
+        "fewest_current_votes": 1,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 36,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 4,
+      "counts": {
+        "P001": 3,
+        "P002": 1,
+        "P003": 2,
+        "P004": 1,
+        "P007": 1
+      },
+      "eliminated": "P007",
+      "elimination_tie_break": {
+        "fewest_current_votes": 1,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 37,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 5,
+      "counts": {
+        "P001": 3,
+        "P002": 2,
+        "P003": 2,
+        "P004": 1
+      },
+      "eliminated": "P004",
+      "elimination_tie_break": {
+        "fewest_current_votes": 1,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 46,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 6,
+      "counts": {
+        "P001": 3,
+        "P002": 3,
+        "P003": 2
+      },
+      "eliminated": "P003",
+      "elimination_tie_break": {
+        "fewest_current_votes": 2,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 39,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 7,
+      "counts": {
+        "P001": 3,
+        "P002": 5
+      },
+      "eliminated": null
+    }
+  ],
+  "winner": {
+    "proposal_id": "P002",
+    "no_award": false,
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "candidate_id": "c22",
+        "discovery": "Aberration correction in electron optics, enabling sub-ångström transmission and scanning transmission electron microscopy",
+        "laureates": [
+          "Harald Rose",
+          "Maximilian Haider",
+          "Ondrej L. Krivanek"
+        ]
+      }
+    ]
+  }
+}

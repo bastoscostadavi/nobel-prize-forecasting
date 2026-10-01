@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-02",
+  "member_id": "lindroth-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B031",
+        "laureates": [
+          "Kenneth J. Schafer",
+          "Maciej Lewenstein",
+          "Paul B. Corkum"
+        ],
+        "citation": "For the recollision model of strong-field physics and its explanation of high-harmonic generation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B064",
+    "B039"
+  ],
+  "statement": {
+    "case_for": "The recollision model gave strong-field physics a predictive account of how an electron can be driven away from an atom, returned by the field, and emit high-energy radiation. It underpins high-harmonic generation and attosecond methods that resolve electronic dynamics on their natural timescale. Decades of experimental work have tested and extended this picture, making it a mature contribution to fundamental understanding.",
+    "case_against": "As Johansson-Goran notes, this is a theoretical framework rather than one sharply bounded experimental event. The citation must distinguish the three-step model from the wider development of high-harmonic generation and attosecond science, and the historical division of credit among its complementary contributors deserves careful review.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson-Goran sees the recollision model as a clear physical account that helped establish attosecond science, while questioning whether the achievement is sufficiently bounded and noting the many later experimental contributions.",
+        "response": "I share that concern about scope. The proposed citation keeps the focus on the recollision model and its explanation of high-harmonic generation; later experimental advances show its reach, but need not all be folded into the credited discovery."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll-Stefan argues that optical lattice clocks have achieved extraordinary precision, with Katori and Ye making complementary contributions, while leaving open which fundamental tests or applications will prove most consequential.",
+        "response": "The clocks have an exceptionally strong record of reproducibility and precision, and I retain them as an alternative. Their defining scientific impact is still developing, whereas the recollision model has already provided a durable explanation and experimental foundation for observing electron motion in time."
+      }
+    ],
+    "uncertainties": [
+      "The historical record should clarify how the complementary contributions of Schafer, Lewenstein, and Corkum map onto the specific recollision model.",
+      "The boundary between the model itself and the broader development of high-harmonic generation and attosecond science needs careful definition."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

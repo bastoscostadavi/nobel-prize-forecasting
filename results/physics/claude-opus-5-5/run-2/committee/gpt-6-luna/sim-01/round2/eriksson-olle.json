@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B015",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "For developing dynamical mean-field theory and applying it to strongly correlated electrons."
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B035"
+  ],
+  "statement": {
+    "case_for": "I retain B015. Dynamical mean-field theory provided a durable way to treat local quantum dynamics in strongly correlated electron systems and has enabled decades of work on correlated materials. Its approximations and implementation dependence are real, but they are also identifiable: a careful citation can recognize the framework and its applications without implying exact or uniform predictions for finite-dimensional materials.",
+    "case_against": "The foundational development was collaborative, and the proposed trio's respective contributions need historical delimitation. DMFT is not exact for general finite-dimensional systems; material-specific results can depend on extensions and computational choices. Those limits make the scope and attribution of the prize citation especially important.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig stresses that DMFT is an approximation, is most clearly justified in high-dimensional limits, and that material predictions depend on implementation and extensions.",
+        "response": "I agree these limits must shape the claim. They do not remove the advance of retaining local quantum dynamics in a tractable framework for correlated electrons. The citation should recognize that framework and its applications, while the scientific case should make clear that its predictions require system-appropriate checks and extensions."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson favors B008 but notes that the BPZ trio's foundational work must be distinguished from the broader history of conformal symmetry and critical phenomena.",
+        "response": "That is a sound attribution concern, and B008 remains a strong alternative. I continue to favor B015 because its physical scope is more directly stated as a framework for strongly correlated electrons in materials. It still requires a careful historical account of the three proposed contributors' roles in DMFT's collaborative development."
+      }
+    ],
+    "uncertainties": [
+      "The historical record should establish the distinct foundational contributions of Georges, Vollhardt, and Kotliar within the collaborative development of DMFT.",
+      "The citation and supporting case should distinguish the framework's broad influence from claims of exactness or uniform predictive power in finite-dimensional materials."
+    ],
+    "conflict_note": "No direct personal or professional connection to Georges, Vollhardt, or Kotliar is apparent from the supplied profile. My work on electronic-structure theory and correlated electrons gives me intellectual proximity to the subject; I disclose this, with no specific recusal conflict apparent."
+  }
+}

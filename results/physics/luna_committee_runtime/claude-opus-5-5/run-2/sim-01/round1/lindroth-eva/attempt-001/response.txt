@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "lindroth-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Peter W. Shor",
+          "Andrew M. Steane",
+          "Alexei Kitaev"
+        ],
+        "citation": "For the discovery of quantum error correction and foundational methods for fault-tolerant quantum computation."
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction changed the physical prospects of quantum computation: it showed that decoherence need not make coherent computation impossible, provided information is encoded and errors are controlled. Shor and Steane established influential codes, while Kitaev's topological approach supplied a distinct route to fault tolerance. These are identifiable foundational advances with consequences extending beyond any one hardware platform. The theory is mature, and experimental progress has tested its principles even though scalable fault-tolerant machines remain a work in progress.",
+    "case_against": "The most serious reservation is that large-scale fault-tolerant operation has not been achieved, so the prize must recognize a foundational result rather than a completed computing technology. The proposed three-person attribution is also selective within a broad field, and the citation must separate the original ideas from later engineering and experimental advances.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson emphasizes that large-scale fault-tolerant computation remains unrealized and asks how much weight to give a framework whose ultimate physical realization is incomplete.",
+        "response": "That is a real limit on the claim, but the prize can be grounded in the demonstrated principle of protecting quantum information and the foundational codes and topological route, without treating large-scale computation as an accomplished result. The conceptual achievement is already physically meaningful."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson argues that the prize scope must distinguish foundational error-correction theory from later engineering and experimental advances.",
+        "response": "I agree, and would keep the citation focused on the discovery of quantum error correction and foundational methods for fault tolerance. This recognizes what the credited contributors established without assigning them the later work of the experimental community."
+      }
+    ],
+    "uncertainties": [
+      "The precise boundary between the foundational codes and topological approach, and subsequent work needed to demonstrate fault-tolerant operations, should be stated carefully in the final citation."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

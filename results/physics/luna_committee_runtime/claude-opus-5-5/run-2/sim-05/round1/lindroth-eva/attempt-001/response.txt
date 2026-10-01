@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-05",
+  "member_id": "lindroth-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B030",
+        "laureates": [
+          "Yakir Aharonov",
+          "Michael Berry"
+        ],
+        "citation": "For revealing the physical significance of quantum phase through the Aharonov–Bohm effect and the geometric phase."
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "Quantum phase is not merely a mathematical bookkeeping device: the Aharonov–Bohm effect shows that electromagnetic potentials can affect interference even where the field vanishes, and Berry's geometric phase identifies a phase set by the path of a system through parameter space. These distinct results changed how physicists understand and use quantum mechanics across fields. Their conceptual importance has endured, and the effects have been tested and applied over decades.",
+    "case_against": "The two contributions arose independently and concern different physical settings. Grouping them under quantum phase risks making the prize boundary too broad, while awarding them together may obscure the separate histories and the many later contributions to phase physics and experimental demonstrations.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "He argues that photonic crystals established a powerful way to control light, with lasting impact, and notes that the exact scope and division of foundational credit need historical review.",
+        "response": "I agree that the field is mature and the near-independent foundational contributions of Yablonovitch and John, alongside Joannopoulos's theory, make B004 a strong alternative. My preference for B030 rests on its more direct conceptual change in how quantum mechanics is understood; the photonic-crystal case is compelling but its boundary between original ideas and subsequent development seems harder to delimit."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "He regards quantum error correction as a foundational way to protect quantum information, while questioning whether recognition should await scalable fault tolerance and noting distinct contributions by Shor, Steane, and Kitaev.",
+        "response": "I agree that the theory is established and that experimental progress strengthens the case, even though large-scale fault tolerance remains unrealized. For B030, the central effects have already had decades of experimental and conceptual development, so the case does not depend on a future practical endpoint. The uncertainty there is instead how to frame two distinct discoveries within one prize."
+      }
+    ],
+    "uncertainties": [
+      "Whether the Aharonov–Bohm effect and Berry phase form a sufficiently unified prize contribution, given their distinct histories and physical settings."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

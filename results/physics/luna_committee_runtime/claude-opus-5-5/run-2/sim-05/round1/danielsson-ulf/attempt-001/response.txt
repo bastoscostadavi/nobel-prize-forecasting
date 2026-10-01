@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-05",
+  "member_id": "danielsson-ulf",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Eli Yablonovitch",
+          "John D. Joannopoulos",
+          "Sajeev John"
+        ],
+        "citation": "For establishing photonic crystals and photonic band gaps as a means to control light."
+      }
+    ]
+  },
+  "alternatives": [
+    "B034",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "Photonic crystals brought band-structure ideas to light and established a durable way to control its propagation in periodic structures. Decades of experimental realization and development give this conceptual advance both maturity and lasting reach. The independent foundational proposals and theoretical development make a credible three-person attribution possible, though the boundaries deserve careful historical review.",
+    "case_against": "The strongest reservation is that the discovery does not have a uniquely sharp credit boundary: Yablonovitch and John independently articulated key ideas, while Joannopoulos made major contributions to their theoretical development. A citation that blurs those different roles could overstate the unity of the achievement.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "You judge the quantum spin Hall prediction and its experimental realization to be a major, mature contribution, while noting that the field's wider development complicates attribution.",
+        "response": "I agree on its significance and maturity. I would qualify the proposed scope carefully around the quantum spin Hall effect and its early experimental demonstration; the broader topological-materials story risks making the credit boundary less distinct. That concern leaves B041 compelling, but does not displace the more mature photonic-crystal case for me."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "You make optical lattice clocks your leading candidate because Katori and Ye made complementary advances in a mature technique with lasting measurement impact.",
+        "response": "That is a strong case, especially given the clarity of a two-person attribution. I would keep it as an alternative: the continuing refinement of clock performance and the substantial wider community make the precise prize boundary a live question. Photonic crystals have a similarly mature history, with a broader attribution challenge that should be made explicit."
+      }
+    ],
+    "uncertainties": [
+      "A historical review should distinguish the independent foundational proposals of Yablonovitch and John from Joannopoulos's theoretical contributions and determine whether the proposed citation fairly captures their roles."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

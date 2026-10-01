@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-6-luna",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-danielsson-ulf-t34lsiu6",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-danielsson-ulf-t34lsiu6/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "4ffd4bd66922c68c2f280fe38e4ab6c74a79caa08b447bc45dbecd5fd173a5ac",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/danielsson-ulf/profile.md",
+      "sha256": "fcf33777601a72c06737e0a9d35e15cfc9f82195d2936787096d9f982d068f51"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/shortlist.json",
+      "sha256": "a7f9e89e0b19b6e93cab5d8f1f8ae88c3679f37b16616091bf1fa89988463420"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/danielsson-ulf.json",
+      "sha256": "0dfc5d264f99a8a06be15679ffa02d399ee2956e535003b321d1feec3c0aeee9"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/eriksson-olle.json",
+      "sha256": "2299fbec98a2b191bb8319b2cbc59510c7d51a4aa40eb5d1fc9b736902a101c4"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/johansson-goran.json",
+      "sha256": "2cec0a7d4310b4f6438a49ecb851614786ae7c30fead4b7a68e6e9a6b60e88b7"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/kroll-stefan.json",
+      "sha256": "072861171893be11e74d3b2fee0c008b37ef908f077ce37a6015147ab8c48535"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/lindroth-eva.json",
+      "sha256": "d29fdda348ab78b6cbe51c525f382041156d0b6ac5bfcb12aaccb348fca4c8ab"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/mehlig-bernhard.json",
+      "sha256": "ca41aec53fb0694b97c5e837011acced8152b9e11a950aca5feb79f7768a6331"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/olsson-eva.json",
+      "sha256": "fb17fd8b3fdfa7993c7821ee7466010f35e6be9412243815bd0812bb772d7a3f"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/round1/pearce-mark.json",
+      "sha256": "12de2a97306967ced6137605bfc286ac346191b4c7fa7999d2401a2261d21050"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-2/committee/gpt-6-luna/sim-04/chair_summary_round1.json",
+      "sha256": "8f29f37cb930cf98fa6bedba7a21788504b9ff273f8eaa69cf8c4caf7572104f"
+    }
+  ],
+  "thread_id": "01a0f843-1680-7333-960a-90d01075937a",
+  "usage": {
+    "input_tokens": 24144,
+    "cached_input_tokens": 6912,
+    "output_tokens": 888,
+    "reasoning_tokens": null,
+    "total_tokens": 25032
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-01T16:19:26.920878Z"
+}

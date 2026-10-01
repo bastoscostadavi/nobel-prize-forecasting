@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B015",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "For the development of dynamical mean-field theory and its application to strongly correlated electrons."
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B035"
+  ],
+  "statement": {
+    "case_for": "Dynamical mean-field theory made strongly correlated electrons quantitatively tractable while retaining essential local quantum dynamics. It has shaped decades of work on correlated materials, including the understanding of Mott physics, and offers a framework that can connect theory to material-specific calculations and measured spectra. Its significance rests on a durable physical method with clear strengths and known limits.",
+    "case_against": "The foundational development was collaborative, and credit to three people must be carefully delimited. DMFT is an approximation whose reach depends on the system and implementation; it does not solve every correlation problem, and its predictions for particular materials can depend on extensions and computational choices.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig emphasizes DMFT's approximation character, its strongest justification in high-dimensional limits, and the dependence of material predictions on implementation and extensions.",
+        "response": "I agree these limits should be stated plainly. They do not diminish the central advance: DMFT preserves local quantum dynamics in a controlled framework and made a broad class of correlated-electron problems tractable. Its value is strongest when its assumptions are tested against experiment and its results are checked with appropriate extensions."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson regards two-dimensional conformal field theory as a mature, influential framework, while noting that its prize case needs a specific physical discovery rather than a broad theoretical method.",
+        "response": "That is a fair concern, and the exact results for critical systems make B008 a strong alternative. I favor DMFT because its physical scope can be stated more directly: a framework for describing strongly correlated electrons in real materials, with decades of applications and a clear account of what the approximation retains."
+      }
+    ],
+    "uncertainties": [
+      "The precise boundary between the foundational contributions of Georges, Vollhardt, and Kotliar and the wider collaborative development of DMFT merits historical review.",
+      "The proposed citation should not imply that DMFT is exact for finite-dimensional materials or uniformly predictive across correlated-electron systems."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

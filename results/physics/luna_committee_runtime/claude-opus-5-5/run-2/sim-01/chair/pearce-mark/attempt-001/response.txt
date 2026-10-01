@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "chair_id": "pearce-mark",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_chair_summary_v1.md",
+  "summary": {
+    "leading_positions": [
+      {
+        "ballot_ids": ["B007"],
+        "explicit_supporters": ["johansson-goran", "lindroth-eva", "pearce-mark"],
+        "synthesis": "These members favor recognizing foundational quantum error correction and fault-tolerant methods, crediting Shor, Steane, and Kitaev. Their proposed citations vary between discovery, foundational methods, and topological principles. The shared scope excludes a claim that scalable fault-tolerant computing has been achieved; later experimental work supports maturity but raises a boundary-of-credit question."
+      },
+      {
+        "ballot_ids": ["B008"],
+        "explicit_supporters": ["danielsson-ulf", "mehlig-bernhard"],
+        "synthesis": "Both favor Belavin, Zamolodchikov, and Polyakov for establishing two-dimensional conformal field theory in relation to critical phenomena. Their citations differ in emphasis between exact methods and an exact framework. They agree that the award claim must specify the physical results and delimit the trio's foundational contribution from the wider history of the field."
+      },
+      {
+        "ballot_ids": ["B035"],
+        "explicit_supporters": ["kroll-stefan", "olsson-eva"],
+        "synthesis": "Both favor Katori and Ye for optical lattice clocks. The proposed wording ranges from development and realization to invention and experimental realization with consequences for precision tests. Both see a mature measurement advance while calling for careful attribution within the broader development of optical frequency standards."
+      },
+      {
+        "ballot_ids": ["B015"],
+        "explicit_supporters": ["eriksson-olle", "mehlig-bernhard"],
+        "synthesis": "Both favor Georges, Vollhardt, and Kotliar for dynamical mean-field theory. The proposed citation should identify its role in treating strongly correlated electrons without implying that the approximation is exact or uniformly predictive, and the trio's contribution needs historical delimitation."
+      }
+    ],
+    "areas_of_agreement": [
+      "For B007, supporters agree that the recognition should concern foundational codes and fault-tolerant principles, not imply that large-scale fault-tolerant machines have been realized.",
+      "For B008, supporters agree that the citation should connect the theoretical framework to exact results or methods for two-dimensional critical phenomena and avoid claiming the whole history of conformal symmetry.",
+      "For B035, supporters agree that the citation should stay focused on optical lattice clocks and distinguish the defining advance from later progress across precision metrology.",
+      "For B015, supporters agree that DMFT's value and scope should be described alongside the approximation's limits."
+    ],
+    "scientific_disputes": [
+      "For B007, members differ on how much weight to give a mature foundational framework while scalable fault-tolerant operation remains unrealized; experimental demonstrations support its principles, but the ultimate scale remains open.",
+      "For B008, the committee must decide whether the exact framework and results for critical systems articulate a sufficiently bounded physical achievement, rather than primarily recognizing a theoretical method.",
+      "For B015, the award case depends on how the method's strengths in treating correlated electrons are weighed against its approximation character and system-dependent limits."
+    ],
+    "attribution_disputes": [
+      "For B007, the proposed trio captures foundational codes and a topological approach, while later experimental realization and the wider development of quantum error correction involve additional contributors.",
+      "For B008, the boundary between the trio's foundational work and the wider lineage of conformal symmetry and critical phenomena requires historical review.",
+      "For B035, the respective contributions of Katori to the clock concept and Ye to experimental realization and precision need to be checked against the original record; the field also includes a broader community.",
+      "For B015, the division of foundational contributions among Georges, Vollhardt, Kotliar and the wider collaborative development of DMFT needs clarification."
+    ],
+    "maturity_disputes": [
+      "For B007, members who favor recognition consider the foundational theory mature despite incomplete large-scale implementation; the remaining question is how the unfinished technological goal affects the timing and scope of recognition.",
+      "For B035, supporters describe a mature, independently reproduced measurement platform, while the citation should distinguish that established advance from continuing improvements to frequency standards.",
+      "For B015, long use and application support maturity, but the limits of the approximation and dependence on extensions or implementation constrain claims about predictive reach."
+    ],
+    "conflict_or_recusal_flags": [
+      "Johansson reports professional proximity to quantum computing through WACQT leadership and superconducting quantum-computing research, but no direct connection to the B007 credited researchers and no specific recusal conflict.",
+      "Danielsson notes intellectual proximity to B008 through a string-theory background; no personal or direct professional connection to the credited names is apparent.",
+      "Olsson reports sharing a Chalmers affiliation with Johansson, but no connection to the B035 candidates or reason for recusal is apparent.",
+      "Other supplied member conflict notes report no apparent connection or conflict for their preferred proposals."
+    ],
+    "questions_for_round2": [
+      "For B007, what precise boundary should the citation draw between the foundational codes and topological approach and later experimental demonstrations, and how should incomplete scalable operation affect the maturity assessment?",
+      "For B008, which exact physical results or methods best define the trio's contribution to two-dimensional critical phenomena without making the award sound like recognition of a broad mathematical framework alone?",
+      "For B035, what does the original chronology establish about Katori's and Ye's distinct contributions, and how should the citation reflect them alongside the broader clock community?",
+      "For B015, which historical evidence best supports the proposed three-person attribution, and what limits on DMFT's applicability should be reflected in the award scope?"
+    ],
+    "chair_observation": "Round one identifies several mature and influential candidates, with differing views on how clearly each proposed achievement can be bounded and attributed. Round two can focus on the specific historical and scientific questions that separate these positions."
+  }
+}

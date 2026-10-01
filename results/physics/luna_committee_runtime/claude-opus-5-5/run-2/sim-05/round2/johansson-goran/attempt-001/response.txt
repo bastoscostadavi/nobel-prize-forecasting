@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "For foundational methods that made quantum error correction and fault-tolerant quantum information processing possible."
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction established how quantum information can be protected while preserving its quantum character. Shor and Steane introduced landmark codes, while Kitaev developed a distinct topological approach to fault tolerance. These foundational ideas made quantum information a subject for systematic physical control across hardware platforms. Their scientific achievement is mature enough to judge independently of whether scalable fault-tolerant computing is yet available.",
+    "case_against": "Scalable fault-tolerant computation remains unrealized, and the full practical reach of these methods is unsettled. The proposed scope also joins important but distinct contributions; a citation must distinguish the foundational codes and topological approach without implying that large-scale quantum computing has been achieved.",
+    "responses": [
+      {
+        "member_id": "olsson-eva",
+        "point": "You question whether the foundations are prize-ready before scalable fault tolerance is demonstrated.",
+        "response": "That timing concern deserves weight, but I would judge the foundational achievement on its own terms. The codes and error-correction principles are established, and experiments have demonstrated error correction while advancing toward fault tolerance. A narrowly framed citation can recognize those completed methods without claiming that scalable operation is complete."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "You say the practical endpoint of fault-tolerant quantum computing and the relative credit for its many theoretical and experimental advances remain unsettled.",
+        "response": "I agree that the endpoint and later development remain open. The proposed attribution is narrower: landmark code constructions by Shor and Steane, alongside Kitaev's topological approach. The citation should name those foundations and avoid claiming credit for the broad community's subsequent hardware advances."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You favor photonic crystals for their mature field and lasting influence, while noting that the independent proposals and Joannopoulos's theoretical role need historical review.",
+        "response": "Photonic crystals remain a strong alternative, with a mature and consequential history. I retain B012 because its foundational methods form a coherent basis for recognizing quantum information control, even before the ultimate computing platform is settled. The attribution and scope questions for B004 are serious, as you note, and keep it among my alternatives."
+      }
+    ],
+    "uncertainties": [
+      "Whether foundational error-correction methods should be recognized before scalable fault-tolerant operation is demonstrated.",
+      "How to define the boundary between the landmark code constructions, Kitaev's topological approach, and later developments across theory and hardware."
+    ],
+    "conflict_note": "My work on superconducting quantum circuits and leadership of WACQT connect me professionally to quantum computing, so a field-related conflict may warrant review. The supplied profile identifies no direct collaboration or personal connection with the proposed laureates."
+  }
+}

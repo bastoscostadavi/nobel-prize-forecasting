@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "chair_id": "pearce-mark",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_chair_summary_v1.md",
+  "summary": {
+    "leading_positions": [
+      {
+        "ballot_ids": ["B007"],
+        "explicit_supporters": ["johansson-goran", "lindroth-eva", "pearce-mark"],
+        "synthesis": "All three prefer recognizing foundational quantum error-correction and fault-tolerance work by Shor, Steane, and Kitaev. Their proposed citations vary in whether they emphasize discovery, foundational methods, or topological principles; each limits the claim to the foundational framework rather than completed large-scale fault-tolerant computing."
+      },
+      {
+        "ballot_ids": ["B008"],
+        "explicit_supporters": ["danielsson-ulf", "mehlig-bernhard"],
+        "synthesis": "Both prefer the BPZ trio for establishing two-dimensional conformal field theory in relation to critical phenomena. Their citations differ in emphasis between exact methods and an exact framework; both identify the need to define the physical achievement and its boundaries."
+      },
+      {
+        "ballot_ids": ["B035"],
+        "explicit_supporters": ["kroll-stefan", "olsson-eva"],
+        "synthesis": "Both prefer Katori and Ye for optical lattice clocks. Their proposed citations differ in emphasis between development and realization, and invention and experimental realization; both would keep the claim focused on lattice clocks rather than the broader field of precision metrology."
+      },
+      {
+        "ballot_ids": ["B015"],
+        "explicit_supporters": ["eriksson-olle"],
+        "synthesis": "Eriksson prefers Georges, Vollhardt, and Kotliar for developing dynamical mean-field theory and applying it to strongly correlated electrons, while stressing that the method's limits and the boundaries of individual contributions need careful treatment."
+      }
+    ],
+    "areas_of_agreement": [
+      "For B007, supporters and respondents distinguish the foundational theory from later engineering and experimental realization, and do not claim that scalable fault-tolerant computation has been achieved.",
+      "For B008 and B035, committee members who discuss these proposals call for narrow citations that identify the specific physical achievement and avoid claiming the full history or subsequent development of the field."
+    ],
+    "scientific_disputes": [
+      "For B007, members differ on how much the unrealized goal of large-scale fault-tolerant computation should weigh against experimental tests of the underlying principles.",
+      "For B008, the committee must decide whether the physical achievement can be stated distinctly enough when the contribution is also a theoretical framework and method.",
+      "For B015, the proposed case depends on how the approximation's strengths and limits support recognition of a durable physical advance."
+    ],
+    "attribution_disputes": [
+      "For B007, the proposed trio represents foundational codes and a topological approach, but the broader development and experimental realization involved many contributors.",
+      "For B008, the boundary between the BPZ trio's foundational results and the wider history of conformal symmetry and critical phenomena needs definition.",
+      "For B035, the historical division between Katori's lattice-clock concept and Ye's experimental contributions needs checking against the original work; wider development of optical frequency standards also involved others.",
+      "For B015, the foundational contributions of Georges, Vollhardt, and Kotliar need delimitation within DMFT's collaborative development."
+    ],
+    "maturity_disputes": [
+      "For B007, the foundational principles have experimental support, while scalable fault-tolerant operation remains unrealized; members differ in how that affects readiness for recognition.",
+      "B035 is described as experimentally mature and reproduced across laboratories, with the remaining reservation focused on the boundaries of the credited advance.",
+      "For B015, the framework has decades of application, but its predictive reach depends on the system, implementation, and extensions."
+    ],
+    "conflict_or_recusal_flags": [
+      "Johansson disclosed professional proximity to the broader quantum-computing field through WACQT leadership and superconducting quantum-computing research; he reports no direct connection to B007's credited researchers and no specific recusal conflict.",
+      "Danielsson noted intellectual proximity to related theory in considering B008; no direct professional connection or recusal flag is reported.",
+      "Olsson noted that her Chalmers affiliation is shared with committee colleague Johansson; no connection to B035's candidates or reason for recusal is reported."
+    ],
+    "questions_for_round2": [
+      "For B007, what precise citation can recognize the foundational codes and topological approach while making clear that scalable fault-tolerant operation remains unrealized and later experimental work is not being attributed to the proposed trio?",
+      "For B008, which exact results or physical predictions best define the trio's contribution to two-dimensional critical phenomena without claiming the broader history of conformal symmetry?",
+      "For B035, what does the original record establish about the respective contributions of Katori and Ye, and how should the citation distinguish the lattice-clock advance from subsequent metrology improvements?",
+      "For B015, what historical evidence best delimits the three proposed contributors' foundational roles, and how should the citation reflect DMFT's limits in finite-dimensional systems?"
+    ],
+    "chair_observation": "The round presents several mature and influential proposals, with recurring questions about how to state a bounded physical achievement and assign credit within broader collaborative developments. The clearest differences concern the balance between foundational theory and experimental maturity, and the historical scope of each proposed citation."
+  }
+}

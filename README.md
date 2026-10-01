@@ -72,3 +72,17 @@ Agents are run through a documented orchestration workflow, each given only the 
 The versioned Physics phase-2 methodology is in `docs/PHYSICS_PHASE2.md`.
 The arm allocation, output paths, exclusions, and comparison rules are in
 `docs/PHYSICS_EXPERIMENT_DESIGN.md`.
+
+## Current Physics results
+
+The GPT-5.6 Terra committee arm is complete: 60 validated simulations, with
+full discussions and runtime audit trails retained. Hidetoshi Katori and Jun
+Ye won 59 simulations; Harald Rose, Maximilian Haider, and Ondrej L. Krivanek
+won one. See `results/physics/terra_committee_summary.json` for aggregate
+counts and `results/physics/terra_committee_summary.csv` for one row per
+simulation.
+
+The separate GPT-6.1 Sol baseline is also complete. All 60 accepted requests
+received only the fixed question in step 5 above. Its post-hoc transcription
+summary is in
+`results/physics/oneshot/gpt-6.1-sol/posthoc_transcription_summary.json`.

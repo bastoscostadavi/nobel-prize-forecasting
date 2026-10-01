@@ -225,3 +225,10 @@ GPT-5.6 Terra committees, and the global GPT-6.1 Sol one-shot baseline as
 separate arms. Six earlier flat GPT-6.1 Sol committee decisions are retained as
 legacy/pilot data and excluded from the primary arms; they must never be
 relabeled as Terra results.
+
+While the paired Claude arm is being completed,
+`scripts/summarize_terra_committees.py` deterministically reduces the finished
+Terra arm alone to `results/physics/terra_committee_summary.json` and
+`results/physics/terra_committee_summary.csv`. It requires all 60 Terra
+decisions, reports the two nominator-list sources separately, and includes the
+paths of rejected-and-retried intermediate responses for audit.

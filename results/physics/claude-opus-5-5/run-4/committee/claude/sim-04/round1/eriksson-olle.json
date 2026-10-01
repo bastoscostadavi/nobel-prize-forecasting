@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-04",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B042",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "citation": "for the theoretical prediction of flat electronic bands at a magic twist angle in bilayer graphene and the experimental discovery of correlated insulating and superconducting states in twisted bilayer graphene, opening the field of moire quantum materials"
+      }
+    ]
+  },
+  "alternatives": [
+    "B030",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "Magic-angle twisted bilayer graphene is the case I find closest to what the physics prize is for: a theoretical prediction (Bistritzer and MacDonald, 2011, a flat band at a magic angle from a simple continuum model) followed by an experimental discovery (Jarillo-Herrero's group, 2018) of correlated insulators and superconductivity in a clean, gate-tunable material. Theory made a quantitative prediction, nature delivered a new quantum state, and the effect has since been reproduced by several independent groups (Dean, Young, Yacoby, Efetov, Yazdani and others) and carried into other moire systems such as TMD bilayers. That is the pattern of 'quantum mechanics keeps surprising us', and it also resonates with how a two-dimensional carbon layer once overturned what theorists believed. The continuum model is the sort of transparent, reproducible theory that can be checked against spectroscopy and transport, and it has been backed by first-principles and tight-binding calculations. Eight years is early but not unusually so, and the main discovery is no longer in doubt. Support across the committee is the broadest of any candidate: all eight members ranked it, and five placed it in their top four or better.",
+    "case_against": "The microscopic mechanism of the superconductivity and the nature of the correlated insulators are still debated, and twist-angle disorder makes sample-to-sample reproducibility a real concern. The credited trio also does not capture the experimental community: Yuan Cao, the first author of the 2018 papers, is not eligible under the statutes if three is the limit, and Dean, Young, Yacoby and Efetov, as well as the earlier continuum-model work of Lopes dos Santos, Peres and Castro Neto, have arguable claims. If the committee decides that timing or credit is not yet clean, the award could be premature, and a more mature topic such as optical lattice clocks would be safer.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked B042 first for a clean minimal model with very high originality and impact, but notes that Cao, a junior first author, is not credited and that other moire pioneers may deserve consideration.",
+        "response": "I agree with the scientific assessment and share the worry about Cao. I would not resolve it by widening the list, since the statutes cap us at three, but we should word the citation around the discovery and the prediction rather than a person's role, so that it reads as recognising the platform and not the one group. I would add that the Bistritzer-MacDonald model is the part of this story I trust most, because it predicted the magic angle before nature showed it, and that makes the theory-plus-experiment pairing defensible even with the experimental credit being concentrated on the group leader."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked B042 only seventh, asking whether the field has yet delivered a stable physical principle given unsettled pairing physics and sample reproducibility, and put optical lattice clocks first on quantitative, cross-checked evidence.",
+        "response": "This is a fair challenge and I take the reproducibility point seriously, as it is the criterion I care most about. My answer is that what needs to be stable is the discovery, not the mechanism: the flat band at the magic angle and the existence of correlated insulators and superconducting domes have been seen by many groups with different device architectures, and the same physics appears in other moire systems. Superconductivity in cuprates was also honoured before its mechanism was understood. I do accept that lattice clocks are better on a quantitative, cross-lab comparison, and that is why B012 is my second alternative, but a clock is a measurement technique and a new state of matter is a discovery, which for me weighs more."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranked B012 first and B042 only fourth, calling recognition of twisted bilayer graphene slightly early because the superconducting mechanism is unresolved, while still valuing the unexpected result.",
+        "response": "I accept that B042 is younger than the clocks and I do not want to dismiss the timing argument, which would be decisive if the discovery were still being contested. I would qualify it: the lattice-clock work builds on the frequency-comb prize of 2005 and the ion-clock prize of 2012 in a way that could be read as an extension, whereas moire quantum materials open a new physical regime. I would also like to hear from Lindroth whether she regards the Katori-Ye credit as fully clean, since Lemonde, Takamoto and others were early in the same area."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson put B005 first and B020 second, ranked B042 sixth because reproducibility is limited by twist-angle disorder and interpretation is not yet stable, and ranked B030 fourth while deferring to condensed-matter colleagues.",
+        "response": "On B030, which I ranked third, I would welcome his deference but want to be clear that the attribution is the real problem: Kane and Mele predicted the effect, Molenkamp observed it, but Bernevig, Hughes and Zhang predicted the HgTe realisation and Zhang is deceased, and the three-dimensional case involves Fu, Moore, Balents and Hasan. For that reason I rank B030 as an alternative and not first. On circuit QED, I agree it is a conceptually clean and consequential discovery, but the 2025 prize on circuits makes a second superconducting-circuit award so soon hard to justify, a concern that Johansson himself, Kroll, Lindroth and Pearce all noted."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee judges the mechanism of superconductivity in twisted bilayer graphene to be a necessary part of the discovery or an open follow-up question.",
+      "How to treat the experimental credit (Cao, Dean, Young, Yacoby, Efetov) and the earlier continuum-model work of Lopes dos Santos, Peres and Castro Neto within a three-person limit.",
+      "Whether the topological-insulator prize area (B030) would be seen as overlapping with the 2016 prize, and whether Bernevig, Hughes and Zhang can be fairly handled.",
+      "How much weight to give optical lattice clocks (B012), which has the broadest first-place support but may be read as an extension of the 2005 and 2012 prizes."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I am a theoretical condensed-matter physicist who works on first-principles electronic structure and magnetism, not on moire systems or topological insulators, and I have no known collaboration with the credited candidates. My profile does list that I chaired the committee for the 2025 prize, which recognised superconducting-circuit macroscopic quantum tunnelling, and I have taken that into account when weighing the overlap with B005."
+  }
+}

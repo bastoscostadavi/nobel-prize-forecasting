@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-03",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B019",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of optical lattice clocks, which have brought atomic frequency standards to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B017",
+    "B004"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are a clean case of a simple idea, Katori's magic-wavelength trap in which the light shift cancels for the clock transition, turned into the most precise measurement instruments ever built. Many laboratories (RIKEN, JILA, SYRTE, PTB, NIST) have reproduced them, and international clock comparisons agree at the 10^-18 level. They already do fundamental physics: gravitational redshift resolved over millimetres, bounds on drifts of constants, searches for dark-matter signatures, and the coming redefinition of the second. The attribution is the cleanest on the shortlist: two names, a concept-plus-first-demonstration by Katori and the many-body and systematics frontier by Ye, with both named by five of eight colleagues. Because the prize can be explained to a general audience through one image, atoms held in an optical standing wave and read out with light, it matches what I value: a result that says something new about how nature works at the limit of precision, and that others have verified and built on.",
+    "case_against": "The strongest reservation is overlap with earlier prizes. Hall and Hänsch (2005) gave us the comb that makes optical clocks countable, and Wineland and Haroche (2012) covered control of single quantum systems, including ion clocks. A committee could read lattice clocks as an exceptionally successful refinement of those ideas, an evolution of precision rather than a new discovery. The credit may also be incomplete: single-ion clock groups, Lemonde at SYRTE, and theorists such as Derevianko who identified the relevant magic wavelengths and systematic shifts are outside the two names, and the Katori-Ye split between concept and implementation will be argued. Finally, I am an atomic theorist, so I may be inclined to overvalue my own corner of physics; I should hold myself to the same standard of independent evidence I demand elsewhere.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks lattice clocks first as a new measurement capability that underpins relativistic geodesy, tests of constants and the redefinition of the second, while noting that the comb prize of Hall and Hänsch might be seen as overlapping.",
+        "response": "I agree on the capability argument and I share the concern about overlap, but I think it is smaller than it looks. The comb is the ruler, whereas the lattice clock is a different physical idea: removing the dominant systematic by choosing a wavelength where the trap does not shift the transition, while interrogating thousands of atoms at once. The 10^-18 regime was not a continuation of the 2005 or 2012 work; it needed many-body control of collisions and lattice-induced shifts. Where I would press you is on the pair. You treat Katori and Ye as a clean duo, but I would ask the committee to state in the citation that the concept and the first demonstration are Katori's, so the prize does not read as a prize for accuracy records alone."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks twisted bilayer graphene first and values it as a new tunable platform where flat bands and strong correlations can be studied, with the Bistritzer-MacDonald prediction telling the community where to look, while Katori and Ye are only fourth for her.",
+        "response": "The prediction-then-discovery story is persuasive and I would not call it second-rate; I defer to you and Bernhard on the condensed-matter details. My worry is maturity, which I weigh the way I weigh a calculation: the correlated phases were seen in 2018, the pairing mechanism is still unresolved, and sample-to-sample twist-angle disorder makes quantitative reproducibility harder than for a clock whose uncertainty budget is agreed by several institutes. I would rather wait for a clear theory-experiment consensus on what the superconductivity is than award it while the central physics question is open. What new evidence in the next two or three years would change your view about whether the discovery is already stable enough, and does your preferred three-name set, including Bistritzer, survive the objection that the experimental credit sits with junior authors not named?"
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first because it realises strong single-photon, single-artificial-atom coupling on a chip and became the architecture of superconducting qubits, and sees it as following naturally from the 2025 prize on circuit tunnelling.",
+        "response": "Circuit QED is a genuine physics discovery, with a clear theory proposal (Blais) and a clear first experiment (Wallraff, Schoelkopf), and I ranked it third for that reason. But I disagree that the 2025 prize makes it natural. For me the link cuts the other way: the committee has just honoured superconducting circuits as macroscopic quantum systems, and the immediate follow-up in the same platform, with the transmon and Yale programme (Devoret, Girvin, Koch) left out of the credit, risks looking like we are rewarding the quantum-computing hardware race rather than a separate discovery. I do not dismiss it, and it is my second alternative, but I would want the citation to be restricted to strong coupling and dispersive readout, and I am not convinced it is ahead of lattice clocks on stability of interpretation."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks lattice clocks sixth, calling it highly mature but close in spirit to earlier metrology prizes and possibly a long incremental improvement instead of a single discovery, and puts active matter first.",
+        "response": "The incremental-improvement worry is the one I take most seriously, and I would answer it by pointing at what changed qualitatively: once the uncertainty went below 10^-17 the clocks stopped being a metrology exercise and became a probe, for example resolving the gravitational redshift over a millimetre scale and bounding variations of constants. That is a new way of observing nature. On active matter, I find the Vicsek flocking transition and Toner-Tu long-range order beyond Mermin-Wagner intellectually attractive, but you yourself note the exact exponents are only partly tested and Yuhai Tu is missing from the credit. I would be glad to hear from you why this should be seen as a decisive and verified discovery now, and whether you would regard the credit gap as disqualifying."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks topological insulators first as a clear theory-then-experiment story, with Kane and Mele supplying the Z2 framework and Molenkamp the HgTe observation, over fifteen years of confirmation.",
+        "response": "I accept that this is a strong, mature candidate, and I put it fifth only because I defer to condensed-matter colleagues, not because I see a flaw. Your own opening notes the weak point: the Bernevig-Hughes-Zhang proposal that Molenkamp's experiment actually tested is outside the names, and Zhang died in 2018, so the credit cannot be completed. The overlap with the 2016 prize on topological phases is also something I cannot judge myself. Could you say whether you see the quantum spin Hall effect as sufficiently distinct from the Thouless-Haldane-Kosterlitz prize, and whether the credit gap could be repaired by a different framing, such as the B010 variant that adds Xue?"
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat lattice clocks as a separate achievement or as a continuation of the 2005 comb and 2012 control-of-single-systems prizes.",
+      "Whether theory contributions (Derevianko and others on magic wavelengths and shifts) and other lattice-clock groups such as SYRTE should be weighed against the two credited names.",
+      "I rely on my own recollection of dates and priorities and have not checked them against the record.",
+      "Whether two clean laureates is preferable to a two-part prize that also recognises a many-body quantum simulation result, since a three-person union would leave only one slot beyond the clock pair."
+    ],
+    "conflict_note": "No specific conflict is apparent for the shortlisted names Katori, Ye, Bloch, Greiner, Zoller or the circuit-QED trio from my profile. I am a long-time collaborator of Anne L'Huillier (Lund, a 2023 laureate) and have co-authored with the Lund and Keller (ETH) attosecond groups, but none of these appear on this shortlist; I note it for transparency."
+  }
+}

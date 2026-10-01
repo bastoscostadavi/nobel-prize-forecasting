@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-05",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B022",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of optical lattice clocks that reach a fractional uncertainty of 10^-18"
+      }
+    ]
+  },
+  "alternatives": [
+    "B018",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "I opened with B018 (dynamical mean-field theory), but reading the other seven ballots I now think the strongest configuration is B022. Four members placed it first and two more in the top three, and, more importantly, the supporting arguments agree on the physics. The magic-wavelength idea (Katori) removes Doppler and recoil shifts for many atoms at once, and the 10^-18 systematic control (Ye and JILA) was then reproduced and compared across JILA, RIKEN/Tokyo, PTB, NIST and SYRTE. That independent confirmation is exactly the robustness I look for as a theorist who has spent years checking that different DFT codes agree. The result is a clean, quantitative instrument that opens relativistic geodesy at the millimetre scale, tests of varying constants and a likely redefinition of the second, and it rests on atomic structure and many-body physics that theory can explain. The two-name credit is clean and both people are alive and unambiguous in priority, which is rare on this list.",
+    "case_against": "B022 is an instrument and measurement achievement rather than the discovery of a new state of matter or a new quantum phenomenon, and the committee has recently honoured frequency combs (2005) and ion-based metrology (2012), so some will say this is the same territory again. Credit also leaves out Lemonde, Ludlow, Hinkley and others who made the clocks work, and the redefinition of the second has not happened yet, so societal payoff is still prospective. My own first choice, B018, has a deeper conceptual claim in my field but a real attribution gap (Metzner is not among the credited names) and is a method rather than a phenomenon, which makes it a harder prize to write a citation for.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks B022 first as an unambiguous discovery with a clean two-name credit, while asking whether the committee sees it as sufficiently distinct from the earlier comb and ion-clock prizes.",
+        "response": "I agree with the ranking and I think the distinctness question can be answered. The 2005 prize recognised the frequency comb as a tool and the 2012 prize recognised control of single trapped ions; the lattice clock is a different principle, interrogating many neutral atoms at the magic wavelength, and it is what brought uncertainty to 10^-18 and enabled many-body clock physics. I would still write the citation around the lattice concept and the 10^-18 performance, not around timekeeping in general, so the distinction is explicit. Your point that credit allocation among JILA, Tokyo and the European groups is unresolved is fair, and I would not extend the credit beyond two names."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks B011 (KTHNY hexatic melting) first and B018 only fifth, calling DMFT an approximation scheme rather than a discovery of a new phenomenon and noting that Metzner is missing from the credited names.",
+        "response": "On B018 I partly concede your point. DMFT is a controlled framework and its use with photoemission and cold-atom data is well documented, but you are right that it is a method, and the Metzner omission is real, so I no longer put it first. I disagree with you about B011 being the more natural choice: the KTHNY theory is deep and mature, but it is a 1970s theoretical result whose experimental confirmation varies between systems, and a prize largely for theory with a scenario that is not universally realised is harder to defend than a measurement reproduced at 10^-18 in many laboratories. I would keep B011 below B022 for this cycle, although I take seriously that its recognition is overdue."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks B038 (tunnel magnetoresistance) first as an original, verified experiment with clear technological benefit, and flags that the committee must distinguish it from the 2007 GMR prize.",
+        "response": "I ranked B038 third myself and agree that the physics is confirmed, including the first-principles explanation of symmetry-filtered tunnelling in MgO. My reservation is the one you raise: the 2007 prize already recognised spin-dependent transport in magnetic multilayers, and the credit list here does not cover the MgO result properly because Yuasa, Djayaprawira and the theorists (Butler, Mathon) are outside the three names. I would need a convincing way to fit the MgO part into three names before I would move it ahead of B022; if the committee can do that, it should be one of the two or three serious contenders."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth, an atomic physicist, ranks B022 first and sees the lattice clock as a quantitative leap that turns atomic structure and many-body physics into a precision tool, and she places B028 fourth as unexpected but possibly early.",
+        "response": "Your assessment of B022 is persuasive to me precisely because it comes from the field, and I am an outsider to atomic metrology. I agree with your caution on B028: the discovery is solid and widely reproduced, but the pairing mechanism of the superconductivity is not understood, and Cao and Fatemi, the experimental lead authors, are not credited. I regard B028 as a good prize in a few years and a reasonable second choice now."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee views the optical lattice clock as sufficiently distinct from the 2005 frequency-comb and 2012 ion-metrology prizes.",
+      "Whether a prize in precision metrology fits the weight members give to discovery of new physical phenomena, given that the second has not yet been redefined.",
+      "How to handle the DMFT credit (Metzner) if B018 is taken forward, and whether a method can be cited as a physical discovery.",
+      "Whether B028 is early because the superconducting mechanism is unsettled, and how to treat the uncredited experimental first authors."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My field is first-principles electronic-structure theory and magnetism, close to B018 (DFT+DMFT) and the theory underlying B038, but I have no stated collaboration, institutional or student link to any credited person on the shortlist."
+  }
+}

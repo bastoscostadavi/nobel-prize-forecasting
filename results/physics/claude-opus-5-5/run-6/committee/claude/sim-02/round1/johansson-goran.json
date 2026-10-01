@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B020",
+        "laureates": ["Immanuel Bloch", "Markus Greiner", "Tilman Esslinger"],
+        "citation": "for experimental realisation of the Hubbard model with ultracold atoms in optical lattices, from the superfluid-to-Mott-insulator transition to fermionic and single-site-resolved quantum simulation of correlated matter"
+      }
+    ]
+  },
+  "alternatives": ["B024", "B006"],
+  "statement": {
+    "case_for": "Having listened to the opening ballots I move my preferred configuration from circuit QED (B002) to optical-lattice quantum simulation (B020). The physical case is that a model Hamiltonian written down by theorists, the Bose- and Fermi-Hubbard models, was turned into a tunable, directly imaged laboratory system. The Mott-insulator transition, fermionic Hubbard physics and single-site-resolved microscopy each opened a regime in which correlations can be read out atom by atom. The results have been reproduced and extended in many laboratories over two decades, and the link between experiment and theory is quantitative. It is also the candidate with broad cross-subfield support in the openings (Lindroth first, Kroll and I third, Eriksson and Pearce sixth, Mehlig eighth), which is more convincing evidence of a robust discovery than a single enthusiast. The three experimentalists I credit are the ones most associated with the decisive observations.",
+    "case_against": "The credit is genuinely difficult. The theory proposal of Jaksch and Zoller, and Cirac's role, sit behind the experiments, and five supplied names cannot all be honoured. Choosing the experimental trio leaves out the people who explained why the experiment was possible, and choosing Zoller instead of Esslinger leaves out fermionic Hubbard physics. The prize history also weighs on it: BEC (2001) and ultracold atom control (1997, 2012 for ion control) already cover adjacent ground. Finally, the physics payoff that would settle the case, for example the doped Hubbard model and the pseudogap, is not yet in hand, so one can argue that the simulator is a powerful platform whose headline result is still ahead.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B020 first and proposes Bloch, Greiner and Zoller: one theorist who proposed the lattice Hubbard realisation plus the two experimentalists of the Mott-insulator observation.",
+        "response": "I take the point that the proposal is what made the experiment possible, and I do not dismiss Zoller. But he also appears in B006, and the shortlist overlap means that crediting him here would effectively reward the same person for two candidates. My reservation with Bloch, Greiner and Zoller is that fermionic Hubbard simulation, the part that speaks to the correlated-electron problem, then has no experimental voice. I would keep Esslinger, and I accept that this leaves the theory credit as the weakest part of my configuration. If the committee decides that the discovery is the proposal plus the Mott observation, I could support her trio."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clocks (B024) first as a measurement that redefines what can be measured, and also favours an experimental trio of Bloch, Greiner and Esslinger for B020.",
+        "response": "I agree with him about the experimental trio and about the replication across laboratories. On the clocks, I find the attribution clean and the confirmation unusually good, and I have moved B024 up to my first alternative. Where I disagree is on what is rewarded: a stunning measurement of a known quantity versus a controllable system in which previously inaccessible many-body states are prepared. I do not read that as a decisive difference in quality, and I am outside my own field when I judge the metrology. I would be glad to hear his view of whether the lattice-clock result opened new physics or perfected an existing method."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson places the trapped-ion candidate (B006) mid-ballot and notes that the 2012 prize on ion control and the 2025 circuit prize narrow the room for it.",
+        "response": "That is a fair challenge to my own second choice, and it lowers my confidence in B006. The 2012 prize covered ion control, so the new credit must rest on the Cirac-Zoller computing proposal and the gates, entanglement and simulation by Blatt, and I think that is distinct but arguable. I also take his point that the three-name configuration omits Monroe and Wineland-era contributors. This is why I now keep B006 as a second alternative rather than my lead."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce favours detector-driven discoveries (IceCube neutrinos, B052) and supports the lattice clocks as a precision achievement.",
+        "response": "I respect the instrument-building criterion, but I cannot judge neutrino astronomy and would defer to Danielsson and him on B052, including whether a one-person credit is fair to the collaboration. I would note that the same criterion, a new instrument making a quantity observable, applies to quantum-gas microscopy in B020, so it does not separate his top choices from mine."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee would accept a purely experimental trio for B020 or insist on crediting the Jaksch-Zoller proposal, and how Zoller's presence in B006 should be handled.",
+      "Whether the supplied names cover the right people for the Mott-insulator observation, since Hansch and Jaksch are outside the credited list.",
+      "Whether the physics payoff of lattice quantum simulation is established enough, given that the doped Hubbard model is still unsolved.",
+      "How much weight the 2025 circuit prize should have against B002, which I have now moved out of my preferred configuration."
+    ],
+    "conflict_note": "I am a theorist in superconducting circuits and director of WACQT at Chalmers, and I know several people in the circuit-QED candidate B002 (Blais, Wallraff, Schoelkopf, Girvin), so I should recuse myself from the final decision on B002 and be cautious about B026 and B022. My profile shows no personal or institutional connection to the B020, B024 or B006 candidates; Chalmers hosts only an indirect cold-atom link through WACQT, with Lund and KTH collaborators outside the credited names."
+  }
+}

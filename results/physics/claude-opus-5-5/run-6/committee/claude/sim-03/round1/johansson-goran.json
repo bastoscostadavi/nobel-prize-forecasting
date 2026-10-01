@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Alexandre Blais",
+          "Robert J. Schoelkopf",
+          "Andreas Wallraff"
+        ],
+        "citation": "For the theory and experimental realisation of circuit quantum electrodynamics, in which a superconducting artificial atom is strongly and controllably coupled to a single microwave photon on a chip"
+      }
+    ]
+  },
+  "alternatives": [
+    "B029",
+    "B018"
+  ],
+  "statement": {
+    "case_for": "Circuit QED opened a genuinely new regime of light-matter interaction: a single macroscopic-circuit artificial atom coupled strongly to a single microwave photon in a resonator, with a coupling strength and coherence that cavity QED with natural atoms could not offer. The 2004 theory proposal and the Wallraff et al. strong-coupling experiment were followed by dispersive readout, photon-number-resolved control, bus-mediated two-qubit entanglement and the transmon, which together form the architecture of nearly every superconducting processor. It has been reproduced and extended in many laboratories on several continents for two decades, the interpretation is stable, and it is a clean case of a foundational quantum-optics result becoming an enabling platform. The prize would reward the discovery of the regime and the toolbox, not the promise of a fault-tolerant computer, which is still ahead of us.",
+    "case_against": "The strongest reservation is adjacency: the 2025 prize recognised macroscopic quantum tunnelling and energy quantisation in superconducting circuits, and a committee may reasonably feel that a second superconducting-circuit prize so soon crowds out other fields. There is also a real attribution problem, because four credited people (Blais, Girvin, Schoelkopf, Wallraff) compete for three places, and the transmon and amplifier work involves Koch, Houck and others who are outside the credited set. Finally, part of the weight of the field rests on engineering progress in coherence and gate fidelity rather than on the 2004 discovery itself, and I am the member closest to this community.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks optical lattice clocks first for the quantum-limited many-atom oscillator and the clarity of the 1e-18 metric, and ranks circuit QED second while flagging adjacency to the 2025 prize.",
+        "response": "I agree the clock case is excellent: the magic-wavelength idea is simple, general and verified across JILA, RIKEN, PTB, NIST and SYRTE, and Katori and Ye is the cleanest two-name configuration on the list. Where I differ is on adjacency. The 2025 prize rewarded tunnelling and level quantisation in a Josephson circuit, which is a statement about a macroscopic variable. Circuit QED is a different discovery, about coherent exchange of single excitations between a circuit and a photon. The clocks are also adjacent to prior prizes (Hall and Haensch 2005, Wineland 2012), so adjacency does not discriminate between our two candidates. I would still accept B029 as a strong alternative and would not oppose it."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth puts the optical lattice clock first for precision, robust theory-experiment agreement and timeliness with the redefinition of the second, and ranks circuit QED sixth because it follows closely after 2025.",
+        "response": "I respect the weight Lindroth puts on precision, and the clock is a model of controlled systematics. My reservation is that the clock result is a metrological refinement of a quantity already measured through the comb and ion clocks. Circuit QED created a new accessible regime of quantum physics and a platform others now build on. On her sixth-place ranking, I understand the 2025 concern, but I would ask her to separate the question of scientific merit from the question of sequence. I do not ask for consensus, and I note that she and I both name Blais among the three, which suggests we agree on the theory credit."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks magic-angle graphene first as a theory prediction followed by a decisive experiment, and puts circuit QED eighth on grounds of closeness to 2025, choosing Girvin over Blais as the leading theorist.",
+        "response": "The Bistritzer-MacDonald model is a beautiful prediction and the correlated phases have been reproduced widely, so I do not dismiss B031. My qualification is maturity: the mechanism of superconductivity is still debated, and the field is under a decade old, which is the concern Danielsson also raised. On attribution I disagree with Eriksson on Girvin versus Blais. Girvin's role as a theory originator is real, but the 2004 proposal was led by Blais, who did the detailed theory of dispersive readout and coupling, so I keep Blais and accept that excluding Girvin is a hard judgement call. I would not object to a committee that decided otherwise."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks NV-centre spin detection and control first as a visible, verifiable new tool, and proposes only Wrachtrup and Jelezko, leaving out Lukin.",
+        "response": "I find her attribution argument convincing, and I moved my own view in that direction: the single-NV detection and coherent control are the discovery, and Lukin's later quantum-register and sensing work is built on it. I ranked B001 sixth because the sensing claims in biology are still developing and the credit boundary against Hanson, Awschalom and others is unclear. If the committee preferred a pair, Wrachtrup and Jelezko is the defensible one. I do not see B001 as stronger than circuit QED on scientific novelty, but it is a serious competitor and not a fallback."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks magic-angle graphene first, as a rare simple model that organised a hard many-body problem and was confirmed, and ranks optical lattice clocks second.",
+        "response": "I agree that the continuum model is elegant and that confirmation came fast. Outside condensed matter I defer to him on whether the origin of superconductivity matters for timing, but I note that he himself flags it as open. I would ask whether a prize for the platform should wait until the mechanism is settled, since the Committee has historically been comfortable awarding a robust phenomenon before its microscopic explanation is complete. That cuts in favour of B031 as much as against, and I leave it with him."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat circuit QED as sufficiently distinct from the 2025 prize on macroscopic quantum tunnelling, or as too close in time.",
+      "Whether Blais or Girvin should take the third theory slot alongside Schoelkopf and Wallraff, and how to weigh the transmon and amplifier contributions of Koch, Houck and others outside the credited set.",
+      "Whether the optical lattice clock or twisted bilayer graphene is the stronger competitor once maturity (redefinition of the second, mechanism of superconductivity) is considered.",
+      "My ranking of NV centres and trapped ions relative to the leaders is sensitive to how much weight the committee gives to long-term confirmation versus novelty."
+    ],
+    "conflict_note": "I am the Director of the Wallenberg Centre for Quantum Technology and a Chalmers theorist in superconducting circuits, so B004 is in my own research area and my community. I know several of the circuit-QED principals through the field, Chalmers hosted 2025 laureates as WACQT guest researchers, and my Chalmers colleagues (Delsing, Wilson, Kockum) work on closely related waveguide QED. I flag this as a possible recusal issue for B004 and defer to the chair on whether I should step back from that candidate. I have no specific conflict for the other shortlisted candidates, apart from my ordinary training in mesoscopic transport."
+  }
+}

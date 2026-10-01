@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B031",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "citation": "For the theoretical prediction of flat moire bands at a magic twist angle in bilayer graphene and the experimental discovery of correlated insulating and superconducting states in magic-angle twisted bilayer graphene"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B029"
+  ],
+  "statement": {
+    "case_for": "Magic-angle twisted bilayer graphene is a clean case of a theory prediction followed by a decisive experiment, in a single tunable material. Bistritzer and MacDonald obtained the flat band at the magic angle from a transparent continuum model in 2011. Jarillo-Herrero and colleagues showed correlated insulators and superconductivity in 2018. The phenomena have been reproduced by many groups, and the flat-band picture is supported by continuum and ab initio calculations, which is the robustness test I apply first. The result is new quantum behaviour in a material and it started a large field of moire quantum matter. It also continues the 2D-crystal tradition that surprised us with graphene in 2010. Colleagues from different subfields (Mehlig, Olsson, Pearce, Danielsson) all ranked it, which gives me some confidence that my preference is not only a condensed-matter bias.",
+    "case_against": "The strongest reservations are timing and attribution. The field is under ten years old, the pairing mechanism of the superconductivity is unresolved, and device-to-device variation from twist-angle disorder and strain limits reproducibility. Attribution is genuinely awkward: Yuan Cao, the lead experimental author, and Cory Dean's group, which showed the related hBN-aligned moire physics, are not credited, and a postdoc-level co-author (Bistritzer) sits in the third slot. A committee that wants a settled mechanism could reasonably wait. Topological insulators (B016) are the better-matured alternative, though their attribution is harder still.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked B031 seventh and judged recognition somewhat early: the field is under ten years old, the origin of the superconductivity is unsettled, and Cao as first author and Dean's group have claims.",
+        "response": "I take the timing concern seriously, but I would separate the discovery from the mechanism. What the experiments established, correlated insulators and superconductivity at the magic angle, has been reproduced by many groups for several years. The unsettled pairing mechanism does not undermine this; we recognised superconductivity discoveries before the mechanism was understood. I agree on attribution, and I do not think I can resolve the Cao and Dean question from the supplied names. I would still keep the prize focused on the 2011 prediction and the 2018 experimental discovery."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranked B031 second and proposed only Jarillo-Herrero and MacDonald, asking whether the experiment-plus-prediction pair is cleaner than adding Bistritzer, who was a postdoc on the 2011 paper.",
+        "response": "A two-name version is defensible and I would not oppose it. I keep Bistritzer because the 2011 prediction is a joint paper and its first author is the person who did the calculation; leaving him out would undercount the theory half, and a three-person limit is available. If the committee prefers Olsson's pair, the credit should be worded as the prediction (MacDonald) and the experimental discovery (Jarillo-Herrero), and I would want that choice discussed rather than assumed. On B001, I rank it sixth: Olsson's original two, Wrachtrup and Jelezko, is a cleaner attribution than adding Lukin, but I find the discovery less central than B031."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked B031 sixth, noted that the microscopic mechanism of the superconductivity is not settled so the physics may lack a stable interpretation, and deferred to condensed-matter colleagues.",
+        "response": "The single-particle flat-band picture is stable and independently checked; what is open is the many-body ground state and the pairing. I would put that open question in the uncertainties, not in the case against the discovery. I also want to offer a calibrating point for the committee: reproducibility between devices is the real practical issue, since twist-angle disorder changes which phases appear, and I would ask the experimentalists on the committee whether superconductivity has been seen in enough independent samples and groups. I accept that, for the same reason, my own enthusiasm should be weighed against more mature candidates."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked B031 first, highlighting a simple analytic model that organised a messy many-body problem and was confirmed by experiment, with good timing since the discovery is nearly a decade old.",
+        "response": "I agree with the scientific case. I would qualify the claim that earlier theory (Lopes dos Santos, Peres and Castro Neto) can be set aside: they found the twist-angle dependence of the bands, and a citation should say 'magic angle flat bands' with care so that it does not over-claim. I do not see that as a reason to change the configuration, because the quantitative magic-angle prediction is Bistritzer and MacDonald's."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranked the optical lattice clock (B029) first, valuing precision and robust theory-experiment agreement, and noted it was confirmed by many laboratories at the 1e-18 level.",
+        "response": "I accept that B029 has the strongest reproducibility record among the shortlisted candidates and a clean two-name credit. My reservation is novelty relative to the 2005 and 2012 prizes on combs and ion control, which Kroll and Olsson also raised, and I would rate it as a refinement of precision spectroscopy more than as a new behaviour of matter. It is nonetheless a serious candidate, which is why I list it as an alternative."
+      }
+    ],
+    "uncertainties": [
+      "Whether Cao and Dean's group should be credited, and whether Bistritzer or a two-name pairing is the better theory credit.",
+      "Whether the committee views the unresolved pairing mechanism and device-to-device variability as disqualifying at this stage.",
+      "How B016 should be structured given Zhang's death, the 2D versus 3D split and the missing Bernevig-Hughes-Zhang and Fu-Kane-Mele claims."
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile. I have no known personal or institutional connection to MacDonald, Jarillo-Herrero or Bistritzer; my work on 2D materials by DFT is a scientific interest, not a recusal issue."
+  }
+}

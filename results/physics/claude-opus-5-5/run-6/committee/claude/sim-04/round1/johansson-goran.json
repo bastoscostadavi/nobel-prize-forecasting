@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B015",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the development of optical lattice clocks reaching a fractional uncertainty of 10^-18, opening a new regime of precision measurement of time and frequency"
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "After reading the openings I have moved B015 from fifth place to my preferred configuration. Katori's magic-wavelength lattice removes Doppler and recoil shifts while interrogating thousands of atoms at once, and Ye's group turned that into record accuracy and stability with spin-polarised fermions, cavity-stabilised lasers and millimetre-scale gravitational redshift measurements. This is a clean, quantitative, reproducible step into a new regime, confirmed by clock-to-clock comparisons in several independent laboratories (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE). It is also the only candidate with six of eight members ranking it, four of them in the top three, and a two-name attribution that every member who proposed laureates supports identically. What I value as a theorist embedded in experimental teams is a result where every physical detail of the device is understood and the systematics are controlled, and that is exactly what this field has done.",
+    "case_against": "The strongest reservation is that this is a measurement advance built on prior recognised work: the frequency comb (2005) and ion clocks and single-quantum-system control (2012). The citation must therefore rest on a new level of precision and new measurement capabilities, not a new principle. The formal redefinition of the second has also not happened, so part of the payoff is still ahead of us. If the committee wants a prize for a discovery of a new phenomenon rather than for an enabling measurement, B015 is weaker than the moire-materials or neutrino-astronomy candidates.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked B015 first because lattice clocks improved the best instrument for time by two orders of magnitude over caesium and open new ways of observing nature (geodesy, constants, dark-matter searches), and he sees a clean Katori-Ye pair.",
+        "response": "I agree with the attribution and now rank B015 above my own field's candidate. I would qualify one point, though. The two-orders-of-magnitude comparison with caesium is a fair statement of impact, but the citation should stress the lattice-clock architecture and the 10^-18 demonstrations rather than a redefinition that is still pending. I also disagree mildly with your reading of B012. I think circuit QED is a more fundamental advance than you suggest, but the 2025 overlap you raise is a real timing objection that I now accept."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth, who knows precision atomic physics well, ranked B015 first for the magic-wavelength idea and 10^-18 performance, but asked how a metrology achievement is weighed against a discovery and whether the comb and ion-clock lineage leaves room.",
+        "response": "Your question is the central one for this candidate. My answer is that the lattice clock is an invention in the statutory sense, since it created a new way to observe nature, and it has produced physics results, such as the gravitational redshift across a millimetre, that no earlier clock could. The lineage argument is weaker than it looks. Combs and ion clocks supplied tools, but the many-atom, Doppler-free interrogation scheme is a distinct concept. I would still want your help drafting the citation so that it does not overlap with the 2005 and 2012 wording."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson placed B015 seventh and described it as a clear and reproducible achievement whose case rests on a new level of precision rather than a new principle, given the adjacent 2005 and 2012 prizes.",
+        "response": "I take the incrementalism worry seriously and cannot dismiss it, since the prize is for a discovery or invention, not for a record number. Where I disagree is that a new level of precision here opened qualitatively new measurements, namely relativistic geodesy and tests of fundamental constants, which is more than a scaling of an old method. I also note that your own top candidate, B051, and my B012 both carry unresolved attribution problems (Mele, Bernevig, Blais) that B015 does not, which counts in B015's favour."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked B015 third as a measurement advance with carefully controlled systematics, but his first choice is IceCube neutrino astronomy with a sole-laureate configuration.",
+        "response": "I defer to you and Danielsson on astroparticle physics, and I agree that opening neutrino astronomy is a real new window. My concern is the one you identify: a single name for a kilometre-scale collaboration, with AMANDA, Baikal and ANTARES pioneers outside the credit, is a hard attribution to defend. B015, with its two-person credit, is easier on that point, so I would put the attribution risk on the committee's agenda before the ranking."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee views the optical lattice clock as a sufficiently distinct invention relative to the 2005 comb and 2012 ion-clock prizes, and how to word the citation to make that distinction.",
+      "Whether Katori and Ye are the right pair given contributions by NIST, PTB, SYRTE and other clock groups, which I cannot weigh independently.",
+      "Whether a prize on circuit QED (B012) in 2026 would look like a second recognition of superconducting circuits so soon after 2025, and whether Blais can be excluded in any three-person version.",
+      "How much weight to give the still-pending redefinition of the second."
+    ],
+    "conflict_note": "I direct the Wallenberg Centre for Quantum Technology and work closely with superconducting-circuit groups at Chalmers, so I am personally and institutionally close to B012 (circuit QED) and, more broadly, to B011 in the quantum-computing community. I would recuse myself or defer to colleagues on B012 attribution. My opening ballot ranked B012 first, which should be read with this proximity in mind. No specific connection to B015 (Katori, Ye) is apparent from my profile."
+  }
+}

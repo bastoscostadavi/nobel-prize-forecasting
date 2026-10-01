@@ -78,11 +78,12 @@ Return n_nominations (files read), n_candidates, and the top 10 candidates.`
 const runs = args.runs
 const results = await pipeline(
   runs,
-  (run) => parallel(args.slugs.map(slug => () =>
+  // args.skip[run] = number of leading slugs (alphabetical) whose nomination file already exists for that run
+  (run) => parallel(args.slugs.slice((args.skip || {})[run] || 0).map(slug => () =>
     agent(nominatePrompt(slug, run), { label: `run ${run}: ${slug}`, phase: 'Nominate', schema: NOMINATION }))),
   (noms, run) => {
     const ok = noms.filter(Boolean).length
-    log(`${LIST} run ${run}: ${ok}/${args.slugs.length} nominations`)
+    log(`${LIST} run ${run}: ${ok} new nominations (${(args.skip || {})[run] || 0} already on disk)`)
     return agent(mergePrompt(run), { label: `merge run ${run}`, phase: 'Merge', schema: MERGE })
       .then(m => ({ run, returned: ok, merge: m }))
   },

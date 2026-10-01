@@ -19,6 +19,9 @@ RESULTS = ROOT / "results" / "physics"
 LIST_IDS = ("claude-opus-5-5", "gpt-6-sol")
 MODEL = "gpt-5.6-terra"
 REASONING = "high"
+DISPLAY_NAME = "Terra"
+ARM_ID = "physics-committee-gpt-5.6-terra-high-v1"
+RUNTIME_DIRECTORY = "terra_committee_runtime"
 EXPECTED_COUNT = 60
 OUTPUT_JSON = RESULTS / "terra_committee_summary.json"
 OUTPUT_CSV = RESULTS / "terra_committee_summary.csv"
@@ -60,7 +63,7 @@ def build_summary() -> tuple[dict, list[dict]]:
     paths = decision_paths()
     if len(paths) != EXPECTED_COUNT:
         raise ValueError(
-            f"expected {EXPECTED_COUNT} Terra decisions, found {len(paths)}"
+            f"expected {EXPECTED_COUNT} {DISPLAY_NAME} decisions, found {len(paths)}"
         )
 
     records: list[dict] = []
@@ -124,13 +127,13 @@ def build_summary() -> tuple[dict, list[dict]]:
 
     rejected = sorted(
         path.relative_to(ROOT).as_posix()
-        for path in (RESULTS / "terra_committee_runtime").glob(
+        for path in (RESULTS / RUNTIME_DIRECTORY).glob(
             "**/rejected-output.json"
         )
     )
     summary = {
         "schema_version": 1,
-        "arm_id": "physics-committee-gpt-5.6-terra-high-v1",
+        "arm_id": ARM_ID,
         "record_type": "committee_decision_summary",
         "model": MODEL,
         "reasoning_effort": REASONING,
@@ -195,7 +198,7 @@ def write_summary() -> None:
                     record["decision_path"],
                 ]
             )
-    print(f"OK: summarized {len(records)} Terra committee decisions")
+    print(f"OK: summarized {len(records)} {DISPLAY_NAME} committee decisions")
 
 
 if __name__ == "__main__":

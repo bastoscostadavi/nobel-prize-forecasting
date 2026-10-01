@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "For the invention and realization of optical lattice clocks, bringing neutral-atom frequency standards to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": ["B023", "B014"],
+  "statement": {
+    "case_for": "My own first choice, circuit QED (B043), has support only from me, and I am too close to that field to argue it against a candidate that most of the committee ranks first or highly. Reading the opening ballots, B024 has the broadest and most robust support: three first places, four top-three rankings, and all eight members ranked it with an identical two-person credit. On the science, a magic-wavelength lattice lets many neutral atoms be interrogated with minimal systematic shifts. Katori's proposal and first realization, together with Ye's group taking the clocks to 10^-18 accuracy and stability, is a clean case of a conceptual invention followed by independent reproduction at JILA, RIKEN/Tokyo, PTB, NIST and SYRTE. It opens tests of fundamental constants, relativistic geodesy and a redefinition of the second. The two-person attribution is unusually tidy in this list, and the recognition is timely rather than premature.",
+    "case_against": "The strongest reservation is that this is a measurement technology building on already-recognised ground (the 2005 frequency-comb prize and the 2012 ion-clock prize), so some members may read it as a refinement of precision rather than a new regime of physics. The redefinition of the SI second has not yet happened, and Ye's role overlaps with the comb lineage. Priority among lattice-clock groups (Lemonde, Ludlow and others) is also not fully covered by two names. I accept that a committee wanting a discovery of a new phenomenon would find B023 or B003 more natural.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B024 first as a clear conceptual invention with reproducible 1e-18 precision, and sees a two-person credit as fitting, with ion clocks and combs already honoured.",
+        "response": "I agree on the physics and on the maturity: several independent labs now agree at the 1e-18 level, which is the kind of robustness I look for. I would qualify her point about the earlier prizes. The ion-clock and comb prizes recognised different enabling technologies. The distinctive new element here is the neutral-atom many-particle interrogation under a magic wavelength, which is what delivers the statistical power and the many-body clock physics. That is a separate achievement, but the citation should name the lattice scheme specifically, not clocks in general."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks B003 and B023 first and second, treats new states of matter in materials as the committee's core interest, and notes that B023 may overlap with the 2016 topological prize and omits HgTe and 3D contributors.",
+        "response": "I share his high regard for B023 and ranked it second myself, so I keep it as my first alternative. Where I differ is on how decisive the overlap and omission problems are. The Z2 classification and the HgTe edge states are a distinct discovery from the 2016 prize, but the missing credit for Bernevig, Hughes and Zhang and for the 3D work is a serious allocation problem that a three-name cap does not resolve. That is why I do not put it ahead of a candidate with a two-person credit nobody disputes. I am less certain than he is about B003: the pairing mechanism is still debated and twist-angle disorder is a real reproducibility limit."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks aberration-corrected electron optics (B001) first as a genuine invention that took microscopy to the sub-angstrom regime, with a coherent Rose, Haider and Urban credit.",
+        "response": "I take the invention case seriously, and I use the same criterion for B024, so I will not dismiss B001 as mere instrumentation. The difference for me is what the instrument newly reveals about physics. Clocks at 1e-18 test relativity, constants and quantum many-body effects, whereas a corrected microscope mostly serves other fields, and the Krivanek STEM corrector makes the three-name credit less clean than the TEM story suggests. I also note only three members ranked B001 at all, so I would need to hear what the condensed-matter and materials colleagues see that is fundamental."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks active matter (B006) first as a minimal model with universal consequences, and rates B003 as possibly premature because the superconducting mechanism is unresolved.",
+        "response": "I agree with his maturity concern on B003: a prize usually goes to what has been verified and understood, and twist-angle disorder and the mechanism are still open. On B006 I defer to him, since statistical physics is outside my expertise. My question is whether the Toner-Tu exponents have been tested quantitatively in experiments, because he concedes that confirmation is partial. A prize for a theoretical framework with partial experimental tests sits less comfortably with me than one for a result reproduced across many laboratories."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat optical lattice clocks as a new discovery or as an enabling precision technology building on the 2005 and 2012 prizes.",
+      "Whether to wait for the redefinition of the second, and whether early lattice-clock priority (for example Lemonde's group) requires a different credit.",
+      "Whether B023 can be given a defensible three-person allocation given the omitted HgTe and 3D topological insulator contributors.",
+      "I have not verified priority dates and collaboration details beyond what colleagues' ballots state; my judgement outside atomic physics and superconducting devices is deferential."
+    ],
+    "conflict_note": "Specific conflict: I direct the Wallenberg Centre for Quantum Technology and work closely with superconducting-circuit groups, so I should recuse myself or at least heavily discount my own ranking of B043 (circuit QED), whose credited names I know professionally. Chalmers also hosted 2025 laureates Martinis and Clarke as guest researchers and my Chalmers colleagues co-authored the dynamical Casimir work. No specific conflict is apparent for B024, B023 or B014 from the provided profile."
+  }
+}

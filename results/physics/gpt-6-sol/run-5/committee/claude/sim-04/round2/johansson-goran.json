@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B009",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realisation of the optical lattice clock, in which many atoms trapped at a magic wavelength are interrogated together free of motional and light-shift errors"
+      }
+    ]
+  },
+  "alternatives": [
+    "B010",
+    "B018"
+  ],
+  "statement": {
+    "case_for": "I keep B009 as the whole configuration. After the first round the case is stronger than when I opened, because the objections that remain are about framing and precedent, not about the science or the credit. The physics is a clear original idea: in a lattice at the magic wavelength the clock transition is not shifted by the trapping light, atoms are confined in the Lamb-Dicke regime so Doppler and recoil vanish, and the statistics of very many atoms are used at once. The idea is Katori's and its first realisations are RIKEN's; Ye's group then took the Sr lattice clock to the 1e-18 regime and, through the Fermi-gas spin-exchange and many-body work, showed that the ensemble is itself a quantum system to be understood. Sr, Yb and Hg clocks in several laboratories agree with each other at the level that only independent intercomparison can test, and that is the robustness I look for before I vote for a result. Consequences such as millimetre-scale redshift and bounds on constant drift are physics in their own right, even though no departure from known theory has been seen. I have decided to write the citation so that it stands on the invention and not on a number or on the pending redefinition of the second, for the reason Pearce gives below. I have also settled my own reserves: I will not put B008 forward, because of my conflict, and I will not push it past colleagues who are right that Wallraff's omission and the 2025 prize both weigh against it this year.",
+    "case_against": "The remaining reservation is overlap with the 2005 prize (Hall and Haensch, the comb) and the 2012 prize (Wineland, ion control and the Al+ ion clock), together with a fear that this reads as a third metrology prize with no new physics yet found. I weigh it as real but answerable. The comb is the readout gear and the ion prize rewarded control of single quantum systems; neither contains the magic-wavelength condition or the idea of interrogating a large ensemble without perturbing the transition, and the citation must say exactly that. A second reservation is credit: Lemonde and SYRTE, Ludlow, Oates and Hinkley at NIST and JILA, Lisdat and PTB, and Takamoto at RIKEN all made essential demonstrations. I think the two roles, concept and first realisation for Katori, and record accuracy and many-body understanding for Ye, can be separated cleanly, but this is a judgement and not an independently checked history, and I would like the expert review of the priority sequence to be on the record before the vote.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll asked whether the Ye group's coherence and spin-exchange results belong in the citation or in the background, and he noted that the shared WACQT network means neither of us should treat the other's view of B008 as independent.",
+        "response": "I would keep them in the background and out of the citation. The citation should state the one thing that is new, the magic-wavelength lattice and many-atom interrogation, and a single clause is enough. The spin-exchange and coherence work is the reason I believe Ye's credit belongs to the realisation and not to a general programme: it is what showed that the clock is limited by controllable many-body physics and not by something unknown, and that made 1e-18 credible. It is good support for the allocation in the discussion record, but putting it in the citation would invite the objection that the prize is for a laboratory programme. On B008 I agree with you completely, and I will not advocate it. Your 2012 question to Eriksson is also one I share, and I address it below."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson is less relaxed than Kroll about the 2012 ion-clock prize, and thinks the citation must be about the lattice concept and many-atom interrogation and not about clock accuracy in general.",
+        "response": "I agree with the conclusion and I will go a step further on the 2012 overlap. The Wineland prize rewarded the control of single trapped ions, and a single-ion clock has a fundamental limit set by the statistics of one particle: a long averaging time, and a trap that must be held with great care. The lattice clock is a different route to the same performance, with 10^3 to 10^4 atoms and a short averaging time, and its error budget is organised around a different effect, the light shift cancelled at the magic wavelength. That is why the two systems can be compared, and why their agreement is informative. I would therefore not call it a third prize for the same idea. I accept your point that this must be explicit in the citation, which is why my wording names the magic wavelength and the ensemble and drops the 10^-18 figure that I used in round 1. I would be grateful if you could say whether you would still hold B009 back after this, or whether you want evidence that I cannot supply from the circuits side."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce argues that the redefinition of the second is a consequence of the invention and not part of the discovery, so the citation should not depend on it, and he asks whether Ye's decisive contribution is the lattice clock itself or the wider JILA programme and whether Hall's role bears on the allocation.",
+        "response": "I accept the first point, and I have removed the redefinition and the 10^-18 figure from my citation. A performance number is a moving target and the redefinition may be delayed, while the mechanism is permanent. On Ye, my view is that the decisive contribution is the Sr lattice clock itself, taken from the first magic-wavelength spectroscopy to record accuracy and then to the demonstration that a many-body system could be controlled well enough to be a clock. The comb-linked spectroscopy at JILA is a tool of that work and Hall's own prize recognised it, so I do not think Hall's earlier role takes anything from Ye's share here. Hall is also not a candidate for this configuration. I will say again that I cannot prove this priority history from the circuits side, and I support the chair's wish for an independent lineage review of the clock priority sequence."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig anchors the citation on magic-wavelength trapping and says the case for a step beyond the 2005 comb prize should be made explicitly, and she is not a specialist in precision atomic physics.",
+        "response": "I agree and my revised citation follows your anchor. I would add one physical argument that may help non-specialists in the committee, since you say you rely on colleagues' reading of the clock literature. The decisive test is the intercomparison of clocks of different species, built independently, that agree at the 1e-18 level. A systematic effect hidden in one design would not be hidden in another, so agreement among Sr, Yb and Hg clocks is very hard to fake. That is stronger evidence than the fame of the clock, and I think it is the right ground for the prize. I would also gently disagree with the point that a widely expected prize crowds out others: B005 and B010 can be considered on their own merit in later years, and I do not think expectation is a reason against a mature result."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee, once it has seen the revised citation, accepts the magic-wavelength lattice and many-atom interrogation as distinct from the 2005 comb and the 2012 ion-control prizes.",
+      "The exact priority and milestone order between RIKEN, JILA, SYRTE, PTB and NIST at the 1e-16 and 1e-18 levels, which none of us has checked independently; I am working from my own knowledge, and as a circuits theorist I defer to Lindroth and Olsson on atomic physics.",
+      "Whether Lemonde, Ludlow, Oates or Takamoto have claims strong enough to disturb a two-name credit.",
+      "How much weight a prize for an instrument should carry when no departure from known physics has yet been found; I regard the redshift and constant-drift results as sufficient, but this is a judgement."
+    ],
+    "conflict_note": "I am director of the Wallenberg Centre for Quantum Technology and a Chalmers professor; Chalmers hosted 2025 laureates Martinis and Clarke as guests, and I co-authored the dynamical Casimir experiment with Delsing and Wilson. This is a possible conflict for B008 (and more loosely other superconducting-circuit candidates), and I will recuse myself from B008 if it returns and will not name it as an alternative in this round. Kroll's WACQT role overlaps institutionally with mine, and Olsson and Mehlig are Chalmers or Gothenburg colleagues; none of this touches B009, B010 or B018. I have no personal or institutional connection to Katori, Ye or the other credited names of those candidates, and no tie that I know of to the Kroll disclosure about Hall's laboratory."
+  }
+}

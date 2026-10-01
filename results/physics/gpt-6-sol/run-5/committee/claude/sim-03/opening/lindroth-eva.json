@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-03",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B007",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks, with Katori's magic-wavelength proposal and Ye's realization at the 1e-18 level, give a new and unexpectedly precise way to probe time with atoms. Light shifts are cancelled by design, and the clocks now test relativity (gravitational redshift over millimetres) and constrain variation of constants. This is atomic physics where theory and experiment agree to extraordinary precision, and I know the atomic-structure side of it well.",
+        "attribution": "Katori proposed the magic-wavelength lattice and first demonstrated the Sr lattice clock; Ye's JILA group brought it to record accuracy and stability and to many-body clocks. Two laureates is a clean configuration. Hall and Hansch (2005) and Wineland (2012) already recognised related precision-metrology steps; others in the field (e.g. Ludlow, Hinkley, Bloom, Schiller) are not in the supplied credit.",
+        "maturity": "Many independent laboratories (RIKEN/Tokyo, JILA, NIST, PTB, SYRTE, others) have reproduced and surpassed the original performance, and the redefinition of the second is under discussion. Highly mature and stable, with continuing improvement.",
+        "uncertainties": [
+          "Whether the committee views this as a continuation of the 2005 and 2012 metrology prizes rather than a new discovery.",
+          "Possible competing credit for the lattice-clock idea (e.g. Kimble-type trapping, Ye's earlier work on optical clocks with Hall) is not resolved in the supplied list."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B015",
+      "proposed_laureates": [
+        "Juan Ignacio Cirac",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The Cirac-Zoller proposal for trapped-ion quantum gates, together with the later proposals for neutral-atom and optical-lattice simulation, established how isolated quantum systems can be engineered for computation and simulation. The ideas were original and clear, and have shaped two decades of laboratory work. This is fundamental quantum mechanics of the type I value.",
+        "attribution": "A natural two-person prize; the 1995 gate proposal is jointly theirs and the credit is not seriously disputed. Experimental realisations (Wineland, Blatt, Monroe and others) are partly recognised through the 2012 prize (Wineland), and the neutral-atom side overlaps with the lattice-simulation candidate.",
+        "maturity": "Confirmed by trapped-ion and neutral-atom platforms in many laboratories, including quantum simulators with hundreds of atoms. Interpretation is stable; recognition is timely for a theory prize.",
+        "uncertainties": [
+          "Theory-only prizes are rarer, and the committee may prefer to pair theory with experiment.",
+          "Overlap of Zoller's name with the optical-lattice and light-matter interface candidates may dilute or split support."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B005",
+      "proposed_laureates": [
+        "Charles H. Bennett",
+        "Gilles Brassard",
+        "Artur Ekert"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum key distribution turns the no-cloning principle and entanglement into a practical cryptographic primitive; security derives directly from the laws of quantum mechanics. It is conceptually original (BB84, E91), clear, and has had a large effect on the foundations and technology of quantum information. It follows naturally from the 2022 prize for tests of Bell inequalities.",
+        "attribution": "BB84 is Bennett and Brassard; Ekert's 1991 entanglement-based protocol is a distinct decisive contribution. Wiesner's earlier conjugate-coding idea (not in the supplied credit) and the experimental demonstrators are a complication, but the three names form a fair configuration.",
+        "maturity": "Mature in principle with commercial and satellite demonstrations (also by other groups) and a developed security theory. Practical security of real devices, side channels and loophole issues remain active topics.",
+        "uncertainties": [
+          "Practical device security versus idealised proof is not fully settled.",
+          "Wiesner's priority for conjugate coding is outside the supplied credit.",
+          "Some members may judge the work more as information science than physics."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B008",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Markus Greiner",
+        "Tilman Esslinger"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices realise Hubbard models with tunable parameters. The observation of the superfluid-to-Mott insulator transition, single-site-resolved quantum gas microscopy and fermionic Hubbard physics open a new route to studying correlated matter. It has revealed behaviour of many-body quantum systems in a controlled setting and is a flourishing field.",
+        "attribution": "Bloch, Greiner and Esslinger carried out the decisive experiments (Mott transition, quantum gas microscope, fermionic Mott insulators and transport), while Zoller and Jaksch proposed the Hubbard realisation; Zoller also appears in other candidates. A three-person experimental prize leaves out the theory origin, which is a real attribution tension (Greiner's and Bloch's early work was in the Hansch group, and Jaksch is not credited).",
+        "maturity": "Reproduced and extended across many groups; quantum simulation of the full Fermi-Hubbard regime relevant to cuprates remains incomplete, so the ultimate payoff is not yet fully demonstrated.",
+        "uncertainties": [
+          "Dispute between experimental and theoretical credit (Zoller, Jaksch).",
+          "The initial quantum simulation promise for high-Tc physics is not yet realised."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B001",
+      "proposed_laureates": [
+        "Pablo Jarillo-Herrero",
+        "Allan H. MacDonald",
+        "Rafi Bistritzer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The prediction of flat bands at the magic angle and the discovery of correlated insulators and superconductivity in twisted bilayer graphene opened moire quantum matter, a surprising and tunable platform for strongly interacting electrons. The originality and impact are very high, even though it lies outside my own field and I defer to condensed-matter colleagues.",
+        "attribution": "Bistritzer and MacDonald made the 2011 theory prediction; Jarillo-Herrero's group reported the 2018 experiments. Cao, Fatemi and others were also decisive authors of the experimental papers, which the supplied credit does not include, so a fair three-name configuration is plausible but not unambiguous.",
+        "maturity": "Many laboratories have confirmed correlated states and superconductivity, but the pairing mechanism and some of the experimental details remain under discussion, so the field is still young.",
+        "uncertainties": [
+          "Superconducting pairing mechanism not settled.",
+          "Credit of early experimental authors (e.g. Cao) is outside the supplied names.",
+          "I defer to colleagues in condensed matter on relative standing."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B043",
+      "proposed_laureates": [
+        "Michael Berry",
+        "Yakir Aharonov"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The Aharonov-Bohm effect and the Berry phase show that gauge potentials and geometry have physical consequences in quantum mechanics. These are conceptually deep, clear and widely used (molecular physics, topological matter, polarisation optics). This is a discovery about where the quantum description leads, in the spirit I prefer.",
+        "attribution": "Aharonov and Bohm (1959) made the prediction, but Bohm died in 1992 and cannot share; Ehrenberg and Siday anticipated it in 1949. Berry's 1984 phase is single-authored. Pairing Berry with Aharonov unites two related ideas, but this is not one discovery and the allocation is awkward.",
+        "maturity": "Experimentally confirmed repeatedly (Chambers, Tonomura, many later demonstrations); extremely mature, perhaps almost late.",
+        "uncertainties": [
+          "The Aharonov-Bohm effect is attributed to a deceased co-discoverer and has earlier precursors.",
+          "The two phases are distinct discoveries; their combination in one prize may be seen as artificial."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B010",
+      "proposed_laureates": [
+        "Roberto Car",
+        "Michele Parrinello"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Car-Parrinello ab initio molecular dynamics unified electronic structure and ionic motion in a single scheme and changed how chemistry, materials science and condensed matter are modelled. The idea is original and elegant and the lasting impact is huge. I appreciate the computational many-body perspective, though it is a method rather than a discovery of new physics.",
+        "attribution": "The 1985 paper is the decisive contribution and is jointly by Car and Parrinello, an unambiguous two-person configuration. Underlying density-functional theory was recognised in 1998 (Kohn), which is related but separate.",
+        "maturity": "Used worldwide for four decades with many descendants (Born-Oppenheimer AIMD); fully mature and arguably overdue.",
+        "uncertainties": [
+          "Committee tradition on methods and computational tools is mixed.",
+          "Relationship to the 1998 chemistry prize on density-functional theory may reduce enthusiasm."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B013",
+      "proposed_laureates": [
+        "Stephen E. Harris",
+        "Lene Vestergaard Hau"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Electromagnetically induced transparency shows that quantum interference can render an opaque medium transparent and slow light to bicycle speeds, and later led to light storage. The discovery is conceptually surprising and clear, and it is a good example of atom-light physics. It connects to coherent control and to quantum memories.",
+        "attribution": "Harris's group developed EIT theory and the first demonstration (1990-91), with Boller, Imamoglu and Field; Hau's group demonstrated ultraslow light and stopped light in 1999-2001. Imamoglu is also credited, and the contributions of Fleischhauer and Lukin to storage are not in the supplied credit. The allocation is uncertain.",
+        "maturity": "Reproduced in many laboratories and platforms, with applications in memories, though a defining single milestone is less obvious. Mature and stable.",
+        "uncertainties": [
+          "Multiple plausible contributors (Boller, Field, Fleischhauer, Lukin) fall outside the supplied names.",
+          "Whether the physics is deemed sufficiently fundamental versus a refinement of quantum-optical interference."
+        ]
+      }
+    }
+  ]
+}

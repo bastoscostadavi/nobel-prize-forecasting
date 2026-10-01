@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "Tamás Vicsek",
+          "John Toner",
+          "Sriram Ramaswamy"
+        ],
+        "citation": "For foundational models and hydrodynamic theory of collective motion in active matter, revealing nonequilibrium flocking order and its universal scaling"
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "B006 is, in my view, the case in which a minimal model exposes an essential mechanism and a controlled theory then explains it. Vicsek's 1995 self-propelled-particle model showed a genuine nonequilibrium order-disorder transition. Toner and Tu showed, with a hydrodynamic theory and renormalization-group exponents, that long-range orientational order survives in two dimensions despite the Mermin-Wagner theorem, because the dynamics is out of equilibrium. Ramaswamy's work on active suspensions (with Simha) established the orientational-order and giant-number-fluctuation picture for active fluids. These are three distinct contributions, and together they define the field. Active matter is now a standing framework for bird flocks, bacterial suspensions, motility assays, vibrated granular layers and Janus colloids, and the symmetry-plus-hydrodynamics reasoning is understood and reusable, not merely a working recipe. That is the kind of understood result I would want a physics prize to mark.",
+    "case_against": "The strongest objection is maturity and experimental closure. Quantitative tests of the Toner-Tu exponents are still partial, the field is broad and loosely bounded, and the committee may see it as less settled than other candidates. The credit split is also imperfect: Yuhai Tu is not among the credited names although the 1995 and 1998 continuum theory was joint work, and other early contributors to the hydrodynamics of active matter are not represented. The candidate also has no support from any colleague at opening (I alone ranked it first), which I should not equate with merit but which does say something about how persuasive the case has been so far.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "B003 follows the pattern he values most: the Bistritzer-MacDonald flat-band prediction, then a clean experimental discovery of correlated insulators and superconductivity at the magic angle, in a large and stable field.",
+        "response": "I rank B003 fourth and take the theory-leads-experiment argument seriously; the continuum model is a clean analytic object. My qualification is that the field is large but the central phenomenon, the origin of the superconductivity, is not understood, and he concedes this. I also see the credit problem: the 2018 experiments came from a group whose early-career first authors are outside the three-name limit. I would call B003 an excellent discovery whose explanation is not yet in, whereas B006's central mechanism is understood. I do not think that settles ranking; it should be on the table."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "He puts B003 first and B023 second, and argues that topological insulators are conceptually deep and spectroscopically verified, while noting that the 2016 prize on topological phases partly overlaps and that allocation is contested.",
+        "response": "I agree that the overlap with 2016 is a real obstacle for B023. The Kane-Mele Z2 classification is a natural extension of the Thouless-Haldane framework, and a committee that has just rewarded topological phases may find the increment too small. The omission of Zhang, Fu, Moore and Hasan also makes a three-person prize hard to defend. I place B023 above B003 on conceptual grounds but below B006 as a distinct, fresh concept; I would keep it as a fallback, not as a lead."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "He ranks optical lattice clocks (B024) first as a new measurement technique at the 1e-18 level, with strong independent confirmation and timely recognition, and treats Katori and Ye as a clean two-person configuration.",
+        "response": "I ranked B024 seventh. I do not doubt its quality or maturity; the point is whether the physical content is a new discovery or an extraordinary refinement of ideas already recognised in 2005 and 2012. The magic-wavelength idea is original, and I accept Katori as a decisive inventor. I am less sure the committee can separate Katori's concept from Ye's record accuracy, and the redefinition of the second has not happened. Of the candidates with broad support, though, this is the one where I would not seriously oppose the colleagues: the attribution is the cleanest on the list."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "She ranks aberration-corrected electron optics (B001) first as a genuine instrument-level invention with very wide downstream impact and a coherent three-person credit (Rose, Haider, Urban).",
+        "response": "I accept the invention and the maturity claims, and the Scherzer-limit story is a good one. My reservation is the one she raises herself: Krivanek's parallel STEM corrector is outside the credited names, so the three-name credit is not complete, and it is a question of how the prize is framed as physics rather than instrumentation. Pearce and Eriksson also rank it, so it should be discussed, but I want that attribution question resolved before I support it over a discovery-based candidate."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "He ranks circuit QED (B043) first, citing a new regime of strong light-matter coupling in a circuit and the architecture of superconducting processors, while flagging his own proximity as WACQT director and the 2025 circuit prize.",
+        "response": "I appreciate that he flagged his own proximity. The physics is clear and reproduced widely. My concern is about novelty relative to 2025: a second superconducting-circuit prize so soon will look like a continuation, and the theory-plus-experiment credit omits Wallraff. I would keep B043 as a future candidate and not move it up now. Because he is a close colleague of groups in this area, I would want the committee to weigh his advocacy accordingly."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept active matter as mature enough, given partial experimental tests of the Toner-Tu exponents.",
+      "Whether the omission of Yuhai Tu from the credited names is acceptable, since the continuum theory was joint work with Toner.",
+      "Whether B003's unresolved superconducting mechanism or B023's overlap with the 2016 prize is the lesser obstacle if the committee prefers a condensed-matter prize.",
+      "I am working from memory on priority dates and experimental confirmation; none of it has been checked against the sources."
+    ],
+    "conflict_note": "No specific conflict with any shortlisted candidate is apparent from the provided profile. A mild connection: I co-wrote a 2020 review on machine learning for active matter, but no collaboration with Vicsek, Toner or Ramaswamy is recorded. Eva Olsson (Chalmers, B001 advocate) and Goran Johansson (Chalmers, B043 advocate) are in the same Gothenburg physics environment, which is an institutional fact and not a collaboration."
+  }
+}

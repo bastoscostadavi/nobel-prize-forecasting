@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B001",
+      "proposed_laureates": [
+        "Allan H. MacDonald",
+        "Pablo Jarillo-Herrero",
+        "Rafi Bistritzer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Theory predicted flat bands at a magic twist angle and experiment then found correlated insulators and superconductivity in the same system, opening moire quantum matter as a tunable platform. This is the kind of surprise in a material that a condensed-matter theorist values, and the theory-experiment loop is unusually direct. Impact on 2D materials, correlated electrons and many follow-on materials is large and lasting.",
+        "attribution": "Bistritzer and MacDonald supplied the 2011 continuum-model prediction of the magic angle; Jarillo-Herrero led the 2018 experimental discovery of correlated insulator and superconducting states. A theory-plus-experiment trio is natural. Other experimental groups and earlier twisted-graphene theory (e.g. Lopes dos Santos et al.) may be raised, but those names are not in the supplied credit.",
+        "maturity": "Confirmed independently by many groups across several moire platforms within a few years. Some details of the superconducting pairing and the ordered phases are still debated, but the core discovery is stable. Timing looks ripe.",
+        "uncertainties": [
+          "Pairing mechanism of the superconductivity is unresolved.",
+          "Reproducibility of device-to-device behaviour (twist-angle disorder) is a known concern.",
+          "The supplied credit may omit other contributors to the theory of twisted bilayers; I cannot verify the full priority history."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B023",
+      "proposed_laureates": [
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Predicting that a time-reversal-invariant insulator can host protected edge or surface states, then seeing the quantum spin Hall edge channels in HgTe wells, created a new classification of electronic phases. Conceptually clean, experimentally verified, and with large reach across materials science. Electronic-structure theory later identified real materials, which ties directly to my own field.",
+        "attribution": "Kane and Mele gave the Z2 quantum spin Hall theory; Molenkamp's group delivered the HgTe experimental realization (with Bernevig-Hughes-Zhang proposal, whose authors are not in this credit). Three credited names form a fair prize, though the BHZ prediction is a credit gap to flag.",
+        "maturity": "Strongly confirmed through ARPES on 3D topological insulators and transport in HgTe; the concept is mature and textbook. Recognition is not premature, and arguably somewhat overdue relative to its impact.",
+        "uncertainties": [
+          "Contributions of Bernevig, Hughes and Zhang, and of Fu, Kane and Mele on 3D systems, and Moore and Balents, fall outside the supplied names and may complicate allocation.",
+          "Related candidate on topological insulators lists a different trio, so the configuration is not unique."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B010",
+      "proposed_laureates": [
+        "Michele Parrinello",
+        "Roberto Car"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The Car-Parrinello method made it possible to run molecular dynamics with forces computed from the electronic ground state, enabling first-principles simulation of liquids, defects and chemical reactions. Originality is high and the impact is enormous across condensed matter, chemistry and materials science. I should be transparent that this is close to my own computational field, and I would weigh it carefully against that familiarity.",
+        "attribution": "The 1985 paper by Car and Parrinello is a clear two-person origin, so attribution is clean. Whether the work is physics rather than chemistry in the prize sense is a question, since Kohn's DFT prize in 1998 was in chemistry.",
+        "maturity": "Four decades of use and independent validation across many codes; fully mature, so recognition is long past due on timing grounds. The methodology is a tool rather than a discovery of a new physical effect, which weakens the case against the discovery-centred criterion.",
+        "uncertainties": [
+          "Tool versus discovery: committee may prefer a verified physical discovery at the centre.",
+          "Possible perception of a method already honoured through DFT in chemistry.",
+          "My familiarity with the field could bias me toward it."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B008",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Tilman Esslinger",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Cold atoms in optical lattices realize Hubbard-type models with tunable parameters: the superfluid to Mott transition, Fermi-Hubbard physics and quantum gas microscopy. Originality combines a clear theoretical proposal with remarkable experimental control, giving a platform for correlated-matter questions that are hard to settle with numerics.",
+        "attribution": "Zoller (with Jaksch and others) proposed the Bose-Hubbard realization; Greiner and Bloch observed the Mott transition in 2002; Esslinger realized fermionic Mott and related physics; Bloch also led quantum gas microscopy. Four credited names exceed the three allowed, so a choice is forced and some of the pioneering experimental credit (Greiner) is left out. Jaksch is not in the supplied credit.",
+        "maturity": "Many independent groups reproduce and extend the work. The quantum-simulation payoff for open Hubbard-model questions is still developing, so some of the impact is prospective, though the foundational experiments are mature.",
+        "uncertainties": [
+          "Allocation among Bloch, Greiner, Esslinger and Zoller is contested.",
+          "Zoller also appears in other quantum-information candidates, so a future prize might cover him elsewhere.",
+          "Whether quantum simulation has yet settled a physical question beyond classical computation."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B007",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks, built on Katori's magic-wavelength proposal and Ye's demonstration of record precision, reach fractional uncertainty near 1e-18 and test fundamental physics and relativistic redshift at the centimetre scale. Clear invention with measurable, quantitative results and strong practical relevance.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept; Ye's group pushed it to the performance frontier. Two laureates form a natural pair. Contributions of other clock groups (and ion clocks, already recognized in 2012) are context rather than credit issues.",
+        "maturity": "Multiple laboratories independently confirm 1e-18 level performance; the redefinition of the second is under discussion. Timely and mature.",
+        "uncertainties": [
+          "Comparison with the 2005 and 2012 metrology prizes might raise a perception of overlap with earlier recognition.",
+          "Whether the committee views it as invention or discovery."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B014",
+      "proposed_laureates": [
+        "Hideo Hosono",
+        "Xianhui Chen",
+        "Zhongxian Zhao"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The 2008 discovery of superconductivity in LaFeAsO(1-x)Fx and its rapid extension to Tc around 55 K opened the second family of high-temperature superconductors after the cuprates. A genuine new-material discovery with strong experimental follow-through; the theory community, including DFT-based studies, quickly engaged.",
+        "attribution": "Hosono's group made the initial discovery; Chen and Zhao's groups raised Tc to the 40-55 K range within weeks. Credit is reasonably clear for Hosono; the additional laureates are less certain, and a single-laureate or two-laureate prize could be argued.",
+        "maturity": "Independently reproduced worldwide within weeks. However, the pairing mechanism is still debated, and the field has not produced the practical transformation the cuprates did not either. Recognition is plausible but the interpretation is not fully stable.",
+        "uncertainties": [
+          "Mechanism of pairing remains unresolved.",
+          "Allocation between Hosono and the Chinese groups.",
+          "The cuprate prize in 1987 may make a committee hesitant about a second family."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B026",
+      "proposed_laureates": [
+        "Mikhail I. Dyakonov",
+        "David D. Awschalom"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The spin Hall effect, predicted by Dyakonov and Perel and observed in semiconductors and metals, underlies spin-current generation and spin-orbit torque, which links directly to magnetism and spintronics where I work. Physics is clear and quantitatively tractable by first-principles theory of the intrinsic and extrinsic mechanisms.",
+        "attribution": "Dyakonov (with Perel) made the original 1971 prediction; Awschalom's group provided the 2004 semiconductor observation. Other important contributors, such as Hirsch, Zhang, Murakami-Nagaosa-Zhang, Sinova and Wunderlich, are outside or partly outside the supplied credit, so the allocation is untidy.",
+        "maturity": "Broadly confirmed, including in heavy metals and used in devices, though the field has many interlocking parts (anomalous, inverse, quantum versions) whose credit is hard to disentangle.",
+        "uncertainties": [
+          "Co-originator V. I. Perel is, to my recollection, deceased (not verified); prizes are not awarded posthumously.",
+          "Many theorists with competing claims are not in the credited list.",
+          "Compound discovery: prediction and observation are separated by over 30 years."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B037",
+      "proposed_laureates": [
+        "Claudio Pellegrini",
+        "Kwang-Je Kim",
+        "Evgeny Saldin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The SASE X-ray free-electron laser concept enabled femtosecond coherent X-ray pulses at LCLS, SACLA and European XFEL, transforming spectroscopy, structural biology and ultrafast dynamics studies of materials. Importance for the experimental science I follow closely at MAX IV-type facilities is high.",
+        "attribution": "Pellegrini, Kim and the DESY group (Saldin, Schneidmiller, Yurkov) developed the theory and the SASE route; the wider accelerator community (Madey's FEL, Bonifacio) adds credit complexity. Selecting three from the supplied names omits several others.",
+        "maturity": "Fully mature: several large facilities operate and are heavily used. Priority questions of theory versus realization remain.",
+        "uncertainties": [
+          "Whether an accelerator technology prize fits Nobel physics criteria.",
+          "Credit disputes among theorists and facility builders.",
+          "I am less expert in accelerator physics and defer to colleagues."
+        ]
+      }
+    }
+  ]
+}

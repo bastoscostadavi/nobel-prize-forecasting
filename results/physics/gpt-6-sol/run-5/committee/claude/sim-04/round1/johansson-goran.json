@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B009",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and realisation of the optical lattice clock, bringing atomic clocks to the 10^-18 level of precision"
+      }
+    ]
+  },
+  "alternatives": ["B010", "B008"],
+  "statement": {
+    "case_for": "The optical lattice clock is an original idea (Katori's magic-wavelength trapping, which removes Doppler, recoil and light-shift errors for many atoms at once) that was then taken to its limits by Katori's and Ye's groups. It is a case where every physical detail of a quantum system is understood and controlled, and the payoff is a new regime of measurement: fractional uncertainty near 1e-18, redshift resolved over millimetres, constraints on constant drift, and a credible basis for redefining the second. It has been reproduced and surpassed by independent laboratories (JILA, RIKEN, PTB, NIST, SYRTE and others) and compared across continents, so robustness is not in question. The two-person attribution is the cleanest on the list, and the opening ballots show every member ranked it, six of them in the top three. My own first-place candidate (B008) carries an attribution gap and a possible conflict for me, so I cannot make it my main recommendation. This candidate has no such problem.",
+    "case_against": "The strongest reservation is overlap with the 2005 prize (Hall and Hansch, frequency combs) and the 2012 prize (Wineland, trapped-ion control), which could make a clock prize read as the third in one metrology lineage. A related worry is that the prize would reward a record-setting instrument more than a discovery of new physics, since no deviation from known theory has been found yet. Lemonde, Ludlow, Oates and others also contributed to the realisation and are outside the two names.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B009 first as a textbook case of a measurement technique moving the limit of what can be measured, with a clean two-person credit and no real overlap with the 2005 comb prize.",
+        "response": "I agree on the attribution and the maturity, but I would not call the overlap with 2005 fully absent. The comb is what lets us count optical cycles, and the lattice clock depends on it. I think the answer is in the citation: it should name the magic-wavelength lattice and the 1e-18 regime as the new step, not frequency measurement in general. With that wording I think the 2005 and 2012 concerns are answered, and we should say so in the record rather than leave it to chance."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B009 first and stresses that independent laboratories with Sr, Yb and Hg clocks give mutually consistent results, and that the two-person credit is clean.",
+        "response": "I agree, and I would add one thing from the circuits side. Consistency across species and across labs is exactly what separates a robust new regime from one group's record, and here it is verified by international clock comparisons. Where I qualify your note is on the early groups outside the two names (Lemonde in Paris, PTB, Oates at NIST). I do not think they threaten a Katori and Ye prize, because the magic-wavelength idea and the realisation to record performance are two clearly identifiable steps. We should still record that this is a judgement and not a settled history."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks the topological insulator candidate B018 first, as a rare theory-then-experiment case of a new class of matter, and ranks the lattice clock only sixth because of the 2005 and 2012 precedents.",
+        "response": "I respect the scientific case for B018, and I defer to you on condensed matter. My disagreement is about the open attribution. Both of us noted that Bernevig, Hughes and Zhang made the prediction that Molenkamp's group tested, and they are not in the credited names. The 2016 prize on topological phases adds further overlap. A clock prize has a more settled credit and less precedent risk, and its result is quantitatively verified by many laboratories. I also do not think the 2005 and 2012 prizes make the clock incremental: they recognised the comb and ion control, not the neutral-atom lattice regime. I would keep B018 as a strong candidate for a later year if the credit question is resolved."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks the CMB mapping B050 first and B009 second, and notes that the circuit QED candidate B008 omits Wallraff, which weakens the fairness of that configuration.",
+        "response": "I agree on Wallraff, and it is one reason I move B008 down from my opening first place for the preferred configuration. The first strong-coupling experiment was his, and a Blais, Girvin and Schoelkopf prize would leave a gap that the committee could not close with three names. On B050 I would ask a question rather than disagree: with COBE in 2006 and Peebles in 2019, and Planck's leaders outside the credited set, is the remaining credit for WMAP clean enough? I cannot judge the cosmology, so I defer to you and Mark Pearce on that. I note that B009 is the one candidate you and I both ranked in the top two."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept the lattice clock as distinct from the 2005 comb and 2012 ion-control prizes, or will see a third metrology prize as too close.",
+      "Whether the credit should extend beyond Katori and Ye to other early lattice-clock groups, given the three-person limit.",
+      "Whether B008 can be made a fair configuration without Wallraff, and whether a circuit prize so soon after 2025 is wise; I cannot judge this impartially.",
+      "How much weight a prize for an instrument should carry when no departure from known physics has yet been seen."
+    ],
+    "conflict_note": "I am director of the Wallenberg Centre for Quantum Technology and work at Chalmers, which hosted 2025 laureates Martinis and Clarke as guest researchers. I co-authored the dynamical Casimir experiment in superconducting circuits with colleagues Delsing and Wilson. This creates a possible conflict for the circuit QED candidate B008 (and, more loosely, B003 and other superconducting-circuit work), and I would recuse myself or defer on B008. I have no specific personal or institutional connection to Katori, Ye or the other credited names of B009, B010 or B018 apparent from the provided profile."
+  }
+}

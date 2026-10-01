@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-04",
+  "member_id": "olsson-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B009",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "For the invention and realization of the optical lattice clock, enabling atomic clocks with fractional uncertainty near 1e-18"
+      }
+    ]
+  },
+  "alternatives": ["B019", "B018"],
+  "statement": {
+    "case_for": "The optical lattice clock meets the test I apply to every candidate: an original invention, experimentally verified, that opens a door to things nobody could measure before. Katori's magic-wavelength lattice removes Doppler and recoil effects while many atoms are interrogated at once. Ye's group, together with others, then brought it to the 1e-18 regime and used it for clock comparisons and many-body studies. Independent laboratories at RIKEN/Tokyo, JILA, NIST, PTB and SYRTE have reproduced and surpassed the original performance, so the result is not in question. It enables millimetre-scale gravitational-redshift measurements, constraints on constant drift and dark-matter couplings, and the coming redefinition of the second. All eight opening ballots rank it (six in the top three) and all eight propose exactly this pair of names, but I weigh it on the evidence rather than on that count. The two-person attribution is among the cleanest on the shortlist: one person proposed and first realized the scheme, the other drove it to the performance limits.",
+    "case_against": "My strongest reservation is originality and overlap. The 2005 prize covered the frequency comb and precision spectroscopy, and the 2012 prize covered control of single ions in clocks and in quantum optics, so some colleagues will call a lattice-clock prize a third round of the same neighbourhood. There is also an attribution question that I cannot settle from the supplied files. Is the prize for the proposal and first demonstration (Katori) or for the accuracy and stability milestones (Ye)? Lemonde, Takamoto, Ludlow, Oates and others also contributed to the realization. I want the historical record checked on who demonstrated what first before we commit to a citation that credits both for the invention itself.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks topological insulators (B018) first as a rare case where theory predicted a state and experiment then realised it, and ranks the lattice clock only sixth because of the 2005 and 2012 precedents.",
+        "response": "I take the prediction-plus-verification structure seriously, and I ranked B018 third for that reason. But I disagree on the weight given to the precedents. The 2005 prize honoured the comb and the 2012 prize honoured control of individual ions. Neither covered the many-atom magic-wavelength scheme or the 1e-18 performance, which is a distinct invention. For B018 the problem is credit. Bernevig, Hughes and Zhang made the decisive HgTe prediction and are outside the supplied names, and the 2016 prize leaves overlap to argue away. With that gap, B018 cannot be named cleanly today. I would keep it as an alternative, not as the lead."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED (B008) first as foundational quantum optics that became a platform for superconducting quantum information, while openly flagging a possible conflict and deferring to colleagues, and ranks the lattice clock second.",
+        "response": "I respect the disclosure and agree that the science is important and widely reproduced. My difficulty is attribution, which Johansson himself raises. Wallraff made the first strong-coupling experiment and is not among the credited names, so the three-person configuration leaves out the person who did the original experiment. The 2025 prize for circuit tunnelling also sits very close in time. I would not want to build a citation on a list I know is incomplete. Since the lattice clock is his own second choice, I hope we can converge there without asking him to act against his stated recusal instinct."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce puts the IceCube discovery of astrophysical neutrinos (B052) first as an instrument-driven opening of a new observational window, while conceding that the split of credit among Halzen, Karle, Spiering and the collaboration is a judgment call.",
+        "response": "We share the instinct for instruments that open a door, which is why I ranked IceCube fifth and not lower. But the same concern I have about other large collaborations applies here: the three names cannot fairly represent a collaboration of hundreds, and AMANDA, Baikal and DUMAND pioneers are not credited. Some source associations are also only at 3 to 4 sigma. I do not think we are sure that we have identified the people who did the original work. By comparison, the lattice clock has two inventors and a settled, independently verified result."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll places the lattice clock first as a case where progress was limited by measurement precision and notes that Katori and Ye form a clean two-person credit, with the comb prize a separate enabling step.",
+        "response": "I agree with the framing and with the maturity argument, but I would qualify one point: we should keep the citation tied to the invention and realization of the lattice clock and not to precision as such, to avoid the lifetime-achievement trap. Kroll says he is working from memory on which group reached which milestone first, and I share that gap. I would like us to check specifically what Katori published as proposal and first demonstration versus what the Ye group added, before we finalize the wording."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks precision CMB mapping (B050) first, calling it a logical next step after COBE, while admitting that credit among WMAP, Planck and balloon experiments is a real allocation problem and that he is relying on general knowledge of the roles.",
+        "response": "The science is robust and I do not question its importance. But Danielsson's own attribution caveat and Pearce's note that the 2006 and 2019 prizes already covered parts of this field make it hard for me to be sure that we have identified the right people. His own proposed trio also leaves out Puget, who is on the credited list. I would hold B050 in reserve unless we can resolve the WMAP versus Planck question, which I cannot do from the supplied materials."
+      }
+    ],
+    "uncertainties": [
+      "Whether the citation should rest on the original magic-wavelength proposal and first demonstration (Katori) or also on the accuracy and stability milestones (Ye), and how to word the shared credit accurately.",
+      "How much weight the 2005 comb prize and the 2012 ion-control prize should carry as precedent against a lattice-clock prize.",
+      "Whether other early lattice-clock contributors (Lemonde, Takamoto, Ludlow, Oates and others) should affect the credit; the three-person limit and the supplied names do not allow it."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the preferred B009 configuration or for the alternatives B019 and B018. My field is electron microscopy at Chalmers, and none of the credited people are co-authors or collaborators I am aware of. Göran Johansson is a Chalmers Physics colleague, and he has flagged his own possible conflict on B008; that is a matter for him and the chair."
+  }
+}

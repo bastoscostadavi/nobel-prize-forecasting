@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B058",
+      "proposed_laureates": [
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Topological insulators opened a new class of quantum matter, with protected edge and surface states governed by band topology rather than symmetry breaking. The Kane-Mele proposal of the quantum spin Hall state and the HgTe observation of helical edge transport are original, clear and have had lasting influence across materials physics, spintronics and quantum information. It builds naturally on the 2016 topological-phases prize without repeating it.",
+        "attribution": "The theory-experiment pairing is natural: Kane and Mele for the Z2 classification and the quantum spin Hall proposal in graphene, Molenkamp for the experimental realization in HgTe quantum wells. The HgTe prediction by Bernevig, Hughes and Zhang and the 3D topological insulator work by Moore-Balents, Fu-Kane-Mele and Hasan are not in the credited names, so any trio leaves out important contributors.",
+        "maturity": "Very well confirmed: nonlocal transport in HgTe, ARPES on Bi-based 3D materials, and many follow-up systems; the interpretation has been stable for over fifteen years, and recognition is timely, arguably overdue.",
+        "uncertainties": [
+          "Credit is spread over many people, and the supplied names omit Zhang (deceased), Bernevig and Hughes, so a fair three-person configuration is contestable.",
+          "Whether the 3D topological insulator discoveries should be recognised alongside the 2D quantum spin Hall effect is unresolved.",
+          "Practical applications remain limited, and the observed edge conductance in HgTe is not always perfectly quantized."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B022",
+      "proposed_laureates": [
+        "Roberto Car",
+        "Michele Parrinello"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Car-Parrinello ab initio molecular dynamics joined DFT electronic structure with atomic motion and made first-principles simulation of liquids, defects, chemical reactions and phase transitions possible. It is a methodological breakthrough with decades of impact across condensed matter, chemistry and materials science. As a theorist in this area I regard its influence as exceptional, though it is a computational method rather than a discovery of a new physical phenomenon.",
+        "attribution": "Credit is unusually clean: the 1985 paper has two authors and the two proposed names are the obvious laureates. Others (Payne et al., Marx-Hutter, and the earlier Born-Oppenheimer dynamics) refined or extended it but the original conception is clearly theirs.",
+        "maturity": "Forty years of broad independent use, with reproducible implementations in many codes and validation against experiment. Timing is mature, and if anything late.",
+        "uncertainties": [
+          "The committee has historically been cautious about computational methods, and DFT was recognised by the chemistry prize in 1998 and multiscale modelling in 2013, so a physics prize may be contested as a fit.",
+          "Reliance on approximate exchange-correlation functionals limits quantitative predictive power in some systems; I base this on my own knowledge rather than anything independently verified here."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B057",
+      "proposed_laureates": [
+        "Pablo Jarillo-Herrero",
+        "Allan H. MacDonald",
+        "Rafi Bistritzer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The prediction of flat bands at the magic angle in twisted bilayer graphene and the discovery of correlated insulating and superconducting states created moire quantum matter, a tunable platform for strongly correlated physics. This is a new quantum behaviour in a material, tied closely to theory and experiment. It echoes the lesson that graphene itself was a surprise.",
+        "attribution": "Bistritzer and MacDonald made the key theoretical prediction in 2011; Jarillo-Herrero's group made the decisive 2018 experimental discovery. The proposed trio is a natural theory-experiment configuration. The contributions of Cao, Fatemi and others in the experimental team, and other early moire theory (e.g. Lopes dos Santos, Peres, Castro Neto), complicate credit.",
+        "maturity": "Replicated by many independent groups across twisted multilayers and TMD moire systems, but the origin of the superconductivity and many correlated phases is still debated, so the interpretation is not fully settled and recognition may be somewhat early.",
+        "uncertainties": [
+          "Mechanism of superconductivity remains unresolved.",
+          "Sample-to-sample variability and the role of strain and disorder affect reproducibility.",
+          "Priority among early theoretical work on twisted-bilayer flat bands is not entirely clear."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B030",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The optical lattice clock, trapping atoms at a magic wavelength to cancel light shifts, delivered a thousandfold step in frequency precision, with fractional uncertainties near 1e-18. It enables tests of fundamental constants, relativistic geodesy and a path to redefining the second. The idea is original, clear, and quantitatively rigorous, the sort of measurement physics I value.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept in 2001-2003 and Ye led the pioneering high-precision implementations; the two-name configuration is clean. Ion-clock and frequency-comb work (already recognised in 2005 and 2012) is adjacent but distinct, and others such as Lemonde and Takamoto contributed to early demonstrations.",
+        "maturity": "Many independent laboratories have achieved agreement at the 1e-18 level and international comparisons are underway. Recognition is timely, with a redefinition of the second still ahead.",
+        "uncertainties": [
+          "Overlap with the earlier frequency-metrology prizes could be seen as incremental by some members.",
+          "Roles of other early contributors in demonstration versus proposal are not fully clear to me."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B004",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Tilman Esslinger",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices realize Hubbard-type models with controllable parameters, giving direct access to the superfluid-Mott transition, fermionic correlated phases and quantum simulation of many-body physics. It links directly to condensed-matter theory and provides a clean test bed for models I know from electronic structure and magnetism.",
+        "attribution": "Zoller (with Jaksch et al.) made the theoretical proposal, Greiner/Bloch observed the Mott transition, and Esslinger realized fermionic Mott insulators. The list has four names while at most three can be chosen, so an unavoidable omission, most likely Greiner, remains. Greiner's Mott-insulator experiment was a decisive result and its omission is a real concern.",
+        "maturity": "Mature and widely replicated over twenty years, with quantum gas microscopes extending the reach. Recognition is timely; the adjacent BEC prize in 2001 and the 2012 prize on single quantum systems already touch the field.",
+        "uncertainties": [
+          "Selection of three from four credited names is contestable.",
+          "The scientific payoff on genuinely hard, unsolved correlated models, as opposed to demonstration, is still developing."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B007",
+      "proposed_laureates": [
+        "Hideo Hosono",
+        "Xianhui Chen",
+        "Zhongxian Zhao"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The discovery of iron-based superconductors with Tc up to about 55 K in 2008 created a second high-temperature family beyond the cuprates, with distinct multiband, magnetically proximate physics. This is a clear new state of matter in a material class, and DFT-based theory has been closely involved in interpreting it.",
+        "attribution": "Hosono's 2008 LaFeAsO(F) report is the decisive discovery. Chen and Zhao's groups rapidly raised Tc with SmFeAsO and related compounds; their share is real but secondary. A fair prize could be Hosono alone or with them, and the allocation is open.",
+        "maturity": "Strongly confirmed in materials, but the pairing mechanism is still debated and no room-temperature or application breakthrough has resulted; the cuprate precedent (1987) shows prizes can come quickly, but the lack of a settled mechanism argues for patience.",
+        "uncertainties": [
+          "Pairing mechanism unresolved.",
+          "Allocation between Hosono and the Chinese groups is a matter of judgement.",
+          "Practical technology impact is modest so far."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B008",
+      "proposed_laureates": [
+        "Federico Capasso",
+        "Jérôme Faist",
+        "Alfred Y. Cho"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The quantum cascade laser is a bandgap-engineered device whose emission wavelength is set by layer thickness, not by the material gap, opening mid-infrared and terahertz sources used in sensing and spectroscopy. It is a successful union of quantum mechanics and device invention with real use and good conceptual clarity.",
+        "attribution": "The 1994 invention at Bell Labs was led by Faist and Capasso, with Cho providing the molecular beam epitaxy growth that made it possible. Kazarinov and Suris proposed the superlattice amplification idea in 1971, and their priority is an unresolved credit issue that is not captured in the supplied names. Cho's role is more enabling than conceptual.",
+        "maturity": "Over three decades of independent development, commercial deployment and room-temperature continuous-wave operation. Recognition is mature, with possible concern that the work is an invention more than a physical discovery.",
+        "uncertainties": [
+          "Kazarinov and Suris priority is not in the credited names.",
+          "Whether Cho's growth contribution merits a share relative to the conceptual inventors is open."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B011",
+      "proposed_laureates": [
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Cory R. Dean"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ultrapure hexagonal boron nitride crystals and the encapsulation technique transformed 2D-materials research by providing atomically flat, clean dielectric substrates, enabling fractional quantum Hall physics, high mobility graphene and moire studies. The impact is broad and the reproducibility gain is notable, though it is an enabling materials advance rather than a standalone physical discovery.",
+        "attribution": "Watanabe and Taniguchi grew the crystals and are the clear source; Dean's 2010 graphene-on-hBN demonstration established the usage. The two crystal growers have a strong claim but the prize would be unusual for materials synthesis.",
+        "maturity": "Widely adopted by essentially every high-quality 2D device group, so the confirmation is strong, but the committee may prefer to recognise the physics enabled before the substrate.",
+        "uncertainties": [
+          "Whether the Nobel committee would consider crystal growth a physics discovery is uncertain.",
+          "The credited names omit others who developed van der Waals transfer and encapsulation, such as Dean's collaborators and Geim's group."
+        ]
+      }
+    }
+  ]
+}

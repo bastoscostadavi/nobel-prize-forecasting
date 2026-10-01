@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realization of optical lattice clocks, in which neutral atoms trapped at a magic wavelength brought optical frequency standards to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "I keep optical lattice clocks (B024) as a single prize part, with Katori and Ye. My first choice at the opening, circuit QED, found no support, and Pearce, Kroll and Danielsson all point to the overlap with the 2025 circuit prize and the missing Wallraff credit. I agree with them, so I do not carry it forward. On the physics, the discovery is a specific idea: a lattice at the magic wavelength cancels the differential light shift, so many neutral atoms can be interrogated at once with long coherence and small systematic shifts. Katori proposed it and first realized it in strontium. Ye's group then showed what the idea could do, with uncertainties and stabilities near 10^-18, and with the first controlled studies of interactions and many-body effects inside a clock. Independent clocks in Sr, Yb and Hg (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE) now agree at that level and are compared across continents. Those clocks resolve gravitational redshift over millimetres and bound drifts of constants. As someone who works on making quantum devices behave, I find that the claim rests on something rare here: the number is believed because it has been reproduced in several laboratories. The citation should name the lattice scheme and the realization to 10^-18, and should not depend on the pending redefinition of the second.",
+    "case_against": "The strongest objection remains novelty. The 2005 comb prize and the 2012 prize for control of single quantum systems are neighbours, and Danielsson and Mehlig fairly say that a quantitative leap in an existing capability is a different kind of discovery from a new phase of matter. I do not think the lattice clock is a refinement of either, because the magic-wavelength condition and the many-atom interrogation are a separate idea, but I accept that reasonable members weigh this differently. The redefinition of the second has not happened, so the practical payoff is pending. A two-name credit also passes over Takamoto, Lemonde, Ludlow, Hinkley and Ovsiannikov, who each hold milestones; I judge that the invention and the sustained record accuracy sit with Katori and Ye, but I cannot verify first-demonstration dates beyond what colleagues have stated. Finally, B003 has a stronger claim to opening a new regime of matter, and I would not oppose it as a prize in a later year.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce asks whether I think the overlap of circuit QED with the 2025 circuit prize is a real problem and notes that Wallraff's strong-coupling experiment is outside the credited trio.",
+        "response": "Yes, I think it is a real problem, and I say so as the person who first ranked B043 highest. The 2025 prize recognised macroscopic quantum tunnelling and energy quantization in a superconducting circuit, which is the device physics that circuit QED then uses. A second prize on the same platform within a year would need a very clean separation of achievements, and the Blais-Girvin-Schoelkopf trio omits Wallraff, who did the first strong-coupling experiment. I therefore treat B043 as a later candidate and I do not vote for it. I also agree with you that B024 has the cleanest attribution on the list."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll asks whether the many-body and interaction physics inside the clock, developed by Ye's group, belongs in the citation, because it shows this is physics and not engineering.",
+        "response": "I agree it strengthens the case. Ye's group did show that interactions and many-body effects in a lattice clock can be controlled and measured, and I would use this in the discussion. For the citation I would still keep the wording on the invention and the realization to 10^-18, because adding many-body physics invites the question of whether other groups should be credited for it. On Lemonde, Takamoto and Ludlow I accept your boundary: the concept and the first Sr lattice clock sit with Katori, the record accuracy and many-atom control with Ye. I would ask that the committee secretary check the dates of the first lattice-clock demonstrations before we finalize, since I cannot confirm them from memory."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth would keep B014 (atoms in optical lattices) as the main alternative if the committee wants a many-body discovery, and says leaving Zoller out would be a mistake.",
+        "response": "I agree that B014 is the natural many-body alternative and that the Hubbard proposal by Zoller and Jaksch is central to it. However, I now rank it behind B003 as my alternative, for the reason you and Olsson both give: four credited names against a three-name limit, with a contested split between theory and experiment. I also take your point that the atomic physicists should say more than defer to each other on the clock, so I state plainly that I have no collaboration with Katori or Ye and I find the case independent of whom I know."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson prefers B003 because a specific prediction of flat bands was followed by experiments that found correlated and superconducting states, a new regime and not a quantitative leap, but accepts B024 as cleaner on maturity and attribution.",
+        "response": "I find the prediction-then-discovery pattern persuasive, and B003 is now my first alternative. The chair asks whether an open superconducting mechanism is a bar. I do not think it is a bar in principle, since a prize does not need a settled mechanism. My hesitation is narrower and comes from device experience: twist-angle disorder and sample dependence of the phases still limit reproducibility between laboratories, and Cao and the first experimental groups fall outside any three names. Those are reasons to wait a few years, not to reject it. Because you say you would be content to see B024 first, I read that as agreement on 2026 and I do not see a need for a two-part prize, which with the supplied credits would exceed three people."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks B003 and B023 first and second, and regards B023 as older, better understood and arguably overdue, while accepting B024 as a strong second choice.",
+        "response": "I understand the argument that B023 is overdue, and I still keep it as an alternative. My difficulty is the allocation: the Kane-Mele Z2 and HgTe edge-state work is distinct from the 2016 prize, but Zhang, Bernevig and Hughes made the HgTe prediction that Molenkamp tested, and the 3D materials are also missing, so three names cannot cover it. I would put B003 ahead of it for the second place on the committee's list, though I defer to you and Mehlig on condensed-matter priorities."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig prefers active matter (B006) as a minimal model with universal hydrodynamic consequences, and concedes that quantitative tests of the Toner-Tu exponents are partial and Tu is not credited.",
+        "response": "I thank you for stating the limits yourself. This is outside my field, so I defer on the theory, and I find the Mermin-Wagner argument elegant. My concern is the one the chair repeats: you say tests of the exponents are partial, and I have not heard a named experiment that measures them quantitatively. Without one, the case rests on a framework that is understood but only qualitatively confirmed, and omitting Tu from a joint theory makes the credit harder. If you can name such an experiment I will reconsider, but I do not move B006 into my alternatives."
+      }
+    ],
+    "uncertainties": [
+      "Whether colleagues will count the lattice clock as a distinct discovery or as a continuation of the 2005 comb and 2012 ion-control prizes; I argue the former but cannot settle it by evidence.",
+      "Whether the dates and roles in the first Sr lattice-clock demonstrations (Takamoto, Lemonde, Ludlow, Hinkley) leave the Katori and Ye credit exact; I have not verified these independently.",
+      "Whether the committee prefers to wait for the formal redefinition of the second, which I think should not be a condition.",
+      "How much weight to give a new regime of matter (B003) against a mature measurement advance, and whether the superconducting mechanism will clear up within a couple of years.",
+      "My judgement on active matter, astroparticle physics, electron optics and condensed matter is deferential, since these are outside my expertise."
+    ],
+    "conflict_note": "I direct the Wallenberg Centre for Quantum Technology and work closely with superconducting-circuit groups, so I do not vote for or advocate B043 (circuit QED) and have dropped it from my positions. Chalmers hosted 2025 laureates Martinis and Clarke as guest researchers, and colleagues at Chalmers co-authored the dynamical Casimir work. I have no documented collaboration with Katori or Ye and no specific conflict on B024, B003 or B023. Olsson is in the same Gothenburg physics environment, which does not bear on these candidates."
+  }
+}

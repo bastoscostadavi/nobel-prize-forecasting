@@ -66,7 +66,7 @@ Agents are run through a documented orchestration workflow, each given only the 
 1. **Nominator list:** a model drafts 100 nominators matching the eligible nominator groups, countries and subfields (`scripts/generate_nominator_list.py`, or a subagent). Physics has lists drafted by Claude Opus 5.5 and GPT-6 Sol.
 2. **Nominator profiles:** each nominator gets a web-researched `profile.md` (checked alive and current affiliation; biography, research footprint, persona; no nominations or predictions).
 3. **Nomination:** 6 runs per nominator list × 100 nominator subagents (`scripts/nominations.workflow.js`). Each run's nominations are consolidated without frequency-based exclusion into `candidates.json` and `candidates.csv`.
-4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a support-based union shortlist, hold two written discussion rounds, and rank a fixed proposal slate by secret ballot. Candidate order is deterministically shuffled and nomination-frequency signals are hidden. Five votes decide; otherwise a fully recorded instant runoff is used. Physics runs five Claude and five GPT-5.6 Terra (`high`) committees for each of 12 nomination runs: 120 full committee simulations.
+4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a support-based union shortlist, hold two written discussion rounds, and rank a fixed proposal slate by secret ballot. Candidate order is deterministically shuffled and nomination-frequency signals are hidden. Five votes decide; otherwise a fully recorded instant runoff is used. Physics runs five Claude and five GPT-5.6 Terra (`high`) committees for each of 12 nomination runs: 120 primary full committee simulations. A secondary sensitivity arm repeats the 60 OpenAI committees with GPT-6 Luna at `high` reasoning while holding the nomination lists and protocol fixed.
 5. **Zero-context baseline:** 60 independent GPT-6.1 Sol (`high`) requests each receive only the fixed question asking who will win the 2026 Nobel Prize in Physics. They do not see nomination runs, candidate lists, profiles, or committee outputs, and are analyzed separately from the committee simulations.
 
 The versioned Physics phase-2 methodology is in `docs/PHYSICS_PHASE2.md`.
@@ -86,3 +86,9 @@ The separate GPT-6.1 Sol baseline is also complete. All 60 accepted requests
 received only the fixed question in step 5 above. Its post-hoc transcription
 summary is in
 `results/physics/oneshot/gpt-6.1-sol/posthoc_transcription_summary.json`.
+
+The GPT-6 Luna sensitivity arm uses the same 12 candidate lists, five fresh
+committees per list, and the same evidence boundaries and voting rules as the
+Terra arm. Outputs are isolated under each run's
+`committee/gpt-6-luna/sim-01..05/` directory, with raw execution audits under
+`results/physics/luna_committee_runtime/`.

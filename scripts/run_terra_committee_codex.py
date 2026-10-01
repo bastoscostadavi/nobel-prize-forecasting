@@ -40,14 +40,18 @@ DEFAULT_CODEX = Path(
     "/Applications/ChatGPT.app/Contents/Resources/"
     "codex-cli/CodexCLI.app/Contents/MacOS/codex"
 )
-MODEL = "gpt-5.6-terra"
-EFFORT = "high"
+MODEL = protocol.MODEL
+EFFORT = protocol.EFFORT
 LISTS = ("claude-opus-5-5", "gpt-6-sol")
 RUNS = tuple(range(1, 7))
 SIM_NUMBERS = tuple(range(1, 6))
 MEMBERS = tuple(sorted(protocol.shared.EXPECTED_MEMBERS))
 CHAIR = protocol.shared.CHAIR
-RUNTIME_ROOT = ROOT / "results" / "physics" / "terra_committee_runtime"
+RUNTIME_SLUG = os.environ.get("PHYSICS_COMMITTEE_RUNTIME_SLUG", "terra")
+RUNTIME_ROOT = ROOT / "results" / "physics" / f"{RUNTIME_SLUG}_committee_runtime"
+COORDINATOR_SCRIPT = os.environ.get(
+    "PHYSICS_COMMITTEE_COORDINATOR_SCRIPT", "terra_committee.py"
+)
 ALLOWED_EVENT_ITEMS = {"agent_message", "reasoning"}
 
 STAGES = ("opening", "round1", "chair", "round2", "final")
@@ -423,7 +427,7 @@ def run_request(
     errors: list[str] = []
     for _ in range(max_attempts):
         attempt = next_attempt(runtime_directory(sim, stage, member))
-        with tempfile.TemporaryDirectory(prefix=f"terra-{stage}-{member}-") as directory:
+        with tempfile.TemporaryDirectory(prefix=f"{RUNTIME_SLUG}-{stage}-{member}-") as directory:
             temp = Path(directory)
             last_message = temp / "last-message.json"
             command = build_codex_command(codex, temp, last_message)
@@ -493,7 +497,12 @@ def run_request(
 
 
 def coordinator(command: str, sim: Path, check: bool = False) -> str:
-    args = [sys.executable, str(ROOT / "scripts" / "terra_committee.py"), command, str(sim)]
+    args = [
+        sys.executable,
+        str(ROOT / "scripts" / COORDINATOR_SCRIPT),
+        command,
+        str(sim),
+    ]
     if check:
         args.append("--check")
     completed = subprocess.run(args, cwd=ROOT, capture_output=True, text=True, check=False)

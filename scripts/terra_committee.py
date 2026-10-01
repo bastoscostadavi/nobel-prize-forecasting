@@ -28,6 +28,7 @@ and path parsing are replaced below before any operation runs.
 from __future__ import annotations
 
 import argparse
+import os
 import subprocess
 from collections import Counter
 from pathlib import Path
@@ -36,22 +37,24 @@ import claude_committee as shared
 
 
 PROVIDER = "openai"
-MODEL = "gpt-5.6-terra"
-EFFORT = "high"
+MODEL = os.environ.get("PHYSICS_COMMITTEE_MODEL", "gpt-5.6-terra")
+EFFORT = os.environ.get("PHYSICS_COMMITTEE_EFFORT", "high")
+PROMPT_SLUG = os.environ.get("PHYSICS_COMMITTEE_PROMPT_SLUG", "terra")
 COHORT = MODEL
-SEED_PREFIX = "physics-committee-gpt-5.6-terra-v1"
+SEED_PREFIX = f"physics-committee-{MODEL}-v1"
 PROMPTS = {
-    "opening": "prompts/physics_committee_terra_opening_v1.md",
-    "round1": "prompts/physics_committee_terra_round1_v1.md",
-    "chair": "prompts/physics_committee_terra_chair_summary_v1.md",
-    "round2": "prompts/physics_committee_terra_round2_v1.md",
-    "final": "prompts/physics_committee_terra_final_ballot_v1.md",
+    "opening": f"prompts/physics_committee_{PROMPT_SLUG}_opening_v1.md",
+    "round1": f"prompts/physics_committee_{PROMPT_SLUG}_round1_v1.md",
+    "chair": f"prompts/physics_committee_{PROMPT_SLUG}_chair_summary_v1.md",
+    "round2": f"prompts/physics_committee_{PROMPT_SLUG}_round2_v1.md",
+    "final": f"prompts/physics_committee_{PROMPT_SLUG}_final_ballot_v1.md",
 }
 ROOT = Path(__file__).resolve().parent.parent
 LISTS = ("claude-opus-5-5", "gpt-6-sol")
 RUNS = range(1, 7)
 SIMS = tuple(f"sim-{index:02d}" for index in range(1, 6))
-MANIFEST = ROOT / "results" / "physics" / "terra_committee_progress.json"
+PROGRESS_SLUG = os.environ.get("PHYSICS_COMMITTEE_PROGRESS_SLUG", "terra")
+MANIFEST = ROOT / "results" / "physics" / f"{PROGRESS_SLUG}_committee_progress.json"
 
 
 def fail(message: str) -> None:

@@ -52,6 +52,30 @@ The one-shot model must not receive or inspect:
 - committee prompts, discussions, ballots, or decisions; or
 - another one-shot prediction.
 
+## GPT-6 Luna sensitivity arm
+
+To test whether the simulation-based forecast is robust to the OpenAI
+committee model, a secondary arm repeats the complete Terra allocation with
+`gpt-6-luna` at `high` reasoning effort. GPT-6 Luna was chosen as OpenAI's
+efficient focused/high-volume model; the official model page confirms that the
+exact `gpt-6-luna` identifier supports `high` reasoning:
+https://developers.openai.com/api/docs/models/gpt-6-luna
+
+The arm contains five independent Luna committees for every one of the same 12
+nomination runs, for 60 additional full simulations. It changes only the model:
+candidate inputs, committee personas, evidence boundaries, prompts, shortlist
+rule, discussion structure, proposal construction, and instant-runoff rule are
+held fixed. Its output roots are:
+
+```text
+results/physics/<list-id>/run-<n>/committee/gpt-6-luna/sim-01..05/
+results/physics/luna_committee_runtime/<list-id>/run-<n>/sim-01..05/
+```
+
+The model-locked entry points are `scripts/luna_committee.py` and
+`scripts/run_luna_committee_codex.py`. Luna is a sensitivity analysis, not a
+replacement for either primary committee arm and not a zero-context baseline.
+
 Outputs are stored independently as:
 
 ```text

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B048",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction of the quantum spin Hall effect and time-reversal-invariant topological insulators, and for its experimental discovery in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B049"
+  ],
+  "statement": {
+    "case_for": "After reading the openings I still place B048 first. The Kane-Mele Z2 classification and quantum spin Hall proposal are a compact, general idea: band topology plus spin-orbit coupling fixes protected boundary states, and this can be checked against computed and measured band structures. The idea was tested quickly and decisively in Molenkamp's HgTe quantum wells, where the conductance of the edge channels was measured, and it then spread to Bi-based materials where ARPES, a spectroscopy I care about, maps the surface states directly. More than fifteen years of independent confirmation, a stable interpretation, and a durable effect on how materials are searched and classified make this the most robust of the condensed-matter candidates. It is also a case where first-principles electronic structure became predictive, not only descriptive. Three of the eight members ranked it, none lower than third, so it has real cross-member support although it is not the most widely first-ranked ballot.",
+    "case_against": "The strongest reservation is attribution. Any three-name set leaves out Bernevig, Hughes and Zhang, whose HgTe prediction is what made the Molenkamp experiment possible, and the three-dimensional topological insulator contributors. The prediction and the experiment also sit in different sub-stories, so the citation is a compound one and could look assembled. A second worry is that the quantisation in real HgTe edge channels is imperfect, so the 'decisive' experiment is decisive for existence and not for ideal protection. Finally, the 2016 prize touched topological phases, and some will see this as a continuation. I judge it distinct (time-reversal-symmetric Z2 order with spin-orbit coupling, not integer quantum Hall or Berezinskii-Kosterlitz-Thouless physics), but the committee should state that distinction explicitly.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks B048 third and calls the Kane, Mele, Molenkamp trio defensible but not unique, because Bernevig, Hughes and Zhang (with Zhang deceased) and the 3D topological insulator contributors are outside it. He also sits closer to statistical physics than to topological band theory and says so.",
+        "response": "I agree the trio is not unique, and I do not think it can be made so. But the prize rule allows three names, and the cleanest line of reasoning is the one with the most direct credit trail: Kane and Mele for the Z2 idea, and Molenkamp for the first measurement of the edge channels. BHZ is a genuine contribution, and I would say so in the committee's background text. Zhang's death matters for BHZ only as one more argument that a three-person cut must exclude someone. I would be happy to hear your view as an outside reader on whether the Z2 argument carries a distinctly physical content, since your own preferred B045 has an allocation problem of a similar kind (four credited names for three seats)."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks B048 second, behind B024, as timely and arguably overdue, but asks whether the 2016 prize on topological phase transitions and phases of matter makes it feel like partial duplication. He puts the discovery of theta-13 first as a clean clue from experiment.",
+        "response": "I take the duplication worry seriously, but I think the physics separates the two. The 2016 prize rewarded topological defects and the integer quantum Hall topology of a 2D electron gas in a strong magnetic field. Kane and Mele showed that spin-orbit coupling alone, with time-reversal symmetry unbroken, supports a protected topological state, which is a different symmetry class with a different experimental signature. On B024, I defer to you on reactor physics and accept that it is clean and robust. My disagreement is only on weighting: theta-13 was a measurement of a parameter of an established framework, whereas B048 opened a new class of states of matter, and I give that more weight. The 2015 prize on neutrino oscillations also makes B024 more of a follow-on."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll puts B049 (optical lattice clocks) first because the measurable performance is unambiguous, the credit is clean for two people, and many independent laboratories confirm the 1e-18 uncertainties.",
+        "response": "The credit on B049 is cleaner than on B048 and I do not dispute that, nor the multi-laboratory reproducibility. Where I differ is that you and Lindroth rank it first while Danielsson ranks it only eighth, and the whole discussion of overlap with the 2005 comb and 2012 ion-clock prizes is unresolved. For me a prize in a field already honoured twice for precision spectroscopy needs the stronger case that something new is learnt about nature, and the geodesy and constants tests are still prospective. I would keep B049 as a serious alternative for a configuration with a single clean story, but I do not think its allocation advantage outweighs the physics of B048."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson puts circuit QED (B038) first as a robust platform discovery with two decades of confirmation, and flags his own proximity to the field and the possible overlap with the 2025 prize on circuits.",
+        "response": "I appreciate the candid disclosure of closeness to the field, and I think the committee should treat his ranking of B038 with that in mind. I chaired the 2025 cycle, and I can say the quantum tunnelling prize was framed around macroscopic quantum behaviour in a circuit, so cQED is distinct in its physics. Even so, awarding another superconducting-circuit prize one year later is a real optics problem, and the four-name allocation among Blais, Girvin, Schoelkopf and Wallraff cannot fit in three seats without a hard cut. That is why I do not make B038 an alternative, despite its strength."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a compound citation joining the theory prediction and the HgTe experiment while leaving out Bernevig, Hughes and Zhang.",
+      "Whether the 2016 topological prize will be read as covering this discovery; I think not, but colleagues outside condensed matter may differ.",
+      "How firmly the quantisation of edge conductance in HgTe has been reproduced beyond Molenkamp's group; I rely on memory rather than a check of the primary papers.",
+      "If B048 proves too contested, whether B016 (still unresolved superconductivity mechanism and omitted experimentalists) or B049 (overlap with earlier precision prizes) is the better fallback."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for B048, B016 or B049. My Uppsala electronic-structure and magnetism work is adjacent to topological and moire materials, but I have no listed collaboration with the credited names. I chaired the 2025 prize and was a committee expert in 2023 and 2024, which is relevant only to questions of overlap with recent prizes."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B027",
+        "laureates": ["Immanuel Bloch", "Markus Greiner", "Peter Zoller"],
+        "citation": "For realizing controllable quantum many-body systems with ultracold atoms in optical lattices, from the proposal and observation of the superfluid-Mott insulator transition to single-site-resolved quantum gas microscopy"
+      }
+    ]
+  },
+  "alternatives": ["B050", "B051"],
+  "statement": {
+    "case_for": "Optical-lattice quantum simulation turned the Hubbard model and related interacting many-body problems into tunable laboratory systems in which correlations can be read out site by site. That is statistical mechanics of interacting systems made directly observable: a clean model, an analysable mechanism (the superfluid to Mott transition), and a decisive experiment. Its reach extends across condensed matter, quantum information and statistical physics, and it has been reproduced for two decades by many independent groups. The attribution has a natural structure: Zoller supplied the theoretical programme, Greiner and Bloch the decisive experimental realisations, including the Mott transition and the microscope. I also weigh that a physics prize for a mature platform is a different thing from a prize for a single sharp discovery, so the citation should name the specific achievements (Mott transition and microscopy) rather than the field.",
+    "case_against": "The credited set contains five names, so any three-person prize leaves out Cirac and Dalibard, and Jaksch (the co-author of the Hubbard proposal with Zoller) is not on the list at all. The set is therefore a judgement, not settled history. Much of the impact is as a platform, and the long-promised solution of problems intractable for classical computers is only partly delivered. There is also overlap with the Bose-Einstein condensation and laser-cooling prizes, and the field is adjacent to the trapped-ion and Rydberg candidates. Compared with B051 and B050, the case is less crisp as a single discovery.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Optical lattice clocks (B051) are the clearest case of a new measurement capability changing what can be observed. Katori and Ye is a compact two-person pair, the field is mature, and recognition would be timely.",
+        "response": "I agree that B051 has the cleanest attribution of the shortlist, and I have moved it to my second alternative. My reservation is partly scientific and partly about breadth: the 2005 comb and 2012 ion-control prizes already recognised the core precision-metrology steps, and the clock case rests on a quantitative improvement of a known instrument class, with the redefinition of the second still pending. The lattice-simulation case is the one where a new regime of many-body physics became experimentally accessible. Your own measurement criterion also applies to B027, since single-site-resolved readout of correlations is a new measurement capability. I do not think the clock case is weaker in quality, only that it fits the committee's usual precedent less clearly as a new discovery."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks the Kane-Mele-Molenkamp topological insulator first (B050), a clean theory-and-experiment story, and puts optical-lattice simulation at eighth because its relevance to real materials is indirect and a fair three-way split among five names is not obvious.",
+        "response": "I agree that B050 is a strong candidate. I ranked it third and keep it as my first alternative. The idea of topological protection and the Z2 classification are very robust, and I accept that the case is overdue rather than premature. We disagree on what counts for indirectness. A simulator is valuable precisely because it controls parameters that real materials do not, so tests of the Hubbard model against theory are direct, not a proxy. I share your concern about the allocation among five names, and I do not claim it is settled. I would, however, point out that B050 has its own attribution gap: Bernevig, Hughes and Zhang proposed HgTe, and the 3D case (Fu, Kane, Mele; Moore, Balents; Hasan) is not covered. Neither candidate is free of attribution difficulty, so I do not think that alone should rank B027 eighth."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth, who works in this area, finds the physics compelling because it tests many-body theory against clean experiments, but ranks it seventh because the selection among five names is arbitrary and overlap with earlier BEC and laser-cooling prizes and the ion-trap candidate leaves it unclear that there is one decisive discovery.",
+        "response": "The overlap point is the most serious qualification I have heard, and I take it seriously. My response is that the BEC and laser-cooling prizes recognised making cold atoms and condensing them, whereas the lattice work is about using them to realise strongly interacting lattice models, which is a distinct achievement. The decisive discovery I would name is the observation of the superfluid to Mott-insulator transition, with the microscope as the second decisive step. On arbitrariness, I propose the three roles (proposal, transition experiment, microscopy) as a principled rule for Zoller, Greiner and Bloch, but I concede that Cirac and Dalibard are credible alternatives, and I would welcome your reading of the early priority record on the theory side, which is closer to your expertise than mine."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED (B038) first as the architecture beneath superconducting processors, and rates B027 sixth because much of its impact is as a platform and credit is dense, with Zoller appearing on other candidates.",
+        "response": "I accept the platform-versus-discovery tension, and it is why I want the citation to name the Mott transition and microscopy and not the field. I do not agree that a platform is lesser: circuit QED is also a platform, and I would defend both as discoveries of a controllable regime. Given your stated involvement with this architecture, I would treat your ranking of B038 as informed but potentially conflicted, as you noted yourself, and I would want other members to weigh it. B038 also has an unresolved four-to-three allocation problem (Blais or Girvin) and sits next to the 2025 prize on superconducting circuits. On Zoller appearing twice, that matters only if the committee proposes two parts, and my configuration has one."
+      }
+    ],
+    "uncertainties": [
+      "Which three of Bloch, Greiner, Zoller, Cirac and Dalibard (with Jaksch not credited) is the defensible set; I rely on memory for the detailed priority history of the Hubbard proposal and of the microscopy work.",
+      "Whether the committee regards ultracold-atom lattices as distinct enough from the earlier BEC and laser-cooling prizes and from the trapped-ion and Rydberg candidates.",
+      "Whether the committee prefers the sharper single-discovery profile of B050 or B051 to a platform-type prize."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for B027. I have no collaboration with the credited names. I note a general institutional proximity to colleagues Johansson and Olsson in the Gothenburg physics environment, which could matter for B038 or B033, but not for my preferred configuration."
+  }
+}

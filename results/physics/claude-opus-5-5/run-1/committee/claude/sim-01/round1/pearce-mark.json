@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "pearce-mark",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B051",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "For the invention and realization of optical lattice clocks"
+      },
+      {
+        "ballot_id": "B009",
+        "laureates": ["Francis Halzen"],
+        "citation": "For the discovery of high-energy astrophysical neutrinos with IceCube"
+      }
+    ]
+  },
+  "alternatives": ["B050", "B038"],
+  "statement": {
+    "case_for": "Both parts are new measurement capabilities that opened a window nobody had before, and both are independently confirmed. Optical lattice clocks reached about 1e-18 fractional uncertainty, are reproduced at JILA, RIKEN/Tokyo, NIST, PTB and SYRTE, and are the route to redefining the second and to relativistic geodesy and constant-variation tests; Katori's magic-wavelength concept and Ye's accuracy records give a clean two-person credit. IceCube turned a cubic kilometre of Antarctic ice into a telescope and established a diffuse TeV-PeV astrophysical neutrino flux in 2013, since supported by the TXS 0506+056 coincidence, NGC 1068 and Galactic-plane neutrinos. Pairing them gives a prize with one coherent theme (instruments that let us measure the Universe and time itself with new precision) using three people, and each half had at least two first-place votes in the openings, which makes it the closest thing to a consensus configuration on the table.",
+    "case_against": "Two weaknesses. First, the IceCube half rests on a single credited name for a very large collaboration, so a one-person citation has to be defended honestly against the instrument builders and analysis leads; that is a real attribution problem and I cannot resolve it from the supplied credit. Second, clocks follow the 2005 comb prize and the 2012 ion-trap prize, and the SI second has not yet been redefined, so a colleague could fairly say the clock award is incremental or early. A third concern is that the pairing is thematic rather than scientific: the two parts have no shared physics, and a committee that prefers a single deep achievement may rightly find it a convenience pairing. Finally, B050 has strong condensed-matter support from three members and is arguably the more complete story with the larger intellectual footprint.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks the lattice clock first as a clean, quantitative, systematics-controlled idea, and argues that the earlier comb and ion-clock prizes are consistent with a narrow award to Katori and Ye here.",
+        "response": "I agree on the science and share your trust in the precision-measurement record. Where I want more care is the novelty argument: the 2005 and 2012 prizes honoured the tools (combs, single trapped ions), and the lattice clock's distinct step is simultaneous interrogation of many atoms at the magic wavelength, which is what made the 1e-18 stability reachable. I would write the citation around that step. I am less convinced than you that the pending SI redefinition is irrelevant to timing, but cross-continent clock comparisons are routine, which is the kind of independent confirmation I look for."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks time-reversal-invariant topological insulators first as a clean theory-plus-experiment story with overdue, stable recognition, while noting that Bernevig, Hughes and Zhang sit outside the credited names.",
+        "response": "That is the strongest competing case and I keep B050 as my first alternative. The maturity argument is persuasive and I defer to you and others on condensed matter, where I lack the expertise. My reservation is attribution: the HgTe experiment was a response to the Bernevig-Hughes-Zhang proposal, and the Kane-Mele-Molenkamp trio leaves out a decisive proposal, which you concede yourself. The 2016 topology prize also covers adjacent ground. If the committee can settle that credit question, I would not oppose a topological prize, but I do not think it is settled today."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks IceCube first as a clue from nature, with the diffuse flux confirmed in several channels and the Halzen-only credit as a clean single-laureate configuration.",
+        "response": "I share the enthusiasm, but I would push back gently on calling a single name clean. Halzen conceived and drove the project, yet the discovery was made by a large collaboration and by analysis leads and detector builders who cannot be added within this ballot. I would want the committee to read the primary record before accepting a one-person citation. I also take your point that source identification is still partial, so I would cite the diffuse flux (the 2013 discovery) and not the source associations."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first as the architecture under essentially every superconducting processor, and argues it is distinct from the 2025 tunnelling prize.",
+        "response": "I accept that circuit QED is a different physical step from macroscopic tunnelling and is technologically central. My concern is two-fold: the 2025 prize is close enough that the committee will probably prefer to wait, and with four credited names any three leave out someone decisive, as you say yourself (Blais or Girvin). I would keep it as my second alternative and not as the lead. If the committee wants a quantum-technology prize, I would like to hear whether you prefer Wallraff or Girvin in the trio, since that choice decides whether the experiment or the theory carries the citation."
+      }
+    ],
+    "uncertainties": [
+      "Whether a one-person credit for IceCube can be justified against the collaboration and unlisted instrument and analysis leaders.",
+      "Whether the lattice-clock award is premature before the SI second is redefined, and how distinct it is from the 2005 and 2012 prizes.",
+      "Whether the committee would accept a two-part prize with no shared physics, or prefers a single-achievement prize such as B050.",
+      "Whether the Bernevig-Hughes-Zhang attribution gap in B050 can be settled, since that bears on my first alternative.",
+      "I have not independently verified the current significance of the NGC 1068 and Galactic-plane neutrino results."
+    ],
+    "conflict_note": "No formal conflict is apparent from the provided profile: I have no stated connection to Halzen, Katori or Ye. I work in the PAMELA, Fermi-LAT and XL-Calibur collaborations, so IceCube is an adjacent astroparticle field in which I have professional familiarity and may be a stronger advocate than a neutral reader, but I know of no collaboration or institutional tie to the IceCube team. I will lean on colleagues for the atomic-physics and condensed-matter judgements."
+  }
+}

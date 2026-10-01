@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and realization of optical lattice clocks, enabling frequency measurement at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": ["B042", "B015"],
+  "statement": {
+    "case_for": "Optical lattice clocks are a clean case of a new measurement capability, which is how I judge physics progress. Katori's magic-wavelength idea removed the trade-off between atom number and Doppler/recoil/Stark shifts, and Ye's group turned it into an instrument whose systematic uncertainty is around 1e-18. The demonstrations are quantitative and reproduced and surpassed in many independent labs (JILA, RIKEN/Tokyo, SYRTE, PTB, NIST and others), with clock-to-clock comparisons that agree. It has opened tests of relativistic time dilation at the centimetre scale, searches for varying constants and dark matter, chronometric geodesy, and a coming redefinition of the second. Four of eight members rank it in their top three, and the attribution is the cleanest on the shortlist: a proposer-and-first-demonstrator and the group that took it to record performance. I take the performance figures from my own recollection and have not verified them here.",
+    "case_against": "The strongest reservation is lineage. The 2005 prize (frequency comb, Hall and Hansch) and the 2012 prize (control of single quantum systems, Wineland) already cover the enabling tools, so some members may see lattice clocks as a very good instrument built on honoured foundations rather than a new discovery. A second concern is that other clock groups (Lemonde at SYRTE, Takamoto, Ludlow, Hinkley, PTB and NIST groups, and the ion-clock community) made major contributions that two names cannot reflect, and the redefinition of the second has not yet happened. I do not think either point is disqualifying, since the concept and the demonstrated precision are new, but the committee should address both explicitly.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks B024 first as a precision-instrument advance and notes that it belongs to the same lineage as the 2005 and 2012 prizes and that other clock pioneers are not in the credited list.",
+        "response": "I agree with the instrument-building argument and with the fairness concern, and I would go a step further on the lineage point. The test I apply is whether the new instrument gave access to a regime the earlier prizes did not. The comb gave the frequency ruler and ion control gave the single-particle clock, but neither gave thousands of atoms interrogated Doppler- and recoil-free at 1e-18. I think that is a distinct capability. I do not accept that the omitted groups are a reason to withhold the award; every prize leaves out serious contributors, and the Katori/Ye pair maps onto the concept and the record performance."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED (B042) first as the readout and control architecture of superconducting qubits, while acknowledging that Girvin is excluded by the three-name limit and that it closely follows the 2025 superconducting-circuits prize.",
+        "response": "I respect the scientific case for circuit QED, which is why I rank it third, and I value the strong-coupling experiments as clean demonstrations. My reservations are two. First, the attribution is genuinely unsettled among four names, and the theory proposal and first experiment came from overlapping teams, which makes a three-person cut hard to defend. Second, following so soon after the 2025 prize risks a perception of concentration in one platform, even if the discovery is distinct. I also note that you flagged your own proximity to this field, which I think is the right instinct, and I would suggest that B042 be judged with that in mind. I would keep it as the first alternative, not the lead."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B024 first and B036 (trapped-ion quantum computing) second, valuing theory-experiment agreement and calling the lattice-clock credit clean, while noting that the priority history is unverified.",
+        "response": "We agree on B024, but I would not put B036 as the partner in a two-part prize. Its overlap with the 2012 and 2022 prizes is larger than for the clocks, and the experimental credit for the Cirac-Zoller gate is shared with Monroe and the NIST tradition, who are outside the credited names. On your point that the priority history is unverified, I share the caveat; the Katori proposal (2003) and early Sr lattice demonstrations are well documented in my recollection, but we should ask for a short expert note on SYRTE and PTB contributions before the final ballot."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks the IceCube neutrino discovery (B019) first because it is a concrete discovery of nature, not an elegant idea, while noting that a single-name credit for a collaboration-scale discovery is awkward.",
+        "response": "I agree that discoveries deserve priority over ideas, and the IceCube detection is a real one, and strongly confirmed. But I am uneasy about the attribution: a single name for a detector built and analysed by hundreds of people is hard to justify, and the credited list gives us no principled way to add others. The clock case is also a discovery in the sense that matters to me, namely a measurement result that changed what can be measured, and it has a compact, defensible credit. I would keep B019 as a strong candidate for a later year rather than this one, unless a better attribution structure emerges."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee views the lattice clock as sufficiently distinct from the 2005 and 2012 prizes.",
+      "Whether the lattice-clock priority history and the contributions of SYRTE, PTB and NIST groups warrant a different credited set than Katori and Ye; I have not verified this.",
+      "Whether a prize before the formal redefinition of the second is seen as premature or as appropriately timed.",
+      "The 1e-18 performance figures are from my own recollection and should be checked against the record."
+    ],
+    "conflict_note": "Possible mild connection: Jun Ye trained and worked in John Hall's group at JILA, and I spent a year in Hall's lab during my PhD, so I have a distant personal and scientific link to the Hall-Ye lineage; I have no collaboration with Katori or Ye apparent from my profile, but the committee may want to note it. Separately, my WACQT leadership role overlaps institutionally with Chalmers, where Goran Johansson is based, which is relevant to the circuit QED alternative (B042) but not to my preferred configuration."
+  }
+}

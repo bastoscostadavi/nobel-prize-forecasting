@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B042",
+      "proposed_laureates": [
+        "Alexandre Blais",
+        "Andreas Wallraff",
+        "Robert J. Schoelkopf"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Circuit QED turned a superconducting artificial atom into a controllable quantum system strongly coupled to a single microwave photon, opening a new regime of light-matter interaction on a chip. It supplies the readout, coupling and control architecture used by essentially all superconducting qubit platforms, and is the natural continuation of the 2025 circuit-tunnelling prize. I am close to this field and weigh it with that in mind.",
+        "attribution": "The 2004 theory proposal (Blais, Huang, Wallraff, Girvin, Schoelkopf) and the first strong-coupling experiment (Wallraff et al., Schoelkopf group) are tightly linked. Blais for theory, Wallraff and Schoelkopf for the experiment is a coherent trio, but Girvin's role in the theory and the Yale group's broader contribution make the omission of a fourth name a real allocation problem.",
+        "maturity": "Very mature: reproduced and extended in many laboratories over two decades, with dispersive readout, gates and error-correction demonstrations all built on it. Timing is good, though it follows the 2025 prize closely and the committee may prefer a different field this year.",
+        "uncertainties": [
+          "Girvin is excluded by the three-name limit though central to the theory.",
+          "Whether the discovery is judged sufficiently distinct from the 2025 prize topic.",
+          "Possible conflict of interest given my own work and role in superconducting quantum technology; the physics case should be judged independently of that."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B036",
+      "proposed_laureates": [
+        "Juan Ignacio Cirac",
+        "Peter Zoller",
+        "Rainer Blatt"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The Cirac-Zoller proposal showed how to implement quantum gates with laser-cooled trapped ions, and experiments then realised high-fidelity gates, entanglement and small algorithms. This is a clean, foundational demonstration that quantum computation is a physical, controllable process, and a leading platform with long coherence and very high fidelities.",
+        "attribution": "The theory credit to Cirac and Zoller is well established. On the experimental side Blatt realised the Cirac-Zoller gate and many later milestones, but Wineland (already a laureate) and others such as Monroe and Wineland-group alumni also made decisive contributions, so the experimental allocation is not simple.",
+        "maturity": "Mature, confirmed by multiple groups and now commercialised. Recognition is timely. Overlap with B032 and B004 means the committee would need to decide how to partition the Cirac-Zoller work.",
+        "uncertainties": [
+          "Experimental credit is shared with Monroe and the NIST group, who are not in the credited names.",
+          "Overlap with other candidates crediting Cirac and Zoller.",
+          "Whether the theory proposal or the experimental realisation is the prize-worthy discovery."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B006",
+      "proposed_laureates": [
+        "Alexei Kitaev",
+        "Andrew M. Steane",
+        "Peter W. Shor"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum error correction and fault-tolerance show that quantum information can be protected against noise in principle, which is what makes large-scale quantum computing a coherent goal. Shor's code and Steane's codes are conceptually deep and Kitaev's surface-code and topological ideas now drive experimental roadmaps. I think scalable error correction is central to where the field is going.",
+        "attribution": "Shor and Steane independently introduced the first codes; Kitaev contributed fault tolerance via anyons and the toric code. Other major contributors (Gottesman, Knill, Laflamme, Preskill, Aharonov, Ben-Or) are omitted, so the credit is contested and three names are a narrow cut.",
+        "maturity": "Theory is mature and increasingly confirmed by below-threshold experiments on superconducting and atomic platforms, though a fully fault-tolerant machine does not yet exist. Whether the prize should be for theory is a question of whether it belongs in physics rather than computer science.",
+        "uncertainties": [
+          "Many comparable contributors are not credited.",
+          "Experimental validation is early, and the practical impact is still ahead of us.",
+          "Boundary with computer science and mathematics."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B038",
+      "proposed_laureates": [
+        "Antoine Browaeys",
+        "Mikhail D. Lukin",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Rydberg blockade combined with optical tweezer arrays gives programmable many-body quantum systems with controllable interactions, used for quantum simulation of new phases and for emerging gate-based computation. It opened a new regime and has become a major quantum platform within a decade.",
+        "attribution": "Zoller and collaborators proposed the blockade-based gate ideas, Saffman co-developed gate proposals, Browaeys and Lukin led the key array experiments. With four credited names a fair three-way split is difficult and the proposal-versus-array experiments question remains open.",
+        "maturity": "Fast-moving and increasingly reproduced by multiple groups, but the field is still evolving, so the discovery may be somewhat early. Fidelity and scaling claims are still being tested.",
+        "uncertainties": [
+          "Excluded names (Saffman, among others) have strong claims.",
+          "Whether the prize-worthy part is the blockade, the tweezer arrays, or the simulation results.",
+          "Timing may be premature compared with more established candidates."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B041",
+      "proposed_laureates": [
+        "Andrew N. Cleland",
+        "Markus Aspelmeyer",
+        "Tobias J. Kippenberg"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Cavity optomechanics and quantum acoustics brought mechanical oscillators into the quantum regime: ground-state cooling, quantum-coherent coupling to superconducting qubits and radiation-pressure physics. It extends the circuit-quantum approach to macroscopic motion and is close to the physics of phonons coupled to artificial atoms. The physical clarity is high.",
+        "attribution": "Cleland's work on the quantum ground state of a mechanical resonator and its coupling to a qubit, together with Aspelmeyer and Kippenberg on optical optomechanics, forms a plausible trio, but the field has many other leading groups (Painter, Lehnert, Schwab, Harris and others), so the boundary is blurred.",
+        "maturity": "Mature in the sense of repeated confirmation across laboratories, though applications remain modest and the prize-worthy single discovery is diffuse.",
+        "uncertainties": [
+          "Diffuse discovery with many contributors.",
+          "Splitting between optical and microwave/acoustic versions.",
+          "Applications are less concrete than in other candidates."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B046",
+      "proposed_laureates": [
+        "Fedor Jelezko",
+        "Jörg Wrachtrup",
+        "Mikhail D. Lukin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical detection and coherent control of single nitrogen-vacancy centres gave a room-temperature solid-state qubit and a versatile nanoscale sensor. Single-spin readout, long coherence and wide use in physics and biology make this a clear, robust experimental breakthrough.",
+        "attribution": "Wrachtrup and Jelezko demonstrated single-NV detection and coherent control; Lukin's group contributed key quantum-register and sensing work. Other contributors such as Awschalom, Hanson, and Gruber et al. are not credited, which complicates the allocation.",
+        "maturity": "Highly mature and reproduced worldwide, with many applications. Timing is fine.",
+        "uncertainties": [
+          "Order of precedence and credit with groups not credited.",
+          "Whether this is judged as a discovery or as a technology enabling work."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B024",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The optical lattice clock, using magic-wavelength trapping, removed the tradeoff between precision and Doppler/recoil shifts and delivers fractional uncertainties near 1e-18. It tests fundamental physics and gives a basis for redefining the second, a clear and well-defined instrument breakthrough.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept and built the first clock; Ye drove the highest-accuracy realisations and many-body clocks. Two names are a clean configuration, though Hall and Hänsch (already laureates) set the frequency-comb foundation.",
+        "maturity": "Very mature, with several laboratories reaching comparable performance, and a redefinition of the second is under discussion.",
+        "uncertainties": [
+          "Possible overlap with prior frequency-comb recognition.",
+          "Whether the importance is as much technological as fundamental.",
+          "Contributions by other clock groups."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B034",
+      "proposed_laureates": [
+        "Daniel Loss",
+        "Lieven M. K. Vandersypen",
+        "Charles M. Marcus"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Electron spin qubits in quantum dots started from the Loss-DiVincenzo proposal and led to coherent single- and two-spin control and eventually silicon devices compatible with semiconductor manufacturing. This is a significant platform with promising scaling, in close contact with mesoscopic physics I know well.",
+        "attribution": "Loss proposed the idea (with DiVincenzo, who is not in the credited names); Marcus and Vandersypen led key experiments. DiVincenzo's absence is a visible gap and the three-name list leaves open how to credit the proposal versus the experiments.",
+        "maturity": "Moderately mature: core control demonstrations are confirmed, but scalable large devices and high-fidelity multi-qubit systems are still being developed. Recognition might be somewhat early compared with superconducting or ion platforms.",
+        "uncertainties": [
+          "DiVincenzo not among credited names.",
+          "Scaling and fidelity still developing.",
+          "Overlap with B025."
+        ]
+      }
+    }
+  ]
+}

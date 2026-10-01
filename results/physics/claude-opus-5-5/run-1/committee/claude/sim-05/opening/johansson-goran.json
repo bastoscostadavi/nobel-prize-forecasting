@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B020",
+      "proposed_laureates": ["Robert J. Schoelkopf", "Andreas Wallraff", "Steven M. Girvin"],
+      "assessment": {
+        "nobel_worthiness": "Circuit QED opened a genuinely new regime: strong coupling of single microwave photons to a controllable artificial atom on a chip, with dispersive readout and the Jaynes-Cummings physics made engineering-grade. It is the basic platform for microwave quantum optics, giant/waveguide atoms and essentially all superconducting quantum processors. This is a clean discovery of how a device behaves, not merely an application, and it is a natural continuation of the circuit-quantum-physics line recognised in 2025.",
+        "attribution": "The 2004 proposal (Blais, Huang, Wallraff, Girvin, Schoelkopf) and the first strong-coupling experiment (Wallraff et al., Schoelkopf group) split credit between theory and experiment. Schoelkopf and Wallraff are the experimental anchors and Girvin the senior theory voice; Blais is the lead author of the proposal and could reasonably replace Girvin, so the four-name credit is a genuine allocation problem. I choose three and flag the choice as contestable.",
+        "maturity": "Confirmed independently in many laboratories for two decades, with stable interpretation and wide adoption in quantum technology. Recognition is timely, with no sign of premature judgement.",
+        "uncertainties": ["Which of Blais, Girvin and Schoelkopf (theory versus experiment) is decisive is not settled by the supplied credit.", "Close personal and programmatic ties to this community (my work and WACQT) mean I should weigh conflict of interest and defer to colleagues on the final configuration.", "Overlap with the subject matter of the 2025 prize could be viewed as too close in time."]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B010",
+      "proposed_laureates": ["Immanuel Bloch", "Juan Ignacio Cirac", "Peter Zoller"],
+      "assessment": {
+        "nobel_worthiness": "Quantum simulation with ultracold atoms in optical lattices (Mott-superfluid transition, Hubbard-model realisation, single-site-resolved microscopes) turned fundamental quantum many-body theory into controllable laboratory systems. Importance, originality and breadth across condensed-matter, AMO and quantum-information physics are all high.",
+        "attribution": "The decisive combination is the Jaksch-Zoller proposal for the Bose-Hubbard model in lattices, with Bloch's experimental programme and quantum-gas microscopy. Greiner's Mott-insulator experiment (with Bloch and Hansch) and Dalibard are also credited, so any three-person selection leaves out major figures. Cirac and Zoller are credited for the theory programme more broadly than for this one proposal.",
+        "maturity": "Mature, with many laboratories reproducing and extending the work. Analogue quantum simulation has delivered qualitative insights, though still limited quantitative advantage over classical methods.",
+        "uncertainties": ["Five credited names exceed the three-laureate limit and the contribution of Greiner and Dalibard is difficult to exclude.", "The theory credit for Cirac and Zoller overlaps with other candidates (trapped ions, Rydberg arrays), so the prize scope needs careful definition.", "I am less certain of the detailed priority history in ultracold-atom physics than of circuits."]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B018",
+      "proposed_laureates": ["Charles L. Kane", "Eugene J. Mele", "Laurens W. Molenkamp"],
+      "assessment": {
+        "nobel_worthiness": "The prediction and observation of the time-reversal-invariant quantum spin Hall state and Z2 topological insulators introduced a new classification of band insulators with protected edge and surface states. The idea is original, general and fertile, with lasting influence across condensed matter, materials and topological quantum devices.",
+        "attribution": "Kane and Mele are clearly decisive on the theory side (Z2 invariant and quantum spin Hall proposal). Molenkamp's group delivered the HgTe quantum-well experiment following the Bernevig-Hughes-Zhang prediction, so the credit for BHZ, Zhang and the 3D topological insulator work (Fu-Kane-Mele, Moore-Balents, Hsieh, Hasan) is an unresolved allocation issue that I flag.",
+        "maturity": "Confirmed by many independent experiments on 2D and 3D materials and now a textbook field. Timely, although the theory credit is spread across more people than a three-person prize can cover.",
+        "uncertainties": ["Credit for the BHZ prediction (Shoucheng Zhang died in 2018) and for the 3D case is not captured in the three names.", "I defer to condensed-matter colleagues on the relative weight of the experimental versus theoretical priority."]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B013",
+      "proposed_laureates": ["Markus Aspelmeyer", "Tobias J. Kippenberg", "Andrew N. Cleland"],
+      "assessment": {
+        "nobel_worthiness": "Bringing macroscopic mechanical oscillators into the quantum regime (ground-state cooling, strong optomechanical coupling, quantum control and entanglement) extends the same logic as macroscopic quantum circuits to massive objects. Cleland's quantum ground state and single-phonon control, together with the optical-cavity programmes, make a coherent set of discoveries. I know this area well from piezoelectric and acoustic work coupled to artificial atoms.",
+        "attribution": "Cleland (superconducting-qubit-coupled mechanics), Aspelmeyer (optomechanics in the quantum regime) and Kippenberg (cavity optomechanics and sideband cooling) are credible leaders. Other groups (Painter, Lehnert, Teufel, Schwab, Harris) also made decisive demonstrations, so the line between decisive and strong contributors is contestable.",
+        "maturity": "Independently reproduced by multiple groups on different platforms, with squeezing, entanglement and mechanical quantum-state engineering now routine in leading labs. Applications (force and gravitational sensing) are still developing.",
+        "uncertainties": ["The compound discovery (cavity optomechanics versus quantum acoustics) might need different recognition.", "Attribution among the many groups with first demonstrations of ground-state cooling is disputed.", "Whether the field has been transformative enough beyond metrology and quantum control is debatable."]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B024",
+      "proposed_laureates": ["Charles H. Bennett", "Gilles Brassard", "Artur Ekert"],
+      "assessment": {
+        "nobel_worthiness": "Quantum key distribution (BB84 and E91) is a clean conceptual invention that turned entanglement and the no-cloning property into a cryptographic resource, and it helped found quantum information science. The Ekert protocol ties directly to Bell tests and device-independent ideas. Impact is lasting and conceptually clear, if more on information science than on a new physical phenomenon.",
+        "attribution": "Bennett and Brassard (1984) and Ekert (1991) are the standard trio. Wiesner's conjugate-coding precedent and Bennett's wider contributions (teleportation, etc.) complicate a clean credit story, but the supplied names fit one coherent prize.",
+        "maturity": "Experimentally demonstrated over fibre and satellite links, commercially deployed in limited form, and extensively analysed theoretically. Practical security and deployment issues remain, but the foundational discovery is mature.",
+        "uncertainties": ["Whether the committee views this as physics rather than computer science or cryptography.", "Some of the credit for the underlying quantum-information ideas (teleportation, Wiesner) lies outside the three names."]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B022",
+      "proposed_laureates": ["Peter W. Shor", "Andrew M. Steane", "Alexei Kitaev"],
+      "assessment": {
+        "nobel_worthiness": "Quantum error correction and fault tolerance showed that quantum computation is possible in principle with noisy hardware, which is conceptually central to the whole field. As someone building superconducting processors, I regard the surface-code and threshold ideas as decisive for the roadmap. However, the Nobel Prize rewards a discovery in physics, and the ideas are more mathematical-information-theoretic than a natural phenomenon.",
+        "attribution": "Shor and Steane (first codes) and Kitaev (fault-tolerant anyons and the toric code) are all strong, but Calderbank, Gottesman, Knill, Laflamme, Preskill, Aharonov and Ben-Or, and Bravyi are also decisive. Any three names leave a large unresolved credit problem.",
+        "maturity": "Recent below-threshold demonstrations (Google, Quantinuum and others) are encouraging but fault-tolerant computing is not yet achieved, so the reward might be premature. I am wary of hype here.",
+        "uncertainties": ["Whether practical full-scale error correction will confirm the theory at scale is still open.", "Credit among many contributors is difficult to separate.", "Fit within the physics category could be questioned."]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B012",
+      "proposed_laureates": ["Bertrand I. Halperin", "Gwendal Fève", "Michael J. Manfra"],
+      "assessment": {
+        "nobel_worthiness": "Fractional exchange statistics were first established experimentally in the fractional quantum Hall state via interferometry and anyon collision experiments, a long-sought direct observation of non-Abelian-adjacent physics. Importance is high for topological quantum matter and for topological quantum computation, and the experiments are beautiful device physics.",
+        "attribution": "Halperin predicted fractional statistics of quasiparticles in the FQHE; Fève's collider (Bartolomei et al., 2020) and Manfra's interferometers (Nakamura et al.) provide independent experimental evidence. The theoretical credit also involves Arovas, Schrieffer, Wilczek and Leinaas-Myrheim, so the question of what exactly is being rewarded is unresolved.",
+        "maturity": "Two independent platforms (collider and interferometer) have confirmed Abelian anyonic statistics, but the work is recent and the interpretation of interferometers has had complications. Non-Abelian statistics remain unconfirmed.",
+        "uncertainties": ["The recency of the experiments suggests the recognition may be premature.", "The relationship to the separate theoretical anyon candidate B051 raises overlapping scope.", "I defer to condensed-matter colleagues on the experimental interpretation."]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B021",
+      "proposed_laureates": ["Jörg Wrachtrup", "Fedor Jelezko", "Mikhail D. Lukin"],
+      "assessment": {
+        "nobel_worthiness": "Optical detection and coherent control of single NV centres in diamond made a room-temperature solid-state qubit and a nanoscale quantum sensor, with wide impact in quantum metrology, biology and quantum networks. It is a clear case of foundational quantum control of a single solid-state spin turning into an enabling platform, though the underlying physics is a technique-driven advance rather than a new regime.",
+        "attribution": "Wrachtrup and Jelezko (first optical detection of single NV spins, 1997 and 2004) are decisive for the experimental discovery. Lukin's contributions (quantum registers, nanoscale magnetometry, networks) are major, but others (Awschalom, Hanson, Budker, Walsworth, Hollenberg) also contributed. The allocation between early detection and later sensing applications is contestable.",
+        "maturity": "Widely reproduced and commercialised, with a stable interpretation. The sensing applications keep growing, so timing is reasonable, although a clearer single discovery may be preferable.",
+        "uncertainties": ["The credited names omit several decisive figures in spin control and quantum networks.", "The distinction between a discovery and a technique and application is not sharp here."]
+      }
+    }
+  ]
+}

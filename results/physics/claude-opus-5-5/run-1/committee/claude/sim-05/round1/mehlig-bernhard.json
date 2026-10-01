@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction of the quantum spin Hall effect and Z2 topological insulators, and the experimental discovery of the quantum spin Hall state in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B032",
+    "B041"
+  ],
+  "statement": {
+    "case_for": "After reading the other ballots I move my preference from B032 to B018. The Kane-Mele Z2 classification is exactly the kind of result I trust: a simple, general mechanism (time-reversal symmetry plus spin-orbit coupling producing a topologically protected edge) that was stated cleanly, predicted a concrete observable (helical edge conduction), and was then confirmed by Molenkamp's HgTe transport experiment and later by ARPES on 3D materials. It reorganised how a whole community classifies insulators, and it has radiated into topological photonics, superconductivity and magnetism. Six of eight members ranked it, five in their top three, and the support comes from members with very different fields (Eriksson and Olsson in materials, Danielsson in cosmology, Johansson in quantum devices, Lindroth in atomic physics). That breadth of independent support is more informative than a count of first places. Nearly twenty years of independent confirmation means the recognition is overdue, not premature. B032 is the candidate I know best and still rate highly, but I am the only member who ranked it, and I should not read my own enthusiasm as committee-wide merit.",
+    "case_against": "The strongest objection to B018 is attribution. The HgTe experiment was motivated by the Bernevig-Hughes-Zhang proposal, Zhang died in 2018, and the 3D case (Fu-Kane-Mele, Moore-Balents, Hsieh-Hasan ARPES) is not covered by the three credited names, so the citation must be worded carefully to avoid implying that Kane, Mele and Molenkamp exhaust the history. There is also a conceptual objection that topological band theory belongs to a lineage already rewarded in 2016 (Thouless, Haldane, Kosterlitz) and 2025-era recognition of quantum-coherent devices, so a committee could judge it a refinement of recognised ideas, and practical impact is limited. Finally, my own B032 is better defined in terms of what it explains (non-equilibrium thermodynamics for small systems) but suffers from an even harder credit problem and weaker support.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks B018 first as a clean theory-to-experiment arc grounded in band theory, but flags that the BHZ proposal and the 3D ARPES work lie outside the credited names, and asks whether it should be paired with or separated from the quantum anomalous Hall candidate.",
+        "response": "I agree on the arc and on the maturity, and I share the attribution worry. Where I would qualify is the idea of widening the topic: a prize that tries to absorb BHZ, the 3D materials and the anomalous Hall effect becomes a prize for a field, and the three-person limit then forces arbitrary cuts. I prefer a narrow citation centred on the Z2 quantum spin Hall prediction and its first observation, where Kane and Mele's decisive step and Molenkamp's experiment are clearly identifiable, and to say openly that the BHZ and 3D contributions are context rather than part of the citation. I would want the committee to read the Molenkamp paper alongside BHZ to decide whether the experimental credit is truly his alone."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks B018 first as an edge conduction that was predicted and then observed in transport, and notes that omitting Bernevig, Hughes and Zhang is a fairness concern, while also placing B041 third as an enabling measurement tool.",
+        "response": "I agree with the criterion of a prediction that nature then confirmed, and I think it favours B018 over B041, where the main idea (the magic-wavelength lattice) belongs to Katori and Ye's role is partly performance. I disagree gently that the omission can be dismissed as merely a fairness concern for the historical record: if Molenkamp's experiment cannot be credited without BHZ, then the claim that the trio covers the discovery is weaker than the ballots suggest. I would ask her what the experiment would have been without the BHZ prediction, because the answer decides whether Molenkamp's share is secure."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth places B041 first, arguing that optical lattice clocks are precision atomic physics at its best, reaching 1e-18 with tests of constants and gravitational redshift, with a clean two-name credit and strong independent confirmation, while acknowledging overlap with the 2005 and 2012 metrology prizes.",
+        "response": "I find B041 the strongest alternative to B018, precisely because the credit is clean and the maturity is clear. My reservation is about what is new in physics terms: the fundamental-physics payoff has so far been constraints rather than discoveries, and the central conceptual step (the magic wavelength) is Katori's, which makes the distinction between Katori's idea and Ye's performance records the key question. If a two-part prize were considered, I would want the committee to judge whether the physics is distinct enough from the 2005 comb and 2012 ion-clock citations. I put it second behind B018, not first."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED B020 first as a genuine new regime of light-matter coupling and the platform of superconducting processors, but flags his own ties to that community and that the 2025 prize on superconducting circuits is close in subject.",
+        "response": "I appreciate that he flagged the conflict openly, and I think he is right that the closeness to the 2025 citation is a real timing issue, not a technicality. Having a second circuit prize within a year would be hard to justify when strong candidates in other areas have waited much longer. I would also note that the four-name credit already exceeds what a prize can carry. My view is that B020 is a very good result for a later cycle, not this one."
+      }
+    ],
+    "uncertainties": [
+      "Whether Molenkamp's HgTe experiment can be credited as an independent discovery or only as the realisation of the Bernevig-Hughes-Zhang proposal, which is outside the supplied names.",
+      "Whether a narrow citation (quantum spin Hall and Z2 invariant) can stand without the 3D topological insulator work and the quantum anomalous Hall effect.",
+      "Whether B032 could be made viable by a better credited set, given that Gallavotti, Cohen, Kurchan and Lebowitz are not among the credited names and I rely on memory for priority details.",
+      "How much weight the committee should give to the prior topological-matter prize of 2016 when judging novelty."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for B018, B032 or B041. I am in the same Gothenburg physics environment as Johansson and Olsson (GU and Chalmers), and Johansson has flagged his own ties to B020, but I know of no collaboration with any credited name on the shortlist."
+  }
+}

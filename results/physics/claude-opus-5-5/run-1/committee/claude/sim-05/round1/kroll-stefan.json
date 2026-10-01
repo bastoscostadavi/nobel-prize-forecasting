@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B041",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realization of optical lattice clocks, in which neutral atoms trapped at a magic wavelength enable frequency measurements at the 1e-18 level."
+      }
+    ]
+  },
+  "alternatives": [
+    "B018",
+    "B027"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are the clearest example on the shortlist of a new measurement method that changes what can be measured. Katori's magic-wavelength idea removes Doppler, recoil and (to first order) light shifts for thousands of neutral atoms at once, which is what lets the statistical uncertainty collapse; the systematics were then driven to about 1e-18 in several independent laboratories (Sr, Yb, Hg) and confirmed by intercontinental and fibre-link comparisons. That is the experimental pattern I trust: a concrete proposal, an early demonstration, then reproduction by competitors with agreeing numbers. The consequences are physical and checkable: millimetre-scale gravitational redshift, limits on drifts of constants and on some dark-matter couplings, relativistic geodesy, and the pending redefinition of the second. The two-name credit is clean and avoids the allocation problems that burden most other shortlisted candidates, so the discovery leads and the people follow.",
+    "case_against": "The strongest objection is novelty relative to earlier recognition: the 2005 prize covered frequency combs and the 2012 prize covered single-ion control and clocks, so a lattice-clock prize can be read as a second-generation improvement in metrology rather than a new discovery. The fundamental-physics payoff has so far been null results and constraints, and the practical payoff (redefinition of the second, geodesy) is still prospective. There is also an honest question whether Ye's decisive contribution is the concept (Katori's) or the performance frontier, and whether other leading groups (PTB, SYRTE/Paris, NIST/JILA Yb, RIKEN/Tokyo) are being overlooked by a two-person citation. By contrast B018 has a much broader base of support among colleagues and a more conventional theory-to-experiment arc.",
+    "responses": [
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks B041 third and worries that Ye's contribution may be mainly performance rather than the original concept, and that overlap with the comb and ion-clock prizes means novelty must be made explicit.",
+        "response": "I partly agree about Ye. The concept and first demonstration are Katori's, but at this level performance is the discovery: going from 1e-16 to 1e-18 required solving blackbody shifts, lattice-induced shifts, collisional (many-body) effects and clock-laser coherence, and Ye's group did that with the comb link and the Sr many-body work. A citation worded around invention and realization of the lattice clock, not around accuracy alone, answers the novelty point. Neutral-atom trapping at a magic wavelength is a different physical principle from single-ion Paul-trap clocks, and the comb is the ruler rather than the clock, so I do not consider the 2005 and 2012 citations to cover it."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks B041 only eighth: it is a clean, checkable measurement, but may be seen as incremental on earlier frequency-metrology prizes, and its fundamental-physics payoff has so far been constraints rather than discoveries.",
+        "response": "I disagree with 'incremental'. A tenfold to hundredfold gain in accuracy that makes relativistic effects measurable across millimetres is a change of regime for what clocks can observe, not a refinement. I do accept that null results on constants and dark matter are not by themselves a discovery, and I would not lean on them in the citation. The case rests on the method and its demonstrated reach, which is what we credited for combs in 2005. I also take your point that the committee should weigh whether the payoff is already realised rather than promised, and the redefinition of the second remains pending, which is a genuine uncertainty."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B041 first with me, calling the two-name credit clean and the result clear, original and lasting, while acknowledging that Lemonde, Gill and other parallel contributors exist.",
+        "response": "I share her view of the science. I would add one qualification to her note on parallel contributors: Lemonde and the Paris group, and the PTB and NIST Yb groups, are strong, but the magic-wavelength proposal and the first neutral-atom lattice clock are Katori's. If the committee wants a safeguard on attribution, the citation should name the concept and its realization, which keeps the two-person split defensible. I would ask her, as the atomic-structure specialist, to check the magic-wavelength priority dates against my memory, since neither of us has verified them."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks B018 first as a clean, verified discovery with a theory-to-experiment arc, nearly two decades of confirmation, and arguably overdue recognition.",
+        "response": "I take B018 seriously: it has the broadest support and I do not dispute its maturity or originality. My reservation is attribution rather than science. Eriksson himself notes that the BHZ proposal for HgTe and the 3D work (Fu-Kane-Mele, Moore-Balents, Hasan) fall outside the credited names, and Molenkamp's experiment follows a proposal from someone no longer living. As an experimentalist I find that gap more troubling than the overlap issue for B041, where the credited pair covers the proposal and the realization. If the committee resolves the B018 allocation convincingly I would move it to a close second, but I do not yet see that resolution."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards optical lattice clocks as distinct from the 2005 comb and 2012 ion-clock prizes, or as a successor improvement.",
+      "Priority dates and relative decisiveness of Katori versus Ye versus other groups (SYRTE, PTB, NIST Yb, RIKEN) are recalled from memory and unverified.",
+      "Whether a prize on measurement method should wait for the redefinition of the second, or is already mature enough.",
+      "Whether B018 can be configured fairly given the omission of Bernevig, Hughes, Zhang and the 3D topological insulator work."
+    ],
+    "conflict_note": "No specific conflict is apparent for B041 from my profile: I have no ties to Katori, Ye or their groups. For disclosure, my group has recently worked on laser stabilization using slow light in spectral-hole-burning crystals, which is a neighbouring technique to clock-laser technology but not a collaboration with either candidate. I also have institutional links to WACQT/Chalmers and to the quantum-memory community, which would warrant recusal or caution on B020 (circuit QED) and on quantum-information candidates, but those are not in my preferred configuration."
+  }
+}

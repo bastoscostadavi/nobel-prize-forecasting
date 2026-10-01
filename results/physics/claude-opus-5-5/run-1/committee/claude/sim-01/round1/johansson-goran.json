@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B051",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realization of optical lattice clocks, whose magic-wavelength trapping of many neutral atoms opened a new regime of precision measurement."
+      }
+    ]
+  },
+  "alternatives": [
+    "B038",
+    "B050"
+  ],
+  "statement": {
+    "case_for": "I move my first choice from circuit QED to optical lattice clocks. The lattice clock is a clean, quantitative result in which one idea, trapping atoms at a magic wavelength so that the trap does not shift the clock transition, took fractional uncertainty to the 1e-18 level. It has been reproduced and cross-compared by independent laboratories (RIKEN/Tokyo, JILA, NIST, PTB, SYRTE), and the interpretation is stable. It opens real physics: tests of the constancy of constants, relativistic geodesy, dark-matter searches, and many-body (spin-exchange, Fermi-degenerate) effects inside the clock. The credit is compact, Katori for the concept and first realisation and Ye for pushing accuracy and many-body control, so a two-person prize is defensible. It is also the candidate with the broadest support across the table: two first places and three top-three rankings. That support is not evidence of merit in itself, but here it comes from colleagues who judge it on attribution and reproducibility, which are the criteria I trust.",
+    "case_against": "The strongest reservation is lineage. Hall and Haensch (2005) and Wineland (2012) already rewarded the frequency comb and the control of single ions, and Ye has a strong role in the comb and clock lineage. A sceptical reader may see the lattice clock as a further step in a recognised line rather than a new discovery. Lemonde, Ludlow, Hinkley, Bloom, Derevianko and others contributed important steps, so a two-name credit may look too narrow. Finally, the redefinition of the second has not happened, so some of the impact is still prospective.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks lattice clocks first because they are the clearest case of a new measurement capability changing what can be observed, with independent confirmation across continents and a compact Katori-Ye credit.",
+        "response": "I agree with the criterion and with the attribution. I would qualify it in one way: a new capability is not the same as a discovery, so the citation should name the physical idea (magic-wavelength trapping of many atoms and its consequences for systematic control) and not the redefinition of the second, which is an application still pending. I also take your point that the credit is cleaner here than in B027 or B038."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth stresses that the magic-wavelength idea is clean and original, that the systematics are controlled, that independent labs have reproduced it, and that the earlier comb and ion-clock prizes make a narrow prize here consistent.",
+        "response": "This is the point that moved me most. You know the precision-atomic-physics systematics much better than I do, and your argument that the idea itself is distinct from the comb (a lattice that does not perturb the transition) answers my worry about overlap with 2005 and 2012. Where I would press is whether Ye's many-body clock work adds to the concept in a way the citation should capture, or whether it is only an engineering record. I lean towards the former because the spin-exchange physics is new."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube first and lattice clocks second, and ranks circuit QED third, noting that four names exceed the three-person cap and that the 2025 prize on macroscopic quantum tunnelling in circuits touches the same field.",
+        "response": "You are right on both counts, and this is why I no longer put B038 first. Leaving Blais or Girvin out of a theory pair is a real unfairness, and the 2025 prize makes the timing awkward. I do disagree mildly with your reading of overlap: light-matter coupling on a chip is a different discovery from tunnelling in a circuit. But I would rather not use it as my lead candidate when I am personally so close to the field. On IceCube I defer to you and Ulf on the astroparticle side."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks the topological insulator candidate first, as a clean theory-and-experiment story, with a stable field and recognition that is overdue rather than premature.",
+        "response": "I take the maturity argument seriously and I keep B050 as an alternative. My reservation is attribution: the Bernevig-Hughes-Zhang proposal is the direct trigger for the HgTe experiment, and the 3D work (Fu, Kane, Mele; Moore and Balents) is outside this credit set. If you or Mehlig think the committee can justify Kane, Mele and Molenkamp without that gap, I would like to hear how. This is outside my area, so I defer to you on whether it matters for the physics."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson puts the IceCube detection of astrophysical neutrinos first, as a clue from nature, with a single credited name, and ranks lattice clocks only eighth.",
+        "response": "I respect the argument that clues from nature deserve priority over elegant engineering. My question is whether the single-name credit holds: IceCube is a very large collaboration, and a prize to Halzen alone would need outside expert reports on DUMAND, AMANDA and the key analyses. I am not in a position to judge that, and I would not block it. I would ask you to say why the lattice clock is eighth for you, since I read it as a precise result rather than a mere instrument."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee wants to treat the lattice clock as distinct from the comb (2005) and ion-control (2012) prizes, and how much Ye's earlier role matters.",
+      "Whether a two-name credit leaves out decisive contributors such as Lemonde or the Boulder many-body clock team.",
+      "Whether the 2025 circuit prize makes B038 unlikely this year, and how to resolve the Blais/Girvin allocation if it is not.",
+      "Whether B050 can be credited fairly without Bernevig-Hughes-Zhang and the 3D topological insulator work."
+    ],
+    "conflict_note": "Declared connection: I direct the Wallenberg Centre for Quantum Technology, whose national programme is built on the circuit QED architecture (B038), and I work at Chalmers MC2 alongside colleagues in this field. I would recuse myself from any decision on B038 and have therefore moved it to an alternative. No specific conflict is apparent for B051 from the provided profile."
+  }
+}

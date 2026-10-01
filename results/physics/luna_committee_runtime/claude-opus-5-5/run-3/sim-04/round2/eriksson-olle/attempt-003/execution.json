@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-6-luna",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-eriksson-olle-jc30ldl0",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-eriksson-olle-jc30ldl0/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "8a60b4f0acb83e55fc41d40896dde9e5206770fe994c2b517b01a60970b454d7",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/eriksson-olle/profile.md",
+      "sha256": "779d4764b872de83f69ae3655f5791139f0da727c659cb2759b179eec8cffa58"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/shortlist.json",
+      "sha256": "442c0aa462231c99c0d5dd37a7317e5f20c8f9334554147101c390fc4db37f76"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/danielsson-ulf.json",
+      "sha256": "26abc458f2aa871219895028b1024c24a8faafc2eaa0abf8c326251d739ccd51"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/eriksson-olle.json",
+      "sha256": "19200154be84b455aba5ccbbbd109010c943f3df7e10054e60237ffa9dad0321"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/johansson-goran.json",
+      "sha256": "8c096caa2609058d8d2f5891a267313c46d0129a521673dcb5d2fccb5eef2618"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/kroll-stefan.json",
+      "sha256": "8d1890dc89eb6410e98e9d1a62482884cd1841ec03f034f2a22396c7960217e8"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/lindroth-eva.json",
+      "sha256": "2f80cef66e03ad86d794c457cf28061d9f1d8f298c15ccca6127a6c6ecd2cee6"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/mehlig-bernhard.json",
+      "sha256": "cc40bc19ebe8af93d7eba99584e741e0d9c8eea7e5442e475f63f44382c4883e"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/olsson-eva.json",
+      "sha256": "3b70ecafbe25ee90489b6f55b1b43aa728db902b8e2da68934381dad933753a4"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/round1/pearce-mark.json",
+      "sha256": "abf5d14d54b2c1fb590d2a400e28e394032edf5fed4641c3cac623f3f0167561"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-3/committee/gpt-6-luna/sim-04/chair_summary_round1.json",
+      "sha256": "a48a3d150e4dabecd6343a828eeeb41e45ea5b74c62b6d0c20ec2e2acfa1c849"
+    }
+  ],
+  "thread_id": "01a0f865-7172-7e23-8a18-71439c2a7010",
+  "usage": {
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null,
+    "reasoning_tokens": null,
+    "total_tokens": null
+  },
+  "disallowed_event_items": [],
+  "status": "failed",
+  "error": "Codex exited 1",
+  "completed_at_utc": "2026-10-01T16:56:36.657378Z"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-05",
+  "member_id": "danielsson-ulf",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Jon Magne Leinaas",
+          "Jan Myrheim",
+          "Moty Heiblum"
+        ],
+        "citation": "For the prediction of anyons and the experimental establishment of fractional charge and anyonic behavior in quantum Hall systems."
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B025"
+  ],
+  "statement": {
+    "case_for": "Fractional charge and anyonic exchange behavior show that quantum statistics can take forms unavailable to ordinary particles, a discovery with deep consequences for quantum matter. The early theoretical prediction and experimental work in quantum Hall systems give this case a clear intellectual arc. I would retain B001 as my preferred achievement, while crediting Leinaas and Myrheim for the theoretical foundation and Heiblum for central experimental work.",
+    "case_against": "The case combines distinct milestones, and the evidence for fractional charge is more mature than the most direct demonstrations of anyonic statistics. The experimental history is broad, so the committee must verify that the proposed credit reflects the decisive contributions rather than implying that three people alone established the whole field.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "He argues that Leinaas and Myrheim supplied the theoretical foundation for anyons, while Heiblum represents key experimental work, and that the direct evidence for exchange statistics is newer than the broader fractional quantum Hall record.",
+        "response": "I agree that the theoretical prediction deserves explicit credit and that the maturity distinction matters. That is why I would include both Leinaas and Myrheim alongside Heiblum, and frame the citation to acknowledge experimental establishment without suggesting every aspect of the statistics case is equally settled."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "He sees a strong case spanning early theory and complementary experimental work, but notes that the strongest evidence for statistics is less settled than the charge measurements and that the credited names span distinct milestones.",
+        "response": "That is a sound qualification. The distinction should be stated plainly in the committee's assessment and checked against the experimental record. It does not erase the significance of the result: the progression from a prediction of nonordinary exchange behavior to measured fractional charge and increasingly direct statistics experiments is itself a major achievement."
+      }
+    ],
+    "uncertainties": [
+      "How robustly the leading experiments establish anyonic exchange statistics, as distinct from fractional charge, remains an important question.",
+      "The attribution across the theoretical and experimental milestones should be checked against the broader quantum Hall research history."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

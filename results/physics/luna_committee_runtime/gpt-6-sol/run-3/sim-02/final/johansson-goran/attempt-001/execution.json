@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-6-luna",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-final-johansson-goran-j5vw7hty",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-final-johansson-goran-j5vw7hty/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "00cddc479a439ef56f681bee01979e41c1a38cca48e16272f26a72889ac15ef8",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/johansson-goran/profile.md",
+      "sha256": "e2c2daf3c1cb38a19cace0235d84e28ea40f4e3f1eba9c95dfb2671efedbd6ac"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/shortlist.json",
+      "sha256": "f760ee0a22c166629151b539a3db7ff0c69ea231b37e96e16f46ab18139c80aa"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/danielsson-ulf.json",
+      "sha256": "135f8d6c4f3184a7b7809ca1cd173b26c20cec8c75da52f30ef43b9931ec97a5"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/eriksson-olle.json",
+      "sha256": "db9f83f29a36925f7ce051c23d2e3685633ce9c01f84d9b0a01b58378cce03be"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/johansson-goran.json",
+      "sha256": "27901d981657c45bcb7edb80a5549aea0f3857c210cc3251cfa5a46b51a1bc45"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/kroll-stefan.json",
+      "sha256": "12065f44d1ea97fd2c9dc648c9e4cb14f39bbf6b098383d6d3f8a99c9a71d0c7"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/lindroth-eva.json",
+      "sha256": "64831e2ffca6335b125188c394a29ffc4776794b639d58cb2c00ec0149fa09c5"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/mehlig-bernhard.json",
+      "sha256": "fedbf9f0c9d9ae182037cbd67d4c23917ce6798405de7c5ea4022cd4a98db47e"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/olsson-eva.json",
+      "sha256": "dd0f852bca21edf31e317f78aadffea211691747ff7e46a4a591b2db8298c88b"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/round2/pearce-mark.json",
+      "sha256": "d8ff64e8525481fba22717053118524db97d29b698008e57e1e3a771b8c0a8b1"
+    },
+    {
+      "path": "results/physics/gpt-6-sol/run-3/committee/gpt-6-luna/sim-02/proposal_slate.json",
+      "sha256": "e77fd289446c7dfa9d83f4dfa50e1072a6386c9450b5ecc4ae6cc2a77bf27b75"
+    }
+  ],
+  "thread_id": "01a0f867-968d-7110-9faf-9cf104c671af",
+  "usage": {
+    "input_tokens": 22880,
+    "cached_input_tokens": 6912,
+    "output_tokens": 325,
+    "reasoning_tokens": null,
+    "total_tokens": 23205
+  },
+  "disallowed_event_items": [
+    "error"
+  ],
+  "status": "failed",
+  "error": "unexpected tool/event activity: error",
+  "completed_at_utc": "2026-10-01T17:07:10.852617Z"
+}

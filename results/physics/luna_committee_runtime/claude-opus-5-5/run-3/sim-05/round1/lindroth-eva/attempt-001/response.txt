@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-05",
+  "member_id": "lindroth-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Jon Magne Leinaas",
+          "Jan Myrheim",
+          "Moty Heiblum"
+        ],
+        "citation": "For foundational contributions to the prediction and experimental study of fractional charge and anyonic statistics in quantum Hall systems."
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B024"
+  ],
+  "statement": {
+    "case_for": "Fractional charge and anyonic statistics reveal quantum behavior that has no counterpart in ordinary particle exchange. The theoretical foundation and decades of quantum Hall experiments make this a fundamental contribution, and the evidence for fractional charge is mature. I retain this as my preferred case, while recognizing that the direct experimental record for exchange statistics is newer.",
+    "case_against": "The ballot joins distinct theoretical and experimental milestones, and its credited names do not encompass the full history. In particular, the evidence for fractional charge is firmer than the case for anyonic exchange statistics; the citation must not imply that every aspect of the latter is settled.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "You emphasize that fractional charge is firmly established while the most direct evidence for exchange statistics is newer and should be compared carefully across methods.",
+        "response": "I agree with that distinction. It qualifies the scope of the prize case, but does not erase the significance of the developing evidence for statistics or the well-established result on fractional charge. The citation should name both contributions without presenting their experimental maturity as equal."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You judge the anyonic-statistics record less settled than the charge measurements, while identifying Heiblum and Manfra as strong experimental choices for the underlying platforms.",
+        "response": "Your maturity assessment is persuasive, and the platform history deserves care in attribution. I would keep the theoretical founders Leinaas and Myrheim with Heiblum to represent the prediction and experimental study, but regard this as a bounded selection from a broader effort, not a claim that these names exhaust it."
+      }
+    ],
+    "uncertainties": [
+      "How robustly the direct experiments establish exchange statistics across methods, beyond the more mature evidence for fractional charge.",
+      "Whether the chosen credited names best delimit the theoretical and experimental contributions across the combined discovery."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

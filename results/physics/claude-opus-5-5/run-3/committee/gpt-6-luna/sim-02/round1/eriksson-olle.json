@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "citation": "For the theoretical prediction and experimental discovery of correlated phases in magic-angle twisted bilayer graphene."
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Magic-angle twisted bilayer graphene showed that a small change in twist can produce flat bands and unexpected correlated insulating and superconducting states. The combination of a predictive theoretical framework with striking experimental results opened a productive new direction in quantum materials. The central correlated phenomena have been reproduced and extended across moiré systems, giving the discovery a solid experimental foundation even as its microscopic explanation develops.",
+    "case_against": "The achievement is a sequence of theoretical and experimental contributions rather than a single sharply bounded discovery. The superconducting mechanism and the relative importance of the observed phases remain unsettled, and the proposed trio leaves out Eva Y. Andrei, whose experimental contributions merit serious consideration.",
+    "responses": [
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson emphasizes that both the theoretical prediction and experimental observations are essential, and that Allan MacDonald's contribution must be weighed alongside Rafi Bistritzer's and the experimental teams'.",
+        "response": "I agree that the theory and experiment belong in the same account. I would include MacDonald with Bistritzer to recognize the theoretical framework, and Jarillo-Herrero for the experimental discovery of the central correlated states. Andrei's work is important; this selection is a judgment about the most focused account of the flat-band prediction and those states, not a claim that her contributions were peripheral."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argues that circuit QED is a mature, reproducible platform with broad influence, while noting that its boundary with later superconducting-qubit advances is difficult to draw.",
+        "response": "That is a strong case, and the platform's established physics deserves recognition independently of future computing performance. My preference for B004 reflects its particularly direct link between a theoretical prediction, an experimentally observed new regime of matter, and a broad materials research field. The unsettled mechanisms make the citation boundary important, but do not erase the demonstrated discovery."
+      }
+    ],
+    "uncertainties": [
+      "The relative credit among Allan H. MacDonald, Rafi Bistritzer, Eva Y. Andrei, and Pablo Jarillo-Herrero should be checked against the detailed history of the predictions and decisive experiments.",
+      "The microscopic origin and broader significance of superconductivity in magic-angle twisted bilayer graphene remain unresolved."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B046",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics with superconducting artificial atoms as a controllable regime of coherent light–matter interaction."
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B039"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made coherent interactions between microwave fields and superconducting artificial atoms experimentally controllable, creating a durable platform for probing quantum optics and quantum information. Blais’s theoretical framework and the landmark experiments led by Wallraff and Schoelkopf form a focused theory–experiment attribution. The result has been extended and reproduced across laboratories over many years, so its significance rests on an established physical regime, not only on the prospect of future processors.",
+    "case_against": "The field grew through many groups, and a three-person prize risks drawing an overly narrow boundary around its defining early work. The committee would need to distinguish those foundational contributions from later advances in coherence, control, and processor engineering.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argues that Katori and Ye made complementary advances in optical lattice clocks, a mature method replicated across laboratories and sustained by decades of improvement.",
+        "response": "I agree that this is an exceptionally strong and mature precision-measurement achievement. My preference for circuit QED reflects its distinct foundational contribution: making coherent light–matter interaction controllable in a solid-state device, a new experimental regime with durable influence across quantum optics and information."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson notes that quantum key distribution combines distinct foundational protocols and later experiments, making the attribution boundary difficult, particularly regarding Pan’s experimental contributions.",
+        "response": "That boundary deserves care. A defensible citation could focus on the foundational protocols associated with Bennett, Brassard, and Ekert, while treating later demonstrations as evidence of the field’s development rather than as part of the same attribution. This makes QKD a serious alternative, though it does not change my preference for circuit QED."
+      }
+    ],
+    "uncertainties": [
+      "The exact boundary between the early theoretical framework and landmark experimental demonstrations, and the contributions of other groups to establishing circuit QED, needs careful historical assessment."
+    ],
+    "conflict_note": "My work in superconducting circuits and my WACQT leadership create professional proximity to the field. The supplied profile names Chalmers colleagues Per Delsing and C. M. Wilson, but no direct connection to the credited B046 laureates is apparent; whether this proximity requires recusal is unresolved."
+  }
+}

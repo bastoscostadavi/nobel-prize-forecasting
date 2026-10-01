@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics with superconducting artificial atoms."
+      }
+    ]
+  },
+  "alternatives": [
+    "B025",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Circuit QED brought controlled light–matter interaction into an engineered solid-state system, making superconducting artificial atoms a precise and reproducible platform for quantum optics. Its foundational physics is established across many groups and has had lasting influence beyond quantum-computing applications. Blais, Wallraff, and Schoelkopf represent complementary theoretical and experimental contributions to establishing the platform.",
+    "case_against": "The achievement developed through a broad sequence of theoretical and experimental advances, so drawing a fair boundary around the foundational contribution and assigning credit to three people requires care. The field's importance to quantum technology could also overshadow the physics itself if the case rests on future computing performance.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "You describe circuit QED as a mature architecture with central importance to quantum information, while noting that the award boundary across its theoretical and experimental development remains broad.",
+        "response": "I agree that the citation must be narrow: the case is for establishing circuit QED with superconducting artificial atoms, not for superconducting quantum computing as a whole. Its maturity across independent groups supports recognition of the foundational physics despite the larger field that followed."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "You argue that the Nobel case should rest on circuit QED's foundational physics rather than uncertain future computing performance.",
+        "response": "I agree. The controlled coupling and readout of artificial atoms in microwave cavities are already established physical results; they do not depend on achieving large-scale fault-tolerant computing. That distinction strengthens the case while keeping its scope clear."
+      }
+    ],
+    "uncertainties": [
+      "The historical boundary between the foundational circuit-QED results and subsequent advances in superconducting-qubit technology, and the relative contributions of other groups, need careful review."
+    ],
+    "conflict_note": "My research is in superconducting circuits and quantum optics; I lead WACQT and have close professional ties to Chalmers colleagues in this field. These connections may require recusal."
+  }
+}

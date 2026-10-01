@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics with superconducting artificial atoms."
+      }
+    ]
+  },
+  "alternatives": [
+    "B014",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made the interaction of microwave photons with superconducting artificial atoms a controllable experimental regime. The combination of foundational theory and landmark experiments produced a durable platform for quantum optics and quantum information, with core methods reproduced and extended across laboratories. Its physical achievement is established independently of whether fault-tolerant computing is ultimately realized.",
+    "case_against": "The platform developed through contributions from many groups, so the boundary between foundational work and later development needs careful historical delimitation. The three proposed names represent complementary theory and experiments, but the credit must be tied to the specific establishment of circuit QED rather than the broader rise of superconducting quantum computing.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You ranked fractional charge and anyonic statistics first, while noting that fractional charge is established and the experimental case for anyonic statistics is less settled.",
+        "response": "I agree that fractional charge is a strong, mature result, and the newer statistics evidence could mark a deeper discovery if it proves robust. The combined claim nevertheless spans distinct theoretical and experimental milestones, and the current uncertainty around the direct statistics evidence makes its scope harder to delimit than the established circuit-QED contribution."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "You emphasized the exceptional maturity and reproducibility of optical lattice clocks, while raising the question of how to weigh early concepts against later technical advances.",
+        "response": "That is a persuasive case: precision and independent reproduction are clear strengths. For my preferred choice, the same maturity test is satisfied by circuit QED's replication across laboratories, while its defining physical advance is a new, controllable light–matter interaction regime. I would keep optical clocks as a serious alternative, with the original-contribution boundary as the key attribution question."
+      }
+    ],
+    "uncertainties": [
+      "The relative historical weight of Blais's theoretical architecture and Wallraff's and Schoelkopf's experimental contributions in establishing circuit QED requires careful delimitation.",
+      "The wider field's contributions should be checked against the specific milestone described by the ballot."
+    ],
+    "conflict_note": "No direct connection to the proposed laureates is apparent from the supplied profile. My superconducting-circuit expertise and leadership of WACQT are profile-based professional interests that may warrant review under committee recusal rules."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-04",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B013",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "A direct step in measurement capability: optical lattice clocks reach fractional uncertainties near 1e-18, tens of times better than microwave standards, via magic-wavelength trapping that removes motional and Stark shifts while retaining the statistical power of many atoms. It opens relativistic geodesy, tests of fundamental constants and a path to redefining the second. Exactly the kind of instrument that changes what can be measured.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept and demonstrated early Sr clocks; Ye's JILA group pushed accuracy and stability to the 1e-18 regime and developed the many-body clock. Both are well supported as a two-person prize. Others (Hall and Hansch for combs, Ludlow, Bloom, Lemke) are not in the credit list, and Yb and Al+ clock work by other groups is a related but separate thread.",
+        "maturity": "Many independent labs (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE) have confirmed the performance, with international comparisons and clock networks. The field is mature, though the redefinition of the second is still pending, so it is timely rather than late.",
+        "uncertainties": [
+          "Frequency-comb work (Nobel 2005) and ion-clock work (Wineland 2012) overlap in the technological chain, so novelty could be questioned.",
+          "Whether the decisive credit should include other early contributors such as Ye's collaborators or Katori's predecessors is not settled by the supplied list."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B003",
+      "proposed_laureates": [
+        "Gerhard Rempe",
+        "H. Jeff Kimble",
+        "Mikhail D. Lukin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Single-atom/photon coupling in cavities and atomic ensembles forms the basis of quantum memories and quantum networks: Kimble's quantum network concept and cavity QED, Rempe's single-atom photon sources and atom-photon state transfer, Lukin's EIT-based storage and ensemble interfaces. I know this experimentally and from my own field: coherence times, storage efficiency and fidelity are the real figures of merit, and these groups set the benchmarks.",
+        "attribution": "The candidate is a compound field. Rempe and Kimble share decisive cavity-QED network demonstrations; Lukin's contribution lies in collective ensemble storage and later solid-state interfaces. Rare-earth-crystal memories (Geneva, Lund, Canberra) and the DLCZ proposal are not credited here, which leaves the attribution somewhat arbitrary. I flag a potential conflict of perspective given my own work in the area, and I prefer not to push it over cleaner candidates.",
+        "maturity": "Elementary quantum network links have been shown, but efficient, long-lived, multiplexed memories and repeaters at practical scale remain a work in progress. Foundations are mature; the full technological payoff is still ahead.",
+        "uncertainties": [
+          "Compound discovery with several platforms (cavity QED, ensembles, solid-state) that may require a narrower citation.",
+          "Missing credits for DLCZ (Duan, Lukin, Cirac, Zoller), EIT storage by Hau/Harris and rare-earth memory groups.",
+          "My own field proximity may bias my rating."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B001",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Markus Greiner",
+        "Tilman Esslinger"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices turned strongly correlated many-body models into tunable laboratory systems: the superfluid-Mott transition, fermionic Hubbard physics, and quantum gas microscopes with single-site resolution. This is both a major conceptual and technical advance in measurement and control of quantum matter, with broad influence on condensed matter and quantum information.",
+        "attribution": "The experimental credit rests with Bloch (Mott insulator, quantum gas microscope work, many-body dynamics), Greiner (Mott insulator and the microscope) and Esslinger (fermionic lattices, Fermi-Hubbard). Zoller and Cirac supplied the theory (Jaksch et al. 1998), which is a separate candidate (B011); I keep this entry experimental. Hulet, Ketterle-lineage and Porto/Bakr contributions blur the boundaries.",
+        "maturity": "Reproduced in many labs, with mature quantum-gas-microscope techniques. Open questions about reaching the low-temperature regimes relevant to d-wave pairing in the Hubbard model persist, but the technique itself is established.",
+        "uncertainties": [
+          "Distribution of credit between the experimental trio and the theorists Zoller and Cirac is unresolved.",
+          "Overlap with the 2001 BEC prize and 1997 laser cooling prize may limit perceived novelty.",
+          "Several other leading experimentalists (for example Bakr, Gross, Hulet) are not in the credited list."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B062",
+      "proposed_laureates": [
+        "Mark A. Kasevich",
+        "David E. Pritchard"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Matter-wave interferometry gives inertial and gravitational sensors with extraordinary sensitivity, enabling tests of the equivalence principle, measurements of G and of the fine-structure constant, gravimetry and gradiometry. This aligns with my belief that physics is limited by how well we can measure; applications such as gravimetry for resource exploration and earthquake warning are practical.",
+        "attribution": "Pritchard's group demonstrated atom interferometry with a beam splitter based on light and nanofabricated gratings, and Kasevich (with Chu) made precision atom interferometers for gravity and rotation. Bordé gave early theory and the Ramsey-Bordé interferometer, which is a strong claim, and Chu's 1997 prize already recognised related cooling work. Picking two among three leaves a fair claim unresolved.",
+        "maturity": "Laboratory precision is high and independently reproduced, and field-portable and space devices are emerging. The ultimate impact on fundamental physics tests is still growing, so the work is solid but arguably slightly early for the sensor payoff.",
+        "uncertainties": [
+          "Bordé's contribution is arguably decisive for theory, and omitting him is contestable.",
+          "Chu and Cohen-Tannoudji prizes (1997) overlap, and the line to the interferometer technique is not sharp.",
+          "Practical fieldable sensor impact is still developing."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B008",
+      "proposed_laureates": [
+        "Robert J. Schoelkopf",
+        "Alexandre Blais",
+        "Steven M. Girvin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Circuit QED reproduced cavity-QED strong coupling on a chip, giving the architecture behind superconducting qubits: dispersive readout, strong coupling, and photon-qubit entanglement. It is a methodological advance in controlling and measuring quantum states, now the main platform for quantum processors.",
+        "attribution": "Blais, Huang, Wallraff, Girvin and Schoelkopf wrote the 2004 proposal and the 2004 experiment; Wallraff (not credited) did the first strong coupling demonstration with Schoelkopf's group. The listed names lack Wallraff, so the credited triple misses a decisive experimentalist. The 2025 prize for macroscopic quantum effects in circuits recognized adjacent work, which both raises the field profile and reduces room for a near-term follow-up.",
+        "maturity": "Confirmed across many labs and industry platforms. The architecture is mature even while computing applications are still maturing.",
+        "uncertainties": [
+          "Wallraff is not in the credited names, and this leaves a gap in a fair attribution.",
+          "Proximity to the recent 2025 prize on superconducting circuits may make the committee wary of repeating the area."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B052",
+      "proposed_laureates": [
+        "Antoine Browaeys",
+        "Mark Saffman",
+        "Mikhail D. Lukin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical-tweezer arrays of single neutral atoms with Rydberg interactions enable programmable quantum simulators and gates with hundreds of qubits. Detailed experiments on blockade, entanglement and many-body states show clear measurable results with high fidelity. The platform is scalable and has quickly become a leading approach.",
+        "attribution": "Saffman (blockade gate proposals), Browaeys (single-atom tweezers and blockade demonstrations), Lukin (Harvard/QuEra programmable simulators) all have strong claims, but others (Bernien, Endres, Weiss, Jaksch) also made decisive contributions, and the credit is broader than three.",
+        "maturity": "The field is young and fast moving; error rates and scaling are still being proven, and the interpretation of simulation advantage is evolving. Likely premature compared to more settled candidates.",
+        "uncertainties": [
+          "Maturity: recognition may be premature.",
+          "Credit divides across several groups, and Lukin also appears under B003 and B044.",
+          "Long-term technological significance not yet settled."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B060",
+      "proposed_laureates": [
+        "Carlton M. Caves",
+        "H. Jeff Kimble"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Squeezed light reduces quantum noise below the shot-noise limit and is now operating in gravitational-wave detectors, improving sensitivity routinely. This is a clear, measurable demonstration where quantum optics directly upgrades a flagship measurement instrument.",
+        "attribution": "Caves provided the 1981 theory of squeezed-state interferometry; Kimble led the first squeezed-light generation (Wu et al. 1986), alongside Slusher's group at Bell Labs, who are not credited. Schnabel and Mavalvala (GEO600, LIGO implementation) are credited in the entry but my two-person choice reflects theory plus first generation; the allocation is contestable.",
+        "maturity": "Operationally validated in GEO600, LIGO and Virgo for years; the interpretation is stable. Timely given gravitational waves were recognised in 2017.",
+        "uncertainties": [
+          "Slusher and others at Bell Labs who first observed squeezing are not credited.",
+          "The instrument-implementation credit (Schnabel, Mavalvala) versus the theory-and-generation credit is not cleanly resolved."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B044",
+      "proposed_laureates": [
+        "Jörg Wrachtrup",
+        "Mikhail D. Lukin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical readout and coherent control of single NV centre spins in diamond launched room-temperature nanoscale magnetometry and thermometry, with uses ranging from condensed-matter imaging to biology. As someone who cares about new measurement techniques and applications beyond physics, I value this, though the practical sensitivity record still has to be weighed.",
+        "attribution": "Wrachtrup's group first optically detected single NV spins in 1997 and Lukin and others drove sensing demonstrations; Walsworth and Hollenberg, Awschalom, Jelezko (not credited) were also decisive, so the allocation is murky.",
+        "maturity": "Widely reproduced, with commercial instruments appearing; the biological sensing claims are still developing, and standardised sensitivity benchmarks vary across groups.",
+        "uncertainties": [
+          "Jelezko, Awschalom, Hollenberg, Maze and Degen not credited.",
+          "Lukin's repeated presence across ballot entries may hint at overweighted credit.",
+          "Sensing applications in biology still need independent validation."
+        ]
+      }
+    }
+  ]
+}

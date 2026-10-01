@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-04",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B034",
+        "laureates": ["Michael Berry", "Yakir Aharonov"],
+        "citation": "For the discovery of geometric and topological phases in quantum mechanics, showing that phase carries physical meaning through the Aharonov-Bohm effect and the Berry phase"
+      }
+    ]
+  },
+  "alternatives": ["B048", "B013"],
+  "statement": {
+    "case_for": "Geometric and topological phases are a single unifying idea that was first identified by a small number of people and then reappeared across physics. Aharonov and Bohm showed that potentials act on charged particles through a phase, even where the field vanishes. Berry showed that adiabatic transport around a closed loop in parameter space leaves a geometric phase, with Berry curvature as its local density. The mechanism is simple, it can be written as a clean model, and it is confirmed in electron interferometry, optics, NMR and molecular physics. It is also the conceptual root of Chern numbers, quantized Hall conductance, polarization theory and the Kane-Mele and moire band-topology programmes that appear elsewhere on this shortlist. Several of the other candidates are downstream applications of this one idea. That makes it a strong answer to the question I ask of every candidate: what is the essential mechanism, and who first identified it?",
+    "case_against": "This is the weakest candidate on opening support (two rankers, one of them at rank 5), and I should not read that as a verdict on its merit. The real problems are different. Priority is contested: Ehrenberg-Siday (1949), Pancharatnam, Mead-Truhlar, Herzberg-Longuet-Higgins and Simon's holonomy interpretation all bear on who first did what. David Bohm is deceased, so the 1959 effect can be recognised only through Aharonov, which looks awkward. The work is also old, and a prize that honours the foundational idea after its main consequences were already recognised (2016 topological phases, the quantum Hall effect) may look like an afterthought. Age is a practical consideration. If the committee is unwilling to resolve the priority questions, the prize should go to a candidate with a cleaner attribution.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranked B034 fifth. She sees it as a deep and original insight, now absorbed into textbooks, but is concerned that Bohm is deceased, that Simon and Pancharatnam have claims, and that the committee may want a more recent discovery.",
+        "response": "I agree with all three concerns and am the only one who ranked it first. The Bohm problem is real. The Nobel statutes do not allow a posthumous award, and the prize can fairly cite the discovery while crediting Aharonov alone or with Berry. I still think the 'too late' objection works in favour of the candidate: the experimental record (Chambers, Tonomura, optical and NMR Berry phases) is complete, there is no maturity risk, and the work sits upstream of later prizes. I would sooner debate priority openly than let age decide the matter."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clocks (B013) first as a step change in measurement capability: 10^-18 uncertainty via magic-wavelength trapping, independently confirmed in several national laboratories, with applications to geodesy and tests of fundamental constants.",
+        "response": "I accept the technical case and ranked it myself, though sixth. The clock is a very large quantitative advance on a known concept, and Katori and Ye form a clean pair. My reservation is conceptual rather than technical. The 2005 comb prize and the 2012 ion-trap prize cover much of the precision-metrology lineage, and the redefinition of the second has not happened, so it is unclear whether the prize would mark a completed discovery or an engineering trajectory. I would not block B013 and see it as the safest alternative. I do not accept that opening support alone makes it the better scientific achievement."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks Kane-Mele-Molenkamp topological insulators (B048) first as a new topological classification with a prediction and a decisive experiment, but notes that the Bernevig-Hughes-Zhang HgTe proposal is missing from the credited names.",
+        "response": "I share both the enthusiasm and the attribution worry, and I ranked B048 third. The BHZ omission is serious, because Zhang is deceased and the HgTe route to the experiment ran through that proposal. The 3D case (Fu-Kane-Mele, Moore-Balents, Roy, Hsieh-Hasan) adds more disputes. My main point is that B048 depends conceptually on Berry curvature and Z2 invariants, which build on geometric phase. If the committee wants topology after 2016, honouring the origin is cleaner than a fragile three-way split. If it prefers the more recent materials discovery, B048 is my first alternative."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks IceCube neutrino astronomy (B035) first because nature supplied the clue and a new observational window opened, while admitting that the source-identification evidence is still limited and the collaboration credit is not settled.",
+        "response": "I see the appeal of an instrument-led discovery, and the diffuse flux is solid. I would still hesitate for the reasons Danielsson gives himself. Only a few sources (TXS 0506+056, NGC 1068) are identified, and a cubic-kilometre collaboration cannot be cleanly reduced to two names. A prize for neutrino astronomy might be better in a few years, when the catalogue is firmer, than now. That is a timing judgement and not a judgement of the science. I also do not know how to weigh a still-forming source picture against a fully mature foundational idea."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts Aharonov and Berry as the credited pair given the Ehrenberg-Siday, Pancharatnam, Simon and Mead-Truhlar priority claims, and what to do about Bohm being deceased.",
+      "Whether a very mature, foundational theory prize is preferred over a more recent experimental candidate such as B013 or B048, given the shortage of support in the opening ballots.",
+      "For B048, whether the missing Bernevig-Hughes-Zhang credit and the 3D topological insulator claims make the three-name set too fragile.",
+      "I rely on recollection of the historical record and cannot verify priority claims from the provided files."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for any shortlisted candidate. I note only that I am in the Gothenburg physics environment close to Chalmers colleagues (Johansson and Olsson), whose fields relate to B008 and B050, but no specific collaboration with any credited person was found. My frequent co-authors are in turbulence and aerosol physics and not on the shortlist."
+  }
+}

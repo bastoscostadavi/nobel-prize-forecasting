@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the optical lattice clock and its development to 10^-18 precision, opening new tests of fundamental physics"
+      }
+    ]
+  },
+  "alternatives": ["B018", "B022"],
+  "statement": {
+    "case_for": "Optical lattice clocks are the one candidate on which a majority of this committee already converges (two first places, four top-three rankings, ranked by all eight members). Katori's magic-wavelength idea removes Doppler and recoil shifts while keeping a large ensemble, and Ye's group drove strontium lattice clocks to about 10^-18, including many-body and spin-exchange effects. The result is a clean, controllable quantum system in which every systematic shift can be accounted for in physical detail, and it has been reproduced and surpassed by independent laboratories (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE). It already enables searches for varying constants, millimetre-scale gravitational redshift and a redefinition of the second. The two-person credit is clean and the timing is right. As a theorist who works with experimentalists, I value this kind of discovery, in which a precise experiment makes a basic quantum phenomenon visible. I also place it ahead of my own opening first choice, B064, for the reasons given below.",
+    "case_against": "The strongest reservation is overlap with earlier prizes. The frequency comb was recognised in 2005 and Wineland's ion-based quantum measurement in 2012, so some members may see optical clocks as an incremental refinement of a recognised area. Credit also extends beyond the two names, since Lemonde, Ludlow, Hinkley, Bloom and others made key contributions, and ion-clock groups (Rosenband and others) reached similar accuracy by a different route. The discovery argument is mostly one of metrology performance rather than a single new phenomenon, which a committee focused on discovery may weigh against it.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B012 first because the magic-wavelength lattice removes Doppler and recoil shifts, yields about a hundredfold improvement over caesium, and has been reproduced by many independent groups, with the redefinition of the second now on the roadmap.",
+        "response": "I agree and want to add a physics point. The 10^-18 level is not just better engineering. Ye's group made many-body spin-exchange and density effects a controlled part of the clock, which is why the result counts as new physics rather than only a better standard. I would, however, ask Kroll to say how he would answer the objection that the 2005 comb prize and the 2012 ion prize already cover this territory. My own answer is that the lattice scheme is a distinct idea with a distinct experimental regime, but that must be argued explicitly."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks B018 first as a clear, original discovery of a new class of quantum matter. He sees theory (Kane and Mele) and experiment (Molenkamp) as matched, and the trio as fair but imperfect, given that Bernevig, Hughes and Zhang are missing.",
+        "response": "I take this seriously and rank B018 second myself. My disagreement is about credit rather than science. The HgTe prediction by Bernevig, Hughes and Zhang was decisive for the experiment, and Zhang is deceased, so a trio of Kane, Mele and Molenkamp leaves out the very proposal that made the Konig experiment possible. The 2016 prize on topological phases also weakens the novelty claim for some members. For those reasons I treat B018 as the strongest alternative, not as my lead, but I would support it if the committee finds the attribution defensible."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks the magic-angle graphene candidate B022 first. His case is that band flattening from a twist is a simple, general mechanism, that the Bistritzer-MacDonald theory was followed by Jarillo-Herrero's experiment, and that the finding was confirmed quickly by several groups.",
+        "response": "The flat-band prediction is elegant and I respect the theory-experiment pairing. My hesitation is maturity. The origin of the superconductivity and of the correlated phases is still debated, and Yuan Cao, who was first author of the 2018 experiments, is not among the credited names. I would be more comfortable if the citation rested on flat bands and correlated insulators, not on pairing. That is why I keep B022 as an alternative and not as the lead, but I would not oppose it if the committee prefers a more recent field."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks aberration-corrected electron optics (B032) first, as a genuine instrument invention that is now routine across materials science, and has ranked B012 fourth as concrete and verified.",
+        "response": "I agree that aberration correction is a real and overdue instrument achievement, but I would ask how the committee sees it as a discovery, since the Nobel is for the discovery or invention that is tested, and her own note flags that Knut Urban is omitted from the credited names. That attribution gap, together with having support from only one member in the openings, makes me less willing to place it in a preferred configuration. The clock case is stronger on both counts, with a clean credit and broad support."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards optical lattice clocks as a distinct discovery or as a continuation of the 2005 comb and 2012 ion prizes.",
+      "How to weigh the contributions of other lattice clock groups against the two credited names.",
+      "Whether a two-part prize, for instance combining B012 with a condensed matter candidate, is preferable to a single achievement, given the three-person limit.",
+      "The attribution for B018 would need a solution to the Bernevig-Hughes-Zhang problem before I could support it as the lead."
+    ],
+    "conflict_note": "I rank B064 (circuit QED) first in my opening ballot. I direct the Wallenberg Centre for Quantum Technology, work in the same superconducting-circuit community as the candidates and the 2025 laureates, and have been a Chalmers colleague of groups in this area. If B064 or another superconducting-circuit candidate moves toward a prize, I would flag a possible need for recusal. For B012, B018, B022 and the other shortlisted entries, no specific conflict is apparent from my profile. For that reason I have not put B064 in my preferred configuration."
+  }
+}

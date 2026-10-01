@@ -1,0 +1,838 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "selection_rule": {
+    "id": "opening-union-v1",
+    "automatic": [
+      "at least one first-place ranking",
+      "at least two top-three rankings",
+      "ranked in the top eight by at least three members"
+    ],
+    "minimum_candidates": 8,
+    "fill_order": [
+      "first_place descending",
+      "top_three descending",
+      "ranked descending",
+      "borda_points descending (8 points for rank 1 through 1 for rank 8)",
+      "best_rank ascending",
+      "ballot_id ascending"
+    ]
+  },
+  "shortlist": [
+    {
+      "ballot_id": "B017",
+      "discovery": "Invention and realization of optical lattice clocks",
+      "subfield": "Atomic physics and precision measurement",
+      "credited_names": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "opening_support": {
+        "first_place": 2,
+        "top_three": 4,
+        "ranked": 7,
+        "borda_points": 41,
+        "best_rank": 1,
+        "member_rankings": [
+          {
+            "member_id": "kroll-stefan",
+            "rank": 1
+          },
+          {
+            "member_id": "lindroth-eva",
+            "rank": 1
+          },
+          {
+            "member_id": "eriksson-olle",
+            "rank": 2
+          },
+          {
+            "member_id": "pearce-mark",
+            "rank": 3
+          },
+          {
+            "member_id": "johansson-goran",
+            "rank": 4
+          },
+          {
+            "member_id": "olsson-eva",
+            "rank": 4
+          },
+          {
+            "member_id": "danielsson-ulf",
+            "rank": 7
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "danielsson-ulf",
+            "proposed_laureates": [
+              "Hidetoshi Katori",
+              "Jun Ye"
+            ]
+          },
+          {
+            "member_id": "eriksson-olle",
+            "proposed_laureates": [
+              "Hidetoshi Katori",
+              "Jun Ye"
+            ]
+          },
+          {
+            "member_id": "johansson-goran",
+            "proposed_laureates": [
+              "Hidetoshi Katori",
+              "Jun Ye"
+            ]
+          },
+          {
+            "member_id": "kroll-stefan",
+            "proposed_laureates": [
+              "Hidetoshi Katori",
+              "Jun Ye"
+            ]
+          },
+          {
+            "member_id": "lindroth-eva",
+            "proposed_laureates": [
+              "Hidetoshi Katori",
+              "Jun Ye"
+            ]
+          },
+          {
+            "member_id": "olsson-eva",
+            "proposed_laureates": [
+              "Hidetoshi Katori",
+              "Jun Ye"
+            ]
+          },
+          {
+            "member_id": "pearce-mark",
+            "proposed_laureates": [
+              "Hidetoshi Katori",
+              "Jun Ye"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B001",
+      "discovery": "Topological insulators and the quantum spin Hall effect",
+      "subfield": "Topological condensed matter physics",
+      "credited_names": [
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
+      ],
+      "opening_support": {
+        "first_place": 1,
+        "top_three": 4,
+        "ranked": 7,
+        "borda_points": 38,
+        "best_rank": 1,
+        "member_rankings": [
+          {
+            "member_id": "eriksson-olle",
+            "rank": 1
+          },
+          {
+            "member_id": "danielsson-ulf",
+            "rank": 2
+          },
+          {
+            "member_id": "johansson-goran",
+            "rank": 2
+          },
+          {
+            "member_id": "olsson-eva",
+            "rank": 2
+          },
+          {
+            "member_id": "mehlig-bernhard",
+            "rank": 4
+          },
+          {
+            "member_id": "pearce-mark",
+            "rank": 6
+          },
+          {
+            "member_id": "lindroth-eva",
+            "rank": 8
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "danielsson-ulf",
+            "proposed_laureates": [
+              "Charles L. Kane",
+              "Eugene J. Mele",
+              "Laurens W. Molenkamp"
+            ]
+          },
+          {
+            "member_id": "eriksson-olle",
+            "proposed_laureates": [
+              "Charles L. Kane",
+              "Eugene J. Mele",
+              "Laurens W. Molenkamp"
+            ]
+          },
+          {
+            "member_id": "johansson-goran",
+            "proposed_laureates": [
+              "Charles L. Kane",
+              "Eugene J. Mele",
+              "Laurens W. Molenkamp"
+            ]
+          },
+          {
+            "member_id": "lindroth-eva",
+            "proposed_laureates": [
+              "Charles L. Kane",
+              "Eugene J. Mele",
+              "Laurens W. Molenkamp"
+            ]
+          },
+          {
+            "member_id": "mehlig-bernhard",
+            "proposed_laureates": [
+              "Charles L. Kane",
+              "Eugene J. Mele",
+              "Laurens W. Molenkamp"
+            ]
+          },
+          {
+            "member_id": "olsson-eva",
+            "proposed_laureates": [
+              "Charles L. Kane",
+              "Eugene J. Mele",
+              "Laurens W. Molenkamp"
+            ]
+          },
+          {
+            "member_id": "pearce-mark",
+            "proposed_laureates": [
+              "Charles L. Kane",
+              "Eugene J. Mele",
+              "Laurens W. Molenkamp"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B030",
+      "discovery": "Aberration-corrected electron optics for sub-angstrom microscopy",
+      "subfield": "Electron optics and materials physics",
+      "credited_names": [
+        "Harald Rose",
+        "Knut Urban",
+        "Maximilian Haider"
+      ],
+      "opening_support": {
+        "first_place": 1,
+        "top_three": 1,
+        "ranked": 2,
+        "borda_points": 10,
+        "best_rank": 1,
+        "member_rankings": [
+          {
+            "member_id": "olsson-eva",
+            "rank": 1
+          },
+          {
+            "member_id": "eriksson-olle",
+            "rank": 7
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "eriksson-olle",
+            "proposed_laureates": [
+              "Harald Rose",
+              "Knut Urban",
+              "Maximilian Haider"
+            ]
+          },
+          {
+            "member_id": "olsson-eva",
+            "proposed_laureates": [
+              "Harald Rose",
+              "Knut Urban",
+              "Maximilian Haider"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B011",
+      "discovery": "Precision mapping of cosmic microwave background anisotropies",
+      "subfield": "Cosmology",
+      "credited_names": [
+        "Charles L. Bennett",
+        "David N. Spergel",
+        "Jean-Loup Puget",
+        "Lyman A. Page Jr."
+      ],
+      "opening_support": {
+        "first_place": 1,
+        "top_three": 1,
+        "ranked": 2,
+        "borda_points": 9,
+        "best_rank": 1,
+        "member_rankings": [
+          {
+            "member_id": "danielsson-ulf",
+            "rank": 1
+          },
+          {
+            "member_id": "pearce-mark",
+            "rank": 8
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "danielsson-ulf",
+            "proposed_laureates": [
+              "Charles L. Bennett",
+              "Jean-Loup Puget",
+              "Lyman A. Page Jr."
+            ]
+          },
+          {
+            "member_id": "pearce-mark",
+            "proposed_laureates": [
+              "Charles L. Bennett",
+              "David N. Spergel",
+              "Jean-Loup Puget"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B018",
+      "discovery": "Discovery of high-energy astrophysical neutrinos with IceCube",
+      "subfield": "Astroparticle physics and neutrino astronomy",
+      "credited_names": [
+        "Albrecht Karle",
+        "Christian Spiering",
+        "Francis Halzen"
+      ],
+      "opening_support": {
+        "first_place": 1,
+        "top_three": 1,
+        "ranked": 1,
+        "borda_points": 8,
+        "best_rank": 1,
+        "member_rankings": [
+          {
+            "member_id": "pearce-mark",
+            "rank": 1
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "pearce-mark",
+            "proposed_laureates": [
+              "Francis Halzen",
+              "Albrecht Karle",
+              "Christian Spiering"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B034",
+      "discovery": "Conformal field theory and exact two-dimensional critical phenomena",
+      "subfield": "Statistical physics and quantum field theory",
+      "credited_names": [
+        "Alexander A. Belavin",
+        "Alexander B. Zamolodchikov",
+        "Alexander M. Polyakov"
+      ],
+      "opening_support": {
+        "first_place": 1,
+        "top_three": 1,
+        "ranked": 1,
+        "borda_points": 8,
+        "best_rank": 1,
+        "member_rankings": [
+          {
+            "member_id": "mehlig-bernhard",
+            "rank": 1
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "mehlig-bernhard",
+            "proposed_laureates": [
+              "Alexander A. Belavin",
+              "Alexander B. Zamolodchikov",
+              "Alexander M. Polyakov"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B041",
+      "discovery": "Circuit quantum electrodynamics with superconducting artificial atoms",
+      "subfield": "Quantum optics and superconducting circuits",
+      "credited_names": [
+        "Alexandre Blais",
+        "Robert J. Schoelkopf",
+        "Steven M. Girvin"
+      ],
+      "opening_support": {
+        "first_place": 1,
+        "top_three": 1,
+        "ranked": 1,
+        "borda_points": 8,
+        "best_rank": 1,
+        "member_rankings": [
+          {
+            "member_id": "johansson-goran",
+            "rank": 1
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "johansson-goran",
+            "proposed_laureates": [
+              "Alexandre Blais",
+              "Robert J. Schoelkopf",
+              "Steven M. Girvin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B016",
+      "discovery": "Squeezed light for quantum-enhanced precision measurement",
+      "subfield": "Quantum optics and quantum metrology",
+      "credited_names": [
+        "Carlton M. Caves",
+        "H. Jeff Kimble",
+        "Roman Schnabel"
+      ],
+      "opening_support": {
+        "first_place": 0,
+        "top_three": 4,
+        "ranked": 5,
+        "borda_points": 31,
+        "best_rank": 2,
+        "member_rankings": [
+          {
+            "member_id": "kroll-stefan",
+            "rank": 2
+          },
+          {
+            "member_id": "pearce-mark",
+            "rank": 2
+          },
+          {
+            "member_id": "johansson-goran",
+            "rank": 3
+          },
+          {
+            "member_id": "lindroth-eva",
+            "rank": 3
+          },
+          {
+            "member_id": "eriksson-olle",
+            "rank": 4
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "eriksson-olle",
+            "proposed_laureates": [
+              "Carlton M. Caves",
+              "H. Jeff Kimble",
+              "Roman Schnabel"
+            ]
+          },
+          {
+            "member_id": "johansson-goran",
+            "proposed_laureates": [
+              "Carlton M. Caves",
+              "H. Jeff Kimble",
+              "Roman Schnabel"
+            ]
+          },
+          {
+            "member_id": "kroll-stefan",
+            "proposed_laureates": [
+              "Carlton M. Caves",
+              "H. Jeff Kimble",
+              "Roman Schnabel"
+            ]
+          },
+          {
+            "member_id": "lindroth-eva",
+            "proposed_laureates": [
+              "Carlton M. Caves",
+              "H. Jeff Kimble",
+              "Roman Schnabel"
+            ]
+          },
+          {
+            "member_id": "pearce-mark",
+            "proposed_laureates": [
+              "Carlton M. Caves",
+              "H. Jeff Kimble",
+              "Roman Schnabel"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B005",
+      "discovery": "Invention of the quantum cascade laser",
+      "subfield": "Laser physics and semiconductor quantum engineering",
+      "credited_names": [
+        "Alfred Y. Cho",
+        "Federico Capasso",
+        "Jérôme Faist"
+      ],
+      "opening_support": {
+        "first_place": 0,
+        "top_three": 3,
+        "ranked": 5,
+        "borda_points": 26,
+        "best_rank": 3,
+        "member_rankings": [
+          {
+            "member_id": "eriksson-olle",
+            "rank": 3
+          },
+          {
+            "member_id": "kroll-stefan",
+            "rank": 3
+          },
+          {
+            "member_id": "olsson-eva",
+            "rank": 3
+          },
+          {
+            "member_id": "johansson-goran",
+            "rank": 5
+          },
+          {
+            "member_id": "lindroth-eva",
+            "rank": 5
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "eriksson-olle",
+            "proposed_laureates": [
+              "Alfred Y. Cho",
+              "Federico Capasso",
+              "Jérôme Faist"
+            ]
+          },
+          {
+            "member_id": "johansson-goran",
+            "proposed_laureates": [
+              "Alfred Y. Cho",
+              "Federico Capasso",
+              "Jérôme Faist"
+            ]
+          },
+          {
+            "member_id": "kroll-stefan",
+            "proposed_laureates": [
+              "Alfred Y. Cho",
+              "Federico Capasso",
+              "Jérôme Faist"
+            ]
+          },
+          {
+            "member_id": "lindroth-eva",
+            "proposed_laureates": [
+              "Alfred Y. Cho",
+              "Federico Capasso",
+              "Jérôme Faist"
+            ]
+          },
+          {
+            "member_id": "olsson-eva",
+            "proposed_laureates": [
+              "Federico Capasso",
+              "Jérôme Faist",
+              "Alfred Y. Cho"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B015",
+      "discovery": "Ab initio molecular dynamics (Car–Parrinello method)",
+      "subfield": "Computational condensed matter physics",
+      "credited_names": [
+        "Michele Parrinello",
+        "Roberto Car"
+      ],
+      "opening_support": {
+        "first_place": 0,
+        "top_three": 1,
+        "ranked": 4,
+        "borda_points": 14,
+        "best_rank": 3,
+        "member_rankings": [
+          {
+            "member_id": "mehlig-bernhard",
+            "rank": 3
+          },
+          {
+            "member_id": "olsson-eva",
+            "rank": 5
+          },
+          {
+            "member_id": "eriksson-olle",
+            "rank": 6
+          },
+          {
+            "member_id": "danielsson-ulf",
+            "rank": 8
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "danielsson-ulf",
+            "proposed_laureates": [
+              "Michele Parrinello",
+              "Roberto Car"
+            ]
+          },
+          {
+            "member_id": "eriksson-olle",
+            "proposed_laureates": [
+              "Michele Parrinello",
+              "Roberto Car"
+            ]
+          },
+          {
+            "member_id": "mehlig-bernhard",
+            "proposed_laureates": [
+              "Michele Parrinello",
+              "Roberto Car"
+            ]
+          },
+          {
+            "member_id": "olsson-eva",
+            "proposed_laureates": [
+              "Roberto Car",
+              "Michele Parrinello"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B002",
+      "discovery": "Titanium-sapphire lasers and passive mode-locking for femtosecond pulses",
+      "subfield": "Ultrafast optics and laser physics",
+      "credited_names": [
+        "Peter F. Moulton",
+        "Ursula Keller",
+        "Wilson Sibbett"
+      ],
+      "opening_support": {
+        "first_place": 0,
+        "top_three": 1,
+        "ranked": 4,
+        "borda_points": 13,
+        "best_rank": 2,
+        "member_rankings": [
+          {
+            "member_id": "lindroth-eva",
+            "rank": 2
+          },
+          {
+            "member_id": "kroll-stefan",
+            "rank": 6
+          },
+          {
+            "member_id": "olsson-eva",
+            "rank": 7
+          },
+          {
+            "member_id": "mehlig-bernhard",
+            "rank": 8
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "kroll-stefan",
+            "proposed_laureates": [
+              "Peter F. Moulton",
+              "Ursula Keller",
+              "Wilson Sibbett"
+            ]
+          },
+          {
+            "member_id": "lindroth-eva",
+            "proposed_laureates": [
+              "Peter F. Moulton",
+              "Ursula Keller",
+              "Wilson Sibbett"
+            ]
+          },
+          {
+            "member_id": "mehlig-bernhard",
+            "proposed_laureates": [
+              "Peter F. Moulton",
+              "Ursula Keller",
+              "Wilson Sibbett"
+            ]
+          },
+          {
+            "member_id": "olsson-eva",
+            "proposed_laureates": [
+              "Peter F. Moulton",
+              "Ursula Keller",
+              "Wilson Sibbett"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B008",
+      "discovery": "Self-amplified spontaneous-emission X-ray free-electron laser",
+      "subfield": "Accelerator physics and X-ray science",
+      "credited_names": [
+        "Claudio Pellegrini",
+        "Evgeny Saldin",
+        "Kwang-Je Kim"
+      ],
+      "opening_support": {
+        "first_place": 0,
+        "top_three": 1,
+        "ranked": 3,
+        "borda_points": 12,
+        "best_rank": 3,
+        "member_rankings": [
+          {
+            "member_id": "danielsson-ulf",
+            "rank": 3
+          },
+          {
+            "member_id": "pearce-mark",
+            "rank": 4
+          },
+          {
+            "member_id": "kroll-stefan",
+            "rank": 8
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "danielsson-ulf",
+            "proposed_laureates": [
+              "Claudio Pellegrini",
+              "Kwang-Je Kim",
+              "Evgeny Saldin"
+            ]
+          },
+          {
+            "member_id": "kroll-stefan",
+            "proposed_laureates": [
+              "Claudio Pellegrini",
+              "Evgeny Saldin",
+              "Kwang-Je Kim"
+            ]
+          },
+          {
+            "member_id": "pearce-mark",
+            "proposed_laureates": [
+              "Claudio Pellegrini",
+              "Evgeny Saldin",
+              "Kwang-Je Kim"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "ballot_id": "B004",
+      "discovery": "Single nitrogen-vacancy spins in diamond for quantum sensing",
+      "subfield": "Quantum sensing and solid-state quantum physics",
+      "credited_names": [
+        "Fedor Jelezko",
+        "Jörg Wrachtrup",
+        "Mikhail D. Lukin"
+      ],
+      "opening_support": {
+        "first_place": 0,
+        "top_three": 0,
+        "ranked": 4,
+        "borda_points": 8,
+        "best_rank": 5,
+        "member_rankings": [
+          {
+            "member_id": "eriksson-olle",
+            "rank": 5
+          },
+          {
+            "member_id": "kroll-stefan",
+            "rank": 7
+          },
+          {
+            "member_id": "johansson-goran",
+            "rank": 8
+          },
+          {
+            "member_id": "olsson-eva",
+            "rank": 8
+          }
+        ],
+        "laureate_proposals": [
+          {
+            "member_id": "eriksson-olle",
+            "proposed_laureates": [
+              "Fedor Jelezko",
+              "Jörg Wrachtrup",
+              "Mikhail D. Lukin"
+            ]
+          },
+          {
+            "member_id": "johansson-goran",
+            "proposed_laureates": [
+              "Fedor Jelezko",
+              "Jörg Wrachtrup",
+              "Mikhail D. Lukin"
+            ]
+          },
+          {
+            "member_id": "kroll-stefan",
+            "proposed_laureates": [
+              "Fedor Jelezko",
+              "Jörg Wrachtrup",
+              "Mikhail D. Lukin"
+            ]
+          },
+          {
+            "member_id": "olsson-eva",
+            "proposed_laureates": [
+              "Fedor Jelezko",
+              "Jörg Wrachtrup",
+              "Mikhail D. Lukin"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

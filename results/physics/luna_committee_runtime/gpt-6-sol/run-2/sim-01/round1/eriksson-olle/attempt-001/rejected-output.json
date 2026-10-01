@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the prediction and experimental demonstration of the quantum spin Hall effect."
+      }
+    ]
+  },
+  "alternatives": [
+    "B031",
+    "B033"
+  ],
+  "statement": {
+    "case_for": "The quantum spin Hall effect established a new phase of quantum matter through a clear link between theoretical prediction and experimental realization. Kane and Mele supplied central predictions, and Molenkamp's experiments demonstrated the effect in a material system. The central phenomena have been studied across many materials and measurements over more than a decade, giving this a strong combination of conceptual significance, experimental grounding, and maturity.",
+    "case_against": "The shortlist description also includes three-dimensional topological insulators, whose experimental history and credit are not fully represented by this trio. A prize citation that tries to cover the entire topological-insulator story risks combining distinct milestones and obscuring who made which contribution. The case is strongest if limited to the quantum spin Hall effect.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Stefan Kroll sees a strong theory-experiment case but cautions that the candidate combines broad theoretical development with several experimental milestones, requiring a carefully defined scope.",
+        "response": "I share that concern. The citation should name the prediction and demonstration of the quantum spin Hall effect specifically, rather than imply that this trio represents every development in topological insulators. That tighter scope preserves the central theoretical and experimental contributions while making the award's claim easier to assess."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Bernhard Mehlig considers the work a mature, consequential discovery, while noting that the wider topological-insulator field includes contributors beyond this compact attribution.",
+        "response": "That is a real limitation, and it argues for precision in the citation rather than for abandoning the case. A focused recognition of the quantum spin Hall prediction and early realization has a more defensible boundary than recognition of the whole field. The material-specific complications also make continued scrutiny of particular transport signatures appropriate, but they do not erase the established central result."
+      }
+    ],
+    "uncertainties": [
+      "The shortlist groups the quantum spin Hall effect with three-dimensional topological insulators, and the precise historical boundary between those milestones and their respective contributors needs careful definition.",
+      "The extent to which material-specific transport complications affect interpretation of particular realizations should be weighed when assessing the experimental record."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

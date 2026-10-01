@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-05",
+  "member_id": "olsson-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Chang C. Tsuei",
+          "Dale J. Van Harlingen",
+          "John R. Kirtley"
+        ],
+        "citation": "For phase-sensitive experiments establishing d-wave pairing in cuprate superconductors."
+      }
+    ]
+  },
+  "alternatives": [
+    "B024",
+    "B044"
+  ],
+  "statement": {
+    "case_for": "The phase-sensitive experiments established the symmetry of the cuprate order parameter, resolving a central question in unconventional superconductivity. This is a well-defined experimental result whose conclusion has stood for decades. The citation should stay with that result rather than imply that the broader mechanism of high-temperature superconductivity is solved.",
+    "case_against": "The result clarifies pairing symmetry but does not explain the origin of high-temperature superconductivity. Attribution also needs care: the three credited researchers' roles in foundational methods, decisive measurements, and corroboration must be distinguished rather than treated as interchangeable.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "He considers the phase-sensitive experiments a clear and consequential discovery, while noting that their scope may be narrower than a prize for superconductivity itself.",
+        "response": "I agree with that scope concern. The case is strongest when the citation names the experimentally established d-wave pairing result precisely; it need not claim to resolve the microscopic mechanism or recognize superconductivity as a whole."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "He emphasizes Tsuei and Kirtley's influential tests and Van Harlingen's earlier interferometry work, and asks that each person's specific contribution be separated from methodological groundwork.",
+        "response": "That distinction should guide the final attribution review. Van Harlingen's earlier methodological contribution should not automatically be equated with the decisive proof, but the connected phase-sensitive experiments may support shared recognition if the historical record confirms each person's direct role in establishing the result."
+      }
+    ],
+    "uncertainties": [
+      "The precise experimental roles and priority among the credited researchers need historical verification.",
+      "The citation must distinguish the established pairing symmetry from the unresolved mechanism of high-temperature superconductivity."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

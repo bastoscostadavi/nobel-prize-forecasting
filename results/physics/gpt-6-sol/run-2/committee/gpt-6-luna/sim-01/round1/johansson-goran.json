@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics as a controllable light–matter system."
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B031"
+  ],
+  "statement": {
+    "case_for": "Circuit QED brought individual artificial atoms and microwave photons into a regime where their interaction could be engineered, measured, and controlled in solid-state devices. The theory and experiments formed a clear, mutually reinforcing advance in basic physics, and the central effects have been reproduced and extended across many laboratories. Its significance rests on opening this experimental regime, not on whether fault-tolerant computers are ultimately built.",
+    "case_against": "The achievement grew from a wider community, so a three-person attribution necessarily leaves out important contributors. The ballot also bundles foundational theory, early demonstrations, and platform development; the award's scope should stay focused on establishing controllable circuit light–matter physics rather than promise future applications.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig regards circuit QED as a productive platform but questions whether its ultimate scientific reach is settled and whether foundational physics can be separated from anticipated applications.",
+        "response": "That is a fair caution about the platform's future reach. I would ground recognition in what is already established: controllable interactions between artificial atoms and microwave fields, with reproducible experiments across laboratories. The case does not depend on eventual fault-tolerant computing."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll notes that quantum error correction has a firm theoretical foundation, while useful-scale fault-tolerant operation remains an active challenge and the boundary with computer science is not straightforward.",
+        "response": "I agree that fault tolerance is not yet a mature achievement and should not carry the case for B024. Circuit QED merits consideration for its demonstrated quantum-optical physics and controllable solid-state light–matter interactions, which are established independently of large-scale computation."
+      }
+    ],
+    "uncertainties": [
+      "The supplied evidence does not resolve how the foundational theory, early experimental demonstrations, and subsequent platform development should be weighted among the three credited contributors.",
+      "Important early contributors beyond the proposed trio may warrant closer attribution review."
+    ],
+    "conflict_note": "The supplied profile identifies Johansson as a theorist in superconducting circuits and director of WACQT, with close colleagues in the field. This creates a potential professional proximity to B024; no direct connection to the three proposed laureates is apparent from the supplied profile."
+  }
+}

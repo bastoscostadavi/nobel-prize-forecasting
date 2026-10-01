@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and realisation of optical lattice clocks, enabling atomic time and frequency measurement at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": ["B035", "B043"],
+  "statement": {
+    "case_for": "Optical lattice clocks are the clearest case on the list of a new measurement technique changing what can be observed. The magic-wavelength idea removes the trade-off between many-atom signal-to-noise and Doppler/recoil/light-shift perturbations, and it has led to fractional uncertainties near 1e-18 and to stabilities that resolve gravitational redshift over millimetre height differences. That is real, quantitative experimental evidence rather than a proposal, and it has been reproduced and compared across many independent laboratories (RIKEN/Tokyo, JILA, NIST, PTB, SYRTE, NPL) over fibre links, so reproducibility, which is the first thing I check, is not in doubt. The reach beyond the field is also concrete: relativistic geodesy, bounds on drifts of fundamental constants, dark-matter searches, and the pending redefinition of the second. The attribution is the cleanest on the shortlist: Katori for the concept and first Sr lattice demonstration, Ye for taking accuracy and coherence to the record level and to many-body, Fermi-degenerate operation. It is the only candidate that all eight of us ranked, with four top-three placements, and I think that support reflects scientific merit and not merely its being uncontroversial, because it holds across particle, condensed-matter and AMO colleagues' own criteria.",
+    "case_against": "The strongest reservation is that the 2005 prize (Hall and Hansch, frequency comb) and the 1989 and 2012 prizes (Ramsey, Paul/Dehmelt, Wineland/Haroche) already cover much of precision spectroscopy and clocks, so a skeptic can call this an incremental successor in a heavily honoured area, and the pending redefinition of the second means the most visible societal consequence has not yet happened. There is also real credit that three names cannot capture: Lemonde and the SYRTE group, Ludlow, Takamoto, the Yb and Hg lattice-clock groups, and the ion-clock line. Katori's and Ye's contributions are of different kinds (concept and first demonstration versus ultimate performance), so the citation must be worded carefully to avoid implying that one of them merely refined the other.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth shares B052 as first place and ranks B035 (atom interferometry) second, noting that Chu's earlier prize and the Mlynek/Keith/Hansch overlap leave the attribution of atom interferometry somewhat open, while the physics is stable and recognition could come at any time.",
+        "response": "I agree on B052 and on your honest caveat for B035, which I share since I ranked it second myself. Our two opening ballots are almost identical, so our agreement should not be counted twice as independent evidence. I would go further than you on the attribution problem: Chu's light-pulse interferometer work sits at the centre of the Kasevich story, and the 1997 prize was for laser cooling, not for interferometry, so the Pritchard/Bordé/Kasevich trio is defensible but not clean. That, and the fact that the large-baseline fundamental-physics payoff is still being developed, is why I keep B035 as an alternative and not as a second prize part. A two-part prize of B052 plus one person from B035 would also push us towards an arbitrary single name."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks magic-angle twisted bilayer graphene (B024) first as a clean model-meets-experiment case, and ranks B052 only eighth, arguing that it builds on frequency-comb work and that other lattice-clock groups are uncredited.",
+        "response": "I take the B052 reservation seriously but I think it is answered by the physics: the comb was a necessary tool for counting optical cycles, and the lattice clock is a different discovery, namely that a trapped many-atom ensemble can be interrogated without systematic shifts at the 1e-18 level. By that logic the 2005 prize would also bar every later comb application. On B024 my concern is not its quality but its maturity and its measurement base. Since 2018 the superconducting pairing is still unexplained, device-to-device variability is a known issue, and Bistritzer and MacDonald, Jarillo-Herrero and the first author Cao do not form a clean allocation. I would be more comfortable in a few years, and I keep B024 out of my alternatives for that reason, though I accept this is a field where I am outside my expertise and defer to you on how settled the flat-band phenomenology is."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube (B043) first as the combination of instrument and discovery that opened a new observational window, and ranks B052 third with a note that the two-person credit is clear.",
+        "response": "I agree with the criterion: new windows opened by new instruments are exactly what I look for, and for that reason I include B043 as an alternative. The difference between us is maturity and robustness. The diffuse flux is established through several channels, but source identification rests on a handful of objects (TXS 0506+056, NGC 1068, the Galactic plane), each at moderate significance, so the physics of what the neutrinos are telling us is still being written. Lattice clocks have already been compared at the 1e-18 level between laboratories. The AMANDA, Baikal and DUMAND credit question that you raise yourself also seems harder to settle with two names than the Katori/Ye allocation. I would be glad to be persuaded that B043 is ready this year if the committee thinks source evidence has crossed the threshold."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson puts circuit QED (B056) first and B052 second, and says the clock physics is clean and quantitative, but flags that 2025 recognised superconducting circuits, so the committee must ask whether cQED is a distinct discovery.",
+        "response": "I thank you for ranking B052 second and agree on the credit and the maturity. On B056 I share your worry about overlap with the 2025 prize, and I would add a second one: the four-name credit list (Blais, Wallraff, Schoelkopf, Girvin) cannot be fitted into three people without leaving out Blais, who is a decisive theorist. Whether cQED is distinct enough is a judgement that an experimentalist like me cannot settle from the physics alone, but timing arguments favour B052, whose last closely related prize is twenty years old. I note that cQED and WACQT-type work is close to your home institution, and you will know better than I whether that affects how the committee should weigh it."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards the 2005 comb prize and the earlier clock-related prizes as having already spent the credit for optical frequency metrology, or accepts the lattice clock as a distinct discovery.",
+      "Whether the citation should name the lattice clock itself or the broader enabling idea (magic-wavelength trapping), and how to word Katori's and Ye's different contributions fairly.",
+      "How much priority and credit should go to other lattice-clock groups (SYRTE/Lemonde, Yb and Hg groups), which I cannot verify in detail from memory.",
+      "Whether the redefinition of the second, which has not yet happened, should affect timing."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile with the credited names Katori and Ye or with the lattice-clock community. I do note a loose institutional overlap that is relevant to other candidates: I am on the executive management of WACQT, which is Chalmers-led and so overlaps with Johansson's institution, and I work in quantum memories and quantum optics, which lie close to B056 and B044. I do not think that requires recusal on B052, but the committee should be aware of it when circuit QED or cold-atom simulation are discussed."
+  }
+}

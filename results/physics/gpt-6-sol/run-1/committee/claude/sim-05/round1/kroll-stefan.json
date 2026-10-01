@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B025",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of optical lattice clocks, enabling measurements of time and frequency at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B036",
+    "B022"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are a new measurement capability that opened other work. Katori's magic-wavelength lattice removes Doppler and recoil shifts while interrogating many atoms at once, and Ye's group (with Sr and later Yb work elsewhere) brought systematic uncertainties and instability to roughly 1e-18. Independent laboratories now reproduce this level and compare clocks across institutions. The consequences are concrete: relativistic geodesy at the centimetre scale, tighter limits on drifts of fundamental constants, dark-matter searches, and the ongoing discussion of redefining the second. Of the eight shortlisted candidates it is the one where a clean experimental demonstration, many independent replications, and downstream use all coexist, and the two-name credit is the most natural attribution on the table. Six of eight members ranked it, two first, so it is also the broadest common ground.",
+    "case_against": "The strongest reservation is overlap with earlier recognition: the 2005 prize for the frequency comb (which Ye's clock work depends on) and the 2012 prize for ion control and ion clocks cover adjacent ground, and a skeptic can call this a refinement of precision metrology rather than a new discovery. The attribution also leaves out Lemonde and the SYRTE group, Takamoto's early Sr clock demonstration, and Derevianko-type theory, and Ye's own claim spans several clock platforms (Sr, many-body clocks, the Th-229 nuclear clock), so the citation must be drawn tightly to the lattice-clock idea and its realisation. Finally, the physics outcome is a better instrument rather than a measured surprise, which some colleagues will weigh less.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks the lattice clock first as precise physics where atomic-structure theory meets experiment, but notes that Hall-Hansch (2005) and Wineland (2012) already cover adjacent ground and that Ye's Th-229 work might or might not belong in the citation.",
+        "response": "I agree on the merit and share the overlap worry, but I think it is answerable. The comb made clocks countable; Wineland showed single-ion control. The lattice clock is a different step, because it solves the signal-to-noise and Doppler/recoil problem by interrogating many neutral atoms at a magic wavelength, and that is why instability reached the 1e-18 regime in hours rather than days. I would keep Th-229 out of the citation. It is still in development, and bundling it would blur an otherwise clean attribution and hand critics an easy argument that we are rewarding a career instead of a result."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube first, valuing the instrument achievement of a cubic-kilometre detector and the opening of neutrino astronomy, and ranks lattice clocks second while saying his atomic-physics expertise is limited and that others such as Takamoto and Lemonde might deserve credit.",
+        "response": "I take the instrument argument seriously, and I would value IceCube's opening of a new window too. My hesitation is the attribution: Pearce himself says he cannot verify who was decisive among AMANDA and IceCube leaders, and in a collaboration of that size two names carry more dispute than Katori and Ye do. On the clock side, I would say that Takamoto's Sr demonstration came from Katori's own group, so it is part of Katori's credit, while Lemonde's group is a real but secondary contribution to the lattice-clock lineage. I would therefore not let the chair's top ranking move the lattice-clock case below IceCube on attribution grounds alone."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first as a regime-opening step that underlies most superconducting processors, and says it follows the 2025 prize without duplicating it, while acknowledging a possible bias toward his own community.",
+        "response": "I ranked circuit QED fourth in my opening ballot and I still think it is important physics. Two things hold me back from lifting it. First, the 2025 prize is close in time and in subject, so a return so soon invites a charge of rewarding one field twice. Second, the third name remains unsettled (Blais against Girvin, with your own list and mine differing), and fault-tolerant operation is not yet shown. I do not think the central discovery is in doubt, and I would be comfortable with it in a later year, but I would not put it ahead of a result that has already been used to reach 1e-18 and has been reproduced independently in many labs."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks lattice clocks only seventh and wonders whether the prize would be seen as technology and metrology rather than a physics discovery, with credit also owed to the ion-clock community.",
+        "response": "This is the most serious qualification, and I do not dismiss it. My answer is that clocks are the instrument by which fundamental physics is tested: bounds on the variation of constants, searches for ultralight dark matter, and the gravitational redshift measured across a millimetre-scale sample are physics outputs, not engineering side effects. The ion-clock point is fair, but Wineland's prize was for the control of single quantum systems, which the lattice clock builds on rather than repeats. I do accept that if the committee wants a discovery in the narrowest sense, topological insulators (your second choice) are the stronger fallback, and I have placed B036 among my alternatives for that reason."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee views lattice clocks as sufficiently distinct from the 2005 comb and 2012 ion-control prizes.",
+      "Whether Lemonde or another early lattice-clock contributor has a claim that should alter the two-name set; I have not checked the priority record in detail.",
+      "How tightly the citation should be drawn to avoid absorbing the Th-229 nuclear clock and the many-body clock work.",
+      "Whether a two-person prize is the best use of the year given the strong condensed-matter candidates (B036, B022) with five or six supporters."
+    ],
+    "conflict_note": "No financial or collaborative conflict with Katori or Ye is apparent from my profile. A personal connection should be noted for the chair: during my PhD I spent a year in John Hall's laboratory in Boulder, and Hall was Ye's mentor at JILA. This is a mentor-lineage link to the broader environment, not a collaboration with either candidate, and I leave it to the chair to judge whether it needs recusal. My WACQT role also overlaps institutionally with Johansson (Chalmers) and quantum-technology candidates such as B016."
+  }
+}

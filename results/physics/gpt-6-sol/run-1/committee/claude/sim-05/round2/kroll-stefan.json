@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B025",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of optical lattice clocks based on magic-wavelength trapping of neutral atoms, bringing frequency and time measurement to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B036",
+    "B022"
+  ],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged: a single-part prize for the optical lattice clock to Katori and Ye. After round 1 the case rests on three things I can state as an experimentalist. First, the idea is distinct: Katori's magic-wavelength lattice lets one interrogate thousands of neutral atoms without Doppler and recoil shifts, which is what turned a clock into a high-signal-to-noise instrument and is not a consequence of the comb or of ion control. Second, it has been demonstrated and then reproduced: Katori's group showed the Sr scheme, Ye's group drove systematic uncertainty and instability down to the 10^-18 regime (blackbody shift, lattice light shift, density shifts), and several independent laboratories now compare lattice clocks at that level, including across institutions by optical links. Third, the instrument is already used to measure things: centimetre-scale relativistic geodesy and gravitational redshift across a sample, bounds on drifts of constants, and dark-matter searches. Since the committee's own members split between maturity and discovery, I note that of the shortlisted ballots this is the one where the demonstration, replication and downstream use are all on the record, and four members independently named the same two laureates. I would draw the citation around the lattice clock and nothing else.",
+    "case_against": "The honest weakness is still the one named by Mehlig, Danielsson, Olsson and by several of us who support it: it can be read as an enabling precision-metrology achievement rather than the discovery of a new fact about nature, and it sits next to the 2005 comb prize and the 2012 ion-control prize. The credit is also not complete. Takamoto's early Sr clock work, Lemonde and the SYRTE group, the PTB and NIST groups, and the theory of magic wavelengths and lattice shifts all have claims that a two-name prize does not cover, and I have not checked the priority record myself. If the experts cannot give a clear answer on who showed the first working lattice clock, or if the committee decides that a measurement-capability prize ranks below the topological-insulator or magic-angle-graphene cases in a year like this, my case weakens, and B036 is the better fallback on discovery grounds.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig prefers B036 for the Z2 invariant and HgTe realisation, calls it a simple general mechanism with a decisive measurement and cross-disciplinary reach, and says he would move to B025 only if atomic-physics colleagues show it to be better attributed than B036.",
+        "response": "I take that as a fair test, and on attribution I think B025 passes it. For the lattice clock the chain is short and traceable: the proposal and first demonstration with Katori, the push to 10^-18 and the cross-laboratory comparisons with Ye. For B036 you and Eriksson both say that the omission of Bernevig and Hughes has to be explained, and the 3D work is also outside the trio, so the open credit questions are, if anything, larger there. I agree that the Z2 invariant is a clean mechanism and that the HgTe measurement was decisive, and I would not argue against B036 as a fallback. But the question of whether a clock is only technology I answer by what it measures, which is a gravitational redshift over a millimetre to centimetre scale and bounds on constants that no earlier instrument could set. On the 2005 overlap, the comb counts the cycles and the lattice removes the motional and light-shift problems, so they are separate steps in the same chain."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson prefers B008, says openly that she is a biased judge as a microscopist, makes her position conditional on whether the TEM and STEM corrector claims are one invention or two, and says she would move to B025 if the priority of the first Sr lattice-clock demonstration is confirmed.",
+        "response": "I respect that you state the conditional so plainly, and I think I can address your condition from the laboratory side. The first Sr lattice-clock demonstration, with the magic-wavelength lattice and the clock transition resolved in the trapped atoms, came from Katori's group in Tokyo; the early Sr measurements at SYRTE and JILA followed within a short time and confirmed the scheme. That is my recollection and not a checked record, so I would ask the expert reports to confirm it before the final ballot. If it holds, then the original-demonstration test you set applies to Katori, and Ye's credit is for taking the idea to the accuracy where it became a tool. On B008 I agree that the Krivanek, Dellby and Batson question is the real obstacle to the trio, and I would not want you to withdraw on my account before it is settled."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth prefers B025 with a citation built on magic-wavelength trapping, and says it should be tied to the lattice clock and not extend to Ye's other clock work; the chair also asks whether she can confirm that the lattice light-shift and blackbody evaluation is robust enough for 10^-18.",
+        "response": "We agree on the citation. I would keep the wording to magic-wavelength trapping and the 10^-18 level and leave out Th-229 and the many-body clock work, which is still developing. On the chair's question about the evaluation, I would add one detail from the experimental side because you asked it as a theorist: the 10^-18 claim does not rest on a single group's uncertainty budget. The blackbody shift of Sr was the largest term, and it was attacked by in-situ thermal characterisation and by cryogenic enclosures, while the higher-order lattice light-shift terms were bounded by dedicated measurements at several lattice depths. I would still welcome your own view of whether the theory side of the polarisability and hyperpolarisability terms is as solid as the experiments say, since that is where I would expect a critic to press."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson prefers B003 with less confidence than at the opening, asks whether the lattice clock is a discovery or an enabling technology, and names B025 as a fallback if the expert reports cannot support the three founding spokespersons.",
+        "response": "I think your fallback ordering is sensible, and I would welcome B025 if the experts cannot back the three names on B003. On your question, I do not think the discovery versus enabling distinction splits as cleanly as the discussion implies: the Higgs search needed detectors and analysis methods that took decades to build, and nobody calls those a lesser achievement. What I would say is that for the lattice clock the physics output is already measured, in the form of the bounds and the redshift measurements, so it is not only a promise. I agree with you that attribution is the weak point of collaboration discoveries, and I think it is a real difference between B003 and B025."
+      }
+    ],
+    "uncertainties": [
+      "Whether the expert reports confirm that Katori's group made the first working Sr lattice-clock demonstration and that Takamoto, Lemonde and Ludlow add experimental steps and not a competing claim for the original idea. I have not checked the priority record.",
+      "Whether the committee accepts that a measurement-capability prize is a physics discovery in the statutory sense, or ranks it below topological insulators and magic-angle graphene.",
+      "Whether the citation can be drawn tightly enough to separate the lattice clock from the 2005 comb prize and the 2012 ion-control prize without leaving a gap that critics will fill with Lemonde or the ion-clock groups.",
+      "Whether the redefinition of the second, which would strengthen the practical argument for timing, is delayed."
+    ],
+    "conflict_note": "Disclosure as in round 1: during my PhD I spent a year in John Hall's laboratory in Boulder, and Hall was Ye's mentor at JILA. This is a mentor-lineage link, not a collaboration, co-authorship or funding relationship with Katori or Ye, and I have not worked with either. In answer to the chair's question I think this calls for disclosure and not recusal, but I leave the decision to the chair and the committee, and I will abstain on B025 if they judge otherwise. My WACQT role overlaps institutionally with Johansson's, which is relevant to B016 and B009 and not to B025. I also run a small medical-imaging spin-off, Deep Light Vision, whose slow-light filters use the same rare-earth crystals as my quantum-memory work. It has no connection to any shortlisted candidate."
+  }
+}

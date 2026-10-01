@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B033",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "citation": "For the theoretical prediction of flat bands at a magic twist angle in bilayer graphene and the experimental discovery of correlated insulating and superconducting states in magic-angle graphene"
+      }
+    ]
+  },
+  "alternatives": ["B026", "B009"],
+  "statement": {
+    "case_for": "I keep magic-angle twisted bilayer graphene as my sole prize part and my configuration is unchanged from round 1. The test I apply as a theorist embedded in experimental groups is whether a result opened a new regime of physics and whether it survived reproduction elsewhere. Here a quantitative prediction (Bistritzer-MacDonald, 2011: interlayer tunnelling drives the Dirac velocity to zero near a magic angle) was tested by a decisive experiment (2018) that found correlated insulators and superconductivity at the predicted twist angle, and the phase diagram has since been reproduced in transport and STM by many independent groups and carried to other moire platforms. The twist angle is a continuous control knob on the ratio of interaction to bandwidth, which is new for strongly correlated matter. I read the first-round exchange as showing that the scientific case is shared on its merits by six members, not just by first-place counts, and no argument against it addressed the phenomenon itself. The citation is deliberately limited to prediction plus the discovery of the correlated and superconducting states, and says nothing about the pairing mechanism, which answers the criticism that the physics is not understood.",
+    "case_against": "Two real weaknesses remain. First, the third seat: Eva Andrei's pre-2018 STM and transport work on twist-induced flat-band signatures is a genuine experimental strand, and the first authors of the 2018 papers and the hBN device work of Dean and Kim fall outside a three-name credit. I still cannot verify the dating and scope of Andrei's work from the record, and I defer to Eriksson, Olsson and Danielsson on priority. If the committee concluded that Andrei's spectroscopy was what first demonstrated flat bands and that the 2018 transport work only added to it, I would have to rethink the split. Second, maturity: the experimental programme is about seven years old, the pairing mechanism is unresolved, and sample and twist-angle variation is large. Having spent time on qubit coherence, I know how much device-to-device spread can hide, so I take that caution seriously, but it concerns the mechanism and the quantitative control, not the existence of the phases, which many labs see.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson notes that continuum-model flat bands are an idealisation, since lattice relaxation and strain matter quantitatively, and wonders whether the field has converged on a quantitative microscopic theory of the correlated phases. He also asks whether graphene's 2010 prize makes this look like an extension of an earlier award.",
+        "response": "I agree that relaxation and strain change the flat-bandwidth and the magic angle quantitatively, but I think this supports the prediction rather than weakening it. The qualitative statement of the 2011 paper, that a small twist produces nearly flat bands at a particular angle, is what was tested and found, and refined models reproduce it with shifted numbers. A prize for a prediction does not require the continuum model to be the final quantitative description, as long as the citation does not claim it is. On the 2010 prize, I do not think B033 is an extension: that prize recognised isolation and properties of a single layer, whereas here the new physics comes from stacking and a twist, a different mechanism that produces correlation, which monolayer graphene does not show. I do not see the overlap as a reason to wait."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson says that as an experimentalist she cannot dismiss Eva Andrei's pre-2018 STM evidence on the strength of an opening-vote count, and that the 2018 devices and Cao et al. authorship are narrower than a three-name prize suggests.",
+        "response": "I accept the point that vote counts cannot settle priority, and I do not rely on them. My reasoning for Bistritzer over Andrei is a matter of what each result proves. Andrei's STM work showed signatures of flat-band-like localisation and Van Hove singularities in twisted layers, but not the correlated insulator or the superconductivity, which are what define the discovery and which the citation names. The prediction of the magic angle is a joint Bistritzer-MacDonald paper, so leaving out Bistritzer would break the theory half of the credit. I do ask the committee to record that Andrei's work was examined and why it was not selected, and I would support wording that does not imply the field began in 2018. I also accept your point about Cao and the first authors: the three-person limit forces a cut that is uncomfortable, and I would rather say so openly than hide it."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth keeps optical lattice clocks (B026) first, praising the clear idea, independent checks across several laboratories at about 1e-18, and a clean two-name credit, while conceding the novelty objection relative to the 2005 and 2012 prizes and that the discovery content is smaller than for B033.",
+        "response": "Your argument is the one I find hardest to answer, and I have moved B026 into my alternatives for that reason; I think it is the right fallback if B033's credit cannot be settled. The magic-wavelength idea is elegant and the inter-laboratory comparison is the kind of verification I prize. On the common standard for independent confirmation that the chair asks for, I would apply the same test to both: have independent groups reproduced the central claim? For lattice clocks the answer is yes at a quantitative level; for B033 it is yes for the phenomena and no for the mechanism and the sample-to-sample numbers. Where we differ is on what the prize is meant to reward. I weigh the opening of a new, tunable regime of correlated physics above a large improvement in an established measurement, and your own statement that the discovery content of B026 is smaller points the same way. I would not cite the pending redefinition of the second as a reason in either direction."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson argues that B033 is timely rather than premature because the core phenomenology is secure even though the pairing mechanism is not, and also notes that the clue came from experiment, not thinking alone.",
+        "response": "I agree on timing and would add a distinction that matters for the chair's question on prizes given before a mechanism is understood: the committee has routinely rewarded a robust new phenomenon or a well-defined prediction before a full explanation exists, and the criterion should be that the phenomenon is reproducible and the claim in the citation is limited to what has been established. I disagree slightly on one nuance, though. Your suggestion that waiting a few years could clarify who opened the field has some force, but I think waiting mostly raises the risk of losing people from the credit rather than clarifying it, since Andrei's and the hBN device work will not become easier to rank with time. I would prefer to settle the wording now and keep the citation narrow."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll holds B026 as the clearest new measurement capability, notes reproducibility across Japan, the US, France, Germany and China, and lists other contributors (Lemonde, Ludlow, Bloom, Derevianko) whose claims a two-name credit leaves aside.",
+        "response": "I take the reproducibility point seriously and I have said the clock case is robust. Since you ask for a common standard, I note that the clock case also has a credit question you raised yourself, and so the attribution cleanliness of B026 is not as large an advantage over B033 as the two-versus-three count suggests. I remain at B033 because I consider a tunable platform for strongly correlated matter a larger opening than a gain of orders of magnitude in an established measurement, but I regard this as a difference in what we reward, as the chair observes, and not a disagreement about the evidence. I would be comfortable with B026 as the following year's strong candidate."
+      }
+    ],
+    "uncertainties": [
+      "Whether Andrei's pre-2018 work is close enough to the discovery that the committee must give her a seat over Bistritzer, which I cannot settle from first principles and which depends on the dating and scope of her STM and transport results.",
+      "Whether the unresolved pairing mechanism together with twist-angle disorder makes B033 premature this year, or only affects how narrowly the citation must be worded.",
+      "Whether the exclusion of the first authors of the 2018 papers and of the Dean and Kim device work can be defended as a consequence of the three-person limit.",
+      "How different the committee's view of B026 is from B033 on novelty relative to earlier prizes, since I defer to the atomic-physics members on whether lattice clocks are a distinct achievement from 2005 and 2012.",
+      "My recollection of priority details for the 2018 experiments and the earlier STM work is from memory and has not been checked."
+    ],
+    "conflict_note": "I direct the Wallenberg Centre for Quantum Technology and work at Chalmers MC2 with superconducting-circuit groups, including Per Delsing and C. M. Wilson, so circuit QED (B010) is close to my field and institution and I would recuse from any decision on it; no member prefers it, and it is not in my configuration or alternatives. Chalmers hosted 2025 laureates Martinis and Clarke as WACQT guest researchers, which is adjacent but not a conflict for B033, B026 or B009. I have no collaboration or institutional tie to any credited name in my preferred configuration or alternatives. I am outside condensed matter and atomic metrology and defer to colleagues on priority within them."
+  }
+}

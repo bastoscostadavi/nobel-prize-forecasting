@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-04",
+  "member_id": "olsson-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B013",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction and first experimental observation of the quantum spin Hall effect, establishing topological insulators as a new class of electronic matter"
+      }
+    ]
+  },
+  "alternatives": [
+    "B025",
+    "B006"
+  ],
+  "statement": {
+    "case_for": "B013 is the strongest case on the criteria I apply. The quantum spin Hall state was predicted (Kane and Mele, with the Z2 classification) and then actually measured: Molenkamp's group saw the quantized edge conduction in HgTe wells in 2007, an original experiment and not a later, more elegant one. Since then transport and photoemission experiments in many materials and by many independent groups have confirmed it, and the field it opened (protected edge and surface states, new materials, device concepts) is large and still productive. It is the only candidate that seven of eight members place in their top three, and I take that as a sign of agreement on the science and not as a substitute for it. A theory-plus-first-experiment trio fits the three-person limit and the historical record of who did what first.",
+    "case_against": "The attribution is not clean. The Bernevig-Hughes-Zhang proposal for HgTe is what actually motivated the Molenkamp experiment, and those authors are outside the credited names; Zhang's death also removes a possible laureate. Hasan's photoemission work established the three-dimensional topological insulator experimentally and is an original experiment in its own right, so leaving him out is a real cost; any trio excludes someone with a serious claim. There is also a measurement-impact objection (raised by Kroll in the form of his rank 8), since devices based on topological insulators are still scarce, and the 2016 prize on topological phase transitions overlaps in theme if not in substance.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks B013 first but proposes Kane, Molenkamp and Hasan, leaving out Mele so as to credit the 3D photoemission work, with Kane covering theory.",
+        "response": "I take the Hasan claim seriously: the ARPES observation of the Bi-Sb and Bi2Se3 surface states is an original experiment, and I said so in my opening. But the quantum spin Hall effect is the primary discovery, and Mele is co-author of the Z2 prediction with Kane. Dropping one of the two originators of the Z2 idea to add a second experiment would credit the experiments twice and the foundational theory once. If the committee wants Hasan's contribution recognised, I would rather see a separate, later conversation about the 3D case than split the Kane-Mele pair. I agree with you that the experiment-theory closure is the main strength of this field."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks B013 first as a clean general mechanism (spin-orbit coupling plus time-reversal symmetry giving a Z2 classification), and stresses that the Kane and Mele theory was the decisive step, with Molenkamp as the first experimental realisation.",
+        "response": "I agree on the mechanism and on the trio. Where I would qualify your emphasis is that the prize is for a discovery verified by experiment, so the weight on the Kane-Mele theory has to be matched by the HgTe measurement; a prediction alone would not satisfy me. I also notice that you rank B021 (anyons) second. I find the fractional charge measurement convincing but the braiding evidence is only a few years old, and I would want it independently reproduced before I treated it as settled."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clock (B006) first for its measurement-first character and ranks B013 only eighth, partly because practical devices from topological insulators are still scarce.",
+        "response": "I share your regard for instruments that open a door, and I put B006 fifth and keep it as an alternative. But I do not think device maturity is the right yardstick for this prize: the criterion is an original, verified discovery that advances our understanding, and topological insulators clearly do that. I also see a difference in kind. The lattice clock is a refinement of a precision-measurement capacity that already existed, with the frequency-comb and ion-clock context of 2005 close by, while the quantum spin Hall effect is a new state of matter nobody had seen. I would ask you what discovery claim you would put in the citation for B006 beyond record accuracy."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks IceCube (B008, Halzen alone) first as a direct discovery from nature that opened neutrino astronomy, while acknowledging that attribution to one name is a real question.",
+        "response": "I rank IceCube eighth, not because the discovery is doubtful, which it is not, but because I cannot see a fair credit from this list. A prize for a large detector is a prize for a collaboration, and Halzen alone would leave out the AMANDA precursor, the construction teams and the analysts who actually found the flux. I am also troubled that a one-name prize for a collaboration discovery fits poorly with my insistence on being sure that we credit the people who did the original work. If you can show a credible additional name from the record, I would reconsider, but I cannot do so from the supplied credit."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee can agree that excluding Hasan and the BHZ authors is defensible, or whether a different allocation (for example substituting Hasan for Mele) would better match the historical record.",
+      "Whether the 2016 prize on topological phase transitions makes a topological insulator prize look too close in theme, even though the discovery is distinct.",
+      "For B025, whether Andrei's earlier STM observation of flat bands should displace one of the credited trio, and whether the pairing mechanism is settled enough.",
+      "For B008, whether a single credited name can be justified given the size of the collaboration."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for B013. Eva Andrei (B025) is not a known collaborator of mine, but as an electron microscopist I note that I work in the broader materials-characterisation community; Chalmers colleague Göran Johansson is on the committee but his first-ranked candidate (B009) is not one I propose."
+  }
+}

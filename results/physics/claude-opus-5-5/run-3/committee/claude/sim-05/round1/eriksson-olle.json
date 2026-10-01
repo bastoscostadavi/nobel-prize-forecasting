@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-05",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B028",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "for the theoretical prediction of the quantum spin Hall effect and Z2 topological insulators, and for its first experimental observation in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "Topological insulators are a new class of quantum matter, with an insulating bulk and symmetry-protected conducting edge or surface states. The Kane-Mele Z2 classification is a simple, general idea, and Molenkamp's HgTe transport experiment showed it in a real material. This is the link between theory and measurement that I value most. Band-structure calculations reproduce the ARPES and transport data quantitatively, so the physics is well understood. Two decades of independent confirmation in many materials make the interpretation stable. The result shows once more that quantum mechanics still produces surprises, and it has influenced materials design and spintronics. It carries the topological theme of the 2016 prize into solid-state materials and does not duplicate that prize. It has the highest Borda total after B046 and the strongest support at the top of the ballots, with two first places and four top-three rankings.",
+    "case_against": "The credit is genuinely contested. Bernevig, Hughes and Zhang predicted the HgTe quantum well realisation that made Molenkamp's experiment possible, and none of them is among the credited names. The 3D strand (Fu-Kane-Mele, Moore-Balents, Roy, and Hasan's ARPES) is a separate step, and a three-person limit cannot cover both strands. Any trio will be criticised for leaving someone out. A prize on the 2D quantum spin Hall effect alone might also be seen as narrower than the field it started. The quantum spin Hall edge conductance has been hard to make as clean as the theory suggests, and practical applications remain modest.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks B028 first as a simple, general mechanism (spin-orbit coupling plus time-reversal symmetry giving a Z2 invariant) that extends the 2016 prize without duplicating it, and would take the two theorists plus the first decisive experiment, with Hasan as an alternative for 3D.",
+        "response": "I agree with the trio and with the argument about the 2016 prize. I would not treat Hasan as a mere alternative, though. The ARPES identification of Bi-Sb and Bi2Se3 is what moved the field to real 3D materials, where the calculation-versus-spectra comparison is most convincing to me. The question is whether the citation is about the quantum spin Hall effect or about topological insulators as a class. A citation built on the 2D prediction and its first observation is cleanest. Adding Hasan would mean dropping Mele or Molenkamp, and I do not think that is fair to either."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson puts B046 first as a tunable platform for flat bands, correlated insulators and superconductivity that spawned moire materials, and says recognition is timely. She ranks B028 only fourth, though she calls it mature and perhaps overdue.",
+        "response": "I take the moire case seriously and I have it second. My disagreement is about maturity. After eight years the superconducting pairing mechanism is still debated, and no theory yet explains the correlated phases quantitatively as band-structure theory does for topological materials. Prizes that came early have tended to fare better when the interpretation was settled. You also name Andrei in the trio and leave out Bistritzer, which shows how unsettled the attribution is. B028 has a comparable discovery narrative, more independent confirmation, and a cleaner credit story. Still, I would not object strongly to B046 if the committee settles the Andrei question."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first and B028 second. She values the clean link between the Z2 invariant and measurable edge conductance and notes that the allocation between the 2D and 3D parts is unresolved.",
+        "response": "We agree on B028 as a strong, mature result and on the unresolved 2D/3D allocation. I cannot support circuit QED as the lead. It is a fine achievement, but it is largely an architecture and readout scheme for qubits, and it follows closely after the 2025 prize on macroscopic quantum tunnelling in circuits. I defer to you on the quantum-optics physics. But I think the committee would be open to the charge of awarding the same superconducting-circuit community twice in two years, and I would want to hear how you separate the two."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks optical lattice clocks first because they open new observables (millimetre-scale redshift, varying constants, relativistic geodesy) and are mature and independently reproduced, with a clean two-name credit.",
+        "response": "The credit for B034 is indeed cleaner than for any condensed-matter candidate, and the independent confirmation across Sr, Yb and Hg is impressive. I have listed it as an alternative for that reason. My reservation is that it is a measurement-precision achievement, and the discovery it offers is mostly prospective (tests of constants, redefinition of the second). B028 has already changed how a whole field classifies matter. Still, I would not call a clocks prize a mistake, and it may be the safest choice if we cannot agree on topological credit."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks the IceCube discovery of astrophysical neutrinos first, a clean clue from nature with a clear opening of neutrino astronomy, and puts B028 third with Kane, Molenkamp and Hasan.",
+        "response": "IceCube is the case I am least able to judge. Astroparticle physics is far from my field, and I defer to you and Mark on the detector and source-association evidence. My concern is attribution. A single-name configuration for a large collaboration is open to criticism, as you acknowledge. I am glad that you list Hasan; it supports my view that the 3D strand deserves a place in the discussion, even if I keep Mele in my trio."
+      }
+    ],
+    "uncertainties": [
+      "Whether the citation should cover only the 2D quantum spin Hall effect or topological insulators as a class, and what that means for Hasan and for the uncredited theorists (Bernevig, Hughes, Zhang; Fu, Moore, Balents).",
+      "Whether B046 should be preferred if the committee decides that the maturity concern is outweighed by its breadth, and how Andrei and Bistritzer should be handled.",
+      "I rely on memory for priority details and have not verified them independently."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work in DFT and magnetism is not tied to any candidate on the shortlist, and I have no stated collaboration with the credited names. As a theorist who computes band structures I may favour candidates where theory and spectra agree."
+  }
+}

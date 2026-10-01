@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-04",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B002",
+        "laureates": [
+          "Immanuel Bloch",
+          "Markus Greiner",
+          "Peter Zoller"
+        ],
+        "citation": "For realising controllable many-body quantum systems with ultracold atoms in optical lattices, from the superfluid to Mott insulator transition to single-site resolved quantum simulation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B013",
+    "B022"
+  ],
+  "statement": {
+    "case_for": "Atoms held in crystals of light are among the cleanest answers we have to the question of how a quantum many-body system organises itself. The proposal of the Bose-Hubbard realisation and the 2002 observation of the superfluid to Mott insulator transition turned a textbook model into a laboratory system with tunable parameters, and the later single-site quantum gas microscopes let one literally see the quantum state, atom by atom. The results have been reproduced and extended by many laboratories over more than two decades, and the agreement with theory and numerical methods is quantitative, which is the standard I apply. It is a discovery about quantum matter and not merely a tool, because it showed that a lattice of neutral atoms can realise correlated physics, magnetism and Hubbard dynamics that are hard to reach otherwise. It also gives atomic physics a lasting role in many-body problems, in the tradition of rewarding basic insight whose uses are not foreseen at the time. After the 2025 prize on macroscopic quantum behaviour in circuits, I do not see this as repetitive: it asks a different question, about emergent collective behaviour.",
+    "case_against": "The strongest reservation is attribution. Five names are credited and only three seats are available. Zoller's theory is tied to Jaksch, who is not credited, and Esslinger's Fermi-Hubbard work and Cirac's simulator ideas are left out of my trio. There is also a fair objection that quantum simulation is partly an enabling platform, and that the clearest new physics results in this field are still arriving, so a citation worded around the platform could be judged too diffuse. Finally, I must admit that B013 has much broader opening support than any other candidate, and that as the member closest to atomic physics I may be overweighting my own field.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks topological insulators first because band inversion and spin-orbit coupling are confirmed quantitatively by ARPES and transport, and proposes Kane, Molenkamp and Hasan, dropping Mele.",
+        "response": "I accept the theory-experiment closure argument, and it makes B013 my first alternative. I disagree with dropping Mele: the quantum spin Hall proposal in graphene is a joint paper with Kane, and a prize that splits that pair would be hard to defend. Kane, Mele and Molenkamp, as several colleagues proposed, seems to me the more natural attribution, with Hasan's 3D work and the Bernevig-Hughes-Zhang prediction left as an uncomfortable omission. I do not see a decisive advantage over B002, but this is the main rival."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll puts the optical lattice clock first and atom interferometry second because he weights new measurement capability, and he ranks topological insulators last.",
+        "response": "I share his respect for precision, and I considered B006 seriously, but I read it as an extraordinary technical refinement of a field already recognised in 2005 and 2012, so for me it is more a performance record than a new discovery. Atom interferometry (B022) I value, but the Chu overlap and the difficulty of splitting credit among Bordé, Pritchard and Kasevich make it a weaker prize than lattice quantum simulation. I do not agree that B013 belongs last, since its conceptual reach is much larger than its measurement payoff, but I understand his criterion."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks B013 first because spin-orbit coupling plus time-reversal symmetry gives a simple, general Z2 classification, while placing optical lattices last partly because attribution across five names is hard.",
+        "response": "His attribution point is fair and is exactly my own reservation about B002. My answer is that Bloch, Greiner and Zoller is the most natural three-person partition, covering the theory proposal and the two decisive experimental strands. I also agree that the simplicity of Kane and Mele's idea is attractive. Where I differ is on the 2016 prize: it already honoured the idea that topology classifies matter, which lowers the novelty of a second topological prize relative to a cold-atom prize, though I defer to him on condensed matter."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first as a clean, reproduced regime of light-matter coupling that underlies superconducting quantum processors.",
+        "response": "I agree that circuit QED is original and reproduced, and as an atomic theorist I find the strong-coupling regime appealing. My hesitation is that, after the 2025 prize on superconducting circuits, another prize so soon in that area would weight one platform heavily, and part of the motivation for this candidate is relevance to quantum processors, which is not the criterion I prefer. I keep B009 outside my configuration but accept it as a serious candidate."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks IceCube first as a direct discovery from nature that opens neutrino astronomy, while questioning whether a single laureate is a fair configuration.",
+        "response": "I defer to him and to Pearce on astroparticle physics, and I like that the discovery is a genuine surprise from the sky. I share his worry about the single credited name: a prize to Halzen alone would leave out earlier pioneers and a very large collaboration, and I cannot judge from the supplied material whether that would be seen as fair. For that reason I do not put B008 in my configuration, though I would not oppose it if the committee finds an attribution that works."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee can settle on a defensible three-person split among Bloch, Greiner, Zoller, Esslinger and Cirac, and whether Jaksch's absence from the credited list is a problem.",
+      "Whether B002 is best read as a discovery (Mott transition, emergent quantum phases) or as a platform for quantum simulation, which affects the wording of the citation.",
+      "Whether a second topological prize after 2016, or another cold-atom prize after 1997, 2001 and 2005, would be treated as overlap.",
+      "I cannot judge the condensed matter details of B013 and B025 or the astroparticle attribution of B008, and rely on colleagues there."
+    ],
+    "conflict_note": "I am a long-time close collaborator of Anne L'Huillier (2023 laureate) and have co-authored with the Lund and ETH attosecond groups, but none of the credited people for B002, B013 or B022 are among the collaborators named in my profile, so no specific conflict is apparent from the provided profile."
+  }
+}

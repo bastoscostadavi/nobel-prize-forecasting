@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-02",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B013",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and realisation of optical lattice clocks, which brought atomic frequency standards to the 10^-18 level of precision"
+      }
+    ]
+  },
+  "alternatives": ["B014", "B046"],
+  "statement": {
+    "case_for": "Optical lattice clocks are a measurement advance that has demonstrably changed what physics can observe. Katori's magic-wavelength idea removes the light shift on the clock transition while thousands of atoms are held in a lattice, and Ye's group turned this into record accuracy and stability, with systematic uncertainties evaluated and cross-checked between independent laboratories (JILA, RIKEN/Tokyo, SYRTE, PTB, NIST and others) at the 10^-18 level. The payoff is already measurable: millimetre-to-centimetre relativistic redshift tests, constraints on drifting constants and ultralight dark matter, clock networks for chronometric geodesy, and the basis for the redefinition of the second. The two-person configuration is clean and traceable (concept and first demonstration versus performance and many-body clock physics). The result has been reproduced and surpassed by competing groups for two decades, which is the kind of experimental maturity I trust.",
+    "case_against": "The strongest reservation is that this can be read as a refinement of precision-frequency metrology already honoured in 2005 (Hall and Hansch, the comb) and 2012 (Wineland, ion control), and that Ye is closely tied to the Hall lineage. A committee that wants a new phenomenon rather than a better instrument may find it incremental, and the SI redefinition of the second has not happened, so some will say the application milestone is still ahead. Credit beyond the pair (Lemonde, Lisdat, Sterr, Ludlow, Hinkley and the Sr/Yb groups) is also real.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked B013 fourth and argued that the 2005 comb prize and Wineland's ion-clock work already cover neighbouring ground, so it is unclear whether the lattice clock is a distinct discovery or a refinement.",
+        "response": "I take the overlap seriously, but I disagree that it is a refinement. The comb is the gearbox that counts optical cycles; the lattice clock is a different physical idea, namely a state-insensitive trap that lets many atoms be interrogated at once without perturbing the transition. That is what bought two orders of magnitude in stability through averaging over many atoms, and it is why neutral-atom clocks overtook single-ion clocks in stability. Single-ion clocks and lattice clocks are competing routes to a similar goal, not the same discovery, and the 2012 citation was about quantum control of individual particles. I accept that the 2005 citation was about the comb, so our citation must be written around the lattice, not around frequency measurement in general."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked B013 sixth, noting that Ye worked closely with Hall so the line to the 2005 recognition is blurred, and that he is outside the area and defers on priority.",
+        "response": "The proximity to Hall is a fair attribution concern, but I would separate lineage from content. Ye's contribution to the lattice clock, including the Sr clock at 10^-18 and the many-body and SU(N) physics in the lattice, was made after and independently of the comb citation. If the committee worries, the safer protection is a narrow citation tied to the lattice clock, not dropping Ye, because Katori alone would leave out the group that demonstrated the accuracy that justified the idea. I would also ask the expert reports to check the order of the first Sr lattice clock demonstrations (Katori's group in Tokyo and Ye's group at JILA, with the Paris group close behind) before we commit."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked circuit QED first, arguing that it opened a new regime of strong tunable light-matter coupling in a circuit and underpins most superconducting processors, while flagging the 2025 prize overlap and his own closeness to that community.",
+        "response": "I agree that B046 has a scientific core and not only an application, and I put it third. My reservation is timing and sequence: the 2025 prize on macroscopic quantum tunnelling in circuits has just recognised the superconducting-circuit foundation, and a second circuit prize so soon, with Girvin and Devoret outside the credited names, would be harder to defend. The lattice clock has no such recent neighbour in the prize record. I would keep B046 as a strong alternative, and I appreciate that Johansson has declared his closeness."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked B014 first as a clean theory-plus-experiment pair (Bistritzer-MacDonald prediction, Jarillo-Herrero discovery) that opened moire materials, while noting the open question on pairing mechanism and Andrei's claim.",
+        "response": "The prediction followed by a decisive experiment is attractive and I ranked B014 as a serious alternative, but I put it last on my ballot for two measurement-based reasons. The twist-angle disorder makes sample-to-sample reproducibility a real issue for the quantitative claims, and the superconducting mechanism is unsettled, so I do not yet know what the prize would be certifying. The lattice clock has the opposite profile: the uncertainty budgets are published, compared directly between laboratories, and stable. I would not overrule colleagues who weigh the novelty of the field more heavily, but I would want an expert report on whether the credit can be separated cleanly from Andrei's contribution."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will read the lattice clock as a distinct discovery or as a continuation of the comb and ion-clock prizes.",
+      "Priority and credit among the first Sr lattice clock demonstrations (Tokyo, JILA, Paris) and the contributions of Lemonde, Lisdat, Sterr and Ludlow; I rely on memory for the dates.",
+      "Whether to wait for the SI redefinition of the second, which is a timing judgement I cannot settle.",
+      "Whether the many-body lattice clock physics or the clock accuracy should carry more weight in the citation."
+    ],
+    "conflict_note": "No specific conflict with the candidates in my preferred configuration is apparent from the profile, but I note two connections for transparency: I spent a year in John Hall's laboratory during my PhD, and Hall is the 2005 laureate whose comb work is adjacent to Ye's career, so I should weigh the comb overlap neutrally; and my WACQT role overlaps institutionally with Chalmers (Johansson's home), relevant only if B046 became the preferred candidate."
+  }
+}

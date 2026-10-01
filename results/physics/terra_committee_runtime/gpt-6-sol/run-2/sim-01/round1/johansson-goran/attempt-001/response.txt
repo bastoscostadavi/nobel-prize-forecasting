@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "for establishing quantum error correction as the physical basis for protecting quantum information"
+      }
+    ]
+  },
+  "alternatives": [
+    "B006",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction made precise the otherwise implausible proposition that fragile quantum degrees of freedom can be protected, manipulated, and scaled despite noise. Shor and Steane supplied seminal code constructions, while Kitaev introduced the decisive topological perspective. The principles now organize experiments across hardware platforms and have progressed beyond a merely speculative computational proposal.",
+    "case_against": "The most stringent practical benchmark, scalable fault-tolerant computation, has not yet been achieved. Moreover, a three-person allocation necessarily compresses a broad field with many important theoretical and experimental contributors.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson judges quantum error correction essential to scalable quantum information processing, while noting that protected logical operations are advancing but full fault tolerance remains unrealized.",
+        "response": "I agree that the absent large-scale demonstration is the central reservation, but the prize-worthy advance is the physical principle and its concrete code constructions, not a completed quantum computer. The growing demonstrations of logical protection give the principle adequate experimental footing."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig emphasizes both the indispensability of quantum error correction and the difficulty of selecting three names from a field with many contributors.",
+        "response": "That attribution concern is real. I nevertheless find this trio coherent if the citation is confined to the foundational error-correction principle: Shor and Steane for landmark codes and Kitaev for topological-code ideas, rather than attempting to credit the entire later fault-tolerance programme."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll presents optical lattice clocks as an exceptionally mature, independently reproducible precision-measurement achievement with compact attribution.",
+        "response": "This is a very strong alternative, particularly on maturity and attribution. I give B003 priority because it identifies a foundational resolution of decoherence as a physical limitation; nevertheless, the remaining gap to scalable fault tolerance means lattice clocks deserve serious comparison."
+      }
+    ],
+    "uncertainties": [
+      "Whether present logical-qubit demonstrations are sufficient maturity for a prize before scalable fault-tolerant operation.",
+      "Whether the proposed three names best delimit the foundational achievement rather than later fault-tolerance developments."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

@@ -56,6 +56,6 @@ Agents are run through a documented orchestration workflow, each given only the 
 1. **Nominator list:** a model drafts 100 nominators matching the eligible nominator groups, countries and subfields (`scripts/generate_nominator_list.py`, or a subagent). Physics has lists drafted by Claude Opus 5.5 and GPT-6 Sol.
 2. **Nominator profiles:** each nominator gets a web-researched `profile.md` (checked alive and current affiliation; biography, research footprint, persona; no nominations or predictions).
 3. **Nomination:** 10 runs × 100 nominator subagents. Each run's nominations are consolidated without frequency-based exclusion into `candidates.json` and `candidates.csv`.
-4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a union shortlist, hold two discussion rounds with chair summaries, then vote by secret ballot (majority, runoff if needed). Candidate order is shuffled per run.
+4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a support-based union shortlist, hold two written discussion rounds, and rank a fixed proposal slate by secret ballot. Candidate order is deterministically shuffled and nomination-frequency signals are hidden. Five votes decide; otherwise a fully recorded instant runoff is used.
 
 The versioned Physics phase-2 methodology is in `docs/PHYSICS_PHASE2.md`.

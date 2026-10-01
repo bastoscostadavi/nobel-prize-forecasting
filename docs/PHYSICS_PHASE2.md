@@ -83,13 +83,14 @@ The simplification is documented rather than presented as the literal legal
 procedure.
 
 For each run, all eight 2026 committee personas receive the consolidated
-longlist. The planned committee protocol is:
+longlist. The implemented committee protocol is:
 
 1. private opening rankings;
 2. a union shortlist based on committee support, not nomination count alone;
-3. two written discussion rounds with chair summaries;
-4. a private final ballot with runoffs if no proposal has a majority; and
-5. one recorded prize configuration, which may contain one achievement and up
+3. two written discussion rounds, with a neutral chair summary after round 1;
+4. a deterministic slate of distinct round-2 configurations plus no award;
+5. a private exhaustive-ranking ballot and instant runoffs; and
+6. one recorded prize configuration, which may contain one achievement and up
    to three laureates, two achievements sharing the prize, or no award.
 
 All committee prompts, intermediate statements, summaries, ballots, and final
@@ -180,3 +181,37 @@ and blinded ballot ID. There is no maximum: the rule preserves all candidates
 that independently meet a support condition. The shortlist retains the blinded
 candidate text, member rankings, and proposed laureate configurations, but no
 phase-1 nomination counts or source candidate IDs.
+
+## Deliberation and decision
+
+Round 1 uses `prompts/physics_committee_round1_v1.md`. Each member reads all
+unsealed opening ballots, responds substantively to at least two colleagues,
+records conflict concerns, and proposes one configuration. The chair then writes
+`committee/chair_summary_round1.json` using
+`prompts/physics_committee_chair_summary_v1.md`; the validator checks every
+claimed supporter against that member's actual configuration. Round 2 uses
+`prompts/physics_committee_round2_v1.md` and requires each member to address the
+unresolved scientific, attribution and maturity questions. Both rounds are
+checked by `scripts/validate_committee_round.py`.
+
+`scripts/build_committee_proposals.py` groups identical round-2 configurations
+by achievement and exact laureates, ignoring citation wording, and writes
+`committee/proposal_slate.json`. `P000` always represents no award. The slate is
+deterministic and cannot be overwritten after final ballots exist.
+
+For the final vote, `prompts/physics_committee_final_ballot_v1.md` requires every
+member to rank every proposal exactly once. `scripts/tally_committee_ballots.py`
+validates all eight exhaustive ballots and performs instant runoff. Five votes
+are an absolute majority. If no proposal has five, the proposal with the fewest
+current first-active preferences is eliminated. Ties are broken by fewer
+explicit round-2 supporters, then lower full-ballot Borda score, then proposal
+ID. Every transfer and elimination is recorded in `committee/decision.json`.
+Conflict and recusal concerns are recorded but not adjudicated; all eight
+simulated ballots count. After the decision, winning blinded IDs are decoded to
+source candidate IDs for auditability.
+
+`scripts/summarize_physics_decisions.py` produces
+`results/physics/decision_summary.csv`. In the initial six complete runs, every
+committee selected optical lattice clocks with Hidetoshi Katori and Jun Ye.
+This is a six-run simulation result, not a calibrated 100% real-world
+probability; the two incomplete run-4 inputs and future runs remain excluded.

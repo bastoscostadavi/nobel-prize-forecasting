@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-01",
+  "member_id": "olsson-eva",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B054",
+        "laureates": [
+          "Harald Rose",
+          "Max Haider",
+          "Knut Urban"
+        ],
+        "citation": "for spherical-aberration correction in transmission electron microscopy"
+      }
+    ]
+  },
+  "alternatives": [
+    "B017",
+    "B006"
+  ],
+  "statement": {
+    "case_for": "Spherical-aberration correction is a discrete, original instrument invention whose chain from electron-optics insight to practical realization is compact and experimentally visible. It changed what can be measured in materials at atomic scale, with performance and scientific consequences demonstrated broadly over decades. Rose, Haider, and Urban plausibly represent the theoretical, instrumental, and practical stages of the achievement.",
+    "case_against": "The historical boundary between foundational correction ideas, competing correction schemes, and later commercial implementations must be established with archival precision before final attribution. The prize should recognize the original invention rather than the subsequent expansion of its applications.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson argues that B054 has a persuasive theory-to-realization chain but warns that other pioneers of correction schemes require comparative review.",
+        "response": "I agree with the warning and regard it as the central due-diligence task, not a reason to substitute a later or more successful implementation for the originating invention. The proposed trio is defensible only if that review confirms their distinct indispensable roles."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes that B033 offers mature, internationally reproducible precision measurement with a particularly clear Katori-Ye attribution.",
+        "response": "That is a very strong alternative, and the original lattice-clock concept and its experimental development are admirably focused. I nevertheless give priority to B054 because aberration correction directly opened a new observational capability across materials physics; the unresolved timing of metrological redefinition makes the lattice-clock case slightly less settled as a completed institutional transformation."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce identifies B006 as a transformative ultrafast X-ray capability while noting difficult priority and facility-scale attribution.",
+        "response": "The scientific case for SASE X-ray free-electron lasers is compelling, especially as a new way to observe matter. However, its attribution is more intrinsically compressed across accelerator and facility collaborations than the more bounded correction-instrument achievement."
+      }
+    ],
+    "uncertainties": [
+      "Whether the historical record distinguishes the credited B054 laureates sufficiently clearly from other foundational aberration-correction pioneers.",
+      "Whether a final citation can delimit spherical-aberration correction without absorbing later detector, software, and commercial advances."
+    ],
+    "conflict_note": "No recusal-relevant connection is apparent from the supplied profile."
+  }
+}

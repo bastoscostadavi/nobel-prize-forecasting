@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B038",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For the development of circuit quantum electrodynamics and controlled light–matter interactions in superconducting circuits."
+      }
+    ]
+  },
+  "alternatives": [
+    "B033",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made interactions between microwave photons and artificial atoms in superconducting circuits controllable, turning light–matter physics into a reproducible experimental platform. The theory-to-experiment attribution to Blais, Wallraff, and Schoelkopf is compelling, and the core physics has been extended across laboratories over many years. Its scientific case stands independently of whether fault-tolerant quantum computers are achieved.",
+    "case_against": "The field grew through many groups, so the named trio must be tied to the defining early contributions rather than the entire development of superconducting quantum computing. The prize scope should be the new regime of controlled circuit light–matter interaction, not the promise of a future computing technology.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks circuit QED highly, citing its strong light–matter coupling, Blais's theoretical work, and Wallraff's and Schoelkopf's experimental roles, while cautioning that large-scale quantum computing is still evolving.",
+        "response": "I agree with that distinction. The open status of large-scale computation does not weaken the mature physical result: circuit QED established controlled interactions and experimental methods that have been reproduced and extended. The citation should therefore stay with the foundational physics."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson argues that topological insulators established a major framework for condensed matter through Kane and Mele's theory and Molenkamp's experimental realization, while noting that the broader development makes the boundary of the foundational contribution important.",
+        "response": "That is a strong case, and the theory-to-experiment chain is clear. I still favor circuit QED because its central achievement likewise has a focused physical description, while its controlled platform has enabled a sustained range of experiments with artificial atoms and microwave photons."
+      }
+    ],
+    "uncertainties": [
+      "The boundary between the early circuit QED advance and the broader development of superconducting quantum computing needs to be fixed carefully.",
+      "The extent to which these three individuals' contributions define the early platform, amid work by many groups, requires close attribution review."
+    ],
+    "conflict_note": "My profile identifies me as a superconducting-circuit theorist and WACQT director, creating a close professional-field connection to B038 that may warrant recusal."
+  }
+}

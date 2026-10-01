@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-02",
+  "chair_id": "pearce-mark",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_chair_summary_v1.md",
+  "summary": {
+    "leading_positions": [
+      {
+        "ballot_ids": ["B034"],
+        "explicit_supporters": ["danielsson-ulf", "johansson-goran", "kroll-stefan"],
+        "synthesis": "These members prefer recognition of Katori and Ye for optical lattice clocks, with citations focused on their invention and realization. They emphasize demonstrated precision and scientific value while calling for a clear historical boundary around the foundational work and later advances."
+      },
+      {
+        "ballot_ids": ["B015"],
+        "explicit_supporters": ["eriksson-olle", "olsson-eva"],
+        "synthesis": "Both prefer Rose, Urban, and Haider for aberration-corrected electron optics. Their citation formulations differ in emphasis—development and realization versus invention and experimental realization—but both focus on the correction technology and its enabling role. They call for historical evidence to clarify individual contributions."
+      },
+      {
+        "ballot_ids": ["B001"],
+        "explicit_supporters": ["lindroth-eva"],
+        "synthesis": "Lindroth prefers Bennett, Brassard, and Ekert for foundational quantum key distribution protocols. The proposed framing distinguishes those physical principles from later implementation and engineering; the relationship and division of credit between the protocols remain to be established."
+      },
+      {
+        "ballot_ids": ["B016"],
+        "explicit_supporters": ["mehlig-bernhard"],
+        "synthesis": "Mehlig prefers Georges, Vollhardt, and Kotliar for developing dynamical mean-field theory. The case emphasizes the framework's long-standing reach in correlated-electron physics, alongside the need to define the core contribution within a wider community's work."
+      },
+      {
+        "ballot_ids": ["B022"],
+        "explicit_supporters": ["pearce-mark"],
+        "synthesis": "Pearce prefers Halzen, Karle, and Spiering for detecting high-energy astrophysical neutrinos and establishing neutrino astronomy. The persistent signal is presented as a mature discovery, while source identification and individual credit within the collaboration remain open questions."
+      }
+    ],
+    "areas_of_agreement": [
+      "The optical lattice clock case has a substantial experimental basis: supporters describe repeated or independent realization and value for precision measurement and tests of fundamental physics.",
+      "Historical boundaries and individual contributions need careful review in several proposals, particularly for optical lattice clocks, aberration-corrected electron optics, and IceCube."
+    ],
+    "scientific_disputes": [
+      "Members differ on which achievement has the strongest case: a mature, broadly used instrument advance such as aberration correction; optical lattice clocks with demonstrated precision and consequences still developing; or foundational quantum protocols, a theoretical framework, or a new neutrino observation window.",
+      "For optical lattice clocks, members agree on existing precision and reproducibility but differ in how much weight to give scientific consequences that are still emerging.",
+      "For IceCube, the persistent astrophysical neutrino signal is treated as a discovery, while the dominant sources remain unidentified; the unresolved sources limit claims about the field's reach."
+    ],
+    "attribution_disputes": [
+      "For B015, the historical record should distinguish Rose's optical designs from the construction, first demonstration, and refinement associated with Haider and Urban, and assess other early teams.",
+      "For B034, the boundary between the foundational lattice-clock invention and later generations or other pioneers needs review before finalizing credit to Katori and Ye.",
+      "For B001, the relationship and division of credit between the BB84 and Ekert protocols should be established, with the citation limited to foundational protocols rather than later systems.",
+      "For B022, individual contributions to detector conception, construction, and the astrophysical discovery are difficult to separate within a large collaboration."
+    ],
+    "maturity_disputes": [
+      "B034 is described as repeatedly realized and already useful for precision measurement, while some members stress that its wider scientific consequences remain in development.",
+      "B022's high-energy astrophysical neutrino signal is presented as established, but its dominant sources are unknown.",
+      "B001's foundational protocols are described as mature and tested, while practical security and deployment depend on later engineering that members would exclude from the core prize claim."
+    ],
+    "conflict_or_recusal_flags": [
+      "Johansson reports a field-level connection to B058 through work in superconducting circuits and direction of WACQT; he says this may warrant review under recusal rules."
+    ],
+    "questions_for_round2": [
+      "For B034, which historical records establish the boundary between Katori and Ye's foundational concept and realization, later performance advances, and other early contributors?",
+      "For B015, what do contemporaneous design, construction, and demonstration records show about the respective contributions of Rose, Urban, Haider, and other early teams?",
+      "For B001, how should the citation distinguish the BB84 and Ekert protocols, and what historical evidence supports the proposed division of credit?",
+      "For B022, what evidence supports assigning individual credit for detector conception, construction, and the astrophysical discovery, and how should unidentified sources affect the scope of the claim?"
+    ],
+    "chair_observation": "Round one presents several distinct prize configurations, with B034 and B015 receiving multiple explicit preferences and other proposals retaining individual support. The next discussion can test each case's defined contribution against its maturity and historical attribution."
+  }
+}

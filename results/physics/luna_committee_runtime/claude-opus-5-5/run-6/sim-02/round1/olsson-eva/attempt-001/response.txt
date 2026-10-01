@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-02",
+  "member_id": "olsson-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Juan Ignacio Cirac",
+          "Peter Zoller",
+          "Rainer Blatt"
+        ],
+        "citation": "For foundational proposals and experimental demonstrations of quantum computation and simulation with trapped ions."
+      }
+    ]
+  },
+  "alternatives": [
+    "B035",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Trapped-ion work joined foundational quantum information proposals to precise experimental control, establishing a reproducible platform for quantum computation and simulation. Decades of experiments have confirmed the key principles. In keeping with the prize’s focus on an original discovery or invention, this case rests on the established platform and demonstrations, not on eventual commercial or fault-tolerant success.",
+    "case_against": "The achievement spans proposals and successive experimental advances, and major contributions extend beyond these three people. Without a sharply bounded citation, the award could appear to recognize an ongoing field rather than a specific founding achievement; scalable fault-tolerant computation also remains unrealized.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You place trapped-ion quantum computation fourth, recognizing the complementarity of Cirac and Zoller’s proposals and Blatt’s experiments while questioning where the foundational breakthrough ends and continued platform development begins.",
+        "response": "I share that attribution concern, but it can be addressed by restricting the citation to the foundational proposals and decisive experimental demonstrations that made controlled ion-based computation and simulation concrete. The platform’s experimental verification is already substantial; the prize need not await fault-tolerant scaling."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "You rank trapped ions second and identify the difficulty of capturing the boundary between the original proposals and later progress in a broad experimental community.",
+        "response": "That boundary deserves historical scrutiny, but it does not erase the unusually legible connection between the proposals and the landmark experiments. Naming Cirac, Zoller, and Blatt recognizes those distinct roles while keeping the citation focused on establishing the platform, rather than claiming credit for all later advances."
+      }
+    ],
+    "uncertainties": [
+      "The precise historical boundary between the founding proposals and the experimental demonstrations warranting individual credit should be verified."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B040",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics with superconducting artificial atoms."
+      }
+    ]
+  },
+  "alternatives": [
+    "B041",
+    "B038"
+  ],
+  "statement": {
+    "case_for": "Circuit QED brought strong, controllable light–matter interaction into engineered superconducting circuits, creating a new regime of quantum optics that has been reproduced across laboratories and enabled increasingly precise studies of quantum systems. The contribution is defensible across theory, experimental demonstration, and development of the architecture. Its physics is already substantial in its own right; the case does not depend on fault-tolerant computing being completed.",
+    "case_against": "The work was collaborative, and selecting three people risks obscuring other foundational contributions, especially Steven M. Girvin's. The citation must be historically precise about what these laureates contributed and should not imply they alone built the field.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Eva Lindroth sees B040 as a compelling theory-and-experiment core, while warning that several foundational contributions and later advances make narrow attribution difficult.",
+        "response": "I share that concern. It argues for a bounded citation to establishing circuit QED with superconducting artificial atoms, rather than credit for the whole subsequent quantum-computing field. Girvin's contribution remains a serious attribution question for historical review."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Mark Pearce notes that B038 rests mainly on foundational theory while large-scale fault-tolerant computation remains an active goal.",
+        "response": "That timing concern is relevant to B038, but it does not make B040 premature: the controlled circuit-QED regime itself is experimentally mature and broadly reproduced. I would recognize that established physics without presenting future computing applications as an accomplished result."
+      }
+    ],
+    "uncertainties": [
+      "The relative foundational contributions to circuit QED, particularly the basis for including Blais, Wallraff, and Schoelkopf while excluding Girvin, require careful historical assessment."
+    ],
+    "conflict_note": "My profile notes WACQT leadership and long-standing Chalmers colleagues in superconducting circuits, including Per Delsing and C. M. Wilson. No direct connection to B040's credited laureates is apparent from the supplied profile, though the field-level connection may warrant review."
+  }
+}

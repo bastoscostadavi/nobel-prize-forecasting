@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-05",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B045",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "For the development of dynamical mean-field theory of strongly correlated electron systems."
+      }
+    ]
+  },
+  "alternatives": [
+    "B006",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Dynamical mean-field theory gave physicists a quantitative framework for treating local electronic correlations and understanding Mott physics. Its influence across condensed-matter theory and materials research, together with decades of application and comparison with experiment, makes this a substantial and mature theoretical achievement. Georges, Vollhardt, and Kotliar are central contributors to its formulation and development.",
+    "case_against": "This is a framework developed across a community, so three-person attribution is necessarily selective. Its approximation has known limits, and its importance rests chiefly on methodological and explanatory power rather than one discrete experimental discovery.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "You described DMFT as a major advance for local correlations, while noting that it is an approximation whose accuracy depends on dimensionality and the system, and that its impact is primarily methodological.",
+        "response": "I agree those limits need to be explicit. They define the framework's domain rather than erase its achievement: a controlled and productive way to treat local correlations has made Mott physics and correlated materials more quantitatively accessible. A prize citation should recognize that method without implying it is exact for every material."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You ranked optical lattice clocks highly, citing their exceptional maturity and precision, while noting that their longer-term reach as probes of fundamental physics remains less settled than the technical achievement.",
+        "response": "That distinction is persuasive. The clocks' precision is a remarkable and mature achievement, but the scientific case should specify whether it recognizes the measurement capability itself or discoveries enabled by it. For this round, I favor DMFT because its contribution is a clearly identified framework already used to interpret correlated materials, despite the limits of its approximation."
+      }
+    ],
+    "uncertainties": [
+      "The precise historical boundary between the foundational development of DMFT and later extensions, and the resulting division of credit among its contributors, needs careful review."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

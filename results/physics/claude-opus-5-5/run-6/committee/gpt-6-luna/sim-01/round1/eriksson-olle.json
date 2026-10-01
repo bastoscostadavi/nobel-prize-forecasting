@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "For the development of dynamical mean-field theory of strongly correlated electron systems."
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B010"
+  ],
+  "statement": {
+    "case_for": "Dynamical mean-field theory gave physicists a practical, quantitative framework for strongly correlated electrons by mapping lattice problems to a self-consistent impurity problem. Its influence has endured across theory and materials research, making it a mature foundational contribution with a clear physical core.",
+    "case_against": "The original local approximation has important limits, and many leading applications rely on later extensions. The prize citation must distinguish the foundational method from the broad community of subsequent developers, while the three proposed names' respective contributions merit careful historical review.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig regards DMFT as a well-established, benchmarked framework, while noting that consequential results often require extensions beyond the single-site method.",
+        "response": "That is the central qualification, and it argues for a precise citation to the foundational self-consistent framework rather than a claim to every later result. Extensions show where the original method can be improved; they do not diminish its lasting conceptual and computational contribution."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson describes photonic crystals as a mature and influential field, while emphasizing independent early contributions and the difficulty of separating original insight from later development.",
+        "response": "I agree that the field's durable influence is substantial, but the attribution boundary remains a real concern when concept, theory, and development are combined. DMFT also requires careful attribution, yet its proposed citation can be anchored more narrowly to the method's formulation and development."
+      }
+    ],
+    "uncertainties": [
+      "The precise division of credit among Georges, Vollhardt, and Kotliar in formulating and developing DMFT.",
+      "How narrowly the citation can distinguish the original method from later extensions."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

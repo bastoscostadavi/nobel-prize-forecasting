@@ -93,16 +93,27 @@ const stage = (sim, name, members) =>
       return results
     })
 
+// args.state[sim] (optional, for resuming): members whose validated file already exists per stage
+// ({opening, round1, chair, round2, final}: [member ids]) and whether shortlist / slate already validate.
+// args.keep_openings[sim] is the older form covering openings only.
+// state keys may be the full sim path or the short form <list>/run-<n>/sim-XX
+const short = sim => sim.replace('results/physics/', '').replace('/committee/claude/', '/')
+const st = sim => ((args.state || {})[sim]) || ((args.state || {})[short(sim)]) || { opening: ((args.keep_openings || {})[sim]) || [] }
+const todo = (sim, name, members) => {
+  const done = st(sim)[name] || []
+  return done === '*' ? [] : members.filter(m => !done.includes(m))
+}
+const skipIf = (flag, fn) => (flag ? Promise.resolve({ ok: true, output: 'already validated' }) : fn())
+
 const results = await pipeline(
   args.sims,
-  // args.keep_openings[sim] = members whose validated opening ballot is already on disk (redo only invalid ones)
-  sim => stage(sim, 'opening', MEMBERS.filter(m => !((args.keep_openings || {})[sim] || []).includes(m))),
-  (_, sim) => coordinator(sim, 'shortlist', 'Coordinator'),
-  (_, sim) => stage(sim, 'round1', MEMBERS),
-  (_, sim) => stage(sim, 'chair', [CHAIR]),
-  (_, sim) => stage(sim, 'round2', MEMBERS),
-  (_, sim) => coordinator(sim, 'slate', 'Coordinator'),
-  (_, sim) => stage(sim, 'final', MEMBERS),
+  sim => stage(sim, 'opening', todo(sim, 'opening', MEMBERS)),
+  (_, sim) => skipIf(st(sim).shortlist, () => coordinator(sim, 'shortlist', 'Coordinator')),
+  (_, sim) => stage(sim, 'round1', todo(sim, 'round1', MEMBERS)),
+  (_, sim) => stage(sim, 'chair', todo(sim, 'chair', [CHAIR])),
+  (_, sim) => stage(sim, 'round2', todo(sim, 'round2', MEMBERS)),
+  (_, sim) => skipIf(st(sim).slate, () => coordinator(sim, 'slate', 'Coordinator')),
+  (_, sim) => stage(sim, 'final', todo(sim, 'final', MEMBERS)),
   (_, sim) => coordinator(sim, 'tally', 'Coordinator'),
   (_, sim) => coordinator(sim, 'validate', 'Coordinator').then(r => ({ sim, output: r.output })),
 )

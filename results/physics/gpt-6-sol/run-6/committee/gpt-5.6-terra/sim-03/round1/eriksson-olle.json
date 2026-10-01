@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B059",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "for dynamical mean-field theory of strongly correlated electrons"
+      }
+    ]
+  },
+  "alternatives": [
+    "B006",
+    "B030"
+  ],
+  "statement": {
+    "case_for": "DMFT gave correlated-electron physics a quantitatively useful framework that connects many-body models to material-specific spectra and has been tested, generalized, and used against experiment over decades. Its impact is not merely computational convenience: it established a durable physical description of local electronic correlations in real materials.",
+    "case_against": "The achievement is principally an enabling theoretical method, and the citation must distinguish its foundational physical insight from the extensive later development by a broad community.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig emphasizes that DMFT transformed condensed-matter theory but cautions that its methodological character makes the discovery boundary important.",
+        "response": "I agree with the caution. The prize case should rest on the foundational self-consistent many-body framework and its experimentally testable account of correlated spectra, rather than attempting to reward every later implementation or extension."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson argues that aberration-corrected electron microscopy is a mature, reproducible transformation of materials physics with a compact chain of conceptual and practical credit.",
+        "response": "B006 is an exceptionally strong alternative and its experimental robustness is attractive. I retain B059 narrowly because it changed the theoretical interpretation of correlated materials across many systems, but B006 may be preferable if historical review establishes a cleaner attribution boundary."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll identifies optical lattice clocks as a mature precision-measurement breakthrough with coherent credit to Katori and Ye.",
+        "response": "The clocks are compelling and their independent reproducibility is clear. I would, however, want the prize framing to foreground the underlying physics of suppressed systematic shifts and fundamental measurement, not only exceptional timekeeping performance."
+      }
+    ],
+    "uncertainties": [
+      "Whether the foundational formulation of DMFT can be separated sufficiently clearly from its broad subsequent computational development.",
+      "The precise historical allocation among the credited theorists and other early contributors requires specialist review."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-04",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B020",
+        "laureates": [
+          "Antoine Georges",
+          "Gabriel Kotliar",
+          "Dieter Vollhardt"
+        ],
+        "citation": "for dynamical mean-field theory of strongly correlated electrons"
+      }
+    ]
+  },
+  "alternatives": [
+    "B043",
+    "B021"
+  ],
+  "statement": {
+    "case_for": "DMFT made strong electronic correlations quantitatively tractable and changed how theory connects spectra and electronic-structure calculations with real materials. It is mature, widely benchmarked, and its three named architects provide a compact and scientifically coherent attribution.",
+    "case_against": "It is a theoretical framework with a distributed development history, rather than a single sharply bounded experimental discovery; the citation must therefore distinguish the foundational formulation from later extensions and applications.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Optical lattice clocks offer exceptionally reproducible atomic control, with Katori's concept and Ye's experimental development forming a clear attribution.",
+        "response": "I agree that B043 is an unusually mature and well-attributed alternative, and its independent performance is compelling. I retain B020 narrowly because it supplied a broadly predictive framework for a major class of materials where conventional electronic structure fails; nevertheless B043 may prove the cleaner prize formulation."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Aharonov–Bohm and Berry phases established the observable physical significance of quantum phase across many platforms.",
+        "response": "Their influence and experimental confirmation are beyond doubt. My reservation is Johansson's own important qualification: the ballot joins two historically distinct effects. A unified citation would need to establish more sharply why these constitute one prize achievement rather than two related conceptual advances."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "DMFT is a mature, indispensable description of strongly correlated materials, while its status as a method and its distributed origins require careful framing.",
+        "response": "I share this qualification. The strength of B020 lies precisely in its durable explanatory and computational role, but the historical audit must confirm that these three names fairly delimit the central formulation before a final decision."
+      }
+    ],
+    "uncertainties": [
+      "Whether a methodological theoretical advance can be framed sufficiently sharply as the prize-defining discovery.",
+      "The exact boundary of foundational DMFT credit relative to subsequent extensions."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

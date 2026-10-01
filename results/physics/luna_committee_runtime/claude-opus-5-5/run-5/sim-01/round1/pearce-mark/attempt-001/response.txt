@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "pearce-mark",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B009",
+        "laureates": [
+          "Heino Falcke",
+          "James M. Moran",
+          "Sheperd S. Doeleman"
+        ],
+        "citation": "For horizon-scale imaging of black holes using very-long-baseline interferometry."
+      }
+    ]
+  },
+  "alternatives": [
+    "B014",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "The Event Horizon Telescope made horizon-scale structure around black holes observable, turning a central strong-gravity prediction into a measured image and opening a new observational regime. The M87* and Sagittarius A* results provide complementary targets and sustained scrutiny. Falcke's imaging proposal, Moran's foundational millimeter interferometry contributions, and Doeleman's leadership in developing and coordinating the observing effort give the achievement a defensible three-person attribution, while recognizing that the collaboration was indispensable.",
+    "case_against": "The images show emission around black holes, not the event horizon itself, and their reconstruction depends on demanding calibration and modeling. The result is compelling, but interpretation will continue to improve. Credit is also difficult to compress into three names for an international collaboration whose instruments, observations, and analysis relied on many contributors.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You ranked EHT imaging highly, while noting that the result depended on a large collaboration and that the method and source modeling remain technically demanding.",
+        "response": "I share those reservations. The complementary M87* and Sagittarius A* observations and extensive scrutiny make the result mature enough for consideration despite the technical demands. The named roles are distinct and consequential, though the committee should test them carefully against the contributions of the wider collaboration."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "You questioned whether the images themselves establish event horizons, noting that they probe black-hole environments and rely on complex reconstruction.",
+        "response": "That is an important qualification: the citation should claim horizon-scale imaging, not direct observation of an event horizon. The reconstructed emission structure is nevertheless a powerful measurement in a regime where strong-gravity predictions can be confronted with data. The distinction narrows the claim without removing its significance."
+      }
+    ],
+    "uncertainties": [
+      "How the committee should weigh the reconstructed images against continued improvements in calibration and modeling.",
+      "Whether the historical record supports the proposed three-person attribution given the many indispensable collaboration contributions."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

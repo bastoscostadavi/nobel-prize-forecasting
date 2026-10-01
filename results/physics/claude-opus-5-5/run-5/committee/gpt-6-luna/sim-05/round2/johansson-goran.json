@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "For foundational contributions to quantum error correction and topological protection of quantum information."
+      }
+    ]
+  },
+  "alternatives": [
+    "B021",
+    "B026"
+  ],
+  "statement": {
+    "case_for": "I retain quantum error correction as my preferred achievement. Shor's and Steane's codes, followed by Kitaev's topological approach, established distinct ways to protect quantum information against noise. Their foundational merit is not contingent on a completed large-scale computer: the principles are experimentally testable and have been implemented across platforms. The result changed what quantum physics permits, by showing that errors need not make quantum information unusable.",
+    "case_against": "The field's development involved many contributors, and the three-person limit makes the attribution selective. The citation should identify these foundational codes and topological protection without implying that these three account for all later fault-tolerance advances. The practical scale and reach of fault-tolerant computing remain unsettled.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll favors optical lattice clocks for their independently developed approaches and established measurement performance, and argues that quantum error correction has greater uncertainty about its reach and boundaries of credit.",
+        "response": "I agree that the clocks have a particularly mature record as precision instruments. That maturity does not resolve the distinct question of whether quantum error correction is ready for recognition as a foundational result. Its central principle has already been tested across platforms, while large-scale computing is a future application whose uncertainty should limit claims about practical reach, not the credit for the foundational advance. The historical boundary of the proposed trio remains a real issue and calls for a narrow citation."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig favors fluctuation relations as exact, testable results with mature theoretical and experimental use, and questions whether their grouped contributions form a clearer achievement than quantum error correction's foundational codes and developing computing program.",
+        "response": "The exactness and broad use of the fluctuation relations are strong merits. For quantum error correction, I likewise separate the established scientific result from the eventual reach of a technology: the prize case is the principle and its experimental testability, not a forecast of useful fault-tolerant machines. The proposed credit has a focused conceptual basis in the early codes and Kitaev's topological framework, though the relation of each contribution to later fault-tolerance work needs careful historical review."
+      }
+    ],
+    "uncertainties": [
+      "The historical boundary between the foundational codes, Kitaev's topological methods, and later fault-tolerance advances should be checked to ensure the three names represent distinct, decisive contributions.",
+      "The scale and practical reach of fault-tolerant quantum computing remain uncertain, but do not determine the maturity of the foundational result."
+    ],
+    "conflict_note": "My profile identifies me as director of WACQT and a researcher in superconducting circuits and quantum computing, which is a potential professional connection to the field of B001. The supplied profile does not identify close collaborations with Shor, Steane, or Kitaev. I disclose that connection; the supplied evidence does not indicate a direct candidate-specific conflict."
+  }
+}

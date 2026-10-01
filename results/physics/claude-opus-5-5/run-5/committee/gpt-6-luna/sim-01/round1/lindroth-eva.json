@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "lindroth-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B005",
+        "laureates": [
+          "Immanuel Bloch",
+          "Markus Greiner",
+          "Peter Zoller"
+        ],
+        "citation": "For establishing ultracold atoms in optical lattices as controllable simulators of quantum many-body systems."
+      }
+    ]
+  },
+  "alternatives": [
+    "B023",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "Optical lattices let researchers prepare and probe many-body quantum systems under controlled conditions, bringing phases and dynamics that are difficult to access in ordinary materials within experimental reach. The achievement has been reproduced and extended across laboratories over decades. I favor a citation to the simulator platform and its experimental establishment, rather than a claim that it has already outperformed classical computation.",
+    "case_against": "The candidate spans a broad program of theory, platform development, and experiments, so a focused prize citation and careful attribution are essential. The wider field includes substantial contributions beyond three laureates, and the full scientific reach of quantum simulation is still developing.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson noted that whether optical-lattice simulations yield insights beyond existing computational methods is still an open question.",
+        "response": "That is a real limitation on claims about the platform's reach, but the established physics is already prizeworthy: optical lattices made controlled many-body experiments possible and have supported a durable body of reproducible work. The citation should reflect that achievement without promising computational advantage."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson questioned whether there is a sharply defined landmark discovery behind the platform's broad promise and noted that its full reach is still being realized.",
+        "response": "I agree the broad promise should not be the basis of the award. A narrower claim—establishing ultracold atoms in optical lattices as controllable quantum simulators—identifies the lasting experimental advance while leaving future applications open."
+      }
+    ],
+    "uncertainties": [
+      "The relative contributions of Zoller and Cirac to the theoretical foundations of quantum simulation need careful historical assessment."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

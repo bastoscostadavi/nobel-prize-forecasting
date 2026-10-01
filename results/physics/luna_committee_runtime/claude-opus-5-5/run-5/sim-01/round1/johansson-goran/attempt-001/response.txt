@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B039",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "For establishing quantum error correction and foundational routes to fault-tolerant quantum information processing."
+      }
+    ]
+  },
+  "alternatives": [
+    "B018",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction showed that quantum information can be protected against noise in principle, overcoming a conceptual obstacle to quantum computation. The result is a foundational advance in quantum information physics in its own right, with principles now tested in increasingly capable experiments. Shor and Steane introduced landmark codes, while Kitaev developed influential topological approaches.",
+    "case_against": "The ballot groups distinct contributions: Shor's and Steane's codes and Kitaev's topological ideas are not one sharply bounded discovery. A three-person selection is necessarily selective, and large-scale fault-tolerant computation remains unrealized, so the eventual practical reach is not settled.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You describe error correction as making quantum computation physically credible, while noting that scalable fault tolerance remains incomplete and the boundary between foundational theory and engineering deserves care.",
+        "response": "I agree that the engineering milestone is unfinished. I would frame the award around the independent conceptual result: quantum information need not be lost irretrievably to noise. That result is established even if no scalable processor is ultimately built."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "You favor trapped-ion computation for its clear theory-experiment link and mature demonstrations, while recognizing that scalability and fault tolerance remain open.",
+        "response": "The trapped-ion achievements are compelling, but they concern a particular route to computation. Error correction addresses the more general physical principle that makes reliable quantum processing conceivable across platforms. Its scientific case does not depend on which hardware architecture scales best."
+      }
+    ],
+    "uncertainties": [
+      "The three credited contributions are distinct; the committee must decide whether their shared error-correction theme is a sufficiently coherent prize contribution.",
+      "The degree to which fault-tolerant computation can be realized at scale remains unknown, though the foundational result stands independently."
+    ],
+    "conflict_note": "My superconducting quantum-computing research and WACQT directorship create a broad professional connection to quantum information. No direct connection to Shor, Steane, or Kitaev is apparent from the supplied profile; whether the field-level connection warrants recusal depends on committee rules."
+  }
+}

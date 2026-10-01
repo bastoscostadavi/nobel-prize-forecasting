@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the prediction and experimental realization of the quantum spin Hall effect, establishing topological insulators as a new class of quantum matter."
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B009"
+  ],
+  "statement": {
+    "case_for": "The quantum spin Hall effect links a precise theoretical prediction by Kane and Mele to Molenkamp's experimental realization in a material system. It established topological insulators as a major class of quantum matter, with signatures confirmed over many years. The prize can be framed around this original prediction and realization, while acknowledging that later three-dimensional topological-insulator work involved a wider community.",
+    "case_against": "The proposed scope risks conflating the quantum spin Hall effect with the broader, distinct development of three-dimensional topological insulators. Experimental credit is also selective, and the contribution of the wider community must be reviewed carefully.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "You ranked ultracold-atom quantum simulation first, emphasizing its controlled access to many-body physics and its sustained development across laboratories, while noting that its boundary with broader ultracold-gas physics is not sharp.",
+        "response": "I agree that the platform has lasting value and a strong experimental record. For this prize, however, the specific advance can be hard to separate from the broader development of ultracold gases and from the many discoveries made using the platform. The quantum spin Hall effect offers a more sharply traceable prediction and material realization, though its wider topological-insulator scope also needs careful limits."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "You ranked fluctuation relations first for their broad conceptual reach and mature theoretical and experimental record, and also described the quantum spin Hall effect as a strong prediction–realization case whose attribution is selective.",
+        "response": "I share your assessment of the prediction–realization arc. Here the experimental milestone is specific enough to anchor the citation: the quantum spin Hall effect was established in a material system, rather than credit resting only on a broad conceptual framework. Your caution about other contributors is important; the citation should recognize that result without claiming sole credit for the later field."
+      }
+    ],
+    "uncertainties": [
+      "The prize scope must distinguish the original quantum spin Hall prediction and realization from later three-dimensional topological-insulator advances.",
+      "The boundary of individual experimental credit within the wider work on topological materials warrants careful review."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

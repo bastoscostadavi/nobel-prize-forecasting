@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "For foundational contributions to quantum error correction and topological methods for protecting quantum information from noise."
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B005"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction established that quantum information can be protected despite decoherence, turning reliable quantum computation from an apparent contradiction into a physically testable possibility. Shor's and Steane's landmark codes and Kitaev's topological approach represent distinct foundational contributions. The theory's significance is already established by experiments across platforms; its case does not depend on fault-tolerant machines being complete.",
+    "case_against": "The field grew through many important contributions, so selecting three people risks making the historical boundary seem cleaner than it is. Practical, large-scale fault-tolerant computing remains unrealized, leaving the eventual reach of the advance uncertain.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks quantum error correction highly but notes that large-scale fault tolerance remains an engineering challenge and that credit between foundational theory and later demonstrations requires care.",
+        "response": "I agree that the engineering challenge is substantial, but I would separate it from the maturity of the foundational result. The codes and their physical implications have been tested repeatedly; the prize case rests on showing that noise need not make quantum information unusable, not on a completed processor. The attribution should focus on the distinct early codes and topological framework rather than later device advances."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig sees quantum error correction as foundational, while questioning whether the practical reach of fault-tolerant computing will ultimately match its conceptual importance.",
+        "response": "That is the strongest reservation, but it does not erase the conceptual advance. The result changed what is possible in quantum physics by identifying conditions under which errors can be detected and corrected without destroying the encoded information. I would treat future applications as uncertain while judging that foundational achievement on its own."
+      }
+    ],
+    "uncertainties": [
+      "How to delimit the earliest decisive contributions to quantum error correction from the wider work that established fault tolerance.",
+      "The eventual scale and practical reach of fault-tolerant quantum computing remain uncertain."
+    ],
+    "conflict_note": "My profile identifies me as WACQT director and a researcher in superconducting quantum circuits and computing. That is a potential connection to quantum-computing research, including error correction, although the proposed laureates are not identified in the supplied profile as close colleagues."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-6-luna",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-johansson-goran-6242khub",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-johansson-goran-6242khub/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "8cadd15662a5c98632b0273d09b15cce005cf2373be7f6e51d54a96ae53237b7",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/johansson-goran/profile.md",
+      "sha256": "e2c2daf3c1cb38a19cace0235d84e28ea40f4e3f1eba9c95dfb2671efedbd6ac"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/shortlist.json",
+      "sha256": "a7f534d663dbf961045e10a216ea98ffe1ff5ab3f7505ceb1f415f54ac165ced"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/danielsson-ulf.json",
+      "sha256": "5639c8315675d153d56fa817d43024cd093a759433b612b52be52a2c14e87715"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/eriksson-olle.json",
+      "sha256": "0bf670d3522e022549ddcce2595a663132760f6d0394c2fc4ebd2711d16f2caf"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/johansson-goran.json",
+      "sha256": "200708e30b20672554e3bdf0debf16bb593e5047acf081680d413ab320c93c6c"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/kroll-stefan.json",
+      "sha256": "560d8c502dba1238336f0a55b14eea709997d6f556e3a852f3e5a3639a014179"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/lindroth-eva.json",
+      "sha256": "8adafa49880a841e3ca5957a304e26306dc6196b14c760d15a6be42a03110df9"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/mehlig-bernhard.json",
+      "sha256": "c9a4b4a55cebfb18ed241f0b4cf811d69dafc9b11237e3a2d228d4740c1e53c6"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/olsson-eva.json",
+      "sha256": "06f8def1f1ff1b846a06ec5b3ca0220c67535df09d5b45c53557ebbcba7e2624"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/round1/pearce-mark.json",
+      "sha256": "68f7b6c745604e7d3d6bbc9cbe223b86d13fcf631807f7c734c444bc8d34e9b1"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-5/committee/gpt-6-luna/sim-04/chair_summary_round1.json",
+      "sha256": "80de34709a9c0572d59a3f7d4e04c9c0a37a12368d38340ef575b7d8916cdb4d"
+    }
+  ],
+  "thread_id": "01a0f859-037a-7851-bc8a-2d028005ef41",
+  "usage": {
+    "input_tokens": 22713,
+    "cached_input_tokens": 6912,
+    "output_tokens": 1020,
+    "reasoning_tokens": null,
+    "total_tokens": 23733
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-01T16:43:26.194960Z"
+}

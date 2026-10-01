@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "lindroth-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B038",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the development of optical lattice clocks, enabling unprecedented precision in timekeeping and new tests of fundamental physics."
+      }
+    ]
+  },
+  "alternatives": [
+    "B015",
+    "B045"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks turn exquisite control of atoms into a new standard of precision, useful both for testing fundamental physics and for timekeeping. Katori and Ye made complementary contributions to the concept and its experimental realization. The method has been reproduced and improved across laboratories, and its scientific reach is already clear.",
+    "case_against": "The clocks continue to improve, so the eventual extent of their fundamental impact is still unfolding. The citation must also distinguish the original clock concepts from later performance milestones and avoid treating precision measurement alone as the discovery.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "He ranks WMAP first, emphasizing its transformation of precision cosmology, the maturity of its measurements, and uncertainty over how to assign individual credit for a mission-wide achievement.",
+        "response": "I agree that WMAP's durable empirical result makes a strong case, and the mission-wide attribution deserves close scrutiny. For this choice, the central advance is also experimentally consequential, but the two named contributions to optical lattice clocks are more directly tied to a defined method and its realization. That makes the prize boundary easier to state without diminishing the importance of team science."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "He ranks quantum error correction highly but questions whether to recognize its theoretical foundations now or wait for a decisive demonstration of scalable error correction.",
+        "response": "The theory is foundational, and I would not make full-scale fault-tolerant computing a prerequisite for recognizing it. Still, that candidate spans several ideas and its practical realization remains incomplete. Optical lattice clocks offer a more mature experimental achievement with a clear, reproducible method and identifiable complementary contributions."
+      }
+    ],
+    "uncertainties": [
+      "The original clock concepts and later performance milestones need to be distinguished in defining the prize scope.",
+      "The future reach of optical lattice clocks for fundamental physics is still developing."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

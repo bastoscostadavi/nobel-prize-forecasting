@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-04",
+  "member_id": "mehlig-bernhard",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "For establishing quantum error correction and foundational methods for fault-tolerant quantum information."
+      }
+    ]
+  },
+  "alternatives": [
+    "B002",
+    "B017"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction exposed a clean and surprising principle: quantum information can be protected from noise despite the fragility of quantum states. Shor and Steane established landmark codes, while Kitaev developed a powerful topological approach. This is a sharply identifiable conceptual advance with a mature theoretical foundation and a lasting effect on quantum physics.",
+    "case_against": "Large-scale fault-tolerant quantum computing remains unrealized, so the full physical and technological consequences are not yet known. The foundational history is also broader than three people, and combining early codes with later topological methods risks compressing distinct contributions.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argues that the theory is established and experiments demonstrate error correction, while large-scale fault-tolerant operation remains unrealized; he also cautions that selecting three people compresses a broader history.",
+        "response": "I share both qualifications. The prize case should rest on the completed conceptual result that noise need not make quantum information unusable, rather than on the promise of future processors. A focused citation to landmark codes and the topological route gives the three names distinct roles, though the broader history remains a real attribution concern."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll regards the theory as secure and recognizes Shor, Steane, and Kitaev for pivotal but distinct contributions, while noting that the field's foundations extend beyond these three.",
+        "response": "I agree that the theory's security supports recognition now, without waiting for scalable machines. The selected trio represents the early code constructions and a later influential topological framework; the citation should stay within that scope and avoid implying that they exhaust the field's foundational contributors."
+      }
+    ],
+    "uncertainties": [
+      "The fairest boundary between the foundational codes and later fault-tolerant methods needs historical assessment.",
+      "The eventual reach of fault-tolerant quantum information in physics remains uncertain."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

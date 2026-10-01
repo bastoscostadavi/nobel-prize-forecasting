@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "lindroth-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Peter W. Shor",
+          "Andrew M. Steane",
+          "Alexei Kitaev"
+        ],
+        "citation": "For foundational contributions to quantum error correction and fault-tolerant quantum computation."
+      }
+    ]
+  },
+  "alternatives": [
+    "B021",
+    "B004"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction made the protection of quantum information against noise a physical possibility, turning a basic obstacle into a precise framework that can be tested across different systems. The contributions of Shor and Steane, followed by Kitaev’s topological approach, are distinct landmarks. The case rests on this lasting conceptual advance, not on whether large-scale quantum computers are already practical.",
+    "case_against": "The field has many important contributors, so three names necessarily make a selective account. Also, demonstrations of error correction do not yet establish that large fault-tolerant machines will be practical. The citation should recognize the foundational physics without implying that this engineering goal has been achieved.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "He ranked quantum error correction third and questioned whether its practical impact will match its foundational importance, while noting that the principles are being implemented experimentally.",
+        "response": "That distinction is important, but I would not make the prize depend on the eventual scale of quantum computing. The result established how quantum information can be protected in principle, and experimental work across platforms has made that principle testable. Its foundational significance is already clear."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "He emphasized that Shor and Steane introduced landmark codes and Kitaev developed influential topological approaches, while noting both the broader field’s later contributions and the uncertainty around practical large-scale systems.",
+        "response": "I agree that the attribution must be framed narrowly around these distinct foundational advances. The unresolved practical scale limits claims about future applications, but it does not undo the conceptual achievement. A focused citation to error correction and fault tolerance avoids crediting the entire subsequent field."
+      }
+    ],
+    "uncertainties": [
+      "The precise boundary between the foundational codes and later advances in fault tolerance should guide the citation and attribution."
+    ],
+    "conflict_note": "The supplied profile notes a long-time collaboration with Anne L'Huillier, who is not among the credited names for the shortlisted achievements; no recusal connection to these candidates is apparent."
+  }
+}

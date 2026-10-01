@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-04",
+  "member_id": "olsson-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B002",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics and demonstrating coherent light–matter interaction in superconducting circuits."
+      }
+    ]
+  },
+  "alternatives": [
+    "B039",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made engineered superconducting circuits into controllable quantum systems coupled to microwave fields. The combination of a clear theoretical framework and decisive experimental demonstrations opened a new regime for studying light–matter interaction and has proved reproducible across laboratories. Its significance rests on that durable physics capability, not solely on later processor applications.",
+    "case_against": "The platform grew through contributions from several groups, so the three-person attribution needs a sharply defined historical account. There is also a risk of recognizing an enabling platform before its lasting scientific impact is fully apparent.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "He judged the theory, experimental demonstration, and platform development to be complementary, while noting that important contributions from other groups complicate the boundary of the discovery.",
+        "response": "I agree that the trio makes a coherent account of the theoretical architecture and its experimental establishment. The broader history still needs scrutiny, but that is a reason to keep the citation focused on establishing circuit QED rather than crediting the whole subsequent field."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "He emphasized that circuit QED is robustly established, while cautioning that it may be an enabling platform within the larger story of quantum information.",
+        "response": "That is the strongest reservation. The prize case should stand on the experimentally demonstrated control of coherent light–matter interaction in a solid-state system; if it depends mainly on future computing applications, the case is weaker. The sustained independent reproduction supports treating the physical capability itself as the achievement."
+      }
+    ],
+    "uncertainties": [
+      "The historical record must establish the distinct original contributions of Blais, Wallraff, and Schoelkopf relative to other groups.",
+      "The committee should assess whether the foundational circuit QED advance has a sufficiently distinct scientific scope apart from its role in quantum information technology."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

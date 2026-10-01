@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "pearce-mark",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Peter W. Shor",
+          "Andrew M. Steane",
+          "Alexei Kitaev"
+        ],
+        "citation": "For the development of quantum error-correcting codes and topological methods that made fault-tolerant quantum information processing possible in principle."
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction changed the status of quantum information from an inherently fragile resource to something that can, in principle, be protected through encoding and controlled operations. Shor's and Steane's codes and Kitaev's topological approach are distinct foundational contributions. Their significance is already clear in the theory and in experiments across platforms, independent of whether large-scale fault-tolerant computers are ultimately built.",
+    "case_against": "The achievement is foundational, but practical fault-tolerant systems remain under development. A three-person citation also makes a selective boundary: the field's progress includes many later contributions, and the prize must stay focused on the original conceptual advances rather than imply that these three account for the whole development.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argues that Shor and Steane's independent codes and Kitaev's topological methods are distinct landmark contributions, while noting that practical large-scale error correction remains incomplete.",
+        "response": "I agree that the three contributions can be distinguished and that the unfinished engineering path is a real reservation. I would not make a working large-scale computer a condition for recognition: the central advance was showing how errors could be corrected without destroying quantum information, which changed what physics permits in principle."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson likewise sees distinct foundational contributions, but stresses that the eventual practical reach of fault-tolerant computing remains unsettled.",
+        "response": "That uncertainty should temper claims about future applications, not erase the established conceptual result. The case rests on a new principle for protecting quantum states and on its experimental demonstration, rather than a forecast about commercial or computational impact."
+      }
+    ],
+    "uncertainties": [
+      "The historical boundary between the foundational codes and later advances that enabled fault-tolerant demonstrations needs careful review.",
+      "The scale and eventual practical reach of fault-tolerant quantum computing remain unsettled."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

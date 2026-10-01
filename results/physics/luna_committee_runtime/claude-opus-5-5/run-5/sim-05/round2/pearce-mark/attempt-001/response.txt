@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "pearce-mark",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Peter W. Shor",
+          "Andrew M. Steane",
+          "Alexei Kitaev"
+        ],
+        "citation": "For foundational contributions to quantum error-correcting codes and topological methods that made fault-tolerant quantum information processing possible in principle."
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "I retain quantum error correction as my preferred configuration. Its central achievement is a precise physical principle: encoding and suitable operations can protect quantum information against errors. Its significance does not depend on a large fault-tolerant computer being complete. Experiments across platforms make the principle testable, while the theory establishes why noise need not make quantum information unusable.",
+    "case_against": "The field grew through many contributions, so three names define a selective historical boundary. The unfinished engineering path also means we should not claim that large-scale fault-tolerant computing or its eventual applications are assured. The citation must recognize foundational work without suggesting these three account for the whole field.",
+    "responses": [
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson favors WMAP's precision mapping and proposes Bennett and Page, centering mission and measurement leadership while leaving Spergel's role and the wider team's contribution unresolved.",
+        "response": "Her distinction between the measurement and its interpretation is useful, and WMAP has a strong mature record. I remain with B001 because the contribution can be stated as a focused physical advance, whereas the WMAP attribution still turns on how to divide mission leadership, measurement, and cosmological analysis among the proposed names and the wider team. That is a credit concern, not a doubt about the value of WMAP's measurements."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson favors WMAP and includes Spergel with Bennett and Page, while noting that mission leadership, instrument building, and analysis were collective.",
+        "response": "Including the analysis contribution alongside mission and measurement leadership is a defensible framing, but it does not resolve how those roles justify a three-person award. For B001, the case is also selective, yet Shor's and Steane's codes and Kitaev's topological approach provide distinct foundational strands that can be named directly. I would keep the citation narrowly tied to those advances and avoid implying that later fault-tolerance work is theirs alone."
+      }
+    ],
+    "uncertainties": [
+      "The historical boundary between the foundational codes and topological methods and later fault-tolerance advances should be checked against the record before finalizing the citation.",
+      "The eventual scale and practical reach of fault-tolerant quantum computing remain unsettled and should not be treated as part of the established achievement."
+    ],
+    "conflict_note": "My profile describes work in particle and astroparticle physics and detector development, including collaborations in cosmic-ray and gamma-ray experiments. It identifies no direct personal or collaboration connection to the proposed laureates."
+  }
+}

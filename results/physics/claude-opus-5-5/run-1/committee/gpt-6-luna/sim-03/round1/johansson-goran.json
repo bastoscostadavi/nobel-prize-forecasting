@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B045",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For the theoretical architecture and experimental realization of circuit quantum electrodynamics with superconducting artificial atoms, establishing a controllable regime of strong light–matter interaction."
+      }
+    ]
+  },
+  "alternatives": [
+    "B028",
+    "B039"
+  ],
+  "statement": {
+    "case_for": "Circuit QED established that superconducting circuits could serve as controllable atoms interacting strongly with microwave fields. This made a new regime of quantum optics experimentally accessible and proved robust across laboratories over two decades. Its importance rests on that foundational physics, not on whether fault-tolerant quantum computers are ultimately built. Blais, Wallraff, and Schoelkopf represent complementary theoretical and experimental contributions to the platform.",
+    "case_against": "The work is a broad program rather than a single sharply bounded discovery, and the proposed attribution leaves out Steven M. Girvin, whose theoretical contributions are central to the wider development. Distinguishing the decisive contributions of a few individuals from those of the broader community needs careful historical review.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll supports the circuit-QED case but notes that Girvin's central theoretical contributions make a three-person attribution difficult.",
+        "response": "I agree that this is a serious attribution problem. The case for Blais, Wallraff, and Schoelkopf depends on a precise citation limited to the theoretical architecture and landmark experimental demonstrations, and on historical evidence that supports those roles. If that division cannot be defended, the proposed trio is not adequate."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson argues that optical lattice clocks are a clear, mature achievement, while the boundary between Katori's foundational work, Ye's advances, and the wider community warrants review.",
+        "response": "I find B028 a strong alternative: its focused two-person attribution and established performance are important advantages. I still favor B045 because circuit QED opened a distinct and reproducible regime of controllable light–matter physics. The comparison turns on the scale of that foundational change, not on clock technology's continuing technical improvements."
+      }
+    ],
+    "uncertainties": [
+      "The historical division of theoretical and experimental credit in circuit QED, especially the appropriate recognition of Steven M. Girvin.",
+      "Whether the core circuit-QED achievement can be framed narrowly enough to distinguish its foundational physics from the broader development of superconducting quantum computing."
+    ],
+    "conflict_note": "I have a professional connection to superconducting circuits through my Chalmers research and leadership of WACQT; this may require recusal."
+  }
+}

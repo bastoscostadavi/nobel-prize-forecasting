@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B008",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "For foundational contributions to quantum error correction and fault-tolerant quantum computation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B015",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction changed the physical prospects for quantum information: it showed how fragile quantum states could be encoded so errors can be detected and corrected, and supplied a route to fault-tolerant computation. Shor, Steane, and Kitaev represent distinct foundational advances. The prize case rests on that conceptual achievement and its established influence on experiments, not on claiming that large-scale fault-tolerant machines already exist.",
+    "case_against": "The ballot groups related advances with different histories, and credit across the wider field cannot be fully represented by three names. Large-scale fault-tolerant computation remains unrealized, so the committee must judge whether the mature theoretical framework and experimental progress on its ingredients suffice for recognition now.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson regards the framework as foundational but notes that large-scale fault-tolerant computation remains unachieved and that the proposed three-person attribution needs checking against the specific discovery.",
+        "response": "I agree that the citation and attribution must be tightly bounded. I would not make completion of large-scale computation a prerequisite: the achievement is the discovery of a principled way to protect quantum information, while experiments have validated key ingredients. The remaining engineering challenge is a real reservation, but it does not erase the conceptual advance."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth emphasizes that Shor's and Steane's codes and Kitaev's topological approaches are distinct contributions, while later physical implementations may bring additional contributors into focus.",
+        "response": "That distinction strengthens the case for a carefully worded citation centered on error correction and fault tolerance, rather than a broad claim to have completed quantum computing. Future implementations may deserve separate recognition, but the three proposed contributions already mark central steps in the foundational theory."
+      }
+    ],
+    "uncertainties": [
+      "The precise historical boundary between quantum error-correcting codes, Kitaev's topological approach, and the broader development of fault-tolerant computation needs review to confirm that this citation supports all three names."
+    ],
+    "conflict_note": "My WACQT directorship and work on superconducting quantum computing give me a professional connection to the broader quantum-technology field. The supplied profile identifies no specific collaboration or institutional tie to the proposed laureates; the broader connection may warrant consideration under committee recusal rules."
+  }
+}

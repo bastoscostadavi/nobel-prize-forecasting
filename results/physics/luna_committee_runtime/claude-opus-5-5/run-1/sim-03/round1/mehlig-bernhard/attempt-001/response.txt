@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-03",
+  "member_id": "mehlig-bernhard",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Christopher Jarzynski",
+          "Gavin E. Crooks",
+          "Udo Seifert"
+        ],
+        "citation": "For foundational relations and the development of stochastic thermodynamics far from equilibrium."
+      }
+    ]
+  },
+  "alternatives": [
+    "B005",
+    "B039"
+  ],
+  "statement": {
+    "case_for": "Fluctuation relations connect microscopic dynamics to macroscopic thermodynamic quantities even in small, driven systems where equilibrium assumptions fail. Their exact results and the framework built around them offer a clear, general mechanism with substantial experimental reach. The contribution has matured over decades into a durable field.",
+    "case_against": "The achievement is a chain of related results rather than a single isolated discovery. Denis Evans's earlier fluctuation theorem is an important antecedent, and a three-person award must draw a defensible boundary around who established which parts of the framework.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson places circuit QED first and notes that fluctuation thermodynamics has several foundational results and contributors, including Evans, making a three-person attribution difficult.",
+        "response": "I agree that the attribution issue is real and that the citation should name the relations and framework precisely. It does not, by itself, erase the conceptual importance of making nonequilibrium work and entropy production tractable through exact statistical-mechanical relations. The antecedent should be recognized in the historical account while the prize scope is kept narrow."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks dynamical mean-field theory first, emphasizing its broad influence on correlated-electron physics and its established use in material-specific calculations.",
+        "response": "That is a strong case for B005: it made a difficult many-body problem tractable and has proved durable. I give B004 priority because its relations address a more general conceptual gap between microscopic dynamics and thermodynamics beyond equilibrium. DMFT remains a serious alternative, but its foundational boundary and the distribution of credit also require careful definition."
+      }
+    ],
+    "uncertainties": [
+      "The precise relationship between Evans's earlier fluctuation theorem and the later work represented by this ballot needs historical assessment to define the award's scope and attribution."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

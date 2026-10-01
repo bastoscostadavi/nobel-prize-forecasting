@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-6-luna",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-lindroth-eva-t9xgcfxp",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-lindroth-eva-t9xgcfxp/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "6cad746fbc9fbea9d1bd5db801e77be9e9d5e8fd988394ca82e8e93c1e75254c",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/lindroth-eva/profile.md",
+      "sha256": "0ec6c62e22929b8b2b521231dcba1b81fbefe527b3ec92089017d6ddf5bd8a65"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/shortlist.json",
+      "sha256": "4dd1e4c457c23e3d6330996a60863e8b871ed5f0d4b3411ce436ffd40085d367"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/danielsson-ulf.json",
+      "sha256": "0beaf7064a95de42daacdbbe15249ec822e076fe71c9f27a453eef44a8c53e6a"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/eriksson-olle.json",
+      "sha256": "222639a3652a7030422d48372e3835e77c9d1f9326beecb69a29e19dda19c8dd"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/johansson-goran.json",
+      "sha256": "80aec3ec021813ee903ebc22c13f7aa53022260e478346a1a31afa97d8a4e9c8"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/kroll-stefan.json",
+      "sha256": "f66eef7a3dda1158aa506c3ef047ee17eb571db18ec89c5a2a075efbae9b21be"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/lindroth-eva.json",
+      "sha256": "bbb1abbbd8b1f7331309ec16a8c97e66e25559809c9fefea278edeb117462479"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/mehlig-bernhard.json",
+      "sha256": "f59cc18f35b7eac6e1c1bb0a75b0619c1536de96496a225e59143c730594310d"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/olsson-eva.json",
+      "sha256": "0f4a3a2657d0d3f678ad22a84a774a3adaf827b86e91074649c8e7472711807e"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/round1/pearce-mark.json",
+      "sha256": "d4e9f81fa5683116e41c919a50230d5dbd47f902d2bd843180063c5edd3b6a7f"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-05/chair_summary_round1.json",
+      "sha256": "530ef533b016129df0c891e43c88b872b9bf3d5fbe36163880ff38e8757da5d2"
+    }
+  ],
+  "thread_id": "01a0f829-42ef-7f12-979e-607ebc1c448a",
+  "usage": {
+    "input_tokens": 23047,
+    "cached_input_tokens": 6912,
+    "output_tokens": 1478,
+    "reasoning_tokens": null,
+    "total_tokens": 24525
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-01T15:51:20.895174Z"
+}

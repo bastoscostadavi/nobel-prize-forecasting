@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "committee_provider": "openai",
+  "committee_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "rule": {
+    "method": "instant runoff over exhaustive rankings",
+    "majority_votes": 5,
+    "elimination_order": [
+      "fewest current first-active preferences",
+      "fewest explicit round-2 supporters",
+      "lowest full-ballot Borda score",
+      "proposal_id ascending"
+    ],
+    "recusals": "disclosed but not adjudicated in this simulation"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "counts": {
+        "P000": 0,
+        "P001": 3,
+        "P002": 2,
+        "P003": 1,
+        "P004": 1,
+        "P005": 1
+      },
+      "eliminated": "P000",
+      "elimination_tie_break": {
+        "fewest_current_votes": 0,
+        "round2_explicit_supporters": 0,
+        "full_ballot_borda": 9,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 2,
+      "counts": {
+        "P001": 3,
+        "P002": 2,
+        "P003": 1,
+        "P004": 1,
+        "P005": 1
+      },
+      "eliminated": "P004",
+      "elimination_tie_break": {
+        "fewest_current_votes": 1,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 20,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 3,
+      "counts": {
+        "P001": 4,
+        "P002": 2,
+        "P003": 1,
+        "P005": 1
+      },
+      "eliminated": "P003",
+      "elimination_tie_break": {
+        "fewest_current_votes": 1,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 29,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 4,
+      "counts": {
+        "P001": 5,
+        "P002": 2,
+        "P005": 1
+      },
+      "eliminated": null
+    }
+  ],
+  "winner": {
+    "proposal_id": "P001",
+    "no_award": false,
+    "prize_parts": [
+      {
+        "ballot_id": "B050",
+        "candidate_id": "c03",
+        "discovery": "Invention and realization of optical lattice clocks",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ]
+      }
+    ]
+  }
+}

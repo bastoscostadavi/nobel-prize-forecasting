@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "mehlig-bernhard",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B037",
+        "laureates": [
+          "Christopher Jarzynski",
+          "Gavin E. Crooks",
+          "Udo Seifert"
+        ],
+        "citation": "For establishing fluctuation relations and stochastic thermodynamics far from equilibrium."
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Fluctuation relations give precise, testable links between microscopic dynamics and macroscopic thermodynamic behavior away from equilibrium. Jarzynski's equality, Crooks's relation, and Seifert's stochastic thermodynamics form a coherent, influential framework that has been examined in experiments and simulations and used across fields.",
+    "case_against": "The achievement is a sequence of related results rather than one sharply bounded discovery. Evans's earlier fluctuation theorem is foundational, and recognizing only three people risks obscuring that history and the framework's broader development.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson describes the defect-mediated melting and hexatic-phase theory as a deep, lasting framework, while noting that its attribution may simplify a broader history.",
+        "response": "I agree that B011 is a strong alternative: its central theory is mature and has endured decades of examination. The concern about its wider history is real, but the jointly developed core provides a relatively coherent prize claim. For B037, the distinct foundational results make the attribution problem harder to compress."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argues that quantum error correction made fault-tolerant computation principled despite the lack of large-scale fault-tolerant machines, and that the discovery is the error-correction principle itself.",
+        "response": "That distinction is persuasive: an important physical principle need not wait for its ultimate engineering endpoint. B008 remains a serious alternative, though its broad scope joins several advances whose boundaries and contributors require care. B037 also has a mature theoretical core, with experimental and simulation checks, and its thermodynamic claims are more directly testable."
+      }
+    ],
+    "uncertainties": [
+      "The relative place of Evans's earlier fluctuation theorem alongside Jarzynski's, Crooks's, and Seifert's contributions needs careful historical assessment."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

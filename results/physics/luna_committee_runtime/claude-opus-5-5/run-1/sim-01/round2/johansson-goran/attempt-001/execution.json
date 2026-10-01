@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-6-luna",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-johansson-goran-q5ryt63o",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-johansson-goran-q5ryt63o/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "e5ca0ffa1fe03cf3bf4b737cd7429c219573242db00756f8e7c59352a67c1d0b",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/johansson-goran/profile.md",
+      "sha256": "e2c2daf3c1cb38a19cace0235d84e28ea40f4e3f1eba9c95dfb2671efedbd6ac"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/shortlist.json",
+      "sha256": "eda599b2ad1d6bb3d75de7e1195b0c3c947f3a1a09678f678a31584e3752ae74"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/danielsson-ulf.json",
+      "sha256": "3c845c232000b05a79619dec25731b0362852329db081113d59db8d1cf8310e3"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/eriksson-olle.json",
+      "sha256": "b6ab7953d22f3d51f80ff2128b1c3e6f5d4985d930011daa9d61169947ddfb4c"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/johansson-goran.json",
+      "sha256": "b352f3f44a99765bcb11d5abf73e95b2c45cc65b3c011b1854397029bdcf14da"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/kroll-stefan.json",
+      "sha256": "ae84d561fd25ff10ef89241e0bb758415f5e4c7e59254692a9a335772522c367"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/lindroth-eva.json",
+      "sha256": "12377f29d389ad8b2d20b9fc1845ca5b83db5815f4f8db071508359a35311341"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/mehlig-bernhard.json",
+      "sha256": "4e031d986c7a2fd55a6be05c010bf6ccf05c809a021f28229b068a19ca1ef797"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/olsson-eva.json",
+      "sha256": "ed2867f41a67af83e1058d1adfffd042e36b6eba13081706fa0c167e659c3121"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/round1/pearce-mark.json",
+      "sha256": "dd3517366d67050746df30191eb4c68d488084b013ef2d685f0fa9009e82b6e4"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-1/committee/gpt-6-luna/sim-01/chair_summary_round1.json",
+      "sha256": "eada145de7b55b86bcc33eeed045071326b86390f9264e12151da3cf96ca751a"
+    }
+  ],
+  "thread_id": "01a0f7fa-b0c5-7b73-bd81-3e3d4059d114",
+  "usage": {
+    "input_tokens": 22625,
+    "cached_input_tokens": 6912,
+    "output_tokens": 1166,
+    "reasoning_tokens": null,
+    "total_tokens": 23791
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-01T15:00:38.721723Z"
+}

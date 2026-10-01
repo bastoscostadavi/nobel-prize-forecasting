@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "olsson-eva",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Federico Capasso",
+          "Jérôme Faist"
+        ],
+        "citation": "For the invention and first realization of the quantum cascade laser."
+      }
+    ]
+  },
+  "alternatives": [
+    "B010",
+    "B005"
+  ],
+  "statement": {
+    "case_for": "The quantum cascade laser is a distinct device invention: it uses engineered semiconductor subbands to produce coherent light without relying on interband transitions. Its working realization opened a useful mid-infrared and terahertz source range, and decades of reproducible development and use establish both the original result and its lasting value.",
+    "case_against": "The invention depended on sophisticated semiconductor heterostructure growth, and the division of credit among enabling materials expertise, the device concept, and the first working laser requires care. The prize case is strongest when the citation is confined to the specific laser invention and its first realization.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson favored Capasso and Faist for the specific invention and realization, while treating Cho's heterostructure work as important enabling background.",
+        "response": "I agree that the narrower attribution best follows the discovery being recognized. Cho's expertise and the growth capability were important, but the credited achievement here is the specific laser concept and its first realization; Capasso and Faist are the clearest pair for those roles."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson emphasized that Cho's heterostructure expertise and Capasso and Faist's conception and realization are central, and called for scrutiny of the boundary between enabling fabrication and invention.",
+        "response": "That boundary is decisive. The device depended on enabling heterostructure technology, but counting that foundation as a contribution to this particular invention risks broadening the prize beyond its specific original experiment. I would recognize the concept and first realization through Capasso and Faist, while preserving the distinction in the citation."
+      }
+    ],
+    "uncertainties": [
+      "The early publication and patent record should be checked to establish the precise division of conceptual and experimental roles in the first device."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

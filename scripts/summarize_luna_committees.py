@@ -11,6 +11,7 @@ import summarize_terra_committees as shared
 
 
 shared.MODEL = "gpt-6-luna"
+shared.COHORT_DIRECTORY = "gpt-6-luna"
 shared.REASONING = "high"
 shared.DISPLAY_NAME = "Luna"
 shared.ARM_ID = "physics-committee-gpt-6-luna-high-v1"

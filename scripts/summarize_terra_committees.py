@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results" / "physics"
 LIST_IDS = ("claude-opus-5-5", "gpt-6-sol")
 MODEL = "gpt-5.6-terra"
+COHORT_DIRECTORY = MODEL
 REASONING = "high"
 DISPLAY_NAME = "Terra"
 ARM_ID = "physics-committee-gpt-5.6-terra-high-v1"
@@ -40,7 +41,7 @@ def decision_paths() -> list[Path]:
         paths.extend(
             sorted(
                 (RESULTS / list_id).glob(
-                    f"run-*/committee/{MODEL}/sim-*/decision.json"
+                    f"run-*/committee/{COHORT_DIRECTORY}/sim-*/decision.json"
                 )
             )
         )
@@ -125,12 +126,22 @@ def build_summary() -> tuple[dict, list[dict]]:
             for names, keys in ranked
         ]
 
+    runtime_root = RESULTS / RUNTIME_DIRECTORY
     rejected = sorted(
         path.relative_to(ROOT).as_posix()
-        for path in (RESULTS / RUNTIME_DIRECTORY).glob(
-            "**/rejected-output.json"
-        )
+        for path in runtime_root.glob("**/rejected-output.json")
     )
+    execution_attempts = sorted(runtime_root.glob("**/execution.json"))
+    failed_attempts = [
+        path.relative_to(ROOT).as_posix()
+        for path in execution_attempts
+        if load_object(path).get("status") == "failed"
+    ]
+    accepted_attempts = [
+        path.relative_to(ROOT).as_posix()
+        for path in execution_attempts
+        if load_object(path).get("status") == "accepted"
+    ]
     summary = {
         "schema_version": 1,
         "arm_id": ARM_ID,
@@ -154,6 +165,10 @@ def build_summary() -> tuple[dict, list[dict]]:
         },
         "rejected_attempt_count": len(rejected),
         "rejected_attempt_paths": rejected,
+        "execution_attempt_count": len(execution_attempts),
+        "accepted_attempt_count": len(accepted_attempts),
+        "failed_attempt_count": len(failed_attempts),
+        "failed_attempt_paths": failed_attempts,
         "decisions": records,
     }
     return summary, records

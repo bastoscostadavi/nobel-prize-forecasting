@@ -82,6 +82,27 @@ won one. See `results/physics/terra_committee_summary.json` for aggregate
 counts and `results/physics/terra_committee_summary.csv` for one row per
 simulation.
 
+The GPT-6 Luna (`high`) sensitivity arm is also complete: 60/60 simulations
+validate, with every discussion, ballot, decision, accepted response, and
+failed/rejected attempt retained. Katori and Ye won 34 (56.7%), compared with
+59 (98.3%) under Terra. After normalizing three obvious saved-name variants,
+Luna produced 21 distinct winner configurations; Kane–Mele–Molenkamp and
+Berry–Aharonov were next at three wins each. The -41.7 percentage-point change
+is significant in both a simulation-level Fisher exact test
+(`p = 1.61e-8`) and an exact paired sign-flip test treating the 12 nomination
+runs as clusters (`p = 0.00195`). See
+`results/physics/luna_committee_summary.json` and
+`results/physics/openai_committee_model_comparison.md`. The two model arms use
+independent deterministic candidate-order shuffles, so this is a model-arm
+sensitivity comparison rather than an exact prompt-token pair.
+
+The Claude Sonnet 5.5 (`high`) committee arm is complete: 60/60 simulations
+validate. Katori–Ye won 52, Kane–Mele–Molenkamp won six, and
+MacDonald–Jarillo-Herrero–Bistritzer won two. All 30 committees using the
+GPT-drafted nomination lists selected Katori–Ye; the Claude-drafted lists
+produced the 22/6/2 split. See `results/physics/claude_committee_summary.json`
+and `results/physics/claude_committee_summary.csv`.
+
 The separate GPT-6.1 Sol baseline is also complete. All 60 accepted requests
 received only the fixed question in step 5 above. Its post-hoc transcription
 summary is in

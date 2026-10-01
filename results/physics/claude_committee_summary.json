@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "arm_id": "physics-committee-gpt-5.6-terra-high-v1",
+  "arm_id": "physics-committee-claude-sonnet-5-5-high-v1",
   "record_type": "committee_decision_summary",
-  "model": "gpt-5.6-terra",
+  "model": "claude-sonnet-5-5",
   "reasoning_effort": "high",
   "source_decision_count": 60,
   "expected_decision_count": 60,
@@ -17,32 +17,24 @@
         "Hidetoshi Katori",
         "Jun Ye"
       ],
-      "count": 59,
-      "share": 0.9833333333333333,
+      "count": 52,
+      "share": 0.8666666666666667,
       "simulation_keys": [
         "claude-opus-5-5/run-1/sim-01",
         "claude-opus-5-5/run-1/sim-02",
         "claude-opus-5-5/run-1/sim-03",
         "claude-opus-5-5/run-1/sim-04",
-        "claude-opus-5-5/run-1/sim-05",
         "claude-opus-5-5/run-2/sim-01",
         "claude-opus-5-5/run-2/sim-02",
         "claude-opus-5-5/run-2/sim-03",
         "claude-opus-5-5/run-2/sim-04",
         "claude-opus-5-5/run-2/sim-05",
-        "claude-opus-5-5/run-3/sim-01",
-        "claude-opus-5-5/run-3/sim-02",
-        "claude-opus-5-5/run-3/sim-03",
-        "claude-opus-5-5/run-3/sim-04",
-        "claude-opus-5-5/run-3/sim-05",
         "claude-opus-5-5/run-4/sim-01",
-        "claude-opus-5-5/run-4/sim-02",
         "claude-opus-5-5/run-4/sim-03",
         "claude-opus-5-5/run-4/sim-04",
         "claude-opus-5-5/run-4/sim-05",
         "claude-opus-5-5/run-5/sim-01",
         "claude-opus-5-5/run-5/sim-02",
-        "claude-opus-5-5/run-5/sim-03",
         "claude-opus-5-5/run-5/sim-04",
         "claude-opus-5-5/run-5/sim-05",
         "claude-opus-5-5/run-6/sim-01",
@@ -68,6 +60,7 @@
         "gpt-6-sol/run-4/sim-01",
         "gpt-6-sol/run-4/sim-02",
         "gpt-6-sol/run-4/sim-03",
+        "gpt-6-sol/run-4/sim-04",
         "gpt-6-sol/run-4/sim-05",
         "gpt-6-sol/run-5/sim-01",
         "gpt-6-sol/run-5/sim-02",
@@ -83,14 +76,32 @@
     },
     {
       "laureates": [
-        "Harald Rose",
-        "Maximilian Haider",
-        "Ondrej L. Krivanek"
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
       ],
-      "count": 1,
-      "share": 0.016666666666666666,
+      "count": 6,
+      "share": 0.1,
       "simulation_keys": [
-        "gpt-6-sol/run-4/sim-04"
+        "claude-opus-5-5/run-1/sim-05",
+        "claude-opus-5-5/run-3/sim-03",
+        "claude-opus-5-5/run-3/sim-04",
+        "claude-opus-5-5/run-3/sim-05",
+        "claude-opus-5-5/run-4/sim-02",
+        "claude-opus-5-5/run-5/sim-03"
+      ]
+    },
+    {
+      "laureates": [
+        "Allan H. MacDonald",
+        "Pablo Jarillo-Herrero",
+        "Rafi Bistritzer"
+      ],
+      "count": 2,
+      "share": 0.03333333333333333,
+      "simulation_keys": [
+        "claude-opus-5-5/run-3/sim-01",
+        "claude-opus-5-5/run-3/sim-02"
       ]
     }
   ],
@@ -101,32 +112,24 @@
           "Hidetoshi Katori",
           "Jun Ye"
         ],
-        "count": 30,
-        "share": 1.0,
+        "count": 22,
+        "share": 0.7333333333333333,
         "simulation_keys": [
           "claude-opus-5-5/run-1/sim-01",
           "claude-opus-5-5/run-1/sim-02",
           "claude-opus-5-5/run-1/sim-03",
           "claude-opus-5-5/run-1/sim-04",
-          "claude-opus-5-5/run-1/sim-05",
           "claude-opus-5-5/run-2/sim-01",
           "claude-opus-5-5/run-2/sim-02",
           "claude-opus-5-5/run-2/sim-03",
           "claude-opus-5-5/run-2/sim-04",
           "claude-opus-5-5/run-2/sim-05",
-          "claude-opus-5-5/run-3/sim-01",
-          "claude-opus-5-5/run-3/sim-02",
-          "claude-opus-5-5/run-3/sim-03",
-          "claude-opus-5-5/run-3/sim-04",
-          "claude-opus-5-5/run-3/sim-05",
           "claude-opus-5-5/run-4/sim-01",
-          "claude-opus-5-5/run-4/sim-02",
           "claude-opus-5-5/run-4/sim-03",
           "claude-opus-5-5/run-4/sim-04",
           "claude-opus-5-5/run-4/sim-05",
           "claude-opus-5-5/run-5/sim-01",
           "claude-opus-5-5/run-5/sim-02",
-          "claude-opus-5-5/run-5/sim-03",
           "claude-opus-5-5/run-5/sim-04",
           "claude-opus-5-5/run-5/sim-05",
           "claude-opus-5-5/run-6/sim-01",
@@ -134,6 +137,36 @@
           "claude-opus-5-5/run-6/sim-03",
           "claude-opus-5-5/run-6/sim-04",
           "claude-opus-5-5/run-6/sim-05"
+        ]
+      },
+      {
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "count": 6,
+        "share": 0.2,
+        "simulation_keys": [
+          "claude-opus-5-5/run-1/sim-05",
+          "claude-opus-5-5/run-3/sim-03",
+          "claude-opus-5-5/run-3/sim-04",
+          "claude-opus-5-5/run-3/sim-05",
+          "claude-opus-5-5/run-4/sim-02",
+          "claude-opus-5-5/run-5/sim-03"
+        ]
+      },
+      {
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "count": 2,
+        "share": 0.06666666666666667,
+        "simulation_keys": [
+          "claude-opus-5-5/run-3/sim-01",
+          "claude-opus-5-5/run-3/sim-02"
         ]
       }
     ],
@@ -143,8 +176,8 @@
           "Hidetoshi Katori",
           "Jun Ye"
         ],
-        "count": 29,
-        "share": 0.9666666666666667,
+        "count": 30,
+        "share": 1.0,
         "simulation_keys": [
           "gpt-6-sol/run-1/sim-01",
           "gpt-6-sol/run-1/sim-02",
@@ -164,6 +197,7 @@
           "gpt-6-sol/run-4/sim-01",
           "gpt-6-sol/run-4/sim-02",
           "gpt-6-sol/run-4/sim-03",
+          "gpt-6-sol/run-4/sim-04",
           "gpt-6-sol/run-4/sim-05",
           "gpt-6-sol/run-5/sim-01",
           "gpt-6-sol/run-5/sim-02",
@@ -176,47 +210,15 @@
           "gpt-6-sol/run-6/sim-04",
           "gpt-6-sol/run-6/sim-05"
         ]
-      },
-      {
-        "laureates": [
-          "Harald Rose",
-          "Maximilian Haider",
-          "Ondrej L. Krivanek"
-        ],
-        "count": 1,
-        "share": 0.03333333333333333,
-        "simulation_keys": [
-          "gpt-6-sol/run-4/sim-04"
-        ]
       }
     ]
   },
-  "rejected_attempt_count": 9,
-  "rejected_attempt_paths": [
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-1/sim-05/opening/mehlig-bernhard/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-2/sim-01/chair/pearce-mark/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-2/sim-05/opening/danielsson-ulf/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-4/sim-02/opening/eriksson-olle/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-6/sim-01/opening/danielsson-ulf/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-1/sim-01/round2/danielsson-ulf/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-1/sim-01/round2/johansson-goran/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-3/sim-05/opening/danielsson-ulf/attempt-001/rejected-output.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-6/sim-01/opening/pearce-mark/attempt-001/rejected-output.json"
-  ],
-  "execution_attempt_count": 1989,
-  "accepted_attempt_count": 1980,
-  "failed_attempt_count": 9,
-  "failed_attempt_paths": [
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-1/sim-05/opening/mehlig-bernhard/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-2/sim-01/chair/pearce-mark/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-2/sim-05/opening/danielsson-ulf/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-4/sim-02/opening/eriksson-olle/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/claude-opus-5-5/run-6/sim-01/opening/danielsson-ulf/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-1/sim-01/round2/danielsson-ulf/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-1/sim-01/round2/johansson-goran/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-3/sim-05/opening/danielsson-ulf/attempt-001/execution.json",
-    "results/physics/terra_committee_runtime/gpt-6-sol/run-6/sim-01/opening/pearce-mark/attempt-001/execution.json"
-  ],
+  "rejected_attempt_count": 0,
+  "rejected_attempt_paths": [],
+  "execution_attempt_count": 0,
+  "accepted_attempt_count": 0,
+  "failed_attempt_count": 0,
+  "failed_attempt_paths": [],
   "decisions": [
     {
       "simulation_key": "claude-opus-5-5/run-1/sim-01",
@@ -233,8 +235,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/gpt-5.6-terra/sim-01/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-1/sim-02",
@@ -251,8 +253,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-1/sim-03",
@@ -269,8 +271,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/gpt-5.6-terra/sim-03/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-1/sim-04",
@@ -287,8 +289,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/gpt-5.6-terra/sim-04/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-1/sim-05",
@@ -298,15 +300,16 @@
       "winner_proposal_id": "P001",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
       ],
       "discoveries": [
-        "Invention and realization of optical lattice clocks"
+        "Prediction and discovery of time-reversal-invariant topological insulators and the quantum spin Hall effect"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/gpt-5.6-terra/sim-05/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-1/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-2/sim-01",
@@ -323,8 +326,8 @@
         "Optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/gpt-5.6-terra/sim-01/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-2/sim-02",
@@ -341,8 +344,8 @@
         "Optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-2/sim-03",
@@ -359,8 +362,8 @@
         "Optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/gpt-5.6-terra/sim-03/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-2/sim-04",
@@ -378,7 +381,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/gpt-5.6-terra/sim-04/decision.json"
+      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-2/sim-05",
@@ -395,8 +398,8 @@
         "Optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/gpt-5.6-terra/sim-05/decision.json"
+      "winning_votes": 7,
+      "decision_path": "results/physics/claude-opus-5-5/run-2/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-3/sim-01",
@@ -406,15 +409,16 @@
       "winner_proposal_id": "P001",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Allan H. MacDonald",
+        "Pablo Jarillo-Herrero",
+        "Rafi Bistritzer"
       ],
       "discoveries": [
-        "Optical lattice atomic clocks"
+        "Magic-angle twisted bilayer graphene: flat bands, correlated insulators and superconductivity"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/gpt-5.6-terra/sim-01/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-3/sim-02",
@@ -424,33 +428,35 @@
       "winner_proposal_id": "P001",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Allan H. MacDonald",
+        "Pablo Jarillo-Herrero",
+        "Rafi Bistritzer"
       ],
       "discoveries": [
-        "Optical lattice atomic clocks"
+        "Magic-angle twisted bilayer graphene: flat bands, correlated insulators and superconductivity"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-3/sim-03",
       "nominator_list_id": "claude-opus-5-5",
       "run": 3,
       "simulation_id": "sim-03",
-      "winner_proposal_id": "P001",
+      "winner_proposal_id": "P002",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
       ],
       "discoveries": [
-        "Optical lattice atomic clocks"
+        "Topological insulators and the quantum spin Hall effect"
       ],
-      "decisive_round": 1,
-      "winning_votes": 6,
-      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/gpt-5.6-terra/sim-03/decision.json"
+      "decisive_round": 3,
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-3/sim-04",
@@ -460,15 +466,16 @@
       "winner_proposal_id": "P001",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
       ],
       "discoveries": [
-        "Optical lattice atomic clocks"
+        "Topological insulators and the quantum spin Hall effect"
       ],
-      "decisive_round": 3,
-      "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/gpt-5.6-terra/sim-04/decision.json"
+      "decisive_round": 1,
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-3/sim-05",
@@ -478,22 +485,23 @@
       "winner_proposal_id": "P001",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
       ],
       "discoveries": [
-        "Optical lattice atomic clocks"
+        "Topological insulators and the quantum spin Hall effect"
       ],
-      "decisive_round": 4,
+      "decisive_round": 1,
       "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/gpt-5.6-terra/sim-05/decision.json"
+      "decision_path": "results/physics/claude-opus-5-5/run-3/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-4/sim-01",
       "nominator_list_id": "claude-opus-5-5",
       "run": 4,
       "simulation_id": "sim-01",
-      "winner_proposal_id": "P001",
+      "winner_proposal_id": "P002",
       "no_award": false,
       "laureates": [
         "Hidetoshi Katori",
@@ -502,27 +510,28 @@
       "discoveries": [
         "Optical lattice atomic clocks"
       ],
-      "decisive_round": 1,
+      "decisive_round": 3,
       "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/gpt-5.6-terra/sim-01/decision.json"
+      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-4/sim-02",
       "nominator_list_id": "claude-opus-5-5",
       "run": 4,
       "simulation_id": "sim-02",
-      "winner_proposal_id": "P001",
+      "winner_proposal_id": "P002",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
       ],
       "discoveries": [
-        "Optical lattice atomic clocks"
+        "Topological insulators and quantum spin Hall effect"
       ],
-      "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/gpt-5.6-terra/sim-02/decision.json"
+      "decisive_round": 3,
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-4/sim-03",
@@ -539,8 +548,8 @@
         "Optical lattice atomic clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/gpt-5.6-terra/sim-03/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-4/sim-04",
@@ -558,7 +567,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/gpt-5.6-terra/sim-04/decision.json"
+      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-4/sim-05",
@@ -575,8 +584,8 @@
         "Optical lattice atomic clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/gpt-5.6-terra/sim-05/decision.json"
+      "winning_votes": 5,
+      "decision_path": "results/physics/claude-opus-5-5/run-4/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-5/sim-01",
@@ -594,7 +603,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/gpt-5.6-terra/sim-01/decision.json"
+      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-5/sim-02",
@@ -611,8 +620,8 @@
         "Optical lattice atomic clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 7,
+      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-5/sim-03",
@@ -622,22 +631,23 @@
       "winner_proposal_id": "P001",
       "no_award": false,
       "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
       ],
       "discoveries": [
-        "Optical lattice atomic clocks"
+        "Topological insulators and quantum spin Hall effect"
       ],
-      "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/gpt-5.6-terra/sim-03/decision.json"
+      "decisive_round": 3,
+      "winning_votes": 5,
+      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-5/sim-04",
       "nominator_list_id": "claude-opus-5-5",
       "run": 5,
       "simulation_id": "sim-04",
-      "winner_proposal_id": "P001",
+      "winner_proposal_id": "P002",
       "no_award": false,
       "laureates": [
         "Hidetoshi Katori",
@@ -646,9 +656,9 @@
       "discoveries": [
         "Optical lattice atomic clocks"
       ],
-      "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/gpt-5.6-terra/sim-04/decision.json"
+      "decisive_round": 3,
+      "winning_votes": 5,
+      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-5/sim-05",
@@ -665,8 +675,8 @@
         "Optical lattice atomic clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/gpt-5.6-terra/sim-05/decision.json"
+      "winning_votes": 5,
+      "decision_path": "results/physics/claude-opus-5-5/run-5/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-6/sim-01",
@@ -684,14 +694,14 @@
       ],
       "decisive_round": 1,
       "winning_votes": 8,
-      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-01/decision.json"
+      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-6/sim-02",
       "nominator_list_id": "claude-opus-5-5",
       "run": 6,
       "simulation_id": "sim-02",
-      "winner_proposal_id": "P001",
+      "winner_proposal_id": "P003",
       "no_award": false,
       "laureates": [
         "Hidetoshi Katori",
@@ -700,9 +710,9 @@
       "discoveries": [
         "Optical lattice atomic clocks at 10^-18 precision"
       ],
-      "decisive_round": 1,
-      "winning_votes": 6,
-      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-02/decision.json"
+      "decisive_round": 6,
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-6/sim-03",
@@ -718,9 +728,9 @@
       "discoveries": [
         "Optical lattice atomic clocks at 10^-18 precision"
       ],
-      "decisive_round": 1,
-      "winning_votes": 6,
-      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-03/decision.json"
+      "decisive_round": 3,
+      "winning_votes": 5,
+      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-6/sim-04",
@@ -737,8 +747,8 @@
         "Optical lattice atomic clocks at 10^-18 precision"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-04/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "claude-opus-5-5/run-6/sim-05",
@@ -755,8 +765,8 @@
         "Optical lattice atomic clocks at 10^-18 precision"
       ],
       "decisive_round": 1,
-      "winning_votes": 6,
-      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/claude-opus-5-5/run-6/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-1/sim-01",
@@ -772,9 +782,9 @@
       "discoveries": [
         "Optical lattice clocks"
       ],
-      "decisive_round": 7,
+      "decisive_round": 1,
       "winning_votes": 8,
-      "decision_path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-01/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-1/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-1/sim-02",
@@ -790,9 +800,9 @@
       "discoveries": [
         "Optical lattice clocks"
       ],
-      "decisive_round": 3,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-02/decision.json"
+      "decisive_round": 1,
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-1/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-1/sim-03",
@@ -809,8 +819,8 @@
         "Optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 6,
-      "decision_path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-03/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-1/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-1/sim-04",
@@ -826,9 +836,9 @@
       "discoveries": [
         "Optical lattice clocks"
       ],
-      "decisive_round": 1,
-      "winning_votes": 6,
-      "decision_path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-04/decision.json"
+      "decisive_round": 3,
+      "winning_votes": 5,
+      "decision_path": "results/physics/gpt-6-sol/run-1/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-1/sim-05",
@@ -845,8 +855,8 @@
         "Optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-1/committee/gpt-5.6-terra/sim-05/decision.json"
+      "winning_votes": 7,
+      "decision_path": "results/physics/gpt-6-sol/run-1/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-2/sim-01",
@@ -864,7 +874,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-2/committee/gpt-5.6-terra/sim-01/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-2/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-2/sim-02",
@@ -881,8 +891,8 @@
         "Optical lattice atomic clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-2/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 7,
+      "decision_path": "results/physics/gpt-6-sol/run-2/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-2/sim-03",
@@ -900,7 +910,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-2/committee/gpt-5.6-terra/sim-03/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-2/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-2/sim-04",
@@ -916,9 +926,9 @@
       "discoveries": [
         "Optical lattice atomic clocks"
       ],
-      "decisive_round": 4,
+      "decisive_round": 3,
       "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-2/committee/gpt-5.6-terra/sim-04/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-2/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-2/sim-05",
@@ -936,7 +946,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 8,
-      "decision_path": "results/physics/gpt-6-sol/run-2/committee/gpt-5.6-terra/sim-05/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-2/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-3/sim-01",
@@ -953,8 +963,8 @@
         "Invention and development of the optical lattice clock"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-3/committee/gpt-5.6-terra/sim-01/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-3/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-3/sim-02",
@@ -971,8 +981,8 @@
         "Invention and development of the optical lattice clock"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-3/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-3/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-3/sim-03",
@@ -988,9 +998,9 @@
       "discoveries": [
         "Invention and development of the optical lattice clock"
       ],
-      "decisive_round": 3,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-3/committee/gpt-5.6-terra/sim-03/decision.json"
+      "decisive_round": 1,
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-3/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-3/sim-04",
@@ -1007,8 +1017,8 @@
         "Invention and development of the optical lattice clock"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-3/committee/gpt-5.6-terra/sim-04/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-3/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-3/sim-05",
@@ -1025,8 +1035,8 @@
         "Invention and development of the optical lattice clock"
       ],
       "decisive_round": 1,
-      "winning_votes": 8,
-      "decision_path": "results/physics/gpt-6-sol/run-3/committee/gpt-5.6-terra/sim-05/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/gpt-6-sol/run-3/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-4/sim-01",
@@ -1043,8 +1053,8 @@
         "Optical lattice atomic clocks at 10^-18 precision"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-4/committee/gpt-5.6-terra/sim-01/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-4/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-4/sim-02",
@@ -1060,52 +1070,15 @@
       "discoveries": [
         "Optical lattice atomic clocks at 10^-18 precision"
       ],
-      "decisive_round": 6,
-      "winning_votes": 6,
-      "decision_path": "results/physics/gpt-6-sol/run-4/committee/gpt-5.6-terra/sim-02/decision.json"
+      "decisive_round": 1,
+      "winning_votes": 5,
+      "decision_path": "results/physics/gpt-6-sol/run-4/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-4/sim-03",
       "nominator_list_id": "gpt-6-sol",
       "run": 4,
       "simulation_id": "sim-03",
-      "winner_proposal_id": "P001",
-      "no_award": false,
-      "laureates": [
-        "Hidetoshi Katori",
-        "Jun Ye"
-      ],
-      "discoveries": [
-        "Optical lattice atomic clocks at 10^-18 precision"
-      ],
-      "decisive_round": 4,
-      "winning_votes": 6,
-      "decision_path": "results/physics/gpt-6-sol/run-4/committee/gpt-5.6-terra/sim-03/decision.json"
-    },
-    {
-      "simulation_key": "gpt-6-sol/run-4/sim-04",
-      "nominator_list_id": "gpt-6-sol",
-      "run": 4,
-      "simulation_id": "sim-04",
-      "winner_proposal_id": "P001",
-      "no_award": false,
-      "laureates": [
-        "Harald Rose",
-        "Maximilian Haider",
-        "Ondrej L. Krivanek"
-      ],
-      "discoveries": [
-        "Aberration correction in electron optics, enabling sub-ångström transmission and scanning transmission electron microscopy"
-      ],
-      "decisive_round": 4,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-4/committee/gpt-5.6-terra/sim-04/decision.json"
-    },
-    {
-      "simulation_key": "gpt-6-sol/run-4/sim-05",
-      "nominator_list_id": "gpt-6-sol",
-      "run": 4,
-      "simulation_id": "sim-05",
       "winner_proposal_id": "P002",
       "no_award": false,
       "laureates": [
@@ -1115,9 +1088,45 @@
       "discoveries": [
         "Optical lattice atomic clocks at 10^-18 precision"
       ],
-      "decisive_round": 5,
+      "decisive_round": 3,
       "winning_votes": 8,
-      "decision_path": "results/physics/gpt-6-sol/run-4/committee/gpt-5.6-terra/sim-05/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-4/committee/claude/sim-03/decision.json"
+    },
+    {
+      "simulation_key": "gpt-6-sol/run-4/sim-04",
+      "nominator_list_id": "gpt-6-sol",
+      "run": 4,
+      "simulation_id": "sim-04",
+      "winner_proposal_id": "P001",
+      "no_award": false,
+      "laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "discoveries": [
+        "Optical lattice atomic clocks at 10^-18 precision"
+      ],
+      "decisive_round": 1,
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-4/committee/claude/sim-04/decision.json"
+    },
+    {
+      "simulation_key": "gpt-6-sol/run-4/sim-05",
+      "nominator_list_id": "gpt-6-sol",
+      "run": 4,
+      "simulation_id": "sim-05",
+      "winner_proposal_id": "P001",
+      "no_award": false,
+      "laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "discoveries": [
+        "Optical lattice atomic clocks at 10^-18 precision"
+      ],
+      "decisive_round": 1,
+      "winning_votes": 6,
+      "decision_path": "results/physics/gpt-6-sol/run-4/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-5/sim-01",
@@ -1135,7 +1144,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 8,
-      "decision_path": "results/physics/gpt-6-sol/run-5/committee/gpt-5.6-terra/sim-01/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-5/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-5/sim-02",
@@ -1152,8 +1161,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-5/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-5/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-5/sim-03",
@@ -1170,8 +1179,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-5/committee/gpt-5.6-terra/sim-03/decision.json"
+      "winning_votes": 6,
+      "decision_path": "results/physics/gpt-6-sol/run-5/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-5/sim-04",
@@ -1188,8 +1197,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-5/committee/gpt-5.6-terra/sim-04/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-5/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-5/sim-05",
@@ -1205,9 +1214,9 @@
       "discoveries": [
         "Invention and realization of optical lattice clocks"
       ],
-      "decisive_round": 6,
-      "winning_votes": 6,
-      "decision_path": "results/physics/gpt-6-sol/run-5/committee/gpt-5.6-terra/sim-05/decision.json"
+      "decisive_round": 1,
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-5/committee/claude/sim-05/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-6/sim-01",
@@ -1225,7 +1234,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-6/committee/gpt-5.6-terra/sim-01/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-6/committee/claude/sim-01/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-6/sim-02",
@@ -1242,8 +1251,8 @@
         "Invention and realization of optical lattice clocks"
       ],
       "decisive_round": 1,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-6/committee/gpt-5.6-terra/sim-02/decision.json"
+      "winning_votes": 8,
+      "decision_path": "results/physics/gpt-6-sol/run-6/committee/claude/sim-02/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-6/sim-03",
@@ -1259,9 +1268,9 @@
       "discoveries": [
         "Invention and realization of optical lattice clocks"
       ],
-      "decisive_round": 3,
-      "winning_votes": 5,
-      "decision_path": "results/physics/gpt-6-sol/run-6/committee/gpt-5.6-terra/sim-03/decision.json"
+      "decisive_round": 1,
+      "winning_votes": 7,
+      "decision_path": "results/physics/gpt-6-sol/run-6/committee/claude/sim-03/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-6/sim-04",
@@ -1279,7 +1288,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 8,
-      "decision_path": "results/physics/gpt-6-sol/run-6/committee/gpt-5.6-terra/sim-04/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-6/committee/claude/sim-04/decision.json"
     },
     {
       "simulation_key": "gpt-6-sol/run-6/sim-05",
@@ -1297,7 +1306,7 @@
       ],
       "decisive_round": 1,
       "winning_votes": 7,
-      "decision_path": "results/physics/gpt-6-sol/run-6/committee/gpt-5.6-terra/sim-05/decision.json"
+      "decision_path": "results/physics/gpt-6-sol/run-6/committee/claude/sim-05/decision.json"
     }
   ]
 }

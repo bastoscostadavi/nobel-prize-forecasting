@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "record_type": "committee_model_sensitivity_comparison",
+  "comparison": "GPT-6 Luna high versus GPT-5.6 Terra high",
+  "target_configuration": [
+    "Hidetoshi Katori",
+    "Jun Ye"
+  ],
+  "name_aliases_used_for_comparison": {
+    "Max Haider": "Maximilian Haider",
+    "Michael V. Berry": "Michael Berry",
+    "Tejinder S. Virdee": "Tejinder Virdee"
+  },
+  "terra": {
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "high",
+    "n": 60,
+    "katori_ye_count": 59,
+    "katori_ye_share": 0.9833333333333333,
+    "katori_ye_wilson_95": [
+      0.9114487027240993,
+      0.9970518402052136
+    ],
+    "distinct_winner_configurations": 2,
+    "winner_entropy_bits": 0.1222915970693747
+  },
+  "luna": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "high",
+    "n": 60,
+    "katori_ye_count": 34,
+    "katori_ye_share": 0.5666666666666667,
+    "katori_ye_wilson_95": [
+      0.44103438776125564,
+      0.6842760319531324
+    ],
+    "distinct_winner_configurations": 21,
+    "winner_entropy_bits": 2.798832068827877
+  },
+  "effect": {
+    "katori_ye_share_difference_luna_minus_terra": -0.41666666666666663,
+    "katori_ye_odds_ratio_luna_vs_terra": 0.02216427640156454,
+    "total_variation_distance_all_winners": 0.41666666666666663
+  },
+  "tests": {
+    "simulation_level_fisher_exact_two_sided": {
+      "table_luna_then_terra_success_failure": [
+        [
+          34,
+          26
+        ],
+        [
+          59,
+          1
+        ]
+      ],
+      "p_value": 1.6122406140105242e-08,
+      "note": "Treats the 60 simulations in each arm as independent."
+    },
+    "nomination_run_cluster_paired_sign_flip_two_sided": {
+      "nonzero_clusters": 10,
+      "observed_sum_of_luna_minus_terra_counts": -25,
+      "permutation_count": 1024,
+      "extreme_permutation_count": 2,
+      "p_value_two_sided": 0.001953125
+    }
+  },
+  "significant_at_0_05_under_both_tests": true,
+  "interpretation": "The committee-model substitution materially changes the simulated winner distribution.",
+  "winner_configuration_counts": [
+    {
+      "laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "terra_count": 59,
+      "luna_count": 34
+    },
+    {
+      "laureates": [
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
+      ],
+      "terra_count": 0,
+      "luna_count": 3
+    },
+    {
+      "laureates": [
+        "Michael Berry",
+        "Yakir Aharonov"
+      ],
+      "terra_count": 0,
+      "luna_count": 3
+    },
+    {
+      "laureates": [
+        "Alexei Kitaev",
+        "Andrew M. Steane",
+        "Peter W. Shor"
+      ],
+      "terra_count": 0,
+      "luna_count": 2
+    },
+    {
+      "laureates": [
+        "Harald Rose",
+        "Maximilian Haider",
+        "Ondrej L. Krivanek"
+      ],
+      "terra_count": 1,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Michel Della Negra",
+        "Peter Jenni",
+        "Tejinder Virdee"
+      ],
+      "terra_count": 0,
+      "luna_count": 2
+    },
+    {
+      "laureates": [
+        "Alessandra Buonanno",
+        "Frans Pretorius",
+        "Thibault Damour"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Alexander A. Belavin",
+        "Alexander B. Zamolodchikov",
+        "Alexander M. Polyakov"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Alexandre Blais",
+        "Andreas Wallraff",
+        "Robert J. Schoelkopf"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Alfred Y. Cho",
+        "Federico Capasso",
+        "Jérôme Faist"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Artur K. Ekert",
+        "Charles H. Bennett",
+        "Gilles Brassard"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Bart J. van Wees",
+        "David A. Wharam"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Chang C. Tsuei",
+        "Dale J. Van Harlingen",
+        "John R. Kirtley"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Charles L. Bennett",
+        "David N. Spergel",
+        "Lyman A. Page Jr."
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Christophe Salomon",
+        "John E. Thomas",
+        "Rudolf Grimm"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Eli Yablonovitch",
+        "John D. Joannopoulos",
+        "Sajeev John"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Frans Pretorius",
+        "John G. Baker",
+        "Manuela Campanelli"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Harald Rose",
+        "Knut Urban",
+        "Maximilian Haider"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Jocelyn Bell Burnell"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Juan Ignacio Cirac",
+        "Peter Zoller",
+        "Rainer Blatt"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    },
+    {
+      "laureates": [
+        "Peter F. Moulton",
+        "Ursula Keller",
+        "Wilson Sibbett"
+      ],
+      "terra_count": 0,
+      "luna_count": 1
+    }
+  ],
+  "nomination_run_cluster_counts": [
+    {
+      "nominator_list_id": "claude-opus-5-5",
+      "run": 1,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 5,
+      "luna_minus_terra": 0
+    },
+    {
+      "nominator_list_id": "claude-opus-5-5",
+      "run": 2,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 3,
+      "luna_minus_terra": -2
+    },
+    {
+      "nominator_list_id": "claude-opus-5-5",
+      "run": 3,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 4,
+      "luna_minus_terra": -1
+    },
+    {
+      "nominator_list_id": "claude-opus-5-5",
+      "run": 4,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 4,
+      "luna_minus_terra": -1
+    },
+    {
+      "nominator_list_id": "claude-opus-5-5",
+      "run": 5,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 2,
+      "luna_minus_terra": -3
+    },
+    {
+      "nominator_list_id": "claude-opus-5-5",
+      "run": 6,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 0,
+      "luna_minus_terra": -5
+    },
+    {
+      "nominator_list_id": "gpt-6-sol",
+      "run": 1,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 2,
+      "luna_minus_terra": -3
+    },
+    {
+      "nominator_list_id": "gpt-6-sol",
+      "run": 2,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 1,
+      "luna_minus_terra": -4
+    },
+    {
+      "nominator_list_id": "gpt-6-sol",
+      "run": 3,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 3,
+      "luna_minus_terra": -2
+    },
+    {
+      "nominator_list_id": "gpt-6-sol",
+      "run": 4,
+      "terra_katori_ye_wins": 4,
+      "luna_katori_ye_wins": 1,
+      "luna_minus_terra": -3
+    },
+    {
+      "nominator_list_id": "gpt-6-sol",
+      "run": 5,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 4,
+      "luna_minus_terra": -1
+    },
+    {
+      "nominator_list_id": "gpt-6-sol",
+      "run": 6,
+      "terra_katori_ye_wins": 5,
+      "luna_katori_ye_wins": 5,
+      "luna_minus_terra": 0
+    }
+  ],
+  "method_note": "The binary tests compare Katori–Ye with all other saved winner configurations. Fisher's exact test is simulation-level; the exact paired sign-flip test treats each of the 12 shared nomination runs as a cluster. Model arms use separate deterministic seed namespaces, so candidate-order shuffles are independent rather than position-matched. This is a sensitivity analysis of stochastic simulations, not evidence about the real Nobel committee's sampling distribution."
+}

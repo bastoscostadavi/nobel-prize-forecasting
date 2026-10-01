@@ -18,6 +18,11 @@ LUNA_PATH = RESULTS / "luna_committee_summary.json"
 OUTPUT_JSON = RESULTS / "openai_committee_model_comparison.json"
 OUTPUT_MD = RESULTS / "openai_committee_model_comparison.md"
 TARGET = ("Hidetoshi Katori", "Jun Ye")
+NAME_ALIASES = {
+    "Max Haider": "Maximilian Haider",
+    "Michael V. Berry": "Michael Berry",
+    "Tejinder S. Virdee": "Tejinder Virdee",
+}
 EXPECTED_N = 60
 EXPECTED_CLUSTERS = 12
 
@@ -32,7 +37,7 @@ def load(path: Path) -> dict:
 
 
 def configuration(record: dict) -> tuple[str, ...]:
-    return tuple(record["laureates"])
+    return tuple(sorted(NAME_ALIASES.get(name, name) for name in record["laureates"]))
 
 
 def wilson(successes: int, total: int, z: float = 1.959963984540054) -> list[float]:
@@ -179,6 +184,7 @@ def main() -> None:
         "record_type": "committee_model_sensitivity_comparison",
         "comparison": "GPT-6 Luna high versus GPT-5.6 Terra high",
         "target_configuration": list(TARGET),
+        "name_aliases_used_for_comparison": NAME_ALIASES,
         "terra": public_arm(terra),
         "luna": public_arm(luna),
         "effect": {
@@ -208,8 +214,10 @@ def main() -> None:
             "The binary tests compare Katori–Ye with all other saved winner "
             "configurations. Fisher's exact test is simulation-level; the exact "
             "paired sign-flip test treats each of the 12 shared nomination runs as "
-            "a cluster. This is a sensitivity analysis of stochastic simulations, "
-            "not evidence about the real Nobel committee's sampling distribution."
+            "a cluster. Model arms use separate deterministic seed namespaces, so "
+            "candidate-order shuffles are independent rather than position-matched. "
+            "This is a sensitivity analysis of stochastic simulations, not evidence "
+            "about the real Nobel committee's sampling distribution."
         ),
     }
     OUTPUT_JSON.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -217,7 +225,8 @@ def main() -> None:
     rows = [
         "# OpenAI committee-model sensitivity comparison",
         "",
-        "The nomination lists, personas, protocol, evidence boundary, and five-simulation allocation are fixed. Only the committee model changes.",
+        "The nomination lists, personas, substantive protocol, evidence boundary, and five-simulation allocation are fixed. The model arms use independent deterministic candidate-order shuffles, so this is a model-arm sensitivity comparison rather than an exact prompt-token pair.",
+        "Obvious saved-name variants are normalized for this comparison; the raw arm summaries retain the exact saved strings.",
         "",
         "| Committee model | Katori–Ye wins | Share | Wilson 95% CI | Distinct winners | Entropy (bits) |",
         "|---|---:|---:|---:|---:|---:|",

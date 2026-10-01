@@ -18,7 +18,7 @@ five independent full committee simulations per run.
 
 | Arm | Model | Reasoning | Simulations per nomination run | Total |
 |---|---|---:|---:|---:|
-| Claude committee | actual Claude runtime model, recorded per artifact | actual runtime setting | 5 | 60 |
+| Claude committee | `claude-sonnet-5-5` | `high` | 5 | 60 |
 | OpenAI committee | `gpt-5.6-terra` | `high` | 5 | 60 |
 
 This paired allocation yields 120 full committee simulations. It prevents
@@ -62,10 +62,14 @@ exact `gpt-6-luna` identifier supports `high` reasoning:
 https://developers.openai.com/api/docs/models/gpt-6-luna
 
 The arm contains five independent Luna committees for every one of the same 12
-nomination runs, for 60 additional full simulations. It changes only the model:
-candidate inputs, committee personas, evidence boundaries, prompts, shortlist
-rule, discussion structure, proposal construction, and instant-runoff rule are
-held fixed. Its output roots are:
+nomination runs, for 60 additional full simulations. Candidate inputs,
+committee personas, evidence boundaries, substantive prompt instructions,
+shortlist rule, discussion structure, proposal construction, and instant-runoff
+rule are held fixed. Each model arm has its own deterministic seed namespace,
+so the hidden ballot codes and shuffled candidate order are independent
+realizations rather than position-matched pairs. This is a model-arm
+sensitivity comparison over randomized order, not an exact prompt-token pair.
+Its output roots are:
 
 ```text
 results/physics/<list-id>/run-<n>/committee/gpt-6-luna/sim-01..05/
@@ -91,22 +95,25 @@ simulation.
 
 ## Counts and comparisons
 
-The design produces 180 outputs in total:
+The complete design produces 240 outputs in total:
 
 - 60 full Claude committee simulations;
-- 60 full GPT-5.6 Terra committee simulations; and
+- 60 full GPT-5.6 Terra committee simulations;
+- 60 full GPT-6 Luna sensitivity committee simulations; and
 - 60 GPT-6.1 Sol zero-context one-shot predictions.
 
-The 120 committee simulations and 60 one-shot predictions are distinct
-experimental arms. Primary committee comparisons should preserve the paired
-structure by nomination run. The Sol baseline is analyzed only as a global
-comparison distribution; it has no valid run-level pairing.
+The 180 committee simulations and 60 one-shot predictions are distinct
+experimental arms. Primary committee comparisons should preserve the shared
+nomination-run structure. The Sol baseline is analyzed only as a global
+comparison distribution; it has no valid run-level pairing. Terra versus Luna
+comparisons must also disclose that the two arms use independent deterministic
+candidate-order shuffles rather than position-matched ballot codes.
 
 ## Legacy pilot outputs
 
 Six earlier flat committee simulations under the run-level `committee/`
 directories used GPT-6.1 Sol. Preserve them as legacy/pilot records. They are
-excluded from all three primary arms, must not be relabeled as GPT-5.6 Terra,
+excluded from all four analysis arms, must not be relabeled as GPT-5.6 Terra,
 and must not be used as evidence by a new simulation.
 
 ## Reproducibility metadata

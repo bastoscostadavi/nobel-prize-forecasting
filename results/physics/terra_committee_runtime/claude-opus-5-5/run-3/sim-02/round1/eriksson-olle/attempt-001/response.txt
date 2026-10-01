@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "for dynamical mean-field theory of strongly correlated electrons"
+      }
+    ]
+  },
+  "alternatives": [
+    "B043",
+    "B004"
+  ],
+  "statement": {
+    "case_for": "DMFT supplied a durable, broadly reproducible framework that made key aspects of correlated-electron materials quantitatively tractable. Its importance is not only methodological: it has connected many-body electronic structure to measured spectra and material behavior over decades. The proposed three names provide a defensible compact account of the foundational limit, formulation, and operational development.",
+    "case_against": "The strongest reservation, emphasized by Mehlig, is that DMFT is a controlled approximation only in particular limits and may be viewed as a powerful method rather than a single discovery. The historical division of foundational credit among early and later contributors also requires careful archival review.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked B007 highly but questioned whether a method with limitations outside its controlled regimes is prize-worthy as a discovery.",
+        "response": "This is a serious qualification. I nevertheless consider the self-consistent local quantum description and its successful, reproducible confrontation with correlated-material experiments a sufficiently distinct physical advance. The citation should remain narrowly framed around the theory, not claim exact treatment of all correlated systems."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argued that B043 has exceptional maturity, with independently reproducible optical lattice clocks and a compact attribution to Katori and Ye.",
+        "response": "I agree that B043 is an exceptionally strong alternative and that its maturity is unusually clear. Its remaining question is the boundary between the magic-wavelength concept, realization, and the wider optical-clock lineage; this does not weaken its merits, but makes it slightly less compelling to me than DMFT's foundational transformation of correlated-materials theory."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson emphasized B001 as a deeply mature quantum-phase achievement, while noting that the Aharonov-Bohm effect and Berry phase arose in distinct historical settings.",
+        "response": "I share the high regard for these effects, especially their reach into condensed matter. The need to establish a single coherent prize discovery across the two effects remains a real framing issue, so I retain B007 as the more sharply bounded proposal."
+      }
+    ],
+    "uncertainties": [
+      "Whether the historical record supports precisely these three names as the most appropriate compact attribution for foundational DMFT.",
+      "Whether the committee judges a mature theoretical framework and method to meet the required threshold as a discovery."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

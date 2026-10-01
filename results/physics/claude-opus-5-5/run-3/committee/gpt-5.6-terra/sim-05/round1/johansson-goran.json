@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B033",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "for establishing circuit quantum electrodynamics with superconducting artificial atoms"
+      }
+    ]
+  },
+  "alternatives": [
+    "B035",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made the coupling of a single artificial atom to quantized microwave fields a clean, controllable, and reproducible experimental reality. Blais's dispersive framework and the Wallraff-Schoelkopf experimental breakthrough form a compact theory-experiment achievement that opened a distinct regime of microwave quantum optics, rather than merely an application programme. Its broad replication and centrality to modern quantum measurement give it the maturity required for recognition.",
+    "case_against": "The boundary between circuit QED and the wider development of superconducting quantum circuits, including achievements already recognized in 2025, must be drawn with great care. Credit in this extensive field may also be harder to contain than the three names suggest.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Optical lattice clocks are exceptionally mature, independently reproduced, and clearly attributable to Katori's concept and Ye's experimental leadership.",
+        "response": "I agree that B035 is a very strong alternative with unusually clear attribution. I retain B033 because it established a new quantum-optical platform and a direct means to observe and control light-matter interaction on a superconducting chip; unlike the prospective applications of ever-better clocks, that physical regime itself is already decisively established."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Trapped ions supply a clean, controllable and experimentally mature route to quantum computation and simulation, although scalable fault tolerance remains unfinished.",
+        "response": "That qualification is important. B012 has demonstrated remarkable control, but its prize boundary overlaps a broad quantum-information architecture and has crowded foundational credit. Circuit QED has a more sharply identifiable foundational phenomenon and attribution, provided its distinction from the broader superconducting-circuit revolution is maintained."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Optical lattice clocks have attained outstanding precision, but their ultimate fundamental impact may still depend on future geodesy and tests beyond present demonstrations.",
+        "response": "I share this caution: technical performance alone is not the discovery to reward. It reinforces my preference for B033, whose core discovery is the experimentally accessible, coherent quantum-optical regime rather than a promise of future quantum computing."
+      }
+    ],
+    "uncertainties": [
+      "Whether B033 can be formulated so as to recognize circuit QED without overlapping the superconducting-circuit achievements recognized in 2025.",
+      "Whether the three credited names adequately capture the decisive theoretical and experimental priority."
+    ],
+    "conflict_note": "My research and current WACQT leadership are in superconducting quantum circuits, the same broad field as B033; this connection warrants a formal conflict-of-interest review."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B005",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "for the theoretical prediction and experimental realization of the quantum spin Hall effect"
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "B005 identifies a sharply defined new topological state of matter: Kane and Mele supplied its quantum-spin-Hall framework, and Molenkamp led a decisive experimental realization. The phenomenon has since been independently reproduced and characterized over two decades, while its conceptual consequences extend deeply through quantum materials. This is an unusually strong combination of a clear physical discovery, quantitative theory, and experimentally durable confirmation.",
+    "case_against": "The experimental and materials lineage is wider than three people, and a careful historical inquiry is needed to establish whether Molenkamp is the fairest experimental representative of the discovery rather than of a subsequent realization. The citation must remain confined to the quantum spin Hall effect rather than claim the entire broad field of topological materials.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argues that B041 is a mature, reproducible circuit-QED paradigm with a persuasive pairing of seminal theory and decisive experiments.",
+        "response": "I agree that circuit QED is an impressive and well-established platform. Its prize-defining boundary, however, remains entangled with the much broader development of superconducting qubits and quantum-computing engineering. B005 more cleanly isolates a particular state of matter and its defining experimental observation."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig emphasizes that B023 provides a mature and experimentally consequential framework for strongly correlated electrons, while noting its extended intellectual lineage.",
+        "response": "That assessment reinforces B023 as a serious alternative, especially given its contact with spectroscopy and real materials. Yet the methodological character of dynamical mean-field theory and its distributed foundational credit make the attribution less clean than for the specific theoretical prediction and experimental realization in B005."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll stresses that B001 combines the magic-wavelength lattice-clock concept with decisive experimental advances, extensive reproducibility, and mature metrological impact.",
+        "response": "This is a compelling alternative and rightly raises the weight I assign to reproducibility and practical measurement capability. I nevertheless retain B005 because its discovery represents a new phase of matter with a particularly direct theory-to-experiment chain; B001 requires especially careful separation from the broader history of optical frequency metrology."
+      }
+    ],
+    "uncertainties": [
+      "Whether the available historical record supports exactly these three names as the most equitable attribution for the quantum spin Hall effect.",
+      "How narrowly the citation can distinguish the original quantum spin Hall discovery from later topological-insulator developments."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

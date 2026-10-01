@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-02",
+  "member_id": "mehlig-bernhard",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B014",
+        "laureates": [
+          "Alexander A. Belavin",
+          "Alexander B. Zamolodchikov",
+          "Alexander M. Polyakov"
+        ],
+        "citation": "for foundational advances in two-dimensional conformal field theory and exact critical phenomena"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B043"
+  ],
+  "statement": {
+    "case_for": "Two-dimensional conformal field theory is a rare theoretical achievement that isolates universal structure in otherwise complicated many-body systems. The exact consequences of conformal symmetry supplied a durable bridge between statistical physics and quantum field theory, with conceptual reach that has only deepened over decades. Belavin, Zamolodchikov, and Polyakov are a coherent three-person attribution for the foundational theory.",
+    "case_against": "The achievement is abstract and its development is intertwined with a wider community, so the historical boundary of the cited contribution and the completeness of a three-person attribution require careful review.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson argues that dynamical mean-field theory transformed correlated-electron theory through a mature, broadly implemented framework connected to measured spectra.",
+        "response": "I agree that B007 is an outstanding alternative and that its practical connection to materials is a major strength. My qualification is that DMFT is a controlled construction in particular limits and a highly successful approximation more generally; B014 more cleanly identifies exact, universal physical structure and therefore remains my preference."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes that optical lattice clocks combine Katori's magic-wavelength concept with Ye's decisive experimental and metrological advances, and have been independently reproduced over two decades.",
+        "response": "This is a compelling, mature achievement with unusually crisp attribution, and B043 is my second alternative. I would nevertheless distinguish extraordinary precision in an established metrological lineage from the foundational reorganization of critical phenomena achieved by two-dimensional conformal field theory."
+      }
+    ],
+    "uncertainties": [
+      "Whether the ballot's three credited theorists capture the appropriate priority boundary across the broader development of conformal field theory.",
+      "Whether the committee should prioritize a mathematically exact theoretical framework over mature precision-measurement advances this year."
+    ],
+    "conflict_note": "I share the Gothenburg physics environment with committee colleagues Göran Johansson and Eva Olsson; the supplied profile identifies no specific collaboration."
+  }
+}

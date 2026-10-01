@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "olsson-eva",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B056",
+        "laureates": [
+          "Harald Rose",
+          "Knut Urban",
+          "Maximilian Haider"
+        ],
+        "citation": "for aberration-corrected electron optics that enabled sub-angstrom electron microscopy"
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B048"
+  ],
+  "statement": {
+    "case_for": "Aberration correction is a mature invention that changed what can be directly measured in materials: atomic structure, composition, interfaces and defects became accessible with a resolving power and quantitative reliability unavailable in conventional electron optics. The proposed names form a coherent chain from corrector theory to instrumental and practical realization. This is not recognition of microscopy generally, but of the original enabling invention whose scientific consequences are now routine across many independent laboratories.",
+    "case_against": "The conversion of corrector ideas into reliable commercial instruments involved a substantial engineering community, so the exact historical boundary between foundational concepts, successful implementation and subsequent refinement must be checked carefully. The shortlist evidence alone does not settle every priority detail.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson regards B056 as a long-established, widely deployed advance and identifies Rose's theoretical work together with Haider and Urban's practical realization as a credible attribution chain.",
+        "response": "I agree, especially because this connects an original optical invention to a demonstrable new measurement capability rather than merely to improved instrument performance. The remaining task is archival: we should verify that the three named individuals delimit the first successful correction and not later optimization."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson emphasizes that optical lattice clocks are mature, independently implemented and clearly attributable to Katori's concept and Ye's experimental development.",
+        "response": "That is a strong alternative, and its distinction between invention and later record-setting work is well framed. I nevertheless give priority to B056 because corrected electron optics opened direct atomic-scale observation across an exceptionally broad range of physical materials, while its attribution must be scrutinized with the same care Johansson requests for the clock field."
+      }
+    ],
+    "uncertainties": [
+      "Whether the proposed trio captures the earliest corrector concept and first broadly successful practical implementation without omitting an indispensable originator.",
+      "How sharply the citation can separate the invention of aberration correction from later advances in detectors, stability and image reconstruction."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

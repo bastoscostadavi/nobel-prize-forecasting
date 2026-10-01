@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "For the foundations of quantum error correction and fault-tolerant quantum computation."
+      }
+    ]
+  },
+  "alternatives": [
+    "B006",
+    "B016"
+  ],
+  "statement": {
+    "case_for": "Quantum error correction changed the physical meaning of quantum computation: it showed that quantum information can be protected against decoherence without erasing its essential properties. Shor and Steane independently introduced landmark codes, while Kitaev developed topological codes that connected protection to many-body physics. The theoretical foundation is mature, and experiments have tested its central principles; its importance does not depend on whether large-scale fault-tolerant machines are eventually built.",
+    "case_against": "The prize boundary is difficult to draw across a broad field of foundational work, and three names cannot represent every essential contribution. Large-scale fault-tolerant computation remains unachieved, so the committee should recognize the established physics of error correction rather than imply that practical scalability is settled.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson places topological insulators first, emphasizing the clear theory-experiment pairing of Kane and Mele's prediction with Molenkamp's experimental realization, while noting that later developments make the boundaries of credit difficult.",
+        "response": "That is a strong case: the discovery is experimentally concrete and its impact is mature. I still prefer quantum error correction because it resolved a basic conceptual obstacle to preserving quantum information and established a framework whose physical principles have since been tested across platforms. The broad later field is a real attribution concern for both candidates."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks quantum error correction highly, describing the codes as foundational but warning that the intellectual contributions are extensive and that large-scale fault-tolerant operation is still developing.",
+        "response": "I share the attribution concern and would keep the citation narrowly on the foundations of error correction and fault tolerance. The absence of large-scale operation limits claims about application, but it does not undo the demonstrated physical principle that encoded quantum information can be protected and manipulated despite errors."
+      }
+    ],
+    "uncertainties": [
+      "The relative boundaries of the early codes and Kitaev's topological-code contributions need historical review to ensure that the citation names a coherent achievement.",
+      "Experimental demonstrations establish the principles, but the ultimate scale and practical reach of fault-tolerant quantum computation remain uncertain."
+    ],
+    "conflict_note": "The supplied profile identifies Johansson as director of WACQT, a quantum-computing programme. No direct connection to the proposed laureates is apparent, but the institutional and field overlap may warrant recusal review."
+  }
+}

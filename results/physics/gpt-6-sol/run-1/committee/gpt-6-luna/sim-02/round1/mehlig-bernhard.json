@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "mehlig-bernhard",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B015",
+        "laureates": [
+          "Alexander A. Belavin",
+          "Alexander B. Zamolodchikov",
+          "Alexander M. Polyakov"
+        ],
+        "citation": "For the development of conformal field theory and its application to two-dimensional critical phenomena."
+      }
+    ]
+  },
+  "alternatives": [
+    "B002",
+    "B011"
+  ],
+  "statement": {
+    "case_for": "Conformal field theory made an unexpectedly broad class of two-dimensional critical systems tractable through a common framework. Its exact results reshaped both statistical physics and quantum field theory, and decades of applications support its lasting scientific value. The joint attribution to Belavin, Zamolodchikov, and Polyakov reflects the foundational work represented by this achievement.",
+    "case_against": "The intellectual lineage is broad, and the boundary between the foundational results and later extensions may be difficult to draw. A three-person attribution should be checked carefully against the history of the field.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argued that quantum error correction and topological codes are transformative, with distinct foundational contributions from Shor, Steane, and Kitaev, while large-scale fault-tolerant computing remains unachieved.",
+        "response": "I agree the theoretical result is already foundational, independent of when large-scale devices arrive. The remaining practical uncertainty is a reason to define the prize around the codes and principles themselves. For this round, I still place conformal field theory first because its broad explanatory reach has been demonstrated across decades of critical phenomena."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson judged dynamical mean-field theory a powerful, mature framework for correlated electrons, while noting that its development across several groups complicates attribution.",
+        "response": "That is a strong case: a method that clarifies correlated-electron phenomena and withstands extensive use merits serious consideration. The attribution concern applies to both candidates. I favor B015 because its common framework made an especially wide range of two-dimensional critical phenomena exactly tractable; DMFT remains a close alternative."
+      }
+    ],
+    "uncertainties": [
+      "The precise historical boundary between the foundational conformal-field-theory results and later extensions needs further review."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

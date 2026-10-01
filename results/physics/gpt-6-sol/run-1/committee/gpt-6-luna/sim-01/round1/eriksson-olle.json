@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the prediction and experimental demonstration of the quantum spin Hall effect and topological insulators."
+      }
+    ]
+  },
+  "alternatives": [
+    "B005",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "The quantum spin Hall effect and topological insulators revealed a new organization of electronic states, protected by topology, and connected a clear theoretical prediction to decisive measurements in HgTe quantum wells. The framework has since been confirmed and developed across many materials. Kane and Mele's theoretical work and Molenkamp's experimental demonstration make a coherent, bounded contribution with lasting scientific influence.",
+    "case_against": "The broader topological-insulator field includes important work beyond this initial prediction and realization, so the citation must stay focused on the quantum spin Hall effect rather than imply that these three individuals represent the entire field. The scope and individual credit for the experimental confirmation also merit careful historical review.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked dynamical mean-field theory first, emphasizing its broad adoption and decades of demonstrated value for understanding correlated electrons.",
+        "response": "I agree that DMFT is mature and has reshaped condensed-matter theory. My reservation is that it is a collaborative methodological framework whose boundaries are less sharply defined than a specific predicted and experimentally realized physical effect. That makes the topological-insulator case more readily expressed as a concise discovery citation."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argued that quantum error correction made quantum information physically testable and that its foundational ideas are consequential even though large-scale fault-tolerant computing remains a goal.",
+        "response": "The foundational physics is important, and the case does not depend on a completed quantum computer. Still, the achievements grouped under error correction combine several theoretical advances, and its experimental programme remains in development. The quantum spin Hall result has a more mature, direct link between a distinctive prediction and its observed realization."
+      }
+    ],
+    "uncertainties": [
+      "The precise historical boundary between the quantum spin Hall prediction, its experimental demonstration, and the wider topological-insulator framework needs careful definition."
+    ],
+    "conflict_note": "none apparent from the supplied profile"
+  }
+}

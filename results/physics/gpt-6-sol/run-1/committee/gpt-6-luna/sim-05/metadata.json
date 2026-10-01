@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "committee_provider": "openai",
+  "committee_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "list_id": "gpt-6-sol",
+  "nomination_run": 1,
+  "simulation_id": "sim-05",
+  "seed_label": "physics-committee-gpt-6-luna-v1:gpt-6-sol/run-1/sim-05",
+  "candidate_input": "../../../candidates.json",
+  "candidate_input_sha256": "14e5d7c1cccb9f2e8ba5fa59fcc2f943cb8303a71ea13c693d9598c2abad462b",
+  "members": [
+    "danielsson-ulf",
+    "eriksson-olle",
+    "johansson-goran",
+    "kroll-stefan",
+    "lindroth-eva",
+    "mehlig-bernhard",
+    "olsson-eva",
+    "pearce-mark"
+  ],
+  "chair": "pearce-mark",
+  "prompts": {
+    "opening": "prompts/physics_committee_luna_opening_v1.md",
+    "round1": "prompts/physics_committee_luna_round1_v1.md",
+    "chair": "prompts/physics_committee_luna_chair_summary_v1.md",
+    "round2": "prompts/physics_committee_luna_round2_v1.md",
+    "final": "prompts/physics_committee_luna_final_ballot_v1.md"
+  },
+  "protocol": "docs/PHYSICS_PHASE2.md"
+}

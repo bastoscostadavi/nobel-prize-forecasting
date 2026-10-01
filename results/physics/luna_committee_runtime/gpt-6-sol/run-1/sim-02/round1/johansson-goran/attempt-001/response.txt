@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B037",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics, bringing superconducting artificial atoms into strong, controllable interaction with microwave photons."
+      }
+    ]
+  },
+  "alternatives": [
+    "B002",
+    "B043"
+  ],
+  "statement": {
+    "case_for": "Circuit QED opened a new regime of quantum optics in which individual microwave photons and artificial atoms could be coupled, measured, and controlled in superconducting circuits. Blais's theoretical proposal and the experimental advances led by Wallraff and Schoelkopf form a coherent core attribution. The platform has been reproduced and extended across laboratories over two decades, so its scientific significance does not depend on future fault-tolerant computing.",
+    "case_against": "The field's growth involved many contributors, and selecting three people risks underrepresenting foundational theory, including Steven Girvin's contributions, and later experimental work. My own research and programme leadership are close to this area, which also warrants careful conflict review.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You describe quantum error correction as a conceptual breakthrough that made quantum computation physically plausible, while noting that large-scale fault-tolerant computation remains unfinished.",
+        "response": "I agree that the codes are foundational and that their practical reach remains unsettled. Their recognition would require defining a scope that joins several distinct code contributions. Circuit QED offers a more experimentally bounded achievement: a new, reproducible light–matter regime that stands on its own scientific results."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "You rank spherical-aberration correction first, emphasizing its complementary theoretical and experimental contributions and decades of independent use; you also note that the Higgs discovery's collaboration scale makes individual attribution difficult.",
+        "response": "The microscopy case shows how a mature instrument advance can merit recognition when it changes what experiments can resolve. Circuit QED similarly made a new physical regime accessible, though the boundary between its founding contributions and later platform development needs careful definition. The Higgs case is even harder to represent fairly with a few individuals because it depended on two very large collaborations."
+      }
+    ],
+    "uncertainties": [
+      "The historical boundary between the foundational circuit-QED advance and subsequent platform development, including the appropriate weight of Girvin's theoretical contributions, needs further scrutiny."
+    ],
+    "conflict_note": "Potential conflict: I direct WACQT and work in superconducting quantum circuits, closely related to B037 and adjacent to B002. The supplied profile identifies no direct personal connection to the proposed laureates, but this research and programme overlap warrants review."
+  }
+}

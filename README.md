@@ -7,7 +7,7 @@ Forecast the 2026 Nobel Prizes by **simulating the nominations and the committee
 The simulation mirrors the real process in two stages.
 
 1. **Nomination.** 100 nominator agents, each conditioned on a real physicist's `profile.md`, submit one nomination each. Nominations are merged into a candidate list.
-2. **Committee.** One agent per real committee member, each conditioned on that member's `profile.md`, deliberates over the candidate list and votes; a voting rule mirroring the real procedure picks the winner.
+2. **Committee.** One agent per real committee member, each conditioned on that member's `profile.md`, reviews the complete merged longlist, deliberates and votes. The simulation treats the committee decision as the outcome and omits the later Physics Class and Academy ratification.
 
 Profiles (`agent-data/PROFILE_TEMPLATE.md`, `agent-data/NOMINATOR_PROFILE_TEMPLATE.md`) describe expertise and taste but deliberately contain no nominations or predictions.
 
@@ -30,7 +30,7 @@ nominator agents ──► nominations ──► candidate list ──► commit
 | `agent-data/peace/` | Peace | Norwegian Nobel Committee |
 | `agent-data/economics/` | Economic Sciences (Riksbank Prize) | Committee for the Prize → Royal Swedish Academy of Sciences |
 
-> Open design question: in most categories a small committee proposes and a larger body ratifies. We start by simulating the committee only, and may add a second-stage ratifying vote later.
+> Modeling choice: in most categories a small committee proposes and a larger body formally decides. The baseline simulation treats the committee as the effective deciding body and omits the ratifying stage. This is an explicit simplification, not a claim that the committee is the legal prize-awarder.
 
 ## Repository layout
 
@@ -51,9 +51,11 @@ results/<category>/<list-id>/
 
 ## Pipeline
 
-Agents are run as Claude Code subagents (no API key needed), each given only its profile and the task.
+Agents are run through a documented orchestration workflow, each given only the evidence needed for its role. Model identifiers, prompts and reasoning settings are recorded with the outputs.
 
 1. **Nominator list:** a model drafts 100 nominators matching the eligible nominator groups, countries and subfields (`scripts/generate_nominator_list.py`, or a subagent). Physics has lists drafted by Claude Opus 5.5 and GPT-6 Sol.
 2. **Nominator profiles:** each nominator gets a web-researched `profile.md` (checked alive and current affiliation; biography, research footprint, persona; no nominations or predictions).
-3. **Nomination:** 10 runs × 100 nominator subagents. Each run's nominations are merged into that run's `candidates.csv`.
-4. **Committee:** for each run, persona-conditioned member agents give private opening rankings, hold 2–3 discussion rounds with random speaker order and chair summaries, then vote by secret ballot (majority, runoff if needed). Candidate order is shuffled per run.
+3. **Nomination:** 10 runs × 100 nominator subagents. Each run's nominations are consolidated without frequency-based exclusion into `candidates.json` and `candidates.csv`.
+4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a union shortlist, hold two discussion rounds with chair summaries, then vote by secret ballot (majority, runoff if needed). Candidate order is shuffled per run.
+
+The versioned Physics phase-2 methodology is in `docs/PHYSICS_PHASE2.md`.

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B010",
+        "laureates": [
+          "Alexei Kitaev",
+          "Andrew M. Steane",
+          "Peter W. Shor"
+        ],
+        "citation": "for establishing quantum error correction and fault tolerance as the physical basis for scalable quantum computation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B005",
+    "B046"
+  ],
+  "statement": {
+    "case_for": "I retain B010 as my preferred configuration. Error correction changed the status of quantum computation from a fragile idealization into a physically coherent possibility despite decoherence. Shor, Steane, and Kitaev represent distinct and enduring pillars: a decisive code and computational consequence, an influential code and fault-tolerant architecture, and topological protection. The principles are now tested across platforms and organize the central experimental problem, independently of which hardware ultimately succeeds.",
+    "case_against": "A fully fault-tolerant quantum computer has not yet been realized, and the historical boundary between these three contributions and the broader threshold-theorem and code community needs careful scrutiny. This makes a citation to the foundational physical principle essential, rather than a claim that scalable computation has already been delivered.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth regards error correction as mature theory that directly guides hardware, while noting that prizeable fully fault-tolerant computation remains incomplete.",
+        "response": "I agree with that qualification, but do not think completed universal fault-tolerant hardware is required here. The prizeable discovery is the demonstrable principle that local noise can be controlled by encoded quantum dynamics; its experimental implementation is now a stringent, active test rather than merely a technological promise."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes that trapped ions provide unusually clean, repeatedly demonstrated coherent control and high-fidelity quantum operations.",
+        "response": "This is a powerful case for B005 and my closest alternative. Yet trapped-ion quantum information is a platform achievement whose broader credit boundary is necessarily wide. B010 identifies the more platform-independent physical insight that explains how any sufficiently controlled platform may overcome decoherence."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson stresses that optical lattice clocks are independently reproducible at extraordinary precision and already enable relativity tests and metrology.",
+        "response": "I share the assessment of B046 as exceptionally mature and cleanly attributable. It is the strongest alternative in precision measurement, but B010 has the more fundamental consequence for whether complex quantum dynamics can remain controllable at all."
+      }
+    ],
+    "uncertainties": [
+      "Whether the historical record supports this exact three-person division of credit across codes, thresholds, and topological fault tolerance.",
+      "How much sustained experimental fault-tolerant operation should be required before recognition."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

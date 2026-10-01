@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "lindroth-eva",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B046",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for optical lattice clocks at extraordinary precision"
+      }
+    ]
+  },
+  "alternatives": [
+    "B005",
+    "B010"
+  ],
+  "statement": {
+    "case_for": "B046 remains my preferred achievement. It is a clean advance in controlled quantum spectroscopy: the magic-wavelength lattice-clock concept and its experimental realization have enabled independently reproduced precision at the 10^-18 level. This is fundamental physics as well as metrology, providing a remarkably sensitive way to test relativity and interrogate atoms. Katori and Ye give a compact, intelligible concept-to-realization attribution.",
+    "case_against": "The citation must be kept narrowly focused on optical lattice clocks rather than the much broader history of optical frequency metrology. Historical review is still needed to establish the precise boundary of Katori's and Ye's contributions relative to the wider clock community.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes the precision, reproducibility, and international uptake of lattice clocks, while noting their broad scientific and technological consequences.",
+        "response": "I agree particularly with the evidence of reproducibility and maturity. I would give priority to the underlying quantum-measurement advance rather than make technological consequence the principal justification; its fundamental sensitivity is already sufficient."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson places quantum error correction first, arguing that fault tolerance establishes the physical possibility of scalable quantum computation, but notes that the eventual dominant architecture remains unsettled.",
+        "response": "B010 is a profound theoretical alternative, but its prize-defining experimental realization remains incomplete. By contrast, B046 joins a sharply delimited physical principle to a mature, independently operating experimental platform."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson argues that DMFT is a decades-tested, quantitatively productive framework for correlated materials, while recognizing unresolved credit for early formulations and later methodological developments.",
+        "response": "DMFT is scientifically important, but its attribution boundary and its distinction from the extensive subsequent computational ecosystem require more work. The lattice-clock achievement is more readily bounded and connects an original idea to unambiguous experimental performance."
+      }
+    ],
+    "uncertainties": [
+      "The precise historical division of credit between the lattice-clock invention and broader optical-clock development requires archival review.",
+      "Whether the intended citation should explicitly include relativity tests or remain confined to the clock advance needs consideration."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-03",
+  "member_id": "pearce-mark",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B028",
+        "laureates": [
+          "Francis Halzen"
+        ],
+        "citation": "for establishing high-energy neutrino astronomy with the IceCube observatory"
+      },
+      {
+        "ballot_id": "B030",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for optical lattice clocks of unprecedented precision"
+      }
+    ]
+  },
+  "alternatives": [
+    "B009",
+    "B006"
+  ],
+  "statement": {
+    "case_for": "This recognizes two unusually durable experimental achievements that opened new measurement capabilities. IceCube established an extraterrestrial high-energy neutrino flux and developed into a genuine astronomical channel, while Halzen is a plausible singular representative of its scientific conception and realization. Optical lattice clocks offer the cleaner attribution: Katori originated the magic-wavelength lattice-clock concept and Ye made decisive experimental advances. Their independently reproduced 10^-18 performance is itself a lasting achievement, whether or not its most consequential fundamental-physics result lies ahead.",
+    "case_against": "The central weakness is attribution for IceCube: a single laureate cannot fully reflect the conception, construction, calibration, and analysis effort of a large collaboration. The clock work is more compactly attributable, but it risks appearing to reward exceptional instrumentation before its most decisive discoveries about gravitation or fundamental constants have arrived.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson argues that IceCube opened a genuinely new observational window, while noting that Halzen represents a much larger enterprise.",
+        "response": "I agree that the observational opening is the strongest case. The concern about collaborative credit is real and should be resolved through a careful historical examination of Halzen's uniquely decisive role, rather than treated as a reason to discount the established physics."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes that lattice clocks have achieved independently demonstrated 10^-18 precision and identifies Katori's concept and Ye's experimental realization as complementary contributions.",
+        "response": "This is persuasive, particularly because it separates a prize-worthy measurement architecture from any future application. I would retain both names, but phrase the citation around the clocks themselves rather than promise a particular fundamental discovery."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson favors circuit QED and regards its experimental architecture and theoretical framework as mature and influential.",
+        "response": "Circuit QED is a strong alternative, but its attribution reaches beyond the proposed trio and its boundary with the wider superconducting-circuit field needs sharper definition. The two preferred parts presently offer clearer experimental milestones."
+      }
+    ],
+    "uncertainties": [
+      "Whether documentary attribution supports naming Halzen alone for the IceCube achievement.",
+      "Whether the committee prefers to await a landmark fundamental-physics application of optical lattice clocks."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "for establishing circuit quantum electrodynamics with superconducting artificial atoms"
+      }
+    ]
+  },
+  "alternatives": [
+    "B030",
+    "B006"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made the quantum interaction of individual artificial atoms and microwave fields quantitatively accessible, controllable, and reproducible. Blais supplied the decisive theoretical framework, and the Wallraff-Schoelkopf experiment established an architecture that has become a basic laboratory for quantum optics and quantum measurement, not merely a prospective computing technology. Its maturation across laboratories demonstrates a genuinely new physical regime.",
+    "case_against": "The achievement emerges from a broad superconducting-circuit and cavity-QED lineage, so restricting credit to three names necessarily omits important contributors, including theoretical and experimental pioneers. Its connection to quantum computing also risks allowing anticipated applications to overshadow the fundamental discovery.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Optical lattice clocks have reached independently reproduced 10^-18 precision, with Katori's concept and Ye's experimental development providing a compact attribution.",
+        "response": "I agree that B030 is exceptionally mature and unusually cleanly attributed, and it is my strongest alternative. I nevertheless give B007 priority because it established a qualitatively new controllable quantum-optical system; the clock achievement is a profound metrological advance whose most decisive fundamental discoveries may still lie ahead."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Trapped ions offer a uniquely controlled, reproducible platform for quantum logic, simulation, and metrology, grounded in complementary theory and experiment.",
+        "response": "B006 has the longer and more broadly replicated experimental record, and Cirac, Zoller, and Blatt form a compelling theory-to-realization line. I qualify its priority because the attribution boundary is crowded and its proposed prize scope combines computation, simulation, and metrology; B007 can be framed more narrowly around a distinct quantum-optical architecture and its fundamental demonstrations."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Quantum error correction is a rigorously established foundation for scalable quantum computation, though useful fully fault-tolerant operation remains unproven.",
+        "response": "That reservation is decisive for me. B018 is foundational theory, but its physical promise is still being tested at the required scale. Circuit QED instead rewards a completed experimental opening of a new regime, while remaining independent of any claim that fault-tolerant computing is already achieved."
+      }
+    ],
+    "uncertainties": [
+      "Whether the attribution for circuit QED can be delimited fairly within three laureates given its wider theoretical and experimental lineage.",
+      "Whether the committee should favor a mature precision-measurement achievement such as B030 over a quantum-platform discovery."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

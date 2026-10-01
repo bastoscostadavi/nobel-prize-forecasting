@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "for dynamical mean-field theory of strongly correlated electron systems"
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B039"
+  ],
+  "statement": {
+    "case_for": "DMFT supplied a controlled and broadly productive framework for strong electronic correlations, converting an intractable many-electron problem into a quantitative connection among model Hamiltonians, computed spectral functions, and experiments on correlated materials. Its mature, reproducible use across decades makes it an unusually clear theoretical advance with sustained physical explanatory power. Georges, Vollhardt, and Kotliar form a coherent attribution to its formulation and establishment.",
+    "case_against": "The achievement is a theoretical method whose development includes earlier infinite-dimensional results, impurity solvers, extensions, and many later contributors. A historical review must establish that the proposed three capture the original prize-defining advance rather than its large subsequent ecosystem.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks B004 highly because DMFT made strong correlations quantitatively tractable, while noting that extensions and numerical implementations complicate attribution.",
+        "response": "I agree with both points. The citation should remain tightly confined to the original dynamical mean-field framework, rather than crediting every solver or material-specific extension; that delimitation makes the three-person attribution more defensible."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll places B046 first, emphasizing the established precision, reproducibility, and broad consequences of optical lattice clocks.",
+        "response": "The lattice-clock case is exceptionally strong and is my principal alternative. I nevertheless retain DMFT because it has repeatedly explained and organized the electronic spectra and phases of real correlated materials, not merely enabled more accurate measurement. The clock citation should also be historically separated from the broader development of optical frequency metrology."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson regards B010 as a foundational solution to decoherence in scalable quantum computation and ranks B004 lower while recognizing it as a durable standard method.",
+        "response": "Quantum error correction is conceptually profound, but its fully fault-tolerant realization remains incomplete and its attribution spans several distinct strands. DMFT has a more unified formulation and a longer record of quantitative confrontation with material experiments."
+      }
+    ],
+    "uncertainties": [
+      "The exact priority and relative roles of the early infinite-dimensional formulation, self-consistency construction, and impurity-solver developments require archival review.",
+      "Whether a prize citation can sufficiently distinguish the original DMFT advance from its extensive later extensions remains to be settled."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

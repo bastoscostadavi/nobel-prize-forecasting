@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-5.6-terra",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/terra-round2-eriksson-olle-6_ex9y91",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/terra-round2-eriksson-olle-6_ex9y91/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "532ab13cb871f7cb6bb34195913b393fdddc5f5f426230ddf787d5f05feaa489",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/eriksson-olle/profile.md",
+      "sha256": "779d4764b872de83f69ae3655f5791139f0da727c659cb2759b179eec8cffa58"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/shortlist.json",
+      "sha256": "223cafba8dbb4645ed21a6948b6ca4df443acaf84b32b95eb8a9936c3f71e1f3"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/danielsson-ulf.json",
+      "sha256": "9c175a7be01c50aa527d39bf7f6e4faa7725502d1e1cbab1f4a39eaba2873aac"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/eriksson-olle.json",
+      "sha256": "7d1140b026da6c128913aeb0df1fb933a7fde991f188db656c94787f2d2f5ef9"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/johansson-goran.json",
+      "sha256": "23a6078c987e500950094a6d27d8a3983724696ebb947ec98f49de74b0713dd4"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/kroll-stefan.json",
+      "sha256": "81baaac58198b4d4fe5a3a2a84ebabd35bdffdd4e624f4bac637f16536b996f3"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/lindroth-eva.json",
+      "sha256": "445c25a6ab2622f694cbefc5570fa4bed0c92a2a11d1db435d766ac28a465384"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/mehlig-bernhard.json",
+      "sha256": "be4b33e5a41d20b70b1a7c4af37f48090ebc3a67593a8e938f4bc1b34453b986"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/olsson-eva.json",
+      "sha256": "12c866e577898432687ed9225316d404eb9c8685c50cfb6b0f6efea78fb2be6c"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/round1/pearce-mark.json",
+      "sha256": "e6d71ae0f394927f1bc3e4b03da223b3a5694b7e068736e810e81c528508f0f4"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-6/committee/gpt-5.6-terra/sim-05/chair_summary_round1.json",
+      "sha256": "70e8ae408730bcc7ffd086e3c9dd9a55881f8730f2a20f3514bbd0a9150cdd6c"
+    }
+  ],
+  "thread_id": "01a0f684-32e3-7a63-9f6b-f20819d40f49",
+  "usage": {
+    "input_tokens": 24495,
+    "cached_input_tokens": 5888,
+    "output_tokens": 914,
+    "reasoning_tokens": null,
+    "total_tokens": 25409
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-01T08:11:14.455958Z"
+}

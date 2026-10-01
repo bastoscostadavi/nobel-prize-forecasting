@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 6,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_terra_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B010",
+        "laureates": [
+          "Juan Ignacio Cirac",
+          "Peter Zoller",
+          "Rainer Blatt"
+        ],
+        "citation": "for establishing trapped ions as a controllable platform for quantum computation and quantum simulation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B022",
+    "B006"
+  ],
+  "statement": {
+    "case_for": "Trapped ions provide an unusually clean chain from foundational quantum-information proposals to sustained, high-fidelity experimental control. Cirac and Zoller supplied seminal architectures and protocols, while Blatt represents decisive experimental realization. The platform has been independently reproduced over decades and remains a benchmark for gates, simulation, and precise control of entangled quantum systems. Compared with circuit QED, it is also more clearly separated from the recent recognition of superconducting quantum circuits.",
+    "case_against": "The achievement sits within a broad international development of quantum information, and the citation must carefully distinguish foundational trapped-ion physics from the still-unfinished goal of large-scale fault-tolerant quantum computing. A three-person attribution may also omit important early experimental contributors.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll emphasizes the long record of replicated trapped-ion demonstrations of entanglement, gates, algorithms, and simulation, while noting the field's broad international development.",
+        "response": "I agree that this maturity is a principal strength. The breadth of the field is a real attribution reservation, but the proposed theory-to-experiment trio gives a more coherent and historically legible citation than one centered on eventual scalable computing."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson argues that quantum spin Hall physics has a compelling theory-and-experiment chain but warns that the candidate omits consequential experimental contributors and overlaps related topological-insulator work.",
+        "response": "That is a strong case for B020, but the overlap and experimental-credit boundary make it less clean at present. For B010, Cirac, Zoller, and Blatt similarly connect proposal and realization, yet the physical platform and proposed achievement can be stated more sharply."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth considers optical lattice clocks a compact, mature attribution built around Katori's concept and Ye's experimental development.",
+        "response": "I find B022 an excellent alternative, particularly for its reproducibility across laboratories. I retain trapped ions narrowly because they established a broadly controllable quantum many-body platform rather than an extraordinary metrological performance alone."
+      }
+    ],
+    "uncertainties": [
+      "Whether the historical record supports this three-person allocation over other foundational trapped-ion experimental groups.",
+      "How narrowly the citation can frame established trapped-ion achievements without implying that fault-tolerant quantum computing has already been achieved."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

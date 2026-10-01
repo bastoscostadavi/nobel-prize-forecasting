@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B010",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "citation": "for the theoretical prediction of flat electronic bands in twisted bilayer graphene and the experimental discovery of correlated insulating and superconducting states at the magic angle"
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B040"
+  ],
+  "statement": {
+    "case_for": "Magic-angle twisted bilayer graphene is a case where theory made a quantitative, falsifiable prediction (the Bistritzer-MacDonald continuum model giving flat bands near 1.1 degrees, 2011) and experiment then answered it in 2018 with correlated insulators and superconductivity in a single tunable device. It is a new quantum behaviour in a material that few expected from a stacking angle alone, and it has opened the moire-materials field, reproduced by many independent groups using transport, scanning probes and spectroscopy. The theory-plus-experiment structure maps cleanly onto three names, and the 2010 graphene prize makes this a natural and not repetitive follow-on in two-dimensional materials. Quantum mechanics keeps producing surprises and this is a recent, verified one.",
+    "case_against": "The field is only about eight years old and the origin of the superconductivity is unresolved, so a prize citation must be worded around the flat bands and correlated phases rather than any mechanism. Attribution is imperfect: Yuan Cao, first author of the decisive 2018 papers, is outside the credited names, and earlier moire band-structure work (Lopes dos Santos, Peres, Castro Neto; Suarez Morell and colleagues) is also not captured. Device-to-device and twist-angle variability complicate the reproducibility story. Meanwhile optical lattice clocks have far broader opening support and a cleaner two-person attribution, so a maturity-first reading could put B004 ahead of this candidate.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked twisted bilayer graphene seventh, noting that the superconducting pairing mechanism is unresolved and the interpretation is not yet stable, while deferring to condensed-matter colleagues.",
+        "response": "The concern about mechanism is fair and I share it as a theorist, but the prize would reward the prediction of flat bands and the discovery of the correlated and superconducting phases, not a pairing theory. The phenomenology has been reproduced by dozens of groups and the magic-angle condition matches the continuum model quantitatively, which is the kind of robustness I look for. Sample variability affects details, not the existence of the phases. I would accept that the citation must avoid any claim about mechanism, and that is a real constraint on its wording."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked optical lattice clocks first as a clear new measurement technique with 1e-18 uncertainties, independent confirmation across labs and a clean Katori-Ye attribution.",
+        "response": "I agree that B004 is the most mature and cleanly attributed entry on the list, and I ranked it only sixth because it lies outside my field, not because of doubt about the result. Where I differ is that opening support is not scientific merit: a clock prize extends a lineage already recognised in 2005 and 2012, whereas B010 is a discovery of new quantum states of matter. If colleagues in atomic physics judge the lattice-clock advance sufficiently distinct, I would not stand in the way and have named it as my first alternative."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked defect-mediated melting and the hexatic phase first as a mathematically clean, universal mechanism, and placed DMFT third and twisted bilayer graphene fourth.",
+        "response": "I respect the hexatic work as a textbook result, but I see a serious overlap with the 2016 prize on topological defects and phase transitions, and the committee would need to explain what is new relative to Kosterlitz and Thouless. I also share your view that DMFT is central and mature, yet attribution is incomplete without Metzner and Muller-Hartmann and a method may read as a tool rather than a discovery, which is why I put it third rather than first. Twisted bilayer graphene, which you ranked fourth, has the advantage of a prediction confirmed by experiment."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked twisted bilayer graphene fourth and topological insulators fifth, valuing a theory prediction that nature answers, but worried about prematurity, the omission of Cao and a possible topological-matter fatigue after 2016.",
+        "response": "We agree on the structure of the argument. On Cao, the credited names are fixed for this exercise and I cannot repair that, but I would flag it as an honest limitation of the three-person rule and not a reason to deprioritise the field. On topological insulators, I ranked it second because the confirmation is broad and stable, yet the 2D versus 3D split and the missing Bernevig-Hughes-Zhang credit make a fair trio harder than for B010, so I keep it as a fallback and not my lead."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranked lattice clocks first for their maturity and precision-meets-theory character, and flagged that the 2005 frequency-comb prize may make clocks look like a continuation.",
+        "response": "I find your precision argument persuasive, and the reproducibility across national laboratories is exactly what I value. I would only ask whether the 2005 overlap you flag is resolved: if the committee judges that the lattice clock is a distinct invention, B004 is a strong prize, and I would then ask that the twisted bilayer graphene case be considered for a following year rather than dismissed."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts that the superconducting pairing mechanism need not be settled for a prize on the flat-band prediction and the discovery of correlated phases.",
+      "How to handle the omission of Yuan Cao and earlier moire band-structure theorists given the three-person limit.",
+      "Whether atomic-physics colleagues view optical lattice clocks as distinct from the 2005 and 2012 prizes, which would make B004 the stronger mature choice.",
+      "My expertise on AMO priority questions is limited and I defer to colleagues there."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: I work at Uppsala in theoretical magnetism and DFT, and have no stated collaboration with MacDonald, Jarillo-Herrero, Bistritzer, Katori, Ye or the other shortlisted names. My link to B027 (DFT+DMFT) is only a field-proximity interest, and I am not preferring it."
+  }
+}

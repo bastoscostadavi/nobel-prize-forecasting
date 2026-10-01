@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realisation of optical lattice clocks, trapping neutral atoms at a magic wavelength to reach fractional uncertainties near 1e-18"
+      }
+    ]
+  },
+  "alternatives": [
+    "B005",
+    "B018"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are the case in this pool that best matches what I ask of a prize: a clear, verified physical idea (cancelling the light shift at a magic wavelength so that many atoms can be probed without perturbation) that has been independently reproduced and cross-checked by several laboratories (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE, NPL) at the 1e-18 level, with clock comparisons that agree. It is quantitative in exactly the sense I care about, because the systematics budgets are checked against each other rather than asserted. It also delivers new physics access (laboratory-scale gravitational redshift, searches for varying constants and dark matter, a route to redefining the second) and the attribution is unusually clean, with Katori originating the concept and first realisations and Ye taking it to the accuracy frontier. Seven of eight opening ballots ranked it, three of them first, and I note that I did not rank it myself; the colleagues' arguments on confirmation and attribution persuade me that my opening choice (B018) is the less robust prize this year.",
+    "case_against": "The strongest reservation is that it is a measurement-technology prize that follows the 2005 comb prize and the 2012 ion-control prize, so a sceptical member can call it a continuation of already-honoured frequency metrology rather than a new discovery about nature. There is also a genuine priority question about whether ion clocks (Al+, Sr+ and others) and other strontium groups (SYRTE, Lemonde) deserve joint recognition. Finally, the redefinition of the second has not yet happened, so impact is still partly prospective. As a condensed-matter theorist I also feel the pull of DMFT (B018) and twisted bilayer graphene (B005), which reveal new quantum behaviour in materials, and I do not want to let a strong metrology case crowd out condensed matter simply because it has the broadest opening support.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks lattice clocks first as a textbook case of a technique that moved the precision frontier by orders of magnitude, while noting that Hall, Haensch and Wineland may be seen as having covered part of this ground and that the committee might wait for the redefinition of the second.",
+        "response": "I agree on the substance and share the worry about overlap with 2005 and 2012, but I think the overlap argument is weaker than it sounds: the comb and ion control are enabling tools, whereas the magic-wavelength lattice with many neutral atoms is a distinct concept with its own physics (collective effects, lattice-induced shifts) and a different scaling of statistical precision. I would not wait for the SI redefinition. The agreement between independent clocks already is the verification I look for, and tying recognition to a metrological decision would make the prize hostage to a process outside physics."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth supports Katori and Ye as a clean two-person configuration resting on atomic physics where theory and experiment meet in detail, and ranks Hubbard-model quantum simulation (B041) second, noting that Cirac and Zoller compete for the theory credit.",
+        "response": "On B007 I agree with her. On B041 I am more cautious than she is: the Mott-superfluid transition and quantum-gas microscopy are established, but the claim that the simulators answer questions no classical computer can answer is not yet demonstrated for the fermionic Hubbard model, where the pseudogap and d-wave questions remain open. As someone who works on correlated-electron theory I would want to see a quantitative outcome there before treating it as mature. The four-name credit with a three-person cap is also an awkward cut that I would rather avoid."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first, arguing it opened a new strong-coupling regime and underlies most superconducting quantum processors, while acknowledging the closeness of the 2025 prize on macroscopic quantum tunnelling in superconducting circuits and the difficulty of choosing three of Blais, Girvin, Schoelkopf and Wallraff.",
+        "response": "I take his point that cQED is scientifically distinct from the 2025 prize and well confirmed, and his candid discount for being close to the community is welcome. My disagreement is about timing and credit rather than merit: giving a second superconducting-circuit prize immediately after the 2025 one, which I chaired, would be hard to defend, and the three-name limit forces an omission (Blais or Girvin) that the 2004 theory-and-experiment story does not justify. I would keep it as a strong later candidate rather than this year's choice."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks fluctuation theorems and stochastic thermodynamics first as exact, model-independent results confirmed in RNA pulling, colloidal and single-electron experiments, but admits that priority among Evans, Jarzynski, Crooks and Seifert is contested.",
+        "response": "I find the physics persuasive and the experimental verification real, so I take B032 seriously as a theory-led candidate. My difficulty is the same as his: Evans, Jarzynski, Crooks, Seifert plus Cohen, Morriss and Searles all have claims, and the three-person limit means any trio would leave out someone with a documented priority. A prize whose credit is that contested risks being unfair, whereas the clock credit is not. I would support it more readily if the committee can find a defensible two- or three-person division of the original results, which I cannot do from memory."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube neutrino astronomy first as an instrument-driven discovery of a new observational window, with the diffuse flux well confirmed and NGC 1068 at about 4 sigma, but with serious credit complications given the size of the collaboration and the AMANDA and Baikal precursors.",
+        "response": "Neutrino astronomy is outside my expertise, so I defer on the physics, but I note that the supporting argument rests partly on source associations that are still at the few-sigma level and on a credit question that he himself says is not clean. By the standard I apply to clocks (independent confirmation plus unambiguous attribution) IceCube is currently weaker, although I would not oppose it if Danielsson and he can show that Halzen and Karle are clearly the decisive pair. I would want KM3NeT or Baikal-GVD confirmation to be discussed before we commit."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards optical lattice clocks as a sufficiently distinct discovery after the 2005 comb and 2012 ion-control prizes.",
+      "Whether the credit should reach beyond Katori and Ye to other lattice-clock or ion-clock pioneers (Lemonde, Derevianko, Pal'chikov) that I cannot resolve from memory.",
+      "Whether my own opening choice, DMFT (B018), deserves a second look given Metzner's absence from the credited set and the uneven predictive accuracy of DFT+DMFT.",
+      "The pairing mechanism and sample dependence in magic-angle graphene (B005) still affect whether it is mature enough this year.",
+      "My knowledge of the primary clock literature and present record uncertainties is from recollection and not checked here."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I work in electronic-structure and magnetism theory, so B018 and B005 are close to my field, and I am a Uppsala theorist with no stated connection to the credited names of B007; I have no known personal or institutional tie to Katori or Ye."
+  }
+}

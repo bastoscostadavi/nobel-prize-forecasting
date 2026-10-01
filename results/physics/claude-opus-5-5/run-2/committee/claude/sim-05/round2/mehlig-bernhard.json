@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-05",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B020",
+        "laureates": [
+          "Bertrand I. Halperin",
+          "David R. Nelson",
+          "A. Peter Young"
+        ],
+        "citation": "For the theory of two-dimensional melting by the unbinding of dislocations and disclinations, predicting the hexatic phase and its quasi-long-range orientational order."
+      }
+    ]
+  },
+  "alternatives": [
+    "B043",
+    "B029"
+  ],
+  "statement": {
+    "case_for": "I keep B020 as my preferred single part, but I state the case more narrowly than in round 1 after the criticism it received. What Halperin and Nelson (1978) and Young (1979) added to the 1973 Kosterlitz-Thouless dislocation picture is not the defect idea itself but a new, testable phase: a hexatic with short-range translational and quasi-long-range orientational order, with universal exponents (the structure factor exponent and the 4/3 and related Frank-constant relations at the transitions) that could be compared with experiment. That prediction has been checked in several independent systems: colloidal monolayers (Murray and Van Winkle, Zahn and Maret, Keim and Maret), liquid-crystal films and, in simulation, hard disks, where the liquid-hexatic transition is weakly first order and the hexatic-solid transition is continuous. Rather than contradicting the theory, this is a case it allows, since disclination unbinding can be pre-empted by a first-order step. The mechanism is simple and universal, the three originators are unambiguous, and the credited trio fits the three-person limit exactly. I would cite the theory and the hexatic phase, and nothing later.",
+    "case_against": "The round-1 exchange sharpened the weaknesses and I do not think they are small. First, the overlap with the 2016 prize is real: Kosterlitz and Thouless themselves proposed dislocation-mediated melting in 1973, so a committee could regard B020 as an application of an already honoured idea; the answer has to be that the hexatic phase and the two-step scenario are a distinct prediction, and that case is arguable, not obvious. Second, the experimental picture is system dependent, as Eriksson and Kroll say, and a citation would have to say precisely what nature confirmed. Third, B020 has had the narrowest support: no other member ranked it first in round 1, and Johansson asks for a second voice with soft-matter expertise, which the committee does not have, since I am the only member from that side. Fourth, it is an old result and it has no instrument or application behind it. If the committee weighs breadth of support and the cleanliness of attribution above conceptual novelty, B043 is the better outcome.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll accepts the theoretical credit for B020 but says the experimental weight is insufficient because two-step melting is system dependent and still debated case by case, and he sets it against the 10^-18 agreement between independent clocks.",
+        "response": "This is the strongest objection and I accept part of it. The comparison of agreement to many digits is not fair to a phase transition, where one compares exponents and the order of a transition rather than a frequency ratio. The point I would still press is that the observed system dependence is anticipated by the theory: Halperin and Nelson allowed a first-order liquid-hexatic step when the defect core energy is small, and the hard-disk work of Bernard and Krauth and colloid work of Maret's group are consistent with exactly that scenario. The citation should therefore not claim universality of a continuous two-step route in every system, only the prediction of the hexatic phase and of the defect-unbinding mechanisms that can produce it. I concede that this narrows the claim and that your overlap worry about 2016 applies to it as it does to the clocks."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson holds that the hexatic evidence is system dependent and the 2016 prize covers much of the ground, so B020 is no more robust than the moire result, and he would need evidence that the hexatic is seen in a form that settles the theory.",
+        "response": "I think B020 is more robust than B029 on the point that matters to me: the theory predicts a specific phase with specific exponents and that phase has been identified in multiple independent systems and in large-scale simulation, whereas for twisted bilayer graphene the superconducting mechanism is still open and Yuan Cao is missing from the credited names. I do not claim that the hexatic evidence settles every question, but the remaining dispute concerns the order of one transition, not the existence of the phase. At the same time I accept your point that a 2011 prediction followed by a 2018 observation is a more direct theory-experiment pairing than a 1978 theory verified over the following decades, and that B029 has the more current momentum. Its unresolved pairing mechanism is for me the reason to wait, not to reject it."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson asks for a second member with soft-matter expertise to say how much was new beyond Kosterlitz and Thouless, and whether colloid and simulation evidence settled the first-order versus continuous debate.",
+        "response": "I cannot give you the second voice, since I am the one the profile puts closest to soft matter, and the committee should say so openly; it is a reason to ask an external expert. My own reading is that the 1973 paper established that dislocation unbinding can melt a 2D crystal, but the hexatic phase, the exponent for the orientational correlations, and the two-transition structure are new in 1978-79 and are what experimentalists went looking for. On the debate: simulation of hard disks has resolved it for that system (first order into a hexatic, then continuous to the solid), while for other potentials the answer differs. That is a reason for care with the citation wording, not for withdrawing it. I would support an expert report before any final vote."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth reads optical lattice clocks as a discovery about what a quantum system can be made to do and notes that Ye's scope across combs, clocks and molecules makes the wording of the B043 citation delicate.",
+        "response": "I take your framing seriously and I do not dispute that B043 is a defensible, well attributed outcome. Where I differ is that a Physics Prize should also be able to reward a conceptual advance in understanding a phase of matter, and the committee should not let experimental unanimity stand in for scientific weight. On your wording problem I would add that the two names are only clean if the citation is tied to the magic-wavelength lattice clock and its realisation at 10^-18; if it drifts to combs or many-body clock physics, Ye's credit overlaps with 2005 and the cleanliness is lost. My question to the B043 supporters, which is not rhetorical, is how they would separate the citation from the 2005 and 2012 prizes in a single sentence."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson prefers IceCube (B010) as a discovery in the plainest sense, with confirmation through several channels, while conceding that attribution among Halzen, Karle, Yoshida and the AMANDA pioneers is unresolved and that independent confirmation is still limited.",
+        "response": "I accept the discovery claim for the diffuse flux; my difficulty with B010 as a prize configuration remains attribution rather than physics. You propose Halzen and Karle and the shortlist adds Yoshida, and you yourself ask whether Yoshida's analysis role is comparable to Karle's construction role. Until the experts answer that, a two- or three-name set looks to me more arbitrary than the sets on B043 or B020. If outside advice produced a clear division of credit I would regard B010 as a serious option, but I do not see a reason to wait for KM3NeT before the committee decides, and I would count your preference as a strong alternative, not as a competitor to be set aside."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards two-dimensional melting as distinct enough from the 2016 topological defect prize; I think the hexatic phase is, but this is a judgement the committee has to make and I have a stake in it.",
+      "Whether the first-order versus continuous dependence on the interaction potential is acceptable in a citation, and exactly how the wording should read.",
+      "I rely on my recollection of the literature, not on sources checked in this exercise, and the experimental history of colloidal and liquid-crystal hexatics is where I am least sure of the details.",
+      "If an outside reviewer confirms that the priority and credit for B043 are as clean as colleagues state, and the committee prefers a result with many-laboratory confirmation, I would regard B043 as an acceptable outcome and rank it first among alternatives."
+    ],
+    "conflict_note": "No conflict has arisen since round 1. None of Halperin, Nelson or Young appears among my frequent co-authors or institutional connections, and I have not collaborated with any credited person on any shortlisted ballot. I disclose that I work in statistical physics and am the member closest to the subject of B020, which may bias my assessment in its favour. I am in the same Gothenburg physics environment as Goran Johansson and Eva Olsson, with no specific collaboration, and I have no stake in any other shortlisted candidate."
+  }
+}

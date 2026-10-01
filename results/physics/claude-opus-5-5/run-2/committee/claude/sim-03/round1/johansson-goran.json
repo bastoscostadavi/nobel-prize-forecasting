@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and realisation of optical lattice clocks, trapping atoms at a magic wavelength to reach unprecedented accuracy and stability in the measurement of time"
+      }
+    ]
+  },
+  "alternatives": ["B044", "B005"],
+  "statement": {
+    "case_for": "Optical lattice clocks are a clean case of basic physics made into a measurement instrument. Katori's magic-wavelength idea removes the light-shift perturbation of the trap. Ye's group then took the strontium clock to fractional uncertainties near 1e-18 and added many-body clock physics. The result is reproduced and compared across JILA, RIKEN/Tokyo, PTB, NIST, SYRTE and NPL, so the maturity question is the easiest to answer of any shortlisted candidate. It supports tests of fundamental constants, millimetre-to-centimetre relativistic redshift measurements and the planned redefinition of the second. The two-name attribution is also unusually clean. This is why seven of eight members ranked it and three put it first. I ranked B044 first in my opening ballot. After reading my colleagues I think that ranking mixed my own field loyalty with the discovery criterion, and B007 is the stronger prize for the committee as a whole.",
+    "case_against": "The strongest reservation is novelty. The frequency comb (2005) and trapped-ion control (2012) have already been honoured, and a sceptic can read lattice clocks as the next step in the same metrology story, with the real payoff, redefinition of the second, still pending. A second reservation is attribution at the edges. Ion-clock groups, the early Sr work of Lemonde and others, and Derevianko and Pal'chikov on the magic-wavelength theory are outside the credited pair. I am an outsider to atomic clock priority disputes and rely on my recollection, so I would want AMO colleagues to check the 2001-2003 timeline before we commit.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B007 first as a textbook case of measurement progress that moved precision by orders of magnitude, with many independent groups at 1e-18, and he flags the prior comb and ion-trap prizes and whether to wait for the SI-second redefinition.",
+        "response": "I agree on the measurement argument and on maturity. On waiting for the redefinition, I disagree. The Nobel criterion is the discovery and its demonstrated consequences, not an administrative decision by metrology bodies, and the clock comparisons already show the capability. On the overlap I would go further than Stefan. The comb gave a way to count optical cycles and the ion clocks were about control of single quantum systems. Neither gave the many-atom, interrogation-perturbation-free scheme that sets lattice clocks apart, so the novelty is real. I do not accept that Katori and Ye need a third name to be credible."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B007 first for the clean atomic-physics idea of engineering the light shift so atoms in a lattice are probed without perturbation, and she asks whether the prize should also reach the ion-clock or comb link.",
+        "response": "I agree with her on the magic-wavelength point as the physical heart of the prize, and it is why I would put the citation on that mechanism and the 1e-18 result. I would keep ion clocks and the comb out of the citation. Wineland already has the control of single ions, and widening the citation would blur the credit and invite more name disputes. I also note that she ranks B041 second. I accept that it is a strong physics case, but the Cirac and Zoller overlap with another candidate and the four-name credit make it a harder configuration than B007."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks B012 first as a new window on the universe and places B044 fifth, asking whether circuit QED is distinct enough from the macroscopic quantum tunnelling work honoured in 2025 and noting that Girvin versus Blais is awkward.",
+        "response": "He is right to press on B044, and I changed my view partly because of it. I still read circuit QED as distinct from the 2025 prize, since it is strong coupling of an on-chip artificial atom to photons and not tunnelling in a macroscopic variable. But a second superconducting-circuit prize one year later is a real appearance problem, and the allocation among Blais, Girvin, Schoelkopf and Wallraff is hard. I also find that my own enthusiasm there is the hardest to discount. On B012 I defer to him and Pearce, because astroparticle physics is outside my expertise. I would only note that the credit of a thousand-person collaboration to two people is a bigger attribution risk than the one in B007."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks B012 first as an instrument-driven discovery of a new observational window and keeps B007 third, noting AMO and metrology are partly outside his expertise and that the individual-credit story for IceCube is not clean.",
+        "response": "I agree that IceCube is a landmark discovery and that a prize there would be defensible, and I take his own caveat about individual credit seriously. Where I differ is that I see the attribution and source-significance concerns he lists for B012 (a collaboration of about a thousand, AMANDA and Baikal precursors, NGC 1068 at about 4 sigma) as larger than those for B007. For clocks, the credit lies with two named people and the confirmation is across continents by fibre comparison. I would be glad to hear from him whether Halzen and Karle alone is a configuration he thinks the committee can defend publicly."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee reads lattice clocks as sufficiently new after the 2005 comb prize and the 2012 ion-control prize.",
+      "Exact priority between Katori's 2001-2003 magic-wavelength proposal and parallel suggestions, and whether Ye's contribution is best described as the accuracy frontier and many-body clocks.",
+      "Whether the committee will consider B044 too soon after the 2025 prize, and how to split credit among Blais, Girvin, Schoelkopf and Wallraff if it is considered later.",
+      "Whether a prize on B012 could be made defensible with two names given the size of the IceCube collaboration; I cannot judge this with confidence."
+    ],
+    "conflict_note": "Possible recusal issue on B044 (circuit QED): I am director of WACQT, work in the same superconducting-circuit community, am close to Chalmers colleagues in the field, and my Chalmers group has long-standing collaborations with experimental groups there, so I should not weigh B044 as an impartial member. No specific connection to Katori, Ye or the other B007 names is apparent from the provided profile."
+  }
+}

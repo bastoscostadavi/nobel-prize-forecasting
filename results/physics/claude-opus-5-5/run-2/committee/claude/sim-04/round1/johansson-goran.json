@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-04",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B041",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of optical lattice clocks, which brought atomic timekeeping to the 10^-18 level and opened new tests of fundamental physics"
+      }
+    ]
+  },
+  "alternatives": [
+    "B028",
+    "B002"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks combine a clean, original idea (Katori's magic-wavelength trapping, which cancels the light shift so many atoms can be interrogated at once) with a decisive experimental realization (Katori's strontium clock and Ye's JILA work pushing systematic uncertainty and stability to the 10^-18 range). The result is reproduced and compared across independent laboratories in several countries, so it passes my test of being robust rather than a single-group claim. It opened a real new regime, with many-body coherence in clocks, relativistic redshift resolved over millimetres and sharper limits on varying constants, and it underpins the discussion of redefining the second. The two-name credit is exactly the people the record supports, and earlier clock-related prizes (frequency comb 2005, ion clocks and quantum control 2012) are distinct and can be separated in the citation.",
+    "case_against": "The strongest reservation is that the headline justification keeps shifting between metrology and fundamental physics. Much of the 'new physics' (constants drifting, dark matter limits, geodesy) is still prospective, and the prize must reward what has been shown, which is an extraordinary measurement advance rather than a discovery of a new phenomenon. There is also a credit risk: Lemonde, Gill, Ludlow, Hinkley and others at NIST, PTB and SYRTE made essential contributions to accuracy evaluation, and the citation must be written so that it does not claim more than the concept plus the first record-performance realizations. Finally, I moved from circuit QED to this case partly out of caution about my own proximity to B028 (see conflict note), so I do not want my change of view to be read as a verdict that circuit QED is the weaker science.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Katori's magic-wavelength idea removes the light shift, Ye's strontium and comparison work took it to record performance, and the two-person credit is clean; the Hall and Haensch comb prize is already recognised.",
+        "response": "I agree on the science and the clean attribution, and I place the interplay of atomic structure and laser control that you value at the centre of why this is a discovery-grade achievement and not only a better instrument. Where I would qualify your framing is the fundamental-physics claim: redshift across millimetres is a striking demonstration, but constraints on varying constants are so far null results, so the citation should lead with the clocks themselves. I also note you rank Cirac and Zoller sixth and I rank them second; I regard that as a genuine, unresolved difference in how we weigh theory-led enabling proposals."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Lattice clocks improved uncertainty and stability by orders of magnitude and opened the redefinition of the second, relativistic geodesy and tests of constants; kroll also notes that other groups (Lemonde, Gill, NIST) could raise credit questions but the supplied credit is adequate.",
+        "response": "I share your view that the credit is adequate and I take your point that the field is unusually mature, with clocks at 10^-18 operated and compared in many places. I would push slightly on 'adequate': the three- or four-group frontier (JILA, Tokyo, NIST, PTB, SYRTE) means the citation should name the concept and its first record-level realizations, not 'optical clocks' broadly, or we invite a priority argument. On circuit QED, which you rank fifth, I do not think the 2025 prize makes it duplicative, since that prize was about macroscopic quantum tunnelling and energy quantization in a circuit, not coupling to photons, but I accept the committee may reasonably prefer to wait."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Ulf ranks topological insulators first as a genuine discovery with a clear before and after, and ranks lattice clocks only fifth and trapped-ion theory seventh, with the worry that a Cirac-Zoller prize may look redundant after 2012.",
+        "response": "I take the spirit of your criterion, a discovery with a before and after, but I think lattice clocks meet it better than your ranking suggests: before, trapped-atom spectroscopy was limited by light shifts and few atoms; after, thousands of atoms reach 10^-18 and relative comparisons resolve millimetre-scale gravitational redshift. On B004 I defer to the condensed-matter members, but I share your own flagged concern that leaving out Bernevig, Hughes and Zhang and Hasan makes the credit contested. On Cirac and Zoller, I disagree with redundancy: Wineland's 2012 prize was for measuring and manipulating single quantum systems, and the theory proposals that defined gates and simulators are a separate intellectual contribution, though I concede that is exactly where I am most inclined to see value, as a theorist."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Olle ranks magic-angle graphene first as a new tunable platform where experiment overturned expectations, and notes that the three-person limit forces a choice on circuit QED and that the 2025 prize may make it premature.",
+        "response": "I agree that circuit QED is the most exposed to the recency argument and the Blais allocation problem, which is why I have moved it to an alternative. On twisted bilayer graphene, I accept that the Bistritzer-MacDonald prediction and the 2018 observations form a strong theory-experiment story, but I ranked it seventh because the pairing mechanism is still debated and I tend to ask for a stable interpretation before a prize; you argue maturity is sufficient given independent reproduction. I do not think we will settle that without condensed-matter input, and I would like to hear whether the committee treats an open mechanism as disqualifying here."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept clock performance and metrology as the prize-worthy discovery when the fundamental-physics payoffs (varying constants, dark matter, redefinition of the second) are not yet realized.",
+      "How to word the citation to cover the lattice concept plus record-level realizations without implicitly excluding NIST, PTB and SYRTE contributors.",
+      "Whether circuit QED (B028) should return as the preferred prize if colleagues judge the 2025 recognition not to be a barrier and the Blais omission acceptable.",
+      "Whether a two-part prize is worthwhile, since any second part would push the union above three people given that B041 already takes two names."
+    ],
+    "conflict_note": "I have a specific connection to B028 and the superconducting-circuit community in general: I lead the Wallenberg Centre for Quantum Technology, work closely with superconducting-qubit experimental groups at Chalmers, and my own field (circuit and waveguide QED) is directly adjacent to the credited circuit QED candidates, so I may need to recuse myself or at least discount my opening first-place ranking of B028 in a final decision. For B041 and the other shortlisted candidates, no specific conflict is apparent from my profile."
+  }
+}

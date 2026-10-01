@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 2,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B018",
+      "proposed_laureates": [
+        "Antoine Georges",
+        "Gabriel Kotliar",
+        "Dieter Vollhardt"
+      ],
+      "assessment": {
+        "nobel_worthiness": "DMFT is the standard non-perturbative framework for strongly correlated electrons: it gave an exact infinite-dimensional limit of the Hubbard model, a clear picture of the Mott transition and, through DFT+DMFT, a practical route to computing spectra of correlated real materials. It is original, conceptually clear and has had lasting impact on both theory and quantitative materials modelling, which is close to my own field.",
+        "attribution": "Vollhardt (with Metzner) introduced the infinite-dimensional limit, Georges and Kotliar built the mapping onto a quantum impurity problem and the Mott-transition picture, and Kotliar drove the realistic DFT+DMFT extension. The three credited names cover the core arc well; as I recall it, Metzner and others also have a claim, but he is not in the credited set, so this is a real attribution risk.",
+        "maturity": "Over three decades of use, with independent confirmation through comparison to photoemission, optical and neutron data and many independent codes. The framework is mature and stable; quantitative accuracy for specific materials is still debated, but the method itself is not.",
+        "uncertainties": [
+          "Whether the omission of Metzner from the supplied credit makes a three-person prize unfair.",
+          "Predictive accuracy of DFT+DMFT for specific materials remains uneven, so the practical-impact claim should be handled carefully.",
+          "A theory prize is judged here on its tested consequences; I rely on my own recollection of the literature rather than verification."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B024",
+      "proposed_laureates": [
+        "Juan Carlos Campuzano",
+        "Zhi-Xun Shen"
+      ],
+      "assessment": {
+        "nobel_worthiness": "ARPES directly measures band structure, Fermi surfaces, gaps and many-body self-energies in solids and has been central to understanding cuprates, topological materials and correlated systems. It is exactly the kind of spectroscopy that my theory work is tested against, and its impact is broad and lasting.",
+        "attribution": "Several groups developed the technique and its modern high-resolution form; the supplied names point to key cuprate and quantum-materials applications (Campuzano, Shen) and an earlier spectroscopy pioneer (Johnson). The prize would honour an instrument/method plus its discoveries, which makes a clean three-person split harder than for a single discovery; I choose the two with the strongest cuprate and quantum-materials track records.",
+        "maturity": "Very mature and independently reproduced across many labs and synchrotron facilities. Recognition is arguably overdue relative to the technique's role. The photoemission contribution to Nobel physics was partly recognised earlier (Siegbahn, 1981), so the new contribution needs to be framed clearly.",
+        "uncertainties": [
+          "Whether the committee can define the discovery as a method rather than a specific physical finding.",
+          "Credit allocation versus other pioneers of angle-resolved instrumentation and laser/time-resolved ARPES not in the credited set.",
+          "Overlap with earlier recognition of photoelectron spectroscopy."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B016",
+      "proposed_laureates": [
+        "Terunobu Miyazaki",
+        "Jagadeesh S. Moodera",
+        "Stuart S. P. Parkin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Room-temperature tunnel magnetoresistance is a clean quantum-transport phenomenon rooted in spin-dependent tunnelling and band-structure matching, and it underpins magnetic read heads and MRAM. It combines a verified physical discovery with large real-world use, and the later coherent-tunnelling work with MgO is a good example of theory and experiment agreeing.",
+        "attribution": "Miyazaki and Moodera independently reported large room-temperature TMR in 1995 in amorphous alumina barriers; Parkin (and Yuasa) demonstrated giant TMR in MgO junctions in 2004 and built the technology. Yuasa and Djayaprawira are not in the credited set, and the MgO step may be argued to belong to a different laureate configuration, so the allocation is uncertain. Julliere's earlier low-temperature work is a historical complication.",
+        "maturity": "Strongly confirmed, in widespread commercial use for two decades. The 2007 prize for giant magnetoresistance partly overlaps in subject, so timing is fine but novelty relative to that prize must be argued.",
+        "uncertainties": [
+          "Overlap with the 2007 GMR prize may make the committee reluctant.",
+          "The credited trio may not match the decisive MgO contributors.",
+          "Compound discovery: alumina TMR and MgO coherent tunnelling may merit different recognition."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B011",
+      "proposed_laureates": [
+        "Masato Sagawa",
+        "John J. Croat"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Nd-Fe-B magnets are the strongest practical permanent magnets and are central to wind turbines, electric vehicles and electronics; they are a significant sustainable-energy technology rooted in the physics of rare-earth transition-metal magnetism and magnetocrystalline anisotropy. The invention is clear and its consequences enormous.",
+        "attribution": "Sagawa (sintered) and Croat (melt-spun, with General Motors) announced the Nd2Fe14B magnets almost simultaneously in 1983-84, and both are credited; a two-person prize fits, though the priority history between the sintered and bonded routes is contested in the literature as I recall it.",
+        "maturity": "Thoroughly mature, with decades of independent use. Recognition is clearly not premature; the only question is whether it is a physics discovery or a materials-engineering invention, though the Nobel will accept inventions in physics.",
+        "uncertainties": [
+          "Whether the committee sees it as physics rather than materials engineering.",
+          "Priority and patent history between the two credited inventors and others (e.g. Hitachi and General Motors teams).",
+          "I recall but have not verified details of the original publications."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B005",
+      "proposed_laureates": [
+        "Pablo Jarillo-Herrero",
+        "Allan H. MacDonald",
+        "Rafi Bistritzer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Magic-angle twisted bilayer graphene opened a tunable platform for correlated insulators, superconductivity and later topological states from moire flat bands; the Bistritzer-MacDonald prediction of flat bands at a magic angle and the Cao et al. observation form a clean theory-then-experiment story, which is the kind of surprise I value.",
+        "attribution": "Bistritzer and MacDonald made the 2011 continuum-model prediction, and Jarillo-Herrero's group made the 2018 discovery of correlated insulators and superconductivity. Pablo Jarillo-Herrero's co-authors (notably Yuan Cao) are not in the credited set, a possible unfairness; the three-person split is otherwise natural.",
+        "maturity": "Reproduced by many groups across twisted and moire systems, and the platform is now broad, but the nature of the superconducting pairing and the correlated states is still debated, so the interpretation is not fully settled. Timely but arguably slightly early.",
+        "uncertainties": [
+          "Pairing mechanism and the nature of correlated phases remain unresolved.",
+          "Role of Yuan Cao and the 2018 co-authors in credit allocation.",
+          "Sample-dependence and reproducibility across devices."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B006",
+      "proposed_laureates": [
+        "Charles L. Kane",
+        "Laurens W. Molenkamp",
+        "M. Zahid Hasan"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The theory of the quantum spin Hall effect and the topological insulator, with the HgTe experimental realisation and the 3D materials confirmed by ARPES, created a major class of materials with protected surface states and links band theory to topology. This is a new quantum behaviour in materials with lasting impact.",
+        "attribution": "Kane and Mele predicted the QSH state, Molenkamp's group observed it in HgTe, and Hasan's group established 3D topological insulators spectroscopically. Mele, Bernevig, Zhang, and Moore and Balents, among others, have strong claims; selecting only three from the credited list leaves obvious gaps. Zhang is deceased and not credited here.",
+        "maturity": "Strong independent confirmation across materials and groups over about 20 years. The 2016 prize on topological phase transitions in matter partly overlaps in theme, but this is a separate discovery. Practical use remains limited.",
+        "uncertainties": [
+          "Contested priority among Kane-Mele, Bernevig-Hughes-Zhang, and Moore-Balents-Roy.",
+          "Hasan's role versus other 3D experiments.",
+          "Overlap with the 2016 topological prize."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B041",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Juan Ignacio Cirac",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices realise Hubbard models with tunable parameters, with the Jaksch-Zoller proposal and the Greiner-Bloch observation of the Mott-superfluid transition as landmarks; the field gives controllable access to many-body physics relevant to correlated electrons.",
+        "attribution": "Cirac and Zoller made foundational proposals, and Bloch and Greiner carried out the key experiments. Greiner is credited as a fourth name; with a three-laureate limit one of the experimenters must be omitted, and Cirac and Zoller also appear in B004, so a split between candidates may be necessary. I choose Bloch for the broader experimental programme.",
+        "maturity": "Mature as a platform for Mott and superfluid physics; the fermionic Hubbard model quantum-simulation of the genuinely hard regime (the pseudogap phase) is still developing, so the claim of solving open problems is not yet established.",
+        "uncertainties": [
+          "Whether quantum simulation has yet delivered discoveries beyond demonstration.",
+          "Overlap with other cold-atom Nobel prizes (BEC 2001, laser cooling 1997).",
+          "Choice of three from four credited names."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B039",
+      "proposed_laureates": [
+        "Libor Šmejkal",
+        "Tomáš Jungwirth",
+        "Jairo Sinova"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Altermagnetism is a newly identified third class of collinear magnetic order with compensated moments but spin-split bands, which my own field would find fundamental, and it has attracted large theoretical and spectroscopic interest and spintronic promise.",
+        "attribution": "The 2022 classification papers by Šmejkal, Sinova and Jungwirth are the central contribution, with earlier precursors by other groups (including Hayami, Yuan and others) in the background; the supplied trio is plausible but the history of earlier related ideas is uncertain.",
+        "maturity": "Very young: the theory is from about 2019-2022, and experimental confirmation by ARPES and other probes in MnTe and CrSb is recent. Confirmation is promising but too recent to treat as settled, so a prize now would be premature.",
+        "uncertainties": [
+          "Premature relative to the typical lag for Nobel recognition.",
+          "Independence of experimental confirmation across materials is still limited.",
+          "Earlier precursors and competing claims on priority."
+        ]
+      }
+    }
+  ]
+}

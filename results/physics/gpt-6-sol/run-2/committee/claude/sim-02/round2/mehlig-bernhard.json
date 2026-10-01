@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-02",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B010",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of optical lattice clocks, based on magic-wavelength trapping of atoms, which brought the measurement of time and frequency to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B047",
+    "B051"
+  ],
+  "statement": {
+    "case_for": "I move from B047 to B010, and I do so on scientific grounds rather than because of the count. The lattice clock rests on one mechanism that can be stated cleanly and checked: at the magic wavelength the differential light shift between the clock states cancels, so the Doppler and recoil shifts vanish while thousands of atoms are interrogated at once. The remaining systematics (blackbody radiation, higher-order light shifts, collisional and many-body shifts) are understood quantitatively, so theory and measurement agree at about 1e-18, and independent groups at JILA/NIST, RIKEN/Tokyo, PTB, SYRTE and NPL reproduce and intercompare the result. That is the standard I apply to my own field: the mechanism is identified, the number is reproduced, and the people who first identified the mechanism (Katori) and who pushed it into the regime where interactions matter (Ye) can be named with a two-person credit. I would word the citation around the magic-wavelength lattice scheme and the 1e-18 regime so that it is visibly distinct from the comb (2005) and ion-control (2012) prizes.",
+    "case_against": "B010 is a measurement capability more than a discovery of a new phenomenon, and a large part of the enabling tools was already honoured in 2005 and 2012; Lemonde, Takamoto, Hollberg and the ion-clock groups lie outside the two names, and the redefinition of the second has not happened. On my own earlier choice, B047 still has the more compact conceptual story, but its attribution problem did not go away in the first round: Bernevig, Hughes and Zhang (the HgTe prediction) and Hasan (3D ARPES) sit outside any three-name credit, and I could not defend a Kane-Mele-Molenkamp prize against the Hasan claim except by narrowing the citation to the 2D quantum spin Hall effect. I also remain unsure that a second topological prize after 2016 is needed now.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argues that the lattice-clock agreement is earned rather than a compromise: Katori's magic-wavelength idea removed the atom-number versus systematics trade-off, Ye's group demonstrated about 1e-18, and independent clocks at NIST, PTB, SYRTE and RIKEN agree at that level.",
+        "response": "I accept this argument and it is the main reason I moved. Reproducibility across laboratories with different atomic species, lattice geometries and blackbody environments is the strongest form of confirmation, and it is stronger than what I can say for the quantum spin Hall edge, where one decisive experimental group carries the 2D claim. Your own point about the distinctness from the 2005 and 2012 prizes is where I would like the citation to do the work: it should name the magic-wavelength lattice and the 10^-18 regime, not just 'precision clocks'. I would not make the pending SI redefinition part of the case, as you list it only as an uncertainty."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson prefers B039 and, in the B047 discussion, argued that Hasan's ARPES observation of spin-momentum-locked surface states is decisive and that Mele is hard to separate from Kane.",
+        "response": "On Mele we agree; the 2005 Kane-Mele papers introduced the quantum spin Hall state and the Z2 invariant jointly, and I would resist splitting them. But your Hasan point is what finally persuaded me that B047 cannot be given a three-name credit that I can defend: any version either omits Hasan or drops a theorist or Molenkamp. On B039 itself, I take your own caveat seriously: the TEM corrector (Rose, Haider, Urban) and the STEM corrector (Krivanek, Dellby) lines are hard to separate, and the physics content is an instrument limit overcome. That is a real achievement, but I cannot rank it above B010, where the credit is cleaner and the mechanism more general. I also note your proximity disclosure and think it is handled adequately by your own stated willingness not to insist."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson moved from twisted bilayer graphene to B010 but asks whether the 1e-18 claims are independent of blackbody-shift and lattice-light-shift systematics, and worries about voting for the consensus candidate.",
+        "response": "I think the systematics question has a good answer: the blackbody shift for strontium is controlled by in situ thermometry and by atomic-structure calculations of the polarizability, and the lattice light shift is bounded by operating at the magic wavelength and by varying lattice depth, and the intercomparisons between independent clocks test the combined budget. That is a concrete reason, and the voting-count worry is yours to weigh; I share it, which is why I am stating the scientific reasons separately. I also agree with your earlier point in round 1 that twisted bilayer graphene remains a serious candidate, but the pairing mechanism and the role of strain and disorder are still disputed, so I keep B051 only as an alternative."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson holds B061 as a discovery made in nature (a diffuse TeV-PeV neutrino flux in 2013, confirmed in several channels) and asked what the lattice clock has revealed that earlier clocks could not.",
+        "response": "On your question: millimetre-scale gravitational time dilation, comparisons that bound drifts of fundamental constants, and the first clocks in which many-body interaction physics enters the error budget are things earlier clocks could not do. I do not think that equals a new phenomenon in nature, and I acknowledge your discovery criterion. On B061 I stay unconvinced for the reason I gave in round 1: Halzen, Karle and Spiering are central, but who was decisive for the 2013 observation, as opposed to detector construction, is subjective within a collaboration of hundreds, and most of the flux has no identified origin. I would favour B061 only if the expert reports separate that credit clearly."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards a measurement capability, even one with a reproducible mechanism, as comparable to a discovery of a new phenomenon in nature.",
+      "Whether the priority among Katori, Ye, Takamoto, Lemonde and the SYRTE group, as described in the expert reports, supports a two-name credit.",
+      "Whether the 2005 and 2012 prizes make the lattice clock look like an increment; I think the citation wording can answer this but I am not certain.",
+      "Whether, if the committee wanted a topological prize, it could find an allocation that is fair to Hasan and to Bernevig, Hughes and Zhang."
+    ],
+    "conflict_note": "No specific conflict with any shortlisted candidate is apparent from my profile. I am in the same Gothenburg physics environment as Goran Johansson and Eva Olsson at Chalmers; Johansson has flagged his proximity to B041 and Olsson to B039, neither of which is in my preferred configuration, and I note that Danielsson's Uppsala check on B061 is outstanding. I have no known collaboration with Katori, Ye or any other shortlisted candidate."
+  }
+}

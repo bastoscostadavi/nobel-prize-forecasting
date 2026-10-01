@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B059",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realisation of optical lattice clocks based on magic-wavelength trapping, bringing neutral-atom clocks to the 10^-18 level of fractional uncertainty"
+      }
+    ]
+  },
+  "alternatives": [
+    "B013",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "After reading all eight opening ballots I move my first choice from circuit QED (B013) to optical lattice clocks (B059). B059 is the one candidate that seven of eight members ranked, and two of them placed it first, so the support does not depend on a single subfield. On the science, the magic-wavelength idea is original and cleanly attributable: Katori proposed the scheme and made the first demonstrations, and Ye's group at JILA drove stability and systematic uncertainty to about 1e-18 and used the clock as a many-body system. The result has been reproduced and surpassed in several independent laboratories (JILA, RIKEN/Tokyo, PTB, NIST, SYRTE), clock-to-clock comparisons are routine, and the clocks resolve gravitational redshift over millimetre height differences. As a theorist embedded in experimental teams, I value that it is a clean experiment in which every physical detail is understood and controlled, and that it opened a new regime for tests of fundamental constants and dark-matter searches. A two-person prize with a clear division (proposal and first realisation versus the accuracy frontier) is a configuration the committee can defend.",
+    "case_against": "The strongest reservation is distinctness from earlier prizes. The 2005 prize for the optical frequency comb and the 2012 prize for control of single quantum systems (ion clocks) cover the enabling toolbox, and a sceptic can read lattice clocks as the best application of those ideas rather than a new discovery. The practical payoff, a redefinition of the second, has not yet happened, and the credit omits other lattice-clock contributors and the ion-clock groups whose accuracy results compete with it. Against that, the magic-wavelength concept is a new idea and not a refinement, but I accept that the committee should weigh it explicitly.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B059 first because magic-wavelength trapping removes Doppler and recoil shifts and gives 1e-18 uncertainty with impact well beyond atomic physics, and he ranks circuit QED third partly because a second superconducting-circuit prize so soon after 2025 would need distinct justification.",
+        "response": "I agree on both points and the second one moved me. Circuit QED is a different achievement from macroscopic quantum tunnelling in circuits, and I think it is arguably more important for computing, but the committee would have to defend it as new physics after the 2025 prize and I cannot judge that impartially, since this is my own field and I lead a national programme built on it. I do qualify your framing slightly: your uncertainty about whether lattice-clock credit should extend beyond Katori and Ye is real, and I would want the citation to be written around magic-wavelength lattice clocks specifically, not around optical clocks in general."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth, an atomic physicist, ranks B059 first as precision atomic physics at its best, with a clear idea, close agreement between theory and experiment, and a payoff nobody foresaw, and she flags the 2005 comb and 2012 quantum-control prizes as the question of distinctness.",
+        "response": "Your assessment is the one I trust most on the priority history, since this is outside my own area. I think your distinctness point is the right test and I would answer it this way: the comb and ion-control prizes gave tools and a different clock architecture, while the lattice clock solves a specific problem (Doppler, recoil and Stark shifts together) with many atoms interrogated at once. I would still like you to say whether Ye's contribution is best credited to the clock itself or partly to the comb-linked work already honoured, because that determines whether the pairing is as clean as we both believe."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson puts magic-angle twisted bilayer graphene (B034) first, as a quantitatively predicted new quantum behaviour in a material that was then confirmed and has been reproduced by many groups, even though the pairing mechanism of the superconductivity is unsettled.",
+        "response": "I take the prediction-then-discovery structure seriously, and it is the best theory-plus-experiment triple on the list. My reservation is the one I raised in my own ballot and which you partly share: sample dependence, reproducibility across laboratories and the still-open superconducting mechanism make me think it is a few years early. I read B034 as a strong candidate for a later year, and I would rank it above the Hubbard-model simulation, but I would not put it ahead of a result that has already been independently surpassed at the 1e-18 level in several laboratories. If you can point to a robust, laboratory-independent reproduction of the superconducting phase I would move it up."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks the experimental Higgs discovery (B019) first as the largest unrecognised discovery in the field and gives IceCube second, while ranking lattice clocks only sixth and noting overlap with the 2005 and 2012 prizes.",
+        "response": "I agree that the Higgs discovery is scientifically enormous, and I do not equate my own comfort with attribution with merit. But I disagree with treating attribution as a minor cost: you name Gianotti, Jenni and Virdee and openly concede that Della Negra is excluded, and the committee would be choosing collaboration leaders instead of recognising a discovery. A two-name prize for lattice clocks has no comparable problem. I would also ask whether the lower ranking you give B059 rests on the overlap argument alone, because I think the answer to that argument is concrete (see my case against)."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards lattice clocks as sufficiently distinct from the 2005 comb and 2012 ion-control prizes.",
+      "Whether the pending redefinition of the SI second means the committee should wait, or whether the demonstrated 1e-18 performance is enough.",
+      "Whether other lattice-clock groups (strontium, ytterbium) or the ion-clock groups have a claim that a two-name prize would unfairly ignore.",
+      "How much weight the 2025 circuit prize should carry against circuit QED (B013), a question I cannot judge impartially."
+    ],
+    "conflict_note": "I lead the Wallenberg Centre for Quantum Technology and work on superconducting circuits and microwave quantum optics at Chalmers, so for circuit QED (B013) I may need to recuse myself or at least flag a conflict, given WACQT ties to the field and to some candidate-adjacent groups (Chalmers hosted 2025 laureates as WACQT guests). For the preferred B059, optical lattice clocks, no specific conflict is apparent from my profile."
+  }
+}

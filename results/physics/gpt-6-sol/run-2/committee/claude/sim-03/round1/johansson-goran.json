@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B053",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "For the invention and realisation of optical lattice clocks, whose magic-wavelength trapping brought atomic timekeeping to the 10^-18 level and opened new precision tests of fundamental physics."
+      }
+    ]
+  },
+  "alternatives": ["B001", "B013"],
+  "statement": {
+    "case_for": "I opened with circuit QED first and the optical lattice clock second, and after reading all eight ballots I move the clock to the top of my configuration. Seven of eight members rank B053, four of them in the top three, and the reasons given are ones I share. The magic-wavelength lattice removes Doppler and recoil shifts while interrogating many atoms at once, and that is a genuinely new regime of precision, not just an incremental improvement. Fractional uncertainties near 1e-18 have been reproduced and compared across several laboratories (RIKEN, JILA, NIST, PTB, SYRTE, NPL), and the same clocks now test the gravitational redshift over millimetres, probe variations of constants and underpin the redefinition of the second. The two-name credit is clean: Katori proposed the magic-wavelength concept and made the first demonstrations, and Ye's group drove the accuracy, stability and many-body clock advances. It is a discovery-driven, controllable quantum-optics result, which is the sort of work I value most. As a theorist embedded in experimental teams I also like that it is robust and reproducible rather than dependent on one laboratory.",
+    "case_against": "The strongest reservation is overlap with earlier prizes: Ye's laureate status in 2005 (frequency combs) and the 2012 ion-trap prize mean some will see this as a third precision-metrology prize, and Ye would be a repeat laureate. The redefinition of the second has not yet happened, so part of the headline impact is still prospective. The early lattice-clock priority history between groups (including contributions beyond the two credited names) is also not something I can settle from the shortlist text. Finally, atomic clocks are adjacent to my field but not my own, so I rely on Eva Lindroth and Stefan Kroll for the detailed attribution.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Stefan ranks the optical lattice clock first as a measurement advance of the first rank, and ranks circuit QED third, noting that the 2025 prize on circuits may make the committee hesitant to reward the same platform so soon.",
+        "response": "I agree with the first half and I take the second half seriously. The 2025 prize rewarded macroscopic quantum tunnelling and energy quantisation in a circuit, and circuit QED is distinct, since it concerns coupling an artificial atom to a resonator for readout and control. But it is the same platform and the same community, and the committee would be right to let that settle for a few years. This is partly why I now put B053 ahead of my own B001. I would push back slightly on 'measurement over proposals': for lattice clocks I think the Katori concept paper is as decisive as the demonstrations, which is why I am comfortable with two names rather than adding a third."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Bernhard ranks topological insulators and the quantum spin Hall effect first, with Kane, Mele and Molenkamp as the clean theory-plus-first-experiment trio, while acknowledging that the 2016 prize on topological phases makes novelty a little more delicate.",
+        "response": "I ranked the same trio third and I think it is an excellent set. My qualification is the one he already raises. The Z2 classification and the HgTe edge channels are deep and well confirmed, but the Bernevig-Hughes-Zhang proposal that actually led to HgTe is not among the credited names, so the prize would sit on an awkward attribution hole, and the 2016 citation on topological phases was broad enough that some will say the theme is already honoured. I do not think that kills it, and I would keep it as an alternative, but I would not put it ahead of a result where the credit is as clean as it is for the lattice clock. On the 2D versus 3D question, I would rather cite the quantum spin Hall effect alone than try to cover Hasan's ARPES strand inside three names."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Eva puts the optical lattice clock first as the clearest precision atomic-physics case for fundamental tests, with Hall, Hansch and Wineland already recognised, and notes that the pending redefinition of the second is something the committee must weigh.",
+        "response": "I agree and I am glad to defer to her on the atomic-physics details. On the redefinition, I would not make the prize depend on it. The Nobel Prize rewards the discovery and its demonstrated performance, and the 1e-18 uncertainties and the clock comparisons already exist. The redefinition is a metrological decision that follows from the science, so a pending date is a reason for caution about the citation wording, not about timing. I would ask her to check the early lattice-clock priority history among groups, since she raised the same concern and I cannot verify it from memory."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Olle ranks the twisted bilayer graphene trio first, valuing the theory-plus-experiment link between the Bistritzer-MacDonald flat-band prediction and the 2018 discovery, and sees the pairing mechanism as unsettled but the discovery as robust.",
+        "response": "I see the appeal, and the theory-to-experiment link is exactly the pattern I like. My concern is maturity. The band-structure picture is well confirmed, but the superconducting pairing remains debated, the discovery is only about eight years old, and Cao, the first author of the decisive 2018 experiments, cannot be credited here. Mehlig and Danielsson also flag it as possibly early. I think the same prize in ten years would be on firmer ground, whereas the lattice clock has already passed the stage where replication across laboratories is in question. I would not oppose B033 strongly, but it is not my preferred part."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept Ye as a repeat laureate for precision metrology after 2005, and whether that weighs against B053 more than I expect.",
+      "Whether early lattice-clock priority among groups beyond Katori and Ye needs to be checked before settling the credit.",
+      "How much the 2025 superconducting-circuits prize should discount circuit QED (B001), and for how many years.",
+      "Whether a single-achievement prize is better than adding a second distinct part, given that the three-person limit makes most second parts awkward."
+    ],
+    "conflict_note": "I direct the Wallenberg Centre for Quantum Technology and work in superconducting circuits at Chalmers, so I have a clear field proximity to B001 (circuit QED), which I ranked first in my opening. I recommend that I recuse myself from the decision on B001 and discount my own ranking of it. The profile names no specific personal tie to Blais, Wallraff or Schoelkopf. I know of no connection to the B053 candidates beyond the normal scientific one."
+  }
+}

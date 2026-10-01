@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B010",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realisation of optical lattice clocks based on magic-wavelength trapping, which brought atomic timekeeping to the 10^-18 level and opened new tests of fundamental physics"
+      }
+    ]
+  },
+  "alternatives": [
+    "B051",
+    "B061"
+  ],
+  "statement": {
+    "case_for": "I keep B010 with Katori and Ye, and my configuration is unchanged from round 1. The physical idea is specific and not covered by earlier prizes: trapping neutral atoms at the magic wavelength, where the light shift cancels between the clock states, removes the trade-off between atom number and Doppler, recoil and collision shifts, so thousands of atoms can be interrogated together. Ye's group then showed what this buys, fractional uncertainty near 1e-18 and a regime in which spin-exchange and many-body effects matter inside a clock. As a theorist who works next to experiments, my test is whether a result has been checked by several laboratories and whether the calculable systematics agree with the measured ones. Here the answer is yes: JILA, RIKEN and Tokyo, NIST, PTB, SYRTE and NPL compare clocks at this level, and the shifts (magic wavelength, blackbody radiation, higher-order light shifts) are understood from atomic-structure theory. What has been revealed that earlier clocks could not show is concrete: gravitational redshift resolved over millimetre heights, tighter limits on drifting constants and a many-body clock. The two-name attribution is the cleanest on the shortlist, and I would want the citation to name the lattice scheme and the 1e-18 regime so that it stays distinct from the comb (2005) and ion-control (2012) prizes.",
+    "case_against": "The honest objection is that B010 is a measurement capability more than the discovery of a new state of matter, and that a sceptic can place it in the lineage of the 2005 and 2012 prizes. Attribution is also incomplete: Takamoto, Lemonde, Hollberg, the Kimble-era magic-wavelength discussion and the Al+ and Yb+ ion-clock groups lie outside the two names. Finally, the SI second has not been redefined, and the cleanest narrative moment may be a few years ahead, although I do not think the science depends on it. If the committee decides that a prize must reward a phenomenon found in nature, B061 or B051 is the stronger case, and I would then favour whichever has the cleaner credit.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson asks whether the 1e-18 claims for strontium lattice clocks are independent of blackbody-shift and lattice-light-shift systematics, and says the case must rest on the physics and not on the pending redefinition of the second.",
+        "response": "I agree that the redefinition of the second belongs to the CIPM and should be kept out of the scientific case. On the systematics, the blackbody shift was the dominant limit for years, but the dynamic correction has been measured directly in the strontium clocks at JILA and RIKEN, and cryogenic operation largely removes the question. Higher-order light shifts have also been bounded experimentally and compared with atomic theory. The 1e-18 level is therefore tested by several independent clocks with different shield designs and lattice depths, and no longer rests on a single calculation. I also share your wish that the citation name the physics (relativistic redshift over millimetres, constant variation tests) and not only the instrument, which is how I worded mine."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll argued that circuit QED sits too close to the 2025 circuit prize and that the Blais/Girvin and Yale experimental lines are hard to cut to three names, and asked what weight to give uncredited contributors on B010.",
+        "response": "I accept your timing and attribution argument on B041 and it is part of why I removed it from my preferred slot. As director of a superconducting-circuit programme I will not argue it further, and I have dropped it from my alternatives. On B010, I agree that the uncredited groups are a real gap, but I would not credit the early magic-wavelength discussion above Katori's proposal and first demonstration, since those are what turned the idea into a working scheme. A citation worded around the lattice clock and its realisation does not exclude Al+ or Yb+ ion clocks, which rest on a different principle."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, the chair, moved from IceCube to B010 and now lists B061 as a first alternative, acknowledging that source identification is thin and that attribution inside the collaboration is hard.",
+        "response": "I am an outsider on neutrino astronomy and I take your and Danielsson's reading of the diffuse flux as secure. My reservation is the one you voice yourself: whoever the expert reports name as decisive for the 2013 observation, three names still sit atop a collaboration of hundreds with AMANDA and Baikal forebears. I therefore keep B061 as a serious alternative. In the final ballot I would support it over B051 if the reports show a clear decisive contribution, but without that evidence I judge B010 more defensible because the credit and the independent confirmation are both tightly defined."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson asks what the lattice clock has revealed that earlier clocks could not, and argues that the IceCube diffuse flux is itself the discovery and has stood for more than a decade.",
+        "response": "The lattice clock's new results are specific. Resolving gravitational redshift over about a millimetre needed both the stability from many atoms and the accuracy from magic-wavelength control, and neither the comb nor a single-ion clock gave both. The same many-atom property brought the first clocks that act as many-body systems. I take your point that waiting for source identification is a stricter test than we used elsewhere, and I do not hold B061 to it. My remaining concern is purely attribution, and if the expert reports settle it I would regard B061 as a close competitor and not a distant second."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee sees the lattice clock as distinct enough from the 2005 comb and 2012 ion-control prizes, which I think turns on citation wording around the magic-wavelength lattice.",
+      "Whether the early magic-wavelength priority (Lemonde, Takamoto, Kimble) is adequately covered by crediting Katori for the proposal and first demonstrations and Ye for the accuracy and many-body regime.",
+      "How much to weigh the pending SI redefinition; I would keep it out of the scientific case.",
+      "I am outside my expertise on IceCube attribution and on twisted bilayer graphene, so my ordering of B061 and B051 as alternatives is provisional and I would defer to colleagues."
+    ],
+    "conflict_note": "I direct the Wallenberg Centre for Quantum Technology and am close to the superconducting-circuit community, so I should be recused from B041 (circuit QED) or discount my view on it; it is neither in my configuration nor among my alternatives. I have no specific personal or institutional connection to Katori, Ye or their laboratories apparent from my profile, and I know B061 and B051 only as an outside reader."
+  }
+}

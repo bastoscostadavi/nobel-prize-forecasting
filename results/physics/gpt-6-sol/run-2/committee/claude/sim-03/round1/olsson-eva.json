@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-03",
+  "member_id": "olsson-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": [
+          "Harald Rose",
+          "Knut Urban",
+          "Maximilian Haider"
+        ],
+        "citation": "For the invention and realisation of aberration correction in electron microscopy, which made sub-angstrom imaging and spectroscopy of atoms in materials possible."
+      }
+    ]
+  },
+  "alternatives": [
+    "B053",
+    "B029"
+  ],
+  "statement": {
+    "case_for": "Aberration correction is an invention in the sense the statutes intend. For more than half a century Scherzer's theorem set a hard limit on electron lenses, and Rose's theoretical design of the corrector, Haider's construction of the hexapole corrector, and Urban's demonstration of its use on real specimens in the late 1990s removed that limit. The result was verified immediately and repeatedly: sub-angstrom resolution is now routine on thousands of instruments, and quantitative atomic-resolution imaging and spectroscopy of interfaces, defects, catalysts, oxide heterostructures and quantum-device materials are possible because of it. This is a new tool that opened a door to things that could not be seen before, and it has changed experimental practice across physics, materials science and chemistry. The three credited names are the documented originators of the TEM corrector (theory, implementation, demonstration), so the attribution is as clean as any on this list, and the credit does not hinge on collaboration spokespersons. Recognition is also timely, since the invention is nearly thirty years old and its consequences are fully established.",
+    "case_against": "The strongest reservation is that the committee has historically been more comfortable with discoveries of phenomena than with instrumentation, and some colleagues will say this belongs to chemistry or is engineering. Opening support is thin (three of eight members, one first place), well below optical lattice clocks. There is also a genuine priority issue on the STEM side: Krivanek, Dellby and Lupini realised a corrector for the scanning instrument at about the same time, and they are not among the credited names, so a prize for the TEM corrector alone risks being seen as incomplete. Finally, I am a practising electron microscopist, which makes me prone to overweighting this field.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "B052 is a fine enabling technique, but a microscopy invention may fall more naturally under chemistry, and the contributions of Krivanek and others complicate a three-person split.",
+        "response": "I take the Krivanek point seriously and I would want the expert report to settle it before we commit. My reading of the record is that the TEM corrector by Rose, Haider and Urban and the STEM corrector by Krivanek's group were separate realisations, and the credited trio is the one that also has the theoretical foundation in Rose's design work. On the field question, the resolution limit of electron lenses is a problem of charged-particle optics, and the payoff is atomic-scale structure of solids, interfaces and defects, which is physics. The statutes say discovery or invention within physics, and this is an invention. I accept that the motivation must be written so that it is clearly about the physics of imaging at atomic resolution."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked B052 eighth, as a mature instrumentation advance that must be weighed against the usual preference for discovery of a physical phenomenon, and noted that the STEM corrector side (Krivanek, Dellby) is not credited.",
+        "response": "I agree this is the key conceptual question, and I do not want to hide behind my own field. My answer is that our own practice, from the electron microscope in 1986 to the 2018 laser tools, includes inventions that opened new observational capability, and the statute names invention explicitly. What I would ask is a simple test: did the tool allow measurements of new phenomena that were not possible before? Here the answer is yes, since individual atom columns, oxygen vacancies and light-element positions at interfaces are now measured routinely. I also agree with you that theory and experiment must connect, and in this case Rose's work provides the theory, which also meets your concern about first-principles comparison. I do not claim the STEM question is closed, and that is the reason I list it as my main uncertainty."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Optical lattice clocks are the clearest first-rank measurement advance, with magic-wavelength trapping reaching about 1e-18 uncertainty and very strong independent replication, and the two-name Katori and Ye credit is clean.",
+        "response": "I agree that the science is excellent and the replication is strong, and that is why I rank it sixth in my own opening ballot and why I name it as my first alternative. My reservation is about originality. The prize is for the original experiment, and in precision metrology a good part of the enabling steps, frequency combs and ion clocks, have already been recognised in 2005 and 2012, so the clock would be the third prize in one measurement line. Ye's own work builds directly on the comb technology recognised in 2005. I would also want to confirm the priority history of the strontium lattice clock between groups, which Lindroth herself notes she cannot fully recall. I would not block a prize here, but I do not accept that broad opening support settles the question."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Circuit QED is a clean case where a quantum phenomenon became controllable on a chip and follows from the 2025 prize, though Johansson flags a possible conflict of interest in his own field.",
+        "response": "I value the candour about the conflict, and I would put that on the record. Circuit QED is scientifically strong, but I see two difficulties. First, it follows the 2025 prize for macroscopic quantum tunnelling in circuits very closely, and a prize in the same platform so soon risks looking like a continuation. Second, Girvin is missing from the credited names, so the 2004 proposal cannot be fully credited. My own preference remains for a different area this year, and I would want the committee to decide whether superconducting circuits has already received its recognition."
+      }
+    ],
+    "uncertainties": [
+      "Whether the STEM aberration corrector (Krivanek, Dellby, Lupini) must be credited alongside the TEM corrector of Rose, Haider and Urban, and whether priority can be settled from the historical record.",
+      "Whether the committee accepts an instrumentation invention as physics rather than chemistry or engineering.",
+      "Whether opening support of three of eight members is enough to carry B052 against optical lattice clocks, which have much broader support.",
+      "Whether the priority history of the strontium lattice clock between groups is clear enough to support B053 as an alternative."
+    ],
+    "conflict_note": "No formal conflict is apparent from my profile, but I work daily with aberration-corrected electron microscopes at Chalmers and have been a user and developer of quantitative TEM methods, so I am professionally close to the candidate field and should be careful about overweighting it. Johansson is a Chalmers colleague, but not connected to B052; the profile shows no collaboration with Rose, Urban or Haider."
+  }
+}

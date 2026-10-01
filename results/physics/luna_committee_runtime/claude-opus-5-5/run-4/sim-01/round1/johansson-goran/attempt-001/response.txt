@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B035",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics and its experimental realization with superconducting circuits."
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B006"
+  ],
+  "statement": {
+    "case_for": "Circuit QED brought controlled light-matter interaction from cavity quantum optics into a solid-state system with artificial atoms. The pairing of a clear theoretical framework and experimental realization opened a new regime of quantum optics, and its reproducibility across laboratories and lasting influence make the foundational achievement mature enough for recognition. I retain this as my preferred case after considering colleagues’ arguments about other mature platforms.",
+    "case_against": "The field’s growth involved many groups, and a three-person award compresses a broad experimental and theoretical effort. The committee must be confident that these names represent the foundational transition to circuit QED rather than later development of the platform.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "She argues that quantum error correction has mature theory and increasingly strong experimental demonstrations, while noting that the boundary between its original discovery and later fault-tolerant methods is broad.",
+        "response": "That is a strong case for B007: the foundational insight that noise need not make quantum information unusable is distinct from whether large-scale fault tolerance has arrived. I still favor B035 because its core theory and physical realization are more tightly joined in a specific, repeatedly used experimental platform."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "She describes optical-lattice experiments as making controlled many-body systems accessible, and notes that Cirac’s contribution is substantial while a three-person limit forces difficult choices.",
+        "response": "B006 is compelling for the clean control it gives over many-body physics, and the attribution challenge is real. The unresolved question about its reach as a quantitative simulator for real materials makes its awardable scope less sharply bounded than circuit QED’s foundational theory-and-experiment pairing."
+      }
+    ],
+    "uncertainties": [
+      "The precise boundary between the foundational circuit-QED contributions and subsequent development across many laboratories needs careful historical assessment.",
+      "The committee should establish whether the proposed three-person attribution adequately represents both the theoretical proposal and its experimental realization."
+    ],
+    "conflict_note": "Potential professional proximity: my Chalmers role and WACQT leadership, alongside the profile’s noted ties to superconducting-circuit research, could raise a conflict question. The supplied profile identifies no direct collaboration or personal connection with Blais, Wallraff, or Schoelkopf."
+  }
+}

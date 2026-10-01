@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "danielsson-ulf",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Michel Della Negra",
+          "Peter Jenni",
+          "Tejinder S. Virdee"
+        ],
+        "citation": "For the discovery of the Higgs boson with the ATLAS and CMS experiments."
+      }
+    ]
+  },
+  "alternatives": [
+    "B002",
+    "B007"
+  ],
+  "statement": {
+    "case_for": "The Higgs discovery completed a central prediction of the Standard Model through a result established independently by two experiments and confirmed in subsequent measurements. It is a clear, consequential discovery with a mature experimental record. The proposed leaders offer a plausible way to recognize the achievement while acknowledging that thousands contributed.",
+    "case_against": "The discovery was collective, and any three-person selection risks making experimental leadership stand in for the work of entire collaborations. The committee must establish that these three individuals' roles justify this particular attribution.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argues that quantum error correction is a foundational result, with mature theory and substantial experimental progress, although large-scale fault-tolerant operation remains unfinished.",
+        "response": "I agree that the foundational insight does not depend on a finished quantum computer. Still, the boundary between the original codes and later fault-tolerant methods is broad, and experimental realization is advancing. The Higgs case has both a sharply identifiable discovery and extensive confirmation in nature, so I place it ahead at this stage."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson sees ultracold atoms in optical lattices as an established platform for controlled many-body experiments, while noting that the prize scope across theory and experimental milestones needs definition.",
+        "response": "The platform has clearly enabled valuable physics, and its experimental maturity is a strength. But it is an ongoing research program with several possible milestones and contributors. The Higgs discovery is more tightly bounded as an achievement, and its significance is already demonstrated by the confirmed particle and its measured properties."
+      }
+    ],
+    "uncertainties": [
+      "The relative leadership and discovery contributions of Della Negra, Jenni, and Virdee across ATLAS and CMS require careful review against the work of both collaborations."
+    ],
+    "conflict_note": "None apparent from the supplied profile."
+  }
+}

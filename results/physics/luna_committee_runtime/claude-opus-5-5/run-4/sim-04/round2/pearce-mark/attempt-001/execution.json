@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-6-luna",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-pearce-mark-4hvpndny",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/luna-round2-pearce-mark-4hvpndny/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "0a696a3304701f0d575f4e1b27272f5fe0fcca2f74c6c0ee6753f4cfbdd93407",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/physics/committee/pearce-mark/profile.md",
+      "sha256": "659500efe31a894c2b588500d516519e248126349eaf143d86a100487649ca00"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/shortlist.json",
+      "sha256": "98942d1a806e530da86c1d0ffb98cffb94a9bc03f4540b6ea9a1cf12ed772f92"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/danielsson-ulf.json",
+      "sha256": "5455c8185bfd042c84a65d46cc0f33751df415b4e7f2fdbdc3475fef089270e0"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/eriksson-olle.json",
+      "sha256": "5c90a076d5cc8747353614aba8d8d5b33b57a0a00403581fbb1f6ceb38b54131"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/johansson-goran.json",
+      "sha256": "2d80cca276823f06005195de90d3a9f3bef6003f30fdfabb772dcdf99e1bcdc6"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/kroll-stefan.json",
+      "sha256": "62b7249c25c7054edffc13b9c6d2666ec8c134229a052df84f8a67d67e179fbe"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/lindroth-eva.json",
+      "sha256": "9f16761e9fda20e8fb2535b5ae8e31e37cd34ddf9271aa69d8a6b3076b745896"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/mehlig-bernhard.json",
+      "sha256": "2560088b7a66bac4a962dda854aafdf9f6f1b40b39a36e31a4c08114866aeef4"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/olsson-eva.json",
+      "sha256": "78721bb4b702efcc2542d8da88ac049763b8ccef2a0d1291ed5e2fe2c4e079af"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/round1/pearce-mark.json",
+      "sha256": "fa0df72276638f16163329383fd72770c2acd2876c4ea72960eac95327abb3ad"
+    },
+    {
+      "path": "results/physics/claude-opus-5-5/run-4/committee/gpt-6-luna/sim-04/chair_summary_round1.json",
+      "sha256": "4d5cf7ec875d64c7e1dbffa3e8e67475ec3e4e9baafc5591300c6d298e1fae2c"
+    }
+  ],
+  "thread_id": "01a0f855-40de-7d90-b647-58c04509eed9",
+  "usage": {
+    "input_tokens": 22041,
+    "cached_input_tokens": 6912,
+    "output_tokens": 1035,
+    "reasoning_tokens": null,
+    "total_tokens": 23076
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-01T16:39:14.631523Z"
+}

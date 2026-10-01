@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-03",
+  "member_id": "kroll-stefan",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B005",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the development of optical lattice clocks, enabling unprecedented precision in time measurement and new tests of fundamental physics."
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B020"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are a major advance in measurement science: they combine exceptional precision with independent experimental programs and have enabled reproducible tests of fundamental physics as well as progress in timekeeping. Katori and Ye provide a focused attribution for complementary advances. Their significance is established through demonstrated performance and sustained use, rather than depending on a future application.",
+    "case_against": "The clock achievement grew from a broader development of optical frequency standards. A prize citation must distinguish the central lattice-clock advances from later improvements and recognize that both original proposals and years of community-wide experimental work contributed to present performance.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked quantum key distribution third and emphasized its foundational protocols, while noting that credit across early protocols, security proofs, and later implementation is broad.",
+        "response": "I agree that QKD made quantum principles operational and that Bennett, Brassard, and Ekert have distinct foundational claims. The breadth of the later security and engineering work does make the prize boundary less compact. For the clocks, the independent approaches and experimental performance give a comparatively clear link from the central advance to measurable, reproducible capability."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson argued that quantum error correction is conceptually mature and merits recognition even though scalable fault-tolerant operation remains an active goal.",
+        "response": "That is a strong case for recognizing a foundational theoretical result without waiting for its ultimate technology. I would still distinguish that maturity from the clocks' long record of precise experimental realization and use. The error-correction contribution is substantial, but the unresolved scale of fault-tolerant operation leaves more of its practical reach ahead of us."
+      }
+    ],
+    "uncertainties": [
+      "The boundary between the original optical lattice clock advances and the wider development of optical frequency standards and later precision improvements needs careful historical assessment."
+    ],
+    "conflict_note": "No personal or institutional connection to Hidetoshi Katori or Jun Ye is apparent from the supplied profile."
+  }
+}

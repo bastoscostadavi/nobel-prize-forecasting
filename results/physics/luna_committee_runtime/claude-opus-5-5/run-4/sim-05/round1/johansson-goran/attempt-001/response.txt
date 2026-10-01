@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_luna_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For establishing circuit quantum electrodynamics as a controllable regime of light–matter interaction."
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Circuit QED made superconducting circuits into artificial atoms whose interaction with microwave fields could be engineered and controlled. That opened a new experimental regime for studying coherent light–matter physics, with phenomena reproduced and extended across laboratories over two decades. Blais's theoretical architecture and Wallraff's and Schoelkopf's experimental contributions provide a coherent, complementary attribution. The case rests on the physical platform and experiments themselves, not only on later computing applications.",
+    "case_against": "The achievement sits close to the broader development of superconducting quantum computing, making the boundary of the prize difficult to define and individual credit necessarily incomplete. The supplied profile also notes a recent prize for foundational superconducting-circuit physics, which may affect how distinct this contribution appears.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "You described circuit QED as a controllable light–matter platform, while noting that the prize scope should distinguish the original achievement from later quantum-computing advances.",
+        "response": "I agree that the citation should be limited to establishing controllable circuit-based light–matter interaction. With that boundary, the basic physical achievement remains identifiable even though later computing work grew from it."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "You emphasized that the platform's development was broad and that its impact is intertwined with wider superconducting-qubit work.",
+        "response": "That is the strongest attribution reservation. The three credited contributions capture important theoretical and experimental strands, but the award should recognize the foundational cQED regime rather than imply that these individuals alone built the wider field."
+      }
+    ],
+    "uncertainties": [
+      "The boundary between the foundational cQED achievement and subsequent superconducting quantum-computing advances needs a precise citation.",
+      "The committee should assess whether the recent prize for foundational superconducting-circuit physics makes this contribution insufficiently distinct."
+    ],
+    "conflict_note": "My profile identifies professional proximity through my work on superconducting circuits and leadership of WACQT, a quantum-computing program. This connection may require recusal; the supplied profile does not establish a direct connection to the credited nominees."
+  }
+}

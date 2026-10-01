@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">Committee discussion workflow for one Nobel Prize simulation</title>
+  <desc id="desc">A nine-stage workflow from a blinded candidate longlist through private opening rankings, shortlist construction, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and a fully recorded decision.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 38px; font-weight: 700; fill: #0f172a; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #475569; }
+      .step { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; }
+      .heading { font-family: Arial, sans-serif; font-size: 23px; font-weight: 700; fill: #0f172a; }
+      .body { font-family: Arial, sans-serif; font-size: 16px; font-weight: 400; fill: #334155; }
+      .artifact { font-family: Menlo, Consolas, monospace; font-size: 14px; font-weight: 600; fill: #334155; }
+      .legend { font-family: Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #334155; }
+      .arrow { fill: none; stroke: #64748b; stroke-width: 3; marker-end: url(#arrow); }
+      .agent-box { fill: #eef2ff; stroke: #818cf8; stroke-width: 2; }
+      .chair-box { fill: #fff7ed; stroke: #fb923c; stroke-width: 2; }
+      .code-box { fill: #ecfdf5; stroke: #34d399; stroke-width: 2; }
+      .artifact-agent { fill: #e0e7ff; }
+      .artifact-chair { fill: #ffedd5; }
+      .artifact-code { fill: #d1fae5; }
+      .agent-step { fill: #4338ca; }
+      .chair-step { fill: #c2410c; }
+      .code-step { fill: #047857; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="960" fill="#f8fafc"/>
+  <text class="title" x="800" y="58" text-anchor="middle">One committee simulation: discussion, voting, and saved evidence</text>
+  <text class="subtitle" x="800" y="92" text-anchor="middle">Eight persona-conditioned members · blinded candidate order · every intermediate artifact retained</text>
+
+  <!-- Top row -->
+  <g filter="url(#shadow)">
+    <rect class="agent-box" x="50" y="140" width="330" height="190" rx="18"/>
+    <rect class="code-box" x="440" y="140" width="330" height="190" rx="18"/>
+    <rect class="agent-box" x="830" y="140" width="330" height="190" rx="18"/>
+    <rect class="chair-box" x="1220" y="140" width="330" height="190" rx="18"/>
+  </g>
+
+  <text class="step agent-step" x="75" y="170">1 · PRIVATE</text>
+  <text class="heading" x="75" y="203">Opening rankings</text>
+  <text class="body" x="75" y="234">Each member reviews the full</text>
+  <text class="body" x="75" y="257">blinded longlist independently,</text>
+  <text class="body" x="75" y="280">ranks eight, and proposes credit.</text>
+  <rect class="artifact-agent" x="75" y="294" width="270" height="25" rx="8"/>
+  <text class="artifact" x="88" y="312">opening/&lt;member&gt;.json</text>
+
+  <text class="step code-step" x="465" y="170">2 · DETERMINISTIC</text>
+  <text class="heading" x="465" y="203">Support-only shortlist</text>
+  <text class="body" x="465" y="234">First-place, repeated top-three,</text>
+  <text class="body" x="465" y="257">or broad top-eight support.</text>
+  <text class="body" x="465" y="280">Nomination counts stay hidden.</text>
+  <rect class="artifact-code" x="465" y="294" width="270" height="25" rx="8"/>
+  <text class="artifact" x="478" y="312">shortlist.json</text>
+
+  <text class="step agent-step" x="855" y="170">3 · PUBLIC DISCUSSION</text>
+  <text class="heading" x="855" y="203">Round 1</text>
+  <text class="body" x="855" y="234">Openings are unsealed. Members</text>
+  <text class="body" x="855" y="257">answer specific colleagues and test</text>
+  <text class="body" x="855" y="280">merit, maturity, credit, and conflicts.</text>
+  <rect class="artifact-agent" x="855" y="294" width="270" height="25" rx="8"/>
+  <text class="artifact" x="868" y="312">round1/&lt;member&gt;.json</text>
+
+  <text class="step chair-step" x="1245" y="170">4 · CHAIR</text>
+  <text class="heading" x="1245" y="203">Neutral synthesis</text>
+  <text class="body" x="1245" y="234">Maps agreements, minority views,</text>
+  <text class="body" x="1245" y="257">attribution disputes, and unresolved</text>
+  <text class="body" x="1245" y="280">questions without choosing a winner.</text>
+  <rect class="artifact-chair" x="1245" y="294" width="270" height="25" rx="8"/>
+  <text class="artifact" x="1258" y="312">chair_summary_round1.json</text>
+
+  <!-- Top arrows -->
+  <g fill="#64748b" stroke="#64748b" stroke-width="3" stroke-linecap="round">
+    <line x1="390" y1="235" x2="418" y2="235"/><polygon points="418,228 430,235 418,242" stroke="none"/>
+    <line x1="780" y1="235" x2="808" y2="235"/><polygon points="808,228 820,235 808,242" stroke="none"/>
+    <line x1="1170" y1="235" x2="1198" y2="235"/><polygon points="1198,228 1210,235 1198,242" stroke="none"/>
+  </g>
+
+  <!-- Turn down -->
+  <g fill="#64748b" stroke="#64748b" stroke-width="3" stroke-linecap="round">
+    <line x1="1385" y1="340" x2="1385" y2="372"/><polygon points="1378,372 1385,384 1392,372" stroke="none"/>
+  </g>
+
+  <!-- Bottom row, right to left -->
+  <g filter="url(#shadow)">
+    <rect class="agent-box" x="1220" y="395" width="330" height="190" rx="18"/>
+    <rect class="code-box" x="830" y="395" width="330" height="190" rx="18"/>
+    <rect class="agent-box" x="440" y="395" width="330" height="190" rx="18"/>
+    <rect class="code-box" x="50" y="395" width="330" height="190" rx="18"/>
+  </g>
+
+  <text class="step agent-step" x="1245" y="425">5 · PUBLIC DISCUSSION</text>
+  <text class="heading" x="1245" y="458">Round 2</text>
+  <text class="body" x="1245" y="489">Members answer the chair’s questions,</text>
+  <text class="body" x="1245" y="512">reconsider colleagues’ arguments,</text>
+  <text class="body" x="1245" y="535">and refine an exact configuration.</text>
+  <rect class="artifact-agent" x="1245" y="549" width="270" height="25" rx="8"/>
+  <text class="artifact" x="1258" y="567">round2/&lt;member&gt;.json</text>
+
+  <text class="step code-step" x="855" y="425">6 · DETERMINISTIC</text>
+  <text class="heading" x="855" y="458">Fixed proposal slate</text>
+  <text class="body" x="855" y="489">Identical achievement–laureate</text>
+  <text class="body" x="855" y="512">configurations are grouped; P000</text>
+  <text class="body" x="855" y="535">always preserves “no award.”</text>
+  <rect class="artifact-code" x="855" y="549" width="270" height="25" rx="8"/>
+  <text class="artifact" x="868" y="567">proposal_slate.json</text>
+
+  <text class="step agent-step" x="465" y="425">7 · PRIVATE</text>
+  <text class="heading" x="465" y="458">Final ballots</text>
+  <text class="body" x="465" y="489">Every member ranks every proposal</text>
+  <text class="body" x="465" y="512">exactly once after seeing the complete</text>
+  <text class="body" x="465" y="535">second-round exchange.</text>
+  <rect class="artifact-agent" x="465" y="549" width="270" height="25" rx="8"/>
+  <text class="artifact" x="478" y="567">final_ballots/&lt;member&gt;.json</text>
+
+  <text class="step code-step" x="75" y="425">8 · DETERMINISTIC</text>
+  <text class="heading" x="75" y="458">Majority + runoff</text>
+  <text class="body" x="75" y="489">Five of eight votes wins. Otherwise</text>
+  <text class="body" x="75" y="512">the lowest proposal is eliminated and</text>
+  <text class="body" x="75" y="535">preferences transfer until a majority.</text>
+  <rect class="artifact-code" x="75" y="549" width="270" height="25" rx="8"/>
+  <text class="artifact" x="88" y="567">decision.json</text>
+
+  <!-- Bottom arrows -->
+  <g fill="#64748b" stroke="#64748b" stroke-width="3" stroke-linecap="round">
+    <line x1="1210" y1="490" x2="1182" y2="490"/><polygon points="1182,483 1170,490 1182,497" stroke="none"/>
+    <line x1="820" y1="490" x2="792" y2="490"/><polygon points="792,483 780,490 792,497" stroke="none"/>
+    <line x1="430" y1="490" x2="402" y2="490"/><polygon points="402,483 390,490 402,497" stroke="none"/>
+  </g>
+
+  <!-- Outcome -->
+  <line x1="215" y1="595" x2="458" y2="655" stroke="#64748b" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="458,648 472,655 458,662" fill="#64748b"/>
+  <g filter="url(#shadow)">
+    <rect x="485" y="620" width="630" height="172" rx="22" fill="#0f172a"/>
+  </g>
+  <text x="800" y="659" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:15px;font-weight:700;letter-spacing:0.08em;fill:#a5b4fc;">9 · RECORDED OUTCOME</text>
+  <text x="800" y="697" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:28px;font-weight:700;fill:#f8fafc;">One auditable committee decision</text>
+  <text x="800" y="728" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:17px;font-weight:400;fill:#cbd5e1;">Winner · exact laureates · vote transfers · full discussion provenance</text>
+  <rect x="629" y="748" width="342" height="27" rx="8" fill="#1e293b"/>
+  <text x="800" y="767" text-anchor="middle" style="font-family:Menlo,Consolas,monospace;font-size:14px;font-weight:600;fill:#e2e8f0;">repeat 10× per nomination run</text>
+
+  <!-- Legend -->
+  <g transform="translate(375 845)">
+    <circle cx="0" cy="0" r="8" fill="#818cf8"/>
+    <text class="legend" x="17" y="5">8 committee personas</text>
+    <circle cx="275" cy="0" r="8" fill="#fb923c"/>
+    <text class="legend" x="292" y="5">chair synthesis</text>
+    <circle cx="495" cy="0" r="8" fill="#34d399"/>
+    <text class="legend" x="512" y="5">validated deterministic step</text>
+  </g>
+  <text x="800" y="905" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:15px;font-weight:400;fill:#64748b;">All JSON artifacts are retained under the simulation directory; no discussion is discarded.</text>
+</svg>

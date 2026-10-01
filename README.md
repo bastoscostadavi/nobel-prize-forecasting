@@ -19,6 +19,15 @@ nominator agents ──► nominations ──► candidate list ──► commit
                                                          × runs ──► win probabilities ◄──────────────────┘
 ```
 
+## Committee discussion workflow
+
+![Committee discussion workflow showing private opening rankings, support-based shortlisting, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and the saved decision record](docs/figures/committee-discussion-workflow.svg)
+
+Every opening assessment, member statement, chair summary, proposal slate,
+private ballot, runoff transfer, and final decision is saved as a versioned JSON
+artifact. The complete protocol and schemas are documented in
+[`docs/PHYSICS_PHASE2.md`](docs/PHYSICS_PHASE2.md).
+
 ## Categories
 
 | Folder | Prize | Deciding body (real world) |

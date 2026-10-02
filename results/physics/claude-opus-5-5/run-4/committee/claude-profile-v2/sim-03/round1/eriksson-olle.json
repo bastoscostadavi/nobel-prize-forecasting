@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B005",
+        "laureates": [
+          "Antoine Georges",
+          "Gabriel Kotliar",
+          "Dieter Vollhardt"
+        ],
+        "citation": "for the development of dynamical mean-field theory, a non-perturbative framework for strongly correlated electrons and the Mott transition"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B047"
+  ],
+  "statement": {
+    "case_for": "After reading the opening ballots I still place dynamical mean-field theory first, but I hold that view with less certainty than in my opening and I do not treat my own ranking as evidence of consensus. Only Lindroth (rank 3), Mehlig (rank 6) and Johansson (rank 7) ranked it, so it has far less breadth than the topological-insulator or moire candidates. The scientific case is that the infinite-dimension limit gives a local self-energy, and the self-consistent mapping onto a quantum impurity problem turns the strongly correlated electron problem into something systematically computable. It gives a quantitative account of the Mott transition and of the coexistence of Hubbard bands and a quasiparticle peak, and through LDA+DMFT it is the working route by which electronic-structure theory reaches transition-metal oxides, f-electron systems and iron-based superconductors. Three decades of independent implementations and quantitative comparison with spectroscopy, optical conductivity and specific heat make it mature. I judge that durable, widely used explanatory power at least as important as the freshness of a recent experimental discovery.",
+    "case_against": "The strongest reservation is attribution. The credited trio omits Walter Metzner, who shares the 1989 infinite-dimension limit with Vollhardt, and Eberhard Muller-Hartmann and Michel Jarrell, who were central to the early development. A three-person prize here would leave out people whose contribution is arguably as decisive as one of those named. DMFT is also an approximation that is exact only in infinite dimensions, with known limits for non-local correlations and low-dimensional systems, and its materials predictions depend on double-counting and solver choices. Finally, it is a method rather than a discovery, and Nobel practice for theory-method prizes is uneven. My closeness to electronic-structure theory gives me a real bias toward valuing it, and colleagues should discount my ranking for that.",
+    "responses": [
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranked DMFT third and noted that it is a quantitatively usable method rather than a model alone, while saying that Metzner and Muller-Hartmann are missing from the credited names, so the best three-person configuration is debatable.",
+        "response": "I agree on both points and want to make the second one sharper. The attribution gap is not a footnote. The infinite-dimension limit and the impurity-model mapping are distinct steps, and honouring only Vollhardt on the first leaves Metzner out of a result he co-authored. Where I go further than you is the weight of method-versus-discovery. The experimental tests, spectroscopy of Hubbard bands and quasiparticle peaks and the Mott-transition thermodynamics, are what I would lean on to answer that concern. But I accept that you ranked it third and not first, and I do not claim that the attribution problem is solved."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig put DMFT sixth and called the attribution crowded: Metzner and Vollhardt introduced the limit, Georges and Kotliar the impurity mapping, and Muller-Hartmann and Jarrell were also central, so a three-person prize leaves out significant contributors.",
+        "response": "This is the most serious objection to my own first choice and I do not think it can be fully answered. I would argue that the Georges-Kotliar mapping, the Mott-transition solution and the development of LDA+DMFT are what turned a limiting case into a tool, and Vollhardt is the closest credited name to the infinite-dimension step. But if the committee judges that a fair prize cannot be built from these three names, then it should say so and look elsewhere on the shortlist. Your own first choice, active matter, has a cleaner three-person structure, but its ranking by one member only tells me the committee has not yet tested the case, and I would want the experimental status of the Toner-Tu exponents examined before I could rank it highly."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked twisted bilayer graphene first as a clear theoretical prediction of flat bands followed by the discovery of correlated insulating and superconducting states, with Bistritzer, MacDonald and Jarillo-Herrero as a natural theory-plus-experiment trio.",
+        "response": "I take this seriously, since correlated-electron physics is exactly where I work and the prediction-then-discovery structure is attractive. My reservation is maturity of interpretation. The 2018 observations are reproduced, but the pairing mechanism is unsettled and twist-angle disorder limits quantitative comparison with theory, which is a weaker position than a framework with decades of benchmarking. On credit I would keep MacDonald and Jarillo-Herrero as the cleanest pair and treat Bistritzer as a defensible third; I do not agree that all three are equally decisive. I would not oppose it as the second-best option, and a few more years would make me more comfortable."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked circuit QED first and flagged his own field proximity as a bias, and also placed DMFT seventh, mainly on whether a theory-method prize fits a committee that prefers direct experimental confirmation.",
+        "response": "The candour about field bias is the right model and I try to apply it to myself. On DMFT, I disagree with the implication that method prizes lack experimental confirmation: the spectral functions, optical conductivity and specific heat of correlated oxides provide exactly that, and Nobel recognition of theoretical frameworks, such as the 2016 topological-phases prize, shows that a theory can be recognised when its explanatory reach is broad. On circuit QED, I rank it lower than you do, mainly because the 2025 prize was for macroscopic quantum tunnelling in superconducting circuits and I think the committee should be wary of a second circuit prize so soon, even though the discoveries are distinct."
+      }
+    ],
+    "uncertainties": [
+      "Whether a fair three-person DMFT prize is possible without Metzner, Muller-Hartmann and Jarrell, none of whom are among the credited names.",
+      "Whether the committee prefers a theory-method prize over discovery-driven candidates such as the topological-insulator, moire or lattice-clock proposals.",
+      "Priority details for the infinite-dimension limit versus the impurity-model mapping, which I have not independently verified.",
+      "Whether the Kane-Mele-Molenkamp configuration is fair given the omission of Bernevig, Hughes and Zhang, and whether it is too close to the 2016 topological-phases prize.",
+      "Whether twisted bilayer graphene is mature enough while the superconducting mechanism is unresolved."
+    ],
+    "conflict_note": "No personal connection to any credited candidate is documented in my profile. I do work with density functional theory and dynamical mean-field methods, so for B005 there is a methodological and field-proximity bias that the committee should weigh, and a possible recusal question if it is thought to amount to a conflict. My documented ties (Borje Johansson, Los Alamos, co-authors of my books and Uppsala colleagues) do not link to the shortlisted candidates as far as the provided profile shows."
+  }
+}

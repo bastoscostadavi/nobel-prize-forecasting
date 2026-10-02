@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-03",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B019",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realisation of optical lattice clocks based on magic-wavelength trapping, bringing optical frequency standards to the 10^-18 level of fractional uncertainty"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B047"
+  ],
+  "statement": {
+    "case_for": "The optical lattice clock is a concrete, well-delimited invention. Katori's magic-wavelength idea cancels the light shift of the trapping field while keeping the atoms free of Doppler and recoil effects, and Ye's group turned it into the most accurate and stable measurement instrument built so far, at roughly 1e-18 fractional uncertainty, with the many-body regime of interrogated atoms now part of the picture. The attribution is the cleanest on the shortlist: a proposer and the leading realiser, two names, and no competing claim to the core idea that I can identify. Several independent laboratories in Japan, the US, Europe and China now operate clocks at this level and compare them, so confirmation is not in doubt. The impact is already visible in tests of fundamental constants, millimetre-scale gravitational redshift, dark-matter searches and the discussion of a new definition of the second. As an atomic theorist I can vouch for the atomic-structure side, namely the magic wavelengths, the polarisability calculations and the systematic-shift budgets, which is where the physical soundness of the proposal rests.",
+    "case_against": "The strongest reservation is novelty relative to earlier prizes in the same family: the 2005 prize for the frequency comb and precision spectroscopy (Hall, Hansch), the 2012 prize for controlling single trapped ions (Wineland) and the older cold-atom and clock prizes (Ramsey, Chu, Cohen-Tannoudji, Phillips). A committee could reasonably say that a further precision-metrology prize is a continuation rather than a new discovery. Part of the impact is also still prospective, since the redefinition of the second has not been adopted, and the two supplied names leave out theorists and other clock groups (for example Lemonde at SYRTE, and the PTB and NIST ion-clock work) whose contributions are real.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the lattice clock first as a clean, mature invention, while worrying that a committee might see it as a continuation of the 2005 comb recognition through Ye's lineage.",
+        "response": "I agree with the assessment and with the worry, and I think it can be answered. The comb solved the problem of counting optical cycles; the lattice clock solves a different one, namely how to hold a large ensemble of atoms without perturbing the transition, which is Katori's contribution and has no counterpart in the comb prize. Ye's comb background explains why he could push stability, but the citation should rest on the magic-wavelength lattice, not on frequency measurement. I would not accept the argument that the comb prize crowds out the clock; I would accept that the citation must be drafted so that it does not read as a second comb prize."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson puts magic-angle twisted bilayer graphene first as a clear prediction followed by an experimental discovery that has reshaped a field, and ranks the lattice clock fourth because of overlap with earlier time-and-frequency prizes.",
+        "response": "I take the importance of moire materials seriously, and I agree that the Bistritzer-MacDonald and Jarillo-Herrero pairing is attractive. My disagreement is about maturity. Several of us, including Eriksson and Mehlig, point out that the superconducting mechanism and the phase diagram are unsettled and that twist-angle disorder limits quantitative comparison, so the discovery is solid but the understanding is not. The lattice clock has had the opposite history: the principle has been tested for two decades by independent groups, with results that converge. On overlap, the earlier prizes cover the frequency comb and single-ion control, not magic-wavelength trapping of neutral atoms, so I do not think novelty is the weak point. I would keep B047 as an alternative for a later year rather than the preferred choice now."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks dynamical mean-field theory first as the framework that extended first-principles electronic-structure theory to correlated materials, and acknowledges that his view is shaped by his own field.",
+        "response": "As a many-body theorist I share the appreciation for DMFT, and I ranked it third. My hesitation is the attribution, which Eriksson himself flags: Metzner and Vollhardt introduced the infinite-dimension limit, Georges and Kotliar the impurity mapping, and Muller-Hartmann and Jarrell also played central roles, so a three-name limit forces an arbitrary cut in a crowded field. A method prize also needs an explicit link to what it has explained experimentally, and quantitative accuracy for real materials still depends on solver and double-counting choices. For the lattice clock the equivalent weakness is smaller, because the credit is two people and the performance can be measured directly. I would not oppose B005 if the committee finds a defensible triple, but I do not think it is stronger on attribution."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks active-matter hydrodynamics first and the magic-angle graphene second, arguing that active matter became a coherent branch of nonequilibrium statistical physics with stable theory for about three decades.",
+        "response": "The Toner-Tu and Ramaswamy work is conceptually original and I do not dispute its lasting significance. This is outside my subfield, so I weigh my judgement lightly. What concerns me is the evidence you yourself note, that quantitative confirmation of the Toner-Tu exponents in real systems is incomplete, and that credit for the continuum theory extends to Tu, who is not among the credited names. With only three names allowed, that leaves a real theory contribution outside the prize. I would want to hear whether you consider the experimental tests on granular rollers and bacterial suspensions strong enough to count as confirmation of the specific predictions, or only of the qualitative picture."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first, acknowledges his proximity to the field, and notes the timing question raised by the 2025 prize on macroscopic quantum tunnelling in superconducting circuits.",
+        "response": "I appreciate that you flagged your closeness to the subject, and I agree that circuit QED is foundational for superconducting processors. I place it fifth for two reasons. The 2025 prize on superconducting circuits makes a second prize in that area so soon harder to justify, even though the discoveries are distinct, and the credit within the Yale effort (Devoret, Girvin, Koch for the transmon) cannot be resolved with the three supplied names. I would not call it a weak candidate, and if the committee decides the 2025 prize does not constrain it, I would consider it, but I would rather not decide on proximity alone and I would want the citation to separate it clearly from the 2025 work."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee views the lattice clock as sufficiently distinct from the 2005 comb prize and the 2012 trapped-ion prize; this depends on how the citation is drafted.",
+      "Whether other clock groups (SYRTE, PTB, NIST) and the theorists of the magic-wavelength shift calculations deserve credit that two names cannot carry.",
+      "Priority details between Katori's early proposal and the first experiments are taken from memory and should be checked against the record.",
+      "If the committee prefers a topological-insulator prize (B012), the credited trio omits Bernevig, Hughes and Zhang and the 3D topological insulator contributors, and I cannot resolve that allocation from my own field."
+    ],
+    "conflict_note": "No conflict is apparent for B019, since my documented connections (Lindgren's Gothenburg group, L'Huillier and the Lund attosecond group, Keller's group at ETH Zurich, Schuch, Dahlstrom, Argenti, Indelicato) do not include Katori or Ye. As a theoretical atomic physicist I work in an adjacent area, and I would disclose that proximity. Should the committee turn to attosecond science or highly charged ions, my collaborations with L'Huillier's and Keller's groups would require disclosure and possible recusal."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "Immanuel Bloch",
+          "Markus Greiner",
+          "Peter Zoller"
+        ],
+        "citation": "for realising and imaging strongly correlated many-body quantum systems with ultracold atoms in optical lattices, and for the theoretical proposals that made them controllable quantum simulators"
+      }
+    ]
+  },
+  "alternatives": [
+    "B009",
+    "B040"
+  ],
+  "statement": {
+    "case_for": "I opened with circuit QED (B040) but I think the committee can build a more defensible case around ultracold atoms in optical lattices (B012). It was the one shortlisted candidate that all eight of us ranked, and the one where the discovery chain is clearest: the Jaksch-Zoller proposal for Bose-Hubbard physics in lattices, the Greiner-Bloch observation of the superfluid to Mott insulator transition, and single-site-resolved quantum gas microscopy. These turned model Hamiltonians that condensed-matter theory had only written down into tunable laboratory systems, with controlled interaction strength, geometry and dimensionality. It has been replicated across many groups and species for two decades, so the maturity question is settled, and it is a physics result in the plain sense (many-body physics, a quantum phase transition, direct imaging of correlations) rather than a technology milestone. Zoller as theorist plus Bloch and Greiner as the decisive experimentalists is a coherent split of idea and realisation. Its quantum-simulation relevance is also something I can assess from the quantum-information side without having to judge my own subfield.",
+    "case_against": "The credited list has four names and only three can be taken, so Cirac must be left out, and Jaksch, who co-authored the original Bose-Hubbard proposal, is not on the list at all; Hansch, Esslinger and Bakr also have arguable claims on the Mott and microscope results. The topic also sits close to the 2001 Bose-Einstein condensation prize and the 2012 prize on quantum control of single systems, so the committee would have to word the citation carefully to show what is new. Finally, the promised payoff of analogue simulation, solving problems beyond classical reach, has not yet been delivered, and some will say the platform is a capability rather than a discovery. If we cannot resolve the Zoller/Cirac/Greiner allocation, B009 or B049 offer cleaner credit.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Ulf puts magic-angle twisted bilayer graphene (B009) first as a clean theory-plus-experiment discovery with a well delineated effect, and notes that the pairing mechanism is still debated but timing is reasonable.",
+        "response": "I agree the Bistritzer-MacDonald prediction followed by the 2018 observation is a clean chain, and I keep B009 as my first alternative. Where I qualify his view is on maturity: eight years in, we still do not know whether the superconductivity is phonon-mediated or electronic, and sample-to-sample twist-angle disorder is a live problem. Our practice has been to wait until the interpretation stabilises, and I see that more fully in the lattice-simulation case than here. I also note Ulf's own caveat on earlier moire band-structure work, and the attribution to MacDonald and Bistritzer should be tested against it before we commit."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Stefan ranks optical lattice clocks (B049) first and circuit QED (B040) third, and warns that the 2025 prize recognised macroscopic quantum tunnelling in superconducting circuits, so the committee may wish to wait. He also notes that Girvin and Devoret are not in the credited names.",
+        "response": "This is the argument that moved me. I opened with B040 and I still think it is original and foundational, but a prize on circuit QED so soon after the 2025 award would look to many like one extended topic recognised twice, and the credit omissions he names, Girvin and Devoret, are real. I therefore no longer put B040 in my preferred configuration. On B049 I agree with him on maturity and on the clean two-person split of Katori and Ye, but I would ask whether lattice clocks are a discovery or a decisive improvement in measurement, since the fundamental-physics results so far are null tests; that is a reason to put it below B012, not out of the running."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Olle ranks B009 first and B012 seventh, and values lattice simulators because they test the model Hamiltonians condensed-matter theory relies on, while flagging that the practical advantage over classical simulation is not yet shown and that the credit among Zoller, Jaksch, Cirac, Bloch and Greiner is unclear.",
+        "response": "His reasons for interest are my reasons for B012, and I take his reservation about classical advantage seriously. Where I differ is on how much weight it deserves: the prize rewards what was demonstrated, not what is promised, and the Mott transition and microscope images are established results with direct checks against Hubbard-type theory. I share his concern about the four-name list and would accept a debate about whether Zoller or Cirac is the better theory choice; my reading is that the Jaksch-Zoller lattice proposal is what the experiments actually implemented, which favours Zoller."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Bernhard ranks active-matter hydrodynamics (B011) first as a conceptually unified field, but concedes that Yuhai Tu is omitted, that quantitative tests of the Toner-Tu exponents are limited, and that its fit with the physics prize is uncertain.",
+        "response": "I cannot judge the statistical-physics content of B011 as well as he can, so I defer to him on its originality. My difficulty is the one he raises himself: with Toner-Tu a joint 1995 result and Tu not among the credited names, a fair three-person prize is hard to defend on the supplied credit, and the exponents have been tested in only a few systems. That is a larger gap in experimental confirmation than I see for B012 or B009, and for now I would not put it ahead of them."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Mark ranks topological insulators (B026) first and the Higgs discovery (B023) second, regarding the Higgs as an unrecognised experimental landmark whose difficulty is attributing credit within ATLAS and CMS to three founding leaders.",
+        "response": "I respect his case that the Higgs experiments are overdue, but I would qualify it seriously. The statutes allow three individuals, and the credited names are leaders of detector programmes rather than the people who made the analysis decisions, so a prize would honour leadership rather than the decisive scientific contribution. That is a harder attribution problem than the Zoller-Cirac question for B012. On B026 I agree that the Kane-Mele Z2 idea is mature and important, but leaving out Bernevig, Hughes and Zhang, who proposed the HgTe realisation, and the 3D contributors makes the three-name allocation weaker than he suggests."
+      }
+    ],
+    "uncertainties": [
+      "Whether Zoller or Cirac is the right theory choice, and how to treat Jaksch, who is not among the credited names.",
+      "Whether the citation can be worded so that it is clearly distinct from the 2001 Bose-Einstein condensation and 2012 quantum-control prizes.",
+      "Whether the committee prefers the Mott-insulator and microscope experiments or the theoretical proposal as the centre of the prize.",
+      "Whether the pairing mechanism in twisted bilayer graphene will be understood well enough soon for B009 to overtake B012 on maturity."
+    ],
+    "conflict_note": "I disclose a connection for B040 (circuit QED): I work in circuit and waveguide QED, lead WACQT at Chalmers, and have Chalmers colleagues (Per Delsing, C. M. Wilson) and a frequent co-author (Anton Frisk Kockum) in that community, and Chalmers hosted researchers associated with the 2025 prize. I would recuse myself from the final decision on B040 or weigh my views on it with that in mind. No specific conflict is apparent from my profile for B012, B009 or B049."
+  }
+}

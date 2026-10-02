@@ -1,0 +1,2497 @@
+{
+  "schema_version": 1,
+  "category": "medicine",
+  "prize_year": 2026,
+  "list_id": "merged",
+  "version": 1,
+  "prepared_by": "Codex attribution review and consolidation",
+  "research_cutoff": "2026-10-02",
+  "cutoff_timezone": "America/Chicago",
+  "source_type": "consolidated_author_researched_longlist",
+  "nominator_stage": {
+    "status": "omitted_at_user_request",
+    "simulated_nominations": false,
+    "actual_nominations_known": false
+  },
+  "inputs": [
+    {
+      "list_id": "c",
+      "path": "agent-data/medicine/candidates/c/candidates.json",
+      "sha256": "f9222a8ee75709fe5c587033cc41dd6b0ab6052e193edd8958803263758c8daa",
+      "candidate_count": 32
+    },
+    {
+      "list_id": "claude-opus-5-5",
+      "path": "agent-data/medicine/candidates/claude-opus-5-5/candidates.json",
+      "sha256": "cbc76d132d75b3e8028634bde2bfcb5733c08376af33b589f6fe2dbbe4a29679",
+      "candidate_count": 40
+    }
+  ],
+  "merge_summary": {
+    "codex_input_entries": 32,
+    "claude_input_entries": 40,
+    "shared_discoveries": 19,
+    "codex_only_discoveries": 13,
+    "claude_only_discoveries": 21,
+    "consolidated_discoveries": 53,
+    "dropped_input_entries": 0
+  },
+  "candidate_count": 53,
+  "candidate_order": "alphabetical_by_discovery_not_rank",
+  "scope": "Discovery-centered union. Scientific credit pools are provisional and can exceed three; the agents must select a coherent award of no more than three people in total. No shortlist ranking, probabilities or nominator counts are implied.",
+  "limitations": [
+    "Recipient pools are evidence-informed starting points, not exhaustive priority judgments. Agents may propose additional names with sources.",
+    "Living-status review is targeted, not a comprehensive current registry audit for every retained person. Known deceased pioneers are historical credit only; recheck shortlisted recipients before final selection.",
+    "Membership in a previous prize-winning team or being a previous Nobel laureate does not automatically bar a distinct achievement; already rewarded achievements require explicit overlap review.",
+    "The broad tau/alpha-synuclein entry contains separable discoveries; agents should narrow its final citation and recipients if selected.",
+    "Committee identity and coauthorship flags require handling before simulation dispatch; they are not evidence of actual institutional disqualification."
+  ],
+  "candidates": [
+    {
+      "discovery_key": "emicizumab",
+      "discovery": "A bispecific antibody that substitutes for factor VIII activity in hemophilia A",
+      "subfield": "Hematology and therapeutic antibody engineering",
+      "credited_names": [
+        "Kunihiro Hattori",
+        "Takehisa Kitazawa",
+        "Tomoyuki Igawa"
+      ],
+      "scientific_basis": "Emicizumab bridges coagulation factors IX and X to compensate for deficient factor VIII activity.",
+      "rationale": "A specific engineering invention with a clear clinical mechanism and substantial treatment benefit.",
+      "main_reservation": "Could be viewed as a powerful disease-specific invention rather than a broad physiological discovery.",
+      "attribution_note": "The 2026 Lasker supports this three-person pool; the citation should focus on factor-mimetic bispecific engineering rather than all antibody therapeutics.",
+      "source_ids": [
+        "lasker2026"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M001",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C001"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "adult-stem-cell-organoids",
+      "discovery": "Adult stem-cell-derived organoids for studying tissue biology and disease",
+      "subfield": "Stem-cell biology and experimental medicine",
+      "credited_names": [
+        "Hans Clevers",
+        "Toshiro Sato"
+      ],
+      "scientific_basis": "Single intestinal stem cells can generate self-organizing organoids, enabling long-term culture of tissue-like structures.",
+      "rationale": "Changed experimental access to normal and diseased human tissues through a concrete biological discovery and culture method.",
+      "main_reservation": "Clinical impact and physiological completeness vary; adult stem-cell organoids should be distinguished from pluripotent stem-cell organoids.",
+      "attribution_note": "This narrow scope supports Clevers and Sato; a broader organoid citation would require additional pioneers and separate attribution research.",
+      "source_ids": [
+        "organoids"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M002",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C002"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c11"
+        }
+      ],
+      "review_decision": "Retained Toshiro Sato for the original adult intestinal organoid experiment, alongside Hans Clevers; stem-cell identification and culture invention are distinguished.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "ampk",
+      "discovery": "AMP-activated protein kinase as a sensor and regulator of cellular energy balance",
+      "subfield": "Metabolism and cell signaling",
+      "credited_names": [
+        "D. Grahame Hardie"
+      ],
+      "scientific_basis": "AMPK responds to cellular nucleotide/energy status and coordinates ATP-producing and ATP-consuming processes.",
+      "rationale": "A pervasive energy-sensing mechanism in cell physiology.",
+      "main_reservation": "A broad discovery with significant collaborators; metformin action cannot be treated as exclusively AMPK-dependent.",
+      "attribution_note": "Hardie’s laboratory defined the AMPK cascade. David Carling, Bruce Kemp and other mechanistic contributors require consideration if agents broaden the recipient pool; the retained singleton does not imply exclusive authorship.",
+      "source_ids": [
+        "ampk"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c27"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M003",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "sma_antisense",
+      "discovery": "Antisense correction of SMN2 splicing to treat spinal muscular atrophy",
+      "subfield": "RNA biology and therapeutics",
+      "credited_names": [
+        "Adrian R. Krainer",
+        "C. Frank Bennett"
+      ],
+      "scientific_basis": "An antisense oligonucleotide redirects SMN2 splicing to increase functional survival motor neuron protein.",
+      "rationale": "A precise RNA mechanism translated into an effective treatment for a devastating inherited disease.",
+      "main_reservation": "The citation should recognize the SMA splicing intervention rather than all antisense therapeutics.",
+      "attribution_note": "Krainer contributed splicing mechanism/design and Bennett antisense therapeutic development. The pool does not claim exclusive credit for the entire antisense field or clinical trial program.",
+      "source_ids": [
+        "sma"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c32"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M004",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "app_amyloid",
+      "discovery": "APP mutations and the amyloid-cascade model of Alzheimer’s disease",
+      "subfield": "Neurodegenerative disease genetics",
+      "credited_names": [
+        "Alison M. Goate",
+        "John Hardy"
+      ],
+      "scientific_basis": "Inherited APP mutations linked amyloid biology directly to familial Alzheimer’s disease and helped motivate the amyloid-cascade model.",
+      "rationale": "A causally anchored genetic insight that directed decades of disease research.",
+      "main_reservation": "The hypothesis is not a complete explanation of sporadic Alzheimer’s disease, and evidence for therapy does not identify its inventors.",
+      "attribution_note": "Goate was lead geneticist/first author of the APP mutation work in Hardy’s program and is restored to the pool. Hardy helped formulate the cascade model. Dennis Selkoe and other biochemical/genetic pioneers merit consideration if the agents broaden beyond APP-linked causality.",
+      "source_ids": [
+        "app1991",
+        "goate_hardy"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c35"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [
+        "Alison M. Goate"
+      ],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "tau_alpha_synuclein"
+      ],
+      "candidate_id": "M005",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "bcl2_apoptosis",
+      "discovery": "BCL-2-mediated cell survival, apoptosis control, and the basis of targeted cancer therapy",
+      "subfield": "Cell death and cancer biology",
+      "credited_names": [
+        "Andreas Strasser",
+        "David L. Vaux",
+        "Jerry M. Adams",
+        "Suzanne Cory"
+      ],
+      "scientific_basis": "BCL-2 oncogenic activity was shown to inhibit cell death rather than simply stimulate division, opening a therapeutic survival pathway.",
+      "rationale": "A mechanistic discovery with subsequent effective cancer therapy.",
+      "main_reservation": "A clinical drug-invention citation would need review of medicinal chemistry and clinical teams beyond this biology pool.",
+      "attribution_note": "Vaux, Cory and Adams authored the 1988 survival paper; Adams was missing from Claude’s pool and is restored. Strasser established key in-vivo consequences and BCL-2-family functions. This is not a claim that these four alone invented venetoclax.",
+      "source_ids": [
+        "bcl2",
+        "bcl2_1988"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c25"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [
+        "Jerry M. Adams"
+      ],
+      "historical_contributors": [],
+      "candidate_id": "M006",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "bcl11a_fetal_hemoglobin",
+      "discovery": "BCL11A regulation of fetal hemoglobin and its therapeutic reactivation in hemoglobin disorders",
+      "subfield": "Hematology and regulatory genetics",
+      "credited_names": [
+        "Daniel E. Bauer",
+        "Stuart H. Orkin",
+        "Swee Lay Thein",
+        "Vijay G. Sankaran"
+      ],
+      "scientific_basis": "Human genetic associations, repressor experiments and erythroid-enhancer targeting linked BCL11A to fetal hemoglobin silencing and therapeutic reactivation.",
+      "rationale": "A strong chain from human genetics to a defined molecular intervention.",
+      "main_reservation": "The underlying CRISPR platform already received the 2020 Chemistry prize; this entry must reward hemoglobin regulation and target biology. Clinical treatment development involved additional teams.",
+      "attribution_note": "Thein supplied human genetic identification; Sankaran and Orkin established repressor function; Bauer helped identify and dissect the therapeutic erythroid enhancer. Restored Thein and Bauer rather than attributing the entire chain to Orkin and Sankaran alone.",
+      "source_ids": [
+        "bcl11a2008",
+        "thein",
+        "bauer",
+        "nobel2020"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c36"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [
+        "Swee Lay Thein",
+        "Daniel E. Bauer"
+      ],
+      "historical_contributors": [],
+      "candidate_id": "M007",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "imatinib",
+      "discovery": "BCR-ABL inhibition and molecularly targeted treatment of chronic myeloid leukemia",
+      "subfield": "Cancer biology and translational oncology",
+      "credited_names": [
+        "Brian J. Druker",
+        "Charles L. Sawyers",
+        "Nicholas B. Lydon"
+      ],
+      "scientific_basis": "Imatinib targets the BCR-ABL kinase driving CML; investigation of resistance enabled subsequent targeted inhibitors.",
+      "rationale": "A durable demonstration that targeting an oncogenic driver can transform cancer treatment.",
+      "main_reservation": "Broader precision-oncology claims overlap with HER2 therapy and depend on many earlier discoveries.",
+      "attribution_note": "Keep this kinase-inhibitor achievement separate from trastuzumab; any combined award must still fit the total three-person limit.",
+      "source_ids": [
+        "imatinib"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M008",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C003"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c22"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "biomolecular-condensates",
+      "discovery": "Biomolecular condensates and phase separation in cellular organization",
+      "subfield": "Cell biology and biophysics",
+      "credited_names": [
+        "Anthony A. Hyman",
+        "Clifford P. Brangwynne",
+        "Dirk Görlich",
+        "Steven L. McKnight"
+      ],
+      "scientific_basis": "Phase separation and interactions of low-complexity protein domains explain important forms of cellular organization without membrane boundaries.",
+      "rationale": "Introduced a physical mechanism for organizing cellular reactions, with experimental work from complementary approaches.",
+      "main_reservation": "Some proposed functions remain contested or context-dependent; liquid behavior, hydrogels and aggregation should not be equated.",
+      "attribution_note": "Hyman-Brangwynne and Gorlich-McKnight support different emphases; select a precise achievement and at most three researchers during deliberation.",
+      "source_ids": [
+        "condensates",
+        "breakthrough2023"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M009",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C004"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "microbiome_metabolism",
+      "discovery": "Causal roles of gut microbial communities in host metabolism and childhood growth",
+      "subfield": "Microbiome and nutritional physiology",
+      "credited_names": [
+        "Jeffrey I. Gordon"
+      ],
+      "scientific_basis": "Transfer of defined or human-derived microbiota into germ-free animals separated causal metabolic effects from association; microbiota-directed food studies tested translation.",
+      "rationale": "A foundational experimental route from microbiome association to causality.",
+      "main_reservation": "Clinical generalization depends on disease and intervention; a broad microbiome award risks diffuse attribution.",
+      "attribution_note": "Gordon led the experimental framework. Peter Turnbaugh, Laura Blanton, Tahmeed Ahmed and collaborating teams made major specific contributions; a malnutrition-treatment citation would need a wider pool than this foundational program entry.",
+      "source_ids": [
+        "microbiome"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c33"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M010",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "cftr-modulators",
+      "discovery": "CFTR functional rescue and modulator therapies for cystic fibrosis",
+      "subfield": "Molecular physiology and translational medicine",
+      "credited_names": [
+        "Fred Van Goor",
+        "Jesús Tito González",
+        "Michael J. Welsh",
+        "Paul A. Negulescu",
+        "Sabine Hadida"
+      ],
+      "scientific_basis": "Understanding CFTR dysfunction enabled drugs that improve mutant protein folding, trafficking and channel activity.",
+      "rationale": "A mature example of treating a genetic disease by rescuing the defective protein mechanism.",
+      "main_reservation": "The mechanistic, screening and medicinal-chemistry contributions are distributed among more than three scientists.",
+      "attribution_note": "The 2025 Lasker names Welsh, Negulescu and Gonzalez; its scientific account also credits Van Goor and Hadida, retained as alternatives.",
+      "source_ids": [
+        "cftrdrugs",
+        "gairdner2025"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M011",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C005"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "cftr-gene"
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "chaperonin-folding",
+      "discovery": "Chaperonin-assisted protein folding",
+      "subfield": "Molecular cell biology and protein biochemistry",
+      "credited_names": [
+        "Arthur L. Horwich",
+        "F. Ulrich Hartl"
+      ],
+      "scientific_basis": "Chaperonins provide a protected environment in which proteins can fold, establishing active cellular assistance to protein folding.",
+      "rationale": "Changed a basic account of how functional proteins arise in cells; attribution is comparatively compact.",
+      "main_reservation": "Could compete with the unfolded protein response; the committee must distinguish assisted folding from structure prediction.",
+      "attribution_note": "This is experimental chaperonin biology, distinct from AlphaFold and computational protein design recognized by Chemistry in 2024.",
+      "source_ids": [
+        "chaperones"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M012",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C006"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "brca1-locus",
+      "discovery": "Discovery, mapping, and cloning of BRCA1-linked inherited breast and ovarian cancer susceptibility",
+      "subfield": "Human genetics and cancer predisposition",
+      "credited_names": [
+        "Mark H. Skolnick",
+        "Mary-Claire King"
+      ],
+      "scientific_basis": "Linkage analysis established a major inherited susceptibility locus; subsequent positional cloning identified BRCA1 and disease-associated variants.",
+      "rationale": "An identifiable discovery changed disease risk assessment and preventive medicine.",
+      "main_reservation": "Mapping the locus, cloning BRCA1, identifying BRCA2 and exploiting DNA-repair vulnerabilities are different achievements.",
+      "attribution_note": "King established inherited susceptibility and mapped the BRCA1 locus; Skolnick’s consortium cloned the gene in 1994. They are complementary stages, not interchangeable claims of first discovery. Miki and other consortium contributors retain historical scientific credit; this pool is provisional.",
+      "source_ids": [
+        "king",
+        "brca_cloning"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M013",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C026"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c04"
+        }
+      ],
+      "review_decision": "Broadened locus-mapping-only scope to include gene cloning; retained Mark H. Skolnick from Claude.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "b_t_lineages",
+      "discovery": "Distinct B- and T-lymphocyte lineages and their roles in adaptive immunity",
+      "subfield": "Immunology",
+      "credited_names": [
+        "Jacques F. A. P. Miller",
+        "Max D. Cooper"
+      ],
+      "scientific_basis": "Thymus and bursa experiments established separate cellular and antibody-producing arms of adaptive immunity.",
+      "rationale": "An organizing discovery underlying modern immunology.",
+      "main_reservation": "A very old discovery with many later immunological prizes; age of the work does not invalidate it.",
+      "attribution_note": "Miller established the thymus-dependent lineage; Cooper separated bursa-dependent antibody immunity from thymus-dependent cellular immunity. Do not fold the distinct T-cell receptor discovery into this entry.",
+      "source_ids": [
+        "bt_lineages"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c09"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M014",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "dna-methylation",
+      "discovery": "DNA methylation as a mechanism regulating gene expression",
+      "subfield": "Epigenetics and molecular genetics",
+      "credited_names": [
+        "Adrian P. Bird",
+        "Howard Cedar",
+        "Rudolf Jaenisch"
+      ],
+      "scientific_basis": "DNA methylation and its recognition influence gene activity; causal experiments connect methylation changes to disease mechanisms.",
+      "rationale": "A fundamental account of stable gene regulation beyond DNA sequence, supported by mechanistic experiments.",
+      "main_reservation": "Different discoveries under the broad epigenetics label should not be treated as a single undifferentiated achievement.",
+      "attribution_note": "Bird and Cedar anchor methylation and expression; Jaenisch represents causal mammalian experiments. Imprinting remains a separate candidate.",
+      "source_ids": [
+        "methylation",
+        "jaenisch"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M015",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C007"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c13"
+        }
+      ],
+      "review_decision": "Retained Rudolf Jaenisch for causal methylation experiments alongside Bird and Cedar. Kept disease-specific MECP2/Rett separately, with overlap flagged.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "mecp2_rett",
+        "genomic-imprinting"
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "fetal_cellfree_dna",
+      "discovery": "Fetal cell-free DNA in maternal blood and noninvasive prenatal screening",
+      "subfield": "Molecular diagnostics",
+      "credited_names": [
+        "Y. M. Dennis Lo"
+      ],
+      "scientific_basis": "Cell-free fetal DNA detection in maternal plasma enabled blood-based screening for fetal chromosomal abnormalities.",
+      "rationale": "A specific diagnostic discovery with widespread clinical translation.",
+      "main_reservation": "Screening and definitive diagnosis are different; any broader sequencing/algorithm citation requires additional attribution.",
+      "attribution_note": "Lo drove the fetal plasma-DNA discovery and translation. Preserve the focused citation rather than assigning all liquid biopsy discoveries to him.",
+      "source_ids": [
+        "nipt"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c28"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M016",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "cart",
+      "discovery": "Genetically engineered CAR-T cells for treating cancer",
+      "subfield": "Cancer immunology and cell therapy",
+      "credited_names": [
+        "Carl H. June",
+        "Michel Sadelain",
+        "Steven A. Rosenberg"
+      ],
+      "scientific_basis": "Engineering T-cell receptors and signaling enabled patient T cells to attack blood cancers, with durable remissions in some patients.",
+      "rationale": "A mature clinical transformation built on a distinct engineering advance, with an intelligible two-person configuration.",
+      "main_reservation": "Durability, toxicities and limited solid-tumor success constrain generalization; earlier invention credit must be acknowledged.",
+      "attribution_note": "June and Sadelain supply receptor engineering and clinical translation; Rosenberg’s NCI program also contributed early clinical CAR-T work, so retain Claude’s addition. Do not attribute CAR engineering to Rosenberg merely from TIL therapy; Kochenderfer and other clinical pioneers remain relevant for a broader citation. Eshhar’s original engineering contribution remains historical credit.",
+      "source_ids": [
+        "cart",
+        "eshhar",
+        "cart_nci"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M017",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C008"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c03"
+        }
+      ],
+      "review_decision": "Retained Steven A. Rosenberg from Claude with an explicit CAR-T contribution boundary.",
+      "attribution_additions": [],
+      "historical_contributors": [
+        {
+          "name": "Zelig Eshhar",
+          "contribution": "Early chimeric receptor engineering",
+          "death_date": "2025-07-03",
+          "source_ids": [
+            "eshhar"
+          ],
+          "eligible_credit_pool": false
+        }
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "glp1",
+      "discovery": "GLP-1 physiology and the development of incretin therapies for diabetes and obesity",
+      "subfield": "Endocrinology and metabolism",
+      "credited_names": [
+        "Daniel J. Drucker",
+        "Jens Juul Holst",
+        "Lotte Bjerre Knudsen",
+        "Svetlana Mojsov"
+      ],
+      "scientific_basis": "Discovery of active GLP-1 and its insulin-stimulating physiology enabled development of durable therapeutic analogues.",
+      "rationale": "Combines a defined physiological discovery with major demonstrated clinical benefit; the scientific and therapeutic narratives both support consideration.",
+      "main_reservation": "Four substantial living attribution claims compete for at most three laureate places; citation scope could determine the outcome.",
+      "attribution_note": "Retain Drucker, Holst, Mojsov and Knudsen. Discovery-focused and drug-development-focused configurations differ. Habener is indispensable historical credit but died on 28 December 2025 and is removed from the eligible pool.",
+      "source_ids": [
+        "glp1",
+        "habener",
+        "habener_date"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M018",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C009"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c01"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [
+        {
+          "name": "Joel F. Habener",
+          "contribution": "Proglucagon/GLP-1 discovery program",
+          "death_date": "2025-12-28",
+          "source_ids": [
+            "habener_date"
+          ],
+          "eligible_credit_pool": false
+        }
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "her2-trastuzumab",
+      "discovery": "HER2-directed antibody therapy for breast cancer",
+      "subfield": "Cancer biology and translational oncology",
+      "credited_names": [
+        "Axel Ullrich",
+        "Dennis J. Slamon",
+        "H. Michael Shepard"
+      ],
+      "scientific_basis": "HER2 biology, antibody engineering and clinical development produced trastuzumab for HER2-positive breast cancer.",
+      "rationale": "A mature, specific route from molecular disease classification to survival-improving treatment.",
+      "main_reservation": "A combined targeted-cancer-therapy citation would create severe competition for laureate places.",
+      "attribution_note": "Keep the HER2 antibody development pool intact and separate from the BCR-ABL kinase-inhibitor pool.",
+      "source_ids": [
+        "her2"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M019",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C010"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c23"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "deep_brain_stimulation",
+      "discovery": "High-frequency deep brain stimulation for Parkinson’s disease",
+      "subfield": "Clinical neuroscience and neurosurgery",
+      "credited_names": [
+        "Alim-Louis Benabid"
+      ],
+      "scientific_basis": "High-frequency stimulation provided a reversible alternative to lesioning, with the subthalamic nucleus becoming a major therapeutic target.",
+      "rationale": "A transformative intervention grounded in neural-circuit physiology.",
+      "main_reservation": "Award credit includes deceased circuit pioneer Mahlon DeLong and clinical collaborators; symptom control is not disease modification.",
+      "attribution_note": "Benabid established the stimulation intervention; DeLong identified relevant circuit pathology and target rationale. DeLong is historical credit only. Pierre Pollak and other clinical pioneers are relevant to a broader translational citation.",
+      "source_ids": [
+        "dbs",
+        "delong_memorial"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c29"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [
+        {
+          "name": "Mahlon R. DeLong",
+          "contribution": "Basal-ganglia circuit model and subthalamic target rationale",
+          "death_date": "2024-05-17",
+          "source_ids": [
+            "delong_memorial"
+          ],
+          "eligible_credit_pool": false
+        }
+      ],
+      "candidate_id": "M020",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "cftr-gene",
+      "discovery": "Identification of CFTR as the gene responsible for cystic fibrosis",
+      "subfield": "Human genetics and molecular medicine",
+      "credited_names": [
+        "Francis S. Collins",
+        "John R. Riordan",
+        "Lap-Chee Tsui"
+      ],
+      "scientific_basis": "Positional cloning and characterization identified CFTR and connected its disruption to cystic fibrosis.",
+      "rationale": "A landmark demonstration of finding a disease gene from inheritance and chromosome position.",
+      "main_reservation": "The original gene discovery and later functional rescue therapies offer competing citation scopes.",
+      "attribution_note": "Keep gene discovery separate from the Welsh-Negulescu-Gonzalez therapeutic candidate; do not conflate source credit with drug-development credit.",
+      "source_ids": [
+        "cftrgene",
+        "cftr1989"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M021",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C011"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c06"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "cftr-modulators"
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "il6",
+      "discovery": "IL-6 signaling and therapeutic blockade of the IL-6 receptor",
+      "subfield": "Immunology and inflammatory disease",
+      "credited_names": [
+        "Tadamitsu Kishimoto",
+        "Toshio Hirano"
+      ],
+      "scientific_basis": "Discovery and characterization of IL-6 and its signaling system enabled receptor-blocking treatment such as tocilizumab.",
+      "rationale": "A coherent molecular-to-clinical story with complementary mechanistic contributions and established treatment relevance.",
+      "main_reservation": "A broad cytokine-therapy award risks conflating this discovery with anti-TNF or IL-1 biology.",
+      "attribution_note": "The 2011 Japan Prize supports this two-person pool; retain a distinct IL-6 citation.",
+      "source_ids": [
+        "il6"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M022",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C012"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "integrins",
+      "discovery": "Integrins as receptors mediating cell-matrix and cell-cell adhesion",
+      "subfield": "Cell biology and immunology",
+      "credited_names": [
+        "Erkki Ruoslahti",
+        "Richard O. Hynes",
+        "Timothy A. Springer"
+      ],
+      "scientific_basis": "Separate discoveries of extracellular matrix and leukocyte adhesion receptors converged on the integrin family.",
+      "rationale": "A general organizing principle of tissues and immunity with mature evidence and a coherent three-person configuration.",
+      "main_reservation": "The field is broad; an award needs a sharply defined receptor discovery rather than a general adhesion citation.",
+      "attribution_note": "Retain both extracellular matrix and immune adhesion origins when evaluating the common molecular family.",
+      "source_ids": [
+        "integrins"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M023",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C013"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "tafamidis",
+      "discovery": "Kinetic stabilization of transthyretin and treatment of amyloid disease",
+      "subfield": "Protein biochemistry and translational medicine",
+      "credited_names": [
+        "Jeffery W. Kelly"
+      ],
+      "scientific_basis": "Stabilizing the transthyretin tetramer with tafamidis reduces its dissociation and aggregation and slows disease progression.",
+      "rationale": "A precise, experimentally grounded connection between protein mechanism and effective disease-modifying therapy.",
+      "main_reservation": "A narrow disease-focused achievement may compete with broader proteostasis principles; drug-development attribution needs scrutiny.",
+      "attribution_note": "Kelly anchors the mechanism-and-therapy discovery; avoid claiming that tafamidis demonstrates a universal treatment for all amyloid diseases.",
+      "source_ids": [
+        "gairdner2026",
+        "breakthrough2022"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M024",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C014"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "leptin",
+      "discovery": "Leptin and endocrine regulation of appetite and body weight",
+      "subfield": "Endocrinology and physiological neuroscience",
+      "credited_names": [
+        "Jeffrey M. Friedman"
+      ],
+      "scientific_basis": "Identification of leptin established an endocrine signal linking adipose tissue to feeding behavior and body-weight regulation.",
+      "rationale": "A fundamental physiological discovery that changed the biological understanding of obesity.",
+      "main_reservation": "The clinical replacement-therapy story is narrower than that for incretin drugs; this is a distinct mechanism, not a GLP-1 variant.",
+      "attribution_note": "Friedman is the living pool for this discovery-centered entry; Coleman is indispensable historical credit but died in 2014.",
+      "source_ids": [
+        "leptin",
+        "coleman"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M025",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C015"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c05"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [
+        {
+          "name": "Douglas L. Coleman",
+          "contribution": "Genetic and physiological prediction of the leptin pathway",
+          "death_date": "2014-04-16",
+          "source_ids": [
+            "coleman"
+          ],
+          "eligible_credit_pool": false
+        }
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "ltp-memory",
+      "discovery": "Long-term potentiation and the synaptic basis of learning and memory",
+      "subfield": "Neuroscience and synaptic physiology",
+      "credited_names": [
+        "Graham L. Collingridge",
+        "Richard G. M. Morris",
+        "Terje Lømo",
+        "Timothy V. P. Bliss"
+      ],
+      "scientific_basis": "Experiments linked persistent strengthening of hippocampal synapses and its molecular mechanisms to spatial learning and memory.",
+      "rationale": "Combines fundamental physiology with causal investigation of a central brain function.",
+      "main_reservation": "A new citation must make clear its distinction from earlier Nobel-recognized work on memory and from place-cell discoveries.",
+      "attribution_note": "Bliss and Lømo established LTP experimentally; Collingridge elucidated NMDA-dependent mechanisms; Morris linked synaptic plasticity to spatial learning. Retain all four as alternative roles instead of dropping either Lømo or Collingridge to force a trio.",
+      "source_ids": [
+        "ltp",
+        "ltp1973"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M026",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C016"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c17"
+        }
+      ],
+      "review_decision": "United complementary discovery, mechanism and memory contributions; retained Terje Lømo and Graham L. Collingridge.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "genomic-imprinting",
+      "discovery": "Mammalian genomic imprinting and parent-of-origin gene expression",
+      "subfield": "Developmental genetics and epigenetics",
+      "credited_names": [
+        "Davor Solter",
+        "M. Azim Surani"
+      ],
+      "scientific_basis": "Independent embryo experiments established functional nonequivalence of maternal and paternal genomes and the basis of genomic imprinting.",
+      "rationale": "An unexpected, fundamental discovery with direct consequences for development and human genetic disorders.",
+      "main_reservation": "Its relation to DNA methylation can invite overbroad merging; the original developmental discovery should remain identifiable.",
+      "attribution_note": "Keep the independent Surani and Solter discoveries together, while distinguishing later molecular imprint maintenance mechanisms.",
+      "source_ids": [
+        "imprinting"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M027",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C017"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c12"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "massively-parallel-sequencing",
+      "discovery": "Massively parallel DNA sequencing for genome-scale biology and medicine",
+      "subfield": "Genomics and biomedical technology",
+      "credited_names": [
+        "David Klenerman",
+        "Pascal Mayer",
+        "Shankar Balasubramanian"
+      ],
+      "scientific_basis": "Scalable massively parallel sequencing made DNA sequence analysis broadly usable in biomedical research and medicine.",
+      "rationale": "An enabling invention with exceptional effects on genetics, diagnostics and experimental biology.",
+      "main_reservation": "The invention is also a plausible Chemistry achievement; alternative sequencing platforms have separate priority histories.",
+      "attribution_note": "This is the specific pool recognized by the 2022 Breakthrough Prize. Do not conflate it with every next-generation or long-read sequencing platform.",
+      "source_ids": [
+        "breakthrough2022"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M028",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C018"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "mecp2_rett",
+      "discovery": "MECP2 biology, the molecular cause of Rett syndrome, and reversibility in mouse models",
+      "subfield": "Neurogenetics and epigenetics",
+      "credited_names": [
+        "Adrian P. Bird",
+        "Huda Y. Zoghbi"
+      ],
+      "scientific_basis": "MECP2 mutation discovery connected a methylated-DNA binding protein to Rett syndrome; gene restoration reversed established phenotypes in mice.",
+      "rationale": "A molecular explanation of a neurological syndrome with a striking proof of reversibility.",
+      "main_reservation": "Clinical reversal is not established by the mouse rescue result; overlap with the general DNA methylation entry requires citation discipline.",
+      "attribution_note": "Zoghbi’s team, including Ruthie Amir, identified disease mutations. Bird’s team discovered MeCP2 biology and demonstrated mouse rescue. Broadened the title so it does not incorrectly attribute the mutation-discovery experiment to Bird.",
+      "source_ids": [
+        "rett"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c14"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "dna-methylation"
+      ],
+      "candidate_id": "M029",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "mitochondrial_disease",
+      "discovery": "Mitochondrial DNA inheritance and mutations as causes of human disease",
+      "subfield": "Human and mitochondrial genetics",
+      "credited_names": [
+        "Douglas C. Wallace"
+      ],
+      "scientific_basis": "Maternal mitochondrial inheritance and pathogenic mtDNA mutations established a distinct genetic basis for metabolic and degenerative disease.",
+      "rationale": "A foundational human-genetic framework outside nuclear Mendelian inheritance.",
+      "main_reservation": "Pathogenic deletions and mutations were identified by multiple groups; narrowing the citation matters.",
+      "attribution_note": "Focus Wallace’s entry on mitochondrial inheritance/disease. Removed the generic human-evolution claim from the title so the committee can assess a specific medical achievement; Ian Holt, Anita Harding and other pioneers remain relevant historical attribution.",
+      "source_ids": [
+        "mtdna"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c40"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M030",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "cochlear_implant",
+      "discovery": "Modern multichannel cochlear implants and speech-processing strategies",
+      "subfield": "Medical engineering and auditory neuroscience",
+      "credited_names": [
+        "Blake S. Wilson",
+        "Graeme M. Clark",
+        "Ingeborg Hochmair"
+      ],
+      "scientific_basis": "Multichannel stimulation and improved encoding strategies made meaningful speech recognition possible in profound deafness.",
+      "rationale": "A durable medical invention restoring access to an impaired sensory function.",
+      "main_reservation": "Scientific scope should focus on the modern implant rather than the first electrical hearing experiment.",
+      "attribution_note": "Clark and Hochmair developed multichannel devices; Wilson developed effective signal processing. Erwin Hochmair and earlier pioneers remain relevant credit; this pool follows the scoped modern-implant scientific account.",
+      "source_ids": [
+        "cochlear"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c30"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M031",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "t_cell_receptor",
+      "discovery": "Molecular identification and cloning of the T-cell antigen receptor",
+      "subfield": "Immunology and molecular genetics",
+      "credited_names": [
+        "Mark M. Davis",
+        "Stephen M. Hedrick",
+        "Tak W. Mak",
+        "Yoshihiro Yanagi"
+      ],
+      "scientific_basis": "Independent mouse and human T-cell cDNA cloning programs identified rearranging antigen-receptor genes in 1984.",
+      "rationale": "A foundational molecular explanation of antigen recognition by T cells.",
+      "main_reservation": "A wider citation covering protein identification would require additional attribution beyond the cloning programs.",
+      "attribution_note": "Davis and Mak led independent programs; Hedrick and Yanagi were first authors of the original mouse and human cloning papers. Their inclusion is provisional scientific credit, not an inference that first authors automatically deserve a Nobel. Earlier protein identification by Reinherz, Marrack and Kappler is outside this narrowed citation.",
+      "source_ids": [
+        "tcr_mouse",
+        "tcr_human"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c08"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [
+        "Stephen M. Hedrick",
+        "Yoshihiro Yanagi"
+      ],
+      "historical_contributors": [],
+      "candidate_id": "M032",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "quorum_sensing",
+      "discovery": "Molecular mechanisms of bacterial quorum sensing and coordinated behavior",
+      "subfield": "Microbiology",
+      "credited_names": [
+        "Bonnie L. Bassler",
+        "E. Peter Greenberg"
+      ],
+      "scientific_basis": "Diffusible signals and cognate receptors allow bacteria to coordinate gene expression according to population context.",
+      "rationale": "A fundamental change in understanding microbial collective behavior with infection relevance.",
+      "main_reservation": "Award scope must distinguish molecular mechanism from the first observations of bacterial communication; established therapeutic impact is more limited.",
+      "attribution_note": "Bassler and Greenberg elucidated interspecies and species-specific signaling systems and their biological implications. Earlier observations and genetic work by Hastings, Nealson, Silverman and others predate this contribution; avoid claiming these two alone first observed communication.",
+      "source_ids": [
+        "quorum",
+        "quorum_uw"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c19"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M033",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "reward_prediction",
+      "discovery": "Neural and computational mechanisms linking reward prediction errors to learning",
+      "subfield": "Systems and computational neuroscience",
+      "credited_names": [
+        "P. Read Montague",
+        "Peter Dayan",
+        "Ray Dolan",
+        "Wolfram Schultz"
+      ],
+      "scientific_basis": "Dopamine recordings, computational reinforcement-learning models and human neuroimaging linked predicted rewards and outcomes to learning.",
+      "rationale": "A major connection between neural activity, computation and behavior.",
+      "main_reservation": "The broad learning citation differs from the narrower claim that one scientist discovered all dopamine prediction-error signaling.",
+      "attribution_note": "Schultz supplies neurophysiology; Dayan and Montague supply computational links; Dolan supplies human decision/reward evidence. The 1997 synthesis is coauthored by Schultz, Dayan and Montague. Broadened Claude’s title to match its inclusion of Dolan.",
+      "source_ids": [
+        "reward",
+        "reward1997"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c18"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [
+        "P. Read Montague"
+      ],
+      "historical_contributors": [],
+      "candidate_id": "M034",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "notch",
+      "discovery": "Notch signaling as a mechanism of cell-fate specification",
+      "subfield": "Developmental biology and cell signaling",
+      "credited_names": [
+        "Gary Struhl",
+        "Iva Greenwald",
+        "Spyros Artavanis-Tsakonas"
+      ],
+      "scientific_basis": "Genetic and molecular discoveries established how Notch signaling controls cell fate, development and tissue patterning.",
+      "rationale": "A conserved biological mechanism with foundational experimental support and continuing relevance to tissue biology.",
+      "main_reservation": "Cell-fate specification has many historical contributors, and the precise discovery boundary matters.",
+      "attribution_note": "These are the three researchers jointly recognized by Gairdner in 2025; this pool is a defensible starting point rather than exhaustive historical credit.",
+      "source_ids": [
+        "gairdner2025"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M035",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C019"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "optical-coherence-tomography",
+      "discovery": "Optical coherence tomography for noninvasive tissue imaging",
+      "subfield": "Biomedical imaging and ophthalmology",
+      "credited_names": [
+        "David Huang",
+        "Eric A. Swanson",
+        "James G. Fujimoto"
+      ],
+      "scientific_basis": "Optical coherence tomography produces depth-resolved cross-sectional images of tissue and transformed retinal examination.",
+      "rationale": "A mature invention with extensive direct medical use and a compact attribution configuration.",
+      "main_reservation": "Its optics foundation could also support consideration in Physics; Medicine requires a convincing clinical-invention framing.",
+      "attribution_note": "Use the imaging-invention trio; keep OCT distinct from the separate VEGF discovery even though both transformed retinal care.",
+      "source_ids": [
+        "oct"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M036",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C020"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "optogenetics",
+      "discovery": "Optogenetic control of genetically specified cells with light",
+      "subfield": "Neuroscience and experimental physiology",
+      "credited_names": [
+        "Edward S. Boyden",
+        "Ernst Bamberg",
+        "Georg Nagel",
+        "Gero Miesenböck",
+        "Karl Deisseroth",
+        "Peter Hegemann"
+      ],
+      "scientific_basis": "Light-sensitive microbial proteins and genetic targeting permit experimental activation or inhibition of specified neuronal populations.",
+      "rationale": "Enabled causal experiments on neural circuits at a scale and specificity that changed neuroscience.",
+      "main_reservation": "Several independent enabling contributions make a three-person award difficult; tool impact and biological discovery need to be distinguished.",
+      "attribution_note": "Preserve the six living researchers named by the 2013 Brain Prize. Oesterhelt is historical credit only because he died in 2022.",
+      "source_ids": [
+        "opto",
+        "opto2013",
+        "oesterhelt"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M037",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C021"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c02"
+        }
+      ],
+      "review_decision": "Retained Georg Nagel and the other five opsin/optogenetics pioneers; names remain an alternative pool rather than a six-person award recommendation.",
+      "attribution_additions": [],
+      "historical_contributors": [
+        {
+          "name": "Dieter Oesterhelt",
+          "contribution": "Foundational microbial light-sensitive protein biology",
+          "death_date": "2022-11-28",
+          "source_ids": [
+            "oesterhelt"
+          ],
+          "eligible_credit_pool": false
+        }
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "orexin-narcolepsy",
+      "discovery": "Orexin/hypocretin discovery and its role in wakefulness and narcolepsy",
+      "subfield": "Sleep physiology and neuroscience",
+      "credited_names": [
+        "Emmanuel Mignot",
+        "Luis de Lecea",
+        "Masashi Yanagisawa",
+        "Takeshi Sakurai",
+        "Thomas S. Kilduff"
+      ],
+      "scientific_basis": "Orexin signaling maintains wakefulness, and loss of this system explains narcolepsy; the pathway also supplies drug targets.",
+      "rationale": "Connects a basic physiological discovery to a defined human disorder and pharmacology, with clear complementary attribution.",
+      "main_reservation": "Therapeutic maturity differs between receptor antagonism for insomnia and receptor agonism for narcolepsy.",
+      "attribution_note": "Yanagisawa and Sakurai identified orexins/receptors; de Lecea and Kilduff independently identified hypocretins in Sutcliffe’s program. Mignot linked receptor defects and human peptide deficiency to narcolepsy; Yanagisawa’s knockout work connected the system to sleep. A narcolepsy-centered citation and a peptide-discovery citation imply different recipient selections.",
+      "source_ids": [
+        "lasker2026",
+        "breakthrough2023",
+        "orexin1998",
+        "opto_hypocretin",
+        "hypocretin_history"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M038",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C022"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c16"
+        }
+      ],
+      "review_decision": "Retained Sakurai from Claude and restored the independent hypocretin discovery team to the broader scope.",
+      "attribution_additions": [
+        "Luis de Lecea",
+        "Thomas S. Kilduff"
+      ],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "pcsk9",
+      "discovery": "PCSK9 and human genetic validation of a cholesterol-lowering therapeutic target",
+      "subfield": "Cardiovascular genetics and metabolic medicine",
+      "credited_names": [
+        "Catherine Boileau",
+        "Helen H. Hobbs",
+        "Jonathan C. Cohen",
+        "Marianne Abifadel",
+        "Nabil G. Seidah"
+      ],
+      "scientific_basis": "PCSK9 disease mutations and protective loss-of-function variants established a target for reducing LDL cholesterol and cardiovascular risk.",
+      "rationale": "A strong example of human genetics directing therapeutic development, with clear physiological consequences.",
+      "main_reservation": "Several discovery and validation teams compete for the three-person limit; distinction from earlier LDL-receptor recognition is necessary.",
+      "attribution_note": "Retain protein discovery, disease genetics and protective-variant teams; a Hobbs-Cohen-only framing would prematurely exclude foundational work.",
+      "source_ids": [
+        "pcsk9",
+        "seidah",
+        "pcsk9mutations"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M039",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C023"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c21"
+        }
+      ],
+      "review_decision": "Retained Marianne Abifadel for disease-causing PCSK9 mutation discovery; distinguished this from Seidah protein biology and Hobbs/Cohen protective human genetics.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "glymphatic",
+      "discovery": "Perivascular cerebrospinal-fluid exchange and the proposed glymphatic clearance mechanism",
+      "subfield": "Neurophysiology",
+      "credited_names": [
+        "Jeffrey J. Iliff",
+        "Maiken Nedergaard"
+      ],
+      "scientific_basis": "In-vivo tracer experiments described astroglial/perivascular routes for CSF exchange and solute removal, followed by sleep and human studies.",
+      "rationale": "A potentially important physiological framework for brain-fluid homeostasis.",
+      "main_reservation": "Transport interpretation and the effects of sleep remain contested; 2024 contrary mouse clearance results and 2026 supportive human evidence use different methods and do not by themselves settle the dispute.",
+      "attribution_note": "Iliff led the original experimental report in Nedergaard’s program and is added. Keep this discovery for independent assessment, while treating the complete clearance model as a hypothesis under active testing.",
+      "source_ids": [
+        "glymphatic2012",
+        "glymphatic_challenge",
+        "glymphatic2026"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c39"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [
+        "Jeffrey J. Iliff"
+      ],
+      "historical_contributors": [],
+      "candidate_id": "M040",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "cardiomyopathy_genetics",
+      "discovery": "Sarcomere gene mutations as causes of inherited hypertrophic cardiomyopathy",
+      "subfield": "Cardiovascular genetics",
+      "credited_names": [
+        "Christine E. Seidman",
+        "Jonathan G. Seidman"
+      ],
+      "scientific_basis": "Familial disease mapping and mutation identification established inherited sarcomere defects as causes of hypertrophic cardiomyopathy.",
+      "rationale": "A disease-defining genetic mechanism that changed diagnosis and mechanistic treatment research.",
+      "main_reservation": "A specific genetic disease package rather than a single universal cardiovascular mechanism.",
+      "attribution_note": "Retain the Seidmans for their joint clinical-genetic and experimental program; do not credit them with inventing every subsequent myosin-directed drug.",
+      "source_ids": [
+        "hcm"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c20"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M041",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "single-cell-rna",
+      "discovery": "Single-cell RNA sequencing for resolving cellular identity and heterogeneity",
+      "subfield": "Genomics and molecular systems biology",
+      "credited_names": [
+        "Aviv Regev",
+        "Evan Z. Macosko",
+        "Fuchou Tang",
+        "Rickard Sandberg",
+        "Sten Linnarsson",
+        "Stephen R. Quake",
+        "Steven A. McCarroll"
+      ],
+      "scientific_basis": "Single-cell transcriptome profiling, sensitive full-length protocols and droplet methods enabled molecular analysis of heterogeneous cell populations.",
+      "rationale": "Opened a major experimental view of cell identity, with wide use across physiology, development and disease.",
+      "main_reservation": "The first demonstration, improved sensitivity, high throughput and atlas applications represent distinct credit claims; the three-person constraint is severe.",
+      "attribution_note": "Preserve methodological alternatives. Inclusion of Sandberg and Linnarsson creates direct conflicts for the existing simulated committee; these require an explicit protocol choice.",
+      "source_ids": [
+        "scrna2009",
+        "smartseq",
+        "smartseq2",
+        "dropseq",
+        "linnarsson"
+      ],
+      "conflict_flags": [
+        {
+          "member_id": "sandberg-rickard",
+          "type": "candidate_is_committee_persona"
+        },
+        {
+          "member_id": "linnarsson-sten",
+          "type": "candidate_is_committee_persona"
+        }
+      ],
+      "candidate_id": "M042",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C024"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "spatial-transcriptomics"
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "spatial-transcriptomics",
+      "discovery": "Spatial transcriptomics for mapping gene expression within intact tissue",
+      "subfield": "Genomics and experimental physiology",
+      "credited_names": [
+        "Joakim Lundeberg",
+        "Jonas Frisén",
+        "Patrik L. Ståhl",
+        "Xiaowei Zhuang"
+      ],
+      "scientific_basis": "Spatially resolved sequencing and multiplexed RNA imaging associate molecular cell identity with tissue position.",
+      "rationale": "Restores anatomical context to molecular cell analysis and enables detailed investigation of tissue organization.",
+      "main_reservation": "Distinct sequencing and imaging inventions have separate priorities, and application maturity varies.",
+      "attribution_note": "Zhuang anchors MERFISH; Lundeberg, Frisen and Stahl anchor the spatial sequencing approach. Linnarsson coauthored the original spatial-transcriptomics paper.",
+      "source_ids": [
+        "spatial",
+        "merfish"
+      ],
+      "conflict_flags": [
+        {
+          "member_id": "linnarsson-sten",
+          "type": "coauthor_of_foundational_paper"
+        },
+        {
+          "member_id": "sandberg-rickard",
+          "type": "closely_related_methods_expertise"
+        }
+      ],
+      "candidate_id": "M043",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C025"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "single-cell-rna"
+      ],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "tau_alpha_synuclein",
+      "discovery": "Tau and alpha-synuclein as molecular components of pathological neurodegenerative filaments",
+      "subfield": "Neurodegeneration",
+      "credited_names": [
+        "Maria Grazia Spillantini",
+        "Michel Goedert"
+      ],
+      "scientific_basis": "Tau was identified in Alzheimer filaments and alpha-synuclein in Lewy pathology, defining molecularly distinct proteinopathies.",
+      "rationale": "Molecular characterization reshaped disease classification and mechanism research.",
+      "main_reservation": "Tau and synuclein are distinct achievements within one thematic entry; selecting a citation may require narrowing the protein and attribution.",
+      "attribution_note": "Goedert’s program established tau filament biology; Spillantini and Goedert colleagues identified alpha-synuclein in Lewy bodies. Contributions by Virginia Lee, Claude Wischik, Ross Jakes and other pioneers are not erased; this pool is provisional, not exhaustive.",
+      "source_ids": [
+        "synuclein1997",
+        "tau_synuclein_history"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c34"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "related_discovery_keys": [
+        "app_amyloid"
+      ],
+      "candidate_id": "M044",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "tgfb_smad",
+      "discovery": "TGF-beta receptor-to-SMAD signaling and its control of cell fate",
+      "subfield": "Cell signaling and cancer biology",
+      "credited_names": [
+        "Joan Massagué"
+      ],
+      "scientific_basis": "Receptor and downstream transcriptional mechanisms explain how TGF-beta regulates proliferation and cell identity in context.",
+      "rationale": "A major mechanism connecting extracellular cues to developmental and disease programs.",
+      "main_reservation": "Many groups contributed receptors and SMAD biology; a single-person pool cannot settle the entire field’s priority.",
+      "attribution_note": "Scope is Massagué’s mechanistic signaling program, not initial isolation of TGF-beta. Rik Derynck, Kohei Miyazono and other receptor/SMAD pioneers are relevant if agents choose a pathway-wide citation.",
+      "source_ids": [
+        "tgfb"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c38"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "candidate_id": "M045",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "cgas-sting",
+      "discovery": "The cGAS-STING pathway linking cytosolic DNA sensing to innate immunity",
+      "subfield": "Innate immunity and inflammatory signaling",
+      "credited_names": [
+        "Glen N. Barber",
+        "Hiroki Ishikawa",
+        "Jiaxi Wu",
+        "Lijun Sun",
+        "Zhijian James Chen"
+      ],
+      "scientific_basis": "STING is an innate immune signaling adaptor; cGAS detects cytosolic DNA and produces the cyclic messenger cGAMP.",
+      "rationale": "A clearly defined mechanism with consequences for infection, inflammation and antitumor immunity.",
+      "main_reservation": "The clinical translational story is less mature than the mechanistic discovery, and a broad citation complicates credit.",
+      "attribution_note": "Barber and Ishikawa identified STING; Chen’s laboratory, including Sun and Wu, identified cGAS and cGAMP signaling. Preserve first-author experimental contributions explicitly. A cGAS-only citation and a full cGAS–STING citation are different award packages.",
+      "source_ids": [
+        "cgas",
+        "sting",
+        "cgas2013",
+        "cgamp2013"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M046",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C027"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c07"
+        }
+      ],
+      "review_decision": "Retained the broader supported pool; normalized Zhijian J. Chen to Zhijian James Chen.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "nuclear_receptors",
+      "discovery": "The nuclear hormone receptor superfamily and ligand-dependent gene regulation",
+      "subfield": "Molecular endocrinology",
+      "credited_names": [
+        "Ronald M. Evans"
+      ],
+      "scientific_basis": "Receptor gene cloning exposed a related family of ligand-regulated transcription factors, followed by orphan-receptor and RXR biology.",
+      "rationale": "A unifying mechanism across endocrine, metabolic and developmental physiology.",
+      "main_reservation": "Foundational credit also belongs to deceased pioneers; a one-person living pool must not imply a one-person discovery.",
+      "attribution_note": "Evans contributed receptor cloning and the superfamily/orphan-receptor program. Jensen established earlier hormone-receptor biology and Chambon made parallel molecular discoveries; both remain historical credit. The current pool is not exhaustive of living contributors such as receptor/coregulator specialists.",
+      "source_ids": [
+        "nuclear_receptors",
+        "chambon_memorial",
+        "jensen_memorial"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c10"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [],
+      "historical_contributors": [
+        {
+          "name": "Pierre Chambon",
+          "contribution": "Parallel nuclear receptor cloning and mechanism",
+          "death_date": "2026-05-05",
+          "source_ids": [
+            "chambon_memorial"
+          ],
+          "eligible_credit_pool": false
+        },
+        {
+          "name": "Elwood V. Jensen",
+          "contribution": "Hormone receptor discovery and gene-regulation framework",
+          "death_date": "2012-12-16",
+          "source_ids": [
+            "jensen_memorial"
+          ],
+          "eligible_credit_pool": false
+        }
+      ],
+      "candidate_id": "M047",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "unfolded-protein-response",
+      "discovery": "The unfolded protein response and signaling from the endoplasmic reticulum",
+      "subfield": "Cell biology and proteostasis",
+      "credited_names": [
+        "Kazutoshi Mori",
+        "Peter Walter"
+      ],
+      "scientific_basis": "Identification of ER stress signaling machinery explained how cells sense misfolded proteins and increase their folding capacity.",
+      "rationale": "A fundamental, widely reproduced cellular mechanism with an unusually clear two-person attribution.",
+      "main_reservation": "Direct therapeutic benefit is less prominent than its biological importance; related proteostasis discoveries are separate candidates.",
+      "attribution_note": "Keep ER stress sensing and signaling separate from chaperonin-assisted folding and from therapeutic stabilization of transthyretin.",
+      "source_ids": [
+        "upr"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M048",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C028"
+        }
+      ],
+      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "anti-tnf",
+      "discovery": "TNF blockade as a treatment for rheumatoid arthritis and inflammatory disease",
+      "subfield": "Immunology and rheumatology",
+      "credited_names": [
+        "Marc Feldmann",
+        "Ravinder N. Maini"
+      ],
+      "scientific_basis": "Experimental work identified TNF as an actionable inflammatory driver and clinical studies established effective TNF blockade.",
+      "rationale": "A compelling mechanism-to-treatment story with established benefit and clear complementary laboratory and clinical roles.",
+      "main_reservation": "The previous Medicine prize addressed immune tolerance; thematic succession is a forecasting consideration, not an exclusion rule.",
+      "attribution_note": "Retain this cytokine-blockade discovery independently of IL-6 and the already rewarded regulatory T-cell story.",
+      "source_ids": [
+        "tnf"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M049",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C029"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c15"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "tor-signaling",
+      "discovery": "TOR signaling as a regulator of cell growth and nutrient responses",
+      "subfield": "Cell signaling and metabolic physiology",
+      "credited_names": [
+        "David M. Sabatini",
+        "Michael N. Hall",
+        "Stuart L. Schreiber"
+      ],
+      "scientific_basis": "TOR proteins couple nutrient availability to cell growth; mammalian TOR signaling extends this mechanism to physiological regulation.",
+      "rationale": "A central conserved mechanism with effects across metabolism, growth and disease.",
+      "main_reservation": "Discovery of yeast TOR, mammalian mTOR and later pathway mechanisms support different attribution boundaries.",
+      "attribution_note": "Hall identified yeast TOR and nutrient-growth regulation; Schreiber supplied rapamycin-target chemical biology; Sabatini identified mammalian RAFT1/mTOR. The original 1994 paper supports retaining Sabatini; omission from one draft is not evidence of scientific ineligibility.",
+      "source_ids": [
+        "tor",
+        "raft1"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M050",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C030"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c26"
+        }
+      ],
+      "review_decision": "Retained David M. Sabatini with an original-paper basis for mammalian TOR credit.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "vegf",
+      "discovery": "VEGF biology and inhibition of pathological angiogenesis",
+      "subfield": "Vascular biology and ophthalmic medicine",
+      "credited_names": [
+        "Donald R. Senger",
+        "Harold F. Dvorak",
+        "Napoleone Ferrara"
+      ],
+      "scientific_basis": "VEGF and vascular permeability factor proved to be the same signaling molecule; blocking VEGF enabled anti-angiogenic treatment.",
+      "rationale": "Connects a defined biological pathway to mature clinical benefit, particularly in retinal disease.",
+      "main_reservation": "Discovery of permeability activity, molecular identification and therapeutic development support different credit allocations.",
+      "attribution_note": "Ferrara is central to a therapeutic citation; Dvorak and Senger become important for a broader discovery-of-VEGF/VPF citation.",
+      "source_ids": [
+        "vegf",
+        "vpf"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M051",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C031"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c24"
+        }
+      ],
+      "review_decision": "Retained Senger and Dvorak for early VPF discovery and Ferrara for VEGF molecular/therapeutic work; the clinical citation may favor a narrower pool.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "hpv-vaccines",
+      "discovery": "Virus-like particle vaccines that prevent HPV infection and related cancers",
+      "subfield": "Virology and preventive medicine",
+      "credited_names": [
+        "Douglas R. Lowy",
+        "Ian H. Frazer",
+        "John T. Schiller"
+      ],
+      "scientific_basis": "Noninfectious papillomavirus-like particles can induce protective immunity and form the basis of vaccines preventing HPV infection.",
+      "rationale": "Links a precise technological advance to cancer prevention and substantial public-health benefit.",
+      "main_reservation": "Particle design, immunogenicity and vaccine development have overlapping priority histories.",
+      "attribution_note": "Retain Lowy, Schiller and Frazer for committee attribution review; the Lasker account describes both the NCI work and Frazer contribution.",
+      "source_ids": [
+        "hpv"
+      ],
+      "conflict_flags": [],
+      "candidate_id": "M052",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "input_entries": [
+        {
+          "list_id": "c",
+          "candidate_id": "C032"
+        },
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c31"
+        }
+      ],
+      "review_decision": "Merged the shared discovery; retained both drafts’ supported names, including Claude’s other_names, without selecting a preferred trio.",
+      "attribution_additions": [],
+      "historical_contributors": [],
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": []
+    },
+    {
+      "discovery_key": "wnt",
+      "discovery": "Wnt genes and signaling in cell fate, development, and tissue renewal",
+      "subfield": "Developmental biology and cell signaling",
+      "credited_names": [
+        "Harold E. Varmus",
+        "Roel Nusse"
+      ],
+      "scientific_basis": "int-1/Wnt1 identification connected an oncogenic integration site to a conserved developmental signaling family.",
+      "rationale": "A broad organizing pathway linking development, stem cells and disease.",
+      "main_reservation": "Varmus is already a 1989 Medicine laureate; any new citation must establish a distinct achievement rather than re-award the cellular-oncogene discovery.",
+      "attribution_note": "Nusse and Varmus jointly identified int-1/Wnt1; Nusse extended the developmental and stem-cell signaling program. Add Varmus as scientific credit while explicitly flagging prior-award overlap; prior laureates are not automatically barred from distinct awards.",
+      "source_ids": [
+        "wnt",
+        "wnt_history",
+        "nobel1989"
+      ],
+      "conflict_flags": [],
+      "input_entries": [
+        {
+          "list_id": "claude-opus-5-5",
+          "candidate_id": "c37"
+        }
+      ],
+      "review_decision": "Retained Claude-only discovery after reviewing scientific scope and attribution.",
+      "attribution_additions": [
+        "Harold E. Varmus"
+      ],
+      "historical_contributors": [],
+      "candidate_id": "M053",
+      "assessment_type": "author_judgment_not_probability",
+      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
+      "review_status": "scientific_scope_and_attribution_reviewed",
+      "prior_award_flags": [
+        {
+          "name": "Harold E. Varmus",
+          "prize": "1989 Nobel Prize in Physiology or Medicine",
+          "issue": "A new Wnt citation must be distinguished from the already rewarded cellular origin of retroviral oncogenes."
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "glp1": {
+      "title": "Lasker scientific account of GLP-1 discoveries and therapies",
+      "url": "https://laskerfoundation.org/winners/glp-1-based-therapy-for-obesity/",
+      "accessed_on": "2026-10-02"
+    },
+    "cart": {
+      "title": "BBVA account of June and Sadelain CAR-T discoveries",
+      "url": "https://www.bbva.com/en/frontiers-of-knowledge-award-goes-to-scientists-who-revolutionized-the-treatment-of-several-types-of-blood-cancer/",
+      "accessed_on": "2026-10-02"
+    },
+    "cgas": {
+      "title": "Lasker account of the discovery of cGAS",
+      "url": "https://laskerfoundation.org/winners/cgas-enzyme-that-senses-self-and-foreign-dna/",
+      "accessed_on": "2026-10-02"
+    },
+    "sting": {
+      "title": "Ishikawa and Barber original STING paper",
+      "url": "https://www.nature.com/articles/nature07317",
+      "accessed_on": "2026-10-02"
+    },
+    "upr": {
+      "title": "Lasker account of the unfolded protein response",
+      "url": "https://laskerfoundation.org/winners/unfolded-protein-response/",
+      "accessed_on": "2026-10-02"
+    },
+    "chaperones": {
+      "title": "Lasker account of chaperone-assisted protein folding",
+      "url": "https://laskerfoundation.org/winners/chaperone-assisted-protein-folding/",
+      "accessed_on": "2026-10-02"
+    },
+    "opto": {
+      "title": "Lasker account of microbial opsins and optogenetics",
+      "url": "https://laskerfoundation.org/winners/light-sensitive-microbial-proteins-optogenetics/",
+      "accessed_on": "2026-10-02"
+    },
+    "opto2013": {
+      "title": "Official 2013 Brain Prize announcement naming six optogenetics pioneers",
+      "url": "https://www.openphilanthropy.org/files/Grants/MIT_Media_Lab_Synthetic_Neurobiology_Group/The_Brain_Prize_Press_Release_on_Award_2013.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "lasker2026": {
+      "title": "Lasker 2026 scientific accounts of orexin and emicizumab",
+      "url": "https://laskerfoundation.org/winners/2026-winners/",
+      "accessed_on": "2026-10-02"
+    },
+    "tor": {
+      "title": "Lasker account of nutrient-sensitive TOR signaling",
+      "url": "https://laskerfoundation.org/winners/nutrient-activated-tor-proteins-that-regulate-cell-growth/",
+      "accessed_on": "2026-10-02"
+    },
+    "integrins": {
+      "title": "Lasker account of integrin discoveries",
+      "url": "https://laskerfoundation.org/winners/integrins-mediators-of-cell-matrix-cell-adhesion/",
+      "accessed_on": "2026-10-02"
+    },
+    "king": {
+      "title": "Lasker account of King and the BRCA1 locus",
+      "url": "https://laskerfoundation.org/winners/breast-cancer-genetics-and-human-rights/",
+      "accessed_on": "2026-10-02"
+    },
+    "hpv": {
+      "title": "Lasker account of HPV virus-like particle vaccines",
+      "url": "https://laskerfoundation.org/winners/hpv-vaccines-for-cancer-prevention/",
+      "accessed_on": "2026-10-02"
+    },
+    "imatinib": {
+      "title": "Lasker account of targeted CML treatment",
+      "url": "https://laskerfoundation.org/winners/molecularly-targeted-treatments-for-chronic-myeloid-leukemia/",
+      "accessed_on": "2026-10-02"
+    },
+    "her2": {
+      "title": "Lasker account of trastuzumab development",
+      "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer/",
+      "accessed_on": "2026-10-02"
+    },
+    "vegf": {
+      "title": "Lasker account of VEGF and anti-VEGF therapy",
+      "url": "https://laskerfoundation.org/winners/anti-vegf-therapy-for-wet-macular-degeneration/",
+      "accessed_on": "2026-10-02"
+    },
+    "vpf": {
+      "title": "Senger and colleagues original vascular permeability factor paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6823562/",
+      "accessed_on": "2026-10-02"
+    },
+    "tnf": {
+      "title": "Lasker account of anti-TNF therapy",
+      "url": "https://laskerfoundation.org/winners/anti-tnf-for-treating-rheumatoid-arthritis/",
+      "accessed_on": "2026-10-02"
+    },
+    "cftrgene": {
+      "title": "University of Michigan account of CFTR gene discovery",
+      "url": "https://www.uofmhealth.org/news-release/gene-discovery-changed-cystic-fibrosis-care-and-genetic-research-forever",
+      "accessed_on": "2026-10-02"
+    },
+    "cftr1989": {
+      "title": "Riordan and colleagues original CFTR cloning paper",
+      "url": "https://doi.org/10.1126/science.2475911",
+      "accessed_on": "2026-10-02"
+    },
+    "cftrdrugs": {
+      "title": "Lasker account of CFTR modulator therapy",
+      "url": "https://laskerfoundation.org/winners/combined-triple-drug-therapy-for-cystic-fibrosis/",
+      "accessed_on": "2026-10-02"
+    },
+    "gairdner2025": {
+      "title": "Gairdner 2025 accounts of CFTR therapy and Notch signaling",
+      "url": "https://www.gairdner.org/resource-hub/2025-canada-gairdner-award-winners",
+      "accessed_on": "2026-10-02"
+    },
+    "ltp": {
+      "title": "Bristol account of the 2016 Brain Prize for LTP and memory",
+      "url": "https://www.bristol.ac.uk/news/2016/march/collingridge-brain-prize.html",
+      "accessed_on": "2026-10-02"
+    },
+    "methylation": {
+      "title": "Gairdner account of Bird, Cedar and DNA methylation",
+      "url": "https://www.gairdner.org/winner/adrian-peter-bird",
+      "accessed_on": "2026-10-02"
+    },
+    "jaenisch": {
+      "title": "Whitehead account of causal DNA methylation research",
+      "url": "https://wi.mit.edu/news/dna-methylation-shown-promote-development-colon-tumors",
+      "accessed_on": "2026-10-02"
+    },
+    "organoids": {
+      "title": "Sato and colleagues original adult stem-cell organoid paper",
+      "url": "https://www.hubrecht.eu/app/uploads/2017/11/nature07935.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "imprinting": {
+      "title": "Max Planck account of Solter and Surani genomic imprinting discoveries",
+      "url": "https://www.ie-freiburg.mpg.de/solter-gairdner2018",
+      "accessed_on": "2026-10-02"
+    },
+    "pcsk9": {
+      "title": "Hobbs-Cohen laboratory account of protective PCSK9 variants",
+      "url": "https://labs.utsouthwestern.edu/hobbs-cohen-lab/research",
+      "accessed_on": "2026-10-02"
+    },
+    "seidah": {
+      "title": "IRCM account of Seidah and PCSK9 biology",
+      "url": "https://www.ircm.qc.ca/en/researchers/nabil-g--seidah",
+      "accessed_on": "2026-10-02"
+    },
+    "pcsk9mutations": {
+      "title": "Abifadel and colleagues original PCSK9 disease mutation paper",
+      "url": "https://doi.org/10.1038/ng1161",
+      "accessed_on": "2026-10-02"
+    },
+    "il6": {
+      "title": "Japan Prize account of Kishimoto and Hirano IL-6 discoveries",
+      "url": "https://www.japanprize.jp/en/prize_past_2011_prize02.html",
+      "accessed_on": "2026-10-02"
+    },
+    "scrna2009": {
+      "title": "Tang and colleagues original single-cell mRNA sequencing paper",
+      "url": "https://doi.org/10.1038/nmeth.1315",
+      "accessed_on": "2026-10-02"
+    },
+    "smartseq": {
+      "title": "Original Smart-Seq paper",
+      "url": "https://www.nature.com/articles/nbt.2282",
+      "accessed_on": "2026-10-02"
+    },
+    "smartseq2": {
+      "title": "Original Smart-seq2 paper",
+      "url": "https://www.nature.com/articles/nmeth.2639",
+      "accessed_on": "2026-10-02"
+    },
+    "dropseq": {
+      "title": "Original Drop-seq study and dataset",
+      "url": "https://singlecell.broadinstitute.org/single_cell/study/SCP7/drop-seq",
+      "accessed_on": "2026-10-02"
+    },
+    "linnarsson": {
+      "title": "Original single-cell multiplex RNA sequencing paper",
+      "url": "https://genome.cshlp.org/content/early/2011/05/04/gr.110882.110.full.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "condensates": {
+      "title": "Lasker account of low-complexity domains and cell organization",
+      "url": "https://laskerfoundation.org/winners/structures-and-functions-of-low-complexity-domains/",
+      "accessed_on": "2026-10-02"
+    },
+    "breakthrough2023": {
+      "title": "Breakthrough 2023 accounts of condensates and orexin",
+      "url": "https://breakthroughprize.org/News/73",
+      "accessed_on": "2026-10-02"
+    },
+    "gairdner2026": {
+      "title": "Gairdner 2026 account of Kelly and tafamidis",
+      "url": "https://www.gairdner.org/resource-hub/2026-canada-gairdner-award-winners",
+      "accessed_on": "2026-10-02"
+    },
+    "breakthrough2022": {
+      "title": "Breakthrough 2022 accounts of sequencing and tafamidis",
+      "url": "https://breakthroughprize.org/News/65",
+      "accessed_on": "2026-10-02"
+    },
+    "oct": {
+      "title": "Lasker account of optical coherence tomography",
+      "url": "https://laskerfoundation.org/winners/optical-coherence-tomography/",
+      "accessed_on": "2026-10-02"
+    },
+    "leptin": {
+      "title": "Lasker account of leptin discovery",
+      "url": "https://laskerfoundation.org/winners/leptin-a-hormone-that-regulates-appetite-and-body-weight/",
+      "accessed_on": "2026-10-02"
+    },
+    "spatial": {
+      "title": "Original spatial transcriptomics paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27365449/",
+      "accessed_on": "2026-10-02"
+    },
+    "merfish": {
+      "title": "Harvard 2026 account of Zhuang and MERFISH cell atlases",
+      "url": "https://www.chemistry.harvard.edu/news/2026/05/profile-atlas-maker-microscopic-world",
+      "accessed_on": "2026-10-02"
+    },
+    "eshhar": {
+      "title": "Weizmann institutional memorial for Zelig Eshhar",
+      "url": "https://www.weizmann.ac.il/dept/irb/prof-zelig-eshhar",
+      "accessed_on": "2026-10-02"
+    },
+    "coleman": {
+      "title": "Jackson Laboratory institutional memorial for Douglas Coleman",
+      "url": "https://www.jax.org/news-and-insights/2014/april/douglas-l-coleman-phd-jackson-laboratory-professor-emeritus-1931-2014",
+      "accessed_on": "2026-10-02"
+    },
+    "oesterhelt": {
+      "title": "Max Planck institutional memorial for Dieter Oesterhelt",
+      "url": "https://www.biochem.mpg.de/dieter-oesterhelt-verstorben",
+      "accessed_on": "2026-10-02"
+    },
+    "medicine2025": {
+      "title": "Official Nobel 2025 scientific background on peripheral immune tolerance",
+      "url": "https://www.nobelprize.org/uploads/2025/10/advanced-medicineprize2025.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "statutes": {
+      "title": "Nobel Foundation statutes",
+      "url": "https://www.nobelprize.org/about/statutes-of-the-nobel-foundation/",
+      "accessed_on": "2026-10-02"
+    },
+    "habener": {
+      "title": "Johns Hopkins institutional memorial for Joel Habener",
+      "url": "https://www.hopkinsmedicine.org/news/articles/2026/04/a-titan-in-endocrinology",
+      "accessed_on": "2026-10-02"
+    },
+    "habener_date": {
+      "title": "Endocrine Society memorial establishing the 2025 death date",
+      "url": "https://endocrinenews.endocrine.org/remembering-joel-habener-md/",
+      "accessed_on": "2026-10-02"
+    },
+    "tcr_mouse": {
+      "title": "Hedrick and Davis original mouse T-cell receptor cloning paper",
+      "url": "https://www.nature.com/articles/308149a0",
+      "accessed_on": "2026-10-02"
+    },
+    "tcr_human": {
+      "title": "Yanagi and Mak original human T-cell receptor cloning paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6336315/",
+      "accessed_on": "2026-10-02"
+    },
+    "bt_lineages": {
+      "title": "Lasker account of the discovery of B and T lymphocyte lineages",
+      "url": "https://laskerfoundation.org/winners/b-and-t-cells-the-organizing-principle-of-the-adaptive-immune-system/",
+      "accessed_on": "2026-10-02"
+    },
+    "nuclear_receptors": {
+      "title": "Lasker scientific history of nuclear hormone receptors",
+      "url": "https://laskerfoundation.org/winners/nuclear-hormone-receptors-for-regulating-genes/",
+      "accessed_on": "2026-10-02"
+    },
+    "rett": {
+      "title": "Shaw scientific account distinguishing Bird and Zoghbi contributions",
+      "url": "https://260105-archive.wp-admin.shawprize.org/event/award-presentation-ceremony-2016/",
+      "accessed_on": "2026-10-02"
+    },
+    "reward": {
+      "title": "Cambridge scientific account of Schultz, Dayan and Dolan reward research",
+      "url": "https://www.cam.ac.uk/news/cambridge-scientist-shares-worlds-largest-neuroscience-prize-for-research-on-the-brains-reward",
+      "accessed_on": "2026-10-02"
+    },
+    "reward1997": {
+      "title": "Schultz, Dayan and Montague account of reward prediction error",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9054347/",
+      "accessed_on": "2026-10-02"
+    },
+    "quorum": {
+      "title": "Shaw scientific essay on molecular quorum sensing and its earlier pioneers",
+      "url": "https://www.shawprize.org/wp-content/uploads/2023/08/2015SP_Brochure_content.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "quorum_uw": {
+      "title": "University of Washington scientific account of Bassler and Greenberg",
+      "url": "https://research.washington.edu/research/announcements/the-shaw-prize-awarded-to-e-peter-greenberg-and-bonnie-bassler-princeton-in-life-science-and-medicine/",
+      "accessed_on": "2026-10-02"
+    },
+    "hcm": {
+      "title": "Seidman laboratory account of sarcomere mutations causing cardiomyopathy",
+      "url": "https://seidman.hms.harvard.edu/?page_id=2",
+      "accessed_on": "2026-10-02"
+    },
+    "bcl2": {
+      "title": "WEHI history of BCL-2 survival signaling and Strasser mouse experiments",
+      "url": "https://www.wehi.edu.au/about/history/bcl2-discovered/",
+      "accessed_on": "2026-10-02"
+    },
+    "bcl2_1988": {
+      "title": "Vaux, Cory and Adams original BCL-2 paper, institutional repository",
+      "url": "https://publications.wehi.edu.au/Publications/17011",
+      "accessed_on": "2026-10-02"
+    },
+    "ampk": {
+      "title": "Hardie laboratory account of AMPK as a cellular energy sensor",
+      "url": "https://www.dundee.ac.uk/people/grahame-hardie",
+      "accessed_on": "2026-10-02"
+    },
+    "nipt": {
+      "title": "Lasker account of Lo and fetal cell-free DNA testing",
+      "url": "https://laskerfoundation.org/winners/noninvasive-prenatal-testing-using-fetal-dna/",
+      "accessed_on": "2026-10-02"
+    },
+    "dbs": {
+      "title": "Lasker history distinguishing Benabid intervention and DeLong circuitry",
+      "url": "https://laskerfoundation.org/winners/deep-brain-stimulation-for-parkinsons-disease/",
+      "accessed_on": "2026-10-02"
+    },
+    "cochlear": {
+      "title": "Lasker history of modern cochlear implants and speech-processing algorithms",
+      "url": "https://laskerfoundation.org/winners/modern-cochlear-implant/",
+      "accessed_on": "2026-10-02"
+    },
+    "sma": {
+      "title": "SMA Foundation reproduces Breakthrough scientific citation of Bennett and Krainer",
+      "url": "https://smafoundation.org/sma-press/sma-researchers-frank-bennett-adrian-krainer-win-prestigious-breakthrough-prize/",
+      "accessed_on": "2026-10-02"
+    },
+    "microbiome": {
+      "title": "Gordon laboratory account of causal microbiota experiments and malnutrition interventions",
+      "url": "https://pathology.wustl.edu/people/jeffrey-gordon-md-2/",
+      "accessed_on": "2026-10-02"
+    },
+    "synuclein1997": {
+      "title": "Spillantini and colleagues original alpha-synuclein Lewy-body paper",
+      "url": "https://www.nature.com/articles/42166",
+      "accessed_on": "2026-10-02"
+    },
+    "tau_synuclein_history": {
+      "title": "Goedert and colleagues scientific account of tau and alpha-synuclein pathology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6015613/",
+      "accessed_on": "2026-10-02"
+    },
+    "app1991": {
+      "title": "Goate and colleagues original APP mutation paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1671712/",
+      "accessed_on": "2026-10-02"
+    },
+    "goate_hardy": {
+      "title": "Mount Sinai account explicitly crediting Goate and Hardy for APP mutations",
+      "url": "https://mshs-preprod-mssm.ot.mountsinai.org/files/ISMMS/Assets/Files/FBI%20Newsletter%20Spring%2015-34078.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "bcl11a2008": {
+      "title": "Sankaran and Orkin original BCL11A fetal hemoglobin repression paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19056937/",
+      "accessed_on": "2026-10-02"
+    },
+    "thein": {
+      "title": "NIH scientific account of Thein human-genetic BCL11A discovery",
+      "url": "https://irp.nih.gov/pi/swee-lay-thein",
+      "accessed_on": "2026-10-02"
+    },
+    "bauer": {
+      "title": "Dana-Farber/Boston Children’s account of Bauer identifying the BCL11A enhancer target",
+      "url": "https://www.danafarberbostonchildrens.org/news/bauer-earns-outstanding-new-investigator-award-asgct",
+      "accessed_on": "2026-10-02"
+    },
+    "wnt": {
+      "title": "Nusse laboratory account crediting Nusse and Varmus for int-1/Wnt1",
+      "url": "https://web.stanford.edu/~rnusse/reviews/faq.html",
+      "accessed_on": "2026-10-02"
+    },
+    "wnt_history": {
+      "title": "Nusse and Varmus scientific history of Wnt development and signaling",
+      "url": "https://wnt.stanford.edu/sites/g/files/sbiybj32631/files/media/file/nusse_varmusembo_review_1.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "tgfb": {
+      "title": "Massagué laboratory account of receptor/SMAD signaling and cancer biology",
+      "url": "https://www.mskcc.org/research/ski/labs/joan-massague",
+      "accessed_on": "2026-10-02"
+    },
+    "glymphatic2012": {
+      "title": "Rochester account of Iliff and Nedergaard paravascular clearance experiments",
+      "url": "https://www.urmc.rochester.edu/news/story/scientists-discover-previously-unknown-cleansing-system-in-brain",
+      "accessed_on": "2026-10-02"
+    },
+    "glymphatic_challenge": {
+      "title": "Miao and colleagues: reduced clearance during sleep and anesthesia in mice",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38741022/",
+      "accessed_on": "2026-10-02"
+    },
+    "glymphatic2026": {
+      "title": "Dagum and Iliff colleagues randomized human sleep/clearance study",
+      "url": "https://www.nature.com/articles/s41467-026-68374-8",
+      "accessed_on": "2026-10-02"
+    },
+    "mtdna": {
+      "title": "CHOP scientific account of Wallace human mitochondrial genetics",
+      "url": "https://www.chop.edu/doctors/wallace-douglas-c",
+      "accessed_on": "2026-10-02"
+    },
+    "brca_cloning": {
+      "title": "Miki and Skolnick colleagues original BRCA1 cloning paper",
+      "url": "https://courses.washington.edu/gs466/readings/miki.pdf",
+      "accessed_on": "2026-10-02"
+    },
+    "cart_nci": {
+      "title": "NCI account of CAR-T therapy including Rosenberg and Kochenderfer contributions",
+      "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+      "accessed_on": "2026-10-02"
+    },
+    "opto_hypocretin": {
+      "title": "Stanford de Lecea laboratory account of hypocretin discovery",
+      "url": "https://med.stanford.edu/delecea/research.html",
+      "accessed_on": "2026-10-02"
+    },
+    "hypocretin_history": {
+      "title": "Discoverer-authored history identifying de Lecea and Kilduff as co-lead authors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8788648/",
+      "accessed_on": "2026-10-02"
+    },
+    "orexin1998": {
+      "title": "Sakurai and Yanagisawa original orexin/receptor paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9491897/",
+      "accessed_on": "2026-10-02"
+    },
+    "ltp1973": {
+      "title": "Bliss and Lømo original hippocampal long-term potentiation paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4727084/",
+      "accessed_on": "2026-10-02"
+    },
+    "raft1": {
+      "title": "Sabatini and colleagues original mammalian TOR/RAFT1 identification",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7518356/",
+      "accessed_on": "2026-10-02"
+    },
+    "cgas2013": {
+      "title": "Sun, Wu and Chen colleagues original cGAS identification",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23258413/",
+      "accessed_on": "2026-10-02"
+    },
+    "cgamp2013": {
+      "title": "Wu, Sun and Chen colleagues original cGAMP second-messenger paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23258412/",
+      "accessed_on": "2026-10-02"
+    },
+    "chambon_memorial": {
+      "title": "IGBMC institutional memorial: Pierre Chambon died 5 May 2026",
+      "url": "https://www.igbmc.fr/en/igbmc/article/disparition-de-pierre-chambon",
+      "accessed_on": "2026-10-02"
+    },
+    "jensen_memorial": {
+      "title": "Chicago institutional memorial: Elwood Jensen died 16 December 2012",
+      "url": "https://news.uchicago.edu/story/elwood-jensen-pioneer-cancer-biology-research-1920-2012",
+      "accessed_on": "2026-10-02"
+    },
+    "delong_memorial": {
+      "title": "Emory institutional memorial: Mahlon DeLong died 17 May 2024",
+      "url": "https://emeritus.emory.edu/_includes/documents/sections/newsletters/v10_issue18.html",
+      "accessed_on": "2026-10-02"
+    },
+    "sankaran_profile": {
+      "title": "Boston Children’s current institutional profile and 2026 research",
+      "url": "https://research.childrenshospital.org/researchers/vijay-sankaran",
+      "accessed_on": "2026-10-02"
+    },
+    "cohen_lab": {
+      "title": "UT Southwestern current Hobbs-Cohen laboratory team",
+      "url": "https://labs.utsouthwestern.edu/hobbs-cohen-lab/people",
+      "accessed_on": "2026-10-02"
+    },
+    "cooper2026": {
+      "title": "Emory winter 2026 interview with Max Cooper, still working at age 92",
+      "url": "https://news.emory.edu/features/2025/12/chicken-came-first",
+      "accessed_on": "2026-10-02"
+    },
+    "nobel1989": {
+      "title": "Official 1989 Medicine prize citation: cellular origin of retroviral oncogenes",
+      "url": "https://www.nobelprize.org/prizes/medicine/1989/summary/",
+      "accessed_on": "2026-10-02"
+    },
+    "nobel2020": {
+      "title": "Official 2020 Chemistry prize citation: genome editing",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+      "accessed_on": "2026-10-02"
+    }
+  }
+}

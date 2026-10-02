@@ -1,0 +1,15 @@
+# Medicine Nobel agents: common candidate input
+
+Assess the 2026 Nobel Prize in Physiology or Medicine using `committee_longlist.json`. All agents receive the same 53 discovery entries and the same provisional credit pools. The public-evidence cutoff is 2 October 2026, America/Chicago. Use the appropriate Medicine committee profile for your assigned persona.
+
+The input is a directly researched, consolidated longlist. The user deliberately omitted the nominator stage. There are no actual or simulated nomination counts. Ballot order and name order carry no ranking signal. A pool of more than three names is an attribution question to resolve, not a proposed award to all of them.
+
+1. Judge the discovery’s originality, physiological or medical importance, maturity, and coherence as a Nobel citation. Separate mechanisms, enabling inventions and therapeutic translation where their recipient credit differs.
+2. Make an independent initial assessment before reading other agents’ choices. Refer to entries by B ballot ID. Do not use which author suggested an entry or its appearance in multiple drafts as evidence of merit.
+3. Propose a precise citation and supported recipients for shortlisted entries. Select no more than three people across the entire prize, including any split award. If the pool misses a necessary contributor, raise the attribution issue with evidence rather than silently substituting a name.
+4. Check potential duplication with already awarded achievements. A previous laureate can be considered for a distinct achievement; verify the boundary. In particular, Wnt includes Varmus, and fetal-hemoglobin regulation must be distinguished from the already recognized general CRISPR platform.
+5. Declare personal involvement before assessing an affected entry. For this simulation, a persona named as a possible recipient should record a recusal for that entry; the coordinator must apply this consistently to deliberation and aggregation. Verified foundational coauthorship needs a conflict declaration and an explicit coordinator policy. Shared expertise alone does not establish a conflict. The coordinator manifest identifies known cases involving Sandberg and Linnarsson.
+6. Recheck current life status for shortlisted recipients. Deceased historical contributors are outside the supplied credit pools. Keep scientific historical credit distinct from eligibility to receive the 2026 award.
+7. During evidence review, use `attribution_review.md` or the canonical JSON at the same stage for every agent. Investigate broad, disputed or incomplete attributions rather than treating every entry as equally established. The tau/alpha-synuclein package may need narrowing; the glymphatic model requires examination of conflicting transport evidence.
+
+The opening packet alone does not supply a discussion/ballot output schema. Follow the Medicine run’s agreed simulation prompt when dispatched. Repository Physics runners require Medicine adaptation before execution. This handoff prepares the common input and does not claim that a committee run has occurred.

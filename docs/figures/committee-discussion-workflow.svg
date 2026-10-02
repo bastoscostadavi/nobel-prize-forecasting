@@ -1,157 +1,207 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
-  <title id="title">Committee discussion workflow for one Nobel Prize simulation</title>
-  <desc id="desc">A nine-stage workflow from a blinded candidate longlist through private opening rankings, shortlist construction, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and a fully recorded decision.</desc>
-  <defs>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.10"/>
-    </filter>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
-      <path d="M 0 0 L 12 6 L 0 12 z" fill="#64748b"/>
-    </marker>
-    <style>
-      .title { font-family: Arial, sans-serif; font-size: 38px; font-weight: 700; fill: #0f172a; }
-      .subtitle { font-family: Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #475569; }
-      .step { font-family: Arial, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; }
-      .heading { font-family: Arial, sans-serif; font-size: 23px; font-weight: 700; fill: #0f172a; }
-      .body { font-family: Arial, sans-serif; font-size: 16px; font-weight: 400; fill: #334155; }
-      .artifact { font-family: Menlo, Consolas, monospace; font-size: 14px; font-weight: 600; fill: #334155; }
-      .legend { font-family: Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #334155; }
-      .arrow { fill: none; stroke: #64748b; stroke-width: 3; marker-end: url(#arrow); }
-      .agent-box { fill: #eef2ff; stroke: #818cf8; stroke-width: 2; }
-      .chair-box { fill: #fff7ed; stroke: #fb923c; stroke-width: 2; }
-      .code-box { fill: #ecfdf5; stroke: #34d399; stroke-width: 2; }
-      .artifact-agent { fill: #e0e7ff; }
-      .artifact-chair { fill: #ffedd5; }
-      .artifact-code { fill: #d1fae5; }
-      .agent-step { fill: #4338ca; }
-      .chair-step { fill: #c2410c; }
-      .code-step { fill: #047857; }
-    </style>
-  </defs>
-
-  <rect width="1600" height="960" fill="#f8fafc"/>
-  <text class="title" x="800" y="58" text-anchor="middle">One committee simulation: discussion, voting, and saved evidence</text>
-  <text class="subtitle" x="800" y="92" text-anchor="middle">Eight persona-conditioned members · blinded candidate order · every intermediate artifact retained</text>
-
-  <!-- Top row -->
-  <g filter="url(#shadow)">
-    <rect class="agent-box" x="50" y="140" width="330" height="190" rx="18"/>
-    <rect class="code-box" x="440" y="140" width="330" height="190" rx="18"/>
-    <rect class="agent-box" x="830" y="140" width="330" height="190" rx="18"/>
-    <rect class="chair-box" x="1220" y="140" width="330" height="190" rx="18"/>
-  </g>
-
-  <text class="step agent-step" x="75" y="170">1 · PRIVATE</text>
-  <text class="heading" x="75" y="203">Opening rankings</text>
-  <text class="body" x="75" y="234">Each member reviews the full</text>
-  <text class="body" x="75" y="257">blinded longlist independently,</text>
-  <text class="body" x="75" y="280">ranks eight, and proposes credit.</text>
-  <rect class="artifact-agent" x="75" y="294" width="270" height="25" rx="8"/>
-  <text class="artifact" x="88" y="312">opening/&lt;member&gt;.json</text>
-
-  <text class="step code-step" x="465" y="170">2 · DETERMINISTIC</text>
-  <text class="heading" x="465" y="203">Support-only shortlist</text>
-  <text class="body" x="465" y="234">First-place, repeated top-three,</text>
-  <text class="body" x="465" y="257">or broad top-eight support.</text>
-  <text class="body" x="465" y="280">Nomination counts stay hidden.</text>
-  <rect class="artifact-code" x="465" y="294" width="270" height="25" rx="8"/>
-  <text class="artifact" x="478" y="312">shortlist.json</text>
-
-  <text class="step agent-step" x="855" y="170">3 · PUBLIC DISCUSSION</text>
-  <text class="heading" x="855" y="203">Round 1</text>
-  <text class="body" x="855" y="234">Openings are unsealed. Members</text>
-  <text class="body" x="855" y="257">answer specific colleagues and test</text>
-  <text class="body" x="855" y="280">merit, maturity, credit, and conflicts.</text>
-  <rect class="artifact-agent" x="855" y="294" width="270" height="25" rx="8"/>
-  <text class="artifact" x="868" y="312">round1/&lt;member&gt;.json</text>
-
-  <text class="step chair-step" x="1245" y="170">4 · CHAIR</text>
-  <text class="heading" x="1245" y="203">Neutral synthesis</text>
-  <text class="body" x="1245" y="234">Maps agreements, minority views,</text>
-  <text class="body" x="1245" y="257">attribution disputes, and unresolved</text>
-  <text class="body" x="1245" y="280">questions without choosing a winner.</text>
-  <rect class="artifact-chair" x="1245" y="294" width="270" height="25" rx="8"/>
-  <text class="artifact" x="1258" y="312">chair_summary_round1.json</text>
-
-  <!-- Top arrows -->
-  <g fill="#64748b" stroke="#64748b" stroke-width="3" stroke-linecap="round">
-    <line x1="390" y1="235" x2="418" y2="235"/><polygon points="418,228 430,235 418,242" stroke="none"/>
-    <line x1="780" y1="235" x2="808" y2="235"/><polygon points="808,228 820,235 808,242" stroke="none"/>
-    <line x1="1170" y1="235" x2="1198" y2="235"/><polygon points="1198,228 1210,235 1198,242" stroke="none"/>
-  </g>
-
-  <!-- Turn down -->
-  <g fill="#64748b" stroke="#64748b" stroke-width="3" stroke-linecap="round">
-    <line x1="1385" y1="340" x2="1385" y2="372"/><polygon points="1378,372 1385,384 1392,372" stroke="none"/>
-  </g>
-
-  <!-- Bottom row, right to left -->
-  <g filter="url(#shadow)">
-    <rect class="agent-box" x="1220" y="395" width="330" height="190" rx="18"/>
-    <rect class="code-box" x="830" y="395" width="330" height="190" rx="18"/>
-    <rect class="agent-box" x="440" y="395" width="330" height="190" rx="18"/>
-    <rect class="code-box" x="50" y="395" width="330" height="190" rx="18"/>
-  </g>
-
-  <text class="step agent-step" x="1245" y="425">5 · PUBLIC DISCUSSION</text>
-  <text class="heading" x="1245" y="458">Round 2</text>
-  <text class="body" x="1245" y="489">Members answer the chair’s questions,</text>
-  <text class="body" x="1245" y="512">reconsider colleagues’ arguments,</text>
-  <text class="body" x="1245" y="535">and refine an exact configuration.</text>
-  <rect class="artifact-agent" x="1245" y="549" width="270" height="25" rx="8"/>
-  <text class="artifact" x="1258" y="567">round2/&lt;member&gt;.json</text>
-
-  <text class="step code-step" x="855" y="425">6 · DETERMINISTIC</text>
-  <text class="heading" x="855" y="458">Fixed proposal slate</text>
-  <text class="body" x="855" y="489">Identical achievement–laureate</text>
-  <text class="body" x="855" y="512">configurations are grouped; P000</text>
-  <text class="body" x="855" y="535">always preserves “no award.”</text>
-  <rect class="artifact-code" x="855" y="549" width="270" height="25" rx="8"/>
-  <text class="artifact" x="868" y="567">proposal_slate.json</text>
-
-  <text class="step agent-step" x="465" y="425">7 · PRIVATE</text>
-  <text class="heading" x="465" y="458">Final ballots</text>
-  <text class="body" x="465" y="489">Every member ranks every proposal</text>
-  <text class="body" x="465" y="512">exactly once after seeing the complete</text>
-  <text class="body" x="465" y="535">second-round exchange.</text>
-  <rect class="artifact-agent" x="465" y="549" width="270" height="25" rx="8"/>
-  <text class="artifact" x="478" y="567">final_ballots/&lt;member&gt;.json</text>
-
-  <text class="step code-step" x="75" y="425">8 · DETERMINISTIC</text>
-  <text class="heading" x="75" y="458">Majority + runoff</text>
-  <text class="body" x="75" y="489">Five of eight votes wins. Otherwise</text>
-  <text class="body" x="75" y="512">the lowest proposal is eliminated and</text>
-  <text class="body" x="75" y="535">preferences transfer until a majority.</text>
-  <rect class="artifact-code" x="75" y="549" width="270" height="25" rx="8"/>
-  <text class="artifact" x="88" y="567">decision.json</text>
-
-  <!-- Bottom arrows -->
-  <g fill="#64748b" stroke="#64748b" stroke-width="3" stroke-linecap="round">
-    <line x1="1210" y1="490" x2="1182" y2="490"/><polygon points="1182,483 1170,490 1182,497" stroke="none"/>
-    <line x1="820" y1="490" x2="792" y2="490"/><polygon points="792,483 780,490 792,497" stroke="none"/>
-    <line x1="430" y1="490" x2="402" y2="490"/><polygon points="402,483 390,490 402,497" stroke="none"/>
-  </g>
-
-  <!-- Outcome -->
-  <line x1="215" y1="595" x2="458" y2="655" stroke="#64748b" stroke-width="3" stroke-linecap="round"/>
-  <polygon points="458,648 472,655 458,662" fill="#64748b"/>
-  <g filter="url(#shadow)">
-    <rect x="485" y="620" width="630" height="172" rx="22" fill="#0f172a"/>
-  </g>
-  <text x="800" y="659" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:15px;font-weight:700;letter-spacing:0.08em;fill:#a5b4fc;">9 · RECORDED OUTCOME</text>
-  <text x="800" y="697" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:28px;font-weight:700;fill:#f8fafc;">One auditable committee decision</text>
-  <text x="800" y="728" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:17px;font-weight:400;fill:#cbd5e1;">Winner · exact laureates · vote transfers · full discussion provenance</text>
-  <rect x="629" y="748" width="342" height="27" rx="8" fill="#1e293b"/>
-  <text x="800" y="767" text-anchor="middle" style="font-family:Menlo,Consolas,monospace;font-size:14px;font-weight:600;fill:#e2e8f0;">repeat 10× per nomination run</text>
-
-  <!-- Legend -->
-  <g transform="translate(375 845)">
-    <circle cx="0" cy="0" r="8" fill="#818cf8"/>
-    <text class="legend" x="17" y="5">8 committee personas</text>
-    <circle cx="275" cy="0" r="8" fill="#fb923c"/>
-    <text class="legend" x="292" y="5">chair synthesis</text>
-    <circle cx="495" cy="0" r="8" fill="#34d399"/>
-    <text class="legend" x="512" y="5">validated deterministic step</text>
-  </g>
-  <text x="800" y="905" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:15px;font-weight:400;fill:#64748b;">All JSON artifacts are retained under the simulation directory; no discussion is discarded.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 975" width="1600" height="975" role="img" aria-label="Committee discussion workflow: private opening rankings, support-based shortlist, two discussion rounds with a chair synthesis, a proposal slate, private final ballots, instant-runoff voting, and a saved decision record." xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxZDFmNzkzNy1lZjNiLTQ0YTctOTI3NS1jZTA1MTVlMzIyNjMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaAc11UI0x4FgoZM/d4Os96AAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoyOGQ2YzlmZS00YTYzLTRlMDQtOGNjZS1kNDMzYTc3MTUyYmRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo81aHO6cDN9amnYdX17iqRQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgghqZrWGahEpVDYDXRGR8HW5f4lMugPp+xBUyhuKi6o3ykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaEDUX6YmVtwE14tFKosXLl4AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYILFl2vjrka6FYCqh3VYsbV/KgodGu8AKy1lrkcVoODiOZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQGNZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjFkMWY3OTM3LWVmM2ItNDRhNy05Mjc1LWNlMDUxNWUzMjI2My9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjc2MmEwNjI5LTY0MmItNGJiNi1iY2UxLWZlN2QyOTVhMmZlNnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCGpmtYZqESlUNgNdEZHwdbl/iUy6A+n7EFTKG4qLqjfKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg9gEXMznxjBO5Ju20wiogjwn+tuX84o7qAPrIbjCGRE6iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggORyKJuwXA+uEV77085jAaMvTRz+nHRqy100XK+eNkBd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQAwZWTZfyF/INLplqJDGmC54EoRws9nP5EPFE7vzfxWFpGY14LWWXL86s8a7DKG3jlNz01Uf/efUy3GrSkxjFag=</c2pa:manifest></metadata>
+<rect width="1600" height="975" rx="28" fill="#eef1f4"/>
+<defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#cfd7e0"/></pattern><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#b8892b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1600" height="975" rx="28" fill="url(#dots)" opacity=".7"/>
+<path d="M71.5,35.0 L83.5,77.0 L92.5,77.0 L104.5,35.0 Z" fill="#1b2a41"/>
+<path d="M82.6,35.0 L88,71.0 L93.4,35.0 Z" fill="#c4573f"/>
+<circle cx="88" cy="98" r="30" fill="#e8c46a" stroke="#b8892b" stroke-width="2.4"/>
+<circle cx="88" cy="98" r="22.2" fill="none" stroke="#b8892b" stroke-width="1.5" stroke-dasharray="3.5999999999999996 3.0"/>
+<path d="M82.6,111.5 C74.5,104.0 75.4,84.5 87.4,83.6 C97.0,83.6 98.2,93.5 97.0,98.6 L100.0,101.6 L95.8,103.4 C95.5,108.8 91.0,108.8 89.5,111.5 Z" fill="#b8892b" opacity=".85"/>
+<text x="140" y="82" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="40" font-weight="700" fill="#1b2a41" text-anchor="start" >How the simulated Nobel Committee decides</text>
+<text x="142" y="116" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="400" fill="#5a6a80" text-anchor="start" >Eight agents, each conditioned on a real 2026 committee member, take a blinded longlist to a single prize decision.</text>
+<rect x="40" y="158" width="480" height="680" rx="22" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<text x="70" y="206" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="28" font-weight="700" fill="#1b2a41" text-anchor="start" >Think alone</text>
+<text x="70" y="232" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" font-style="italic">No one sees anyone else's ranking</text>
+<rect x="560" y="158" width="480" height="680" rx="22" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<text x="590" y="206" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="28" font-weight="700" fill="#1b2a41" text-anchor="start" >Argue it out</text>
+<text x="590" y="232" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" font-style="italic">Written rounds, one neutral chair</text>
+<rect x="1080" y="158" width="480" height="680" rx="22" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<text x="1110" y="206" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="28" font-weight="700" fill="#1b2a41" text-anchor="start" >Vote in secret</text>
+<text x="1110" y="232" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" font-style="italic">Ranked ballots, counted to a majority</text>
+<circle cx="540.0" cy="383" r="21" fill="#b8892b" stroke="#eef1f4" stroke-width="5"/>
+<path d="M536.0,375 L545.0,383 L536.0,391" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1060.0" cy="383" r="21" fill="#b8892b" stroke="#eef1f4" stroke-width="5"/>
+<path d="M1056.0,375 L1065.0,383 L1056.0,391" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="65" y="258" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M151,276 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="149" y="276" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M90.5,339.4 Q89.6,313.3 108.5,312.4 Q127.4,313.3 126.5,339.4 Z" fill="#2f6f86"/><path d="M104.0,312.9 L108.5,318.7 L113.0,312.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M110.3,287.2 Q114.8,280.9 115.7,276.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="115.7" cy="275.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="108.5" cy="298.0" r="11.2" fill="#f1c9a5"/><circle cx="106.3" cy="297.6" r="1.4" fill="#1b2a41"/><circle cx="113.9" cy="297.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="72" y="338" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 130.5 312)"><rect x="113.5" y="312" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="119.5" cy="318" r="1.6" fill="#b8892b"/><line x1="124.5" y1="318" x2="142.5" y2="318" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="119.5" cy="325" r="1.6" fill="#5a6a80"/><line x1="124.5" y1="325" x2="138.5" y2="325" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="119.5" cy="332" r="1.6" fill="#5a6a80"/><line x1="124.5" y1="332" x2="134.5" y2="332" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="116.5" y="366" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B014 first</text>
+<rect x="174" y="258" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M260,276 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="258" y="276" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M199.5,339.4 Q198.6,313.3 217.5,312.4 Q236.4,313.3 235.5,339.4 Z" fill="#c4573f"/><path d="M213.0,312.9 L217.5,318.7 L222.0,312.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M219.3,287.2 Q223.8,280.9 224.7,276.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="224.7" cy="275.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="217.5" cy="298.0" r="11.2" fill="#c98d64"/><circle cx="215.3" cy="297.6" r="1.4" fill="#1b2a41"/><circle cx="222.9" cy="297.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="181" y="338" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 239.5 312)"><rect x="222.5" y="312" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="228.5" cy="318" r="1.6" fill="#b8892b"/><line x1="233.5" y1="318" x2="251.5" y2="318" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="228.5" cy="325" r="1.6" fill="#5a6a80"/><line x1="233.5" y1="325" x2="247.5" y2="325" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="228.5" cy="332" r="1.6" fill="#5a6a80"/><line x1="233.5" y1="332" x2="243.5" y2="332" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="225.5" y="366" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B003 first</text>
+<rect x="283" y="258" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M369,276 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="367" y="276" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M308.5,339.4 Q307.6,313.3 326.5,312.4 Q345.4,313.3 344.5,339.4 Z" fill="#3d4f8f"/><path d="M322.0,312.9 L326.5,318.7 L331.0,312.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M328.3,287.2 Q332.8,280.9 333.7,276.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="333.7" cy="275.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="326.5" cy="298.0" r="11.2" fill="#8d5a3b"/><circle cx="324.3" cy="297.6" r="1.4" fill="#1b2a41"/><circle cx="331.9" cy="297.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="290" y="338" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 348.5 312)"><rect x="331.5" y="312" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="337.5" cy="318" r="1.6" fill="#b8892b"/><line x1="342.5" y1="318" x2="360.5" y2="318" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="337.5" cy="325" r="1.6" fill="#5a6a80"/><line x1="342.5" y1="325" x2="356.5" y2="325" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="337.5" cy="332" r="1.6" fill="#5a6a80"/><line x1="342.5" y1="332" x2="352.5" y2="332" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="334.5" y="366" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B021 first</text>
+<rect x="392" y="258" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M478,276 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="476" y="276" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M417.5,339.4 Q416.6,313.3 435.5,312.4 Q454.4,313.3 453.5,339.4 Z" fill="#6f7f33"/><path d="M431.0,312.9 L435.5,318.7 L440.0,312.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M437.3,287.2 Q441.8,280.9 442.7,276.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="442.7" cy="275.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="435.5" cy="298.0" r="11.2" fill="#e4b48e"/><circle cx="433.3" cy="297.6" r="1.4" fill="#1b2a41"/><circle cx="440.9" cy="297.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="399" y="338" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 457.5 312)"><rect x="440.5" y="312" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="446.5" cy="318" r="1.6" fill="#b8892b"/><line x1="451.5" y1="318" x2="469.5" y2="318" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="446.5" cy="325" r="1.6" fill="#5a6a80"/><line x1="451.5" y1="325" x2="465.5" y2="325" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="446.5" cy="332" r="1.6" fill="#5a6a80"/><line x1="451.5" y1="332" x2="461.5" y2="332" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="443.5" y="366" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B007 first</text>
+<rect x="65" y="388" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M151,406 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="149" y="406" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M90.5,469.4 Q89.6,443.3 108.5,442.4 Q127.4,443.3 126.5,469.4 Z" fill="#8a4f7d"/><path d="M104.0,442.9 L108.5,448.7 L113.0,442.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M110.3,417.2 Q114.8,410.9 115.7,406.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="115.7" cy="405.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="108.5" cy="428.0" r="11.2" fill="#6e4329"/><circle cx="106.3" cy="427.6" r="1.4" fill="#1b2a41"/><circle cx="113.9" cy="427.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="72" y="468" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 130.5 442)"><rect x="113.5" y="442" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="119.5" cy="448" r="1.6" fill="#b8892b"/><line x1="124.5" y1="448" x2="142.5" y2="448" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="119.5" cy="455" r="1.6" fill="#5a6a80"/><line x1="124.5" y1="455" x2="138.5" y2="455" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="119.5" cy="462" r="1.6" fill="#5a6a80"/><line x1="124.5" y1="462" x2="134.5" y2="462" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="116.5" y="496" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B003 first</text>
+<rect x="174" y="388" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M260,406 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="258" y="406" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M199.5,469.4 Q198.6,443.3 217.5,442.4 Q236.4,443.3 235.5,469.4 Z" fill="#5b6b7c"/><path d="M213.0,442.9 L217.5,448.7 L222.0,442.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M219.3,417.2 Q223.8,410.9 224.7,406.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="224.7" cy="405.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="217.5" cy="428.0" r="11.2" fill="#f3d2b5"/><circle cx="215.3" cy="427.6" r="1.4" fill="#1b2a41"/><circle cx="222.9" cy="427.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="181" y="468" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 239.5 442)"><rect x="222.5" y="442" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="228.5" cy="448" r="1.6" fill="#b8892b"/><line x1="233.5" y1="448" x2="251.5" y2="448" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="228.5" cy="455" r="1.6" fill="#5a6a80"/><line x1="233.5" y1="455" x2="247.5" y2="455" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="228.5" cy="462" r="1.6" fill="#5a6a80"/><line x1="233.5" y1="462" x2="243.5" y2="462" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="225.5" y="496" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B011 first</text>
+<rect x="283" y="388" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M369,406 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="367" y="406" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M308.5,469.4 Q307.6,443.3 326.5,442.4 Q345.4,443.3 344.5,469.4 Z" fill="#a0643a"/><path d="M322.0,442.9 L326.5,448.7 L331.0,442.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M328.3,417.2 Q332.8,410.9 333.7,406.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="333.7" cy="405.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="326.5" cy="428.0" r="11.2" fill="#b07a55"/><circle cx="324.3" cy="427.6" r="1.4" fill="#1b2a41"/><circle cx="331.9" cy="427.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="290" y="468" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 348.5 442)"><rect x="331.5" y="442" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="337.5" cy="448" r="1.6" fill="#b8892b"/><line x1="342.5" y1="448" x2="360.5" y2="448" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="337.5" cy="455" r="1.6" fill="#5a6a80"/><line x1="342.5" y1="455" x2="356.5" y2="455" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="337.5" cy="462" r="1.6" fill="#5a6a80"/><line x1="342.5" y1="462" x2="352.5" y2="462" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="334.5" y="496" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B019 first</text>
+<rect x="392" y="388" width="103" height="122" rx="12" fill="#f4f6f9" stroke="#cfd7e0" stroke-width="1.2"/>
+<path d="M478,406 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#5a6a80" stroke-width="1.5"/>
+<rect x="476" y="406" width="12" height="9" rx="2" fill="#5a6a80"/>
+<g><path d="M417.5,469.4 Q416.6,443.3 435.5,442.4 Q454.4,443.3 453.5,469.4 Z" fill="#317a5e"/><path d="M431.0,442.9 L435.5,448.7 L440.0,442.9" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" stroke-linejoin="round"/><path d="M437.3,417.2 Q441.8,410.9 442.7,406.4" fill="none" stroke="#1b2a41" stroke-width="1.3"/><circle cx="442.7" cy="405.5" r="2.7" fill="#e8c46a" stroke="#b8892b" stroke-width="0.9"/><circle cx="435.5" cy="428.0" r="11.2" fill="#d9a27e"/><circle cx="433.3" cy="427.6" r="1.4" fill="#1b2a41"/><circle cx="440.9" cy="427.6" r="1.4" fill="#1b2a41"/></g>
+<rect x="399" y="468" width="89" height="9" rx="3" fill="#1b2a41"/>
+<g transform="rotate(-6 457.5 442)"><rect x="440.5" y="442" width="36" height="28" rx="3" fill="#ffffff" stroke="#1b2a41" stroke-width="1.2"/><circle cx="446.5" cy="448" r="1.6" fill="#b8892b"/><line x1="451.5" y1="448" x2="469.5" y2="448" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="446.5" cy="455" r="1.6" fill="#5a6a80"/><line x1="451.5" y1="455" x2="465.5" y2="455" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/><circle cx="446.5" cy="462" r="1.6" fill="#5a6a80"/><line x1="451.5" y1="462" x2="461.5" y2="462" stroke="#5a6a80" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="443.5" y="496" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="400" fill="#5a6a80" text-anchor="middle" >B003 first</text>
+<circle cx="85" cy="562" r="15" fill="#1b2a41"/>
+<text x="85" y="567.5" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" >1</text>
+<text x="112" y="568" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="20" font-weight="700" fill="#1b2a41" text-anchor="start" >Private opening rankings</text>
+<text x="112" y="594" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Each member gets only their own profile and the</text>
+<text x="112" y="615" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >shuffled, blinded longlist, then ranks 8 candidates</text>
+<text x="112" y="636" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >and proposes up to three laureates for each.</text>
+<circle cx="85" cy="687" r="15" fill="#1b2a41"/>
+<text x="85" y="692.5" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" >2</text>
+<text x="112" y="693" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="20" font-weight="700" fill="#1b2a41" text-anchor="start" >Support-based shortlist</text>
+<text x="112" y="719" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >A candidate advances with at least one first place,</text>
+<text x="112" y="740" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >two top-three rankings, or three top-eight rankings.</text>
+<text x="112" y="761" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Nomination counts never enter the committee room.</text>
+<g><path d="M754.6,384.5 Q753.6,355.5 774.6,354.5 Q795.6,355.5 794.6,384.5 Z" fill="#6f7f33"/><path d="M769.6,355.0 L774.6,361.5 L779.6,355.0" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M776.6,326.5 Q781.6,319.5 782.6,314.5" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="782.6" cy="313.5" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="774.6" cy="338.5" r="12.5" fill="#e4b48e"/><circle cx="770.4" cy="338.0" r="1.6" fill="#1b2a41"/><circle cx="778.8" cy="338.0" r="1.6" fill="#1b2a41"/><circle cx="765.6" cy="366.5" r="3.6" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/></g>
+<g><path d="M805.4,384.5 Q804.4,355.5 825.4,354.5 Q846.4,355.5 845.4,384.5 Z" fill="#8a4f7d"/><path d="M820.4,355.0 L825.4,361.5 L830.4,355.0" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M827.4,326.5 Q832.4,319.5 833.4,314.5" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="833.4" cy="313.5" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="825.4" cy="338.5" r="12.5" fill="#6e4329"/><circle cx="820.8" cy="338.0" r="1.6" fill="#1b2a41"/><circle cx="829.2" cy="338.0" r="1.6" fill="#1b2a41"/></g>
+<g><path d="M703.7,388.8 Q702.7,359.8 723.7,358.8 Q744.7,359.8 743.7,388.8 Z" fill="#3d4f8f"/><path d="M718.7,359.3 L723.7,365.8 L728.7,359.3" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M725.7,330.8 Q730.7,323.8 731.7,318.8" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="731.7" cy="317.8" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="723.7" cy="342.8" r="12.5" fill="#8d5a3b"/><circle cx="720.7" cy="342.3" r="1.6" fill="#1b2a41"/><circle cx="729.1" cy="342.3" r="1.6" fill="#1b2a41"/></g>
+<g><path d="M856.3,388.8 Q855.3,359.8 876.3,358.8 Q897.3,359.8 896.3,388.8 Z" fill="#5b6b7c"/><path d="M871.3,359.3 L876.3,365.8 L881.3,359.3" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M878.3,330.8 Q883.3,323.8 884.3,318.8" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="884.3" cy="317.8" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="876.3" cy="342.8" r="12.5" fill="#f3d2b5"/><circle cx="870.9" cy="342.3" r="1.6" fill="#1b2a41"/><circle cx="879.3" cy="342.3" r="1.6" fill="#1b2a41"/></g>
+<g><path d="M652.9,397.3 Q651.9,368.3 672.9,367.3 Q693.9,368.3 692.9,397.3 Z" fill="#c4573f"/><path d="M667.9,367.8 L672.9,374.3 L677.9,367.8" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M674.9,339.3 Q679.9,332.3 680.9,327.3" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="680.9" cy="326.3" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="672.9" cy="351.3" r="12.5" fill="#c98d64"/><circle cx="670.6" cy="350.8" r="1.6" fill="#1b2a41"/><circle cx="679.0" cy="350.8" r="1.6" fill="#1b2a41"/></g>
+<g><path d="M907.1,397.3 Q906.1,368.3 927.1,367.3 Q948.1,368.3 947.1,397.3 Z" fill="#a0643a"/><path d="M922.1,367.8 L927.1,374.3 L932.1,367.8" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M929.1,339.3 Q934.1,332.3 935.1,327.3" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="935.1" cy="326.3" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="927.1" cy="351.3" r="12.5" fill="#b07a55"/><circle cx="921.0" cy="350.8" r="1.6" fill="#1b2a41"/><circle cx="929.4" cy="350.8" r="1.6" fill="#1b2a41"/></g>
+<g><path d="M602.0,410.0 Q601.0,381.0 622.0,380.0 Q643.0,381.0 642.0,410.0 Z" fill="#2f6f86"/><path d="M617.0,380.5 L622.0,387.0 L627.0,380.5" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M624.0,352.0 Q629.0,345.0 630.0,340.0" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="630.0" cy="339.0" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="622.0" cy="364.0" r="12.5" fill="#f1c9a5"/><circle cx="620.5" cy="363.5" r="1.6" fill="#1b2a41"/><circle cx="628.9" cy="363.5" r="1.6" fill="#1b2a41"/></g>
+<g><path d="M958.0,410.0 Q957.0,381.0 978.0,380.0 Q999.0,381.0 998.0,410.0 Z" fill="#317a5e"/><path d="M973.0,380.5 L978.0,387.0 L983.0,380.5" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round"/><path d="M980.0,352.0 Q985.0,345.0 986.0,340.0" fill="none" stroke="#1b2a41" stroke-width="1.4"/><circle cx="986.0" cy="339.0" r="3.0" fill="#e8c46a" stroke="#b8892b" stroke-width="1.0"/><circle cx="978.0" cy="364.0" r="12.5" fill="#d9a27e"/><circle cx="971.1" cy="363.5" r="1.6" fill="#1b2a41"/><circle cx="979.5" cy="363.5" r="1.6" fill="#1b2a41"/></g>
+<path d="M582.0,430 Q800.0,388 1018.0,430 L1004.0,456 Q800.0,418 596.0,456 Z" fill="#1b2a41"/>
+<path d="M596.0,456 Q800.0,418 1004.0,456" fill="none" stroke="#b8892b" stroke-width="2"/>
+<g transform="rotate(-4 776.5714285714286 400)"><rect x="750.5714285714286" y="396" width="52" height="30" rx="3" fill="#ffffff" stroke="#b8892b" stroke-width="1.6"/><line x1="758.5714285714286" y1="404" x2="794.5714285714286" y2="404" stroke="#5a6a80" stroke-width="1.5" stroke-linecap="round"/><line x1="758.5714285714286" y1="411" x2="788.5714285714286" y2="411" stroke="#5a6a80" stroke-width="1.5" stroke-linecap="round"/><line x1="758.5714285714286" y1="418" x2="794.5714285714286" y2="418" stroke="#5a6a80" stroke-width="1.5" stroke-linecap="round"/></g>
+<rect x="586" y="256" width="118" height="34" rx="17.0" fill="#ffffff" stroke="#c4573f" stroke-width="1.4"/>
+<path d="M620.0,289.2 L626.0,334.0 L632.0,289.2" fill="#ffffff" stroke="#c4573f" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="620.5" y="287" width="11" height="3" fill="#ffffff"/>
+<text x="645.0" y="277.68" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#c4573f" text-anchor="middle" >Too early?</text>
+<rect x="714" y="248" width="132" height="34" rx="17.0" fill="#ffffff" stroke="#1b2a41" stroke-width="1.4"/>
+<path d="M722,281.2 L723.7142857142858,312.7755102040816 L734,281.2" fill="#ffffff" stroke="#1b2a41" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="722.5" y="279" width="11" height="3" fill="#ffffff"/>
+<text x="780.0" y="269.68" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#1b2a41" text-anchor="middle" >Who gets credit?</text>
+<rect x="860" y="256" width="70" height="34" rx="17.0" fill="#ffffff" stroke="#5a6a80" stroke-width="1.4"/>
+<path d="M868,289.2 L870.2857142857142,312.7755102040816 L880,289.2" fill="#ffffff" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="868.5" y="287" width="11" height="3" fill="#ffffff"/>
+<circle cx="886.0" cy="273.0" r="2.4" fill="#5a6a80"/>
+<circle cx="895.0" cy="273.0" r="2.4" fill="#5a6a80"/>
+<circle cx="904.0" cy="273.0" r="2.4" fill="#5a6a80"/>
+<rect x="940" y="270" width="82" height="34" rx="17.0" fill="#ffffff" stroke="#2f6f86" stroke-width="1.4"/>
+<path d="M972.0,303.2 L978.0,334.0 L984.0,303.2" fill="#ffffff" stroke="#2f6f86" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="972.5" y="301" width="11" height="3" fill="#ffffff"/>
+<text x="981.0" y="291.68" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="600" fill="#2f6f86" text-anchor="middle" >B007!</text>
+<text x="800.0" y="484" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="400" fill="#5a6a80" text-anchor="middle" font-style="italic">the chair (gold pin) writes a neutral summary between rounds</text>
+<circle cx="605" cy="562" r="15" fill="#1b2a41"/>
+<text x="605" y="567.5" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" >3</text>
+<text x="632" y="568" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="20" font-weight="700" fill="#1b2a41" text-anchor="start" >Round 1, then the chair</text>
+<text x="632" y="594" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Members read every opening ballot, answer at least</text>
+<text x="632" y="615" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >two colleagues and back one prize configuration.</text>
+<text x="632" y="636" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >The chair summarises support and open questions.</text>
+<circle cx="605" cy="687" r="15" fill="#1b2a41"/>
+<text x="605" y="692.5" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" >4</text>
+<text x="632" y="693" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="20" font-weight="700" fill="#1b2a41" text-anchor="start" >Round 2</text>
+<text x="632" y="719" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Each member must address what is still unresolved:</text>
+<text x="632" y="740" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >the science, who deserves credit, and whether the</text>
+<text x="632" y="761" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >discovery is mature enough for a prize.</text>
+<g transform="rotate(14 1190 388)"><rect x="1158" y="290" width="64" height="84" rx="6" fill="#ffffff" stroke="#1b2a41" stroke-width="1.4"/><text x="1190" y="314" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="14" font-weight="700" fill="#1b2a41" text-anchor="middle">P003</text><line x1="1170" y1="326" x2="1210" y2="326" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/><line x1="1170" y1="334" x2="1202" y2="334" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/><line x1="1170" y1="342" x2="1194" y2="342" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="rotate(5 1190 388)"><rect x="1158" y="290" width="64" height="84" rx="6" fill="#ffffff" stroke="#1b2a41" stroke-width="1.4"/><text x="1190" y="314" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="14" font-weight="700" fill="#1b2a41" text-anchor="middle">P002</text><line x1="1170" y1="326" x2="1210" y2="326" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/><line x1="1170" y1="334" x2="1202" y2="334" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/><line x1="1170" y1="342" x2="1194" y2="342" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="rotate(-4 1190 388)"><rect x="1158" y="290" width="64" height="84" rx="6" fill="#ffffff" stroke="#1b2a41" stroke-width="1.4"/><text x="1190" y="314" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="14" font-weight="700" fill="#1b2a41" text-anchor="middle">P001</text><line x1="1170" y1="326" x2="1210" y2="326" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/><line x1="1170" y1="334" x2="1202" y2="334" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/><line x1="1170" y1="342" x2="1194" y2="342" stroke="#cfd7e0" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="rotate(-13 1190 388)"><rect x="1158" y="290" width="64" height="84" rx="6" fill="#ffffff" stroke="#1b2a41" stroke-width="1.4"/><text x="1190" y="314" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="14" font-weight="700" fill="#1b2a41" text-anchor="middle">P000</text><text x="1190" y="332" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5a6a80" text-anchor="middle">no award</text></g>
+<text x="1190" y="430" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="400" fill="#5a6a80" text-anchor="middle" font-style="italic">proposal slate</text>
+<rect x="1130" y="458" width="120" height="78" rx="8" fill="#1b2a41"/>
+<rect x="1160" y="456" width="60" height="7" rx="3.5" fill="#0d1726"/>
+<rect x="1182" y="434" width="16" height="26" rx="2" fill="#ffffff" stroke="#1b2a41" stroke-width="1.3" transform="rotate(8 1190 448)"/>
+<path d="M1170,504 l12,-12 l12,12 l12,-12 l12,12" fill="none" stroke="#b8892b" stroke-width="2.2" stroke-linejoin="round" opacity=".9"/>
+<text x="1190" y="528" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle" >secret</text>
+<text x="1295" y="270" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="15" font-weight="700" fill="#1b2a41" text-anchor="start" >Instant runoff</text>
+<text x="1295" y="311" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#1b2a41" text-anchor="start" >P002</text>
+<rect x="1339" y="296" width="120" height="20" rx="4" fill="#cfd7e0"/>
+<rect x="1339" y="296" width="150" height="20" rx="4" fill="#b8892b"/>
+<text x="1295" y="363" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#1b2a41" text-anchor="start" >P001</text>
+<rect x="1339" y="348" width="90" height="20" rx="4" fill="#cfd7e0"/>
+<rect x="1339" y="348" width="90" height="20" rx="4" fill="#7d8ca0"/>
+<text x="1295" y="415" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#1b2a41" text-anchor="start" >P003</text>
+<rect x="1339" y="400" width="30" height="20" rx="4" fill="#cfd7e0"/>
+<line x1="1335" y1="410" x2="1375" y2="410" stroke="#c4573f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="1383" y="415" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="400" fill="#c4573f" text-anchor="start" >eliminated</text>
+<path d="M1373,402 C1519,370 1519,300 1495,306" fill="none" stroke="#b8892b" stroke-width="1.8" stroke-dasharray="4 4" marker-end="url(#ah)"/>
+<line x1="1489" y1="286" x2="1489" y2="440" stroke="#1b2a41" stroke-width="1.5" stroke-dasharray="3 4"/>
+<text x="1489" y="456" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#1b2a41" text-anchor="middle" >5 of 8 votes</text>
+<circle cx="1125" cy="562" r="15" fill="#1b2a41"/>
+<text x="1125" y="567.5" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" >5</text>
+<text x="1152" y="568" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="20" font-weight="700" fill="#1b2a41" text-anchor="start" >Proposal slate</text>
+<text x="1152" y="594" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Identical round-2 configurations become one</text>
+<text x="1152" y="615" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >proposal. P000, no award, is always on the slate.</text>
+<circle cx="1125" cy="657" r="15" fill="#1b2a41"/>
+<text x="1125" y="662.5" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" >6</text>
+<text x="1152" y="663" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="20" font-weight="700" fill="#1b2a41" text-anchor="start" >Private final ballots</text>
+<text x="1152" y="689" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Every member ranks every proposal exactly once.</text>
+<circle cx="1125" cy="727" r="15" fill="#1b2a41"/>
+<text x="1125" y="732.5" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" >7</text>
+<text x="1152" y="733" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="20" font-weight="700" fill="#1b2a41" text-anchor="start" >Instant runoff</text>
+<text x="1152" y="759" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Five votes win. Otherwise the weakest proposal is</text>
+<text x="1152" y="780" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="400" fill="#5a6a80" text-anchor="start" >eliminated and its ballots move to the next choice.</text>
+<text x="50" y="890" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="22" font-weight="700" fill="#1b2a41" text-anchor="start" >Everything is kept</text>
+<text x="50" y="916" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14.5" font-weight="400" fill="#5a6a80" text-anchor="start" >Each step is saved as a versioned JSON record,</text>
+<text x="50" y="936" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14.5" font-weight="400" fill="#5a6a80" text-anchor="start" >so any simulated decision can be replayed.</text>
+<rect x="400" y="886" width="136.0" height="40" rx="8" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<path d="M412,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="434" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="500" fill="#1b2a41" text-anchor="start" >opening/*.json</text>
+<path d="M537.4285714285714,901 L543.4285714285714,906 L537.4285714285714,911" fill="none" stroke="#b8892b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="544.8571428571429" y="886" width="136.0" height="40" rx="8" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<path d="M556.8571428571429,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="578.8571428571429" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="500" fill="#1b2a41" text-anchor="start" >shortlist.json</text>
+<path d="M682.2857142857143,901 L688.2857142857143,906 L682.2857142857143,911" fill="none" stroke="#b8892b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="689.7142857142858" y="886" width="87.0" height="40" rx="8" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<path d="M701.7142857142858,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="723.7142857142858" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="500" fill="#1b2a41" text-anchor="start" >round 1</text>
+<path d="M778.1428571428572,901 L784.1428571428572,906 L778.1428571428572,911" fill="none" stroke="#b8892b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="785.5714285714287" y="886" width="213.0" height="40" rx="8" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<path d="M797.5714285714287,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="819.5714285714287" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="500" fill="#1b2a41" text-anchor="start" >chair_summary_round1.json</text>
+<path d="M1000.0000000000001,901 L1006.0000000000001,906 L1000.0000000000001,911" fill="none" stroke="#b8892b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1007.4285714285716" y="886" width="87.0" height="40" rx="8" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<path d="M1019.4285714285716,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="1041.4285714285716" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="500" fill="#1b2a41" text-anchor="start" >round 2</text>
+<path d="M1095.857142857143,901 L1101.857142857143,906 L1095.857142857143,911" fill="none" stroke="#b8892b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1103.2857142857144" y="886" width="171.0" height="40" rx="8" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<path d="M1115.2857142857144,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="1137.2857142857144" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="500" fill="#1b2a41" text-anchor="start" >proposal_slate.json</text>
+<path d="M1275.7142857142858,901 L1281.7142857142858,906 L1275.7142857142858,911" fill="none" stroke="#b8892b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1283.1428571428573" y="886" width="129.0" height="40" rx="8" fill="#ffffff" stroke="#cfd7e0" stroke-width="1.5"/>
+<path d="M1295.1428571428573,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#5a6a80" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="1317.1428571428573" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="500" fill="#1b2a41" text-anchor="start" >final ballots</text>
+<path d="M1413.5714285714287,901 L1419.5714285714287,906 L1413.5714285714287,911" fill="none" stroke="#b8892b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1421.0000000000002" y="886" width="129.0" height="40" rx="8" fill="#e8c46a" stroke="#b8892b" stroke-width="1.5"/>
+<path d="M1433.0000000000002,897 h9 l5,5 v13 h-14 Z" fill="none" stroke="#1b2a41" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="1455.0000000000002" y="911" font-family="'Avenir Next','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#1b2a41" text-anchor="start" >decision.json</text>
 </svg>

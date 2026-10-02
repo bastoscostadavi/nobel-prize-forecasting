@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-03",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B007",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks (magic-wavelength trapping of many atoms) are among the clearest cases of an invention that changed what can be measured. Stability and accuracy at the 10^-18 level have opened redefinition of the second, relativistic geodesy and tests of fundamental constants. This is the kind of precision measurement physics I weigh most heavily, with a clear idea, a clear realization and wide impact.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept and demonstrated the early strontium clocks; Ye's JILA group drove the record performance and the many-body, clock-comparison and frequency-transfer demonstrations. As I recall, Hall and Hänsch were already recognized in 2005 for the comb, so a Katori-Ye award is a clean two-person configuration. Other contributors (for example the Yb and Sr groups elsewhere) are not in the credited names.",
+        "maturity": "Independently confirmed by many groups worldwide, with a stable interpretation and routine international clock comparisons. Timely and arguably overdue, though the formal redefinition of the second is still pending.",
+        "uncertainties": [
+          "Whether the credit between Katori's concept and Ye's later performance milestones is judged as co-equal.",
+          "I have a documented link to John Hall's laboratory, and Ye is Hall's former collaborator, so my evaluation could be biased and I should be open about it.",
+          "I cannot independently verify the latest clock performance figures and rely on memory."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B015",
+      "proposed_laureates": [
+        "Juan Ignacio Cirac",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The 1995 trapped-ion quantum gate proposal and the subsequent neutral-atom and ion blueprints supplied the conceptual foundation for quantum computing and quantum simulation on atomic platforms. The idea is original, clean, and has had lasting influence across the field. It is scientifically very deep and sits close to my own field of coherent light-matter interactions.",
+        "attribution": "The two-name credit is natural and well defined; the Cirac-Zoller gate is the central contribution, and the pair also shared neutral-atom proposals. Experimental realization is credited to others (for example Wineland and Blatt groups), and Wineland was already recognized in 2012 for ion control, which supports a theory-led prize here.",
+        "maturity": "Many independent experimental demonstrations over three decades confirm the proposals; the field is stable and timely. Some risk of overlap in the committee's mind with B008 and B009, which also credit Zoller.",
+        "uncertainties": [
+          "Overlap with the optical-lattice simulation candidate may force a choice about how Zoller is credited across candidates.",
+          "A theory-only prize relative to experimental groups may be seen as incomplete; the experimentalists' share is not in the credited names."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B008",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Markus Greiner",
+        "Tilman Esslinger"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum simulation of Hubbard-type and strongly correlated physics with ultracold atoms in optical lattices (the superfluid to Mott insulator transition, single-site quantum gas microscopy, fermionic Hubbard physics) established a new experimental way of studying many-body quantum matter. The discovery is rich, with direct visibility of correlations. As an atomic physicist I find the experimental craft convincing.",
+        "attribution": "The Mott transition was observed in Munich (Greiner, Bloch, with Hänsch); Esslinger realized fermionic Mott and related physics at ETH; Greiner's gas microscope gave single-site resolution. Zoller (with Jaksch) is the theory proposer but I leave Zoller to B015 to avoid double use. Others (Gross, Bakr, Kuhr) also contributed to microscopy, so a three-person limit leaves out real contributors.",
+        "maturity": "The experiments are widely reproduced and quantum simulators are now an established field. The claims that they have solved open problems of condensed matter remain partly aspirational, which weakens the case slightly.",
+        "uncertainties": [
+          "Credit among Bloch, Greiner, Esslinger and those excluded, including the theory origin with Jaksch and Zoller.",
+          "Whether the discovery is mature enough in terms of solving problems that classical methods cannot."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B001",
+      "proposed_laureates": [
+        "Pablo Jarillo-Herrero",
+        "Allan H. MacDonald",
+        "Rafi Bistritzer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The theoretical prediction of flat bands at the magic angle and the experimental discovery of correlated insulating and superconducting states in twisted bilayer graphene started the moire quantum matter field. It is highly original and has had a large and rapid impact, with an unusually clear prediction followed by experimental confirmation.",
+        "attribution": "Bistritzer and MacDonald made the 2011 continuum-model prediction; Jarillo-Herrero's group made the 2018 experimental discovery. Other groups (for example Dean, Efetov, Young and Yazdani) did important confirming work and the prediction-discovery structure suggests a fair three-person split.",
+        "maturity": "Confirmation is broad and independent, but the field is still evolving and the physics of the superconducting state is not settled, so recognition may be somewhat early.",
+        "uncertainties": [
+          "The mechanism of superconductivity is unresolved.",
+          "Whether the committee wants to wait for a more stable interpretation.",
+          "Reproducibility of device-to-device variations is something I cannot judge in detail."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B005",
+      "proposed_laureates": [
+        "Charles H. Bennett",
+        "Gilles Brassard",
+        "Artur Ekert"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum key distribution turned foundations of quantum mechanics into a practical security principle. BB84 and the entanglement-based E91 protocol are conceptually simple, original and have grown into a commercial and experimental discipline. The 2022 prize recognized Bell tests and entanglement, which the QKD story builds on, so this would be a natural successor.",
+        "attribution": "BB84 (Bennett and Brassard) is the clear core; Ekert's 1991 entanglement-based scheme is a distinct, important contribution. Wiesner's earlier conjugate-coding idea is not in the credited names and its omission is an unresolved fairness issue.",
+        "maturity": "Many demonstrations including satellite links; however security proofs, device loopholes and practicality remain debated, and some of the impact is as a concept rather than as a deployed technology.",
+        "uncertainties": [
+          "Stephen Wiesner's priority claim is not represented.",
+          "Whether practical impact is sufficient given limited real-world deployment."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B036",
+      "proposed_laureates": [
+        "Fabiola Gianotti",
+        "Michel Della Negra",
+        "Tejinder Virdee"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The observation of the Higgs boson completed the Standard Model and was a landmark experimental achievement based on a decades-long detector and accelerator program. It is of the highest importance, though the theoretical prediction was already honored in 2013.",
+        "attribution": "A prize for a collaboration of thousands is hard to attribute. Gianotti, Della Negra and Virdee are credited as leaders of the experiments' conception and construction, while Jenni and Evans are also credible; the choice among them is an unresolved judgement.",
+        "maturity": "Very mature and confirmed independently by two experiments and later measurements. Timing is good, but the prize rules limit who can be credited.",
+        "uncertainties": [
+          "Selecting three people from huge collaborations is arbitrary and contentious.",
+          "Whether experimental credit should go to instrument builders or analysis leaders."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B013",
+      "proposed_laureates": [
+        "Stephen E. Harris",
+        "Lene Vestergaard Hau"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Electromagnetically induced transparency and the demonstrations of slow and stopped light are conceptually elegant and underlie a large toolkit including optical quantum memories. I know this territory closely through my own work on coherent light-matter interactions in doped crystals, so I judge its scientific importance directly, while accepting that it is also a field where I am not impartial.",
+        "attribution": "Harris developed the EIT theory and first observations; Hau's group demonstrated ultraslow and stopped light in cold atoms. Imamoglu contributed to related theory but I treat the Harris-Hau pair as the cleanest assignment. Others (for example Fleischhauer and Lukin, Phillips) are not in this credited list.",
+        "maturity": "The effect is thoroughly confirmed and applied in memories, nonlinear optics and magnetometry; the discovery is mature, though its status as a single prize-level discovery versus a technique is debatable.",
+        "uncertainties": [
+          "Possible conflict of interest given my work on slow light and quantum memories in rare-earth crystals.",
+          "Whether it is seen as a discovery or as an enabling technique.",
+          "Overlap of credit with Fleischhauer and Lukin outside the credited names."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B021",
+      "proposed_laureates": [
+        "Mark A. Kasevich",
+        "David E. Pritchard",
+        "Christian J. Bordé"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Atom interferometry provides inertial sensing, gravimetry and precision tests of fundamental physics, and as a measurement method it is of obvious importance. The ideas are original, with a lasting impact on metrology and fundamental constants.",
+        "attribution": "Pritchard and colleagues made early matter-wave interferometers with atoms and molecules, Bordé developed the theory of atom interferometers using light pulses, and Kasevich with Chu demonstrated the precision gravimeter and gyroscope. Chu was already recognized in 1997 for cooling, and Chu is not in the credited names, which complicates the story.",
+        "maturity": "Strong confirmation, with commercial gravimeters and large-scale experiments in progress, but impact on fundamental tests is still unfolding, so some recognition may be premature.",
+        "uncertainties": [
+          "Allocation among Pritchard, Bordé and Kasevich is genuinely contested, and Steven Chu's role is outside the credited names.",
+          "Lasting scientific discoveries made by the method are still limited."
+        ]
+      }
+    }
+  ]
+}

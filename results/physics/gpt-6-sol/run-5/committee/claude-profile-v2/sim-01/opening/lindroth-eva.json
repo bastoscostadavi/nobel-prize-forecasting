@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B030",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks, built on Katori's magic-wavelength proposal, combine the accuracy of single-ion clocks with the statistics of many atoms and have reached fractional uncertainties near 1e-18. The underlying atomic physics (light shifts, forbidden transitions, blackbody and many-body shifts) is a clear, original idea with a measurable payoff. It supports tests of fundamental constants, relativistic geodesy and a possible redefinition of the second.",
+        "attribution": "Katori made the decisive conceptual proposal and early demonstrations; Jun Ye's group made the dominant demonstrations of accuracy, stability and many-body effects. The two-person configuration is natural. As I recall it, the 2005 prize covered the frequency comb and a related clock-metrology advance, and the 2012 prize covered trapped-ion control. Neither covered lattice clocks themselves. I have not checked this independently.",
+        "maturity": "Mature: independent clocks in several laboratories (Japan, US, Europe) agree at the 1e-18 level and the interpretation is stable. The redefinition of the second is still pending, so recognition is timely and well supported by confirmation.",
+        "uncertainties": [
+          "Some committee members may judge the prize record on frequency metrology to be partly used already.",
+          "Other contributors to lattice-clock development, such as strontium and ytterbium groups outside the credited names, may be argued to deserve credit; I cannot settle that from the supplied text."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B058",
+      "proposed_laureates": [
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The quantum spin Hall effect and the Z2 classification of topological insulators opened a field in which bulk topology dictates robust boundary states. The idea is original, conceptually clean and was confirmed experimentally. It connects to earlier prize-recognised topological physics (the quantum Hall effect, and the 2016 prize for topological phases), so the step is significant but not unprecedented.",
+        "attribution": "Kane and Mele supplied the theory of the Z2 quantum spin Hall state; Molenkamp's group gave the first experimental demonstration in HgTe wells after the Bernevig-Hughes-Zhang prediction. That prediction is not in the credited list, so this configuration leaves a real attribution gap. I see this entry as better supported than the overlapping B032, which brings in the later quantum anomalous Hall experiments.",
+        "maturity": "Mature: nearly two decades of independent confirmation in HgTe, InAs/GaSb, Bi-based compounds and 3D topological insulators, and the interpretation is stable.",
+        "uncertainties": [
+          "The omission of Bernevig, Hughes and Zhang (the latter deceased) from the credited names makes the credit incomplete.",
+          "Overlap with the 2016 prize topic could lower the perceived novelty for some members.",
+          "The relative roles of 2D and 3D topological insulators are not resolved by the supplied text."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B004",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Markus Greiner",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices provide clean, tunable realisations of Hubbard-type models, starting with the superfluid-to-Mott-insulator transition. Single-site-resolved quantum-gas microscopy followed. The field gave experimental access to many-body questions that solid-state systems cannot isolate. Here the atomic-physics control is combined with fundamental many-body theory.",
+        "attribution": "Zoller (with Jaksch and co-workers) proposed the lattice realisation of the Bose-Hubbard model; Greiner and Bloch carried out the Mott transition and later quantum-gas microscopy. Esslinger's Fermi-Hubbard experiments are also decisive, so choosing three of four is a real compromise. Jaksch, who is not credited, was a key co-author of the proposal.",
+        "maturity": "Fairly mature: many groups reproduce the central results and the quantum-simulation program is widely accepted. Quantitative advantage over classical computation for the hardest models is still being demonstrated.",
+        "uncertainties": [
+          "Dropping Esslinger, or Jaksch not being credited, is a significant attribution uncertainty.",
+          "The scope of quantum simulation versus the 2001 condensation prize and the 2012 and 2022 prizes in quantum control and information must be weighed."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B029",
+      "proposed_laureates": [
+        "Robert J. Schoelkopf",
+        "Steven M. Girvin",
+        "Alexandre Blais"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Circuit quantum electrodynamics transposed cavity-QED strong coupling into superconducting circuits and underlies dispersive readout and gate operations in superconducting quantum processors. It is a basic and broadly used framework. The 2025 prize recognised macroscopic quantum tunnelling in superconducting circuits, which makes the topic timely while raising an overlap question.",
+        "attribution": "Blais, Huang, Wallraff, Girvin and Schoelkopf wrote the 2004 proposal and the first experiments (Wallraff et al.). Wallraff is not in the credited names, so the credited trio would leave out a decisive experimental contributor. The theory credit (Blais, Girvin) and the experimental/engineering credit (Schoelkopf) are plausibly distinct.",
+        "maturity": "Mature in technique, with independent confirmation in many groups, though some of the practical impact (fault-tolerant computing) is still developing. Possibly premature given the 2025 recognition of the neighbouring field.",
+        "uncertainties": [
+          "Wallraff is missing from the credited names.",
+          "The closeness to the 2025 award may reduce near-term priority.",
+          "Whether recognition should concentrate on cQED itself or on quantum computing hardware is unresolved."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B006",
+      "proposed_laureates": [
+        "Peter F. Moulton",
+        "Ursula Keller",
+        "Wilson Sibbett"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ti:sapphire gain media and passive mode-locking (Kerr-lens and SESAM) made reliable femtosecond oscillators routine and are enabling technology for frequency combs, attosecond science and much of ultrafast spectroscopy. Their impact is wide, though much of the credit is for an enabling instrument rather than a discovery.",
+        "attribution": "Moulton developed the Ti:sapphire laser medium; Sibbett's group demonstrated Kerr-lens mode-locking; Keller developed SESAMs and later carrier-envelope-offset-stabilised oscillators. Priority for Kerr-lens versus SESAM and roles across laboratories is partly contested. Disclosure: I have documented scientific collaboration with Ursula Keller's group at ETH Zurich, so I have a conflict of interest and my ranking of this entry should be treated cautiously.",
+        "maturity": "Mature: decades of use. Timeliness is uncertain because the 2018 CPA prize and the 2023 attosecond prize already recognise adjacent parts of the ultrafast chain.",
+        "uncertainties": [
+          "My conflict of interest with the Keller group.",
+          "Contested priority and different contributions among Kerr-lens mode-locking, SESAMs and the Ti:sapphire medium.",
+          "Possible overlap with prizes in 2005, 2018 and 2023 on neighbouring laser topics."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B044",
+      "proposed_laureates": [
+        "Juan Ignacio Cirac",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Cirac and Zoller proposed trapped-ion quantum gates and analog and digital simulation with atoms and ions, a theoretical framework that shaped the experimental work of the whole atomic quantum-information field. The originality and long influence are clear.",
+        "attribution": "The two-person configuration is clean and the credit for the 1995 gate proposal and subsequent theoretical programs is well established. Experimental realisations (Wineland, Blatt and others) are partly covered by the 2012 prize and by experimental groups not credited here. I note overlap with B004 and B039 where Zoller is also credited, so awarding more than one is unlikely.",
+        "maturity": "The theory is long confirmed experimentally. Practical quantum-computing impact is not yet fully realised, but the scientific contribution is established.",
+        "uncertainties": [
+          "Overlap with B004 and B039 in the credited names and subject matter.",
+          "Whether the contribution is regarded as theory enabling a discovery or as a discovery in itself."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B059",
+      "proposed_laureates": [
+        "Christian J. Bordé",
+        "David E. Pritchard",
+        "Mark A. Kasevich"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Atom interferometry turned matter-wave coherence into precision tools for gravimetry, rotation sensing, measurements of the gravitational constant and the fine-structure constant, and tests of the equivalence principle. The conceptual lineage from laser cooling is strong and the application range is broad.",
+        "attribution": "Bordé proposed atom-interferometer geometry in the atom-laser-field framework; Pritchard's group demonstrated early atom interferometers; Kasevich (with Chu) realised high-precision light-pulse interferometers. Steven Chu, a co-developer, is already a laureate (1997) and is not in the credited names, which simplifies the allocation but makes the credit story incomplete.",
+        "maturity": "Reasonably mature, but precision determinations of fundamental constants still show tension between groups, and the most sensitive applications (space and large-baseline tests) are in development.",
+        "uncertainties": [
+          "Attribution among the early demonstrations (Pritchard, Mlynek, Kasevich-Chu, Bordé) is disputed in places.",
+          "Whether the recent precision results are stable enough for a prize is unclear to me."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B027",
+      "proposed_laureates": [
+        "Carlton M. Caves",
+        "H. Jeff Kimble",
+        "Roman Schnabel"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Squeezed light reduces quantum noise below the shot-noise limit and is now used in gravitational-wave interferometers. It joins foundational quantum optics with a clear practical impact, and it highlights how nonclassical states can be engineered.",
+        "attribution": "Caves proposed squeezing for interferometry; Kimble's group and others (Slusher et al., not credited) demonstrated squeezed light; Schnabel's group developed the modern implementation for gravitational-wave detectors. The experimental credit is distributed more widely than the three names, and Caves's role is theoretical. A fair configuration is not obvious.",
+        "maturity": "Reasonably mature, with real-world use at LIGO and Virgo. The earlier quantum-optics prizes (2005, 2012) cover neighbouring ground, which may make recognition less timely.",
+        "uncertainties": [
+          "Slusher and Wu, and other early experimentalists, are not credited.",
+          "Whether the central contribution is the idea, the first experiment or the application in detectors is contested."
+        ]
+      }
+    }
+  ]
+}

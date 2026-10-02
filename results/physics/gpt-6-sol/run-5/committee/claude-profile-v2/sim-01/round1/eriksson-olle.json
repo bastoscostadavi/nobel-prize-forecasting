@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B022",
+        "laureates": [
+          "Michele Parrinello",
+          "Roberto Car"
+        ],
+        "citation": "For the development of ab initio molecular dynamics, unifying electronic-structure theory and atomic motion in a single scheme for first-principles simulation of materials"
+      }
+    ]
+  },
+  "alternatives": [
+    "B030",
+    "B058"
+  ],
+  "statement": {
+    "case_for": "The 1985 Car-Parrinello paper made it possible to follow electrons and nuclei together from density functional theory, so that finite-temperature, bond-breaking and disordered systems (liquids, amorphous solids, surfaces, reactions) could be simulated without empirical potentials. It is a single, identifiable, original idea with a clean two-author attribution, forty years of independent use and thousands of implementations, so there is no question of maturity or of reproducibility. Of everything on this shortlist it is the one whose credit is least contestable: no omitted co-inventor, no collaboration to carve up, no choice of three from four or five. I should say plainly that this is my own field, which is why I rank it first, and I do not claim that opening support equals merit; the case has to stand on the points above.",
+    "case_against": "The strongest objection is disciplinary. The method is computational and sits at the border with chemistry, and the committee may feel that a physics prize should reward a discovery about nature or an instrument, not an algorithmic framework. The opening ballots show how thin the support is: only Mehlig ranks it highly alongside me, and the other six do not place it in their top eight. Against that, B030 has the broadest support, six top-three placements, and a very clean two-name credit. If the committee judges the physics-versus-method question against B022, I would not stand in the way of B030 or B058 on the merits, and I would not fight for a configuration that most colleagues find outside the prize's remit.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks the Car-Parrinello method second, as a computational physicist who sees its impact as enormous, with a natural two-person credit, while worrying whether a method counts as physics rather than chemistry.",
+        "response": "I agree on the attribution and the maturity, but we both have a stake in simulation methods, so our agreement should not count for much with the others. The honest test is whether it changed what physicists can establish. It did: it turned DFT from a ground-state tool into a way of studying thermodynamics, diffusion, structural transitions and melting in real materials. The chemistry overlap I take seriously, but the 2013 chemistry prize was for multiscale models, a different contribution, so I do not think it pre-empts this one."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks optical lattice clocks first: a clear idea with measurable payoff, 1e-18 uncertainties, independent confirmation across laboratories, and no previous prize covering lattice clocks themselves, though some may feel frequency metrology is partly used.",
+        "response": "I accept most of this and I ranked B030 only seventh because it is far from my field, not because I doubt it. The attribution to Katori and Ye is as clean as the one I prefer, and the maturity argument is strong. Where I differ is on the prize-record worry: Lindroth's point that the 2005 and 2012 prizes did not cover lattice clocks seems right to me, and the redefinition of the second will not change the science. I therefore see B030 as the strongest alternative, and I would defer to her and Kroll on the technical priority questions, which I cannot judge well."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson places aberration-corrected electron optics and the quantum cascade laser first and second, arguing that clear instrument or device inventions satisfy the invention criterion and that both are fully mature.",
+        "response": "I take the invention argument seriously, and it cuts in favour of my own candidate: if instruments and devices qualify, a simulation method that has become standard scientific infrastructure qualifies too. Where I disagree is on attribution. For B025 and B008 she herself notes the missing Krivanek line, Kazarinov and Suris priority and the other Bell Labs co-authors, so those candidates carry the credit problems that B022 does not have. I would also note that nobody else ranked B025 at all, so I do not see a path to agreement there."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks lattice clocks first and optical-lattice quantum simulation second, and treats the Hubbard-model proposal by Zoller and the experiments by the others as a new, clean way to study correlated matter.",
+        "response": "I share his respect for B004, since the Hubbard model is central to my own work. My qualification is that it is mainly a simulator whose promise for real materials is still being established, and the credit problem is serious: he and Pearce drop Greiner while Johansson, Lindroth, Olsson and Mehlig drop Esslinger, which suggests that no allocation is clearly defensible. I would put it below B030 and B058 for that reason."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts an ab initio computational method as a physics invention rather than chemistry or computational science; this decides B022 and I cannot resolve it from the ballots.",
+      "Whether Parrinello's other work (metadynamics, Parrinello-Rahman) should be mentioned in the citation or kept out of it.",
+      "I cannot judge the lattice-clock priority questions (Lemonde, Ludlow and others) from outside atomic physics.",
+      "Only two of eight members rank B022 in their top eight, so a prize with it may not have the votes however strong the merits."
+    ],
+    "conflict_note": "I work in electronic-structure theory and atomistic simulation at Uppsala, which is the field of B022, and I have been a member of the community that uses the Car-Parrinello method; this is a scientific closeness that may call for recusal or at least disclosure on B022. My profile records no personal connection to Car or Parrinello, and none to the other shortlisted candidates, so no other specific conflict is apparent from the provided profile."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B005",
+      "proposed_laureates": ["Hidetoshi Katori", "Jun Ye"],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks combine laser cooling, magic-wavelength trapping and ultrastable lasers to reach fractional uncertainties near 1e-18, well beyond microwave standards. This is a clear, original invention with direct consequences for timekeeping, the planned redefinition of the second, relativistic geodesy and tests of fundamental constants. From a laser-spectroscopy standpoint the measurement-limited argument is compelling: progress in physics is bounded by how accurately we can measure.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept and demonstrated early strontium lattice spectroscopy; Ye's group built the highest-performance clocks and drove the precision-measurement program. Together they form a natural two-person prize. Others in the field (for example ion-clock and ultrastable-laser contributors) are not in the credited list, so the list supports a clean configuration but I cannot verify from the supplied text that the omitted contributors are less decisive.",
+        "maturity": "Multiple independent laboratories worldwide have reproduced and surpassed the original performance over two decades. The interpretation is stable and the technology is mature, so recognition is timely and not premature.",
+        "uncertainties": [
+          "Whether the committee would prefer to group lattice clocks with ultrastable-laser or frequency-comb work, which would change the allocation.",
+          "Fine-grained priority among early proposals and demonstrations is from my background knowledge and not independently verified here."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B015",
+      "proposed_laureates": ["Immanuel Bloch", "Markus Greiner", "Peter Zoller"],
+      "assessment": {
+        "nobel_worthiness": "Ultracold atoms in optical lattices realize Hubbard-type models with controllable parameters, observed the superfluid to Mott-insulator transition, and opened a general approach to quantum simulation, including single-site-resolved quantum gas microscopes. The work is conceptually clear, technically original and has reshaped many-body physics and quantum technology.",
+        "attribution": "Theory proposals of lattice Hubbard physics with cold atoms (Zoller and collaborators) and decisive experiments (Greiner and Bloch for the Mott transition and microscopy; Esslinger for fermionic lattices) are all credited, but four names exceed the three-person limit. I choose Bloch, Greiner and Zoller as the most representative of theory plus the Mott and microscope experiments, while acknowledging Esslinger's fermionic Hubbard work is also strong. Zoller also appears on other entries, which complicates a joint configuration.",
+        "maturity": "The experiments have been replicated by many groups for over two decades and the field is mature. Quantum simulators are now compared against classical methods, so impact is established; the main remaining question is breadth rather than confirmation.",
+        "uncertainties": [
+          "Four credited names and the overlap of Zoller with other entries (trapped-ion proposals, quantum interfaces) leave the allocation unresolved.",
+          "The Bose-Einstein condensation prize of 2001 and Bloch's earlier work could be read as partial prior recognition; I cannot verify that boundary here."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B024",
+      "proposed_laureates": ["Juan Ignacio Cirac", "Peter Zoller"],
+      "assessment": {
+        "nobel_worthiness": "The 1995 Cirac-Zoller proposal showed how to implement quantum logic with cold trapped ions and laid out a concrete route to quantum computation and simulation with atoms. It is an original, clear and highly influential idea that launched the ion-trap and neutral-atom quantum computing programs and bridges atomic physics and quantum information.",
+        "attribution": "Cirac and Zoller are the two obvious proposers and form a compact pairing. Experimental realization (ion-trap gates) involved other groups whose names are not credited here, so the prize would honour a theoretical proposal while the experimental sides are partially recognized by the 2012 prize for quantum control of individual systems. Overlap with the optical-lattice entry means the committee must decide how to place Zoller.",
+        "maturity": "The proposal has been realized and scaled for three decades, including multi-ion gates and small processors. Interpretation is stable and it is well past the point of needing further confirmation.",
+        "uncertainties": [
+          "The recognition of the experimental ion-trap side is not part of the credited names, so a prize for the theory alone may look incomplete.",
+          "Whether the committee prefers this or the lattice quantum-simulation entry as the vehicle for Zoller."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B022",
+      "proposed_laureates": ["Stephen E. Harris", "Lene Vestergaard Hau"],
+      "assessment": {
+        "nobel_worthiness": "Electromagnetically induced transparency and ultraslow light turned quantum interference of atomic coherences into a practical tool: transparency windows, slow and stored light, and the foundation for atomic quantum memories and nonlinear optics at the single-photon level. The concept is clear and original and has broad downstream impact. I work in neighbouring fields (slow light, storage in rare-earth crystals), so I flag that I know the area well and may be biased towards its significance.",
+        "attribution": "Harris developed the theory and early experiments on EIT; Hau demonstrated light slowed to tens of metres per second and stopped light in cold atoms. Imamoglu contributed to related theory and experiments, but the decisive credit most plausibly sits with Harris and Hau. EIT-like phenomena arose from earlier coherent population trapping work by others that is not credited in the supplied names, which makes priority partly unresolved.",
+        "maturity": "Reproduced across many atomic and solid-state systems for more than 25 years and widely used in quantum optics and quantum memory research. Recognition is mature; the main limitation is that applications are still developing.",
+        "uncertainties": [
+          "Priority relative to earlier coherent population trapping and lasing-without-inversion work cannot be settled from the supplied credit.",
+          "Possible perception of conflict because of my own work on slow light and quantum memories in rare-earth-doped crystals."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B031",
+      "proposed_laureates": ["Carlton M. Caves", "H. Jeff Kimble"],
+      "assessment": {
+        "nobel_worthiness": "Squeezed states of light beat the standard quantum limit in interferometry. Caves proposed the idea for gravitational-wave detectors, and the technique is now used in LIGO and Virgo to improve sensitivity. This is an important, clearly articulated connection between quantum optics and precision measurement with demonstrated real-world benefit.",
+        "attribution": "Caves provided the key proposal for squeezed-light-enhanced interferometry; Kimble led early squeezed-state generation experiments; Schnabel led the long-term development for gravitational-wave detectors. Other early experimenters in squeezing (for example at Bell Labs) are not credited, so the list may not capture the full experimental priority picture. I choose Caves and Kimble but would want to examine the Schnabel case further.",
+        "maturity": "Squeezing is established and in routine operation in gravitational-wave observatories, so it is mature. Gravitational waves have already been recognized with the 2017 prize, which makes a squeezed-light award a natural but partly derivative follow-on.",
+        "uncertainties": [
+          "Incomplete credit for the original squeezing demonstrations in the supplied names.",
+          "Whether recognition fits better within a prize for quantum metrology than as a stand-alone topic."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B046",
+      "proposed_laureates": ["Alexandre Blais", "Robert J. Schoelkopf", "Steven M. Girvin"],
+      "assessment": {
+        "nobel_worthiness": "Circuit quantum electrodynamics transposed cavity-QED concepts to superconducting artificial atoms coupled to microwave resonators, enabling strong coupling, dispersive readout, and the transmon architecture used in leading superconducting quantum processors. It is original, clear and has driven a large part of present-day quantum computing hardware.",
+        "attribution": "Blais, Girvin and Schoelkopf are the core of the circuit-QED proposal and its subsequent development, with Schoelkopf's group leading experiments. Experimental first demonstrations involved Wallraff and colleagues who are not in the credited names, so the three-person configuration may be missing a decisive experimental contributor. Superconducting circuits were also recognized by the 2025 prize, which affects timing.",
+        "maturity": "Highly reproduced across many laboratories and industrial efforts, with stable interpretation. Because a related superconducting-circuit prize was recently awarded, recognizing this now may be viewed as too close to existing recognition.",
+        "uncertainties": [
+          "Credit of the original experimental demonstration to people not on the supplied list.",
+          "Closeness to the recent prize for macroscopic quantum effects in electric circuits, which I recall from general knowledge and have not verified here."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B014",
+      "proposed_laureates": ["Allan H. MacDonald", "Pablo Jarillo-Herrero", "Rafi Bistritzer"],
+      "assessment": {
+        "nobel_worthiness": "The theoretical prediction of flat bands at magic angles in twisted bilayer graphene and the subsequent observation of correlated insulators and superconductivity opened the field of moire quantum matter. The discovery is original, with a clean theory-to-experiment path and wide influence across condensed matter, though from outside my own field I defer to colleagues on the detailed physical interpretation.",
+        "attribution": "Bistritzer and MacDonald made the key theoretical prediction; Jarillo-Herrero led the decisive experiments with his group. Cao, the first author of the experimental papers, is not among the credited names, and this is an unresolved allocation issue for a young-researcher-driven discovery.",
+        "maturity": "Reproduced by multiple groups over about eight years, but the nature of the superconducting and correlated states is still debated, so full interpretation remains in flux. Recognition is plausible but possibly early.",
+        "uncertainties": [
+          "Open questions about the pairing mechanism and about the full list of decisive contributors.",
+          "Possible premature timing compared with older, more settled topics."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B047",
+      "proposed_laureates": ["H. Jeff Kimble", "Juan Ignacio Cirac", "Peter Zoller"],
+      "assessment": {
+        "nobel_worthiness": "Light-matter quantum interfaces underlie quantum repeaters and networks, with proposals and experiments on state transfer between photons and matter, entanglement distribution and storage. Closely related to my own work on optical quantum memories, I find the concept important and well-defined, although it is spread across several platforms such as atomic ensembles, single atoms and solid-state crystals, so the discovery is less singular than higher-ranked entries.",
+        "attribution": "Kimble's quantum-network vision and experiments with Cirac and Zoller's theoretical protocols form a plausible trio. However, many decisive contributions in atomic-ensemble memories, rare-earth-crystal memories and repeaters come from groups not credited here, and the field's priority is diffuse. My own research overlaps with this topic, so I treat this as a potential conflict and place it only at the bottom of my ballot.",
+        "maturity": "Elements are confirmed in many laboratories, but practical long-distance quantum networks are still at an early stage, so the full impact is not yet realized and recognition may be somewhat early. Cirac and Zoller's overlap with other entries weakens independence of the candidate.",
+        "uncertainties": [
+          "Diffuse credit across platforms and the omission of experimental pioneers from the credited names.",
+          "Documented potential conflict from my work on quantum memories and fibre-based quantum repeaters; the committee should weigh my assessment accordingly.",
+          "Overlap of Cirac and Zoller with two higher-ranked entries."
+        ]
+      }
+    }
+  ]
+}

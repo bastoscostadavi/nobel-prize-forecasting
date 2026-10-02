@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realization of optical lattice clocks based on magic-wavelength trapping, bringing time and frequency measurement to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B014"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks rest on a single, clearly localized idea, Katori's magic-wavelength lattice, which cancels the light shift while holding many atoms free of Doppler and recoil effects. Ye's group then turned it into the best-performing frequency standard, reaching systematic uncertainties near 1e-18 and adding the many-body, spin-polarized fermion regime. The consequences are concrete and lasting: tests of fundamental constants and searches for new physics, relativistic geodesy, and the pending redefinition of the second. The work has been reproduced and compared across many laboratories on several continents for more than a decade, so the interpretation is settled. Four of eight members placed it first and it is the only candidate that every member ranked, which suggests the scientific case is not a matter of one member's field. The two-name credit is compact and defensible, and it follows the 2005 frequency-comb prize and the 2012 prize for single-quantum-system control as a natural next step in precision measurement rather than a duplication.",
+    "case_against": "The strongest reservation is that the field has several parallel lines of credit. Lemonde, Sterr, Hollberg and the ion-clock groups at NIST and PTB contributed to the surrounding ecosystem and are outside the two names. A committee could also read lattice clocks as a very successful refinement of precision spectroscopy already honoured in 2005 and 2012, with the practical impact still partly ahead because the redefinition of the second has not been formally decided. Opening agreement among four first-place votes also does not by itself show that the invention is more fundamental than the condensed-matter candidates, and I should not let it substitute for that argument.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Ranks magic-angle twisted bilayer graphene (B003) first as an original discovery of new phases with a decisive theory-plus-experiment pairing, while noting that the credited names omit the early experimental first authors and that prior moire-band theory may complicate priority.",
+        "response": "I agree that B003 is a real discovery and I place it among my alternatives. But the points Danielsson himself raises are exactly my hesitation: the credited trio leaves out the student and postdoc leaders of the 2018 experiments, the pairing mechanism is still debated, and priority against earlier moire-band theory is not fully clean. Compared with that, the lattice-clock credit is far better localized and the interpretation is settled. I would not rule B003 out for a later year, but I do not think it is ready for a clean three-name allocation now."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Ranks optical lattice clocks first as a clean atomic-physics invention, with Katori proposing the magic-wavelength lattice and Ye's group driving accuracy and stability, and sees a two-person prize as natural.",
+        "response": "I share this view and will not claim independent confirmation from it, since we are working from the same record. Where I would add something is the many-body, spin-polarized fermion clock he mentions: it argues that Ye's contribution is more than engineering performance and belongs in the citation as physics. I would still keep the citation to the lattice-clock invention and its realization, and not widen it to the whole clock community, to avoid reopening the ion-clock boundary he and I both flag."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Ranks active matter and flocking (B006) first for the Vicsek transition and Toner-Tu long-range order in two dimensions, while conceding that quantitative confirmation of the Toner-Tu exponents is limited and that the cutoff of the trio against Marchetti, Cates, Simha and Chaté is debatable.",
+        "response": "The Toner-Tu result is conceptually striking, since it shows order surviving where equilibrium theory forbids it, and I do not dismiss it. But Mehlig's own caveats weigh on me: quantitative tests of the exponents are limited, and he concedes the boundary of the trio is debatable. A Nobel Prize in physics should rest on a result that has been tested hard. Lattice clocks have been tested to many digits by independent laboratories. I would like to hear whether he sees experimental evidence for the exponents beyond qualitative agreement."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Ranks aberration-corrected electron optics (B001) first as a clean invention that moved atomic-resolution imaging below the angstrom scale, with a three-name chain of Rose for design, Haider for the corrector and Urban for demonstration.",
+        "response": "I accept the argument that the instrumental impact is routine and field-wide, and that it is clearly an invention. My qualification is on attribution: Olsson herself says she cannot resolve the boundary with the STEM corrector line from the supplied record. The lattice-clock case has the same invention-plus-realization structure with a tighter credit. I also note that she ranks B024 third, so on this point we do not disagree on merit as much as on which invention is cleaner to credit."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Ranks lattice clocks first because Katori's proposal removed Doppler and recoil shifts while keeping many atoms and Ye's group reached 1e-18, and notes that Lemonde, Sterr and Hollberg are not in the supplied credit.",
+        "response": "I agree, and her list of omitted names is the same point I raise against my own choice. The way I would handle it is to keep the citation tied to the magic-wavelength lattice concept and its realization at the 1e-18 level, which is where Katori and Ye are most clearly the originators. Her stronger knowledge of atomic structure also makes me ask whether the many-body systematic budget is as settled as the headline uncertainty suggests."
+      }
+    ],
+    "uncertainties": [
+      "Whether the omitted clock groups (Lemonde, Sterr, Hollberg and the ion-clock laboratories) have a claim strong enough to change the credited pair.",
+      "How the committee weighs the 2005 frequency-comb and 2012 single-quantum-system prizes against a lattice-clock prize, and whether the pending redefinition of the second should be awaited.",
+      "Whether B003 attribution can be settled from the supplied names alone, given the omitted early experimental leaders.",
+      "Whether the committee wants to return to superconducting circuits (B043) so soon after 2025, a question on which I should not lead."
+    ],
+    "conflict_note": "I am a professor at Chalmers and director of WACQT, and the profile records Chalmers colleagues Per Delsing and C. M. Wilson and frequent co-author Anton Frisk Kockum, and Chalmers hosted several researchers tied to the 2025 prize. This creates a specific recusal issue for B043 (circuit quantum electrodynamics), where my field and institution are close, and I will not advocate for it. No specific conflict is apparent for B024, B003 or B014 from the provided profile."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "olsson-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B030",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realization of optical lattice clocks"
+      }
+    ]
+  },
+  "alternatives": [
+    "B025",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "After reading all eight opening ballots I am moving my first choice from B025 to B030, and I want the record to show why. B030 is the only shortlisted entry that all eight members ranked, and six placed it in their top three. That breadth alone is not merit, but the scientific arguments behind it are strong and mutually consistent. Katori's magic-wavelength proposal removes the Doppler, recoil and lattice light-shift limits, and the realizations by Katori's and Ye's groups reached fractional uncertainties near 1e-18 with many atoms interrogated at once. That is a clear invention with a measurable payoff: tests of fundamental constants, relativistic redshift at the millimetre to centimetre scale, and a route to redefining the second. It has been independently reproduced in several national laboratories. The credited names are two, which keeps the attribution unusually clean, and it fits the criterion I applied in my March 2026 lecture as reported by Tohoku, that the prize is for a discovery or invention and the people responsible for the original work. As an experimentalist who builds on instrument invention, I judge this one by the same standard I would apply to a microscope: a new principle, realized, then taken to a precision no one had before.",
+    "case_against": "The strongest reservation is overlap with earlier metrology prizes. The frequency comb (Hall and Hänsch, 2005) and trapped-ion control (2012) are the tools and the neighbouring clock lineage, and Ye's clocks depend on comb technology, so a committee could see this as a third award on the same ladder. There is also a credit boundary: ion-clock groups and other lattice-clock groups (Lemonde, Lisdat, Ludlow and others) contributed to the accuracy records but are outside the two credited names. Finally, the redefinition of the second has not happened, and some will argue the committee should wait for that practical endorsement. My preferred answer to all three is that the lattice clock is a distinct concept with its own proposal and its own record of realization, but I hold this with some uncertainty about how the full committee will weigh duplication.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked B030 second and flagged that overlap with the 2005 and 2012 prizes on combs and trapped-ion control might be viewed as partial duplication, and that ion-clock pioneers are not addressed by the credited names.",
+        "response": "I take the duplication concern seriously but I disagree that it is disqualifying. The 2005 citation concerned the comb and laser-based precision spectroscopy, and 2012 concerned control of individual quantum systems; neither covered trapping a large ensemble at a magic wavelength so that the lattice itself does not perturb the clock transition. That is the step Katori proposed. I would, however, want the citation to name the lattice clock specifically and not metrology in general, so the scope is unmistakable. On ion-clock pioneers, I agree the credited names do not settle their share, and I would not extend the prize to cover them."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked B030 only seventh, citing doubt about whether to wait for the redefinition of the second, and noted that other groups set performance records, while saying he was assessing outside his own field.",
+        "response": "I respectfully disagree that we should wait. The prize criterion is the discovery or invention, not the decision of a metrology body, and the invention has been independently validated by clocks agreeing at the 1e-18 level in several laboratories. Tying our timing to an SI decision would make the prize depend on an external process with its own politics. I do accept your point on other groups: the allocation to Katori and Ye rests on proposal plus realization at record precision, and I regard Lemonde and others as contested rather than clearly excluded. I would be interested in whether your reservation is about maturity or about distinctiveness from earlier prizes."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked B030 first as a conceptual invention plus its realization, with Katori's magic-wavelength proposal and Ye's record accuracy and many-body clock work, while noting boundary questions with neighbouring ion-clock and comb work and the uncertain split with other lattice-clock groups.",
+        "response": "I agree with Kroll's framing of invention plus realization and I think it is the right basis for the citation. Where I would press further is that Kroll cannot verify the exact credit share against other groups from the longlist, and neither can I. We should avoid asserting more precision than the supplied evidence supports and instead rest the two-name allocation on the original proposal and the leading demonstrations."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked B029 circuit QED first, arguing it is the architectural basis of superconducting quantum processors, and noted that the 2025 prize for macroscopic quantum tunnelling in circuits may make a second award feel repetitive.",
+        "response": "Johansson's own caveat about the 2025 prize and about Wallraff being absent from the credited trio is, to my mind, the main obstacle for B029, and he has been candid that his closeness to the field could bias his weighting. I find the scientific case for circuit QED strong, but the credit gap is a real problem when the prize allows three names, and the proximity to last year's award reduces its priority this year. I would keep it as a future candidate but I do not support it ahead of B030 now."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards optical lattice clocks as sufficiently distinct from the 2005 comb and 2012 trapped-ion prizes.",
+      "The exact credit share of Katori and Ye relative to other lattice-clock groups and to ion-clock pioneers, which I cannot verify from the supplied files.",
+      "My downgrading of B025 rests on the weak opening support it received (only my ranking), and I cannot tell whether colleagues simply lack familiarity with electron optics or judge it as enabling instrumentation; I have not independently verified the Rose, Haider, Urban and Krivanek priority details.",
+      "Whether to wait for the redefinition of the second, which I do not think is required but which some colleagues may."
+    ],
+    "conflict_note": "My opening first choice, B025 (aberration-corrected electron optics), is in my own field of transmission electron microscopy, and I would consider recusing myself from a final decision on it; I have no documented personal tie to Rose, Haider or Urban. For the preferred B030 I have long-running exchanges with Japanese universities, including a University of Tokyo fellowship, but no specific connection to Katori or Ye is apparent from the provided profile. Göran Johansson is also at Chalmers; his top-ranked B029 is not my preferred part, and no specific conflict is apparent from the provided profile."
+  }
+}

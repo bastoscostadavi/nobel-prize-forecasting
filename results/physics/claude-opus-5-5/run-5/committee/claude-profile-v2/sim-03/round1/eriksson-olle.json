@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical discovery of the Z2 topological insulator and the quantum spin Hall state, and for its first experimental realisation in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B017",
+    "B026"
+  ],
+  "statement": {
+    "case_for": "I opened with magic-angle twisted bilayer graphene first and topological insulators second. After reading the eight ballots I now put B006 first. Seven of eight members place it in their top three and four place it first, and the support comes from members with very different backgrounds (atomic physics, instrumentation, statistical physics, circuit QED), which is more informative than a pile of identical first places. On the merits, the Z2 classification of time-reversal-invariant insulators, the quantum spin Hall state and its observation in HgTe wells are a conceptually original change in how band structure is understood: spin-orbit coupling in a band structure produces protected edge and surface states. That is also close to my own field, since much of the later materials search (Bi2Se3-type compounds, topological classification of real band structures) was done with first-principles calculations. The experimental evidence is abundant and independent, the interpretation is stable, and the effect is a discovery of a phase of matter rather than a technique. The theory plus first experimental realisation structure fits the statutes cleanly with Kane, Mele and Molenkamp.",
+    "case_against": "The strongest objection is attribution. Any three-name cut drops real originators: Bernevig, Hughes and Zhang (the HgTe proposal, and Zhang is deceased), Fu, Moore, Balents and Roy for 3D, and Hasan for the first 3D photoemission observation. There is also the 2016 prize for topological phase transitions and topological phases of matter, which some will say already covers the territory. I think the Z2 insulators with spin-orbit-protected states are a distinct discovery with different physics from the 1D and quantum Hall cases of 2016, but the committee should state that distinction explicitly in the citation. Finally, the citation wording becomes a fairness instrument: keeping it narrowly on the 2D quantum spin Hall effect protects the trio but visibly leaves out the 3D story.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson, Olsson and Pearce all propose Kane, Molenkamp and Hasan, a theory plus two experiments configuration spanning both the 2D and 3D discoveries, accepting that Mele is left out.",
+        "response": "I take the argument for including the 3D discovery seriously, since Hasan's photoemission work showed that protected surface states exist in real bulk materials, and that is what made the field a materials field. But I disagree with leaving out Mele. Kane and Mele wrote the foundational Z2 and quantum spin Hall papers together, and the 3D theory itself is by Fu, Kane and Mele and by Moore and Balents. Dropping a co-author of the theory to add a second experimentalist inverts the usual weighting of idea against confirmation. I would keep Kane, Mele and Molenkamp and accept that Hasan goes unrecognised, which I admit is a real cost."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first, ranks B017 fourth, and calls twisted bilayer graphene possibly premature because the nature of the superconductivity and correlated phases is still debated.",
+        "response": "This is the argument that moved me. In my opening I treated the unsettled pairing mechanism as a minor uncertainty because the discovery of the phases is robust. Reading Johansson and Lindroth side by side, I accept that the interpretation of the correlated states is still moving, and that a prize would then rest on a prediction plus an observation of phases, not on understanding. That is allowable, but with a topological-insulator prize on the table whose interpretation is settled, waiting a few years costs B017 little. I still do not agree it is premature in the sense of being unconfirmed; it is reproduced by many groups. So B017 stays as my first alternative, not a rejection."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks optical lattice clocks first and notes that the topological field was honoured in 2016, so the committee may have less appetite for another topological prize.",
+        "response": "I do not think the 2016 prize should weigh heavily. It recognised topological phase transitions and phases in 1D chains and the quantum Hall effect, with a theoretical emphasis; the Z2 insulators with time-reversal protection and their material realisations are a separate discovery and, if anything, the more consequential one for materials. On B047 I agree with you and Kroll that the attribution is natural for two people, but as someone outside precision metrology I cannot judge better than you whether it is a new discovery or a very distinguished refinement of the clock programme recognised in 2005 and 2012, so I do not rank it above B006 on my own authority."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll places the optical lattice clock first as the most compelling case from an atomic-physics and measurement viewpoint, with trapped-ion computation second.",
+        "response": "I respect that and would not object to B047 as a prize; its attribution is the cleanest on the shortlist. My reservation is about field breadth rather than quality: topological insulators changed what a whole community of condensed-matter and materials physicists measures and calculates, while the clocks serve metrology and tests of constants. That is a judgment about reach, not about excellence, and I would want Kroll's view on whether the pending redefinition of the second should delay the case."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee can justify omitting Hasan and the HgTe proposers (Bernevig, Hughes, Zhang) with a citation that stays honest about what is being recognised.",
+      "How strongly the 2016 prize should count against a second topological award.",
+      "I changed my first choice from B017 to B006 largely on colleagues' maturity arguments; I have not independently verified priority details of the early twisted-bilayer or HgTe literature."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on electronic-structure theory, magnetism and DFT-based methods is close to B026 (DMFT combined with DFT) and to the materials-calculation side of B006 and B017, so I flag possible bias toward band-structure topics rather than a personal or institutional link to any credited person."
+  }
+}

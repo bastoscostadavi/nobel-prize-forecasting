@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-01",
+  "member_id": "olsson-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B022",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realisation of optical lattice clocks, trapping neutral atoms at the magic wavelength to reach fractional uncertainties near 10^-18"
+      }
+    ]
+  },
+  "alternatives": [
+    "B030",
+    "B045"
+  ],
+  "statement": {
+    "case_for": "B022 is the cleanest discovery-or-invention case on the table. Katori's magic-wavelength proposal removed the light-shift problem that limits trapped neutral atoms, and the strontium lattice clocks built by Katori and by Ye's group took frequency metrology from the 10^-16 to the 10^-18 regime. The achievement is a specific, datable invention with a clear two-person credit, which matches the criterion I would apply: the topic and the people responsible for the original work. It is also mature. Many national laboratories operate Sr, Yb and Hg lattice clocks, fibre comparisons agree, and the downstream uses (relativistic geodesy at the millimetre-to-centimetre scale, bounds on drifting constants, dark-matter searches, preparation for redefining the second) are already realised rather than promised. Four of six members who ranked it placed it first, and the two who placed it lower (Danielsson fourth, Johansson fifth) did not question the science or the credit, only its category.",
+    "case_against": "The strongest reservation is category and adjacency. Frequency combs (2005) and quantum control of single ions (2012) are already prized, so a clock prize could be read as a third award in one metrology lineage. It is also fair to ask whether an accuracy record is a discovery about nature or a better instrument. There is a real credit tail as well: Lemonde, Takamoto and the Yb and Hg groups, and the single-ion clock groups, are not named, and the second has not yet been redefined, so the culmination is still pending.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Ranks B030 first as a rare theory-then-experiment story, and for B022 raises whether this is metrology rather than a discovery in nature.",
+        "response": "I take the point about B030 seriously: the Bistritzer-MacDonald prediction followed by the 2018 observation is exactly the structure the prize likes, and I ranked it second. But the Nobel statute asks for discovery or invention, and in 2023 and 2018 we recognised methods that opened new regimes of measurement without a new particle or phase. Lattice clocks are an invention of that kind, and they already produce results about nature (gravitational redshift across a millimetre, constraints on constants). Against that, B030's superconducting and correlated phases still have no agreed mechanism, and sample-dependent twist-angle disorder is a concern I see directly as a microscopist, since local twist and strain inhomogeneity are exactly what TEM and scanning probes keep exposing. That is a maturity question, not a doubt about merit, and it is why I would hold B030 as the first alternative rather than the lead."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Ranks B004 first and B022 fifth, citing overlap with the 2005 frequency-comb prize and uncertainty about credit for the Yb and Sr implementations.",
+        "response": "The overlap with 2005 is real but narrower than it sounds. The comb prize covered optical frequency measurement and counting, and 2012 covered control of single quantum systems; neither covered the idea of interrogating a large ensemble of neutral atoms in a lattice at a magic wavelength, which is what gives the stability gain. On credit, the Sr implementation is the Katori and Ye lineage, with Yb and Hg as later extensions of the same concept, so I think two names remain defensible. I do disagree with B004 as framed. Your own opening says that any two- or three-person prize leaves out major contributors in topological insulators; Xue's quantum anomalous Hall effect is a later and distinct step from the Kane-Molenkamp spin Hall pair, so I would keep a topological prize on B045 rather than B004 if the committee goes that way."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Puts topological insulators (B045) first as mature, overdue and a defensible Kane-Mele-Molenkamp trio, and judges B030 somewhat early.",
+        "response": "I agree topological insulators are mature and likely overdue, and your Kane, Mele and Molenkamp trio is the most coherent grouping that anyone has proposed. My difficulty is credit completeness, which you flag yourself: the Bernevig-Hughes-Zhang HgTe proposal that Molenkamp's experiment tested sits outside the credited names, and Zhang has died. That is a fairness cost I would not want to carry if a cleaner two-person case is available. I also note that you and I read B030 identically on maturity, so we should not count it as the front-runner just because it ranks well in several lists."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Ranks B022 first with Katori and Ye as a clean two-person configuration, and B002 second on a standard-ruler argument.",
+        "response": "We agree on B022 and on the credit. Where I differ is B002: Eisenstein, Cole and Peacock led survey teams, and the three-name list leaves out the theorists of the acoustic feature, as you noted. The 2005 detections were two parallel collaboration results, so I find it hard to say which individuals the prize would honour, and the dark-energy interpretation is in flux after DESI. I would not move B002 into the preferred configuration, though I accept it is outside my own expertise and I defer to colleagues in cosmology on the weight of that point."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Ranks B022 first as an enabling instrument-level advance and notes the 2005 and 2012 prizes mean it should be framed specifically as lattice clocks.",
+        "response": "I agree with the framing, and the proposed citation is worded to name the lattice and magic-wavelength step rather than clocks in general. I would go slightly further than your opening: the case does not rest on instrument recognition alone but on a concrete conceptual idea, the magic wavelength, that made the instrument possible."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts a metrology invention as the lead when two condensed-matter candidates (B045, B030) have strong theory-plus-experiment narratives.",
+      "Whether the second will be redefined soon enough to strengthen the case, and whether credit beyond Katori and Ye (Lemonde, Takamoto, Yb and Hg groups) can be handled in the citation.",
+      "My view of B030 and B045 depends on recalled details of the priority history that I have not verified here."
+    ],
+    "conflict_note": "No specific conflict is apparent for B022 from my profile: I have no documented tie to Katori or Ye. I do share Chalmers with Göran Johansson, whose own field is close to B039, and a Chalmers link to the circuit-QED community should be considered if B039 is discussed; it does not affect B022."
+  }
+}

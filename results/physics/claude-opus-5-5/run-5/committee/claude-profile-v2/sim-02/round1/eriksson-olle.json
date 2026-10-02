@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "Charles L. Kane",
+          "Laurens W. Molenkamp",
+          "M. Zahid Hasan"
+        ],
+        "citation": "For the theoretical prediction and experimental discovery of the quantum spin Hall effect and three-dimensional topological insulators, establishing topologically protected electronic phases"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B030"
+  ],
+  "statement": {
+    "case_for": "I opened with dynamical mean-field theory (B007) and I still regard it as a mature, original and widely used framework, but only I ranked it, and I should not mistake my own proximity to electronic-structure theory for committee-wide merit. Having read the eight ballots, the topological-insulator case (B018) is the strongest condensed-matter proposal on the table. Five members rank it, and none of them questions the discovery itself. It introduced a new organising principle, band topology with a Z2 invariant, rather than symmetry breaking. It had a theoretical prediction (Kane and Mele) followed by an observation (the HgTe quantum wells of Molenkamp's group) and then three-dimensional materials with protected surface states (Hasan's group). It has roughly two decades of replication across many materials and by independent techniques, and the interpretation is stable. From my own work I can add that first-principles band-structure calculations were what turned the concept into a concrete materials search, so the field's strength does not rest on the idea alone. Kane, Molenkamp and Hasan cover theory, the first experimental realisation and the extension to bulk three-dimensional materials, and fit the three-person limit.",
+    "case_against": "The attribution is the weak point. Mele is Kane's co-author on the founding Z2 papers, and Bernevig, Hughes and Zhang proposed the HgTe mechanism that Molenkamp's group tested. They cannot be accommodated in a three-name credit, and the strongest independent proposers of three-dimensional topological insulators (Fu, Kane and Mele; Moore and Balents; Zhang and co-workers) cannot either. The 2016 prize for topological phase transitions and phases of matter (Thouless, Haldane, Kosterlitz) covers neighbouring conceptual ground, and some colleagues may see this as an extension of it. Practical applications are still limited. The quantum anomalous Hall effect (Xue, B003) is a separate experimental pillar that this configuration leaves out, and dropping it loses a real part of the story.",
+    "responses": [
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks topological insulators first as a case where theory and well-controlled crystal and interface growth produced real materials, with Kane for theory, Molenkamp for HgTe and Hasan for the 3D observations, while admitting that Mele and the HgTe-proposal theorists do not all fit.",
+        "response": "I agree with the materials argument and it moved me towards B018. My disagreement is about how much weight the attribution problem deserves. The omission of Mele and of Bernevig, Hughes and Zhang is not a footnote. The HgTe experiment was a test of a specific prediction, and a citation that credits only the experiment risks misdescribing how the discovery happened. I would draft the citation around the effect and the materials, not around who first wrote the invariant, and I want that to be debated explicitly before we settle on three names."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig puts fluctuation theorems (B005) first, calling Jarzynski and Crooks exact, clean and experimentally confirmed, and ranks topological insulators second with the 2016 prize leaving this specific discovery open.",
+        "response": "I take the point that the 2016 prize recognised topological phase transitions and Haldane's work, not the quantum spin Hall effect or three-dimensional topological insulators, so the topic is not closed. On B005, the exactness is attractive, but I am less persuaded that the impact on measured physics is as broad as it is for the topological work. The Jarzynski and Crooks relations are mainly used as free-energy estimators in simulation and single-molecule experiments, and the credit set is delicate because Evans, Searles, Gallavotti and Cohen all have claims on the earlier fluctuation theorem. I would want to hear how you rank the attribution problem there against the one in B018."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube (B014) first as an instrumental achievement that opened neutrino astronomy, with Halzen as conceiver and Karle central to construction, and puts B003 (Kane, Molenkamp, Xue) second.",
+        "response": "I share your regard for B014 and ranked it fifth, but my reservation is attribution. A collaboration of hundreds, together with AMANDA and DUMAND precursors, makes any two names a simplification, and independent detector confirmation is still limited. Where we are closer is B003. Your pairing with Xue for the quantum anomalous Hall effect is a fair alternative to Hasan, and I would like to know why you prefer it. For me Hasan's three-dimensional topological insulators are the broader result, but Xue's QAH realisation is the cleaner single achievement, and I could accept either."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks optical lattice clocks (B015) first, arguing that Katori's magic-wavelength concept and Ye's record performance give a clean, compact, independently confirmed and timely achievement that supports the redefinition of the second.",
+        "response": "I agree that B015 is the cleanest attribution on the shortlist and that the physics is mature. I placed it sixth only because the 2005 prize for frequency-comb spectroscopy already covers part of Ye's route, and because I judge the conceptual reach lower than that of a new class of matter. The redefinition of the second is a metrological milestone and not a scientific uncertainty, so I do not hold it against the clocks. If the committee wants the most defensible attribution, B015 is the strongest, and I would support it over B039 or B009."
+      }
+    ],
+    "uncertainties": [
+      "How the committee should handle Mele and the Bernevig-Hughes-Zhang theorists when only three names can be credited, and whether a three-person B018 or a B003 (Kane, Molenkamp, Xue) citation is the better description of the discovery",
+      "Whether the 2016 prize leaves enough distinct room for a topological-insulator citation in the committee's eyes",
+      "How much of my preference for DMFT (B007) and for the topological materials story comes from my own electronic-structure background, and the lack of any other member's support for B007",
+      "Whether the Katori and Ye attribution is as clean as it appears given the contributions of other lattice-clock groups, which I cannot verify from the supplied material"
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile for the candidates in the preferred configuration. I work in theoretical electronic structure and magnetism at Uppsala, which is close to the DMFT (B007) and topological-materials candidates scientifically, but my profile documents no personal or institutional link to Kane, Molenkamp, Hasan or the other named candidates. I flag this as a field-proximity bias, not a recusal issue."
+  }
+}

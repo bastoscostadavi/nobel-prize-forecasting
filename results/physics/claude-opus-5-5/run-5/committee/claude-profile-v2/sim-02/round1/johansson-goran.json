@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B015",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realisation of optical lattice clocks based on magic-wavelength trapping, bringing atomic clocks to the 10^-18 level of fractional uncertainty"
+      }
+    ]
+  },
+  "alternatives": [
+    "B039",
+    "B018"
+  ],
+  "statement": {
+    "case_for": "I opened with circuit QED (B039) at rank 1, but on reflection I no longer think I should be its main advocate. Optical lattice clocks (B015) are the candidate on which the most colleagues independently converge: six of the eight ballots place it in the top four, and the arguments are scientific, not merely popular. Katori's magic-wavelength idea removes the trap-induced light shift while keeping the Lamb-Dicke regime and many-atom averaging, which is a clear conceptual step. Ye's group then turned it into the record-accuracy and stability instrument, with comparisons across laboratories (JILA, RIKEN, PTB, NIST, SYRTE) agreeing near 10^-18. The consequences are concrete and checkable: tests of fundamental constants and of relativistic effects through geodesy, and the roadmap to a redefinition of the second. The two-name credit follows the proposal-plus-realisation split cleanly, and the result is mature, reproduced and stable in interpretation.",
+    "case_against": "The strongest reservation is that precision timekeeping has already been recognised along an unbroken line: Hall and Haensch (frequency combs, 2005) and Wineland (single-ion clocks and quantum control, 2012) cover much of the enabling technology, so a committee could say the lattice clock is a refinement of a rewarded programme. The formal redefinition of the second has not yet happened, which some will read as the application milestone still lying ahead. Credit also sits uneasily with a two-name cap, since the Ye-group clock work builds on contributions from many co-workers (for example Ludlow, Bloom, Lemke, Hinkley) and on the comb and ultrastable-laser infrastructure, and Katori's early Sr work and Ye's record-performance work are not the same kind of contribution.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B015 first as a compact, fair two-name credit that continues the long Nobel line from precision spectroscopy, with 1e-18 performance confirmed by several laboratories.",
+        "response": "I agree on the core and have moved it from my fifth place to my first. Where I qualify his view is the Nobel-line argument: continuity with Hall, Haensch and Wineland is exactly the point a sceptic will raise, so the citation should be worded around the magic-wavelength lattice concept and its realisation, not generic clock accuracy. I accept his judgement that two names are enough, but the committee should say plainly why Ye is credited for the performance frontier and not only for a refinement."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks the IceCube neutrino discovery first as a clear, nameable discovery of nature and puts circuit QED second, but notes that the recent prize for circuit-based macroscopic quantum effects may make a distinct circuit-QED recognition hard to defend.",
+        "response": "His second point is fair, and it is the main reason I step back from my own rank 1. Circuit QED (photon-coupled artificial atoms, dispersive readout) is physically distinct from macroscopic tunnelling and energy quantisation, but a committee will be reluctant to return to superconducting circuits so soon, and I am too close to the field to argue that confidently. On B014 I respect the discovery-of-nature argument and the maturity of the diffuse-flux confirmation; my reservation is that credit in a large-collaboration result is hard to place on two names, which he acknowledges. I would keep B014 as a serious candidate for a later year but I do not rank it above B015 now."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators (B018 with Kane, Molenkamp and Hasan) second as a coherent theory-to-observation narrative with very high originality, and fluctuation theorems (B005) first.",
+        "response": "I share his view that B018 is a deep and mature concept and I ranked it fourth. My qualification is attribution: the shortlist itself carries two different trios (B018 with Hasan, B003 with Xue) and the foundational Kane-Mele paper has Mele as co-author, who is not in the three-name set, so the allocation is much less settled than for B015. On B005 I cannot match his enthusiasm in his own field of statistical physics, but I note it has only one ranking in the opening, so I leave that judgement to those who know the area."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce places trapped-ion computation (B009) fourth but warns that part of it may be covered by the 2012 prize and that 2025 recognised superconducting circuits.",
+        "response": "I agree and it changed how I weigh the quantum-computing candidates: B009 was my rank 2, and I now think the 2012 and 2025 prizes together narrow the novelty for both trapped ions and circuit QED. His own rank 3 for B015 is consistent with my move, and I would add that B015 has not been touched by either of those two citations in the way the quantum-computing candidates have."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards lattice clocks as sufficiently distinct from the 2005 and 2012 precision-measurement prizes.",
+      "Whether two names fairly represent the experimental credit for the 10^-18 clocks, given the many contributors in the Ye group and elsewhere.",
+      "Whether recognition should wait for the redefinition of the second.",
+      "My own ranking of circuit QED could be biased by my closeness to the field, and I cannot judge fully how the 2025 prize shapes its prospects."
+    ],
+    "conflict_note": "My profile documents connections that may require recusal on B039 (circuit QED) and nearby superconducting-circuit candidates: I direct WACQT at Chalmers, I succeeded Per Delsing in that role, and Chalmers colleagues (Delsing, C. M. Wilson) and frequent co-author Anton Frisk Kockum work in superconducting circuits and waveguide QED, and I presented the 2025 prize. No specific conflict is apparent from the provided profile for B015, the preferred configuration."
+  }
+}

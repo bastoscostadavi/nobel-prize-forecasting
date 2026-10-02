@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 5,
+  "simulation_id": "sim-05",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Antoine Georges",
+          "Gabriel Kotliar",
+          "Dieter Vollhardt"
+        ],
+        "citation": "For the development of dynamical mean-field theory, a controlled framework for strongly correlated electrons in solids"
+      }
+    ]
+  },
+  "alternatives": [
+    "B041",
+    "B030"
+  ],
+  "statement": {
+    "case_for": "Dynamical mean-field theory is a statistical-physics construction in the best sense: an exactly solvable limit (infinite coordination) that maps the lattice problem onto a self-consistent quantum impurity problem, and thereby makes the Mott transition and correlated-metal physics quantitatively tractable. After more than thirty years it is a standard method used by many independent groups, benchmarked against numerical methods and cold-atom simulators, and combined with electronic-structure theory (DFT+DMFT) for real materials. The credited trio is coherent: Vollhardt for the infinite-dimension limit, Georges and Kotliar for the impurity mapping and the Mott-transition picture. It is a theory prize with a long record of confirmation, and it would be the first recognition of the strongly correlated electron problem as a methodological achievement. Having heard the other members, I keep it as my lead because I find its conceptual originality and durability at least as strong as that of the experimental candidates, and I no longer press B030 as the lead since it has no support beyond my own ballot.",
+    "case_against": "The attribution is genuinely awkward: Metzner and Vollhardt introduced the infinite-dimension limit, and Metzner is outside the credited set, while Georges and Kotliar's impurity mapping builds on earlier work by others on impurity models and the Hubbard model. DMFT is also an approximation that neglects spatial correlations, so its predictions for the hardest problems (high-temperature superconductivity, for example) are not decisive; critics could say it is a method rather than a discovery of nature. It has only two first-place or top-three supporters on this committee, and it lacks the experimental drama that tends to carry a prize.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked DMFT first as the first controlled non-perturbative framework for strongly correlated electrons, with decades of independent confirmation and a fair credited trio.",
+        "response": "I agree on the scientific case and on maturity, and I share your view that the trio is defensible. I would add that the Metzner omission should be stated openly in the citation discussion rather than glossed over, and I would resist describing DMFT as controlled beyond the infinite-dimensional limit: in finite dimensions it is an approximation whose accuracy depends on the system, which is the strongest argument a sceptic would use."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked optical lattice clocks first: a clean, two-person invention (Katori's magic-wavelength proposal, Ye's record accuracy) with 1e-18 uncertainty, reproduced in several laboratories.",
+        "response": "I accept that B041 has the cleanest attribution on the list and I have moved it to my first alternative, although I did not rank it in my opening. My reservation is one of kind rather than quality: the clock is a superb precision-measurement achievement, but its prospective reach into new physics (varying constants, geodesy, redefinition of the second) is still largely promise, and the redefinition has not happened. If the committee prizes unambiguous credit above all, I would not oppose it."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked magic-angle twisted bilayer graphene first, as a theory prediction confirmed by decisive experiment that opened a widely imitated moire platform, and judged eight years since discovery to be timely.",
+        "response": "The platform is real and the experimental replication is impressive, so I do not dispute the merit. My concern is the maturity of the interpretation: the pairing mechanism and many of the correlated phases are not settled, and you note yourself that experimental credit beyond Jarillo-Herrero (Cao and others) cannot be resolved from the supplied credit. I would hold that for a few more years, whereas DMFT has had three decades to be tested."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked high-energy astrophysical neutrinos first, a clear discovery of a new observational window whose source identification is accumulating.",
+        "response": "I agree that this is a discovery of nature rather than a method, which is its strength relative to DMFT. I qualify it on two grounds: the credit for a collaboration of hundreds is concentrated in two names in a way that may not survive scrutiny (AMANDA and Baikal precursors), and source identification is still emerging, so the astrophysical interpretation is incomplete. I could support it later, but I do not think it is clearly ahead of the theory candidates today."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked circuit QED first and trapped-ion quantum computation second, stressing maturity and technological consequence of platforms for quantum computing.",
+        "response": "Both are mature, but I am not convinced they are ahead of the others in discovery content. The 2025 prize on macroscopic quantum tunnelling in superconducting circuits makes circuit QED a close follow-on, and the Wineland overlap in 2012 complicates the trapped-ion credit. I would not equate the large industrial activity around these platforms with the strongest scientific case."
+      }
+    ],
+    "uncertainties": [
+      "Whether Metzner's exclusion from the credited names would be judged an unacceptable attribution gap for B001.",
+      "Whether the committee will treat DMFT as a discovery or as a method and therefore regard it as outside the prize's usual pattern.",
+      "Whether B041 should be preferred because of its cleaner credit even though I rank it lower on conceptual reach.",
+      "Details of priority and the early history of the infinite-dimension limit are from memory and not verified against the supplied evidence."
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile: none of my listed co-authors or institutions overlap with the credited names for B001, B041, B030 or the other shortlisted candidates. My field (statistical physics of complex systems) is close to fluctuation theorems (B030) and to the statistical-physics foundations of DMFT, which is a disciplinary affinity and not a personal connection. The roster does not state the terms of my co-opted service."
+  }
+}

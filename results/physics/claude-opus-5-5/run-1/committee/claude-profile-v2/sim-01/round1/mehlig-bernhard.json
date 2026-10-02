@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B027",
+        "laureates": [
+          "Immanuel Bloch",
+          "Juan Ignacio Cirac",
+          "Peter Zoller"
+        ],
+        "citation": "For theoretical proposals and experimental realisation of quantum simulation of many-body physics with ultracold atoms in optical lattices"
+      }
+    ]
+  },
+  "alternatives": [
+    "B015",
+    "B002"
+  ],
+  "statement": {
+    "case_for": "Optical-lattice quantum simulation turned ultracold atoms into controllable, programmable realisations of Hubbard-type many-body models, with the superfluid to Mott-insulator transition, tunable interactions and single-site-resolved readout. For a statistical physicist this is a rare case in which a theoretical idea (the Jaksch-Zoller proposal and the Cirac-Zoller programme of engineering Hamiltonians and gates with cold atoms) was converted into a laboratory method that many independent groups have confirmed for two decades. It links statistical mechanics, quantum optics and condensed-matter theory, and it is now producing results in regimes classical computers cannot reach. It is mature, not speculative, and the discovery is a clean, bounded one: the quantum gas as a quantum simulator. A prize to the leading experimentalist (Bloch) and the two principal originators of the theory (Zoller, Cirac) captures the theory-plus-experiment structure.",
+    "case_against": "Attribution is the weak point: five names are credited and a cut to three leaves out Greiner, who did the 2002 Mott-insulator experiment with Bloch and Hansch, and Dalibard, whose contributions are real. The committee's own opening proposals disagree on the third name (Greiner, Dalibard or Cirac versus Zoller), which signals that the credit is not clean. The subject also overlaps heavily with the trapped-ion candidate through Cirac and Zoller, and the 2001 BEC prize and the 2012 prize for control of single quantum systems already sit nearby, so a reasonable colleague could argue that the novelty is incremental. Finally, the long-term scientific payoff of analogue simulation, beyond demonstrations, is still partly to be shown.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks trapped-ion quantum computing (Cirac, Zoller, Blatt) second and optical-lattice simulation only eighth, arguing that the five-name credit would need a thematic slice and that the cold-atom field is close to earlier prizes.",
+        "response": "I agree that the credit is crowded and that the ion-trap proposal is a first-rate piece of physics. But I read the two candidates as sharing a theoretical source rather than being the same discovery: the lattice work shows how a controlled many-body system can be used to answer questions in many-body physics, which is where the scientific payoff has come, whereas the ion-trap case is mainly a computing architecture whose route to useful fault-tolerant machines is unfinished. I would keep B015 as an alternative, but I think a prize for simulation with Bloch as the experimental anchor is easier to define than a computing prize with Blatt as a third name, given that Wineland's 2012 recognition covers much of the experimental ion control."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth puts optical lattice clocks (Katori, Ye) first as a clean idea with a demanding realisation, a record 1e-18 performance and a pending redefinition of the second, and she ranks lattice simulation sixth because five credited names force an awkward cut.",
+        "response": "The clock case is strong on maturity and attribution, since the two-person credit is natural, and I take that seriously; it is a better-defined prize than mine on the credit question. My reservation is about breadth. The clocks are an outstanding metrological instrument, but their impact on other physics comes mostly through tests and applications, while lattice simulation has changed how many-body problems in statistical and condensed-matter physics are posed. I accept her point that the cut among Bloch, Greiner, Zoller, Cirac and Dalibard is a genuine difficulty, and I would not oppose B051 if the committee prefers a cleaner credit."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks topological insulators (Kane, Mele, Molenkamp) first as a conceptually clean theory-plus-experiment pairing with two decades of confirmation, and sees optical-lattice simulation as valuable mainly as a controlled testbed for models that materials cannot isolate.",
+        "response": "I agree B050 is mature, original and widely confirmed, and I do not contest its merit; it has the most opening support and I would accept it. My concern is the Bernevig-Hughes-Zhang omission, which several colleagues also noted, and the overlap with the 2016 prize on topological phases. His own description of cold atoms as a controlled testbed is, to my mind, exactly the point: the platform is more than a tool, because it lets a theorist prepare and measure a Hamiltonian directly, which is a new kind of physics rather than a new material."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks lattice clocks first and trapped ions second, and places lattice simulation seventh because credit spreads over more than five names, leaving out Dalibard, Cirac and others, and because the 2001 BEC prize lies behind it.",
+        "response": "The spread of credit is a fair criticism and I do not think it can be fully resolved. I would answer that the discovery is defined by the method, not by a single experiment, so a prize can honestly credit the originators of the theory (Zoller, Cirac) and the experimentalist who made the platform a scientific instrument at scale (Bloch), while acknowledging that Greiner and Dalibard are unrecognised. The overlap with BEC is less severe than it looks, since the 2001 prize concerned condensation itself, not engineered many-body Hamiltonians."
+      }
+    ],
+    "uncertainties": [
+      "Whether the third name should be Cirac, Greiner or Dalibard, and whether leaving out Greiner after the Mott-insulator experiment is defensible.",
+      "How the committee should divide recognition between B027 and B015, which share Cirac and Zoller, and whether awarding both over time is acceptable.",
+      "Whether analogue quantum simulation has yet delivered enough results beyond classical simulability to count as a mature discovery rather than a promising programme.",
+      "I am relying on my own knowledge of the history of the lattice proposals and have not verified priority details."
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile: none of the credited candidates appears among my documented supervisors, institutions or co-authors. I work on statistical physics and neural networks, so I have a subject-area interest in many-body models, but that is not a personal or institutional connection."
+  }
+}

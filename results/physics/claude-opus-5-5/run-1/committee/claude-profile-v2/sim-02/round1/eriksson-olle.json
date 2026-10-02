@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B044",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction of the time-reversal-invariant topological insulator and quantum spin Hall effect, and its experimental discovery in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B037",
+    "B020"
+  ],
+  "statement": {
+    "case_for": "I ranked B037 first and B044 second, but having read the full set of opening ballots I now place B044 first. The Z2 classification of Kane and Mele turned band theory into a classification problem: bulk insulators can carry protected boundary states set by symmetry and a topological invariant, and that changed how we search for and interpret electronic-structure results in real crystals. The prediction was followed by a decisive experiment, the edge-channel transport in HgTe/CdTe wells by Molenkamp's group, and then by three-dimensional topological insulators, ARPES mapping of surface Dirac cones and a broad programme of first-principles materials searches. Four members placed it in their top three and two placed it first, so the case does not rest on my own field bias. It is a nameable phenomenon in nature, predicted and then observed, confirmed independently for roughly two decades with a stable interpretation. From a computational-materials viewpoint I can say the effect is routinely reproduced in calculations and measurements across many compounds.",
+    "case_against": "The credit is not clean. The HgTe/CdTe proposal by Bernevig, Hughes and Zhang, which directly enabled the Molenkamp experiment, is outside the credited names, as are the 3D topological insulator contributors (Fu, Kane and Mele; Moore and Balents; Hsieh and Hasan). Molenkamp is therefore a defensible but not obviously exclusive experimental choice. The 2016 prize for topological phase transitions and topological phases of matter also overlaps thematically, so some colleagues may judge the topological strand already honoured. A fair prize here may require us to accept that the supplied three-name set under-represents contributors, which is a weakness I do not want to hide.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks B044 first as a clean prediction followed by a decisive experimental discovery of a nameable phenomenon, while noting that the Bernevig-Hughes-Zhang priority chronology is unverified and that credit overlaps with 3D topological insulator work.",
+        "response": "I agree with the framing and have moved to your position on ordering. I would add a qualification on the experimental half. The HgTe observation is decisive because it needed both the BHZ band-inversion prediction and Molenkamp's sample quality, so the citation should be worded around the prediction of the state and its discovery in HgTe wells rather than around a priority claim over the BHZ proposal. If the committee cannot accept the credited trio for that reason, the problem is the supplied name set, not the physics. I would not follow your suggestion that the overlap questions are merely chronological. They are a real attribution risk."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks optical lattice clocks first as a concrete, clearly defined invention with timely, reproducible outcomes, and ranks B020 fourth because the superconducting mechanism is disputed and the field is somewhat early.",
+        "response": "I take the lattice-clock case seriously: the invention is crisp, the attribution to Katori and Ye is clean, and that is a real advantage over B044. Where I disagree is on ranking it above B044. Cleanness of credit is not the same as breadth of scientific consequence, and the topological classification has reshaped an entire subfield and its materials search, which the clock has not yet done in comparable breadth. I do agree with your caution on twisted bilayer graphene: the pairing mechanism is unsettled, which is why I keep B020 as an alternative and not the preferred choice, even though I gave it third place."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks fluctuation theorems first and DMFT fourth, noting that Metzner is missing from the DMFT credit and asking whether it is a method rather than a discovery.",
+        "response": "This is the most pointed challenge to my own opening first choice and I largely accept it. DMFT is a framework, with the infinite-dimension limit by Metzner and Vollhardt and the impurity mapping by Georges and Kotliar, and omitting Metzner makes a three-person split uncomfortable. I still think it is mature and deserving, but that is exactly why I now treat B037 as an alternative rather than first choice: the attribution problem is sharper than for B044. I would also push back gently on fluctuation theorems. Four credited names and a genuinely contested three-person selection (Evans, Jarzynski, Crooks, Seifert) look harder to settle than the topological case."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B044 fifth, says it lies outside his specialism and that its novelty is partly absorbed by the 2016 topological-phases prize, and ranks optical clocks first.",
+        "response": "I respect your deference and the 2016 point. I do not think the prize was a substitute: the 2016 award honoured Thouless, Haldane and Kosterlitz for topological phase transitions and the topological phases of matter in low-dimensional systems and the integer quantum Hall lineage, not time-reversal-invariant Z2 insulators, spin-orbit-driven band inversion or three-dimensional topological insulators. These are conceptually distinct and rest on different materials and measurements. I cannot rule out that some members read it as the same theme, and I think that is the real uncertainty to weigh."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards the 2016 topological prize as covering time-reversal-invariant topological insulators, or treats Z2 topological insulators as a distinct achievement.",
+      "Whether Molenkamp alone is the right experimental credit given the BHZ proposal and the 3D topological insulator discoveries, which are outside the supplied names.",
+      "Whether DMFT can be framed as a discovery and credited fairly to three people without Metzner, which determines how seriously B037 competes.",
+      "I rely on my own recollection of the history and have not verified fine points of priority."
+    ],
+    "conflict_note": "No specific personal or institutional conflict is apparent from the provided profile for B044. I note a field proximity for B037 (DMFT) and, to a lesser extent, B020: my work on electronic-structure theory, DFT and correlated electrons overlaps those methods, though the profile documents no personal connection to any credited person."
+  }
+}

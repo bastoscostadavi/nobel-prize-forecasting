@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B015",
+        "laureates": [
+          "Juan Ignacio Cirac",
+          "Peter Zoller",
+          "Rainer Blatt"
+        ],
+        "citation": "for proposing and realising quantum logic gates and quantum computation with laser-cooled trapped ions"
+      }
+    ]
+  },
+  "alternatives": [
+    "B038",
+    "B050"
+  ],
+  "statement": {
+    "case_for": "The 1995 Cirac-Zoller proposal gave the first physically concrete architecture for a universal quantum computer: qubits in internal ion states, entangling gates mediated by collective motion, and individual laser addressing. Blatt's group in Innsbruck then realised the gate, deterministic entanglement and small algorithms, and trapped ions remain a platform with the highest two-qubit gate fidelities and a commercial hardware ecosystem. The idea is original, clearly bounded, independently reproduced by many groups and has outlasted two decades of competing platforms. It also sits at the point where atomic physics, quantum optics and quantum information meet, which gives it breadth beyond one technology. I ranked it second in my opening ballot, and having read the other ballots I now rank it first for the prize: it is the candidate on which my own judgement is least entangled with my institutional position, and three of us (Kroll, Lindroth and I) placed it in our top two.",
+    "case_against": "The strongest reservation is attribution and overlap with earlier recognition. Wineland's 2012 prize already honoured ion control and the quantum-logic work at NIST, so a prize for ion-trap computing risks looking like a second prize for the same toolbox, and the experimental credit (Blatt versus Wineland, Monroe, Home, Haeffner and others) is partly arbitrary. The theory pair is clear but the third slot is a contestable choice. There is also a timing argument that scalable, error-corrected machines are not yet demonstrated, so the prize would honour the enabling physics rather than a finished technology, and that the field leans toward information science.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the Cirac-Zoller proposal with Blatt's realisation second, behind optical lattice clocks, and notes that Wineland's 2012 prize covered measurement and manipulation of single quantum systems and that the remaining experimental credit is contestable.",
+        "response": "I agree with Kroll that the Wineland overlap is the main weakness, and I would not wave it away. My answer is that the 2012 citation was about measuring and controlling individual quantum systems, whereas this prize would be about a computational architecture, the motional-bus gate and its scaling logic, which is a different intellectual contribution from the Cirac-Zoller side. I do not fully accept his ranking of optical lattice clocks above it for my own ballot, because a clock prize follows closely on the 2005 frequency-comb recognition and the redefinition of the second is still pending, but I take his point that the clocks are scientifically strong and I would not oppose them as an alternative."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig places optical-lattice quantum simulation first with Bloch, Cirac and Zoller, arguing that analog many-body simulators link statistical mechanics, quantum optics and condensed matter, and acknowledges that the three-person cut among Bloch, Greiner, Dalibard, Cirac and Zoller is a genuine choice.",
+        "response": "I ranked that entry only eighth, so here we differ, but not on whether the physics is good. My concern is internal to the list: Cirac and Zoller are the theory originators in both his proposal and mine, so we should not treat these as independent options, because whichever we pick effectively spends the Cirac-Zoller recognition. If the committee prefers analog simulation, Bloch's experimental programme deserves the experimental slot over Blatt. I put the gate-based route first because it delivers a defined architecture and a quantitative fidelity benchmark, whereas the simulation case is harder to bound in attribution, with five credited names and a three-person limit."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks the quantum spin Hall effect and Z2 topological insulators first, as a conceptually clean theory-plus-experiment pairing of Kane, Mele and Molenkamp, with two decades of confirmation and little concern beyond overlap with the 2016 topological-phase-transition prize.",
+        "response": "I placed this entry only seventh, but I think Eriksson is right on maturity and on the clarity of Kane and Mele's contribution, and the broad support it has across the opening ballots is a fair reflection of that. Where I qualify his case is on the experimental side: Molenkamp's HgTe observation followed the Bernevig-Hughes-Zhang proposal, whose authors are outside the credited names, so the three-person configuration omits a decisive theory contribution. I also remain unsure about distance from the 2016 prize. I regard this as a credible alternative and would not block it, but I do not agree that its broad support makes it better science than the ion-trap case."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks optical lattice clocks first and trapped-ion computing second, valuing the Cirac-Zoller proposal as an architecture built on the quantum-optics toolbox, while noting that the experimental third slot is somewhat arbitrary.",
+        "response": "I agree with Lindroth that the experimental slot is the soft spot, and that the prize would honour foundations rather than a finished technology. Where I would push back gently is on her framing of the foundations as a weakness: for the Nobel Prize the foundational proposal and its first realisation is exactly what is being judged, and the strong gate fidelities across several laboratories show the idea has survived its tests. We should still test Blatt's case against alternatives from within the supplied names before settling on the third person."
+      }
+    ],
+    "uncertainties": [
+      "Whether Blatt is the right experimental name, or whether the Wineland overlap makes any ion-trap experimental credit too contestable.",
+      "Whether the committee regards a quantum-computing prize as timely so soon after the 2025 prize on superconducting circuits, or as a natural continuation.",
+      "Whether the support behind optical lattice clocks and topological insulators reflects greater maturity that should outweigh my preference."
+    ],
+    "conflict_note": "I ranked circuit QED first in my opening ballot and I work in that field, direct WACQT, and have documented Chalmers links to Per Delsing, C. M. Wilson and Anton Frisk Kockum and to groups associated with the 2025 prize, so I should be recused from the circuit QED candidate (B038) and its credit decision, and I have kept it only as an alternative. For the preferred trapped-ion candidate no specific personal conflict is apparent from my provided profile, although quantum-computing programmes at WACQT are a general institutional interest."
+  }
+}

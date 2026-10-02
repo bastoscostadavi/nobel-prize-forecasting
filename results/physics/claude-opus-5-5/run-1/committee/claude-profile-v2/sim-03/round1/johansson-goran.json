@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B048",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction and experimental discovery of time-reversal-invariant topological insulators and the quantum spin Hall effect"
+      }
+    ]
+  },
+  "alternatives": [
+    "B038",
+    "B049"
+  ],
+  "statement": {
+    "case_for": "I opened with circuit QED (B038) as my first choice, but after reading all eight ballots I think the stronger committee case is B048. The prediction of the Z2 topological insulator and the quantum spin Hall effect by Kane and Mele, followed by the HgTe observation from Molenkamp's group, is a complete prediction-to-confirmation arc. It introduced a classification of electronic matter by topology rather than by broken symmetry, and it has been confirmed independently for about two decades with ARPES, transport and scanning probes across several materials. It is the only shortlisted candidate with substantial support across a broad spread of members: six of eight ranked it, five of them in the top three. The discovery is mature and no longer controversial. Four colleagues from different subfields (Danielsson, Olsson, Lindroth, Mehlig) judged it a clean theory-plus-experiment story, which counts for more than my own enthusiasm for a field close to mine. I rank B038 above it on scientific originality, but I cannot separate that judgement from my proximity to the field, so I do not make it the centre of the preferred configuration.",
+    "case_against": "The attribution is the real weakness. The Bernevig-Hughes-Zhang proposal that specifically identified HgTe quantum wells, and the three-dimensional topological insulator work (Fu-Kane-Mele, Moore-Balents, and the Hasan and Cava experiments), sit outside the credited names, so a three-person prize will have to draw a defensible line through a crowded history. Kane and Mele's graphene model is also not the material realisation, since the spin-orbit gap in graphene is tiny. A further objection is overlap: the 2016 prize already honoured topological phases, and several other shortlisted candidates (including magic-angle graphene, B016) lean on the same topological and two-dimensional-materials vocabulary. If the committee thinks the line through the history cannot be drawn cleanly, B048 becomes harder to defend than the tidier two-person B049.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked B048 third, calling it mature and decisive, but argued that omitting the Bernevig-Hughes-Zhang prediction is the main attribution problem and that a fair prize would have to explain it.",
+        "response": "I agree that this is the central issue and I would not wave it away. My answer is that the citation should be anchored on the discovery of the Z2 state and its first experimental observation: Kane and Mele supplied the invariant and the quantum spin Hall prediction, and Molenkamp's group delivered the observation. BHZ is the step that told experimentalists which material to grow, and it is a real contribution, but it is a refinement of an already-stated prediction rather than the origin of the concept. I do not think this is a reason to choose a different candidate, since nearly every shortlisted entry has a comparable omission (Metzner in DMFT, Wineland and Blatt in B029, Slonczewski-type issues elsewhere). I accept that the committee could reasonably disagree and prefer to widen the citation to a theory-plus-experiment wording instead."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked B048 first as a clean pairing of a conceptual theoretical discovery with a decisive HgTe experiment, while noting that graphene's small spin-orbit gap means Kane-Mele is not the material realisation.",
+        "response": "I agree with the overall assessment and with the caveat. The graphene point is why the experimental half matters so much: without Molenkamp's HgTe measurement the prediction would remain a model, and that is what makes this a discovery rather than only a classification. I would, however, push back gently on describing the timing as arguably overdue. A prize this obviously mature invites the question why it is not already awarded, and I think that is partly because of the BHZ and 3D credit tangle you flag. We should therefore be explicit about that in our citation wording instead of assuming the attribution will take care of itself."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked optical lattice clocks (B049) first, arguing that Katori and Ye form a clean two-person credit and that the redefinition of the second makes the timing right rather than premature.",
+        "response": "This is the best alternative to my preferred configuration, and I ranked it seventh in the opening mainly because I know it less well, not because I think it is weak. I accept the attribution argument: a two-name prize with Katori's magic-wavelength concept and Ye's record accuracy is cleaner than anything B048 offers. My reservation is the novelty question you raise yourself. The frequency comb was recognised in 2005 and ion control in 2012, and the committee will ask whether the lattice clock is a new discovery or the best implementation of an already-honoured toolkit. I am not able to settle that from the ballots alone. I would move B049 above B038 as a fallback if the committee decides B048's history is too contested."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranked B049 and B020 above topological insulators, noted that the 2016 prize partly covers topology, and treated B038 as questionable because it follows the 2025 superconducting-circuit prize so closely.",
+        "response": "I accept your point about B038 in substance, which is a large part of why I have moved B048 to the front. The 2025 prize recognised macroscopic quantum tunnelling and energy quantisation in an electric circuit; circuit QED is a distinct discovery, but a second superconducting-circuit prize within a year invites a charge of favouring one community. On the 2016 overlap I disagree somewhat: that prize recognised topological phase transitions and topological phases in the bulk quantum Hall setting, whereas time-reversal-invariant systems with Z2 classification, in the absence of a magnetic field, are a different physical regime. I do not regard 2016 as a bar to B048, though I take it as a real part of the committee's overall balance."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson placed B048 first as a clearly bounded discovery with a theory-to-experiment chain and wide impact on materials physics, and ranked circuit QED eighth because of the 2025 prize.",
+        "response": "I agree with your reading of B048 and with the scepticism about B038 on timing. Where I would qualify your argument is on impact: emphasising materials and device concepts is reasonable, but I would rather rest the citation on the conceptual advance (a new topological classification, with experiment) than on promised applications, since topological quantum computing based on these states remains unrealised. I would also note that it is easy to be generous about attribution when the experimental half is as clear as Molenkamp's, so I would still insist that the three names be justified on the record and not just because they form a tidy trio."
+      }
+    ],
+    "uncertainties": [
+      "Where exactly to draw the credit line relative to Bernevig, Hughes and Zhang and to the three-dimensional topological insulator discoverers; I am relying on recalled history that I cannot verify here.",
+      "Whether the 2016 topological-phases prize and the near-term overlap with magic-angle graphene (B016) should reduce B048's priority.",
+      "Whether B038 is held back mainly by the 2025 prize timing or whether that is only a temporary objection; my own proximity to the field makes me a poor judge of this.",
+      "Whether B049 is better regarded as a new discovery or as an implementation within already-recognised comb and ion-clock science."
+    ],
+    "conflict_note": "I have a possible conflict on B038 (circuit QED): I am a theorist in superconducting circuits and microwave quantum optics at Chalmers, direct WACQT, am a colleague of Per Delsing and C. M. Wilson, and Chalmers hosted researchers associated with the 2025 prize, so I would recuse myself or at least discount my own view if the committee weighs B038 seriously. I also have collaborated with Anton Frisk Kockum on related topics, though no link to any credited B038 name is recorded in my profile. No specific personal or institutional connection to Kane, Mele or Molenkamp is apparent from my profile."
+  }
+}

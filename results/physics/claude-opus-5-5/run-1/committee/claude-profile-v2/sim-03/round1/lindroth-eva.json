@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 1,
+  "simulation_id": "sim-03",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B049",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realisation of optical lattice clocks, bringing atomic frequency standards to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B048",
+    "B020"
+  ],
+  "statement": {
+    "case_for": "I keep optical lattice clocks first. Katori's magic-wavelength trapping makes it possible to interrogate very many atoms in a Lamb-Dicke lattice without shifting the clock transition, and Ye's group then drove the approach to fractional uncertainties near 1e-18 and to record stability. The result is a new class of instrument rather than an incremental refinement. It is independently reproduced in several national laboratories on Sr, Yb and Hg, it now supports the pending redefinition of the second, centimetre-scale relativistic geodesy and sensitive tests of constants and of dark-sector physics. The credit is unusually clean for a modern prize, two named people with a clear proposal-plus-realisation division, and the area has not been honoured as such: the comb (2005), laser cooling (1997) and ion manipulation (2012) are precursors, not the lattice-clock concept.",
+    "case_against": "The strongest reservation is that the committee could read this as a continuation of the 2005 comb prize and the 2012 ion-control prize, with measurement records that keep moving, so that the achievement looks more like superb engineering than a single discovery. Katori's priority versus other early lattice-clock proposers and the ion-clock and Lemonde-type groups is not fully settled in the record before us, and a two-person prize in a field with many strong teams may leave out contributors who will feel it. The topological-insulator candidate B048 has clearly broader opening support (five top-three rankings against two) and a more conventional discovery narrative, so if the committee values breadth of impact on physics at large my preference is the minority one.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the lattice clock first, argues that Katori and Ye form a clean two-person credit, that many-atom magic-wavelength clocks are instrument-defining and that timing is right given the planned redefinition of the second, while asking whether it is incremental over the comb and ion-clock recognition.",
+        "response": "I agree on attribution and timing, and I think the incrementality worry is the real fault line. My answer is that the earlier prizes gave the tools (comb, cooling, ion control) and the lattice clock changed the statistical regime: many atoms with no first-order light shift is a new idea, not a better trap. Where I differ from Stefan is on B020: he ranks atom interferometry third as a method more than a headline discovery, and I would put it higher for the same reasons I like clocks. But I accept that his point about allocation (Chu is outside the supplied names) is a real weakness, which is why I do not pair it with the clock in my preferred configuration."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson places circuit QED first and ranks the lattice clock only seventh, asking whether metrology counts as discovery or engineering and noting overlap with comb and ion-clock recognition. He also places B048 second with a stable, clear prediction-and-confirmation arc.",
+        "response": "I disagree that the clock is engineering. The magic-wavelength condition is a physics insight about differential light shifts that made the many-atom regime possible, and the resulting 1e-18 comparisons test relativity and constants directly. I share his worry about timing for circuit QED, since the 2025 prize already honoured superconducting circuits, which is a main reason I put B038 sixth. I do agree with him that B048 has a convincing arc from prediction to confirmation, and I would not stand in the way if the committee moved there."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig supports B048 on conceptual depth and mature confirmation, but says the omission of the Bernevig-Hughes-Zhang prediction and the 3D topological-insulator work is the main attribution problem and that a fair prize would have to explain it; he also notes overlap with the 2016 topological-phases prize.",
+        "response": "I share this concern and it is exactly why I ranked B048 third and not first. With the HgTe proposal and the three-dimensional materials credited elsewhere, a Kane-Mele-Molenkamp prize invites a priority dispute that the clock prize does not. I would add that the overlap with 2016 is conceptual rather than fatal, since Thouless, Haldane and Kosterlitz concerned quantum Hall and defect-driven transitions, not time-reversal-invariant Z2 matter. So I regard B048 as the strongest competitor, but the attribution question has to be answered before I would put it ahead."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks B048 first as a clean theory-plus-experiment pairing that opened a field, mature after two decades, but flags that graphene's tiny spin-orbit gap means the Kane-Mele model is not the material realisation and that BHZ and 3D credit complicates a three-person split.",
+        "response": "His own caveat sharpens mine. If the realised material is HgTe and the decisive prediction for it came from Bernevig, Hughes and Zhang, then two of the three credited names are carrying a theoretical idea whose experimental route went through someone else. That does not make the discovery less important, but it makes the citation harder to write precisely. I would ask whether a citation could be drafted that is accurate about who predicted what in HgTe before treating this as the clean option."
+      }
+    ],
+    "uncertainties": [
+      "How the committee weighs a second prize for precision timekeeping after the 2005 comb and 2012 ion-control prizes.",
+      "Whether Katori's priority over other early lattice-clock proposers is adequately settled; I rely on recalled history rather than the supplied text.",
+      "Whether the Bernevig-Hughes-Zhang and 3D topological-insulator credit can be reconciled with a Kane-Mele-Molenkamp prize.",
+      "Whether the redefinition of the second, still pending, should be treated as a timing signal or as a reason to wait."
+    ],
+    "conflict_note": "No specific conflict with the Katori and Ye candidate is apparent from my profile. My documented connections are with the attosecond community (L'Huillier, Lund), Keller's group at ETH Zurich, and a few theory collaborators, none of whom is credited here. A minor disclosure applies to B038 since Wallraff is at ETH Zurich, where I have collaborated with a different group, and to atomic-physics proximity in general for B049, B020 and B029; I do not regard any of these as requiring recusal."
+  }
+}

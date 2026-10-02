@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B035",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and realization of optical lattice clocks, enabling atomic timekeeping at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Optical lattice clocks are a single, sharply defined invention: Katori's magic-wavelength proposal lets many neutral atoms be held in a lattice without perturbing the clock transition, and Ye's group turned that into the frontier of accuracy and stability, now at the 10^-18 level. Six of eight members ranked it in their top three, which is the broadest support on the shortlist and suggests it survives the different lenses (instrumental, theoretical, condensed-matter) around the table. The achievement is independently reproduced by several national metrology institutes and university groups, it has real consequences (tests of constancy of fundamental constants, searches for dark-matter signatures, relativistic geodesy, the discussion on redefining the second), and its credit maps onto two names with a clear idea-plus-realization structure. Atomic precision measurement was last recognised with the comb prize in 2005 and the ion-control prize in 2012, so lattice clocks are a new step and not a repeat.",
+    "case_against": "The strongest reservation is that clock physics is perceived as an incremental continuation of work already honoured (Hall and Hansch 2005, Wineland 2012), and that credit in the clock community is broad: Lemonde, Takamoto and the Sr and Yb groups at PTB, SYRTE, NIST and elsewhere contributed substantially and are outside the two names. The redefinition of the second has not happened yet, so the most visible societal consequence is still pending. There is also a fair question of whether Ye's contribution is best described as clocks specifically or as a wider programme in combs, ultracold matter and many-body spectroscopy, which could blur the citation.",
+    "responses": [
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first as a clear, original and widely reproduced concept that underlies most superconducting quantum processors, and he regards it as distinct enough from the macroscopic quantum tunnelling work recognised in 2025.",
+        "response": "I agree that cQED is original and technologically decisive, and it is my own second choice. I disagree on distinctness: the 2025 prize already rewarded superconducting circuits as quantum systems, and a second circuit prize so soon would be hard to defend to the wider community while lattice clocks, a separate and unrecognised line, wait. The cQED credit is also unsettled because Girvin and Devoret-linked work sits outside Blais, Wallraff and Schoelkopf, whereas Katori and Ye are a cleaner pair. If the committee prefers the quantum-technology direction, I could accept B004, but I would want the 2025 overlap discussed explicitly."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators first, arguing that the Z2 classification opened a conceptually new class of matter across materials, photonics and cold atoms, and that recognition is timely and arguably overdue.",
+        "response": "The conceptual reach of the Kane-Mele idea is genuine and I do not dispute it. My reservation is the one Mehlig and others note themselves: the Bernevig-Hughes-Zhang HgTe proposal that made Molenkamp's experiment possible is missing from the credited names, and Shoucheng Zhang is deceased, so a fair allocation within three persons is hard. I would also note that the 2016 prize on topological phases weakens the novelty claim somewhat. For these reasons I place B008 as an alternative, not as the preferred prize, though I would not oppose it if the committee is satisfied on attribution."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube first as a landmark of instrument design that opened neutrino astronomy, while placing the lattice clock third and asking whether precision metrology has already been sufficiently rewarded.",
+        "response": "I take the instrument-builder argument seriously, and the diffuse flux is firmly established. But I would separate the discovery from the source identification, which Pearce himself says is still partial, and from the attribution within a very large collaboration where Halzen, Karle and Spiering are hard to separate from AMANDA and Baikal contributors. On whether metrology is already rewarded: 2005 honoured the frequency comb and 2012 honoured control of single ions; neither covers neutral-atom lattice clocks, so I do not think the field has been over-rewarded."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks the lattice clock only eighth, while placing topological insulators first and dynamical mean-field theory and twisted bilayer graphene high, as ideas that reorganised how electronic states are understood.",
+        "response": "I think the difference is partly one of what counts as a discovery. A clock is an instrument and a measurement, so its conceptual novelty is easy to underrate, yet the magic-wavelength condition is a real idea and the resulting 10^-18 performance has been verified between independent labs, which is a stricter test than many theoretical constructs have faced. I would, however, accept his point on twisted bilayer graphene being premature: the origin of its superconductivity is still contested."
+      }
+    ],
+    "uncertainties": [
+      "Whether the credited names Katori and Ye fully reflect the experimental community, given the contributions of the Lemonde, Takamoto, PTB and Yb-clock groups.",
+      "Whether the committee will see lattice clocks as sufficiently distinct from the earlier comb (2005) and ion (2012) prizes.",
+      "How close the redefinition of the second must be before the committee treats the impact as settled, since it is under discussion and not yet decided.",
+      "I rely on my own recollection of the clock timeline and priority and have not verified details from the nomination files."
+    ],
+    "conflict_note": "I should flag that I spent time in John Hall's laboratory in Boulder, and Hall is part of the frequency-comb background of the JILA environment in which Jun Ye works; I know of no documented personal or institutional tie to Katori or Ye themselves, but the committee may wish to note the Hall connection. I am also a Lund atomic physicist with a quantum-memory and WACQT background, which touches the quantum-technology candidates (B004, B015) but not B035 directly, and my Lund colleagues Rippe, Walther and Kinos are not nominated."
+  }
+}

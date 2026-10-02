@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B035",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realisation of optical lattice clocks, which brought atomic timekeeping to the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B015"
+  ],
+  "statement": {
+    "case_for": "I opened with topological insulators first and optical lattice clocks second, and having read all eight ballots I now place the clocks first. The scientific case is as strong as any on the list: Katori's magic-wavelength idea removes the light-shift problem, and the realisations by Katori and Ye reached fractional uncertainties near 1e-18, which has changed what can be measured, from tests of fundamental constants to relativistic geodesy and the discussion of redefining the second. Many independent laboratories reproduce the performance, so maturity is not in doubt. The attribution is also the cleanest on the shortlist: all eight members proposed exactly Katori and Ye, and I regard that as real information about how well a two-person split maps onto the historical record, though it is not itself a measure of merit. Four members ranked it first or second, six placed it in their top three, and no other candidate matches that breadth. A two-laureate prize leaves a third place free, but I see no second achievement that fits it without displacing one of the two names.",
+    "case_against": "The strongest reservation is novelty and scope. The 2005 prize covered frequency combs and the 2012 prize covered ion-based quantum control, and ion clocks (Wineland, Rosenband) already reach very high accuracy, so some will see lattice clocks as an incremental refinement of recognised metrology. There is also a real question of whether the citation should reward the lattice-clock concept (Katori) or the performance frontier and many-body clock work (Ye), and other groups with strontium and ytterbium clocks, plus the theorists of magic wavelengths, are not credited. If the committee wants a prize with a conceptual shift in how a field thinks, topological band theory (B008) is arguably more far-reaching, and I would not want a clean attribution to count for more than the science.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked the lattice clock first as a clean, original idea with strong metrological impact, with good timing because combs were recognised in 2005 but lattice clocks were not, while noting that ion-clock credit could blur the novelty.",
+        "response": "I agree on the substance and have moved toward your ranking. Your own caveat is the one I take most seriously: if the citation is written around 'better clocks' it will read as a sequel to 2005 and 2012. I would therefore draft it around the specific invention, trapping many neutral atoms at a magic wavelength so that the lattice does not perturb the transition, and keep the claim of 1e-18 as the demonstrated consequence. I do not think a comparison with ion clocks should be dismissed, but the many-atom interrogation is a different route and not a refinement of Wineland's."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranked the clocks first, argued that independent laboratories confirm the 1e-18 regime and that this is the natural next step after 2005 and 2012, and kept the intellectual priority of the lattice idea as an open question.",
+        "response": "I share your view on maturity. On priority I would be cautious in the other direction: you left open whether early strontium clock groups should share the idea. Given that the idea is proposed by Katori, the first realisations and the performance records are separable, but I do not see a better split than Katori and Ye, and widening the list would break the three-name limit while diluting the citation. I would treat that as an uncertainty to note in our record, not a reason to change the names."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked circuit QED first as an original, widely reproduced architecture distinct from the 2025 tunnelling work, and flagged that he works in the field and may overvalue it.",
+        "response": "I disagree on the ranking, though not on the quality. I put circuit QED eighth because it sits so close to the 2025 prize, in which Devoret is central, and because the credited trio leaves out Girvin and others in the 2004 theory. You are right that cQED is a distinct idea and not a repeat of macroscopic tunnelling, and I accept that it is mature. But a second superconducting-circuit prize in two years is a cost, and the allocation between proposal and experiment is less clean than for Katori and Ye. I would keep it as a strong later candidate."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked topological insulators first for its new organising principle (Z2 topology and protected edge states), but noted that the credit is contested, citing Bernevig, Hughes and Zhang and the 3D work of Fu, Moore and Balents.",
+        "response": "This is my own first choice and your attribution caveat is the reason I no longer put it on top. The topological idea is more conceptually far-reaching than the clocks, and I still think so. But Kane and Mele plus Molenkamp is an incomplete proxy when Zhang's HgTe proposal was essential to the experiment and the 3D generalisation is outside the names. I would keep it as the first alternative and not try to resolve the credit by squeezing it into three names that the historical record does not support."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked the IceCube discovery first as a landmark of instrument construction that opened neutrino astronomy, with the diffuse flux confirmed but source identification only partial.",
+        "response": "I take the instrumentation point and ranked IceCube seventh, mainly on maturity and attribution. The diffuse flux is solid, but the astrophysical interpretation is still developing and, as your own uncertainties note, the sources of most of the flux are unidentified. Credit among Halzen, Karle and Spiering within a very large collaboration, plus the AMANDA and Baikal precursors, is also hard to fix. I would not oppose it in a later year, but I do not think it is ready to stand against the clocks now."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards lattice clocks as sufficiently distinct from the 2005 frequency-comb and 2012 ion-control prizes.",
+      "Whether the citation should centre on the magic-wavelength concept or on the 1e-18 performance achievements, which affects how the credit is divided between Katori and Ye.",
+      "Whether the contributions of Bernevig, Hughes, Zhang and the 3D topological-insulator work make B008 unsafe as a three-name prize.",
+      "I rely on my general knowledge for the clock accuracy records and the priority history, and have not verified them from the supplied material."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: my documented co-authors and institutional ties (Max Planck institutes, Oxford, Freiburg, Gothenburg) do not include any credited name on the shortlist, and my own research areas of turbulence, statistical physics and neural networks are not those of the candidates."
+  }
+}

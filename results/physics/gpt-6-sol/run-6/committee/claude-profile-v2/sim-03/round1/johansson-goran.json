@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction of the quantum spin Hall effect and the Z2 topological classification of insulators, and for its first experimental observation in HgTe quantum wells."
+      }
+    ]
+  },
+  "alternatives": ["B014", "B017"],
+  "statement": {
+    "case_for": "Kane and Mele's quantum spin Hall effect and Z2 invariant, followed by Molenkamp's observation of helical edge transport in HgTe wells, is one of the cleanest theory-to-experiment chains in recent condensed matter physics. The prediction was sharp and falsifiable, the experiment confirmed it, and the result has been reproduced in other materials for almost two decades. It created a new way of classifying electronic phases by topology, and it fed into 3D topological insulators, topological superconductivity and Majorana-based device concepts. The three names map onto theory (Kane, Mele) and experiment (Molenkamp). The interpretation is stable and recognition is not premature. I keep it first because its conceptual reach and its closed prediction-and-confirmation loop are stronger than those of the other candidates, even though the optical lattice clock has broader opening support.",
+    "case_against": "The credit set is incomplete. Bernevig, Hughes and Zhang proposed the HgTe route that Molenkamp's group actually tested, and the 3D topological insulator work (Fu, Kane and Mele; Moore and Balents; Hasan) is outside this candidate, so a prize could read as unfair to people who are not named. The 2016 prize for topological phases and phase transitions covers a neighbouring body of work, and some colleagues will see this as redundancy. HgTe edge conductance has also been less ideal than the early picture suggested, with imperfect quantization in longer channels. If the committee cannot defend the HgTe attribution, B014 offers a cleaner two-person allocation.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clock first. He argues that it rests on precision measurement, is mature and independently reproduced at the 1e-18 level, and that the 2005 comb prize does not crowd it out.",
+        "response": "I agree on maturity and on the clean Katori and Ye split, and B014 is my honest second choice. I disagree that the 2005 overlap is negligible. Hall and Haensch gave the comb that made optical clockwork practical, so the incremental discovery content is partly engineering of a known principle. The magic-wavelength idea is original, but a prize here rewards metrological performance more than a new physical effect. The pending redefinition of the second is a timing argument, not a scientific one. I would not let the larger number of first-place votes decide this on its own."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth places B014 first on the strength of magic-wavelength light-shift control, record uncertainty, and applications from the SI second to relativistic geodesy and dark-matter searches.",
+        "response": "From an atomic-physics view I accept the elegance of the light-shift control and the breadth of the applications. My reservation is the same as with Kroll: how much new physics versus improved accuracy. Her note that Yb and ion clocks and the comb community also have claims weakens the neat two-name split somewhat. I also see a parallel problem in my own first choice, namely missing co-credit, so I do not claim B014's attribution is worse. I would test whether the committee prefers a topology-defined discovery or a precision-metrology invention, and I do not see that choice as settled."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson also puts B016 first, calling it an unusually complete theory-to-experiment chain, but he openly flags the omission of Bernevig, Hughes and Zhang and a possible 2016 redundancy.",
+        "response": "I share his view of the chain, and I agree the missing HgTe proposers are the real weak point. I would resolve it in the citation by tying the experimental part to Molenkamp's observation of edge transport rather than to the proposal itself. That still leaves Bernevig, Hughes and Zhang unrecognized, and I will not claim the three-name limit is costless. On 2016 I am more comfortable than he is. Thouless, Haldane and Kosterlitz honoured topological phase transitions and quantized transport. The Z2 classification and protected helical edges in time-reversal-invariant systems are a distinct step."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks B016 only fifth, saying the credit set leaves out significant parts of the field and that overlap with the 2016 prize makes the timing less compelling.",
+        "response": "I take the credit gap seriously, as above. I disagree on the weight of the 2016 overlap. A prize is defined by the discovery honoured, not by the broad word topological. Mean-field Z2 insulators with time-reversal symmetry are not the Chern-insulator or phase-transition physics of 2016. I do accept her point that B042 is a well-defined invention with a clean three-name split, but its impact is concentrated in a technique and does not change how we classify matter."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce puts IceCube (B021) first as a genuine new observational window, and ranks B017 above B016, though he calls B016 conceptually deep and arguably overdue.",
+        "response": "I agree that neutrino astronomy is a new messenger and sits at the core of the prize tradition. My concern is attribution inside a large collaboration: Halzen, Karle and Spiering are defensible but not uniquely correct, and source identification is still partial. B016 is less exposed on that point. On B017, I think it is excellent but a few years early, with the pairing mechanism unsettled, so I would hold it as an alternative. I would also want the committee to ask whether B016 deserves priority because it is overdue."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a prize that omits Bernevig, Hughes and Zhang, given that their HgTe proposal preceded Molenkamp's observation.",
+      "Whether the 2016 topological prize is read as covering this discovery, making B016 redundant.",
+      "How to weigh B014's higher opening support and clean two-person attribution against B016's wider conceptual reach.",
+      "I rely on general knowledge of priority history in HgTe and 3D topological insulators and have not verified details against the nomination files."
+    ],
+    "conflict_note": "No specific conflict is apparent for B016 from my profile. A conflict does arise for B009 (circuit QED): I work in superconducting circuits and waveguide QED at Chalmers, direct WACQT, and have documented ties to colleagues such as Per Delsing and C. M. Wilson, so I would recuse myself or at least decline to advocate there. The 2025 laureates also visited Chalmers, which is a proximity concern for any superconducting-circuit candidate."
+  }
+}

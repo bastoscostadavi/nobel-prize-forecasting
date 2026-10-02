@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-02",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B043",
+      "proposed_laureates": [
+        "Antoine Georges",
+        "Dieter Vollhardt",
+        "Gabriel Kotliar"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Dynamical mean-field theory made strongly correlated electrons tractable by mapping the lattice problem onto a self-consistent quantum impurity problem, exact in infinite dimensions. It is conceptually clean, original, and underlies the modern treatment of the Mott transition, correlated oxides and heavy fermions. Combined with electronic-structure methods (DFT+DMFT) it connects model Hamiltonians to real materials, which is a central working tool for first-principles theory of correlated solids.",
+        "attribution": "The credited trio is a defensible configuration: Vollhardt (with Metzner, who is not in the supplied credit) for the infinite-dimension limit, Georges and Kotliar for the mapping to an impurity problem and the self-consistent solution, with Kotliar also central to the DFT+DMFT extension. Other contributors (e.g. Metzner, Rozenberg, Krauth, Jarrell) fall outside the supplied names, so a fair split is possible but not complete.",
+        "maturity": "Roughly three decades of use, with independent implementations in many codes and wide agreement with experiment on spectra and phase diagrams. Accuracy limits (impurity solvers, non-local correlations) are known and extensions exist, but the core framework is stable. Recognition is timely and arguably overdue.",
+        "uncertainties": [
+          "I am recalling the history of the infinite-dimension limit and the impurity mapping from memory and have not verified the precise priority among Metzner, Vollhardt, Georges and Kotliar.",
+          "Experimental confirmation is indirect: DMFT is a theoretical framework, and its quantitative success varies by material, so the committee may want to weigh a discovery-versus-method question."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B004",
+      "proposed_laureates": [
+        "Shinji Yuasa",
+        "Stuart S. P. Parkin",
+        "William H. Butler"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Giant tunnel magnetoresistance in crystalline MgO tunnel junctions raised room-temperature magnetoresistance from tens of percent to hundreds of percent. It rests on a physical mechanism, symmetry-selective (coherent) tunnelling of Delta-1 states, predicted from first-principles calculations before the experimental breakthrough. It became the basis of hard-disk read heads and magnetic random-access memory. A rare case where electronic-structure theory and experiment closed a clear loop.",
+        "attribution": "Butler and collaborators supplied the first-principles prediction of coherent tunnelling; Parkin and Yuasa independently demonstrated large TMR in MgO junctions around 2004. This is a natural theory-plus-experiment pairing, though the supplied credit omits other key contributors (for example Mathon and Umerski on theory, Djayaprawira and colleagues on CoFeB/MgO), so fairness is not fully settled.",
+        "maturity": "Mature: more than twenty years of replication, a large industrial footprint in data storage and memory, and a settled interpretation of the underlying mechanism. The 2007 prize recognised GMR, so TMR is a clearly separate but related step; some will consider it incremental on that.",
+        "uncertainties": [
+          "Overlap with the 2007 prize for giant magnetoresistance may count against novelty.",
+          "Priority disputes: other groups reported large MgO TMR essentially simultaneously, and the theory credit is shared among several groups.",
+          "Whether the physics or the engineering is the prize-worthy part is a judgement I cannot settle from the supplied text."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B044",
+      "proposed_laureates": [
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The quantum spin Hall effect and the Z2 topological insulator opened a field in which topology of the electronic band structure yields robust boundary states. The theory (Kane and Mele) is original and clear, and the HgTe quantum-well observation of helical edge transport is a decisive experimental confirmation. The impact extends to three-dimensional topological insulators, topological superconductivity and spintronics proposals, and band-structure calculations are essential for identifying real materials.",
+        "attribution": "Kane and Mele introduced the Z2 classification and quantum spin Hall effect in graphene; Molenkamp's group delivered the HgTe experiment after the Bernevig-Hughes-Zhang prediction. The supplied credit omits Bernevig, Hughes and Zhang, and others such as Moore, Balents, Fu, Hasan, so any trio leaves a significant credit gap. Within the supplied names, Kane, Mele and Molenkamp is the most coherent theory-plus-experiment set.",
+        "maturity": "Well confirmed: quantized edge conductance in HgTe, ARPES on Bi-based materials, and a large body of follow-up. The 2016 prize recognised topological phase transitions and topological phases, so this is a related but distinct step. Practical applications are still limited, but the scientific impact is deep and recognition appears timely.",
+        "uncertainties": [
+          "Allocation across the theory community (Bernevig, Hughes, Zhang, Fu, Moore, Hasan) is unresolved and not fully represented in the supplied names.",
+          "Graphene-based spin-orbit gap in the original proposal is very small, and the experimental realization came through different materials.",
+          "There is a separate candidate on the longlist covering overlapping topological-insulator work, so the committee would need to decide which framing is preferred."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B013",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks, via Katori's magic-wavelength idea and Ye's realization at very high precision, reached fractional uncertainties near 10^-18 and enable tests of fundamental constants, relativistic geodesy and a possible redefinition of the second. The conceptual step is simple and elegant, and the measurement impact is large.",
+        "attribution": "Katori proposed the magic-wavelength lattice scheme; Ye and his group made the most precise realizations and carried out many demonstrations. Two names give a clean allocation, although Hall and Hänsch were already recognised in 2005 for the comb, and ion-clock pioneers (Wineland, Rosenband) are outside the list.",
+        "maturity": "Mature and independently reproduced in several laboratories; the instruments are the best in the world and the stability of the interpretation is not in doubt. The committee has recognised related metrology before, so some will see this as a natural next step, and recognition is timely.",
+        "uncertainties": [
+          "The role of ion-based optical clocks as parallel claims is not reflected in the supplied credit.",
+          "It is not clear that the redefinition of the second has happened, so the practical culmination is still pending.",
+          "Whether the committee sees this as precision engineering or as a new physical discovery."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B001",
+      "proposed_laureates": [
+        "Fabiola Gianotti",
+        "Michel Della Negra",
+        "Tejinder S. Virdee"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The observation of a Higgs-like boson in 2012 verified the last missing particle of the Standard Model and opened the experimental study of the electroweak symmetry-breaking sector. The scientific significance is very high, and the measurement of its couplings continues to be a central programme.",
+        "attribution": "The 2013 prize recognised the theory. Experimental credit is the hard question: the discovery belongs to the ATLAS and CMS collaborations of thousands, and the Nobel statutes allow at most three people. The supplied names are the spokespersons and key founders, and the choice among four credited names (Gianotti, Della Negra, Jenni, Virdee) is arbitrary in a sense; I picked three with the understanding that this omits Jenni and many others. Allocation is a real obstacle.",
+        "maturity": "Strongly confirmed by two independent experiments and subsequent measurements. The recognition has been delayed by the attribution problem rather than by doubts about the science, so it is mature, but a prize for collaborations is structurally difficult.",
+        "uncertainties": [
+          "Fair allocation of credit within very large collaborations remains unresolved and the choice of three from four named individuals is not supported by the evidence.",
+          "Whether the committee would prefer a prize that recognises the accelerator or detector programme rather than individual leaders.",
+          "Whether the full Higgs-sector measurement programme, still evolving, argues for waiting."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B046",
+      "proposed_laureates": [
+        "Allan H. MacDonald",
+        "Pablo Jarillo-Herrero",
+        "Rafi Bistritzer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The prediction of flat bands at a magic twist angle and the experimental observation of correlated insulating and superconducting states in twisted bilayer graphene created a new platform of moire quantum matter. It is original, clear, and has produced a large range of correlated and topological phenomena, tunable by gate and twist. Continuum-model and ab initio descriptions of the moire bands are relevant to electronic-structure theory, which makes this particularly interesting from a theoretical-materials viewpoint.",
+        "attribution": "Bistritzer and MacDonald supplied the theoretical flat-band prediction; Jarillo-Herrero and collaborators made the experimental discovery of correlated insulators and superconductivity. The supplied trio is a coherent theory-plus-experiment set, though the omission of Cao, Fatemi and others in the experimental group, and of Lopes dos Santos, Peres and Castro Neto on earlier theory, leaves credit open.",
+        "maturity": "Rapidly reproduced across many groups, but the field is only about eight years old; the origin of superconductivity and the nature of correlated states is still being debated. I would regard recognition as promising but somewhat early.",
+        "uncertainties": [
+          "The mechanism of superconductivity in twisted bilayer graphene remains disputed.",
+          "Sample variability and twist-angle disorder complicate the interpretation of some results.",
+          "Priority for the theoretical prediction is not uniquely assigned."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B028",
+      "proposed_laureates": [
+        "Yoshinori Tokura",
+        "Sang-Wook Cheong",
+        "Ramamoorthy Ramesh"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Magnetically driven ferroelectricity and strong magnetoelectric coupling established a new class of materials in which spin order induces electric polarization, with spiral-magnet mechanisms (spin-current or inverse Dzyaloshinskii-Moriya) providing a clear microscopic picture. It sits close to my own area of magnetism and first-principles modelling, and the cross-coupling of magnetic and electric order is conceptually important. Practical devices have been slower to arrive.",
+        "attribution": "Tokura and Cheong are central to the experimental discovery of magnetically induced ferroelectricity in TbMnO3 and related compounds; Ramesh is more associated with BiFeO3 thin films and room-temperature multiferroics. The three names span related but distinct discoveries, so the attribution mixes at least two achievements and a fair allocation is uncertain.",
+        "maturity": "The phenomenon is reproduced widely, but the effect sizes in most materials are small or require low temperatures, and the technological promise remains partly unrealized. Recognition may be somewhat premature for a single clean prize statement.",
+        "uncertainties": [
+          "Compound discovery: magnetic ferroelectrics and room-temperature BiFeO3 may need different recognition.",
+          "Applications in memory and logic remain unproven.",
+          "Priority in the early observation of magnetoelectric coupling goes back decades and is not clearly captured in the supplied credit."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B050",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Markus Greiner",
+        "Tilman Esslinger"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum simulation of Hubbard models with ultracold atoms in optical lattices realized the superfluid-Mott transition and later fermionic Mott insulators and antiferromagnetic correlations, as well as microscope-level resolution of single sites. It gives a clean controllable platform for the strongly correlated physics I care about, and has strongly influenced theory and benchmarks, including for numerical methods.",
+        "attribution": "Zoller (with Jaksch) proposed the Bose-Hubbard realization, Greiner and Bloch observed the Mott transition, Esslinger realized fermionic Mott states, Greiner and Bloch developed the quantum-gas microscope. I chose three experimentalists, which omits the theoretical proposal, and the four credited names do not map onto a clean three-person division.",
+        "maturity": "Mature in the sense of controlled experiments and independent reproduction, but the grand goal of simulating the Hubbard model into the d-wave superconducting regime is not yet achieved. Recognition would be reasonable, although parts of this area overlap with the 2001 BEC prize and the 2012 prize for quantum control.",
+        "uncertainties": [
+          "Open question whether the platform has solved a problem that classical numerics cannot.",
+          "Attribution among theory proposal, experiment and microscopy is contested and not resolved by the supplied credit.",
+          "Overlap with earlier Nobel recognition of cold-atom physics."
+        ]
+      }
+    }
+  ]
+}

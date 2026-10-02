@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-03",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "Antoine Georges",
+          "Dieter Vollhardt",
+          "Gabriel Kotliar"
+        ],
+        "citation": "For the development of dynamical mean-field theory, a non-perturbative framework for strongly correlated electrons in solids."
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B014"
+  ],
+  "statement": {
+    "case_for": "DMFT (B018) took the strongly correlated electron problem, where band theory and perturbation theory fail, and gave it a controlled, conceptually clean starting point: the infinite-dimension limit, the exact mapping onto a self-consistent quantum impurity problem, and the resulting account of the Mott transition and of coherent and incoherent metallic states. It is a physical idea with a verifiable content, namely local self-energy, spectral-weight transfer and quasiparticle renormalization, and it was tested for three decades against photoemission, optical and thermodynamic data. Through DFT+DMFT it became a working tool for transition-metal oxides, heavy-fermion and f-electron systems and magnetic materials, and cluster and extended variants have extended it. Having seen it used on real materials, I think its influence on how condensed-matter physics is actually done is large and cannot be replaced by another method. After reading colleagues' ballots I still find the case strong, and I note that nobody has argued that the work is immature or premature.",
+    "case_against": "The strongest reservations are about attribution and about the kind of achievement. The infinite-dimension limit of Metzner and Vollhardt and the impurity mapping of Georges and Kotliar are different steps, so omitting Metzner leaves the credit arguably incomplete and the three-person ceiling forces a contestable choice. DMFT is also a method and approximation, not a single decisive observation, and its quantitative predictivity in real materials depends on double-counting corrections and interaction parameters that are not first-principles. It does not settle the problems it is used for, for example high-Tc superconductivity. B016 and B014 are more decisively theory-meets-experiment and enjoyed broader opening support, so a committee that prefers a discrete discovery would be right to rank them above B018.",
+    "responses": [
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked DMFT fourth and described it as a mean-field construction with a clear limit, comparable to older theories of critical phenomena, with quantitative predictivity in realistic materials and finite dimensions still limited in places.",
+        "response": "I agree with the description but not the implied discount. A mean-field theory that is exact in a well-defined limit and systematically improvable by cluster extensions is a strength, and the classical analogy cuts the other way, since Landau-type theories and Weiss mean-field theory were foundational even though they fail in low dimension. The relevant question is what the framework made possible, and the answer is that for the first time one could compute the Mott transition and the spectral weight transfer of correlated metals without perturbing around a band picture. I accept his point on predictivity: double counting and interaction parameters in DFT+DMFT are a real, unresolved matter, and I would keep the citation on the framework, not on materials-specific predictions. I also note that his own first choice, B001 (conformal field theory), is a more foundational idea than DMFT, and I would not oppose it on merit, but it has had little support from other colleagues."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked B016 first as an unusually complete theory-to-experiment chain, with the Kane-Mele prediction followed by Molenkamp's HgTe observation, and called recognition timely given that the 2016 prize covered distinct work.",
+        "response": "I ranked B016 second and agree that the chain from prediction to observation is persuasive. My reservation is the attribution: the HgTe route was proposed by Bernevig, Hughes and Zhang, who are not credited, and the 3D topological insulator work of Fu, Kane, Mele, Moore, Balents, Hsieh and Hasan lies outside the three names, so the experimental half rests on one HgTe observation while the field's later reach rests on others. I also do not think the 2016 overlap can be dismissed as easily as he does, since topological classification of band insulators comes close to what Haldane and Kosterlitz-Thouless-type recognition covered. If the committee prefers a discrete observation to a method, B016 is where I would go, and I would be content with it; I do not think the credit problem is milder there than for DMFT."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked B014 first, arguing that optical lattice clocks exemplify the principle that progress rests on what can be measured, with 1e-18 accuracy, independent confirmation in several laboratories, and the Hall-Haensch comb work being separate and not crowding it out.",
+        "response": "I agree that this is a clean, mature invention with a natural two-person split, and I placed it fourth. My hesitation is that Hall and Haensch were honoured in 2005 for the comb that makes the clock readout possible, and Wineland in 2012 for ion clocks, so the prize would honour a third step in a line of precision-spectroscopy awards. Pending redefinition of the second also leaves the decisive application still ahead. Still, none of this undermines the physics, and I regard B014 as the least risky candidate on attribution, which is why I list it as an alternative."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranked B042 (aberration-corrected electron optics) first as a specific invention with a clear triad and broad impact across materials science, and ranked B014 second.",
+        "response": "Aberration correction is of obvious value to my own area, since atomic-column imaging of defects and interfaces underlies much of the data I compute against. I take the case for a clear instrumental invention with a clean Rose-Haider-Urban attribution seriously. I would still ask whether it is physics in the sense of the Nobel Prize in Physics or an enabling technique closer to chemistry and engineering, and I do not find that question answered in her ballot. I would not rank it above B018, but I have not ruled it out."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee can accept a three-person DMFT credit without Walter Metzner, whose infinite-dimension work is arguably foundational, and whether any three-name allocation is defensible.",
+      "How much weight to give to a method for correlated electrons versus a discrete discovery, given that B016, B014 and B017 had broader opening support.",
+      "Whether B016 overlaps too much with the 2016 prize and leaves the HgTe credit (Bernevig, Hughes, Zhang) unresolved.",
+      "Whether the committee prefers a configuration of two distinct achievements, which the three-person ceiling makes hard (for example B014 with one correlated-electron name would be unfair)."
+    ],
+    "conflict_note": "No specific personal or institutional conflict with the credited names of B018 is apparent from my profile. I should disclose that DMFT and DFT+DMFT are close to my own research in electronic-structure theory and correlated electrons at Uppsala, and that I may be biased toward methods I use; the profile gives no documented tie to Georges, Kotliar or Vollhardt, so I do not claim one, and colleagues may weigh this disclosure as they see fit."
+  }
+}

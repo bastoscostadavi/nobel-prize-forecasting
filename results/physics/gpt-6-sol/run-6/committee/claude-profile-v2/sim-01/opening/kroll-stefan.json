@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 6,
+  "simulation_id": "sim-01",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B035",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks, built on Katori's magic-wavelength proposal and Ye's realization and systematic-uncertainty reduction, moved atomic timekeeping to the 10^-18 level. For an atomic physicist this is a clean, original idea with lasting impact on metrology, tests of fundamental constants, relativistic geodesy and a prospective redefinition of the second. It is exactly the 'what we can measure, and how accurately' kind of advance.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept (2001-2003); Ye's group (JILA) delivered the leading experimental performance and the strontium and many-body clock developments. Two laureates give a compact configuration. Other contributors, such as Lemonde and the Sr and Yb clock groups, and the Hall and Haensch comb connection, are not in the supplied names.",
+        "maturity": "Mature: multiple independent labs reproduce and compare clocks at the 10^-18 level, and the redefinition of the second is under discussion. Timing is good, since combs were recognised in 2005 but lattice clocks have not been.",
+        "uncertainties": [
+          "Whether Ye's contribution is better framed around clocks or the broader frequency-comb and ultracold-matter programme.",
+          "Competing credit for ion clocks (Wineland group, already recognised in 2012) could blur the novelty of the optical-clock narrative.",
+          "I rely on my own knowledge of the clock timeline and have not verified priority details."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B004",
+      "proposed_laureates": [
+        "Alexandre Blais",
+        "Andreas Wallraff",
+        "Robert J. Schoelkopf"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Circuit QED transferred cavity-QED ideas to superconducting circuits, giving strong coupling, dispersive readout and the transmon-resonator architecture that underpins present superconducting quantum processors. Original, clear and enormously influential in quantum technology and in quantum-optics methodology.",
+        "attribution": "Blais, Huang, Wallraff, Girvin and Schoelkopf are the standard proposal and first experiment references. Blais (theory), Wallraff (first strong-coupling experiment, 2004) and Schoelkopf (Yale, transmon and readout development) are a defensible trio, but Girvin and Devoret-linked work complicate allocation.",
+        "maturity": "Very mature and independently confirmed across many groups. Timing is delicate because the 2025 prize recognised macroscopic quantum tunnelling in superconducting circuits, so the committee must judge how distinct cQED is from that award.",
+        "uncertainties": [
+          "Overlap with the recent 2025 prize and with the Devoret and Martinis legacy.",
+          "Girvin's role in the theory and the Yale group's collective contribution are not representable within three names.",
+          "Which step is decisive: the cQED proposal, the first strong-coupling experiment, or the transmon."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B043",
+      "proposed_laureates": [
+        "Juan Ignacio Cirac",
+        "Peter Zoller",
+        "Rainer Blatt"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Trapped-ion quantum gates (the Cirac-Zoller proposal) and their experimental realization established controlled atomic systems as a platform for quantum computing and simulation. The concept is original and the work is foundational for quantum information with atoms; this is close to my own field and I judge it highly.",
+        "attribution": "Cirac and Zoller are the proposers; Blatt led one of the leading experimental programmes in ion-trap gates and entanglement. Bloch's role in the supplied candidate belongs more to the neutral-atom lattice story and may better sit with a separate prize. Wineland and Monroe-Kielpinski work also matter but Wineland was recognised in 2012.",
+        "maturity": "Mature: two decades of ion-trap quantum computing with independent groups and commercial machines. Recognition is timely because 2012 (Wineland, Haroche) addressed control of single quantum systems rather than the gate proposals.",
+        "uncertainties": [
+          "Overlap with 2012 prize and with Wineland-group and Innsbruck contributions in credit.",
+          "Zoller and Cirac recur across several candidates, so a combined configuration could be difficult.",
+          "Practical impact is still being demonstrated, so some may call it early."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B012",
+      "proposed_laureates": [
+        "Carlton M. Caves",
+        "H. Jeff Kimble",
+        "Roman Schnabel"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Squeezed-state injection for interferometry converts quantum-noise theory into a working sensitivity gain; it is now routine in gravitational-wave detectors. Original idea (Caves, 1981) with clear lasting impact on precision measurement.",
+        "attribution": "Caves originated the proposal; Kimble's group made early experimental squeezing (1985-86 with Slusher and Hollberg at Bell Labs and Kimble's group); Schnabel and the GEO600 programme led the demonstrated detector application. Mavalvala's role in LIGO squeezing is also decisive, and I would have to drop her or another name. Slusher and Wu are missing from the supplied credit.",
+        "maturity": "Squeezing is in routine operation in LIGO, Virgo and GEO600 since about 2019, which gives strong confirmation. The 2017 prize for LIGO sits near it and the committee may consider this an extension.",
+        "uncertainties": [
+          "Distribution of credit among Caves, Kimble, Mavalvala and Schnabel and omitted early experimentalists.",
+          "Proximity to the 2017 gravitational-wave prize.",
+          "Whether theory or the detector implementation should dominate the citation."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B015",
+      "proposed_laureates": [
+        "Charles H. Bennett",
+        "Gilles Brassard",
+        "Artur Ekert"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum cryptography links quantum foundations with secure communication; BB84 and E91 are conceptually clear and have large lasting impact on quantum information science. The entanglement-based foundations were recognised in 2022, which makes the follow-on natural.",
+        "attribution": "Bennett and Brassard are the BB84 originators; Ekert gave the entanglement-based protocol (1991). The trio is natural and fits three names, with Wiesner's early conjugate-coding idea and later security proofs (Mayers, Lo, Shor-Preskill) remaining unresolved credit.",
+        "maturity": "Mature: protocols are decades old, deployed in networks and satellites, and security analysis is well developed. The 2022 prize partly overlaps with the Bell-test side.",
+        "uncertainties": [
+          "Wiesner and Mayers and security-proof authors are excluded from the supplied credit.",
+          "Partial overlap with the 2022 prize narrative.",
+          "Experimental and commercial impact is moderate relative to the theoretical influence."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B020",
+      "proposed_laureates": [
+        "Immanuel Bloch",
+        "Tilman Esslinger",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum simulation of Hubbard physics with ultracold atoms in optical lattices (Jaksch-Zoller proposal, Greiner Mott-insulator experiment, fermionic Hubbard work) provided a new tool for strongly correlated matter. Original and conceptually appealing, with strong links to my own field of atomic physics.",
+        "attribution": "Zoller (with Jaksch) proposed the Hubbard realization; Greiner, Bloch and Hänsch observed the superfluid to Mott transition and Esslinger realised fermionic Mott and band insulators. Greiner is also a plausible name; the best three-person subset is not unique.",
+        "maturity": "Fairly mature as a platform, but the outcome in terms of solving open correlated-electron problems is still developing, so some members may regard it as premature compared with the clocks and ions.",
+        "uncertainties": [
+          "Whether the Bose or Fermi Hubbard experiments are the key discovery.",
+          "Greiner versus Esslinger credit and the role of Jaksch and Hänsch.",
+          "Impact on actual condensed-matter solutions is still limited."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B053",
+      "proposed_laureates": [
+        "Mark A. Kasevich",
+        "David E. Pritchard",
+        "Jürgen Mlynek"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Atom interferometry underpins inertial sensing, gravimetry, tests of the equivalence principle and measurement of constants, and extends optical-interferometry concepts to matter waves. As a measurement technology it is attractive to me and lasting in impact.",
+        "attribution": "Pritchard and Mlynek made the first demonstrations of matter-wave interferometers (1991; Keith et al. and Carnal-Mlynek), while Kasevich and Chu developed laser-pulse atom interferometers for precision gravity and rotation. Chu was recognised in 1997 for cooling, and credit for the Raman-pulse interferometer partly sits with Chu and Kasevich.",
+        "maturity": "Mature as a laboratory technique with commercial prototypes and field tests; the strongest fundamental results (gravitational redshift tests, constant measurements) are still maturing.",
+        "uncertainties": [
+          "Credit split between the first demonstrators and the precision sensing developers.",
+          "Overlap with Chu's 1997 prize and with Kasevich-Chu collaborations.",
+          "Fundamental discovery content is modest compared with the technical advances."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B037",
+      "proposed_laureates": [
+        "H. Jeff Kimble",
+        "Juan Ignacio Cirac",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Light-matter quantum interfaces, including the quantum-repeater and state-transfer proposals and cavity-QED-based atom-photon networks, are the conceptual foundation of quantum networks. I consider the topic important and I have professional familiarity with quantum memories, which needs to be treated as a potential bias.",
+        "attribution": "Cirac, Zoller, Kimble and Mabuchi proposed quantum state transfer and networks; Duan-Lukin-Cirac-Zoller (DLCZ) and later memory experiments followed. The roles of experimental memory groups (including rare-earth-ion crystal approaches) are not part of the supplied credit, and attribution of experimental breakthroughs is diffuse.",
+        "maturity": "Maturity is partial: the concepts are well established and elements have been demonstrated, but practical quantum networks and repeaters are still under development.",
+        "uncertainties": [
+          "Disclosure: my own research is in quantum memories in rare-earth crystals, so my judgment may be biased.",
+          "Experimental credit is diffuse across many groups, so a clear laureate trio is hard.",
+          "Cirac and Zoller recur across several candidates and may be needed elsewhere.",
+          "Premature compared with more established candidates."
+        ]
+      }
+    }
+  ]
+}

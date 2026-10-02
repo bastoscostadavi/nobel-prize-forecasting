@@ -1,14 +1,10 @@
 # Nobel Prize Forecasting 2026
 
-Forecast the 2026 Nobel Prizes by giving simulated committees a list of candidates, then repeating their deliberations and votes to compare the winning slates.
+We simulate Nobel Prize committee decisions to forecast the 2026 winners.
 
 ## Committee discussion
 
-**Candidate list → committee discussion → vote → winning slate.**
-
-Each candidate entry identifies a discovery or contribution and the people who could receive the prize for it. One agent per committee member, conditioned on that member's profile, reviews the list independently. The agents form a shortlist, hold two written discussion rounds with a chair synthesis between them, and cast private ranked ballots. A majority selects the winner; otherwise, an instant runoff transfers votes until a proposal wins. Repeat the committee simulation on the same candidate list to estimate each slate's share of wins. Save the assessments, discussion, ballots, and decisions so the results can be audited. The simulation ends at the committee decision, omitting subsequent ratification.
-
-See the [committee protocol](docs/PHYSICS_PHASE2.md) for the implemented deliberation and voting rules.
+One agent per committee member reviews the candidates, participates in two discussion rounds, and casts a private ranked ballot. A majority decides the winner, with an instant runoff when needed. The [protocol](docs/PHYSICS_PHASE2.md) documents the voting rules and saved records.
 
 ![Committee discussion workflow: private opening rankings, support-based shortlisting, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and a saved decision](docs/figures/committee-discussion-workflow-v2.png)
 
@@ -16,24 +12,26 @@ See the [committee protocol](docs/PHYSICS_PHASE2.md) for the implemented deliber
 
 ### Physics
 
-![Aggregated Physics committee distribution across GPT-5.6 Terra and Claude Sonnet 5.5, with v1 and v2 profiles](docs/figures/physics-committee-aggregate-distribution.png)
+![Physics results](docs/figures/physics-committee-aggregate-distribution.png)
 
-This is the distribution obtained by aggregating **all 240 decisions from the four primary committee experiments**: GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles. Each experiment contributes 60 decisions; one-shot predictions are excluded. **Katori–Ye wins 202/240 decisions (84.2%)**.
+#### Proposed recognition
 
-The saved deliberations suggest two reasons for this concentration:
+- **Hidetoshi Katori and Jun Ye** for optical lattice atomic clocks and precision timekeeping.
+- **Charles L. Kane, Eugene J. Mele, and Laurens W. Molenkamp** for the theoretical prediction and experimental discovery of topological insulators and the quantum spin Hall effect.
+- **Allan H. MacDonald, Pablo Jarillo-Herrero, and Rafi Bistritzer** for magic-angle twisted bilayer graphene and moiré flat-band quantum matter.
+- **Harald Rose, Maximilian Haider, and Ondrej L. Krivanek** for aberration correction in electron microscopy, enabling sub-ångström imaging.
+- **Michael Berry and Yakir Aharonov** for geometric phases and the role of electromagnetic potentials in quantum interference.
+- **Ignacio Cirac, Peter Zoller, and Rainer Blatt** for quantum computation and simulation with trapped ions.
+- **Jocelyn Bell Burnell** for the discovery of pulsars.
+- **Alexandre Blais, Andreas Wallraff, and Robert J. Schoelkopf** for circuit quantum electrodynamics.
 
-1. **A consistent case from the atomic-physics members.** The simulated Stefan Kröll and Eva Lindroth have research backgrounds overlapping the atomic and precision-measurement physics behind Katori–Ye. They usually rank clocks highly and converge on a consistent case for the achievement's maturity, reproducibility, and attribution.
-2. **A broadly acceptable second choice.** Clocks provide a natural fallback when other members' preferred options divide support among topological insulators, magic-angle graphene, IceCube, and other candidates. Their established performance and relatively clear two-person attribution help attract agreement across those divisions, although the discussions still raise questions about timing and credit.
+In the simulations, Kröll and Lindroth make a consistent case for clocks, drawing on overlapping expertise. Clocks also attract second-choice support as other members split among topological insulators, magic-angle graphene, IceCube, and other options.
 
-These are interpretations of the simulated discussions, rather than claims about the real committee's preferences.
+#### Simulation variants
 
-#### Breakdown by model and profile
+The result above pools four experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 240 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists.
 
-Each of the four distributions below already aggregates substantial variation: **two independently drafted nominator lists × six nomination runs per list × five fresh committee simulations per candidate list = 60 decisions per experiment**. Each plot therefore combines 12 candidate lists and repeated deliberations, rather than showing a single committee conversation.
-
-**v1** uses the original `profile_v1.md` files, including inferred personality traits and evaluative preferences. For **v2**, we rewrote the profiles as more neutral, factual `profile_v2.md` files, retaining documented expertise while removing speculative personality and prize-selection preferences. The aim was to bias the simulated committees less through the profile text. The candidate lists and deliberation protocol stay the same.
-
-Neutral profiles (**v2**) appear first, followed by original profiles (**v1**); OpenAI is on the left and Claude on the right.
+**v1** uses the original member profiles. **v2** keeps documented expertise but removes inferred personality traits and selection preferences, aiming to bias the committees less. Candidate lists and discussion rules are unchanged. The plots show v2 first, then v1.
 
 <table>
   <tr>
@@ -46,9 +44,9 @@ Neutral profiles (**v2**) appear first, followed by original profiles (**v1**); 
   </tr>
 </table>
 
-#### One-shot comparison
+#### Appendix: one-shot comparison
 
-For comparison, the final two graphs show **one-shot forecasts from our most advanced baseline models: GPT-6.1 Sol and Claude Opus 5.5**. Each model receives only the fixed question asking who will win the 2026 Nobel Prize in Physics, with no candidate list, member profiles, or committee discussion. Each distribution aggregates 60 predictions and is kept separate from the committee aggregate above.
+For comparison, we asked **GPT-6.1 Sol and Claude Opus 5.5** who would win, without simulating a committee. Each graph summarizes 60 independent answers.
 
 <table>
   <tr>
@@ -57,35 +55,27 @@ For comparison, the final two graphs show **one-shot forecasts from our most adv
   </tr>
 </table>
 
-#### Proposed recognition
+Additional slates appearing in this comparison:
 
-- **Hidetoshi Katori and Jun Ye** for optical lattice atomic clocks and precision timekeeping.
-- **Charles L. Kane, Eugene J. Mele, and Laurens W. Molenkamp** for the theoretical prediction and experimental discovery of topological insulators and the quantum spin Hall effect.
-- **Michael Berry and Yakir Aharonov** for geometric phases and the role of electromagnetic potentials in quantum interference.
 - **John Pendry and David R. Smith** for electromagnetic metamaterials, negative refraction, and transformation optics.
 - **John Pendry, David R. Smith, and Ulf Leonhardt** for metamaterials and transformation optics, including optical cloaking proposals.
 - **John Pendry, David R. Smith, and Nader Engheta** for metamaterials and engineered electromagnetic response.
-- **Allan H. MacDonald, Pablo Jarillo-Herrero, and Rafi Bistritzer** for magic-angle twisted bilayer graphene and moiré flat-band quantum matter.
-- **Harald Rose, Maximilian Haider, and Ondrej L. Krivanek** for aberration correction in electron microscopy, enabling sub-ångström imaging.
-- **Ignacio Cirac, Peter Zoller, and Rainer Blatt** for quantum computation and simulation with trapped ions.
 - **Ignacio Cirac, Immanuel Bloch, and Peter Zoller** for quantum simulation of many-body physics with ultracold atoms in optical lattices.
-- **Jocelyn Bell Burnell** for the discovery of pulsars.
-- **Alexandre Blais, Andreas Wallraff, and Robert J. Schoelkopf** for circuit quantum electrodynamics.
 - **Eli Yablonovitch and Sajeev John** for photonic crystals and photonic band gaps that control light propagation.
 - **Eli Yablonovitch, Sajeev John, and John Pendry** for photonic band-gap crystals and metamaterials for controlling light.
 
 ### Chemistry
 
-Committee results pending; simulations will start from a supplied candidate list.
+Results pending.
 
 ### Physiology or Medicine
 
-Candidate lists prepared; committee results pending.
+Results pending.
 
 ### Economic Sciences
 
-Committee results pending; simulations will start from a supplied candidate list.
+Results pending.
 
 ### Peace
 
-Committee results pending; simulations will start from a supplied candidate list.
+Results pending.

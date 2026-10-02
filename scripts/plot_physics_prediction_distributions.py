@@ -126,7 +126,7 @@ def display_label(label: str) -> str:
 def plot(
     filename: str,
     title: str,
-    subtitle: str,
+    subtitle: str | None,
     counts: Counter[str],
     row_count: int,
 ) -> None:
@@ -134,16 +134,18 @@ def plot(
     total = sum(counts.values())
     if total == 0:
         raise ValueError(f"No predictions available for {title}")
-    height = 1.55 + 0.76 * row_count
+    header_height = 1.55 if subtitle else 1.21
+    height = header_height + 0.76 * row_count
     figure = plt.figure(figsize=(7.4, height), facecolor="white")
     # Fixed margins and paired heights make all six charts comparable.
-    axis = figure.add_axes([0.045, 0.58 / height, 0.91, (height - 1.48) / height])
+    axis = figure.add_axes([0.045, 0.58 / height, 0.91, (height - (header_height - 0.07)) / height])
     axis.set_xlim(0, 129)
     axis.set_ylim(row_count - 0.28, -0.3)
     figure.text(0.045, 1 - 0.24 / height, title, color=INK,
                 fontsize=15, fontweight="bold", va="top")
-    figure.text(0.045, 1 - 0.57 / height,
-                f"{subtitle}  ·  {total} runs", color=MUTED, fontsize=10, va="top")
+    if subtitle:
+        figure.text(0.045, 1 - 0.57 / height,
+                    f"{subtitle}  ·  {total} runs", color=MUTED, fontsize=10, va="top")
 
     for row, (label, count) in enumerate(ordered):
         probability = 100 * count / total
@@ -194,8 +196,8 @@ def main() -> None:
             committee_counts.update(counts)
     plot(
         "physics-committee-aggregate-distribution.png",
-        "Combined committee results",
-        "GPT-5.6 Terra + Claude Sonnet 5.5 · v1 + v2",
+        "Physics results",
+        None,
         committee_counts,
         len(committee_counts),
     )

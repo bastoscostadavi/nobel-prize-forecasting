@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "note": "Claude Code token usage, de-duplicated by API message ID. Includes the main Opus 5.5 session and all subagents.",
+  "sessions": [
+    "221175dc-bcf6-445f-abd0-d9974d942539"
+  ],
+  "stages": {
+    "committee_sonnet_profile_v1": {
+      "agents": 2275,
+      "input_tokens": 31440,
+      "cache_creation_input_tokens": 72991625,
+      "cache_read_input_tokens": 555926726,
+      "output_tokens": 843614,
+      "models": {
+        "<synthetic>": 0,
+        "claude-sonnet-5-5": 629793405
+      },
+      "total_tokens": 629793405
+    },
+    "committee_sonnet_profile_v2": {
+      "agents": 2312,
+      "input_tokens": 34068,
+      "cache_creation_input_tokens": 76645960,
+      "cache_read_input_tokens": 621672822,
+      "output_tokens": 1024275,
+      "models": {
+        "<synthetic>": 0,
+        "claude-sonnet-5-5": 699377125
+      },
+      "total_tokens": 699377125
+    },
+    "main_session": {
+      "agents": 0,
+      "input_tokens": 686,
+      "cache_creation_input_tokens": 3423872,
+      "cache_read_input_tokens": 92713875,
+      "output_tokens": 210057,
+      "models": {
+        "<synthetic>": 0,
+        "claude-opus-5-5": 96348490
+      },
+      "total_tokens": 96348490
+    },
+    "nominations": {
+      "agents": 1226,
+      "input_tokens": 7274,
+      "cache_creation_input_tokens": 16095755,
+      "cache_read_input_tokens": 94327676,
+      "output_tokens": 2022758,
+      "models": {
+        "<synthetic>": 0,
+        "claude-opus-5-5": 112453463
+      },
+      "total_tokens": 112453463
+    },
+    "oneshot_opus": {
+      "agents": 60,
+      "input_tokens": 242,
+      "cache_creation_input_tokens": 667927,
+      "cache_read_input_tokens": 2795835,
+      "output_tokens": 75396,
+      "models": {
+        "claude-opus-5-5": 3539400
+      },
+      "total_tokens": 3539400
+    },
+    "profiles_and_setup_subagents": {
+      "agents": 36,
+      "input_tokens": 2932,
+      "cache_creation_input_tokens": 5716393,
+      "cache_read_input_tokens": 112923218,
+      "output_tokens": 568443,
+      "models": {
+        "<synthetic>": 0,
+        "claude-opus-5-5": 119210986
+      },
+      "total_tokens": 119210986
+    }
+  },
+  "total": {
+    "input_tokens": 76642,
+    "cache_creation_input_tokens": 175541532,
+    "cache_read_input_tokens": 1480360152,
+    "output_tokens": 4744543,
+    "total_tokens": 1660722869
+  }
+}

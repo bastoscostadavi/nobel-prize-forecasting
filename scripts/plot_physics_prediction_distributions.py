@@ -176,12 +176,12 @@ def main() -> None:
     FIGURES.mkdir(parents=True, exist_ok=True)
     pairs = [
         (
-            ("physics-openai-committee-v2-distribution.png", "OpenAI committee", "Neutral profiles · v2", v2_decisions("gpt-5.6-terra-profile-v2")),
-            ("physics-claude-committee-v2-distribution.png", "Claude committee", "Neutral profiles · v2", v2_decisions("claude-profile-v2")),
+            ("physics-openai-committee-v2-distribution.png", "OpenAI committee", "Factual profiles · v2", v2_decisions("gpt-5.6-terra-profile-v2")),
+            ("physics-claude-committee-v2-distribution.png", "Claude committee", "Factual profiles · v2", v2_decisions("claude-profile-v2")),
         ),
         (
-            ("physics-openai-committee-v1-distribution.png", "OpenAI committee", "Original profiles · v1", legacy_summary(ROOT / "results/physics/terra_committee_summary.json")),
-            ("physics-claude-committee-v1-distribution.png", "Claude committee", "Original profiles · v1", legacy_summary(ROOT / "results/physics/claude_committee_summary.json")),
+            ("physics-openai-committee-v1-distribution.png", "OpenAI committee", "Profiles with inferred traits · v1", legacy_summary(ROOT / "results/physics/terra_committee_summary.json")),
+            ("physics-claude-committee-v1-distribution.png", "Claude committee", "Profiles with inferred traits · v1", legacy_summary(ROOT / "results/physics/claude_committee_summary.json")),
         ),
         (
             ("physics-openai-oneshot-distribution.png", "OpenAI one-shot", "GPT-6.1 Sol", sol_oneshot()),

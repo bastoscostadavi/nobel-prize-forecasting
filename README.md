@@ -25,13 +25,18 @@ One agent per committee member reviews the candidates, participates in two discu
 - **Jocelyn Bell Burnell** for the discovery of pulsars.
 - **Alexandre Blais, Andreas Wallraff, and Robert J. Schoelkopf** for circuit quantum electrodynamics.
 
-In the simulations, Kröll and Lindroth make a consistent case for clocks, drawing on overlapping expertise. Clocks also attract second-choice support as other members split among topological insulators, magic-angle graphene, IceCube, and other options.
+#### What the simulation analysis reveals
+
+Reviewing the saved discussions reveals two recurring patterns:
+
+1. **Aligned expertise.** Kröll and Lindroth make a consistent case for clocks, drawing on research backgrounds that overlap with Katori–Ye's work.
+2. **Broad second-choice support.** Clocks attract agreement while other members split among topological insulators, magic-angle graphene, IceCube, and other options.
 
 #### Simulation variants
 
 The result above pools four experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 240 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists.
 
-**v1** uses the original member profiles. **v2** keeps documented expertise but removes inferred personality traits and selection preferences, aiming to bias the committees less. Candidate lists and discussion rules are unchanged. The plots show v2 first, then v1.
+**v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then v1.
 
 <table>
   <tr>

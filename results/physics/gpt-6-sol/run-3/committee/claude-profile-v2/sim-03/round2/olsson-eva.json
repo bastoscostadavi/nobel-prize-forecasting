@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 3,
+  "simulation_id": "sim-03",
+  "member_id": "olsson-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B056",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and development of the optical lattice clock, in which magic-wavelength trapping of many neutral atoms enabled optical frequency standards with fractional uncertainties near 1e-18."
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "I have moved from B007 to B056 as a sole prize, and the reason is about the experimental chain more than about the count of supporters. The lattice clock is a single, bounded invention: a magic-wavelength lattice cancels the trapping Stark shift while Lamb-Dicke confinement suppresses Doppler and recoil effects, so a large ensemble of neutral atoms can be interrogated on a narrow optical transition. That is a different mechanism from the frequency comb (a readout tool, 2005) and from control of single trapped ions (2012), which answers the chair's first question for me. Confirmation here is the kind I trust as an experimentalist: independent laboratories operate and compare such clocks at about 1e-18 and have surpassed the first results, and the clocks are used for relativistic geodesy and tests of fundamental constants. The credit divides naturally between Katori for the concept and first realisation and Ye for taking stability and accuracy to the extreme, with no forced third name. I would apply my 'discovery or invention, not lifetime achievement' reading directly: two identifiable people are responsible for the original work.",
+    "case_against": "I still think the lattice clock refines an existing capability, atomic timekeeping, more than it opens a new class of matter, and I weigh that less heavily than in round 1 but not at zero. The 2005 and 2012 prizes make some members read it as a continuation of a recognised metrology line. Ludlow, Lemonde, Oates and ion-clock groups are outside the two names. The priority sequence between Katori's concept and the first lattice-clock demonstrations is, for me and for several others, recalled from general knowledge and not checked against a documented source, so the exact split in the citation is a risk. The SI redefinition of the second is pending, and a timing argument for waiting exists even though I do not think the physics needs it.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll and Pearce argue that the lattice clock is distinct from the 2005 comb and 2012 ion-control prizes because it removes the lattice Stark shift while trapping many neutral atoms, which is a different physical mechanism and regime.",
+        "response": "In round 1 I called the clock a refinement of existing timekeeping. After your reply I accept that this understates it. The comb is an enabling readout tool, and ion clocks interrogate one system at a time with different limits. Trapping thousands of atoms at a magic wavelength changes what limits stability and accuracy, which is an invention in the proper sense. I still weigh its consequence for the structure of physics below that of a new organising principle, but that is a ranking of impact, not a reason to doubt the invention. I would ask that the citation name the lattice and the neutral-atom ensemble so the distinction from 2005 and 2012 is visible."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson holds that the Bernevig-Hughes-Zhang proposal told the experimentalists which HgTe quantum well thickness to grow, but that the concept and invariant are Kane and Mele's, so a citation centred on the concept and its first confirmation is acceptable even with a real unfairness to BHZ.",
+        "response": "Your own wording is what moved me. If the BHZ proposal told Molenkamp's group what to grow, then the observation I credited as the experimental confirmation was not independent of it, and a citation that names Molenkamp for the measurement while leaving out the proposal that guided it misdescribes how the result arose. Zhang's death means the committee cannot repair this, and a three-name limit leaves no room for Bernevig and Hughes either. I do not call B007 unprizeworthy, and I keep it as my first alternative, but I can no longer defend it as the one place where I accept a known credit defect when a candidate without one is available."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, as chair, supports B056 but says he cannot verify priority details independently and relies on recollection, and he asks the committee not to let the pending SI redefinition carry the case.",
+        "response": "I share both cautions. I recall that Katori proposed the magic-wavelength concept and that Ye's group drove strontium performance to the 1e-18 regime, but I have not verified the dates, and I agree with Lindroth that this should be checked from published records before the final citation is fixed. I would also keep the SI redefinition out of the citation text: it is a consequence of the invention, not a reason for the award. If the priority record turned out to be materially different from what we recall, that would change my view on the two-name split, not on the invention."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson argues that the omitted Ludlow and Lemonde contributions are the normal long tail of a prize, whereas the omitted theorists in B007 were arguably indispensable to the credited experiment.",
+        "response": "I made that asymmetry argument in round 1 and I still hold it, and it is now the basis of my change. The later lattice-clock groups built on and compared the clocks of the two originators; they did not supply a prediction without which the first experiment would not have been designed. I do not claim the line is perfectly sharp, since Ye's group also contributed to laser coherence and collective-effect control, and I would not hide that in the citation. On B012 I stay where I was: the pairing mechanism and phase diagram are still debated, so I would wait."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig wants the committee to be explicit that the citation honours the lattice-clock concept and its demonstrated accuracy, not all optical clocks, so that ion-clock and other lattice-clock groups are not misrepresented.",
+        "response": "I agree and have written the citation accordingly: it names the invention and development of the optical lattice clock and the magic-wavelength mechanism, and does not speak of optical clocks or precision spectroscopy in general. I also agree that widening to a third name is not supported by the evidence we have, so I propose exactly two names."
+      }
+    ],
+    "uncertainties": [
+      "Priority and credit between Katori's magic-wavelength concept and the first lattice-clock demonstrations, and the weight of Ye's group in early demonstrations, are recalled from general knowledge and not verified against documented sources.",
+      "Whether the committee, on balance, sees the clock as distinct enough from the 2005 and 2012 prizes; I now think it is, but this is a judgement others may weigh differently.",
+      "Whether the Bernevig-Hughes-Zhang proposal was truly indispensable to the HgTe observation is also from memory; if the committee found it was not, B007 would return to the top of my list.",
+      "Whether the committee should wait for the SI redefinition of the second, which I think is not required but is a reasonable view."
+    ],
+    "conflict_note": "No specific conflict. I have no documented link to Katori, Ye, Kane, Mele, Molenkamp or the B012 names, and I know none of them as collaborators. I share a Chalmers affiliation with Goran Johansson, which is not a connection to any shortlisted candidate. My microscopy field is not represented on the shortlist, and my experimental background is not in atomic or precision physics, so I rely on colleagues with atomic-physics expertise for technical details of the clock."
+  }
+}

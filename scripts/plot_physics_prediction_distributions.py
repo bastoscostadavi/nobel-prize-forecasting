@@ -292,8 +292,9 @@ def main() -> None:
         ),
     ]
     luna = luna_decisions()
+    # Luna is shown separately; the aggregate pools only the four Terra/Sonnet arms.
     committee_counts = aggregate_counts(
-        [arm[3] for pair in pairs[:2] for arm in pair] + [luna]
+        [arm[3] for pair in pairs[:2] for arm in pair]
     )
     plot(
         "physics-committee-aggregate-distribution.png",

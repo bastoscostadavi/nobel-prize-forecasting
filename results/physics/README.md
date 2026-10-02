@@ -2,7 +2,7 @@
 
 ## Simulation variants
 
-The [Physics result](../../README.md#physics) pools five experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles, plus GPT-6 Luna with v1 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 300 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists. **v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then v1, including Luna.
+The [Physics result](../../README.md#physics) pools four experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 240 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists. **v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then v1.
 
 <table>
   <tr>
@@ -14,6 +14,10 @@ The [Physics result](../../README.md#physics) pools five experiments: **GPT-5.6 
     <td align="center"><img src="../../docs/figures/physics-claude-committee-v1-distribution.png" alt="Claude committee profile v1 probability distribution" width="470"></td>
   </tr>
 </table>
+
+## Luna comparison
+
+GPT-6 Luna uses v1 profiles for 60 committee decisions. These results are shown separately from the aggregate.
 
 ![GPT-6 Luna committee v1 probability distribution](../../docs/figures/physics-luna-committee-v1-distribution.png)
 

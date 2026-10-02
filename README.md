@@ -1,121 +1,69 @@
 # Nobel Prize Forecasting 2026
 
-Forecast the 2026 Nobel Prizes by **simulating the nominations and the committee deliberations** and aggregating the outcomes over many runs.
+Forecast the 2026 Nobel Prizes by giving simulated committees a list of candidates, then repeating their deliberations and votes to compare the winning slates.
 
-## Idea
+## Committee discussion
 
-The simulation mirrors the real process in two stages.
+**Candidate list → committee discussion → vote → winning slate.**
 
-1. **Nomination.** 100 nominator agents, each conditioned on a real physicist's `profile.md`, submit one nomination each. Nominations are merged into a candidate list.
-2. **Committee.** One agent per real committee member, each conditioned on a versioned member profile (`profile_v1.md` or `profile_v2.md`), reviews the complete merged longlist, deliberates and votes. The simulation treats the committee decision as the outcome and omits the later Physics Class and Academy ratification.
+Each candidate entry identifies a discovery or contribution and the people who could receive the prize for it. One agent per committee member, conditioned on that member's profile, reviews the list independently. The agents form a shortlist, hold two written discussion rounds with a chair synthesis between them, and cast private ranked ballots. A majority selects the winner; otherwise, an instant runoff transfers votes until a proposal wins.
 
-Profiles (`agent-data/PROFILE_TEMPLATE.md`, `agent-data/NOMINATOR_PROFILE_TEMPLATE.md`) describe expertise and taste but deliberately contain no nominations or predictions.
+Repeat the committee simulation on the same candidate list to estimate each slate's share of wins. Save the assessments, discussion, ballots, and decisions so the results can be audited. The simulation ends at the committee decision, omitting subsequent ratification.
 
-Each stage is repeated over several runs; the share of runs a candidate wins is its forecast probability. Scope: Physics first, then Chemistry, Medicine, Economics, Peace (Literature dropped: its real decision is a second vote by the full Swedish Academy).
+Other domains will use supplied candidate lists directly, without a simulated nomination stage. The existing Physics experiments retain their earlier nomination-derived candidate lists. The figure illustrates the current eight-member Physics committee implementation; committee membership and majority thresholds depend on the domain.
 
-```
-nominator agents ──► nominations ──► candidate list ──► committee agents ──► deliberation ──► ballot ──► winner
-                                                                                                         │
-                                                         × runs ──► win probabilities ◄──────────────────┘
-```
+The Physics plots compare neutral profiles (**v2**), original profiles (**v1**), and separate **one-shot baselines**, each with 60 runs. These are empirical simulation frequencies, conditional on the inputs and model, rather than calibrated probabilities of the real outcome. The listings describe proposed recognition topics within the experiments.
 
-## Committee discussion workflow
+See the [committee protocol](docs/PHYSICS_PHASE2.md) for the implemented deliberation and voting rules.
 
-![Committee discussion workflow showing private opening rankings, support-based shortlisting, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and the saved decision record](docs/figures/committee-discussion-workflow-v2.svg)
+![Committee discussion workflow: private opening rankings, support-based shortlisting, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and a saved decision](docs/figures/committee-discussion-workflow-v2.png)
 
-Every opening assessment, member statement, chair summary, proposal slate,
-private ballot, runoff transfer, and final decision is saved as a versioned JSON
-artifact. The complete protocol and schemas are documented in
-[`docs/PHYSICS_PHASE2.md`](docs/PHYSICS_PHASE2.md).
+## Results
 
-## Categories
+### Physics
 
-| Folder | Prize | Deciding body (real world) |
-|---|---|---|
-| `agent-data/physics/` | Physics | Nobel Committee for Physics → Royal Swedish Academy of Sciences |
-| `agent-data/chemistry/` | Chemistry | Nobel Committee for Chemistry → Royal Swedish Academy of Sciences |
-| `agent-data/medicine/` | Physiology or Medicine | Nobel Committee → Nobel Assembly at Karolinska Institutet |
-| `agent-data/literature/` | Literature | Nobel Committee → Swedish Academy |
-| `agent-data/peace/` | Peace | Norwegian Nobel Committee |
-| `agent-data/economics/` | Economic Sciences (Riksbank Prize) | Committee for the Prize → Royal Swedish Academy of Sciences |
+<table>
+  <tr>
+    <td align="center"><img src="docs/figures/physics-openai-committee-v2-distribution.png" alt="OpenAI committee profile v2 probability distribution" width="470"></td>
+    <td align="center"><img src="docs/figures/physics-claude-committee-v2-distribution.png" alt="Claude committee profile v2 probability distribution" width="470"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/figures/physics-openai-committee-v1-distribution.png" alt="OpenAI committee profile v1 probability distribution" width="470"></td>
+    <td align="center"><img src="docs/figures/physics-claude-committee-v1-distribution.png" alt="Claude committee profile v1 probability distribution" width="470"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/figures/physics-openai-oneshot-distribution.png" alt="OpenAI one-shot probability distribution" width="470"></td>
+    <td align="center"><img src="docs/figures/physics-claude-oneshot-distribution.png" alt="Claude one-shot probability distribution" width="470"></td>
+  </tr>
+</table>
 
-> Modeling choice: in most categories a small committee proposes and a larger body formally decides. The baseline simulation treats the committee as the effective deciding body and omits the ratifying stage. This is an explicit simplification, not a claim that the committee is the legal prize-awarder.
+- **Hidetoshi Katori and Jun Ye** for optical lattice atomic clocks and precision timekeeping.
+- **Charles L. Kane, Eugene J. Mele, and Laurens W. Molenkamp** for the theoretical prediction and experimental discovery of topological insulators and the quantum spin Hall effect.
+- **Michael Berry and Yakir Aharonov** for geometric phases and the role of electromagnetic potentials in quantum interference.
+- **John Pendry and David R. Smith** for electromagnetic metamaterials, negative refraction, and transformation optics.
+- **John Pendry, David R. Smith, and Ulf Leonhardt** for metamaterials and transformation optics, including optical cloaking proposals.
+- **John Pendry, David R. Smith, and Nader Engheta** for metamaterials and engineered electromagnetic response.
+- **Allan H. MacDonald, Pablo Jarillo-Herrero, and Rafi Bistritzer** for magic-angle twisted bilayer graphene and moiré flat-band quantum matter.
+- **Harald Rose, Maximilian Haider, and Ondrej L. Krivanek** for aberration correction in electron microscopy, enabling sub-ångström imaging.
+- **Ignacio Cirac, Peter Zoller, and Rainer Blatt** for quantum computation and simulation with trapped ions.
+- **Ignacio Cirac, Immanuel Bloch, and Peter Zoller** for quantum simulation of many-body physics with ultracold atoms in optical lattices.
+- **Jocelyn Bell Burnell** for the discovery of pulsars.
+- **Alexandre Blais, Andreas Wallraff, and Robert J. Schoelkopf** for circuit quantum electrodynamics.
+- **Eli Yablonovitch and Sajeev John** for photonic crystals and photonic band gaps that control light propagation.
+- **Eli Yablonovitch, Sajeev John, and John Pendry** for photonic band-gap crystals and metamaterials for controlling light.
 
-## Repository layout
+### Chemistry
 
-```
-agent-data/<category>/
-  committee/<member-slug>/   one folder per committee member (profile_v1.md, profile_v2.md)
-  nominators/<list-id>/      one folder per nominator list, named after the model that drafted it
-    nominators.csv           the 100 nominators
-    list_note.md             how the list was drafted
-    <slug>/profile.md        one profile per nominator (NOMINATOR_PROFILE_TEMPLATE.md)
-scripts/                     orchestration
-results/<category>/<list-id>/
-  run-<n>/nominations/       raw nominations from one nomination run
-  run-<n>/candidates.csv     merged candidate list for that run
-  run-<n>/committee/<model>/ full committee simulations, transcripts and decisions
-  summary.csv                win share per candidate across runs
-results/physics/oneshot/     global zero-context comparison predictions
-```
+Committee results pending; simulations will start from a supplied candidate list.
 
-## Pipeline
+### Physiology or Medicine
 
-Agents are run through a documented orchestration workflow, each given only the evidence needed for its role. Model identifiers, prompts and reasoning settings are recorded with the outputs.
+Candidate lists prepared; committee results pending.
 
-1. **Nominator list:** a model drafts 100 nominators matching the eligible nominator groups, countries and subfields (`scripts/generate_nominator_list.py`, or a subagent). Physics has lists drafted by Claude Opus 5.5 and GPT-6 Sol.
-2. **Nominator profiles:** each nominator gets a web-researched `profile.md` (checked alive and current affiliation; biography, research footprint, persona; no nominations or predictions).
-3. **Nomination:** 6 runs per nominator list × 100 nominator subagents (`scripts/nominations.workflow.js`). Each run's nominations are consolidated without frequency-based exclusion into `candidates.json` and `candidates.csv`.
-4. **Committee:** for each complete run, persona-conditioned member agents give private opening rankings, form a support-based union shortlist, hold two written discussion rounds, and rank a fixed proposal slate by secret ballot. Candidate order is deterministically shuffled and nomination-frequency signals are hidden. Five votes decide; otherwise a fully recorded instant runoff is used. Physics runs five Claude and five GPT-5.6 Terra (`high`) committees for each of 12 nomination runs: 120 primary full committee simulations. A secondary sensitivity arm repeats the 60 OpenAI committees with GPT-6 Luna at `high` reasoning while holding the nomination lists and protocol fixed.
-5. **Zero-context baseline:** 60 independent GPT-6.1 Sol (`high`) requests each receive only the fixed question asking who will win the 2026 Nobel Prize in Physics. They do not see nomination runs, candidate lists, profiles, or committee outputs, and are analyzed separately from the committee simulations.
+### Economic Sciences
 
-The versioned Physics phase-2 methodology is in `docs/PHYSICS_PHASE2.md`.
-The arm allocation, output paths, exclusions, and comparison rules are in
-`docs/PHYSICS_EXPERIMENT_DESIGN.md`.
+Committee results pending; simulations will start from a supplied candidate list.
 
-Committee profile files are versioned in place. `profile_v1.md` preserves the
-profiles used by the completed experiments; `profile_v2.md` is the neutral,
-factual sensitivity version. The isolated OpenAI runner defaults to v2 and can
-select v1 with `PHYSICS_COMMITTEE_PROFILE_VERSION=v1`. The Claude workflow
-accepts `profile_version: "v1"` or `"v2"` and defaults to v2.
+### Peace
 
-## Current Physics results
-
-The GPT-5.6 Terra committee arm is complete: 60 validated simulations, with
-full discussions and runtime audit trails retained. Hidetoshi Katori and Jun
-Ye won 59 simulations; Harald Rose, Maximilian Haider, and Ondrej L. Krivanek
-won one. See `results/physics/terra_committee_summary.json` for aggregate
-counts and `results/physics/terra_committee_summary.csv` for one row per
-simulation.
-
-The GPT-6 Luna (`high`) sensitivity arm is also complete: 60/60 simulations
-validate, with every discussion, ballot, decision, accepted response, and
-failed/rejected attempt retained. Katori and Ye won 34 (56.7%), compared with
-59 (98.3%) under Terra. After normalizing three obvious saved-name variants,
-Luna produced 21 distinct winner configurations; Kane–Mele–Molenkamp and
-Berry–Aharonov were next at three wins each. The -41.7 percentage-point change
-is significant in both a simulation-level Fisher exact test
-(`p = 1.61e-8`) and an exact paired sign-flip test treating the 12 nomination
-runs as clusters (`p = 0.00195`). See
-`results/physics/luna_committee_summary.json` and
-`results/physics/openai_committee_model_comparison.md`. The two model arms use
-independent deterministic candidate-order shuffles, so this is a model-arm
-sensitivity comparison rather than an exact prompt-token pair.
-
-The Claude Sonnet 5.5 (`high`) committee arm is complete: 60/60 simulations
-validate. Katori–Ye won 52, Kane–Mele–Molenkamp won six, and
-MacDonald–Jarillo-Herrero–Bistritzer won two. All 30 committees using the
-GPT-drafted nomination lists selected Katori–Ye; the Claude-drafted lists
-produced the 22/6/2 split. See `results/physics/claude_committee_summary.json`
-and `results/physics/claude_committee_summary.csv`.
-
-The separate GPT-6.1 Sol baseline is also complete. All 60 accepted requests
-received only the fixed question in step 5 above. Its post-hoc transcription
-summary is in
-`results/physics/oneshot/gpt-6.1-sol/posthoc_transcription_summary.json`.
-
-The GPT-6 Luna sensitivity arm uses the same 12 candidate lists, five fresh
-committees per list, and the same evidence boundaries and voting rules as the
-Terra arm. Outputs are isolated under each run's
-`committee/gpt-6-luna/sim-01..05/` directory, with raw execution audits under
-`results/physics/luna_committee_runtime/`.
+Committee results pending; simulations will start from a supplied candidate list.

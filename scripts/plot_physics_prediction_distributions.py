@@ -291,18 +291,18 @@ def main() -> None:
             ("physics-claude-oneshot-distribution.png", "Claude one-shot", "Claude Opus 5.5", claude_oneshot()),
         ),
     ]
-    luna = luna_decisions()
     # Luna is shown separately; the aggregate pools only the four Terra/Sonnet arms.
     committee_counts = aggregate_counts(
         [arm[3] for pair in pairs[:2] for arm in pair]
     )
     plot(
-        "physics-committee-aggregate-distribution.png",
+        "physics-terra-sonnet-aggregate-distribution.png",
         "Physics results",
         None,
         committee_counts,
         len(committee_counts),
     )
+    luna = luna_decisions()
     plot(
         "physics-luna-committee-v1-distribution.png",
         "GPT-6 Luna committee",

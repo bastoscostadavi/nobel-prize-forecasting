@@ -12,7 +12,7 @@ One agent per committee member reviews the candidates, participates in two discu
 
 ### Physics
 
-![Physics results](docs/figures/physics-committee-aggregate-distribution.png)
+![Physics results](docs/figures/physics-terra-sonnet-aggregate-distribution.png)
 
 #### Proposed recognition
 

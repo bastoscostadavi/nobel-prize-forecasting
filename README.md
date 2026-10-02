@@ -21,7 +21,7 @@ nominator agents ──► nominations ──► candidate list ──► commit
 
 ## Committee discussion workflow
 
-![Committee discussion workflow showing private opening rankings, support-based shortlisting, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and the saved decision record](docs/figures/committee-discussion-workflow.svg)
+![Committee discussion workflow showing private opening rankings, support-based shortlisting, two discussion rounds, chair synthesis, proposal construction, private final ballots, instant-runoff voting, and the saved decision record](docs/figures/committee-discussion-workflow-v2.svg)
 
 Every opening assessment, member statement, chair summary, proposal slate,
 private ballot, runoff transfer, and final decision is saved as a versioned JSON

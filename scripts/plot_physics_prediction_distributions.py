@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Render the aggregate and six Physics prediction distributions in the README."""
+"""Render the aggregate and individual Physics prediction distributions in the README."""
 
 from __future__ import annotations
 
 import json
+import textwrap
 from collections import Counter
 from pathlib import Path
 
@@ -60,8 +61,67 @@ def labels_for(names: list[str]) -> str:
         "Eli Yablonovitch": "Yablonovitch",
         "Sajeev John": "John",
         "Immanuel Bloch": "Bloch",
+        'Alexei Kitaev': 'Kitaev',
+        'Andrew M. Steane': 'Steane',
+        'Peter W. Shor': 'Shor',
+        'Michel Della Negra': 'Della Negra',
+        'Peter Jenni': 'Jenni',
+        'Tejinder Virdee': 'Virdee',
+        'Alessandra Buonanno': 'Buonanno',
+        'Frans Pretorius': 'Pretorius',
+        'Thibault Damour': 'Damour',
+        'Alexander A. Belavin': 'Belavin',
+        'Alexander B. Zamolodchikov': 'Zamolodchikov',
+        'Alexander M. Polyakov': 'Polyakov',
+        'Alfred Y. Cho': 'Cho',
+        'Federico Capasso': 'Capasso',
+        'Jérôme Faist': 'Faist',
+        'Artur K. Ekert': 'Ekert',
+        'Charles H. Bennett': 'Bennett',
+        'Gilles Brassard': 'Brassard',
+        'Bart J. van Wees': 'van Wees',
+        'David A. Wharam': 'Wharam',
+        'Chang C. Tsuei': 'Tsuei',
+        'Dale J. Van Harlingen': 'Van Harlingen',
+        'John R. Kirtley': 'Kirtley',
+        'Charles L. Bennett': 'Bennett',
+        'David N. Spergel': 'Spergel',
+        'Lyman A. Page Jr.': 'Page',
+        'Christophe Salomon': 'Salomon',
+        'John E. Thomas': 'Thomas',
+        'Rudolf Grimm': 'Grimm',
+        'John D. Joannopoulos': 'Joannopoulos',
+        'John G. Baker': 'Baker',
+        'Manuela Campanelli': 'Campanelli',
+        'Knut Urban': 'Urban',
+        'Peter F. Moulton': 'Moulton',
+        'Ursula Keller': 'Keller',
+        'Wilson Sibbett': 'Sibbett',
     }
     return "–".join(surname.get(name, name) for name in names)
+
+
+def luna_decisions() -> Counter[str]:
+    from compare_openai_committee_models import configuration, load, LUNA_PATH
+
+    data = load(LUNA_PATH)
+    counts = Counter(labels_for(configuration(record)) for record in data["decisions"])
+    if sum(counts.values()) != 60 or len(counts) != 21:
+        raise ValueError("Expected 60 Luna decisions and 21 normalized slates")
+    return counts
+
+
+def aggregate_counts(arms: list[Counter[str]]) -> Counter[str]:
+    """Merge identical slates regardless of saved laureate order."""
+    labels: dict[tuple[str, ...], str] = {}
+    combined: Counter[str] = Counter()
+    for counts in arms:
+        if sum(counts.values()) != 60:
+            raise ValueError("Expected 60 decisions per committee experiment")
+        for label, count in counts.items():
+            signature = tuple(sorted(label.split("–")))
+            combined[labels.setdefault(signature, label)] += count
+    return combined
 
 
 def legacy_summary(path: Path) -> Counter[str]:
@@ -120,7 +180,8 @@ def display_label(label: str) -> str:
         return "MacDonald + Jarillo-Herrero\n+ Bistritzer"
     if label == "Yablonovitch–John–Pendry":
         return "Yablonovitch + John + Pendry"
-    return " + ".join(parts)
+    return textwrap.fill(" + ".join(parts), width=40,
+                         break_long_words=False, break_on_hyphens=False)
 
 
 def plot(
@@ -134,6 +195,9 @@ def plot(
     total = sum(counts.values())
     if total == 0:
         raise ValueError(f"No predictions available for {title}")
+    if row_count > 12:
+        plot_wide(filename, title, subtitle, counts)
+        return
     header_height = 1.55 if subtitle else 1.21
     height = header_height + 0.76 * row_count
     figure = plt.figure(figsize=(7.4, height), facecolor="white")
@@ -172,6 +236,45 @@ def plot(
     plt.close(figure)
 
 
+def plot_wide(filename: str, title: str, subtitle: str | None,
+              counts: Counter[str]) -> None:
+    """Use two columns for distributions with many low-frequency slates."""
+    ordered = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    total = sum(counts.values())
+    rows = (len(ordered) + 1) // 2
+    header_height = 1.55 if subtitle else 1.21
+    height = header_height + 0.76 * rows
+    figure = plt.figure(figsize=(14.8, height), facecolor="white")
+    figure.text(0.025, 1 - 0.24 / height, title,
+                fontsize=19, fontweight="bold", color=INK, va="top")
+    if subtitle:
+        figure.text(0.025, 1 - 0.59 / height,
+                    f"{subtitle} · {total} runs", fontsize=11, color=MUTED, va="top")
+    for column in range(2):
+        axis = figure.add_axes([0.025 + column * 0.5, 0.58 / height,
+                               0.45, (height - (header_height - 0.07)) / height])
+        axis.set_xlim(0, 129)
+        axis.set_ylim(rows - 0.28, -0.3)
+        for row, (label, count) in enumerate(ordered[column * rows:(column + 1) * rows]):
+            probability = 100 * count / total
+            axis.text(0, row - 0.035, display_label(label), color=INK, fontsize=11,
+                      va="center", linespacing=1.15)
+            axis.barh(row + 0.32, 100, height=0.13, color="#F0F3F5")
+            axis.barh(row + 0.32, probability, height=0.13,
+                      color=SLATE_COLORS.get(label, "#8C9BA6"))
+            axis.text(129, row + 0.015, f"{probability:.1f}%", color=INK,
+                      fontsize=12, fontweight="bold", ha="right", va="center")
+            axis.text(129, row + 0.31, f"{count} / {total}", color=MUTED,
+                      fontsize=9, ha="right", va="center")
+        axis.set_yticks([])
+        axis.set_xticks([0, 25, 50, 75, 100], ["0", "25", "50", "75", "100%"])
+        axis.tick_params(axis="x", colors=MUTED, length=0, pad=8, labelsize=9)
+        axis.spines[["top", "right", "bottom", "left"]].set_visible(False)
+        axis.set_xlabel("Share of runs", color=MUTED, fontsize=10, labelpad=9)
+    figure.savefig(FIGURES / filename, dpi=180, facecolor="white")
+    plt.close(figure)
+
+
 def main() -> None:
     FIGURES.mkdir(parents=True, exist_ok=True)
     pairs = [
@@ -188,18 +291,23 @@ def main() -> None:
             ("physics-claude-oneshot-distribution.png", "Claude one-shot", "Claude Opus 5.5", claude_oneshot()),
         ),
     ]
-    # Pool the four primary committee arms equally: 60 decisions per arm.
-    # One-shot baselines and the separate Luna sensitivity arm are excluded.
-    committee_counts: Counter[str] = Counter()
-    for pair in pairs[:2]:
-        for _, _, _, counts in pair:
-            committee_counts.update(counts)
+    luna = luna_decisions()
+    committee_counts = aggregate_counts(
+        [arm[3] for pair in pairs[:2] for arm in pair] + [luna]
+    )
     plot(
         "physics-committee-aggregate-distribution.png",
         "Physics results",
         None,
         committee_counts,
         len(committee_counts),
+    )
+    plot(
+        "physics-luna-committee-v1-distribution.png",
+        "GPT-6 Luna committee",
+        "Profiles with inferred traits · v1",
+        luna,
+        len(luna),
     )
 
     for pair in pairs:

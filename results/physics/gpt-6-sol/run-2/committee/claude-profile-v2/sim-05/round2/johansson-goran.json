@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "for the theory and first experimental realisation of strong coupling between a single microwave photon and a superconducting artificial atom, and the dispersive readout it enabled, establishing circuit quantum electrodynamics"
+      }
+    ]
+  },
+  "alternatives": [
+    "B031",
+    "B024"
+  ],
+  "statement": {
+    "case_for": "I keep circuit QED as my preferred configuration, with the same trio; the first round has narrowed the argument rather than changed it. The discovery is that a single microwave photon in an on-chip resonator can be coupled coherently and strongly to a solid-state artificial atom, a regime that was not obviously reachable before 2004, and that the same coupling can be run dispersively to read out a qubit without destroying it. The 2004 theory proposal and the two strong-coupling experiments fix a date and a measurable signature. Twenty years of independent reproduction in many laboratories remove any maturity doubt. The credit splits as one theory name (Blais) and two experimental leaders (Wallraff, Schoelkopf), which fits the three-person limit. Pearce asked what the architecture added beyond the quantum behaviour of a macroscopic circuit variable honoured in 2025. My answer is that the 2025 work showed that a circuit degree of freedom obeys quantum mechanics, while circuit QED supplied a controlled interface between that degree of freedom and single quanta of the electromagnetic field. That is a different finding with different physics (vacuum Rabi splitting, photon-number-dependent dispersive shifts, Purcell protection by the resonator), and I want the citation to state it in those terms.",
+    "case_against": "The weaknesses are real and round 1 did not remove them. First, sequencing: Danielsson, Kroll, Eriksson, Olsson and Pearce all flagged a second superconducting-circuit prize within a year of the first, and I cannot exclude that the wider Academy reads it as the same community honoured twice. Second, attribution: Girvin and Huang co-authored the founding proposal, Devoret and the Yale group are close to the credited core, and the transmon is a separate line; the trio holds only if the citation stays narrow, as Mehlig insists. Third, the discovery-or-invention question: Danielsson and Mehlig are right that an architecture is nearer to enabling technology than to a finding about nature, and I weigh that. Fourth, my own position is exposed: I direct a centre that builds on this architecture, so my estimate of the overlap risk is the one colleagues should trust least, as Olsson said.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce moved circuit QED to first place after reading the other ballots, asked me for a technical argument on what the architecture added beyond the 2025 phenomena, and said that following a recent award is a risk to manage and not a merit.",
+        "response": "I accept that correction; in round 1 I called the prize a natural follow-on, and that framing was a mistake. The technical argument is the one in my case above: the 2025 experiments showed macroscopic tunnelling and level quantisation in a current-biased junction circuit, whereas circuit QED is about coherent exchange between an engineered two-level system and a single photon, and the dispersive regime in which photon number and qubit state shift each other's frequency. Nothing in the 2025 citation covers that. On Girvin, I do not think his role requires a different configuration provided the citation is limited to the 2004 strong-coupling realisation and dispersive readout. If the committee insists on crediting the full founding proposal, the trio becomes hard to defend, and in that case I would want B031 on the table, not an enlarged B016."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig supports the trio but wants the citation kept to the architecture of strong coupling and dispersive readout, noting that Devoret and Girvin would enter if it were broadened, and that the 2025 prize is the main exposure.",
+        "response": "I agree and have changed my citation to match: it now names strong coupling, the artificial atom and dispersive readout, and nothing about the transmon, amplifiers or error correction. I do not think the narrowness is a cosmetic fix. It is what makes the exclusion of Girvin and Huang defensible, because the 2004 experiments are where the discovery was demonstrated, and the committee can credit the demonstration when the theoretical lineage is wider than three people. I accept that this is a judgement and that Girvin's exclusion will be criticised; I record it as my largest remaining uncertainty."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll prefers optical lattice clocks (Katori, Ye), calls the attribution the cleanest on the list, and argues that the prize has never waited for a standards body; he regards B016 as the first alternative but not a priority this year.",
+        "response": "On the redefinition I now agree with him and Lindroth. In round 1 I said I would rather not tie the prize to a pending metrological decision, and his point that confirmation is already in hand across independent laboratories is correct, so I withdraw the timing objection to B031. That leaves lineage (2005 comb, 2012 ion control), which I think his answer on the magic-wavelength scheme handles. I therefore treat the choice as close, between two mature and cleanly attributed discoveries. Where I still differ is on the 2025 overlap: the 2025 result concerned macroscopic quantum behaviour of a circuit, and strong coupling to a single photon is a different physical result, not a refinement of it. I will not claim that my exposure is smaller than his, only that it is of a different kind."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth prefers B031, treats the 2025 overlap as non-disqualifying, but considers attribution for circuit QED unresolved because of Girvin, Huang and the Yale transmon and readout work, and gives some weight to my declared connection to the field.",
+        "response": "I agree that attribution is the real weakness and I do not think it is fully answered; I have only narrowed the claim so that three names can carry it. I also accept that my connection should reduce the weight of my advocacy, and I note that her own ETH proximity to Wallraff, which she disclosed, cuts the other way, so neither of us should settle B016 alone. Her suggestion to put the many-body clock work in the B031 citation is good and I would support it. Where I would push back is on the idea that clocks are cleaner on every count: the Lemonde, Lisdat, Takamoto and Ludlow priority questions are similar in kind to Girvin and Huang, only less visible to us."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson prefers the experimental Higgs discovery (Della Negra, Jenni, Virdee), calls the circuit QED case technically strong but too close to 2025, and says it is nearer to enabling technology than to discovery.",
+        "response": "I take the discovery criterion seriously, and the Higgs is the clearest discovery on the list; I concede that the experimental half has been waiting since 2013. My difficulty is unchanged and is about credit rather than science: Mehlig and Pearce also note that the choice between founders and discovery-era leaders cannot be settled from the material in front of us, and Gianotti has a claim comparable to that of Della Negra. A prize whose three names will be disputed against two collaborations of thousands is less ready than one where the dispute concerns the margin. On enabling technology, strong coupling was the demonstration of a new regime of light-matter interaction and not merely a tool, but I accept that the point is arguable and that I have a stake in how it is decided."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts that circuit QED, worded as strong coupling and dispersive readout, is distinct from the 2025 macroscopic-tunnelling award; I regard this as the deciding question and cannot settle it for my colleagues.",
+      "Whether the exclusion of Girvin and Huang (and Devoret and the Yale group) from the trio can be defended, given that the narrow citation is a judgement about which stage of the story is the discovery.",
+      "Whether B031 should be preferred if the committee judges the 2025 overlap too large, since I now consider the redefinition of the second irrelevant to the timing.",
+      "Whether my directorship of WACQT leads me to understate the overlap risk, which I cannot measure from the inside."
+    ],
+    "conflict_note": "Updated disclosure. I direct the Wallenberg Centre for Quantum Technology at Chalmers, which builds superconducting quantum processors that rely on circuit QED, and I work in this field, with colleagues Per Delsing and C. M. Wilson at Chalmers, which also hosted researchers associated with the 2025 prize. The profile records no personal tie to Blais, Wallraff or Schoelkopf. Olsson, a Chalmers colleague, has noted this tie, and Lindroth separately flagged her ETH proximity to Wallraff. My support for B016 should be discounted accordingly; I would accept that the committee weigh B016 against B031 mainly on the judgements of members without a tie to either, and I would recuse from the final decision on B016 if the committee so decides."
+  }
+}

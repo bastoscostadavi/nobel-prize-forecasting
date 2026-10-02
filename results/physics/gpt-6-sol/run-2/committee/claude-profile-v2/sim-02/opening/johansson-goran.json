@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-02",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B041",
+      "proposed_laureates": [
+        "Alexandre Blais",
+        "Andreas Wallraff",
+        "Robert J. Schoelkopf"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Circuit QED turned a superconducting qubit into a controllable artificial atom coupled to a microwave resonator, giving dispersive readout, strong coupling, photon-mediated qubit coupling and the architecture used by most superconducting processors. Original, clear and enormously consequential, and it opened a new regime of light-matter physics. My own field is close, so I weigh it with a stated bias toward the area I know best.",
+        "attribution": "The 2004 proposal (Blais, Huang, Wallraff, Girvin, Schoelkopf) and the first strong-coupling experiment (Wallraff et al., Schoelkopf group) support a theory plus experiment split. Blais, Wallraff and Schoelkopf is a defensible trio, but Steven Girvin and Ren-Shou Huang, who are not in the credited names, were co-authors on the proposal, and Michel Devoret already shared the 2025 prize.",
+        "maturity": "Strongly confirmed by many independent groups over two decades and now the standard platform for superconducting quantum computing. Timing is good, though the 2025 prize on macroscopic quantum tunnelling in circuits raises a question of how soon to return to superconducting circuits.",
+        "uncertainties": [
+          "Whether a second superconducting-circuit prize this soon after 2025 is wise, and whether the conflict of my own subfield should lower my weight on it.",
+          "Fair allocation between the 2004 theory proposal and the first experiments, including the omitted co-authors Girvin and Huang.",
+          "I have not independently verified the exact roles recorded in the literature."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B046",
+      "proposed_laureates": [
+        "Juan Ignacio Cirac",
+        "Peter Zoller"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Cirac and Zoller proposed the trapped-ion quantum gate in 1995 and introduced the ideas that made ultracold atoms and ions programmable quantum simulators, including the cold-atom Hubbard model proposal with Jaksch. The work set the conceptual agenda for two experimental platforms and for the quantum-simulation field.",
+        "attribution": "A clean two-person configuration with a long, stable partnership. The experimental realisations are split among many groups (Wineland already recognised in 2012, Blatt, Monroe, Bloch, Greiner and others), so the theory pair is the natural attribution for the foundational proposals.",
+        "maturity": "Mature: the ion gate proposal has been realised repeatedly and cold-atom quantum simulation is a large experimental field. Recognition is timely and arguably overdue.",
+        "uncertainties": [
+          "Part of the credit for the cold-atom proposals is shared with Jaksch, Gardiner and others, who are not credited here.",
+          "Overlap with the cold-atom Hubbard candidate on the longlist could complicate a combined slate."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B005",
+      "proposed_laureates": [
+        "Peter W. Shor",
+        "Alexei Kitaev",
+        "Andrew M. Steane"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum error correction established that fragile quantum information can be protected, that fault tolerance is possible in principle, and that topological codes give a route to it. It is the theoretical foundation without which large-scale quantum computing, including superconducting processors that I work on, would not be conceivable. Original and deeply consequential.",
+        "attribution": "Shor and Steane independently produced the first quantum codes in 1995 and 1996, and Kitaev introduced the toric code and topological protection. The credited trio is plausible but incomplete: Calderbank, Gottesman, Knill, Laflamme and others were also decisive, so the allocation is genuinely contestable.",
+        "maturity": "Experimental error-correction demonstrations on superconducting and ion platforms, including recent below-threshold surface-code experiments, are now strong, though the full fault-tolerant machine is not yet built. The theory is mature, the practical vindication is still emerging.",
+        "uncertainties": [
+          "Credit is dispersed across several originators, and any three-person split risks being seen as unfair.",
+          "Whether the experimental vindication is mature enough or whether the field should wait for scalable logical qubits.",
+          "I have not verified the precise priority dates of each contribution."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B047",
+      "proposed_laureates": [
+        "Charles L. Kane",
+        "Eugene J. Mele",
+        "Laurens W. Molenkamp"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The prediction and observation of the quantum spin Hall state and the generalisation to topological insulators created a major branch of condensed-matter physics, tied to topological band theory and edge transport. Clear, original and widely influential, with a natural link to the earlier topological prizes of 2016.",
+        "attribution": "Kane and Mele made the foundational theory, and Molenkamp's group observed the quantum spin Hall edge channels in HgTe (following the Bernevig-Hughes-Zhang proposal). Hasan is credited on the three-dimensional work, and the late Shoucheng Zhang's decisive contribution cannot be recognised, which complicates the fair configuration.",
+        "maturity": "Confirmed by many materials and experiments, though room-temperature applications remain limited. The core interpretation is stable and recognition is timely.",
+        "uncertainties": [
+          "Allocation among the theory of Kane and Mele, the HgTe prediction and experiment, and the three-dimensional topological insulators (Hasan, Moore, Fu) is contested.",
+          "Overlap with the other topological-insulator candidate on the longlist."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B058",
+      "proposed_laureates": [
+        "Charles H. Bennett",
+        "Gilles Brassard",
+        "Artur K. Ekert"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Quantum key distribution (BB84 and the entanglement-based E91 protocol) showed that quantum physics can provide cryptographic security guaranteed by physical law. It is conceptually clear and original, and it connects directly to the foundational work recognised in 2022, though it is more a protocol insight than a physical discovery.",
+        "attribution": "Bennett and Brassard authored BB84 and Ekert E91, which is a natural trio of three. Wiesner's early conjugate coding and other contributors are not credited, so there may be an unresolved priority question.",
+        "maturity": "Experimental QKD, including satellite-based links, is established and commercial, but practical security against device imperfections remains an active topic. The core principle is stable.",
+        "uncertainties": [
+          "Whether a protocol and information-theoretic contribution fits the physics prize scope as opposed to computer science.",
+          "Priority questions related to Wiesner and others.",
+          "Practical security assumptions at the device level."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B051",
+      "proposed_laureates": [
+        "Pablo Jarillo-Herrero",
+        "Allan H. MacDonald",
+        "Rafi Bistritzer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The prediction of flat bands at magic angles and the observation of correlated insulating and superconducting phases in twisted bilayer graphene opened moire quantum materials as a tunable platform for strongly correlated physics. Original and rapidly influential.",
+        "attribution": "Bistritzer and MacDonald made the quantitative theoretical prediction in 2011 and Jarillo-Herrero's group made the decisive 2018 observations with Yuan Cao. The omission of Cao as a doctoral student and of other experimental groups may be seen as a limit of the configuration.",
+        "maturity": "Reproduced by many groups and generalised to many moire systems, but the nature of the superconductivity and the correlated states is not settled, so the interpretation is still developing. Possibly somewhat early.",
+        "uncertainties": [
+          "The mechanism of superconductivity and the correlated phases are unresolved.",
+          "Experimental credit is concentrated on a group in which a student carried out the first measurements.",
+          "Overlap with MacDonald in other candidates on the list."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B020",
+      "proposed_laureates": [
+        "Antoine Browaeys",
+        "Mark Saffman",
+        "Mikhail Lukin"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Rydberg-blockade tweezer arrays enable programmable many-body quantum simulation and quantum gates with neutral atoms, now scaling to hundreds of qubits. The platform is a leading route to quantum computation and simulation and is the main competitor to superconducting qubits.",
+        "attribution": "Saffman and Lukin contributed foundational Rydberg-blockade proposals and Browaeys and Lukin led the array experiments. Others such as Jaksch, Zoller, Weiss, Bernien and Endres also contributed, so the three-person configuration is open to question.",
+        "maturity": "Developing quickly, with strong independent confirmation but also ongoing improvement of fidelities and scaling. Recognition may be somewhat early relative to the more settled candidates.",
+        "uncertainties": [
+          "Whether the platform is mature enough, with fault-tolerant performance still being demonstrated.",
+          "Credit dispersion between theory proposals and several experimental groups.",
+          "I have not verified the individual priority claims."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B010",
+      "proposed_laureates": [
+        "Hidetoshi Katori",
+        "Jun Ye"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The optical lattice clock, built on the magic-wavelength proposal, reaches fractional uncertainties near 1e-18 and underpins tests of fundamental physics and a redefinition of the second. The discovery is clear, original and has reshaped precision measurement.",
+        "attribution": "Katori proposed the magic wavelength lattice and made the first clock, and Ye developed the strontium clocks to record accuracy and explored many-body effects. A clean two-person configuration, though Wineland and Hall's earlier recognition on related precision topics and the contribution of Hall and Hansch to the frequency comb are separate matters.",
+        "maturity": "Very well confirmed by independent laboratories and moving toward a redefinition of the second; recognition would be timely.",
+        "uncertainties": [
+          "Possible perceived overlap with the 2005 and 2012 prizes on precision spectroscopy and ion clocks.",
+          "Whether the technological emphasis outweighs the discovery of new physics."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B013",
+        "laureates": [
+          "Alexandre Blais",
+          "Andreas Wallraff",
+          "Robert J. Schoelkopf"
+        ],
+        "citation": "For the theory and first experimental realisation of circuit quantum electrodynamics, strong coupling between superconducting artificial atoms and single microwave photons on a chip"
+      }
+    ]
+  },
+  "alternatives": [
+    "B034",
+    "B025"
+  ],
+  "statement": {
+    "case_for": "Circuit QED is a discovery in the Nobel sense: the 2004 theory proposal and the first strong-coupling experiments showed that a superconducting artificial atom can be coupled to a single microwave photon in an on-chip resonator, and this became the dispersive-readout, bus-coupling and gate architecture of essentially every superconducting quantum processor and of the wider field of circuit and waveguide QED. It has been reproduced and extended in many independent laboratories for two decades, so there is no maturity problem, and it pairs a theory proposal (Blais) with the two experimental groups that demonstrated it (Wallraff, Schoelkopf). The Wallraff-Schoelkopf-Blais configuration is the cleanest three-person split on the shortlist for this topic. Kroll ranks it second, and Lindroth and Mehlig fourth, so support from the atomic-physics and complex-systems side is real, if modest. I should be candid that it is my own opening first choice and that the support is narrower than for several other candidates.",
+    "case_against": "The strongest counterargument is proximity to the 2025 prize for macroscopic quantum tunnelling and energy quantisation in superconducting circuits: Lindroth, Mehlig and Kroll all raised it, and I cannot dismiss it. A committee could reasonably prefer to let that recognition settle before returning to superconducting circuits. The second problem is attribution. Girvin and Huang are central to the 2004 theory and are outside the credited names, as are colleagues on the experimental side such as Majer and Koch, so any three-person split is contestable. Third, I am a circuit-QED theorist directing a national quantum-technology programme, so my judgement of this candidate is not neutral and should be weighed accordingly.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks optical lattice clocks first: Katori's magic-wavelength concept and Ye's record accuracy and stability make a clean two-person prize that has made optical frequency metrology the leading precision-measurement tool, with uncertainties near 1e-18.",
+        "response": "I accept the physics and the clean Katori-Ye attribution, and I ranked it lower in my opening mainly from distance to the field. I still weigh the incremental novelty: the comb (2005) and trapped-ion clock (2012) prizes already recognised the toolchain and the principle of optical clocks, and the lattice clock is largely a better realisation of a recognised idea, although a spectacular one. Kroll also concedes that the redefinition of the second has not happened, so some of the case is prospective. I would not oppose clocks as a strong second-tier option, but I do not think it clearly outranks a candidate that opened a new platform for quantum information."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson puts magic-angle twisted bilayer graphene first, valuing the pairing of the Bistritzer-MacDonald flat-band prediction with the Jarillo-Herrero group's observation of correlated insulators and superconductivity, and considers the recognition timely.",
+        "response": "I agree that the theory-plus-experiment pairing is exactly the kind of story the prize likes, and I ranked it fourth myself, so I am not hostile. Where I differ is maturity. The discovery dates from 2018, the origin of the superconductivity is still debated, and several of us (Eriksson, Mehlig, Olsson, Kroll) flagged this as possibly early. Danielsson's own uncertainty about the mechanism points the same way. A citation limited to flat bands and correlated states would be defensible, but I would hold it until the field settles, whereas circuit QED has two decades of independent confirmation and an unambiguous technological consequence."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks circuit QED fourth, accepting that Blais, Wallraff and Schoelkopf are a fair compact configuration but worrying that the 2025 prize already covered the key superconducting-circuit conceptual step and that Yale colleagues are already recognised.",
+        "response": "This is the objection I take most seriously. My answer is that the two prizes reward different things: the 2025 work established macroscopic quantum behaviour and energy quantisation in a circuit, while circuit QED is about coupling such an element to a single photon in a resonator, which is the step that made readout, coupling and scaling possible. That distinction is real but a committee could still find the overlap too close, and I do not claim it is decisive. Her point about the three-person limit and the absence of Girvin is also fair, and I would not call the attribution clean."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators first, regarding the Z2 invariant and HgTe observation as a conceptual change in classifying band insulators, with Kane, Mele and Molenkamp as the cleanest trio and recognition arguably overdue.",
+        "response": "I ranked it seventh, which reflects my field more than the science, and I accept the case for conceptual depth and long independent confirmation. My qualification is the one Mehlig and Lindroth both note: the 2016 prize on topological phases and transitions covers much of the conceptual ground, and the Bernevig-Hughes-Zhang HgTe proposal and Hasan's three-dimensional work are outside a Kane-Mele-Molenkamp trio, so there is real fairness pressure. I would not block it, but I do not think the claim of being overdue settles the allocation problem."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranks IceCube first, as a decades-old question about the origin of cosmic rays answered by a cubic-kilometre detector in Antarctic ice, with Halzen, Karle and Spiering as a plausible trio but with attribution in a large collaboration unverified.",
+        "response": "The instrumental achievement is remarkable and I do not dispute its importance, but it is outside my expertise and I defer to Pearce on detector details. Pearce's own attribution caveat, together with Mehlig's remark that source identification is only partial, makes me cautious: the diffuse flux is solid, but the astrophysical picture is still being assembled. I would want to hear from Danielsson on whether the credited trio really captures the decisive contributions before supporting it over a candidate with a cleaner credit."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee judges circuit QED sufficiently distinct from the 2025 prize on superconducting circuits to be recognised so soon.",
+      "Whether the omission of Girvin (and, on the experimental side, other early collaborators) from the credited names makes a Blais-Wallraff-Schoelkopf trio unfair.",
+      "Whether my own field's closeness leads me to overrate this candidate relative to clocks or moire matter; I have not independently verified priority details.",
+      "Whether opening-ballot support, which for circuit QED is narrow, will broaden after discussion."
+    ],
+    "conflict_note": "Specific connections apply. I direct the Wallenberg Centre for Quantum Technology at Chalmers, whose programme is built on superconducting circuits and circuit QED, and I have worked in circuit and waveguide QED myself. Chalmers colleagues Per Delsing and C. M. Wilson work in the same area and Chalmers hosted researchers associated with the 2025 prize. I also work on the dynamical Casimir effect with circuit experiments. This may call for recusal or at least disclosure on B013, and also on B025 (trapped-ion and quantum-computing theory) to a lesser degree. I have no documented personal connection to the credited names Blais, Wallraff or Schoelkopf in the provided profile."
+  }
+}

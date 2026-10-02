@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "olsson-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "for the theoretical prediction of the quantum spin Hall effect and Z2 topological insulators, and its experimental realization in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B059",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "Topological insulators are a discovery in the sense the prize requires: a specific, original idea (the Kane-Mele Z2 classification of spin-orbit-coupled band insulators) that was then confirmed by a decisive experiment (helical edge transport in HgTe/CdTe wells by the Molenkamp group), and that has since been reproduced across many independent materials and laboratories for roughly two decades. It changed how band insulators are classified and linked band structure, spin-orbit coupling and protected boundary states. As an experimentalist who works with oxide interfaces and spectroscopy, I see the idea carried into real materials and measurements, not left as formalism. The theory-plus-experiment pairing gives a clean attribution to three people, and the interpretation is stable, so timing is neither premature nor strained.",
+    "case_against": "The strongest reservations concern attribution and overlap. Several people made decisive contributions that cannot all be credited: Bernevig, Hughes and Zhang proposed the HgTe route that Molenkamp's group realized, Fu and Kane and Moore and Balents extended the idea to three dimensions, and Hasan's ARPES work established the first 3D topological insulator. A three-person cap will leave out at least one of these, and the choice will be argued. The 2016 prize for topological phase transitions and phases of matter also sits close to this field, so some will say the territory has already been recognized, although that prize concerned Thouless-Haldane-Kosterlitz physics and the quantum Hall and Haldane-model lineage, not the Z2 classification and the time-reversal-protected phases.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks topological insulators second, but proposes Kane, Molenkamp and Hasan rather than Kane, Mele and Molenkamp, and flags that the 2016 prize may be seen as overlapping.",
+        "response": "I take the overlap point seriously but resolve it differently. Hasan's 3D ARPES demonstration is a real achievement, yet with a three-person limit I cannot drop Mele: the Z2 invariant and the quantum spin Hall proposal are a joint Kane-Mele result, and the HgTe experiment tests precisely that prediction. A prize built on the Kane-Mele proposal and its first experimental realization is the tightest chain from idea to observation. I would accept Hasan's case being made in committee, but only by displacing someone, and I do not see who. On 2016, the Z2 classification of time-reversal-invariant insulators is a distinct discovery from the topological phase transitions and Chern-number physics that prize rewarded."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll puts optical lattice clocks first: Katori's magic-wavelength proposal and Ye's record accuracy made optical frequency metrology the leading precision-measurement tool, with uncertainties near 1e-18, a clean two-person credit and mature confirmation.",
+        "response": "I agree this is the strongest competitor in the field and the best-attributed candidate on the list; it is my own second choice, and I ranked it above the moire candidate. Where I differ is on breadth of conceptual change. The clock is a superb invention whose significance is measured by what it enables, such as the redefinition of the second and geodesy, and some of that payoff is still prospective. Topological insulators already changed how a whole class of materials is understood and are in daily use as a framework. I would not call the difference decisive, and it is also fair to note that the Hall-Haensch prize in 2005 already honoured the frequency-comb side of optical metrology, which Ye's work builds on. If the committee prefers a two-person, tightly attributed prize, I would not object to B059."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators first with Kane, Mele and Molenkamp, stressing the conceptual change in classifying band insulators and more than fifteen years of independent confirmation across HgTe, Bi-Sb and Bi2Se3, while noting that Bernevig, Hughes and Zhang were theory partners in the HgTe proposal.",
+        "response": "We agree on the core and on the trio. I would add one qualification to the confirmation argument: the HgTe quantum spin Hall measurements are a demanding transport result with known sample-quality and edge-conduction subtleties, and the broader confirmation is mostly in 3D materials, where Hasan's ARPES and the Bi-based compounds are the evidence. That does not weaken the discovery, but it means the citation should be worded around the prediction and the HgTe realization instead of implying that every later material is credited. I also share your concern about Bernevig-Hughes-Zhang; the supplied names cannot include them, and the committee should be explicit that this is a limit of the three-person rule and not a verdict on their contribution."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first, arguing that it is the architecture behind essentially all superconducting processors, with exceptional originality and breadth, while acknowledging that the 2025 prize on macroscopic quantum effects in circuits weighs on timing.",
+        "response": "Circuit QED is a major achievement and I do not dispute its importance to quantum technology. My concern is the one you raise yourself: recognition so soon after the 2025 prize for macroscopic quantum tunnelling and energy quantization in superconducting circuits risks looking like a second prize for one platform. Attribution is also less clean than for the Kane-Mele-Molenkamp chain, with credit shared among Blais, Girvin, Wallraff, Schoelkopf, Majer, Koch and others, and Devoret as a link to the earlier prize. I would keep it as a strong candidate for a later year rather than this one."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept dropping Hasan and the Bernevig-Hughes-Zhang theory partners given the three-person limit, and how much that weighs against this candidate.",
+      "How much weight the 2016 prize on topological phases should carry against a prize for the Z2 classification.",
+      "Whether optical lattice clocks should rank higher, given broad opening support across seven members and cleaner two-person attribution, if the committee values a measurement revolution over a classification of materials.",
+      "Whether the moire and twistronics candidate, B034, is mature enough, since the origin of the superconducting state remains debated."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the preferred topological-insulator candidate or the listed alternatives. My general connections are in electron microscopy and materials physics, where I have long-standing ties to Chalmers colleagues, and I note that Goran Johansson is also at Chalmers. The aberration-corrected electron microscopy candidate, which I would flag for recusal, is not on this shortlist."
+  }
+}

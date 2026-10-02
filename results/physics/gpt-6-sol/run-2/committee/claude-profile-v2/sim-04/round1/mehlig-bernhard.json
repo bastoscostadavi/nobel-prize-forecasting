@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-04",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B057",
+        "laureates": ["Hidetoshi Katori", "Jun Ye"],
+        "citation": "for the invention and development of optical lattice clocks based on magic-wavelength trapping of neutral atoms, enabling timekeeping at the 10^-18 level"
+      }
+    ]
+  },
+  "alternatives": ["B025", "B053"],
+  "statement": {
+    "case_for": "I opened with the cavity method (B025) as my first choice, but the opening ballots show something I should weigh honestly: optical lattice clocks (B057) are the one candidate that four members placed in their top three and all eight ranked. The case on the merits is strong. The magic-wavelength idea is a single, concrete, original concept that removes motional and light-shift errors, and it was turned into clocks with fractional uncertainty near 1e-18. That is an invention-plus-discovery of the kind the will describes, with independent reproduction in many national laboratories, a stable interpretation and real consequences: tests of fundamental constants, relativistic geodesy and the pending redefinition of the second. The two-name credit (Katori for the concept and first demonstrations, Ye for pushing accuracy and stability and the comb-linked comparisons) is compact and avoids the three-person squeeze that afflicts most other shortlisted candidates. I rank it first on this reading, not because many colleagues ranked it high, but because the scientific case survives my attempts to find a flaw.",
+    "case_against": "The strongest reservation is that precision metrology has already been recognised twice recently (frequency combs in 2005, ion-trap and cavity-QED control in 2012), so the committee must be able to state what is new beyond those prizes. The answer is the neutral-atom lattice with magic-wavelength trapping, but the line is not as sharp as for a new phenomenon, and the credited names omit other lattice-clock groups and those who built the ion-clock record in parallel. There is also an argument that a prize is better timed after the redefinition of the second, when the societal payoff is formal rather than anticipated. Finally, my own first choice (B025) is arguably more conceptually deep and I do not want to drop it because it has little opening support: it has none of the attribution simplicity of B057.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks B057 first as a clear discovery-plus-invention, with Katori proposing the magic-wavelength concept and Ye driving record accuracy, and notes the overlap with earlier frequency-comb and ion-clock recognition.",
+        "response": "I agree on both the merit and the caveat, and the caveat is the real discussion. I would add that the overlap argument cuts in favour of the clock rather than against it: the comb prize made the clock readable and the ion prize made single-quantum control routine, but neither delivered the many-atom lattice architecture whose stability comes from interrogating thousands of atoms at once. I would ask the committee to frame the citation around the lattice and magic wavelength specifically so that it does not read as a third prize for the same family."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll places B057 first because magic-wavelength trapping removes motional and light-shift errors while parallel interrogation of many atoms improves stability, and he finds the two-name credit clean; he places the ultracold-atom Hubbard simulators (B005) third.",
+        "response": "I accept the first point but I part ways on B005. I teach and work on many-body and complex-systems problems and I find the Hubbard simulators scientifically attractive, but five credited names for three places makes attribution an unresolved fight between the Jaksch-Zoller proposal, Greiner and Bloch on the Mott transition, and Esslinger on fermions. Until we can say who did the decisive step, I would keep B005 as a future prize and not use it as a competitor to the clock this year. The clean credit on B057 is a genuine point in its favour, not a procedural convenience."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, as chair, ranks IceCube's high-energy astrophysical neutrinos (B054) first, arguing that it opened a new observational window with a diffuse flux confirmed in several channels, and credits Halzen, Spiering and Karle.",
+        "response": "I take the new-window argument seriously, since discoveries that open a field rank above refinements of existing measurements. My reservation is about attribution and maturity together. The diffuse flux is secure, but the source associations (TXS 0506+056, NGC 1068, the Galactic plane) are still being built up, and IceCube is a large collaboration whose leadership is spread across more people than three. The ice-detector concept is clearly associated with Halzen, but I am less sure how the committee would justify Spiering and Karle over other founding figures. I would keep B054 as a strong candidate for a later year and not for this one."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks aberration-corrected electron microscopy (B048) first as an invention in the strict sense, with Rose, Haider and Urban forming a natural three-person group and a mature, commercially confirmed technology.",
+        "response": "I agree this is a clean three-person attribution and a mature instrument advance, and I would not oppose it as a prize for an invention. My concern is breadth of physics: the will asks for a discovery or invention of the greatest benefit, and the impact of aberration correction is largely as an enabling tool for materials science and chemistry rather than for physical understanding. By contrast the lattice clock changes what physical questions can be asked, since it makes gravitational redshift and constants variation measurable on laboratory scales. I would place B048 behind B057 but would not dismiss it."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks room-temperature tunnel magnetoresistance (B026) first as a clear, original, widely commercialised discovery by Miyazaki and Moodera, with Parkin's later optimisation.",
+        "response": "This is a real discovery with decades of confirmation and obvious technological reach, but I think it sits close to the 2007 giant magnetoresistance prize, so the committee would need to explain why the tunnelling variant deserves separate recognition and not an extension. The attribution is also less clean than it looks: the MgO high-TMR devices that made the technology commercial are credited to different work from the 1995 observation. I would be more persuaded if the citation could be confined to the 1995 discoveries, but then Parkin's place in the trio becomes harder to defend."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee wants to wait until after the redefinition of the second, and whether recognition now would be seen as premature or as properly timed.",
+      "How to frame a citation so that it is distinguished from the 2005 frequency-comb and 2012 ion-trap/cavity-QED prizes.",
+      "Whether other lattice-clock groups and the ion-clock records developed in parallel are adequately represented by the two credited names.",
+      "Whether the cavity method (B025) can be separated cleanly from the 2021 prize to Parisi, and whether Montanari should join Mézard and Zecchina; my recollection of the rigorous-proof status of particular models is from memory and not verified here."
+    ],
+    "conflict_note": "My profile documents no personal or institutional connection to any of Katori, Ye or the other shortlisted candidates. My field (statistical physics of complex systems) is close to the cavity-method candidate B025, but the profile lists no collaboration with Mézard, Zecchina or Montanari, so I do not see a recusal issue; I note this proximity in the interest of transparency."
+  }
+}

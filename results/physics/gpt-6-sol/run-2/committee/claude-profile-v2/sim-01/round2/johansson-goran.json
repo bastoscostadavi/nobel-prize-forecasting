@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B059",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realisation of optical lattice clocks based on magic-wavelength trapping, which brought optical frequency standards to a fractional uncertainty of about 1e-18"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "I have moved from circuit QED (B013) to optical lattice clocks (B059). Round 1 showed that my first choice has one explicit supporter, and the objections raised against it, closeness to the 2025 prize and the omission of Girvin, are ones I could not answer to my own satisfaction. B059 is the candidate whose scientific case is cleanest. Katori's magic-wavelength trapping is a real idea: it removes the light shift of the clock transition while confining thousands of neutral atoms in the Lamb-Dicke regime. Ye's group carried it to uncertainties near 1e-18 and showed what many interrogated atoms and controlled interactions do to stability. Independent laboratories have reproduced and surpassed the early results, the physics is mature, and the two-name credit needs no arbitrary exclusion. It is far from the 2025 superconducting-circuit prize, so it raises no question of overlap and no personal conflict for me. On the chair's question of what the lattice clock added in kind and not only in degree: parallel interrogation of a large ensemble of neutral atoms, with the perturbing trap field engineered to cancel on the transition, is a different route to accuracy and statistical stability from single-ion clocks or comb-based spectroscopy. It opened a new regime in which the clock itself becomes a many-body system whose density shifts and spin-polarised fermion physics can be studied.",
+    "case_against": "The strongest objection is still novelty after the 2005 prize (frequency combs and laser precision spectroscopy) and the 2012 prize (control of single quantum systems and ion clocks). A committee could fairly read the lattice clock as a superb refinement of a recognised line. I give that less weight than in my opening ranking, but I do not think it vanishes, and the citation has to say what is distinctive: magic-wavelength trapping of many neutral atoms. Part of the impact is also prospective, because the redefinition of the second has not happened, and the case should rest on demonstrated accuracy and stability. The credit also leaves out other groups (SYRTE/Lemonde, PTB, JILA beyond Ye, Takamoto and others), and no member has yet given a distinct conceptual contribution that would justify a third name. Finally, this is outside my own expertise, so I rely on Kroll and Lindroth for the details of systematics and on the primary literature for the priority statements, which I have not independently re-verified.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce asks what the lattice clock added in kind and not only in degree compared with the 2005 comb and 2012 ion-control prizes, and says the case is a concept (magic wavelength) plus a demanding realisation.",
+        "response": "I think the answer is the many-atom, light-shift-free interrogation scheme. In an ion clock the accuracy is bought with a single, very well isolated particle, and stability is limited by projection noise from one ion. The lattice clock takes the opposite route: thousands of atoms are held in a trap whose perturbation is cancelled at the magic wavelength, so the statistical gain and the accuracy come together. That does not follow from the comb, which measures the optical frequency, or from ion control. I would still keep the citation specific to magic-wavelength lattice trapping so that no reader sees a repeat of 2005 or 2012. Pearce's caveat that other groups reached world-class accuracy is correct, and it is the reason I would keep the credit to the two people with the clearest conceptual and frontier roles."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks lattice clocks first because Katori's concept and Ye's realisation open the way to new physics through measurement, with the least contested attribution on the shortlist, and treats circuit QED as a strong alternative.",
+        "response": "I accept Kroll's reading of my own candidate, in particular that the Girvin omission and the recency of the 2025 prize make B013 harder than it looked to me in round 1. I also take seriously her point that partiality does not disqualify the science, but it does mean my judgement of B013 should be discounted, and I now do so. Where I would press her is the prospective payoff: the case should be written on demonstrated accuracy near 1e-18, relativistic-geodesy comparisons and the limits on varying constants, and not on a redefinition of the second that has not happened. If the committee accepts that framing I can support B059 without reservation about timing."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig prefers topological insulators with Kane, Mele and Molenkamp, regarding the Z2 classification as a conceptual change that is now settled and arguably overdue, while acknowledging that the Hasan-versus-Mele choice is a fairness problem.",
+        "response": "I respect the conceptual weight of the Z2 classification and I keep B016 as my first alternative. My difficulty is the allocation: Bernevig, Hughes and Zhang proposed the HgTe system that guided Molenkamp's experiment, and Hasan established the three-dimensional case, so a three-person limit forces an exclusion that Mehlig herself calls a real fairness problem. I also still see some overlap with the 2016 prize on topological phases. For B016 I would accept the Kane-Mele-Molenkamp trio only with a citation worded narrowly around the two-dimensional spin Hall prediction and the HgTe realisation, and I would not support swapping Mele for Hasan without a stronger argument than priority in photoemission."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson holds magic-angle twisted bilayer graphene first for its theory-plus-observation pairing and its broad opening support, and concedes that the pairing mechanism is unsettled.",
+        "response": "I agree with Danielsson that the flat-band prediction and the 2018 observation form a good story and that broad cross-field support counts for something, which is why B034 is my second alternative. The concern I keep is that the field is still moving: the origin of the superconductivity is open, twist-angle disorder limits reproducibility, and Cao and other first authors are outside the trio. A citation limited to the predicted flat bands and the observed correlated states would answer part of that, but it would not remove the argument that we are early. I would prefer to see more years of independent confirmation before a prize, and I would not block it if the committee chose it."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts that the lattice clock added a new route to accuracy and stability, and not only a refinement of the comb and ion-clock lines recognised in 2005 and 2012.",
+      "Whether two names (Katori and Ye) can be defended against the claims of other lattice-clock groups, and whether a third name is justified by the primary literature.",
+      "Whether the committee prefers a measurement advance (B059) to a classification of electronic matter (B016) when the two compete, since I cannot decide this from the evidence alone.",
+      "Whether my move away from B013 is influenced by the thin support it received, which is not scientific evidence, and whether I would judge circuit QED differently after a few more years."
+    ],
+    "conflict_note": "Updated disclosure. I direct the Wallenberg Centre for Quantum Technology at Chalmers, which is built on superconducting circuits and circuit QED, and I have worked in circuit and waveguide QED and on the dynamical Casimir effect with circuit experiments. Chalmers colleagues Per Delsing and C. M. Wilson work in the same area, and Chalmers hosted researchers associated with the 2025 prize. I would recuse myself from any final configuration containing B013 and would at least disclose on B025 (trapped-ion and quantum-computing theory). I have no documented personal connection to Katori, Ye, Kane, Mele, Molenkamp, MacDonald, Jarillo-Herrero or Bistritzer in the provided profile, so I claim no conflict on B059, B016 or B034."
+  }
+}

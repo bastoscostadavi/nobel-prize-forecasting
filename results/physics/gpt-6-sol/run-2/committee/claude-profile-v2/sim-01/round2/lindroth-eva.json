@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B059",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realisation of optical lattice clocks based on magic-wavelength trapping of many neutral atoms, bringing optical frequency standards to the 10^-18 level of accuracy and stability"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B034"
+  ],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged: B059, Hidetoshi Katori and Jun Ye. Having read the full exchange, I think the case rests on three things that survive the objections. First, the magic-wavelength condition is a statement about atomic structure, namely that the dynamic polarisabilities of the two clock states can be made equal at a chosen trap wavelength, so that a deep optical lattice confines thousands of atoms in the Lamb-Dicke regime without shifting the transition. That is what the single-ion and comb lines could not do: it converts the statistical limit from one ion to a large ensemble, and it is why stability, not only accuracy, reached the 1e-18 level. Second, the realisation was demonstrated, not promised: the lattice-shift, blackbody-radiation and collisional systematics were measured and bounded, and independent laboratories reproduced and surpassed the early results. Third, the attribution is the cleanest on the list, with the concept and first demonstration in Katori's work and the accuracy and stability frontier in Ye's. I do not lean on the redefinition of the second, which has not happened.",
+    "case_against": "The novelty objection remains the strongest, and I do not think it can be fully dissolved. A citation that reads as a better clock will be received as a repeat of 2005 and 2012. The two-name credit also leaves out real contributors, in particular Lemonde and the SYRTE group, the PTB and NIST ion-clock groups, and Takamoto and the Tokyo strontium work, and I can only argue that their contribution is confirmation and refinement, not a distinct concept. If colleagues judge B016 to be a change of conceptual category and B059 a change of degree, that is a legitimate scientific reading, and the Kane-Mele-Molenkamp trio is the strongest rival. Finally, I accept that B059 may be one for which waiting is defensible, because the redefinition of the second would make the consequences visible.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "The chair asks what the lattice clock added in kind and not only in degree to the 2005 frequency-comb and 2012 ion-control prizes, and whether a citation can separate the concept clearly.",
+        "response": "I would answer in kind on one point, the removal of the trapping perturbation. In an ion clock the confining field is nulled on average by working at the trap centre, which limits the number of probed particles to one or a few. The lattice clock confines a large ensemble in a potential whose light shift on the clock transition is made to vanish by choice of wavelength, so the interrogated atom number is raised by orders of magnitude without a trap-induced shift at leading order. The comb prize concerned the ruler for counting optical cycles, and the 2012 prize the control of individual quantum systems; neither concerned a trapping scheme that is itself transparent to the clock transition. I would word the citation around the magic-wavelength lattice and keep the words frequency comb and single-ion out of it, so that it cannot be read as a repeat. I admit this is a judgement about kind versus degree and not a proof, and Mehlig is entitled to weigh it differently."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig, who ranks B016 first, says the clock may be a discovery less than a refinement of precision metrology, whereas B016 opened a new conceptual category, and he would still not oppose B059.",
+        "response": "I accept that B016 is a change of conceptual category and that is its real strength. Where I would resist is the claim that conceptual category is the only measure, since the prize also names discoveries and inventions that open new capabilities. The lattice clock is not a refinement of existing apparatus: the magic-wavelength idea created a regime of many-atom spectroscopy at uncertainties near 1e-18, and in that regime interaction and collective shifts become physical effects to be understood and are no longer an error budget. I note that you would not oppose B059 and I would likewise not oppose B016. My difficulty with B016 stays in the attribution of the third place, since your own round-1 statement concedes that Bernevig, Hughes and Zhang complicate the HgTe story and that the Mele versus Hasan choice is a real fairness problem."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks B016 first and clocks second, and asks whether a third name such as Lemonde is justified and whether a measurement revolution should outrank a classification of materials.",
+        "response": "On the third name, I looked again for a distinct conceptual contribution and still do not find one that I can defend from the literature available to me: the SYRTE strontium and mercury work established accuracy and comparison results that are very important, but they are demonstrations of the principle and not a new principle. I would therefore stay with two names, and the citation text can acknowledge the wider community in the popular description. On your question about whether a measurement revolution should outrank a classification, I do not think the committee can decide it in the abstract. I would use the test of what would have been missed without the work, and for B059 the answer is a decade of accuracy and stability results that probe fundamental constants and relativistic geodesy, while for B016 it is a classification that others might also have reached by the Bernevig-Hughes-Zhang and Fu-Kane routes. That is a point in favour of B016 as a concept, not against it, but it is why I find the three-name limit harder there."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson alone ranks B034 first, valuing the pairing of the flat-band prediction with the observation of correlated insulating and superconducting states, and the chair asks whether a narrow citation can resolve the maturity objection.",
+        "response": "A citation limited to the predicted flat bands and the observed correlated and superconducting states can be worded without a mechanism, and I accept that it would answer the narrow form of the maturity objection. It does not fully answer mine, which is that the interpretation of the correlated insulators and of the superconductivity is still moving and that the committee would be honouring a field in the middle of its development. The omission of Yuan Cao and other first-author experimentalists adds to this. I keep B034 as an alternative and would not obstruct it as a later prize, but I do not think the evidence gathered since 2018 has settled enough to place it ahead of two candidates whose physics has been stable for twenty years."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson has moved from DMFT to B016 with the Kane-Mele-Molenkamp trio and adds language about topology as a classifying principle of band structure.",
+        "response": "I think the move is well founded, since a method with a controlled limit is a weaker prize subject than the discovery of a new classification. I would however be careful with the broader wording about topology as a principle of band structure, because that language invites the Thouless-Haldane-Kosterlitz overlap with 2016 and extends credit to the three-dimensional work outside the trio. The narrower statement tied to the quantum spin Hall effect and Z2 topological insulators with the HgTe realisation, as Mehlig and Olsson prefer, protects that attribution better. The same discipline applies on my side, where the citation should name the many-atom magic-wavelength lattice and not clock precision in general."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee judges the many-atom magic-wavelength lattice to be different in kind from the 2005 and 2012 prizes, which I have argued but not proven.",
+      "Whether Lemonde or another lattice-clock group has a distinct conceptual contribution that I have been unable to identify without the primary literature.",
+      "Whether recognising the lattice clock now, before the redefinition of the second, is better than waiting, and whether B016 would be the better choice if the committee decides it can defend the Mele-or-Hasan allocation."
+    ],
+    "conflict_note": "No change from round 1. I have documented collaborations with Anne L'Huillier, the Lund attosecond groups and Ursula Keller's group at ETH, and training in Lindgren's Gothenburg group, but none of these people is credited in B059, B016 or B034, and no connection to Katori or Ye is documented. Theoretical atomic physics is adjacent to lattice-clock physics, notably in the polarisability and blackbody-shift calculations, so I disclose a field affinity. I do not see a recusal need for any shortlisted candidate. The chair's summary places me with Kroll and Pearce on B059 and I have weighed that as agreement on a scientific reading, not as support."
+  }
+}

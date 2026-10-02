@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 2,
+  "simulation_id": "sim-01",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "for the theoretical prediction of the quantum spin Hall effect and Z2 topological insulators, and its experimental realization in HgTe quantum wells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B034",
+    "B059"
+  ],
+  "statement": {
+    "case_for": "Topological insulators changed how band insulators are classified. The Kane-Mele Z2 invariant and quantum spin Hall state is a clear, original theoretical idea, and the HgTe edge-transport experiment from Molenkamp's group tested it directly. This is the theory-plus-experiment pairing the prize favours. Nearly two decades of independent confirmation across many materials and platforms make the interpretation stable, and the concept has spread into transport, photonics, cold atoms and quantum-information proposals. Unlike several shortlisted candidates, the physics is settled and the recognition is timely, arguably overdue.",
+    "case_against": "Credit is contestable. Bernevig, Hughes and Zhang made the HgTe proposal that guided the experiment, and Hasan's photoemission work established the three-dimensional topological insulator. A Kane-Mele-Molenkamp trio leaves both groups out, and the Hasan-versus-Mele choice is a real fairness problem. A reasonable critic could also say the prize would reward an idea whose technological payoff has been slower than early expectations.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks magic-angle twisted bilayer graphene first as a clean theory-plus-experiment story, and would credit Hasan rather than Mele in the topological insulator trio.",
+        "response": "I agree B034 is a strong pairing and I keep it as my first alternative. But the correlated phases and the superconducting mechanism are still disputed, so the rationale would have to be narrower than the field's hype, and the experimental credit goes beyond the first-listed group. On Hasan versus Mele, I disagree. The Z2 classification and the quantum spin Hall state are the conceptual origin of the field, and the HgTe experiment is the direct test of it. Hasan's 3D work is important but follows from that origin, so I would keep Mele and accept that the 3D materials are not credited."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks dynamical mean-field theory first for its 30-year record as the working method for correlated electrons, and ranks the topological insulator candidate second with the same trio I propose.",
+        "response": "I take the maturity argument seriously, and DMFT is very well tested. My reservation is that it is a method with a controlled limit in infinite dimensions, so the prize would honour a technique more than a discovery. Metzner's role in the infinite-dimension limit is also not covered by the credited names, which makes the attribution awkward. In B016 the discovery is a new topological classification with an experimental test. We agree on the trio, so I would ask whether you would put B016 first if DMFT credit cannot be cleanly split."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks topological insulators first as a clean theory-plus-experiment trio and calls recognition timely and arguably overdue. Her second choice is optical lattice clocks.",
+        "response": "I agree with most of this, including the Kane-Mele-Molenkamp attribution. I would add one qualification you did not stress: Bernevig, Hughes and Zhang proposed HgTe as the platform and so make the experimental credit less tidy than a pure two-step story. I think the citation should say 'the quantum spin Hall effect and Z2 topological insulators' and avoid claiming the whole field of topological matter."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks optical lattice clocks first, with Katori's magic-wavelength proposal and Ye's accuracy record, and values the mature, independently confirmed measurement.",
+        "response": "The clock case is strong and compact, and I keep B059 as an alternative. My hesitation is whether it is a discovery or a refinement of precision metrology that began with frequency-comb and single-ion clocks, both already recognised. B016 opened a new conceptual category rather than improving an existing measurement. I would still not oppose B059 as the prize if the committee prefers a measurement achievement."
+      }
+    ],
+    "uncertainties": [
+      "Whether Mele or Hasan should complete the topological insulator trio, and how much weight Bernevig-Hughes-Zhang should carry.",
+      "I have not independently checked the detailed priority chronology for the Z2 proposal and the HgTe experiment.",
+      "Whether the committee would treat the lattice clock as new physics or as precision engineering."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on complex systems and neural networks does not overlap with the shortlisted topological, clock or circuit candidates, and the profile documents no connection to any credited name."
+  }
+}

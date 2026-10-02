@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "claude-opus-5-5",
+  "run": 3,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B009",
+        "laureates": [
+          "Charles L. Kane",
+          "Eugene J. Mele",
+          "Laurens W. Molenkamp"
+        ],
+        "citation": "For the theoretical prediction and experimental realization of the quantum spin Hall state and topological insulators"
+      }
+    ]
+  },
+  "alternatives": [
+    "B014",
+    "B045"
+  ],
+  "statement": {
+    "case_for": "I opened with dynamical mean-field theory, which I know well from DFT+DMFT work, and I still think it is overdue. But reading the opening ballots, topological insulators is the case where the physics, the theory-experiment pairing and the breadth of support all line up. Kane and Mele introduced the Z2 invariant and the spin Hall insulator, and Molenkamp's group observed the quantum spin Hall state in HgTe in 2007. The resulting classification of band structures by topology has been confirmed by transport, ARPES and STM in many materials over about two decades. It is also a case where first-principles band-structure calculations, with strong spin-orbit coupling and band inversion, predicted and interpreted real materials, which is the kind of theory-meets-experiment story I find most convincing. Seven of eight members ranked it, five of them in their top two or three, which is much broader than any other shortlisted entry.",
+    "case_against": "The three-person limit forces an uncomfortable allocation. Bernevig, Hughes and Zhang proposed HgTe and are not among the credited names, and Hasan's observation of the 3D phase in Bi-Sb and Bi2Se3 is left out. The 2016 prize for topological phase transitions and phases of matter is close in theme, so some will see this as a second helping. Direct technological payoff is still limited, and a prize here would absorb much of what the overlapping topological entries propose. My own opening placed DMFT and magnetic tunnel junctions above it, and DMFT credit (Metzner, not credited) and the method-versus-discovery question are not trivial either.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranks topological insulators first as a natural theory-plus-experiment trio, but flags that Hasan's 3D ARPES work is a strong claimant and that the BHZ proposal is missing from the credit.",
+        "response": "I agree with the trio but not that Hasan is merely a space casualty. The 2D quantum spin Hall step and the 3D observation are different discoveries, and I do not want the citation to claim both. I would word it narrowly around the quantum spin Hall state and Z2 topological insulators, accept that Hasan and BHZ are left out, and say so openly rather than pretend the three names cover the field."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks topological insulators first and places DMFT second, valuing it as a controlled mean-field limit that became a computational workhorse, while noting that Metzner is missing and that predictive power depends on approximations.",
+        "response": "His reservations are exactly mine. DMFT is exact only in infinite dimensions, and in real materials the results depend on the impurity solver and double-counting, so I cannot defend it as a clean discovery. His point about Metzner is decisive: with Vollhardt, Georges and Kotliar alone the credit is incomplete, and we cannot fix that within the supplied names. That is why I now put topological insulators ahead and keep DMFT as an alternative."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson ranks twisted bilayer graphene first as a clear discovery with theory-plus-experiment attribution, and ranks topological insulators second and tunnel magnetoresistance third.",
+        "response": "I respect the originality of magic-angle graphene and ranked it fourth myself. But the superconducting mechanism is still debated, twist-angle disorder complicates interpretation, and Andrei's claim is a real attribution dispute. Topological insulators have had about twice as long to be confirmed, with a stable interpretation, so I would wait on graphene. I also share her view that Miyazaki's omission makes the tunnel magnetoresistance allocation hard, which is why I do not make it my lead."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks optical lattice clocks first as the clearest extension of measurement, with a clean two-name credit and many independent groups reproducing it.",
+        "response": "I agree the clock case is clean in attribution and mature, and I would not oppose it. My hesitation is the overlap with the 2005 frequency-comb and 2012 ion-control prizes and the question of whether a second precision-timekeeping prize adds a distinct discovery. Kroll ranks topological insulators third, so I hope that, if the clock case does not carry, topological matter is acceptable as the broader compromise."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks circuit QED first, a foundational enabling discovery, while acknowledging bias from his own field and the proximity of the 2025 superconducting-circuit prize.",
+        "response": "I take his own caveat seriously. The 2025 prize on macroscopic quantum tunnelling in circuits is very recent, and awarding circuit QED so soon would concentrate recognition in one area. He also ranks topological insulators second, with the same Kane, Mele and Molenkamp trio, so there is common ground."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat the 2D quantum spin Hall step and the 3D topological insulator work as one discovery or two, which determines whether Hasan must be in the configuration.",
+      "Whether the 2016 prize makes this a distinct follow-on or an overlap.",
+      "If the Kane, Mele and Molenkamp trio is not accepted, whether a DMFT prize can be framed without Metzner."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the leading topological insulator candidates. I work on DFT+DMFT and electronic-structure theory, so I have a professional interest in the DMFT entry (an alternative here), but my profile documents no personal or institutional tie to Georges, Kotliar or Vollhardt."
+  }
+}

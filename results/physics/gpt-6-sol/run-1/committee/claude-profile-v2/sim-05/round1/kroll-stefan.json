@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "kroll-stefan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B025",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realisation of optical lattice clocks based on magic-wavelength trapping, bringing optical frequency standards to the 10^-18 level of accuracy"
+      }
+    ]
+  },
+  "alternatives": [
+    "B037",
+    "B016"
+  ],
+  "statement": {
+    "case_for": "The optical lattice clock is a specific, originated idea with a clear line from proposal to result. Katori's magic-wavelength trapping lets many neutral atoms be interrogated at once without Doppler and recoil shifts, and this removed the old trade-off between atom number and systematic uncertainty. Ye's group then pushed the strontium clock to record accuracy and stability. Fractional uncertainties near 1e-18 have been reproduced and intercompared by independent laboratories on several continents, so maturity is not in doubt. The consequences are concrete: tests of fundamental constants and their possible drift, relativistic geodesy, and the coming discussion of redefining the second. It is also the one candidate on the shortlist that is first or second on four members' ballots including mine, and it has the cleanest two-name attribution in the set, with all eight members proposing the same pair. From my own work on laser spectroscopy and coherent light-matter interaction I judge this as a case where better measurement directly creates new physics reach.",
+    "case_against": "The strongest reservation is that the immediate story is metrology and instrument performance rather than a new phenomenon, and the committee could regard it as an incremental step after the 2005 frequency-comb prize and the 2012 prize for control of single quantum systems and ion clocks. Credit at the margin is also not fully settled: Lemonde, Takamoto, Ludlow, Sterr and others contributed to early lattice-clock demonstrations and to the stability record, and the credited names cannot capture them. Finally, Ye also appears on the thorium-229 nuclear-clock candidate, so any decision here should be coordinated with that candidate.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked the black-hole shadow imaging first and the lattice clock only fifth, questioning whether it is a discovery or an instrument advance and noting the overlap in credit for Ye with the thorium nuclear clock.",
+        "response": "I accept the Ye overlap and would treat the nuclear-clock work as not mature enough to compete, since the clock itself has not matched lattice performance, so Ye is awarded once and for the lattice clock. On discovery versus instrument, I disagree with drawing a hard line: the Charpak-type and Hall-Haensch precedents show the committee recognising measurement inventions that change what can be tested. I also share Danielsson's worry about credit inside a collaboration of hundreds on B054, which is why I rank it below a candidate with a two-name attribution that all eight of us agree on."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked circuit QED first, arguing that it is the architecture behind most superconducting processors and follows naturally from the 2025 prize on macroscopic quantum effects in circuits.",
+        "response": "I agree with the importance and I ranked it third. My reservation is the scope boundary against the 2025 prize and the four-name credit: Wallraff and Schoelkopf lead the experiments while Blais and Girvin lead the theory, and my own three-name choice leaves Blais out, which Johansson's list leaves Wallraff out. Both choices are defensible but neither is clean, whereas the lattice clock needs no such exclusion. I would keep circuit QED as an alternative and not the first choice, and I note that Johansson is also open about his closeness to this community, which I share through WACQT."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked magic-angle twisted bilayer graphene first, finding it conceptually clear and original, with a theory-plus-experiment triple and phenomena reproduced by many groups within a few years.",
+        "response": "I agree that the phenomenology is secure and that the Bistritzer-MacDonald prediction followed by Jarillo-Herrero's experiments is an attractive pairing. My concern, shared by Eriksson and Lindroth, is that the pairing mechanism and the nature of the correlated phases are still debated after only about eight years, so interpretation is not yet stable. The lattice clock has the opposite profile, with stable interpretation and cross-laboratory confirmation. Mehlig also ranked the clock second, so I read this as a question of timing and not of merit, and I would not object strongly to B022 in a later year."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked the IceCube neutrino discovery first as a genuine new observational window enabled by an instrument realised against scepticism, while acknowledging that source identification is still thin.",
+        "response": "I respect this case, and the diffuse flux is firmly established. I place it lower mainly on attribution and the state of source astronomy, since TXS 0506+056 is at modest significance and the credit across a long multi-generation collaboration, including DUMAND and Baikal pioneers, is hard to resolve with two names. Pearce also ranked the lattice clock second and described its two-person attribution as clean, so we agree that it is a strong candidate even though we differ on which comes first."
+      }
+    ],
+    "uncertainties": [
+      "I rely on recalled uncertainty figures for lattice clocks and have not verified them against the primary papers.",
+      "Whether Lemonde, Takamoto and other early lattice-clock contributors should weigh against the two-name credit.",
+      "Whether the committee views the clock as a sufficiently distinct step from the 2005 comb prize and the 2012 ion-control prize.",
+      "Whether a thorium nuclear-clock award later would conflict with awarding Ye now."
+    ],
+    "conflict_note": "Possible connections to disclose: I spent a research stay in John Hall's laboratory in Boulder, and Hall's group is part of the scientific lineage of precision laser spectroscopy and frequency metrology around the Ye work, although my profile documents no direct collaboration with Katori or Ye. I also participated in WACQT management, which is close to the circuit QED candidate B016 and the quantum-technology community, and my quantum-memory and cold-atom-adjacent work lies near B037. The profile shows no specific institutional tie to the preferred candidate beyond field proximity, and I flag these for the committee to judge recusal."
+  }
+}

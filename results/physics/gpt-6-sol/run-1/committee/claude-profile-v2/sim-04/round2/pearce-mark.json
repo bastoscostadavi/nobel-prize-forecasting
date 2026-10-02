@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-04",
+  "member_id": "pearce-mark",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B042",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and realisation of optical lattice clocks, in which neutral atoms trapped at a magic wavelength reach fractional uncertainties near 1e-18 in time and frequency measurement"
+      }
+    ]
+  },
+  "alternatives": [
+    "B057",
+    "B019"
+  ],
+  "statement": {
+    "case_for": "I keep B042 as my preferred configuration, with Katori and Ye as the two credited names. Round 1 sharpened the case rather than weakening it. Five members prefer it, the three others list it as their alternative, and nobody has denied that the result is mature, reproduced and cleanly attributed. The scientific core is a specific, testable idea: trapping neutral atoms in an optical lattice at the magic wavelength cancels the light shift while the Lamb-Dicke regime suppresses Doppler and recoil effects, so many atoms can be interrogated at once. That is what separates it from the single-ion clocks of the 2012 prize, where stability is limited by the one ion, and from the frequency comb of 2005, which is a ruler and not a way of holding the absorbers. Katori supplied the concept and first demonstrations; Ye's group took strontium lattice clocks to the 1e-18 level and used them for millimetre-scale redshift measurements and tests of constants. Independent laboratories on several continents have reproduced the uncertainty budgets and compared clocks over fibre and free-space links. The citation I propose names the lattice trapping at the magic wavelength and its realisation, and does not name optical clocks or frequency metrology in general, so it cannot be read as a second award for combs. As an experimentalist, I find the systematic-uncertainty record the most persuasive part: it is a measurement that other people have been able to check against their own apparatus.",
+    "case_against": "The strongest objection, pressed by Eriksson, Mehlig and in part Danielsson, is that the lattice clock is an application of toolbox elements already honoured in 2005 and 2012, and that Ye's accuracy work leans heavily on comb and ultrastable-laser technology. I accept that this makes the credit less symmetric than it looks: the invention rests mainly on Katori, while Ye's contribution is the demonstration that the scheme reaches the frontier of accuracy and stability, and the citation should say so by naming the lattice realisation. The second objection is that Lemonde, Lisdat, Ludlow, Takamoto and others are outside the two names; the chair's summary notes that nobody has checked the early-proposal record, and I still cannot verify it in detail, so my support for Katori's priority rests on the supplied record and on the testimony of several members. A two-name prize cannot accommodate every strong group, but the three-name limit is not under pressure here and the committee could add a third name only if the documented record supported it. Finally, the SI second is not yet redefined. I do not regard this as a reason to wait, but it remains a point on which Eriksson reasonably differs.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranks DMFT (B033) first and B042 sixth, arguing that the lattice clock overlaps with the 2005 comb and 2012 ion prizes and that the unfinished SI redefinition makes recognition premature, while granting that the magic-wavelength idea is a distinct invention.",
+        "response": "I had hoped Eriksson's concession that the magic-wavelength idea is a distinct invention would carry the novelty argument, and I think it does: if the invention is distinct, then the overlap objection reduces to a drafting problem, which a citation naming the lattice trapping solves. On the redefinition I still disagree. The Nobel criterion is the demonstrated discovery or invention, and the 1e-18 uncertainty is already confirmed by several laboratories; the CGPM timetable is a policy step that cannot undo that. I took his comments about B033 seriously. His own caveats, that Metzner is outside the trio, that DFT+DMFT depends on double-counting and interaction-parameter choices, and that DMFT can be read as a method, together with Olsson's reply, leave attribution and discovery status less secure than for B042, and I am not persuaded to move to B033. I also value that he discounted his own field proximity openly."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig prefers magic-angle twisted bilayer graphene (B019), argues that waiting a few years is not costless and that a closed pairing mechanism is not a prize criterion, and notes that Ye's record clocks lean on comb technology so that the novelty rests on Katori's concept.",
+        "response": "I agree with Mehlig that the criterion is a discovery and not a complete theory of its origin, and that superconductivity is a fair precedent. His remark about Ye and comb technology is the right qualification and I have adopted it in the wording: the citation names the lattice realisation and the stability it delivered, and not the comb. Where we still differ is on timing, but I think the gap is smaller than it looks. Mehlig himself calls B042 his fallback, and he acknowledges that B019 is young, sample dependent and omits the junior experimentalists and early moire theorists. In my own field a reproducibility question that depends on the sample is exactly what I would want to see settled across more laboratories before crediting a three-name configuration. I keep B019 as an alternative, and my willingness to support it would increase if the next few years show a mechanism-independent consensus on the phase diagram."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson starts from his own first choice, the experimental Higgs discovery (B057), but supports B042 because every member ranked it and its credit is clean, while naming the comb and ion-prize overlap and the unverified priority history as his main concerns.",
+        "response": "I share Danielsson's reading that B057 is the plainest discovery on the list and I keep it as my first alternative, so I do not want my position taken as a dismissal of the physics. The chair's summary asks whether the committee is ready to adopt a convention for collaboration credit. My answer is that I am not ready to impose one in this round. I have worked in large collaborations and I know that crediting Della Negra, Jenni and Virdee honours detector concept and leadership, which is a defensible choice but a different one from honouring the 2012 observation, and I would not want to make that choice by default. If the committee did decide to give B057, I would want the citation to say what the three names are credited for. On Danielsson's own unverified-priority concern about B042 we are in the same position, and I agree that nobody should claim more than the supplied record shows."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B042 first, calling the lattice clock a simple and original idea in coherence control and laser spectroscopy, with 1e-18 performance confirmed by independent labs, and notes that the Hall and Haensch comb is outside the supplied credit.",
+        "response": "I asked Kroll in round 1 whether the stability gained from interrogating many atoms at once is the point of separation from the 2012 ion clocks. The chair's questions repeat it, and I would still like his view, since he knows the spectroscopy better than I do. Without that, my own argument is that the quantum-projection-noise limit scales with atom number, so the lattice gives a stability advantage that a single ion cannot match, and the magic wavelength is what makes that usable without a systematic shift. I also accept the wording point that several members, including Kroll and Lindroth, have made: the citation should anchor on the lattice concept and its realisation at the 1e-18 level."
+      },
+      {
+        "member_id": "olsson-eva",
+        "point": "Olsson prefers B042 on the grounds that it is a clear invention with a checkable outcome and a two-person attribution, but asks that the early-proposal record be checked so that Katori is credited for the right step and the citation does not over-reach.",
+        "response": "I agree that the early-proposal record should be checked, and I would put it before the vote. Since none of us has verified it, I would word the citation around what is documented: the magic-wavelength lattice scheme and the realisation of lattice clocks at the 1e-18 level. If the check revealed that a third person had a documented and comparable claim, I would support revisiting the credited names, up to the limit of three, and would not defend a two-name configuration merely because it is tidier. I note Olsson's disclosure about her Japanese institutional exchanges and her recusal on B028; neither changes my reading of her argument, which turns on the distinction between the comb as a ruler and the lattice clock as a way of holding atoms."
+      }
+    ],
+    "uncertainties": [
+      "The early lattice-clock proposal and first-demonstration record has not been verified by any member, including me, and an unrecognised priority claim from Lemonde, Lisdat, Ludlow, Takamoto or others could change the credited names.",
+      "Whether the committee will accept that the many-atom magic-wavelength lattice is separable from the 2005 comb prize and the 2012 ion-control prize, and whether Ye's comb and ultrastable-laser contributions can be kept outside the citation.",
+      "Whether the committee is willing to adopt a convention for crediting large-collaboration discoveries; without one I do not see B057 as a defensible three-name configuration, with it I would regard it as a serious competitor.",
+      "Whether B019 will look mature after a few more years of reproducibility work and clarification of the pairing mechanism, which I cannot judge from the present record."
+    ],
+    "conflict_note": "No conflict is apparent for B042: my documented connections (PAMELA, Fermi-LAT, PoGOLite/PoGO+, XL-Calibur, KTH) do not involve the optical lattice clock community or Katori and Ye. For my alternative B057 I disclose general experience of large detector collaborations and accelerator-based physics, with no recorded tie to ATLAS, CMS or the credited names. I have no recorded tie to B019 or its credited names. I have noted the disclosures by Olsson, Johansson, Kroll and Lindroth and will not rely on any member's assessment of a ballot where they have disclosed a conflict. I will recuse from any ballot where a connection emerges."
+  }
+}

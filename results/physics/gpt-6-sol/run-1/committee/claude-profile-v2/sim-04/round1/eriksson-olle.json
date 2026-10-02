@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-04",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B033",
+        "laureates": [
+          "Antoine Georges",
+          "Gabriel Kotliar",
+          "Dieter Vollhardt"
+        ],
+        "citation": "For the dynamical mean-field theory of strongly correlated electrons, which provides a non-perturbative framework for the Mott transition and for calculating the properties of correlated materials"
+      }
+    ]
+  },
+  "alternatives": [
+    "B042",
+    "B019"
+  ],
+  "statement": {
+    "case_for": "DMFT is the organizing framework of modern correlated-electron theory. The infinite-dimension limit and the exact mapping onto a self-consistent quantum impurity problem gave the first controlled, non-perturbative description of the Mott transition and of the coexistence of coherent quasiparticles and Hubbard bands. Combined with density functional theory, it has become a working tool for computing spectra, magnetism and phase behaviour in transition-metal oxides, f-electron systems and other real materials, and it is routinely checked against photoemission, optical and neutron data. The concept is original, the three-decade record shows it has lasting impact, and it is mature and independently reproduced across many codes. Nothing on the shortlist has been tested as thoroughly against experiment while also changing how a whole community computes.",
+    "case_against": "The support for this ballot is thin: after the opening round only I ranked it first, and Bernhard Mehlig placed it fourth. DMFT is arguably a method and an approximation scheme rather than a discovery of a phenomenon, and the Academy may hold that this is a weaker fit to the will of the prize than a measured effect. The credit chain is not clean. Metzner and Vollhardt made the infinite-dimension step, Georges and Kotliar the impurity mapping and self-consistency, and Metzner, Jarrell, Rozenberg and others are outside the credited trio. The fully first-principles DFT+DMFT claim also depends on double counting and interaction-parameter choices. I am also in the field, so I discount my own enthusiasm.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Stefan Kroll ranks optical lattice clocks (B042) first: Katori's magic-wavelength proposal and the Ye group's record accuracy at the 1e-18 level give a clean two-person, original, high-impact prize, with some risk of overlap with the 2005 comb prize.",
+        "response": "I agree that B042 has the cleanest attribution on the list and the broadest opening support, and I ranked it only sixth because it lies outside my field, not because I see a flaw. On the overlap worry I partly side with you. The magic-wavelength idea is a distinct invention and is not simply the frequency-comb result recognised in 2005. My reservation is the timing. The strongest consequence, the redefinition of the second, has not yet happened, so the physics is secure but the recognition could still wait without loss. I treat B042 as my first alternative and not as my preferred prize."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Bernhard Mehlig puts magic-angle twisted bilayer graphene (B019) first as a new, tunable platform for strong correlations, based on the Bistritzer-MacDonald prediction and the 2018 correlated-insulator and superconductivity experiments, and he ranks DMFT fourth.",
+        "response": "I ranked B019 second and agree on the originality of the flat-band prediction and on how widely the observations have been reproduced. We disagree about readiness. The pairing mechanism is still debated, twist-angle disorder limits universality, and the credited trio omits the experimental first authors who did the decisive measurements. Those problems make the attribution less secure than for DMFT, where the theoretical credit is shared by a small group. Your fourth place for DMFT is fair if you see it mainly as a tool. My answer is that no other framework has made correlated-electron physics quantitatively predictive, and I would sooner reward that than a platform whose central open question is unresolved."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Ulf Danielsson ranks the Higgs boson discovery (B057) first because it is a plain experimental discovery that the 2013 prize did not recognise, with Della Negra, Jenni and Virdee as the leaders of the experiments.",
+        "response": "I share your view that this is the clearest discovery on the list and that it is overdue. I ranked it fourth because of the credit. Three founding leaders stand in for two collaborations of thousands, and the people who produced the 2012 signal are not on the list. That makes a Nobel citation hard to write fairly, and it is more a policy question for the Academy than a scientific one, as you say yourself. I do not deny the physics. If the committee is willing to accept leadership of a detector as the decisive contribution, B057 should move up. I would not want to settle that question in a prize that also needs a precise citation."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Goran Johansson ranks the trapped-ion and cold-atom foundations of quantum computing (B038) first, crediting Cirac, Zoller and Blatt for the gate proposal and its experimental realisation, while noting overlap with the 2012 prize.",
+        "response": "The Cirac-Zoller idea is clearly deep. I am unsure the candidate is well bounded. As you say, it bundles quantum-computing foundations with ultracold-atom simulation, and the 2012 prize for manipulating single quantum systems already covers much of the ion-control territory. A citation would have to separate the gate proposal from the analogue simulation work, and the list itself already offers B050 as the cold-atom route. I would want the committee to decide which of those it wants before ranking B038 above a candidate whose scope is already clear."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards DMFT as a discovery or as a method, and whether that distinction should matter for this prize.",
+      "Whether the omission of Metzner from the supplied credit makes the three-person attribution defensible, given that the infinite-dimension limit was the first step.",
+      "How far the DFT+DMFT claim of first-principles predictive power can be stated in a citation without overclaiming, given double-counting and interaction-parameter choices.",
+      "Whether a prize for optical lattice clocks should wait for the formal redefinition of the second."
+    ],
+    "conflict_note": "No specific personal or institutional conflict is apparent from my provided profile for the shortlisted candidates. My documented work in electronic-structure theory, DFT and DMFT-adjacent methods is close to B033 and, less so, to B019, which is a disciplinary closeness I discount, not a recorded connection to the proposed laureates."
+  }
+}

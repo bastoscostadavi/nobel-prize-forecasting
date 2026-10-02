@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-04",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B019",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Rafi Bistritzer",
+          "Pablo Jarillo-Herrero"
+        ],
+        "citation": "for the theoretical prediction of flat bands in twisted bilayer graphene at a magic angle and the experimental discovery of correlated insulating and superconducting states in this tunable moire platform"
+      }
+    ]
+  },
+  "alternatives": [
+    "B042",
+    "B057"
+  ],
+  "statement": {
+    "case_for": "Magic-angle twisted bilayer graphene is a rare case in which a quantitative theoretical prediction (the Bistritzer-MacDonald continuum model, 2011) preceded the experiment by seven years and the experiment (2018) then delivered correlated insulators and superconductivity in a single, gate-tunable device. That created a new platform for strongly interacting electrons in which the interaction strength, filling and topology can be varied in situ, and it has been reproduced by many independent groups. The theory-plus-experiment structure fits the three-name limit with distinct, identifiable contributions. From my own vantage as a statistical physicist, the importance lies in the new many-body setting it opened, not in any single material, and that conceptual reach is what distinguishes it from the strong but more incremental metrology and instrumentation cases on the list.",
+    "case_against": "The strongest reservation is that the field is still young: the pairing mechanism is unsettled, results are sensitive to twist-angle disorder and sample quality, and the long-run legacy beyond graphene is still being established. Credit is also contestable. Early moire-band theory by others, the key experimental groups beyond Jarillo-Herrero (including the junior researcher who led the first papers), and parallel work on other moire platforms are outside the three names. A committee that values a long track record could reasonably judge that B042 or B057 is more mature.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked B019 second, endorsing the theory-plus-experiment configuration but noting that the first author of the key 2018 papers is a junior researcher outside the credited names and that sample-dependent behaviour complicates universality. He placed DMFT (B033) first.",
+        "response": "I agree on the attribution problem and do not think it can be dissolved: the three-person rule forces us to credit the group leader and the prediction rather than the student who did the measurement, which is the usual convention but still uncomfortable. I disagree that sample dependence is a reason to prefer B033. DMFT is a framework with enormous influence in solid-state theory, but it was not tied to one decisive discovery of a new phenomenon, and its credit is spread across Metzner and others outside the list. In twisted bilayer graphene the phenomenology has survived replication across laboratories, so the disorder caveat is a refinement of the story and not a threat to it."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll put optical lattice clocks (B042) first and ranked B019 fourth, arguing that the unsettled pairing mechanism and the still-developing impact beyond graphene could argue for waiting.",
+        "response": "The pairing mechanism is a fair caveat, but the Nobel criterion is a discovery, not a closed theory of its origin: superconductivity was awarded in the past while its mechanism was open for decades. Where I take Kroll's side is on B042, whose maturity and clarity I rank very high; I put it second. My disagreement is about weighing: the clocks refine an established measurement paradigm that already earned the 2005 and 2012 prizes, whereas moire materials open a new class of problems. I would not call waiting costless, because the strongest candidate attribution is currently clean."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked the experimental Higgs discovery (B057) first, noting that the measurement itself was never recognised after the 2013 theory prize, but conceding that the credited names reflect founding leadership of ATLAS and CMS and not discovery-day credit.",
+        "response": "I share his view of the physics: it is a landmark and overdue. But he identifies the real obstacle himself. If the committee would be crediting founding spokespersons and proposal leaders for an analysis made by thousands, that is a policy choice about collaboration credit and not a clean scientific attribution, and the three names would omit many whose contributions were decisive. I rank B057 third because the importance is unquestionable, but I would not set it ahead of a case where the individuals credited actually made the prediction and the discovery. If the committee settles the policy question, I would revisit."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, as chair, put B042 first and called the two-name configuration of Katori and Ye clean and defensible, while flagging that Lemonde, Lisdat and Ludlow and the question of waiting for SI redefinition remain open.",
+        "response": "I agree that B042 is the cleanest in attribution and the most mature case on the list, and Pearce has persuaded me that it should be our fallback if B019 is judged premature. I would add one qualification on the lattice-clock credit: Ye's record-accuracy clocks lean heavily on frequency-comb technology already honoured in 2005, so the novelty rests mostly on Katori's magic-wavelength concept and on accuracy engineering. That does not disqualify it, but it makes the two-name credit less obviously balanced than it appears."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards a seven-year-old experimental discovery with an unresolved pairing mechanism as mature enough, compared with B042.",
+      "How to weigh the omitted junior experimentalist and other early moire theorists against the three credited names.",
+      "Whether the committee would accept leadership-of-collaboration credit for B057, which would change my ranking."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: none of the credited candidates for B019, B042 or B057 appears among my documented supervisors, institutions or co-authors. My expertise is closer to statistical physics and complex systems than to moire materials, so I rely on colleagues for details of the condensed-matter literature."
+  }
+}

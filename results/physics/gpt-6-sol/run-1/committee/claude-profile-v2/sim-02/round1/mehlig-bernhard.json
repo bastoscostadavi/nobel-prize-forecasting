@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B044",
+        "laureates": [
+          "Immanuel Bloch",
+          "Markus Greiner",
+          "Peter Zoller"
+        ],
+        "citation": "For the theoretical foundations and experimental realisation of controllable many-body quantum systems with ultracold atoms in optical lattices"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B056"
+  ],
+  "statement": {
+    "case_for": "I still place B044 first after reading the openings. The superfluid to Mott-insulator transition in an optical lattice, and later single-site-resolved quantum gas microscopes, gave physics a Hubbard-type many-body system in which the parameters are tuned directly and the state can be imaged site by site. That is a discovery-level change in what can be measured, and it is felt well beyond cold-atom physics, in condensed-matter theory, in statistical mechanics of interacting and disordered systems, and in quantum information. The result is more than twenty years old, reproduced in many laboratories, and its interpretation is stable. The theory-plus-experiment structure is also clean: the Jaksch-Zoller proposal identified the Bose-Hubbard route and the Greiner-Bloch experiment realised it, so Zoller, Greiner and Bloch cover one coherent story rather than a loose list of contributors. Among the shortlisted candidates it combines the strongest conceptual originality with mature, independent confirmation and a credit list that fits the three-person limit with only one painful omission.",
+    "case_against": "The strongest objection is attribution. Four credited names compete for three places, and Esslinger's fermionic-lattice and transport experiments are decisive for the Fermi-Hubbard programme that motivates much of the field; leaving him out is a real cost. Zoller also appears on the Cirac-Zoller-Blatt candidate, so crediting him here risks double counting his contribution and sits close to the 2012 prize on the control of individual quantum systems. There is also an honest question whether analogue quantum simulation has so far produced a decisive new scientific result, as opposed to a method that is still maturing, and part of the ground was already covered by the 1997 and 2001 laser-cooling and BEC prizes. I rely on my own recollection of the priority history and have not verified it.",
+    "responses": [
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce ranked B044 eighth and proposed Bloch, Greiner and Esslinger, the three experimentalists, leaving out Zoller and Jaksch and noting that theory is then missing.",
+        "response": "I understand the logic of rewarding those who built the platforms, and Esslinger's fermionic work is a serious claim. But the idea that the lattice can realise the Hubbard model with tunable parameters came from Jaksch and Zoller, and the Greiner-Bloch experiment tested precisely that proposal. Dropping the theory would leave the citation without its origin. If the committee wants an experiment-only configuration, I would accept Bloch, Greiner and Esslinger as a fallback, but I think it is the weaker answer, and I do not think its lower first-place support among colleagues alters the scientific case."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks optical lattice clocks (B052) first as a clean, measurement-limited advance with an uncontested two-person credit (Katori, Ye), distinct from the 2005 comb prize.",
+        "response": "I agree that the credit for B052 is much cleaner than for B044, and I ranked it seventh mainly for the overlap with the 2005 and 2012 metrology prizes and because the redefinition of the second has not happened yet. Your point that the lattice clock is a distinct step from combs is fair, and I have moved it up in my own reckoning as my first alternative. Where I still differ is that the clock is a superb instrument and an improvement in precision, whereas B044 opened a qualitatively new class of experiments in many-body physics. I would be comfortable with either if the committee prefers attribution certainty over breadth."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson places topological insulators and the quantum spin Hall effect (B021) first, citing a new classification of electronic phases and mature confirmation, while admitting that Bernevig, Hughes and Zhang are missing from the credited names.",
+        "response": "The scientific importance of B021 is not in doubt and I agree it is mature. My reservation is the one you partly state yourself: the HgTe observation followed the Bernevig-Hughes-Zhang prediction, and that prediction is not available to us, so the proposed trio would credit the experiment without its direct theoretical trigger and the 2016 prize already honoured the topological-phase theme. That is why I ranked it last. If the committee were able to settle the credit differently, I would revisit the ranking."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson puts circuit QED (B056) first as the architecture behind superconducting quantum processors, and flags that Blais versus Girvin is contestable and that he has field proximity.",
+        "response": "I give B056 high marks and ranked it second, which is why it is my second alternative. The Wallraff and Schoelkopf experiments are solid, and I agree on its downstream impact. My hesitation is the closeness to the 2025 prize on macroscopic quantum effects in superconducting circuits, which makes a second circuits prize so soon a harder sell, and the fact that part of the impact is engineering of quantum computers rather than a new physical phenomenon. I appreciate your openness about your field proximity, and I read that as a reason to weigh your technical judgement on the Blais-Girvin question carefully rather than discount it."
+      }
+    ],
+    "uncertainties": [
+      "Whether the third place should go to Zoller (theory) or Esslinger (fermionic experiments); I cannot settle this from the supplied credit.",
+      "Whether Zoller's presence on both B044 and B009 should affect how the committee frames or combines these two candidates.",
+      "How much weight the 1997 and 2001 prizes and the 2012 prize should carry against the originality of lattice quantum simulation.",
+      "Whether analogue quantum simulation has already delivered a decisive scientific result or is still mainly a platform."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My documented co-authors and institutions (Gothenburg, Max Planck, Oxford, Freiburg) do not include any credited name on the shortlisted ballots, and my own research in complex systems and neural networks is not directly tied to these candidates."
+  }
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the six Physics prediction distributions used in the README."""
+"""Render the aggregate and six Physics prediction distributions in the README."""
 
 from __future__ import annotations
 
@@ -186,6 +186,20 @@ def main() -> None:
             ("physics-claude-oneshot-distribution.png", "Claude one-shot", "Claude Opus 5.5", claude_oneshot()),
         ),
     ]
+    # Pool the four primary committee arms equally: 60 decisions per arm.
+    # One-shot baselines and the separate Luna sensitivity arm are excluded.
+    committee_counts: Counter[str] = Counter()
+    for pair in pairs[:2]:
+        for _, _, _, counts in pair:
+            committee_counts.update(counts)
+    plot(
+        "physics-committee-aggregate-distribution.png",
+        "Combined committee results",
+        "GPT-5.6 Terra + Claude Sonnet 5.5 · v1 + v2",
+        committee_counts,
+        len(committee_counts),
+    )
+
     for pair in pairs:
         row_count = max(len(arm[3]) for arm in pair)
         for filename, title, subtitle, counts in pair:

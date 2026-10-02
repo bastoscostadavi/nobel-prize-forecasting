@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "committee_provider": "anthropic",
+  "committee_model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "list_id": "gpt-6-sol",
+  "nomination_run": 4,
+  "simulation_id": "sim-04",
+  "seed_label": "physics-committee-claude-v1:gpt-6-sol/run-4/sim-04",
+  "candidate_input": "../../../candidates.json",
+  "candidate_input_sha256": "84b21047420f70d9ad4a381b8f073da39face122eead12e15561d047fd4cb359",
+  "profile_version": "v2",
+  "profiles": "agent-data/physics/committee/<member-id>/profile_v2.md",
+  "members": [
+    "danielsson-ulf",
+    "eriksson-olle",
+    "johansson-goran",
+    "kroll-stefan",
+    "lindroth-eva",
+    "mehlig-bernhard",
+    "olsson-eva",
+    "pearce-mark"
+  ],
+  "chair": "pearce-mark",
+  "prompts": {
+    "opening": "prompts/physics_committee_claude_opening_v1.md",
+    "round1": "prompts/physics_committee_claude_round1_v1.md",
+    "chair": "prompts/physics_committee_claude_chair_summary_v1.md",
+    "round2": "prompts/physics_committee_claude_round2_v1.md",
+    "final": "prompts/physics_committee_claude_final_ballot_v1.md"
+  },
+  "protocol": "docs/PHYSICS_PHASE2.md"
+}

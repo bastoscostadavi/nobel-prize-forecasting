@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-05",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B046",
+        "laureates": [
+          "Peter Zoller",
+          "Immanuel Bloch",
+          "Markus Greiner"
+        ],
+        "citation": "for realising tunable quantum simulators of strongly correlated many-body physics with ultracold atoms in optical lattices"
+      }
+    ]
+  },
+  "alternatives": [
+    "B022",
+    "B044"
+  ],
+  "statement": {
+    "case_for": "Ultracold atoms in optical lattices turned Hubbard-type Hamiltonians into laboratory systems. The superfluid to Mott insulator transition and then single-site-resolved quantum gas microscopy gave a controllable platform whose reach extends across condensed matter, statistical physics and quantum information. The field is two decades old, independently replicated in many laboratories and conceptually clear. It has the combination I look for: a precise theoretical proposal (Zoller and collaborators) followed by decisive experiments (Greiner and Bloch). It was ranked in the top three by three members and ranked by six of eight, so support is broad even without first-place votes. I move it above my opening first choice, circuit QED (B044), because that topic sits so close to my own work and to the 2025 prize that I should not be the one to carry it.",
+    "case_against": "Quantum simulation can be argued to be a method rather than a discovery, and earlier cold-atom prizes (BEC 2001, laser cooling 1997, and the 2012 prize for control of single quantum systems) cover neighbouring ground. Five names are credited and only three can be named, so any triple excludes Cirac, Esslinger or Jaksch, who are arguably decisive. The promised payoff for open problems such as the Fermi-Hubbard phase diagram and high-Tc physics has not yet been delivered, which weakens the discovery claim relative to a new phenomenon like magic-angle graphene.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Ranked B046 second behind the optical lattice clock and chose a compact trio of Zoller, Bloch and Greiner, acknowledging that excluding Esslinger and Cirac is a contestable judgement call.",
+        "response": "I agree on the trio and on the honesty about the cost. I would add that the theory-experiment split is what makes the three defensible: Zoller for the proposal, Greiner and Bloch for the Mott transition and microscopy. Where I differ is on the clock. I ranked B036 last in my opening because of overlap with the 2005 comb prize and the 2012 ion-control prize, and I now think I was somewhat harsh given that Lindroth and you both stress the magic-wavelength concept as a distinct idea. Even so, I do not think it surpasses the breadth of impact of lattice quantum simulation."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Ranked the lattice clock first as a clean two-person, widely confirmed achievement, and flagged that B046 overlaps partly with the 2001 BEC prize and the 2012 quantum-optical control prize.",
+        "response": "Your overlap point is fair and I share it in part, which is why it appears in my case against. But the Mott transition and gas microscopy are a different object from condensation or single-ion control: they realise interacting lattice Hamiltonians, which neither of the earlier prizes did. On the clock, I accept your argument that the credit is unusually clean, and I concede it is a serious contender. My reservation remains that its conceptual novelty is narrower, as the frequency-comb lineage and the ion-clock programmes carry much of the underlying measurement story."
+      },
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Ranked magic-angle twisted bilayer graphene first, calling it a nature-led surprise preceded by a sharp prediction, with early but defensible timing, and noted Cao's absence from the credited names.",
+        "response": "I find the prediction-then-discovery sequence compelling, and B022 is my first alternative. My hesitation is maturity. The pairing mechanism and the origin of the correlated phases are still debated eight years on, and Cao, as first author of the decisive experiments, is outside the credited names, which makes the attribution less tidy than you suggest. A lattice-simulation prize rests on results that have stopped being contested. If the committee prefers to reward a new phenomenon now, I would not object strongly, but I would favour waiting for the interpretation to settle."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Ranked the experimental Higgs discovery first as the clearest consequential measurement without a prize of its own, with the founding spokespersons Della Negra, Jenni and Virdee as the natural trio.",
+        "response": "The significance is not in doubt, and I accept that the 2013 prize recognised only the theory. My problem is attribution. Any choice of three from two collaborations of thousands, with Gianotti an equally serious candidate, rewards roles of leadership more than a specific act of discovery, and I do not think the committee can settle that cleanly. The ballot shows only two members ranking B017 at all, so I do not see the support needed for it to carry a prize in this round, though I would listen if you can state how the individual contribution would be defined."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Ranked the jamming transition first, as a unifying statistical-mechanical account of rigidity in disordered matter, with Liu and Nagel as a natural pair.",
+        "response": "I recognise the conceptual elegance and the clean two-person credit. My doubt is about what has been tested: the scaling picture is stable but the relation to glass physics and the universality class are still debated, and you say so yourself. You are the only member who ranked it at all, and I would want to hear from the experimentalists in the committee on how decisive the experimental side has been before moving it into a configuration."
+      }
+    ],
+    "uncertainties": [
+      "Whether three of Zoller, Bloch, Greiner, Cirac, Esslinger and Jaksch can be chosen without a decisive injustice.",
+      "Whether the committee regards quantum simulation as a discovery rather than a method.",
+      "Whether magic-angle graphene is mature enough that the debate over pairing mechanism no longer matters for the citation.",
+      "How far circuit QED (B044) overlaps with the 2025 prize and whether the credit should include Wallraff, who is outside the supplied names."
+    ],
+    "conflict_note": "I should flag a possible recusal issue on B044 circuit QED and on any quantum-computing hardware candidate: I direct WACQT at Chalmers, work on circuit and waveguide QED, and have documented ties to Chalmers colleagues Per Delsing and C. M. Wilson and to frequent co-author Anton Frisk Kockum; none of them is among the credited names of B046, B022 or B036. For my preferred configuration (B046) no specific conflict is apparent from the provided profile."
+  }
+}

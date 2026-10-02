@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "mehlig-bernhard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B022",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "citation": "for the theoretical prediction of flat electronic bands at a magic twist angle in bilayer graphene and the experimental discovery of correlated insulating and superconducting states in magic-angle twisted bilayer graphene"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B018"
+  ],
+  "statement": {
+    "case_for": "After the full first-round exchange I keep B022 as a single three-person part. Four of us prefer it and four prefer B012, and I read that as a real disagreement about what kind of achievement we are honouring, not a gap in information. The core facts are not contested by anyone: flat bands near a magic angle were predicted quantitatively by Bistritzer and MacDonald in 2011, and the 2018 experiments in Jarillo-Herrero's group showed correlated insulators and superconducting domes in a device whose only control parameters are twist angle and gate density. Those states have been reproduced in many laboratories, device geometries and related moire systems. For a statistical physicist the notable point is that a hard many-body problem became a tunable experiment, which is why I weigh it above the instrument-level advance in B012. I now accept, following Eriksson, that the citation must be narrower than my round-1 wording: the continuum model gives the flat bands, it does not predict the correlated phases, and the citation should say prediction of flat bands plus experimental discovery of the correlated states, with nothing about pairing mechanism and nothing about moire platforms in general.",
+    "case_against": "The field is about eight years old, the pairing mechanism is open, and sample-to-sample twist-angle disorder complicates several phases. Experimental credit is broader than Jarillo-Herrero: Cory Dean's hBN-encapsulated devices, the first author of the 2018 papers, and the Young, Yacoby, Efetov and Yazdani groups are all outside the three names, and I cannot verify the full author record from the material before me. Johansson, Kroll and Lindroth treat this as a reason to put B022 below B012, and I do not dismiss that: a prize that must leave out the student who did the measurements is weaker than one with a two-name credit nobody here disputes. B012 itself is mature, independently confirmed at 10^-18 and cleanly attributed, so if the committee concludes that the B022 credit cannot be defended, B012 is where I would move.",
+    "responses": [
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson cautions that the Bistritzer-MacDonald continuum model gives flat bands but does not predict the correlated phases, and that the citation should be worded around flat bands plus the experimental discovery of the correlated states.",
+        "response": "I agree and I have changed my citation because of it. My round-1 wording spoke of founding moire quantum matter, which invites a claim that theory anticipated the correlated physics. The revised citation credits the prediction of flat bands at a magic angle and the experimental discovery of the correlated insulating and superconducting states, and says nothing about mechanism. That also answers the chair's question on wording. I would still say the quantitative magic angle gave experimenters a concrete target, so the theory credit is real, but only for the band-structure step."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clock first for independent confirmation, clean Katori-Ye attribution, and no timing risk, and treats the youth of the moire field and the open superconducting mechanism as the weight against B022.",
+        "response": "This is the strongest argument against my position, and I cannot call it wrong. Where we still differ is on what the criterion rewards. B012 improves an existing capability by orders of magnitude; B022 revealed a regime of matter that nobody could have predicted in detail. I do not think a clean attribution should outweigh that difference when the attribution problem on the B022 side is a limit of the three-person rule and not a doubt about who made the discovery. I would also move on the pending redefinition of the second: you and Lindroth are right that it is a consequence of the demonstrated performance and not a precondition, and I have dropped that from my reservations."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth argues that the redefinition of the second is separate from the prize question, that a prize which must leave out Dean, Young and others is weaker than a two-name credit nobody disputes, and that the clock citation can be worded around the lattice-clock architecture.",
+        "response": "I accept the first point and said so above. On the second I agree in part: the credit cost for B022 is real, and the chair is right to ask for the author record before votes. But the cost is not the same kind of cost as for B012, where ion clocks, SYRTE, PTB and JILA team members are also left out. Both configurations simplify a broad community. I would not therefore treat a 'clean' two-name credit as free of cost, and I would accept your wording around the lattice-clock architecture if the committee turns to B012."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranks B022 sixth for prematurity because of the unresolved pairing mechanism and sample variability, and asks whether the pending SI redefinition needs to happen first for B012.",
+        "response": "My view is unchanged on the central point: the maturity concern attaches to the explanation and not to the discovery, since flat bands, correlated insulators and superconducting domes are reproduced widely. But I take your caution to its practical conclusion, which is that the citation must be narrow, and it now is. I would be moved if you could name a specific reproducibility problem and not just the open mechanism. Eight years is short, but the reproduced phenomenology is the standard the committee applied in earlier years."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce, who moved from B013 to B022, asks that the author record of the first reports be examined before final votes and reports that he found no split of B022 and B012 that is fair to both sets of names.",
+        "response": "I agree that the author record should be examined and I have no way to do it from the shortlist alone, so I treat it as an open item and say so. On the two-part question, I looked for a configuration within three people and found none that is fair: one theorist or experimentalist from B022 plus one or two from B012 would cut the B022 story in half. A single B022 part keeps the theory and experiment together, so I stay with one part."
+      }
+    ],
+    "uncertainties": [
+      "Whether the author and credit record of the 2018 papers, including Dean's group and the first author, supports naming Jarillo-Herrero alone on the experimental side; I cannot settle this from the supplied material.",
+      "Whether the committee regards the unsettled superconducting mechanism and the field's eight years as enough reason to wait for B012; I think not, but a colleague who disagrees has a defensible position.",
+      "Whether a prize for a new regime of matter should outweigh a precision-instrument prize with cleaner attribution; I judge it should, but this is a judgment of criterion and not of fact.",
+      "Whether B018 can be repaired for the Bernevig-Hughes-Zhang omission; I list it as an alternative only because it is mature and broadly ranked, not because the credit is resolved."
+    ],
+    "conflict_note": "No change. My documented co-authors and institutions (Max Planck institutes, Oxford, Freiburg, Gothenburg) include none of MacDonald, Jarillo-Herrero, Bistritzer, Katori, Ye, Kane, Mele or Molenkamp, and I report no conflict. I note my own disciplinary preference for many-body and tunable-parameter problems, which favours B022 over B012."
+  }
+}

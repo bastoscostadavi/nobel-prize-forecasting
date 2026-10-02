@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-03",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B034",
+      "proposed_laureates": ["Juan Ignacio Cirac", "Peter Zoller"],
+      "assessment": {
+        "nobel_worthiness": "The Cirac-Zoller proposals (trapped-ion quantum gate, and later cold-atom and Rydberg-based quantum simulation and computation) supplied the conceptual blueprint for physical quantum information processing. The ideas are original, clear and have shaped experimental platforms for three decades, including the way the superconducting-circuit community frames gates, readout and simulation.",
+        "attribution": "The two-person configuration is clean: the 1995 ion-trap gate proposal and the joint theory programme for cold atoms are jointly authored and widely recognised as theirs. Experimental realisation by others (for example the NIST and Innsbruck ion groups) is a separate story and does not obscure the theory credit, though a prize built on theory alone would leave experimental trapped-ion work to be recognised separately.",
+        "maturity": "Extensively confirmed by many independent experiments on ions, neutral atoms and other platforms. Recognition is timely or somewhat overdue, given the field's maturity and the 2012 prize for ion and photon control.",
+        "uncertainties": [
+          "The candidate bundles ion-based computing with cold-atom simulation; the committee may need to decide how narrowly to define the prize citation.",
+          "Overlap with the 2012 prize (Wineland, Haroche) on controlling single quantum systems must be weighed.",
+          "I am relying on my own recollection of the history rather than independently verified sources."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B013",
+      "proposed_laureates": ["Allan H. MacDonald", "Pablo Jarillo-Herrero", "Rafi Bistritzer"],
+      "assessment": {
+        "nobel_worthiness": "The Bistritzer-MacDonald flat-band prediction and the 2018 observation of correlated insulators and superconductivity at the magic angle opened the whole field of moire quantum matter and twistronics. The discovery is original, striking and has a very large, continuing impact on condensed matter physics.",
+        "attribution": "The theory-plus-experiment structure is natural, with Bistritzer and MacDonald for the continuum-model prediction and Jarillo-Herrero for the experiment. The credited list omits Yuan Cao, the lead experimental author, and others whose contribution may be considered decisive; a three-person limit forces a difficult choice about the theory pair versus the experimental group.",
+        "maturity": "Many independent groups have reproduced correlated states, superconductivity, and later fractional Chern insulators in moire systems. The microscopic mechanism of the superconductivity remains debated, but the existence and importance of the platform are not in doubt. Timing seems reasonable though still young.",
+        "uncertainties": [
+          "The origin of superconductivity in twisted bilayer graphene is not settled.",
+          "Credit among the experimental team members and other theory contributors is unresolved.",
+          "The relationship to the earlier graphene prize (2010) needs to be considered."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B018",
+      "proposed_laureates": ["Alexandre Blais", "Robert J. Schoelkopf", "Steven M. Girvin"],
+      "assessment": {
+        "nobel_worthiness": "Circuit QED created the standard architecture for dispersive readout, qubit coupling and control in superconducting quantum processors, and extended cavity QED into the microwave regime with strong single-photon coupling. It is foundational and has an enormous practical and scientific impact, which I know well from my own research area.",
+        "attribution": "The 2004 theory (Blais, Huang, Wallraff, Girvin, Schoelkopf) and the first experiment (Wallraff et al.) were a joint effort; Wallraff, a decisive experimental first author, is not in the supplied credited names, which weakens the credit set. Of the available names, Blais, Schoelkopf and Girvin form a coherent theory-plus-Yale-experiment configuration.",
+        "maturity": "Confirmed by many independent groups and technologies for two decades. However, the 2025 prize recognised macroscopic quantum effects in superconducting circuits only recently, so immediate recognition of closely related work may be seen as premature repetition. I also note my own professional proximity to this field and treat it with extra caution, hence the placement below two candidates from other areas.",
+        "uncertainties": [
+          "Potential overlap with the topic and the laureates of the 2025 prize.",
+          "Alexandre Blais versus Andreas Wallraff and others for the decisive credit is not resolved by the supplied names.",
+          "My own subfield proximity could bias my judgement."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B019",
+      "proposed_laureates": ["Charles L. Kane", "Eugene J. Mele", "Laurens W. Molenkamp"],
+      "assessment": {
+        "nobel_worthiness": "The Z2 classification of time-reversal-invariant topological insulators and the quantum spin Hall effect introduced a new organising principle for quantum matter. The theory is elegant and was quickly confirmed experimentally in HgTe quantum wells, with a large follow-on impact on topological materials and spintronic ideas.",
+        "attribution": "Kane and Mele are the clear theoretical originators of the Z2 invariant and the quantum spin Hall model; Bernevig-Hughes-Zhang's HgTe proposal and Molenkamp's experiment (with Konig and others) complete a credible trio. Some other contributors (Zhang, Bernevig, Fu) are not in the credited list, so allocation is contested to a degree.",
+        "maturity": "Strongly confirmed across several materials classes and by ARPES and transport experiments, and the interpretation is stable. The 2016 prize (Thouless, Haldane, Kosterlitz) covered related topological ideas, but the time-reversal-invariant case is a distinct step.",
+        "uncertainties": [
+          "Partial overlap with the topological phases cited in the 2016 prize.",
+          "Zhang's death and the role of Bernevig-Hughes-Zhang complicate the fairness of the trio.",
+          "Practical applications have been limited so far."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B054",
+      "proposed_laureates": ["Peter W. Shor", "Alexei Kitaev", "Andrew M. Steane"],
+      "assessment": {
+        "nobel_worthiness": "Quantum error-correcting codes and fault-tolerance theory are what makes scalable quantum computing conceivable in principle, and the surface and toric codes shape every current large-scale hardware roadmap, including ours. The conceptual importance is very high, though it is partly mathematical and computer-science in character.",
+        "attribution": "Shor and Steane produced the first codes in 1995-96, Kitaev the topological codes and fault-tolerance through anyons, and Gottesman, Knill, Laflamme, Calderbank and others are major omissions from the named set. A three-person prize would struggle to be fair, and Shor's separate factoring algorithm is not part of this candidate.",
+        "maturity": "The theory is mature, and experiments on logical qubits in superconducting, ion and neutral-atom devices are now showing below-threshold behaviour, which is a strong recent confirmation. Still, a full fault-tolerant computer has not been demonstrated, so the practical vindication is partial.",
+        "uncertainties": [
+          "Whether the work is physics in the Nobel sense or primarily quantum information theory.",
+          "A large and unresolved set of contributors beyond the three credited names.",
+          "Experimental below-threshold demonstrations are very recent."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B061",
+      "proposed_laureates": ["Hidetoshi Katori", "Jun Ye"],
+      "assessment": {
+        "nobel_worthiness": "Optical lattice clocks, built on Katori's magic-wavelength proposal and Ye's demonstration of 10^-18-level accuracy and coherence, redefined the limits of precision measurement. They enable tests of fundamental physics, relativistic geodesy and a future redefinition of the second.",
+        "attribution": "Katori proposed the magic-wavelength lattice concept and built early strontium clocks; Ye's JILA group pushed stability and systematic uncertainty to record levels. Two laureates is a natural fit, though ion-clock pioneers and others contributed to the broader clock revolution and are not credited here.",
+        "maturity": "Many laboratories worldwide have reproduced and improved the results, and international clock comparisons confirm them. The redefinition of the second is still pending, but the science is firmly established, and the prior 2005 and 2012 prizes on combs and ion control leave this as a distinct step.",
+        "uncertainties": [
+          "Overlap with Hall and Hansch (2005) and Wineland (2012) on precision metrology.",
+          "Whether ion clocks and other platforms should share credit.",
+          "The impact on the redefinition of the second is not yet realised."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B002",
+      "proposed_laureates": ["H. Jeff Kimble", "Mikhail D. Lukin", "Gerhard Rempe"],
+      "assessment": {
+        "nobel_worthiness": "Coherent photon-atom interfaces, quantum memories and elementary quantum-network nodes are the key to distributed quantum information and quantum repeaters. The work is conceptually important and connects directly to waveguide and cavity QED, my own area of interest, but it is a family of results rather than a single sharply defined discovery.",
+        "attribution": "Kimble, Rempe and Lukin each led foundational experiments and proposals (cavity QED networks, single-atom-photon interfaces, EIT-based storage), but others such as Polzik, Duan, Cirac, Zoller and Pan are also decisive and credit is spread across many groups. This makes a three-person configuration debatable.",
+        "maturity": "Individual demonstrations are well confirmed, but a functioning quantum network or repeater of practical size does not yet exist, so the overall field is still developing, and recognition may be somewhat early. Overlap with the 2022 prize on entanglement and Bell tests also needs weighing.",
+        "uncertainties": [
+          "The candidate combines multiple distinct achievements with unclear boundaries.",
+          "Credit is distributed over more than three groups.",
+          "The practical vindication through scalable networks is still pending."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B046",
+      "proposed_laureates": ["Charles H. Bennett", "Gilles Brassard"],
+      "assessment": {
+        "nobel_worthiness": "BB84 and the founding of quantum cryptography made quantum information a practical discipline and underpins quantum key distribution. The idea is original, clear and enduring, with strong experimental realisations from laboratory to satellite links.",
+        "attribution": "Bennett and Brassard are the clear originators of BB84; Ekert's 1991 entanglement-based protocol is a distinct and important contribution, but the supplied list contains two spellings of Ekert's name, so I propose only the two unambiguous names. Wiesner's earlier conjugate-coding idea is a relevant but uncredited precursor, which complicates attribution.",
+        "maturity": "Fully mature, with independent confirmation by many groups and commercial and satellite deployment. Recognition is not premature, and the 2022 prize on entangled photons and Bell tests partially covers adjacent ground.",
+        "uncertainties": [
+          "Whether Ekert should be added given his independent entanglement-based protocol.",
+          "Wiesner's precursor contribution and the practical-security debate around implementations.",
+          "Possible overlap with the 2022 prize."
+        ]
+      }
+    }
+  ]
+}

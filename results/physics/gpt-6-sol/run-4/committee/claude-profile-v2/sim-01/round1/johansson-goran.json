@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "johansson-goran",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "for the invention and development of the optical lattice clock, bringing optical frequency standards to a fractional uncertainty of 10^-18"
+      }
+    ]
+  },
+  "alternatives": [
+    "B038",
+    "B022"
+  ],
+  "statement": {
+    "case_for": "I opened with quantum key distribution (B038) and I still think it is an original, conceptually clean idea, but after reading the opening ballots I move the optical lattice clock (B012) to first place. It is the one candidate on which the committee is both broadly supportive (first place from Kroll, Lindroth and Olsson, and second from me) and where the attribution is tight. Katori's magic-wavelength proposal made a many-atom, Doppler- and recoil-free optical clock possible, and Ye's group took the strontium lattice clock to the 10^-18 level with ultrastable lasers and systematic control. The result is independently reproduced in several laboratories, clock-to-clock comparisons across institutes are routine, and it has opened tests of fundamental constants, relativistic geodesy at the millimetre scale and the pending redefinition of the second. The 2005 prize covered the frequency comb, not the lattice-clock concept, so this step is not already recognised. Two names give a compact, defensible prize, and the discovery-or-invention criterion is met cleanly by an instrument-level invention with lasting impact.",
+    "case_against": "The strongest reservation is credit. Lattice-clock work was pursued in parallel by other groups (for example at NIST, PTB and elsewhere in Japan and France), and trapped-ion clocks are a separate lineage that the supplied credit excludes, so a Katori-Ye pair will leave out some people who many in the community would name. There is also a question of whether the work is sufficiently distinct from the frequency-comb prize and the 2012 prize on single quantum systems, and the SI redefinition of the second has not yet happened. Against my own opening choice, B038 has a real credit problem of its own: Wiesner's earlier conjugate coding is outside the supplied names, the shortlist carries two spellings of Ekert, and my first-place ranking was supported by almost no colleague (Lindroth placed it eighth), so I should not carry it forward on conviction alone.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks B012 first as a case of progress limited by measurement accuracy: the magic-wavelength lattice removed Doppler and recoil problems while keeping a large atom number, and Katori plus Ye is a natural pair because concept and precision demonstration sit with them.",
+        "response": "I agree with the scientific argument and with the two-name configuration, and it is the main reason I have moved my first place to B012. I would qualify one thing: Kroll says the decisive concept and precision demonstration sit with these two, but the committee has not verified priority among contemporaneous lattice-clock proposals, and the citation should be written around the lattice clock as an instrument rather than around record numbers, which other groups will keep breaking."
+      },
+      {
+        "member_id": "lindroth-eva",
+        "point": "Lindroth ranks B012 first, stresses that the 2005 prize for the frequency comb leaves the lattice-clock step unrecognised, and ranks B038 only eighth while crediting just Bennett and Brassard.",
+        "response": "I accept her point on B012 and on the frequency comb, and I think she is right that the comb prize does not substitute for this discovery. On B038 I disagree in part: I think Ekert's entanglement-based route is a conceptually separate and important contribution, so a Bennett-Brassard-only credit would be incomplete. But her low ranking is a fair signal that the committee does not see B038 as a front-runner this year, and I do not press it against the clock."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks the twisted bilayer graphene candidate (B022) first as a clean theory-to-experiment story with a broad statistical-physics reach, where the Bistritzer-MacDonald continuum model predicted the magic angle and the 2018 experiments found correlated and superconducting states.",
+        "response": "The prediction-then-discovery story is compelling and I take it seriously, and I ranked B022 sixth mainly for maturity. The pairing mechanism of the superconductivity is unsettled and the field is roughly eight years old, so a citation would have to be narrow. I would not rule it out for a later year, but I do not think the current evidence puts it ahead of a clock result that has been confirmed across laboratories for years. I keep it as an alternative, not as my preferred part."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson places B022 first and B018 second, arguing that a calculated band structure anticipated a new phase of matter and that topological insulators changed how band structure is classified, with timely recognition.",
+        "response": "I see the force of the B022 argument, but I disagree with how settled the credit is: Eriksson himself notes that the experimental credit extends to a larger team and that other theory groups contributed. On B018 I share the concern about the missing Bernevig-Hughes-Zhang prediction, and Zhang's death makes the theory side harder to fill, so I would not support B018 on the supplied names. This is a place where I think a serious attribution gap should lower a candidate's priority."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts Katori and Ye as sufficient credit given parallel lattice-clock groups, and whether priority for the magic-wavelength idea over contemporaneous proposals has been properly checked.",
+      "Whether the SI redefinition of the second needs to happen first, or whether the demonstrated 10^-18 performance already settles maturity.",
+      "Whether B038 can be framed fairly given Wiesner's earlier conjugate coding and the duplicate Ekert name strings.",
+      "Whether the 2025 prize on circuit quantum effects makes me too cautious or too keen on quantum-information candidates; I cannot fully judge my own bias."
+    ],
+    "conflict_note": "I am a Chalmers professor and director of WACQT, a quantum-computing programme. None of B012, B038 or B022 involves a documented personal or institutional connection to me. The profile does record Chalmers links to the 2025 laureates and a collaborator network in superconducting circuits, which would matter for a circuit-QED or quantum-computing candidate, so I have not preferred those. Otherwise no specific conflict is apparent from the provided profile."
+  }
+}

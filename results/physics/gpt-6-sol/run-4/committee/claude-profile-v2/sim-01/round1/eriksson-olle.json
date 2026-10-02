@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "eriksson-olle",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B022",
+        "laureates": [
+          "Allan H. MacDonald",
+          "Pablo Jarillo-Herrero",
+          "Rafi Bistritzer"
+        ],
+        "citation": "For the theoretical prediction of flat bands in twisted bilayer graphene at a magic angle and the experimental discovery of correlated insulating and superconducting states in this tunable moire platform"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B018"
+  ],
+  "statement": {
+    "case_for": "Twisted bilayer graphene is the clearest case on the list of a calculated band structure anticipating a new phase of matter. Bistritzer and MacDonald's 2011 continuum model located a flat-band regime at a small twist angle, and the 2018 experiments under Jarillo-Herrero found correlated insulators and superconductivity at tunable density in a single carbon-based device. Theory and experiment line up in a way that is rare, and the discovery has been reproduced by many independent groups across several device geometries and related moire systems. It links band theory to strong correlation, and it is a genuinely new platform rather than a refinement of an old one. The three credited names also map onto one theory-plus-experiment story without needing to split the prize between unrelated achievements, which is why I prefer a single part.",
+    "case_against": "The field is only about eight years old, and the microscopic origin of the superconductivity and of several correlated states is still debated, so a citation must be worded around what is established (flat bands, correlated insulators, superconductivity observed) and not around mechanism. The experimental credit is also broader than one group: Cory Dean's hBN-based devices, and work by Young, Yazdani, Efetov and others, were important, and the three-name cap makes this contentious. Waiting a few years would give a settled interpretation and a better view of who else deserves credit, which is a real argument for the more mature candidates.",
+    "responses": [
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranks the optical lattice clock first, as a case where progress was limited by what can be measured, with magic-wavelength lattices by Katori and 10^-18 accuracy by Ye, confirmed across many laboratories and arriving at a timely moment with the redefinition of the second.",
+        "response": "I agree that B012 is the most mature and cleanly attributed entry, and I keep it among my alternatives. I do not accept that maturity and a tidy two-name credit by themselves outweigh originality and breadth of impact. The clock is a measurement-precision success whose main consequences, for geodesy, constants and the second, are mostly still ahead, while moire quantum matter has already opened a new field of physics. Kroll is right that I should not let the novelty of twisted bilayers hide how young the field is. If the committee wants a safe prize with no attribution dispute I would accept B012, but I do not think safety should decide the ranking."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranks twisted bilayer graphene first as a clean theory-to-experiment story and as strongly correlated electrons with tunable parameters, which is a statistical-physics problem of broad reach, though he notes that experimental credit may extend beyond the supplied names.",
+        "response": "I largely agree, and the tunability point is the one I weigh most: twist angle and gate density turn a hard many-body problem into a controllable experiment. I would add a caution that the theory side is not entirely clean either. The continuum model is a band-structure result, and the correlated phases it enables are not predicted by it, so the citation should not suggest that theory predicted the superconductivity. I would word the citation around flat bands plus the experimental discovery of the correlated states."
+      },
+      {
+        "member_id": "pearce-mark",
+        "point": "Pearce places astrophysical neutrinos and IceCube first, an instrument-driven discovery with a clear concept, confirmed by the 2017 blazar coincidence and the 2023 Galactic-plane evidence, and ranks the topological insulator proposal second.",
+        "response": "IceCube is a serious case, and I take Pearce's point about confirmation by independent analyses. My reservation is attribution. A cubic-kilometre detector is the work of a very large collaboration, and a two-person credit risks being arbitrary. On the topic he ranks second, B018, we agree on the physics, but I part from his view that recognition is clearly timely, because the 2016 prize already honoured topological phases and the missing Bernevig, Hughes and Zhang credit leaves the allocation incomplete. I see B018 as strong but harder to credit properly than B022."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson places quantum key distribution first, arguing that the BB84 and Ekert protocols turned the foundations of quantum measurement into a concrete cryptographic scheme with decades of experimental demonstration, and he places the optical lattice clocks second.",
+        "response": "I accept that the protocols are conceptually clean and have been demonstrated. My difficulty is that the underlying physics, entanglement and measurement disturbance, is already close to the 2022 prize, and the discovery content is more a protocol than a new physical phenomenon. The listed credit also carries two spellings of Ekert, which makes the credited names ambiguous. I would treat QKD as a respectable candidate that comes after the discovery-driven ones."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will insist on wording the citation around the experimental discovery rather than the mechanism of superconductivity, given that the mechanism is still debated.",
+      "Whether three names fairly capture experimental credit, given the contributions of Dean, Young, Yazdani, Efetov and others, and my unverified recollection of the full authorship record of the 2018 papers.",
+      "Whether the field is mature enough for recognition now, or whether a few more years would settle the interpretation and the attribution."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My field is electronic-structure theory and magnetism at Uppsala, which is close in method to the band-structure side of B022, but the profile documents no personal or institutional link to any shortlisted candidate."
+  }
+}

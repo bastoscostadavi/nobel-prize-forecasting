@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "gpt-6-sol",
+  "run": 4,
+  "simulation_id": "sim-01",
+  "member_id": "lindroth-eva",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/physics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "Hidetoshi Katori",
+          "Jun Ye"
+        ],
+        "citation": "For the invention and development of optical lattice clocks, realizing optical frequency standards with many atoms at the 10^-18 level of fractional uncertainty"
+      }
+    ]
+  },
+  "alternatives": [
+    "B022",
+    "B018"
+  ],
+  "statement": {
+    "case_for": "The optical lattice clock is a single, well-defined invention. Katori's magic-wavelength idea makes the lattice trap perturb both clock levels equally, so thousands of atoms can be interrogated without Doppler or recoil shifts. Ye's group then developed the ultrastable lasers and the systematics control that took strontium lattice clocks to the 10^-18 regime. The payoff is concrete and independently reproduced: clock comparisons between laboratories, millimetre-scale gravitational redshift measurements, constraints on varying constants and dark-matter couplings, and the evidence base for redefining the second. Seven of the eight openings ranked it, three placed it first, and my colleagues' scientific arguments for it come from different directions (precision measurement, fitness to the 'invention' criterion, maturity). The 2005 prize covered the frequency comb that makes optical clocks countable, not the lattice clock, so the step is unrecognised. The two-name credit is the cleanest on the shortlist, and the discovery is mature, not an early bet.",
+    "case_against": "The strongest reservation is that the 'clock' achievement is broader than two names. Trapped-ion optical clocks (the Al+ and Yb+ work at NIST, PTB and elsewhere), the Sr clock groups at SYRTE and PTB, and the JILA-era team members (Ludlow, Hinkley, Bloom and others) all contributed to the 10^-18 milestone, so a Katori-Ye citation could look like it ranks lattice clocks over ion clocks. A second concern is the 'discovery or invention' framing: much of the value is still prospective, since the SI second has not yet been redefined and the physics payoffs (geodesy, constants, dark matter) are mostly demonstrated as bounds, not as new phenomena. Finally, B022 has a stronger claim to opening consensus than I gave it, and I could be underweighting the pull of a very large new field.",
+    "responses": [
+      {
+        "member_id": "danielsson-ulf",
+        "point": "Danielsson ranked magic-angle twisted bilayer graphene first because the correlated and superconducting phases were measured, not merely proposed, and the field is already defining, while placing the lattice clock only eighth.",
+        "response": "I agree the measured phases are real and that the theory-to-experiment line from Bistritzer-MacDonald to Jarillo-Herrero is clean, and I ranked B022 third for that reason. Where I differ is on maturity: you accept a roughly eight-year-old field as ready, while I think the superconducting mechanism and the role of sample-dependent disorder are still open enough that the citation would have to be written around what is not yet understood. The clock is not subject to that. Its performance has been reproduced by several laboratories and its interpretation is not contested. Your point that other experimental groups (Dean's hBN devices in particular) are not in the credited names also applies to B022 with more force than the omissions in B012. I would not block B022, but I would not put it ahead of the clock."
+      },
+      {
+        "member_id": "eriksson-olle",
+        "point": "Eriksson ranked B022 first because a calculated continuum band structure anticipated a new correlated phase, ranked topological insulators second, and put the lattice clock seventh, noting the credit also extends to Hall, Haensch and groups at NIST, PTB and SYRTE.",
+        "response": "The theory-anticipates-experiment argument is a fair strength of B022, and I do not dismiss it. But your own note about Hall, Haensch and the NIST, PTB and SYRTE groups is the right way to read the clock entry, and I think it supports the pair as framed. The comb was honoured in 2005, and Katori's magic-wavelength proposal and Ye's accuracy demonstration are the two decisive steps after it. A prize can carry that and cite the broader community in its wording without adding names. I also disagree gently with how you weigh the topological-insulator entry. You find recognition timely and arguably overdue, but you also say the credited set cannot be fixed within the supplied names because Bernevig, Hughes and Zhang are absent. That is a worse attribution defect than anything I see in B012."
+      },
+      {
+        "member_id": "kroll-stefan",
+        "point": "Kroll ranked the lattice clock first as a case of progress limited by what can be measured, stressing that the magic-wavelength lattice removed the Doppler and recoil problem while keeping a large atom number, with Katori's concept and Ye's precision as the decisive pair.",
+        "response": "I agree on the central point and I think we share the same physics reading: the key was keeping many atoms and removing first-order motional and light shifts together. I would qualify one thing in how you frame B056, which you ranked second. The optical-lattice quantum-simulation entry has five credited names and, as you say, excluding Cirac and Esslinger carries a real attribution cost. That is a strong reason to keep B012 first even if a second part were considered. A two-part prize that adds B056 would exceed the three-person limit with any sensible split. So I treat B056 as a separate question, not a companion to the clock."
+      },
+      {
+        "member_id": "mehlig-bernhard",
+        "point": "Mehlig ranked B022 first and B056 second, while placing the lattice clock eighth and calling its attribution relatively clean but its societal impact not yet realised because the redefinition of the second is pending.",
+        "response": "I accept that the redefinition of the second has not happened, and I listed it among my reservations. But I would separate the prize question from the metrology-administration question. The discovery criterion is met by the demonstration of the 10^-18 performance and its reproduction across institutes, which is already in the record, and the redefinition follows from that, not the other way round. On B056 I agree with your own concern that Zoller, Bloch and Greiner are not a natural trio and that Cirac and Esslinger have strong claims. A prize that has to leave out those people is weaker than one with a two-name credit that nobody on this committee disputes."
+      },
+      {
+        "member_id": "johansson-goran",
+        "point": "Johansson ranked quantum key distribution first and the lattice clock second, with Bennett, Brassard and Ekert as the credited names, noting the longlist carries two spellings of Ekert and that Wiesner's earlier idea is unresolved.",
+        "response": "I am glad you rank the clock second, and I agree it is an instrument-level breakthrough. On B038 I only ranked it eighth, and my reason is attribution and timing, not the quality of the idea. BB84 is clearly Bennett and Brassard, and Ekert's entanglement-based protocol is separate, so the three names correspond to two different routes that a single citation would have to unify. The Wiesner question you raise is also real and I cannot resolve it from the supplied names. I treat the duplicated Ekert entry as one person. If the committee wished to recognise quantum information after 2022, I would want that settled before it competes with a result as unambiguous as the clock."
+      }
+    ],
+    "uncertainties": [
+      "Whether a Katori-Ye citation can be worded so that it does not imply that trapped-ion optical clocks are of lesser standing, or whether the committee would prefer a configuration that explicitly includes an ion-clock name.",
+      "The relative weight of Katori's concept against Ye's group's demonstration of record uncertainty, which I cannot verify from the supplied text.",
+      "Whether the pending redefinition of the second should wait for completion before the prize is awarded, or is already a consequence of what has been demonstrated.",
+      "Whether B022 has matured enough, given the open question of the superconducting mechanism, to displace a well-confirmed instrument-level discovery."
+    ],
+    "conflict_note": "No specific conflict with the credited names Katori and Ye is apparent from my profile. My connections are with Lindgren's Gothenburg group, Anne L'Huillier and the Lund attosecond group, Ursula Keller's ETH group, and co-authors such as Schuch, Dahlstrom, Argenti and Indelicato, none of whom is in the preferred configuration. I work in atomic theory, which is adjacent to optical-clock physics, and I flag that proximity of field, though not a personal or institutional tie. If the committee considers a part that overlaps with attosecond or electron-ion collision physics, I would flag my collaborations then."
+  }
+}

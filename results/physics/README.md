@@ -43,7 +43,7 @@ Additional slates appearing in this comparison:
 
 ## Example discussion
 
-One complete simulation, chosen because the committee starts split and the vote goes to an instant runoff: Claude Sonnet 5.5 with v2 profiles, on run 2 of the Claude-drafted nominator list. All records are in [`claude-opus-5-5/run-2/committee/claude-profile-v2/sim-05`](claude-opus-5-5/run-2/committee/claude-profile-v2/sim-05).
+One complete simulation, chosen because the committee starts split and the vote goes to an instant runoff: Claude Sonnet 5.5 with v2 profiles, on run 2 of the Claude-drafted nominator list. The **[full transcript](example_committee_transcript.md)** reproduces every opening assessment, statement, chair summary and ballot verbatim; the raw records are in [`claude-opus-5-5/run-2/committee/claude-profile-v2/sim-05`](claude-opus-5-5/run-2/committee/claude-profile-v2/sim-05). The summary below follows it step by step.
 
 **1. Private openings.** Each member ranks eight of the 45 candidates without seeing anyone else. Their first choices spread across seven different achievements:
 

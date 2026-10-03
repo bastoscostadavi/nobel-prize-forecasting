@@ -32,7 +32,7 @@ Reviewing the saved discussions reveals two recurring patterns:
 1. **Aligned expertise.** Kröll and Lindroth make a consistent case for clocks, drawing on research backgrounds that overlap with Katori–Ye's work.
 2. **Broad second-choice support.** Clocks attract agreement while other members split among topological insulators, magic-angle graphene, IceCube, and other options.
 
-For details, check [the Physics experiments](results/physics/README.md).
+For details, including a full example of one committee discussion, check [the Physics experiments](results/physics/README.md#example-discussion).
 
 ### Chemistry
 

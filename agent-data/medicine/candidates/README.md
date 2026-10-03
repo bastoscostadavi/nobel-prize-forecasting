@@ -1,7 +1,9 @@
-# Medicine candidate lists
+# 2026 Medicine candidate list
 
-The current common input for the Nobel agents is the [consolidated list](merged/README.md): 53 discovery entries from the two independent drafts, with reviewed attribution and documented provenance.
+`candidates.json` is the single candidate list given to the Medicine committee simulations: 52 discoveries, each with a discovery, subfield and pool of credited names. The nominator stage was skipped for Medicine; the list was prepared directly (2 October 2026).
 
-Give agents [the neutral opening packet](merged/committee_longlist.json) together with [the handoff instructions](merged/AGENT_HANDOFF.md). The [attribution review](merged/attribution_review.md) and canonical dossier are available for their later evidence review.
+- `candidates.json`: the list, with scientific basis, reservations, attribution notes and sources per entry.
+- `candidates.csv`: the same entries as a flat table.
+- `attribution_review.md`: the attribution decisions behind each credit pool. Its single-cell RNA sequencing section refers to the removed entry.
 
-The independent drafts remain preserved under [Codex](c/README.md) and [Claude](claude-opus-5-5/candidates.json). Use `merged/` for the common candidate input going forward.
+**History.** Codex and Claude each drafted a list independently (32 and 40 entries); they were merged into 53 entries. Single-cell RNA sequencing was then removed because two committee members, Rickard Sandberg and Sten Linnarsson, are in its credit pool. The drafts and merge tooling are in git commit `d0ed5f0e`.

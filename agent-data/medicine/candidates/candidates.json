@@ -2,8 +2,8 @@
   "schema_version": 1,
   "category": "medicine",
   "prize_year": 2026,
-  "list_id": "merged",
-  "version": 1,
+  "list_id": "medicine-2026",
+  "version": 2,
   "prepared_by": "Codex attribution review and consolidation",
   "research_cutoff": "2026-10-02",
   "cutoff_timezone": "America/Chicago",
@@ -36,7 +36,7 @@
     "consolidated_discoveries": 53,
     "dropped_input_entries": 0
   },
-  "candidate_count": 53,
+  "candidate_count": 52,
   "candidate_order": "alphabetical_by_discovery_not_rank",
   "scope": "Discovery-centered union. Scientific credit pools are provisional and can exceed three; the agents must select a coherent award of no more than three people in total. No shortlist ranking, probabilities or nominator counts are implied.",
   "limitations": [
@@ -1520,58 +1520,6 @@
       "prior_award_flags": []
     },
     {
-      "discovery_key": "single-cell-rna",
-      "discovery": "Single-cell RNA sequencing for resolving cellular identity and heterogeneity",
-      "subfield": "Genomics and molecular systems biology",
-      "credited_names": [
-        "Aviv Regev",
-        "Evan Z. Macosko",
-        "Fuchou Tang",
-        "Rickard Sandberg",
-        "Sten Linnarsson",
-        "Stephen R. Quake",
-        "Steven A. McCarroll"
-      ],
-      "scientific_basis": "Single-cell transcriptome profiling, sensitive full-length protocols and droplet methods enabled molecular analysis of heterogeneous cell populations.",
-      "rationale": "Opened a major experimental view of cell identity, with wide use across physiology, development and disease.",
-      "main_reservation": "The first demonstration, improved sensitivity, high throughput and atlas applications represent distinct credit claims; the three-person constraint is severe.",
-      "attribution_note": "Preserve methodological alternatives. Inclusion of Sandberg and Linnarsson creates direct conflicts for the existing simulated committee; these require an explicit protocol choice.",
-      "source_ids": [
-        "scrna2009",
-        "smartseq",
-        "smartseq2",
-        "dropseq",
-        "linnarsson"
-      ],
-      "conflict_flags": [
-        {
-          "member_id": "sandberg-rickard",
-          "type": "candidate_is_committee_persona"
-        },
-        {
-          "member_id": "linnarsson-sten",
-          "type": "candidate_is_committee_persona"
-        }
-      ],
-      "candidate_id": "M042",
-      "assessment_type": "author_judgment_not_probability",
-      "name_pool_status": "provisional_attribution_pool_not_actual_nominations",
-      "input_entries": [
-        {
-          "list_id": "c",
-          "candidate_id": "C024"
-        }
-      ],
-      "review_decision": "Retained discovery and supported provisional attribution pool from the Codex draft.",
-      "attribution_additions": [],
-      "historical_contributors": [],
-      "related_discovery_keys": [
-        "spatial-transcriptomics"
-      ],
-      "review_status": "scientific_scope_and_attribution_reviewed",
-      "prior_award_flags": []
-    },
-    {
       "discovery_key": "spatial-transcriptomics",
       "discovery": "Spatial transcriptomics for mapping gene expression within intact tissue",
       "subfield": "Genomics and experimental physiology",
@@ -2493,5 +2441,6 @@
       "url": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
       "accessed_on": "2026-10-02"
     }
-  }
+  },
+  "consolidation_note": "Single candidate list for the 2026 Medicine committee simulations. Built from the Codex and Claude drafts (merged v1, 53 entries); the drafts and merge tooling are archived in git commit d0ed5f0e. Removed M042 (single-cell RNA sequencing) at the user's request on 2026-10-02 because committee members Rickard Sandberg and Sten Linnarsson are in its credit pool."
 }

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "medicine-2026",
+  "run": 1,
+  "simulation_id": "sim-21",
+  "member_id": "sandberg-rickard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/medicine_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Daniel J. Drucker",
+          "Jens Juul Holst",
+          "Svetlana Mojsov"
+        ],
+        "citation": "for discoveries of the physiology of glucagon-like peptide-1 and its active form, which made possible incretin-based treatment of type 2 diabetes and obesity"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B003"
+  ],
+  "statement": {
+    "case_for": "All six of us placed GLP-1 first, which is a strong signal but not the argument. The argument is that this is one of the rare complete arcs in medicine: proglucagon processing and the identification of the active GLP-1(7-36) peptide, the demonstration of its glucose-dependent insulinotropic action in humans, receptor biology and the broader gut-endocrine actions, and then durable agonists with randomized outcome-trial evidence in cardiovascular, renal and weight endpoints. The mechanism is independently confirmed at scale, the clinical effect is large and still widening, and the work is mature rather than premature. A prize built around Holst (human incretin physiology), Drucker (receptor biology, GLP-2, translation) and Mojsov (identification and synthesis of the active peptide) rewards the discovery chain that made the drugs possible and fits the Nobel criterion of discovery with benefit to humankind.",
+    "case_against": "The strongest reservation is attribution. Three names cannot capture the field: Joel Habener is not in the credited list and has a competing claim to the identification of the active peptide, so Mojsov's priority is genuinely contested and I cannot resolve it from the supplied evidence. Excluding Lotte Bjerre Knudsen means the prize honours the physiology and not the engineering of liraglutide and semaglutide that actually delivered the therapy, and a reasonable committee could regard that as an incomplete account of why this is a medical breakthrough. If the credit dispute proves unresolvable, a different configuration, or a different year for this topic, may be more defensible than forcing a contested third name.",
+    "responses": [
+      {
+        "member_id": "linnarsson-sten",
+        "point": "Linnarsson proposes Drucker, Holst and Knudsen, arguing that the physiology-to-drug arc is best captured by including the person who engineered the long-acting analogues, while treating Mojsov as a credit question that cannot be accommodated.",
+        "response": "I take the point seriously: without acylated, long-acting analogues native GLP-1, with its minutes-long half-life, would not be a drug, and the outcome-trial evidence is for those molecules. But the Nobel Prize rewards discovery, and the discovery content of the Knudsen contribution is pharmaceutical optimisation within a company, whereas the identification of the active peptide is the step that made the entire field possible. I would not exclude Mojsov on priority grounds alone and then include an industrial developer. I remain with the discovery trio, but I accept that this is a judgment call and that Knudsen is the strongest case if the committee wants the therapeutic arc represented."
+      },
+      {
+        "member_id": "svenningsson-per",
+        "point": "Svenningsson regards Drucker and Holst as the clearest physiological contributors, calls Mojsov a credible but priority-contested third claim, and would leave out Knudsen as more industrial.",
+        "response": "We agree on the structure, and I agree that Drucker and Holst are the secure core. Where I would go further is that the contested third seat should be decided on the documentary record of who identified and synthesised the active GLP-1(7-36) form and showed its activity, not on patent history, which tells us little about scientific priority. I cannot verify that record from the supplied text, so I would want the committee to ask for it before locking Mojsov in, and keep Habener explicitly in view as a possible alternative for that seat."
+      },
+      {
+        "member_id": "wahren-herlenius-marie",
+        "point": "Wahren-Herlenius ranked cGAS-STING second, stressing its centrality to antiviral defence, cancer immunity and interferon-driven autoimmune disease such as lupus, with Chen and Barber as the two decisive names.",
+        "response": "I agree that cGAS-STING is mechanistically complete and the Chen and Barber pairing is the cleanest one available, with Ishikawa, Sun and Wu as overlapping credits. My reservation is about medical consequence: STING agonists and inhibitors have not yet shown clinical benefit, so the case rests on basic-science impact and not on benefit to patients. That is a legitimate basis for the prize, but it is weaker than GLP-1 today and I think it is better kept as a strong future candidate than paired with GLP-1 now, which would also exceed three people."
+      },
+      {
+        "member_id": "perlmann-thomas",
+        "point": "Perlmann ranked CAR-T second and the unfolded protein response (Mori and Walter) third, noting that the UPR has a clean two-person attribution and a mature, repeatedly confirmed mechanism.",
+        "response": "The UPR is attractive precisely because attribution is clean, and I agree it is mature. I rank it below the therapeutic candidates because its link to disease, while real in diabetes, cancer and neurodegeneration, is still indirect, and the committee has recently favoured discoveries with a clear line to patient benefit. I would put it as a serious reserve, not my preferred pick. On CAR-T, I agree with Perlmann's two-person June and Sadelain framing over adding Rosenberg."
+      }
+    ],
+    "uncertainties": [
+      "Whether Mojsov or Habener (not on the credited list) has the stronger claim to identification of the active GLP-1 peptide, and whether the record supports a Mojsov credit.",
+      "Whether the committee wants to honour the drug-development step (Knudsen) alongside or instead of the basic discovery.",
+      "Whether a technology prize for massively parallel sequencing (B003) is compatible with prior prize practice and the discovery criterion, and how to treat Mayer and the many Solexa/Illumina contributors.",
+      "For CAR-T, whether the absence of Eshhar and others from the credited names makes any three-person configuration unfair."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the shortlisted candidates. I note that my own single-cell methods rely on massively parallel sequencing (B003) and that I have co-authored with colleagues on this committee, but no shortlisted candidate is a documented collaborator, mentor or institutional colleague, and I do not consider this a recusal issue."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "list_id": "medicine-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "sandberg-rickard",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/medicine_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B046",
+        "laureates": [
+          "Daniel J. Drucker",
+          "Jens Juul Holst",
+          "Lotte Bjerre Knudsen"
+        ],
+        "citation": "for discoveries of the physiology of glucagon-like peptide-1 and its development into incretin therapies for type 2 diabetes and obesity"
+      }
+    ]
+  },
+  "alternatives": ["B014", "B037"],
+  "statement": {
+    "case_for": "All six opening ballots put GLP-1 first, but the case does not rest on that agreement. The arc from proglucagon-derived peptide biology and incretin physiology to long-acting agonists is one of the few cases where fundamental hormone physiology became a widely used medicine with large randomized outcome evidence, including cardiovascular and renal benefit. It has been confirmed independently for decades and its clinical reach is still expanding, so recognition is timely. A single achievement with a physiology half (Drucker, Holst) and a development half (Knudsen) fits the prize's purpose and keeps the three-person cap workable.",
+    "case_against": "The credit problem is real. Four names are credited for three places, Mojsov's identification and synthesis of the active GLP-1 peptide is a genuine contribution that my configuration leaves out, and early work from the Habener group is not on the list at all. A prize that favours the industrial developer over an academic discoverer could also be seen as rewarding drug development more than discovery. If the committee judges the Mojsov claim decisive, my configuration is the weaker reading.",
+    "responses": [
+      {
+        "member_id": "wahren-herlenius-marie",
+        "point": "Wahren-Herlenius proposes Drucker, Holst and Mojsov as the basic-science core of GLP-1 and treats Knudsen as a pharmaceutical developer whose contribution is separable.",
+        "response": "I take the argument seriously, since Mojsov's identification of the active peptide form was an early and necessary step. Still, the supplied evidence shows Mojsov's contribution to be peptide characterization, and the discovery that matters to the prize is the passage from physiology to drugs. Dropping Knudsen removes the liraglutide and semaglutide work that produced the clinical outcome. I would keep Knudsen, but I accept that this rests on how the committee weighs development against early peptide characterization, and I would want the attribution question tested again in the next round."
+      },
+      {
+        "member_id": "perlmann-thomas",
+        "point": "Perlmann also chooses Drucker, Holst and Mojsov, noting that Knudsen's industrial role and other early contributors such as Habener are not fully reflected in the credited names.",
+        "response": "I agree that allocation between academic discoverers and drug developers is the main open issue on this candidate, and that the credited list omits early contributors. Where we differ is the weighting. The Mojsov-for-Knudsen swap gives a cleaner basic-science citation, but it makes the clinical half of the achievement rest on Drucker alone. I would rather keep a development contributor in the configuration than present the therapies as a by-product of the physiology."
+      },
+      {
+        "member_id": "linnarsson-sten",
+        "point": "Linnarsson ranks optogenetics second and argues that its methodological impact is exceptional, choosing Deisseroth, Hegemann and Nagel and admitting that any trio leaves out an important contributor.",
+        "response": "I agree optogenetics is exceptional as a method. My reservation is the one he raises himself: six credited names, unresolved priority between channelrhodopsin discovery and neuronal implementation, and Bamberg, Boyden and Miesenböck all outside his trio. Strong methodological impact does not by itself resolve a credit problem this large, and a tool is a lesser fit with a prize for discoveries in physiology or medicine than a mechanism or therapy. I would not rank it above the unfolded protein response, where attribution is far cleaner."
+      },
+      {
+        "member_id": "svenningsson-per",
+        "point": "The chair puts the unfolded protein response second, calling it a conceptually clean mechanism with comparatively unambiguous credit, while noting that clinical translation is still emerging.",
+        "response": "I agree on the clean two-person attribution, and I ranked B014 second myself. I would not treat it as a rival to GLP-1 this year, since it is a basic mechanism whose human-disease payoff is less established, and I would not pair the two, because that would make four laureates. It is my first alternative, and a single-part B014 prize is plausible if GLP-1 stalls on credit."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will put Mojsov or Knudsen in the third place, and whether Habener-group work is thought to deserve credit outside the supplied names.",
+      "Whether the committee prefers a physiology-weighted or a drug-development-weighted citation for B046.",
+      "Whether the unfolded protein response, with cleaner attribution but less clinical impact, should be paired with or take priority over a contested GLP-1 configuration."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for B046, B014 or B037. My profile documents co-authorship with Linnarsson and Frisén, but they are colleagues rather than candidates. I note that I work in RNA processing and single-cell methods, so my field is closest to B043, which I have not made part of my preferred configuration."
+  }
+}

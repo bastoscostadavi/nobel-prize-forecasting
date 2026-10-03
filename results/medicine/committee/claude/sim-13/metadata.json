@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "category": "medicine",
+  "committee_provider": "anthropic",
+  "committee_model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "list_id": "medicine-2026",
+  "simulation_id": "sim-13",
+  "seed_label": "medicine-committee-claude-v1:medicine-2026/sim-13",
+  "candidate_input": "agent-data/medicine/candidates/candidates.json",
+  "candidate_input_sha256": "037e431b8f828722cb6a7562e58e64c0f92b8338c9d4d532daa4abf5e562de3a",
+  "candidate_count": 52,
+  "profiles": "agent-data/medicine/committee/<member-id>/profile.md",
+  "members": [
+    "el-manira-abdel",
+    "linnarsson-sten",
+    "perlmann-thomas",
+    "sandberg-rickard",
+    "svenningsson-per",
+    "wahren-herlenius-marie"
+  ],
+  "chair": "svenningsson-per",
+  "voting": "all six members vote; majority is four",
+  "prompts": {
+    "opening": "prompts/medicine_committee_claude_opening_v1.md",
+    "round1": "prompts/medicine_committee_claude_round1_v1.md",
+    "chair": "prompts/medicine_committee_claude_chair_summary_v1.md",
+    "round2": "prompts/medicine_committee_claude_round2_v1.md",
+    "final": "prompts/medicine_committee_claude_final_ballot_v1.md"
+  },
+  "protocol": "docs/PHYSICS_PHASE2.md (adapted to Medicine)"
+}

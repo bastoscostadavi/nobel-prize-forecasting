@@ -42,18 +42,36 @@ Results pending.
 
 ### Physiology or Medicine
 
-![Medicine results](docs/figures/medicine-claude-committee-distribution.png)
+#### Claude committees
 
-#### Proposed recognition
+![Medicine results from Claude committees](docs/figures/medicine-claude-committee-distribution.png)
+
+##### Proposed recognition
 
 - **Daniel J. Drucker, Jens Juul Holst, and Svetlana Mojsov** for GLP-1 physiology and the development of incretin therapies for diabetes and obesity.
 - **Daniel J. Drucker, Jens Juul Holst, and Lotte Bjerre Knudsen** for the same achievement, crediting the development of long-acting GLP-1 drugs.
 
-#### What the simulation analysis reveals
+##### What the simulation analysis reveals
 
 **Decided before discussion.** GLP-1 is ranked first in 353 of 360 private opening ballots, by every member whatever their field, and wherever it appears in the shuffled list. The committees debate only the third laureate.
 
 For details, check [the Medicine experiments](results/medicine/README.md).
+
+#### Terra committees — preliminary results
+
+As of October 3, 2026, **20 of 60 planned GPT-5.6 Terra/high simulations are complete**, using the shared list of 52 discoveries and neutral committee profiles.
+
+| Proposed recognition | Laureates | Wins | Share of completed simulations |
+| --- | --- | ---: | ---: |
+| GLP-1 physiology and incretin therapies | Daniel J. Drucker, Jens Juul Holst, Svetlana Mojsov | 9 | 45% |
+| HPV virus-like particle vaccines | Douglas R. Lowy, Ian H. Frazer, John T. Schiller | 8 | 40% |
+| Unfolded protein response | Kazutoshi Mori, Peter Walter | 1 | 5% |
+| TNF blockade for inflammatory disease | Marc Feldmann, Ravinder N. Maini | 1 | 5% |
+| B- and T-lymphocyte lineages | Jacques F. A. P. Miller, Max D. Cooper | 1 | 5% |
+
+GLP-1 and HPV vaccines account for **17 of 20 outcomes (85%)**. Terra's completed committees divide between these two discoveries, while the Claude committees favor GLP-1 and debate its third laureate. These percentages describe simulated committee outcomes, not calibrated probabilities of winning the Nobel Prize; the Terra sample remains incomplete.
+
+See the [Terra result summary](results/medicine/terra_committee_summary.json), [current batch progress](results/medicine/terra_committee_progress.json), and [OpenAI Medicine protocol](docs/MEDICINE_OPENAI_PHASE2.md).
 
 ### Economic Sciences
 

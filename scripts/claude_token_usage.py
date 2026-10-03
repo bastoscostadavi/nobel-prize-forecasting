@@ -28,6 +28,7 @@ WORKFLOW_STAGE = {
     "wf_ffcd39ce-501": "committee_sonnet_profile_v2", "wf_be724cd4-fe8": "committee_sonnet_profile_v2",
     "wf_7de5ac51-021": "committee_sonnet_profile_v2", "wf_f5a7b59c-13b": "committee_sonnet_profile_v2",
     "wf_ae2efab9-626": "committee_sonnet_profile_v2", "wf_b7fc70dd-e8d": "committee_sonnet_profile_v2",
+    "wf_8a48f6bf-5e5": "medicine_committee_sonnet", "wf_118e0828-423": "medicine_committee_sonnet",
 }
 FIELDS = ("input_tokens", "cache_creation_input_tokens", "cache_read_input_tokens", "output_tokens")
 

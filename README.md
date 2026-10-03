@@ -40,7 +40,19 @@ Results pending.
 
 ### Physiology or Medicine
 
-Results pending.
+![Medicine results](docs/figures/medicine-claude-committee-distribution.png)
+
+#### Proposed recognition
+
+- **Daniel J. Drucker, Jens Juul Holst, and Svetlana Mojsov** for GLP-1 physiology and the development of incretin therapies for diabetes and obesity.
+- **Daniel J. Drucker, Jens Juul Holst, and Lotte Bjerre Knudsen** for the same achievement, crediting the development of long-acting GLP-1 drugs.
+
+#### What the simulation analysis reveals
+
+1. **Decided before discussion.** GLP-1 is ranked first in 353 of 360 private opening ballots, by every member whatever their field, and wherever it appears in the shuffled list. The committees debate only the third laureate.
+2. **The model's own view, not the personas.** Members justify the choice by clinical impact (obesity, cardiovascular outcomes). Asked directly, Claude Opus 5.5 also predicts GLP-1 every time, but always includes Joel Habener, who died in December 2025; the committees use the eligibility-checked list instead.
+
+GPT committee results are pending. For details, check [the Medicine experiments](results/medicine/README.md).
 
 ### Economic Sciences
 

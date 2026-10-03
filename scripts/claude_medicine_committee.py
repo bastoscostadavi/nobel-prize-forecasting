@@ -162,6 +162,7 @@ cc.CHAIR = CHAIR
 cc.PROMPTS = PROMPTS
 cc.identity = identity
 cc.check_packet = check_packet
+cc.ONESHOT_PROMPT = "prompts/medicine_oneshot_claude_v1.md"
 
 
 def progress(arm: str) -> None:
@@ -213,6 +214,8 @@ def main() -> None:
     q.add_argument("stage", choices=("opening", "round1", "round2", "final"))
     q.add_argument("sim", type=Path)
     q.add_argument("member", choices=sorted(MEMBERS))
+    q = sub.add_parser("check-oneshot")
+    q.add_argument("paths", nargs="+", type=Path)
     q = sub.add_parser("check-chair")
     q.add_argument("sim", type=Path)
     q = sub.add_parser("progress")
@@ -227,6 +230,10 @@ def main() -> None:
          "final": lambda: cc.check_final(args.sim, args.member)}.get(
             args.stage, lambda: cc.check_round(args.sim, int(args.stage[-1]), args.member))()
         print(f"OK: {args.stage}/{args.member}")
+    elif args.command == "check-oneshot":
+        for path in args.paths:
+            value = cc.check_oneshot(path)
+            print(f"OK: {path}: {value['discovery']} - {'; '.join(value['laureates'])}")
     elif args.command == "check-chair":
         cc.check_chair(args.sim)
         print("OK: chair summary")

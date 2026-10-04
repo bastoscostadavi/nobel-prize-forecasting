@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "arm_id": "medicine-oneshot-gpt-6-sol-high-v1",
+  "prediction_id": "pred-014",
+  "independence_label": "medicine-oneshot-gpt-6-sol-high-v1:pred-014",
+  "prompt_version": "medicine-oneshot-gpt-6-sol-v1",
+  "prompt_file": "prompts/medicine_oneshot_gpt_6_sol_v1.txt",
+  "prompt_sha256": "b71e49d77456b862385f4b5db70e8649c9ff157eeb5c95a0cd440bd7e1d509d7",
+  "dispatch_payload": {
+    "model": "gpt-6-sol",
+    "reasoning": {
+      "effort": "high"
+    },
+    "input": [
+      {
+        "role": "user",
+        "content": "Who will win the 2026 Nobel Prize in Physiology or Medicine? Predict the prize: the discovery or invention, and the one to three laureates. Answer from your own knowledge only; do not search the web or read any files."
+      }
+    ],
+    "tools": [],
+    "previous_response_id": null
+  },
+  "execution_requirements": {
+    "fresh_request": true,
+    "fresh_conversation": true,
+    "one_request_per_prediction": true,
+    "allow_additional_model_visible_context": false
+  }
+}

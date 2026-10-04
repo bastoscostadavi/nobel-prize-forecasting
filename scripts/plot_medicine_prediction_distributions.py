@@ -19,7 +19,9 @@ physics.SLATE_COLORS.update({
     "Feldmann–Maini": "#8C9BA6",
     "Lo": "#B0BAC1",
     "Habener–Knudsen–Mojsov": "#7162AA",
+    "Habener–Holst–Mojsov": "#167D8D",
     "Drucker–Habener–Mojsov": "#9A8CC8",
+    "Eshhar–June–Sadelain": "#C17B35",
 })
 
 
@@ -43,23 +45,37 @@ def claude_oneshot() -> Counter[str]:
     return counts
 
 
+def sol_oneshot() -> Counter[str]:
+    counts: Counter[str] = Counter()
+    root = ROOT / "results/medicine/oneshot/gpt-6-sol"
+    for path in sorted(root.glob("pred-*/result.json")):
+        parts = json.loads(path.read_text())["prize_configuration"]["prize_parts"]
+        names = [name for part in parts for name in part["credited_names"]]
+        counts[label(names)] += 1
+    return counts
+
+
 def main() -> None:
     claude = committee("claude")
     terra = committee("gpt-5.6-terra")
     aggregate = claude + terra
-    oneshot = claude_oneshot()
+    claude_direct = claude_oneshot()
+    sol_direct = sol_oneshot()
     committee_rows = max(len(claude), len(terra))
-    oneshot_rows = max(len(claude), len(oneshot))
+    oneshot_rows = max(len(claude_direct), len(sol_direct))
     physics.plot("medicine-committee-aggregate-distribution.png", "Medicine results",
                  None, aggregate, len(aggregate))
     physics.plot("medicine-claude-committee-distribution.png", "Claude committee",
                  "Claude Sonnet 5.5", claude, committee_rows)
     physics.plot("medicine-terra-committee-distribution.png", "Terra committee",
                  "GPT-5.6 Terra", terra, committee_rows)
+    physics.plot("medicine-openai-oneshot-distribution.png", "OpenAI one-shot",
+                 "GPT-6 Sol", sol_direct, oneshot_rows)
     physics.plot("medicine-claude-oneshot-distribution.png", "Claude one-shot",
-                 "Claude Opus 5.5", oneshot, oneshot_rows)
+                 "Claude Opus 5.5", claude_direct, oneshot_rows)
     print({"aggregate": dict(aggregate), "claude": dict(claude),
-           "terra": dict(terra), "oneshot": dict(oneshot)})
+           "terra": dict(terra), "sol_oneshot": dict(sol_direct),
+           "claude_oneshot": dict(claude_direct)})
 
 
 if __name__ == "__main__":

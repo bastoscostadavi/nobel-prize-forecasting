@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "medicine_oneshot_prediction_v1.schema.json",
+  "title": "Medicine zero-context one-shot prediction",
+  "description": "Validated by scripts/medicine_oneshot.py; retained as the versioned result-schema identifier.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "arm_id",
+    "prediction_id",
+    "prompt_version",
+    "execution",
+    "response_file",
+    "response_sha256",
+    "prize_configuration",
+    "rationale"
+  ]
+}

@@ -6,16 +6,6 @@ The [Medicine result](../../README.md#physiology-or-medicine) aggregates **108 c
 
 <table>
   <tr>
-    <td align="center"><img src="../../docs/figures/medicine-committee-aggregate-distribution.png" alt="Aggregate Medicine committee outcome distribution" width="470"></td>
-  </tr>
-</table>
-
-GLP-1 wins 84 of 108 decisions (77.8%). The leading exact slate—Daniel J. Drucker, Jens Juul Holst, and Svetlana Mojsov—wins 80 decisions (74.1%). HPV vaccines place second with 13 decisions (12.0%).
-
-### Results by committee model
-
-<table>
-  <tr>
     <td align="center"><img src="../../docs/figures/medicine-claude-committee-distribution.png" alt="Claude committee outcome distribution" width="470"></td>
     <td align="center"><img src="../../docs/figures/medicine-terra-committee-distribution.png" alt="Terra committee outcome distribution" width="470"></td>
   </tr>

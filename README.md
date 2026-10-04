@@ -31,10 +31,8 @@ One agent per committee member reviews the candidates, participates in two discu
 
 The aggregate combines **120 committee decisions** from Claude Sonnet 5.5 and GPT-5.6 Terra. GLP-1 wins 89 decisions (74.2%): 85 select Drucker, Holst, and Mojsov, while four substitute Lotte Bjerre Knudsen for Mojsov. HPV vaccines place second with 18 decisions (15.0%). Five other discoveries account for the remaining 13 decisions.
 
-1. **Different starting judgments drive the model gap.** Claude ranks GLP-1 first on 353 of 360 private opening ballots and awards it in all 60 simulations. Terra's openings are more dispersed: GLP-1 receives 146 first-place rankings, HPV vaccines 80, and B- and T-cell lineages 47.
-2. **Discussion consolidates an existing lead.** In Terra, the eventual winner already has at least a share of the opening plurality in 58 of 60 simulations. From round 1 to round 2, 33 members switch toward the eventual winner and none switch away; its mean support rises from 3.3 members at opening to 4.4 in round 2.
-3. **HPV wins by consensus; GLP-1 also wins through transfers.** A winning HPV proposal averages 5.0 of six round-2 supporters and needs a runoff only twice in 18 wins. Winning GLP-1 proposals average 4.3 supporters and need a runoff in 11 of 29 Terra wins, showing broader second-choice support when the committee is split.
-4. **Attribution decides the GLP-1 laureate slate.** All 360 Claude round-2 positions support GLP-1, but 317 favor Mojsov and 43 favor Knudsen for the third seat. The final Claude decisions split 56–4; all 29 Terra GLP-1 decisions select Mojsov.
+1. **Different starting judgments.** Claude is nearly unanimous for GLP-1 before discussion, while Terra divides mainly among GLP-1, HPV vaccines, and B- and T-cell lineages.
+2. **Discussion consolidates support.** Terra usually strengthens the opening leader: HPV wins through strong consensus, while GLP-1 also wins through second-choice transfers. Within GLP-1, the remaining disagreement is whether Mojsov or Knudsen receives the third seat.
 
 For details, check [the Medicine experiments](results/medicine/README.md).
 

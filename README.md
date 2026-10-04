@@ -12,6 +12,32 @@ One agent per committee member reviews the candidates, participates in two discu
 
 ## Results
 
+### Physiology or Medicine
+
+![Aggregate Medicine committee results](docs/figures/medicine-committee-aggregate-distribution.png)
+
+#### Proposed recognition
+
+- **Daniel J. Drucker, Jens Juul Holst, and Svetlana Mojsov** for GLP-1 physiology and the development of incretin therapies for diabetes and obesity.
+- **Douglas R. Lowy, Ian H. Frazer, and John T. Schiller** for virus-like particle vaccines that prevent HPV infection and related cancers.
+- **Jacques F. A. P. Miller and Max D. Cooper** for discovering distinct B- and T-lymphocyte lineages and their roles in adaptive immunity.
+- **Daniel J. Drucker, Jens Juul Holst, and Lotte Bjerre Knudsen** for GLP-1 physiology and the development of incretin therapies, with alternate credit for long-acting GLP-1 drugs.
+- **Kazutoshi Mori and Peter Walter** for the unfolded protein response and signaling from the endoplasmic reticulum.
+- **Marc Feldmann and Ravinder N. Maini** for TNF blockade as a treatment for rheumatoid arthritis and inflammatory disease.
+- **Arthur L. Horwich and F. Ulrich Hartl** for chaperonin-assisted protein folding.
+- **Y. M. Dennis Lo** for fetal cell-free DNA in maternal blood and noninvasive prenatal screening.
+
+#### What the simulation analysis reveals
+
+The aggregate combines **120 committee decisions** from Claude Sonnet 5.5 and GPT-5.6 Terra. GLP-1 wins 89 decisions (74.2%): 85 select Drucker, Holst, and Mojsov, while four substitute Lotte Bjerre Knudsen for Mojsov. HPV vaccines place second with 18 decisions (15.0%). Five other discoveries account for the remaining 13 decisions.
+
+1. **Different starting judgments drive the model gap.** Claude ranks GLP-1 first on 353 of 360 private opening ballots and awards it in all 60 simulations. Terra's openings are more dispersed: GLP-1 receives 146 first-place rankings, HPV vaccines 80, and B- and T-cell lineages 47.
+2. **Discussion consolidates an existing lead.** In Terra, the eventual winner already has at least a share of the opening plurality in 58 of 60 simulations. From round 1 to round 2, 33 members switch toward the eventual winner and none switch away; its mean support rises from 3.3 members at opening to 4.4 in round 2.
+3. **HPV wins by consensus; GLP-1 also wins through transfers.** A winning HPV proposal averages 5.0 of six round-2 supporters and needs a runoff only twice in 18 wins. Winning GLP-1 proposals average 4.3 supporters and need a runoff in 11 of 29 Terra wins, showing broader second-choice support when the committee is split.
+4. **Attribution decides the GLP-1 laureate slate.** All 360 Claude round-2 positions support GLP-1, but 317 favor Mojsov and 43 favor Knudsen for the third seat. The final Claude decisions split 56–4; all 29 Terra GLP-1 decisions select Mojsov.
+
+For details, check [the Medicine experiments](results/medicine/README.md).
+
 ### Physics
 
 ![Physics results](docs/figures/physics-terra-sonnet-aggregate-distribution.png)
@@ -40,36 +66,10 @@ For details, including a full example of one committee discussion, check [the Ph
 
 Results pending.
 
-### Physiology or Medicine
-
-![Aggregate Medicine committee results](docs/figures/medicine-committee-aggregate-distribution.png)
-
-#### Proposed recognition
-
-- **Daniel J. Drucker, Jens Juul Holst, and Svetlana Mojsov** for GLP-1 physiology and the development of incretin therapies for diabetes and obesity.
-- **Douglas R. Lowy, Ian H. Frazer, and John T. Schiller** for virus-like particle vaccines that prevent HPV infection and related cancers.
-- **Jacques F. A. P. Miller and Max D. Cooper** for discovering distinct B- and T-lymphocyte lineages and their roles in adaptive immunity.
-- **Daniel J. Drucker, Jens Juul Holst, and Lotte Bjerre Knudsen** for GLP-1 physiology and the development of incretin therapies, with alternate credit for long-acting GLP-1 drugs.
-- **Kazutoshi Mori and Peter Walter** for the unfolded protein response and signaling from the endoplasmic reticulum.
-- **Marc Feldmann and Ravinder N. Maini** for TNF blockade as a treatment for rheumatoid arthritis and inflammatory disease.
-- **Arthur L. Horwich and F. Ulrich Hartl** for chaperonin-assisted protein folding.
-- **Y. M. Dennis Lo** for fetal cell-free DNA in maternal blood and noninvasive prenatal screening.
-
-#### What the simulation analysis reveals
-
-The aggregate combines **120 committee decisions** from Claude Sonnet 5.5 and GPT-5.6 Terra. GLP-1 wins 89 decisions (74.2%): 85 select Drucker, Holst, and Mojsov, while four substitute Lotte Bjerre Knudsen for Mojsov. HPV vaccines place second with 18 decisions (15.0%). Five other discoveries account for the remaining 13 decisions.
-
-1. **Different starting judgments drive the model gap.** Claude ranks GLP-1 first on 353 of 360 private opening ballots and awards it in all 60 simulations. Terra's openings are more dispersed: GLP-1 receives 146 first-place rankings, HPV vaccines 80, and B- and T-cell lineages 47.
-2. **Discussion consolidates an existing lead.** In Terra, the eventual winner already has at least a share of the opening plurality in 58 of 60 simulations. From round 1 to round 2, 33 members switch toward the eventual winner and none switch away; its mean support rises from 3.3 members at opening to 4.4 in round 2.
-3. **HPV wins by consensus; GLP-1 also wins through transfers.** A winning HPV proposal averages 5.0 of six round-2 supporters and needs a runoff only twice in 18 wins. Winning GLP-1 proposals average 4.3 supporters and need a runoff in 11 of 29 Terra wins, showing broader second-choice support when the committee is split.
-4. **Attribution decides the GLP-1 laureate slate.** All 360 Claude round-2 positions support GLP-1, but 317 favor Mojsov and 43 favor Knudsen for the third seat. The final Claude decisions split 56–4; all 29 Terra GLP-1 decisions select Mojsov.
-
-For details, check [the Medicine experiments](results/medicine/README.md).
-
-### Economic Sciences
+### Peace
 
 Results pending.
 
-### Peace
+### Economic Sciences
 
 Results pending.

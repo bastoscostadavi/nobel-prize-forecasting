@@ -19,12 +19,12 @@ One agent per committee member reviews the candidates, participates in two discu
 #### Proposed recognition
 
 - **Daniel J. Drucker, Jens Juul Holst, and Svetlana Mojsov** for GLP-1 physiology and the development of incretin therapies for diabetes and obesity.
-- **Douglas R. Lowy, Ian H. Frazer, and John T. Schiller** for virus-like particle vaccines that prevent HPV infection and related cancers.
-- **Jacques F. A. P. Miller and Max D. Cooper** for discovering distinct B- and T-lymphocyte lineages and their roles in adaptive immunity.
+- **Ian H. Frazer, Douglas R. Lowy, and John T. Schiller** for virus-like particle vaccines that prevent HPV infection and related cancers.
+- **Max D. Cooper and Jacques F. A. P. Miller** for discovering distinct B- and T-lymphocyte lineages and their roles in adaptive immunity.
 - **Daniel J. Drucker, Jens Juul Holst, and Lotte Bjerre Knudsen** for GLP-1 physiology and the development of incretin therapies, with alternate credit for long-acting GLP-1 drugs.
+- **F. Ulrich Hartl and Arthur L. Horwich** for chaperonin-assisted protein folding.
 - **Kazutoshi Mori and Peter Walter** for the unfolded protein response and signaling from the endoplasmic reticulum.
 - **Marc Feldmann and Ravinder N. Maini** for TNF blockade as a treatment for rheumatoid arthritis and inflammatory disease.
-- **Arthur L. Horwich and F. Ulrich Hartl** for chaperonin-assisted protein folding.
 - **Y. M. Dennis Lo** for fetal cell-free DNA in maternal blood and noninvasive prenatal screening.
 
 #### What the simulation analysis reveals

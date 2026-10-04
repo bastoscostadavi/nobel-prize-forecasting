@@ -50,8 +50,8 @@ def main() -> None:
     oneshot = claude_oneshot()
     committee_rows = max(len(claude), len(terra))
     oneshot_rows = max(len(claude), len(oneshot))
-    physics.plot("medicine-committee-aggregate-distribution.png", "Medicine committee aggregate",
-                 "Claude Sonnet 5.5 + GPT-5.6 Terra", aggregate, len(aggregate))
+    physics.plot("medicine-committee-aggregate-distribution.png", "Medicine results",
+                 None, aggregate, len(aggregate))
     physics.plot("medicine-claude-committee-distribution.png", "Claude committee",
                  "Claude Sonnet 5.5", claude, committee_rows)
     physics.plot("medicine-terra-committee-distribution.png", "Terra committee",

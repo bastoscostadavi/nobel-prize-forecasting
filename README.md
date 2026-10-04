@@ -57,7 +57,7 @@ Results pending.
 
 #### What the simulation analysis reveals
 
-The aggregate combines **108 committee decisions** from Claude Sonnet 5.5 and GPT-5.6 Terra. GLP-1 wins 84 decisions (77.8%): 80 select Drucker, Holst, and Mojsov, while four substitute Lotte Bjerre Knudsen for Mojsov. HPV vaccines place second with 13 decisions (12.0%). Five other discoveries account for the remaining 11 decisions.
+The aggregate combines **120 committee decisions** from Claude Sonnet 5.5 and GPT-5.6 Terra. GLP-1 wins 89 decisions (74.2%): 85 select Drucker, Holst, and Mojsov, while four substitute Lotte Bjerre Knudsen for Mojsov. HPV vaccines place second with 18 decisions (15.0%). Five other discoveries account for the remaining 13 decisions.
 
 For details, check [the Medicine experiments](results/medicine/README.md).
 

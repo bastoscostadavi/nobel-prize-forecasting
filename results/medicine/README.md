@@ -2,7 +2,7 @@
 
 ## Simulation variants
 
-The [Medicine result](../../README.md#physiology-or-medicine) aggregates **108 committee decisions**: 60 from Claude Sonnet 5.5 and 48 from GPT-5.6 Terra. The nominator stage was skipped for Medicine; every committee receives the same [candidate list](../../agent-data/medicine/candidates/README.md) of 52 discoveries, in a different order per simulation. The six committee members read factual profiles, and all six vote.
+The [Medicine result](../../README.md#physiology-or-medicine) aggregates **120 committee decisions**: 60 each from Claude Sonnet 5.5 and GPT-5.6 Terra. The nominator stage was skipped for Medicine; every committee receives the same [candidate list](../../agent-data/medicine/candidates/README.md) of 52 discoveries, in a different order per simulation. The six committee members read factual profiles, and all six vote.
 
 <table>
   <tr>

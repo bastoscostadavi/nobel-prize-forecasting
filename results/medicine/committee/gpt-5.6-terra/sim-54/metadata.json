@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "category": "medicine",
+  "committee_provider": "openai",
+  "committee_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "list_id": "medicine-2026",
+  "nomination_run": 1,
+  "simulation_id": "sim-54",
+  "seed_label": "medicine-committee-gpt-5.6-terra-v1:medicine-2026/sim-54",
+  "candidate_input": "agent-data/medicine/candidates/candidates.json",
+  "candidate_input_sha256": "037e431b8f828722cb6a7562e58e64c0f92b8338c9d4d532daa4abf5e562de3a",
+  "input_candidate_count": 52,
+  "candidate_count": 52,
+  "excluded_candidates": [],
+  "exclusion_policy": "only explicit prepare --exclude IDs",
+  "profile_version": "neutral-in-place",
+  "profiles": "agent-data/medicine/committee/<member-id>/profile.md",
+  "profile_inputs": {
+    "el-manira-abdel": {
+      "path": "agent-data/medicine/committee/el-manira-abdel/profile.md",
+      "sha256": "2b1730fa2f9589ba20d176a3c78579bbf7ddd02342dd003d323f7bd48949b3e3"
+    },
+    "linnarsson-sten": {
+      "path": "agent-data/medicine/committee/linnarsson-sten/profile.md",
+      "sha256": "177ad5df1f0b87750da934454b476dc619e5f5ba17ce7280743b313f22f7f40a"
+    },
+    "perlmann-thomas": {
+      "path": "agent-data/medicine/committee/perlmann-thomas/profile.md",
+      "sha256": "10eac1db058ce66da7526118e14ecb07c9acb1ea4c43577ae51d0cdcb85f1189"
+    },
+    "sandberg-rickard": {
+      "path": "agent-data/medicine/committee/sandberg-rickard/profile.md",
+      "sha256": "ac3ffcf112f9e3afb79985d6f6d00cf574c39c58880b37fdcc18ff1cd6ba3967"
+    },
+    "svenningsson-per": {
+      "path": "agent-data/medicine/committee/svenningsson-per/profile.md",
+      "sha256": "e716111cc055c739281bc5d413fda06bac0c163b23bba7f12e6170b4655e2957"
+    },
+    "wahren-herlenius-marie": {
+      "path": "agent-data/medicine/committee/wahren-herlenius-marie/profile.md",
+      "sha256": "c832090395b2f05ba292d44994763c18082b4387ea99a77a312bde81833552b5"
+    }
+  },
+  "members": [
+    "el-manira-abdel",
+    "linnarsson-sten",
+    "perlmann-thomas",
+    "sandberg-rickard",
+    "svenningsson-per",
+    "wahren-herlenius-marie"
+  ],
+  "chair": "svenningsson-per",
+  "voting": "all six simulated members vote; majority is four",
+  "conflict_policy": "disclosed but not adjudicated in this simulation",
+  "conflict_flags": [
+    {
+      "candidate_id": "M043",
+      "flags": [
+        {
+          "member_id": "linnarsson-sten",
+          "type": "coauthor_of_foundational_paper"
+        },
+        {
+          "member_id": "sandberg-rickard",
+          "type": "closely_related_methods_expertise"
+        }
+      ]
+    }
+  ],
+  "prompts": {
+    "opening": "prompts/medicine_committee_terra_opening_v1.md",
+    "round1": "prompts/medicine_committee_terra_round1_v1.md",
+    "chair": "prompts/medicine_committee_terra_chair_summary_v1.md",
+    "round2": "prompts/medicine_committee_terra_round2_v1.md",
+    "final": "prompts/medicine_committee_terra_final_ballot_v1.md"
+  },
+  "prompt_inputs": {
+    "opening": {
+      "path": "prompts/medicine_committee_terra_opening_v1.md",
+      "sha256": "5536f4c7fd469e69127015357945d5c34e2b556bd645377ad90fb9191e1b6e6b"
+    },
+    "round1": {
+      "path": "prompts/medicine_committee_terra_round1_v1.md",
+      "sha256": "80ee436ca02b2019d8d026906bd42bdd851ea7c4475fb8bf18a3b1988e907887"
+    },
+    "chair": {
+      "path": "prompts/medicine_committee_terra_chair_summary_v1.md",
+      "sha256": "746eacd5bb2038de640c2e774dd112d0bc19e91c511a577e5a93c6fee96ac0ba"
+    },
+    "round2": {
+      "path": "prompts/medicine_committee_terra_round2_v1.md",
+      "sha256": "562f7f4ce2bbdf0b8728e30729b82f0345cdfeaa95d33ee8a7a58761999b506c"
+    },
+    "final": {
+      "path": "prompts/medicine_committee_terra_final_ballot_v1.md",
+      "sha256": "08ff50ddcab01d0b40ac8abe8d0543b8073c35ed48378b48c400c5246fb4eac1"
+    }
+  },
+  "protocol": "docs/PHYSICS_PHASE2.md (adapted to Medicine)"
+}

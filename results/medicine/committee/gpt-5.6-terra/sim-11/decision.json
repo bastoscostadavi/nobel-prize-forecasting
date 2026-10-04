@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "list_id": "medicine-2026",
+  "run": 1,
+  "simulation_id": "sim-11",
+  "committee_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "rule": {
+    "method": "instant runoff over exhaustive rankings",
+    "majority_votes": 4,
+    "elimination_order": [
+      "fewest current first-active preferences",
+      "fewest explicit round-2 supporters",
+      "lowest full-ballot Borda score",
+      "proposal_id ascending"
+    ],
+    "recusals": "disclosed but not adjudicated in this simulation"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "counts": {
+        "P000": 0,
+        "P001": 3,
+        "P002": 2,
+        "P003": 1
+      },
+      "eliminated": "P000",
+      "elimination_tie_break": {
+        "fewest_current_votes": 0,
+        "round2_explicit_supporters": 0,
+        "full_ballot_borda": 6,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 2,
+      "counts": {
+        "P001": 3,
+        "P002": 2,
+        "P003": 1
+      },
+      "eliminated": "P003",
+      "elimination_tie_break": {
+        "fewest_current_votes": 1,
+        "round2_explicit_supporters": 1,
+        "full_ballot_borda": 14,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 3,
+      "counts": {
+        "P001": 3,
+        "P002": 3
+      },
+      "eliminated": "P002",
+      "elimination_tie_break": {
+        "fewest_current_votes": 3,
+        "round2_explicit_supporters": 2,
+        "full_ballot_borda": 20,
+        "final_tie_break": "proposal_id ascending"
+      }
+    },
+    {
+      "round": 4,
+      "counts": {
+        "P001": 6
+      },
+      "eliminated": null
+    }
+  ],
+  "winner": {
+    "proposal_id": "P001",
+    "no_award": false,
+    "prize_parts": [
+      {
+        "ballot_id": "B020",
+        "candidate_id": "M018",
+        "discovery": "GLP-1 physiology and the development of incretin therapies for diabetes and obesity",
+        "laureates": [
+          "Daniel J. Drucker",
+          "Jens Juul Holst",
+          "Svetlana Mojsov"
+        ]
+      }
+    ]
+  },
+  "committee_provider": "openai",
+  "category": "medicine"
+}

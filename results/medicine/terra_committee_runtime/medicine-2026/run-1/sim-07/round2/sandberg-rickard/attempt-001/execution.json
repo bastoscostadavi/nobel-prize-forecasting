@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "provider": "openai",
+  "interface": "codex-cli",
+  "requested_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "profile_version": "neutral-in-place",
+  "profile_file": "profile.md",
+  "ephemeral": true,
+  "working_directory": "fresh empty temporary directory",
+  "tools_disabled": true,
+  "command": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--skip-git-repo-check",
+    "--json",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "apps",
+    "--disable",
+    "browser_use",
+    "--disable",
+    "browser_use_external",
+    "--disable",
+    "computer_use",
+    "--disable",
+    "image_generation",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "plugins",
+    "--disable",
+    "remote_plugin",
+    "--disable",
+    "shell_tool",
+    "--disable",
+    "skill_search",
+    "--disable",
+    "unified_exec",
+    "--disable",
+    "workspace_dependencies",
+    "-m",
+    "gpt-5.6-terra",
+    "-c",
+    "model_reasoning_effort=high",
+    "-s",
+    "read-only",
+    "-C",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/medicine-terra-round2-sandberg-rickard-2j3f31pw",
+    "-o",
+    "/var/folders/m_/wqnlrpbx06d_qz4n2b8dgl0w0000gn/T/medicine-terra-round2-sandberg-rickard-2j3f31pw/last-message.json",
+    "-"
+  ],
+  "prompt_sha256": "7ba523835c914d8b4756b45bc75f019fa0e3d5119abff13850ff6610bfbef6cd",
+  "permitted_evidence": [
+    {
+      "path": "agent-data/medicine/committee/sandberg-rickard/profile.md",
+      "sha256": "ac3ffcf112f9e3afb79985d6f6d00cf574c39c58880b37fdcc18ff1cd6ba3967"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/shortlist.json",
+      "sha256": "90d766b61578572a7114e1ee5aa5efc8f7b2d0e2ad631273df6174354e4c527f"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/round1/el-manira-abdel.json",
+      "sha256": "851f1aa9ca36d64ae4b906226ecaed094eaf5b5bda12471cd4a05bec112849ed"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/round1/linnarsson-sten.json",
+      "sha256": "653276f6af7b465773b368b3950325910d3ba28ec212f249c28ee41d0049b2b9"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/round1/perlmann-thomas.json",
+      "sha256": "3e7ff65f878070adc0ea245dfa63f074a9ed9089db620d51ea7dda49b16faa35"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/round1/sandberg-rickard.json",
+      "sha256": "cd00b20a8f18c9b15573d204238fa8072d8fcdc6594f152a1cec9ca2cda25317"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/round1/svenningsson-per.json",
+      "sha256": "87523b909d2303fa0afe02d4d13c0bb331887fb80edec8b10ce0185a2835085b"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/round1/wahren-herlenius-marie.json",
+      "sha256": "74c781f5bb08134b4263d62b31b52d5f8edd74eb800b30484552a51c9418139e"
+    },
+    {
+      "path": "results/medicine/committee/gpt-5.6-terra/sim-07/chair_summary_round1.json",
+      "sha256": "97f7d5f9345228cc11a227e0497d087fd1b02343bced1517934b650e8d0d484c"
+    }
+  ],
+  "thread_id": "01a0fe70-3785-7c91-b348-188df9ef9b12",
+  "usage": {
+    "input_tokens": 19996,
+    "cached_input_tokens": 5888,
+    "output_tokens": 869,
+    "reasoning_tokens": null,
+    "total_tokens": 20865
+  },
+  "disallowed_event_items": [],
+  "status": "accepted",
+  "error": null,
+  "completed_at_utc": "2026-10-02T21:06:21.824051Z"
+}

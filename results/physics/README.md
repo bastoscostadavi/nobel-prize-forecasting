@@ -8,7 +8,7 @@ The figure below shows all 22 winning configurations across the **300 committee 
 
 ## Simulation variants
 
-The [Physics result](../../README.md#physics) pools five experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles, plus GPT-6 Luna with v1 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 300 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists. **v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then v1 and the additional Luna arm.
+The [Physics result](../../README.md#physics) pools five experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles, plus GPT-6 Luna with v1 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 300 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists. **v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then the three v1 variants.
 
 <table>
   <tr>
@@ -19,13 +19,10 @@ The [Physics result](../../README.md#physics) pools five experiments: **GPT-5.6 
     <td align="center"><img src="../../docs/figures/physics-openai-committee-v1-distribution.png" alt="OpenAI committee profile v1 outcome distribution" width="470"></td>
     <td align="center"><img src="../../docs/figures/physics-claude-committee-v1-distribution.png" alt="Claude committee profile v1 outcome distribution" width="470"></td>
   </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="../../docs/figures/physics-luna-committee-v1-distribution.png" alt="GPT-6 Luna committee profile v1 outcome distribution" width="470"></td>
+  </tr>
 </table>
-
-## Luna comparison
-
-GPT-6 Luna uses v1 profiles for 60 committee decisions. These decisions are included in the aggregate and shown separately here for comparison.
-
-![GPT-6 Luna committee v1 outcome distribution](../../docs/figures/physics-luna-committee-v1-distribution.png)
 
 ## One-shot comparison
 

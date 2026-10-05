@@ -39,37 +39,30 @@ Terra's five neutral profile versions have 13, 10, nine, nine, and nine simulati
 
 ## One-shot comparison
 
-For comparison, we asked **Claude Opus 5.5** who would win, without simulating a committee or providing a candidate list. The graph summarizes 50 independent answers.
+For comparison, we asked **GPT-6.1 Sol and Claude Opus 5.5** who would win, without simulating a committee or providing a candidate list. Sol gave 60 independent answers and Opus gave 50, both with high reasoning effort and no web access.
 
 <table>
   <tr>
+    <td align="center"><img src="../../docs/figures/chemistry-openai-oneshot-distribution.png" alt="OpenAI one-shot outcome distribution across 60 answers" width="470"></td>
     <td align="center"><img src="../../docs/figures/chemistry-claude-oneshot-distribution.png" alt="Claude one-shot outcome distribution across 50 answers" width="470"></td>
   </tr>
 </table>
 
-Opus selects next-generation sequencing (Balasubramanian, Klenerman, and Mayer) in 31 answers and controlled radical polymerization in 16 (Matyjaszewski and Sawamoto, joined by Rizzardo in six). The remaining three answers name metal halide perovskite solar cells, nanoparticle drug delivery, and chaperone-assisted protein folding. The one-shot answers and the committees diverge sharply. Targeted protein degradation, the Claude committees' leading outcome, never appears in the one-shot answers. Sequencing wins two committee decisions, both without Mayer, and controlled radical polymerization wins none. Every laureate named in the one-shot answers is alive.
+**Both models lead with next-generation DNA sequencing.** Sol selects it in 59 of 60 answers: 57 name Balasubramanian, Klenerman, and Mayer, and two name Balasubramanian and Klenerman alone. Its remaining answer picks Buchwald–Hartwig coupling. Opus selects sequencing (Balasubramanian, Klenerman, and Mayer) in 31 of 50 answers and controlled radical polymerization in 16 (Matyjaszewski and Sawamoto, joined by Rizzardo in six). Its other three answers name perovskite solar cells, nanoparticle drug delivery, and chaperone-assisted protein folding. Every laureate named in either arm is alive.
 
-### GPT-6.1 Sol
+**The one-shot answers disagree with both committees.** Sol and Opus favor sequencing, while Terra's committees favor Car–Parrinello molecular dynamics and Claude's committees favor targeted protein degradation. Targeted protein degradation never appears in either one-shot arm. Sequencing wins only two committee decisions, both without Mayer, and controlled radical polymerization wins none. Sequencing and all three scientists the one-shot answers name for it were in both committee candidate pools, so availability does not explain the difference. **The strong disagreement reinforces our concern that these forecasts are very unreliable.** Consistency within one experiment is not evidence of a real-world winning probability, and because both the model and the setup change, this comparison does not isolate the effect of committee discussion.
 
-For comparison, we asked **GPT-6.1 Sol with high reasoning effort** to predict the prize in **60 independent one-shot forecasts**, without a candidate list, profiles, or committee discussion. Each forecast used a fresh Codex CLI session with browsing and other tools disabled. The [versioned question](../../prompts/chemistry_oneshot_gpt_6_1_sol_v1.txt) is the Medicine one-shot question adapted to Chemistry; Physics used a shorter question. Standard Codex system instructions still apply, but no additional experimental context was supplied.
-
-![GPT-6.1 Sol Chemistry one-shot distribution across 60 independent forecasts](../../docs/figures/chemistry-openai-oneshot-distribution.png)
-
-**Next-generation DNA sequencing wins 59 of 60 forecasts (98.3%).** Of these, 57 name **Shankar Balasubramanian, David Klenerman, and Pascal Mayer** (95% of all forecasts); two name **Balasubramanian and Klenerman** alone (3.3%). The remaining forecast selects **Stephen L. Buchwald and John F. Hartwig** for palladium-catalyzed carbon–nitrogen cross-coupling (1.7%).
-
-This adds a third distinct leading prediction: Sol favors sequencing, Terra's committees favor Car–Parrinello molecular dynamics, and Claude's committees favor targeted protein degradation. Sequencing and all three Sol-named scientists were present in both committee candidate pools, so their availability does not explain the difference. **The strong disagreement reinforces our concern that these forecasts are very unreliable.** Sol's consistency within its own experiment is not evidence of a 98.3% real-world winning probability. Because the model and experimental setup both change, this comparison does not isolate the effect of committee discussion.
-
-The one-shot results are a separate comparison and are not included in the 100-decision committee aggregate. The [one-shot summary](oneshot/gpt-6.1-sol/posthoc_transcription_summary.json) links every count to its prediction IDs and source hashes. The [saved experiment](oneshot/gpt-6.1-sol) includes the 60 verbatim answers, request and execution records, runtime events, and [primary-pick transcriptions](oneshot/gpt-6.1-sol/transcriptions.json). All 60 results passed validation, with distinct conversation IDs and no observed tool calls. Transcription was performed after generation, without additional model calls; names retain their exact response spelling.
+The one-shot results are not included in the 100-decision committee aggregate. Sol's [versioned question](../../prompts/chemistry_oneshot_gpt_6_1_sol_v1.txt) and Opus's [prompt](../../prompts/chemistry_oneshot_claude_v1.md) are the Medicine one-shot question adapted to Chemistry. Each Sol forecast used a fresh Codex CLI session with browsing and other tools disabled. The [Sol summary](oneshot/gpt-6.1-sol/posthoc_transcription_summary.json) links every count to its prediction IDs and source hashes, and the [saved Sol experiment](oneshot/gpt-6.1-sol) includes the 60 verbatim answers, request and execution records, runtime events, and [primary-pick transcriptions](oneshot/gpt-6.1-sol/transcriptions.json). The [Opus answers](oneshot/claude-opus-5-5) are saved one per file and validated by `scripts/claude_chemistry_committee.py check-oneshot`.
 
 ## Saved results and figure reproduction
 
-The [final summary](final_summary.json) records every outcome, model and profile counts, equal-profile frequencies, and SHA-256 hashes of all 100 published decision snapshots in [committee](committee). All completed decisions were validated against their full local committee records and recomputed voting outcomes before publication. The published snapshots contain the final vote tally and winning proposal; the full discussion and runtime logs remain in the local experiment archive.
+The [final summary](final_summary.json) records every outcome, model and profile counts, equal-profile frequencies, and SHA-256 hashes of all 100 published decision snapshots in [committee](committee). All completed decisions were validated against their full local committee records and recomputed voting outcomes before publication. The published snapshots contain the final vote tally and winning proposal; the full discussion and runtime logs remain in the local experiment archive. The full Claude committee records (openings, discussion rounds, chair summary, slate, and ballots) are also published under `committee/claude*`.
 
-From the repository root, with Matplotlib installed, regenerate the committee and Sol one-shot figures using:
+From the repository root, with Matplotlib installed, regenerate the committee and one-shot figures using:
 
 ```sh
 python3 scripts/plot_chemistry_prediction_distributions.py
 python3 scripts/plot_chemistry_oneshot.py
 ```
 
-The committee plotting script checks every decision against its validated hash, requires 50 decisions per model, merges recipient-order differences, and keeps the denominator of 100 when displaying the top five. The one-shot plotting script checks all 60 answer and transcription hashes before rendering its separate distribution.
+The committee plotting script checks every decision against its validated hash, requires 50 decisions per model, merges recipient-order differences, and keeps the denominator of 100 when displaying the top five. The one-shot plotting script checks all 60 Sol answer and transcription hashes and requires all 50 Opus answers, then renders both one-shot charts at the same height.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the Sol Chemistry one-shot distribution in the existing forecast style."""
+"""Render the Sol and Claude Chemistry one-shot distributions side by side in the existing forecast style."""
 
 import hashlib
 import json
@@ -28,11 +28,26 @@ def main() -> None:
         counts[label] += 1
     if sum(counts.values()) != 60:
         raise ValueError("Expected 60 prediction outcomes")
-    physics.SLATE_COLORS.update({"Balasubramanian–Klenerman–Mayer": "#167D8D"})
+    claude = Counter()
+    for path in sorted((physics.ROOT / "results/chemistry/oneshot/claude-opus-5-5").glob("pred-*.json")):
+        claude["–".join(sorted(name.split()[-1] for name in json.loads(path.read_text())["laureates"]))] += 1
+    if sum(claude.values()) != 50:
+        raise ValueError("Expected 50 Claude one-shot predictions")
+    physics.SLATE_COLORS.update({
+        "Balasubramanian–Klenerman–Mayer": "#167D8D",
+        "Balasubramanian–Klenerman": "#4FA3AE",
+        "Buchwald–Hartwig": "#C17B35",
+        "Matyjaszewski–Sawamoto": "#7162AA",
+        "Matyjaszewski–Rizzardo–Sawamoto": "#9A8CC8",
+    })
     physics.FIGURES.mkdir(parents=True, exist_ok=True)
+    # Equal row counts keep the two charts the same height in the README table.
+    rows = max(len(counts), len(claude))
     physics.plot("chemistry-openai-oneshot-distribution.png", "OpenAI one-shot",
-                 "GPT-6.1 Sol", counts, len(counts))
-    print(dict(counts))
+                 "GPT-6.1 Sol", counts, rows)
+    physics.plot("chemistry-claude-oneshot-distribution.png", "Claude one-shot",
+                 "Claude Opus 5.5", claude, rows)
+    print({"sol": dict(counts), "claude": dict(claude)})
 
 
 if __name__ == "__main__":

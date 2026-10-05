@@ -34,6 +34,14 @@ The aggregate combines **120 committee decisions** from Claude Sonnet 5.5 and GP
 1. **Different starting judgments.** Claude is nearly unanimous for GLP-1 before discussion, while Terra divides mainly among GLP-1, HPV vaccines, and B- and T-cell lineages.
 2. **Discussion consolidates support.** Terra usually strengthens the opening leader: HPV wins through strong consensus, while GLP-1 also wins through second-choice transfers. Within GLP-1, the remaining disagreement is whether Mojsov or Knudsen receives the third seat.
 
+#### Forecast versus the announced prize
+
+The 2026 Nobel Prize in Physiology or Medicine has now been awarded to Karl Deisseroth, Peter Hegemann, and Georg Nagel “for their discoveries concerning light-gated ion channels and optogenetics.”
+
+One input to our simulations was a curated list of plausible discoveries and potential laureates. That list included optogenetics and all three eventual winners. Furthermore, optogenetics was shortlisted in 84 of 120 simulations and reached the final vote once, with the exact winning trio. However, it did not win any simulation.
+
+A plausible explanation is a recency and salience bias toward GLP-1 in the underlying models. GLP-1 won 89 of 120 committee simulations, while the independent one-shot forecasts selected it in 60 of 60 Claude Opus 5.5 predictions and 58 of 60 GPT-6 Sol predictions. This agreement suggests that the simulated agents inherited some models’ bias toward GLP-1 and that the committee role-playing did not make much difference.
+
 For details, check [the Medicine experiments](results/medicine/README.md).
 
 ### Physics

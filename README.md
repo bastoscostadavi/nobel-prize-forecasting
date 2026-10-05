@@ -66,6 +66,8 @@ For details, including the full outcome distribution and an example committee di
 
 ![Top five Chemistry simulation outcomes, with counts and shares across 100 committee simulations](docs/figures/chemistry-committee-top5.png)
 
+**Reliability warning.** These Chemistry results appear very unreliable. The aggregate's leading prediction, Car–Parrinello molecular dynamics, is driven almost exclusively by GPT-5.6 Terra: it accounts for 46 of the 47 wins, while Claude mostly favors targeted protein degradation. The pooled ranking therefore reflects conflicting model preferences rather than agreement across models.
+
 #### Proposed recognition
 
 - **Roberto Car and Michele Parrinello** for first-principles molecular dynamics by the Car–Parrinello method.

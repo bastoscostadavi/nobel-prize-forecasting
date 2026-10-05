@@ -2,13 +2,13 @@
 
 ## Aggregate simulation outcomes
 
-The figure below shows all eight winning configurations across the **240 committee simulations** pooled in the main forecast. Counts and percentages are observed simulation outcomes, not calibrated probabilities of winning the prize.
+The figure below shows all 22 winning configurations across the **300 committee simulations** pooled in the main forecast. Counts and percentages are observed simulation outcomes, not calibrated probabilities of winning the prize.
 
-![Full Physics simulation outcome distribution, with counts and shares across 240 committee simulations](../../docs/figures/physics-committee-full-distribution.png)
+![Full Physics simulation outcome distribution, with counts and shares across 300 committee simulations](../../docs/figures/physics-committee-full-distribution.png)
 
 ## Simulation variants
 
-The [Physics result](../../README.md#physics) pools four experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 240 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists. **v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then v1.
+The [Physics result](../../README.md#physics) pools five experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles, plus GPT-6 Luna with v1 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 300 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists. **v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then v1 and the additional Luna arm.
 
 <table>
   <tr>
@@ -23,7 +23,7 @@ The [Physics result](../../README.md#physics) pools four experiments: **GPT-5.6 
 
 ## Luna comparison
 
-GPT-6 Luna uses v1 profiles for 60 committee decisions. These results are shown separately from the aggregate.
+GPT-6 Luna uses v1 profiles for 60 committee decisions. These decisions are included in the aggregate and shown separately here for comparison.
 
 ![GPT-6 Luna committee v1 outcome distribution](../../docs/figures/physics-luna-committee-v1-distribution.png)
 

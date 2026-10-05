@@ -12,7 +12,6 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.ticker import FuncFormatter, MultipleLocator
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -185,6 +184,20 @@ PHYSICS_DESCRIPTIONS = {
     "Cirac–Zoller–Blatt": "Trapped-ion quantum computation and simulation",
     "Bell Burnell": "Discovery of pulsars",
     "Blais–Wallraff–Schoelkopf": "Circuit quantum electrodynamics",
+    "Kitaev–Steane–Shor": "Quantum error correction and fault-tolerant computation",
+    "Della Negra–Jenni–Virdee": "Experimental discovery of the Higgs boson",
+    "Cho–Capasso–Faist": "Quantum cascade laser",
+    "van Wees–Wharam": "Quantized conductance in ballistic point contacts",
+    "Bennett–Spergel–Page": "WMAP mapping of the cosmic microwave background",
+    "Yablonovitch–Joannopoulos–John": "Photonic crystals and photonic band gaps",
+    "Salomon–Thomas–Grimm": "Strongly interacting Fermi gases",
+    "Ekert–Bennett–Brassard": "Quantum key distribution",
+    "Belavin–Zamolodchikov–Polyakov": "Two-dimensional conformal field theory",
+    "Tsuei–Van Harlingen–Kirtley": "Phase-sensitive proof of d-wave pairing",
+    "Rose–Urban–Haider": "Spherical-aberration correction in electron microscopy",
+    "Moulton–Keller–Sibbett": "Femtosecond titanium-sapphire lasers",
+    "Buonanno–Pretorius–Damour": "Relativistic modeling of binary black-hole mergers",
+    "Pretorius–Baker–Campanelli": "Numerical relativity of binary black-hole mergers",
 }
 
 
@@ -238,7 +251,7 @@ def ranked_plot(
     x_max = max(tick_step * 2, tick_step * (int(highest_share / tick_step) + 1))
     x_max = min(100, x_max)
     # Leave room to print the count and percentage outside the longest bar.
-    bar_axis.set_xlim(0, x_max * 1.12)
+    bar_axis.set_xlim(0, x_max * 1.35)
     bar_axis.set_ylim(row_count - 0.5, -0.5)
 
     for row, (slate, count) in enumerate(ordered):
@@ -283,8 +296,8 @@ def ranked_plot(
             zorder=4,
         )
 
-    bar_axis.xaxis.set_major_locator(MultipleLocator(tick_step))
-    bar_axis.xaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:.0f}%"))
+    ticks = list(range(0, x_max + 1, tick_step))
+    bar_axis.set_xticks(ticks, [f"{value}%" for value in ticks])
     bar_axis.grid(axis="x", color=GRID, linewidth=0.8, zorder=0)
     bar_axis.set_yticks([])
     bar_axis.tick_params(axis="x", colors=MUTED, labelsize=9.5, length=0, pad=8)
@@ -402,10 +415,11 @@ def main() -> None:
             ("physics-claude-oneshot-distribution.png", "Claude one-shot", "Claude Opus 5.5", claude_oneshot()),
         ),
     ]
-    # Luna is shown separately; the aggregate pools only the four Terra/Sonnet arms.
+    luna = luna_decisions()
     committee_counts = aggregate_counts(
-        [arm[3] for pair in pairs[:2] for arm in pair]
+        [arm[3] for pair in pairs[:2] for arm in pair] + [luna]
     )
+    # Retain the legacy filename while including all five committee arms.
     plot(
         "physics-terra-sonnet-aggregate-distribution.png",
         "Physics results",
@@ -426,7 +440,6 @@ def main() -> None:
         committee_counts,
         PHYSICS_DESCRIPTIONS,
     )
-    luna = luna_decisions()
     plot(
         "physics-luna-committee-v1-distribution.png",
         "GPT-6 Luna committee",

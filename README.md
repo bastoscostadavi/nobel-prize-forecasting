@@ -43,22 +43,22 @@ For details, check [the Medicine experiments](results/medicine/README.md).
 
 ### Physics
 
-![Top five Physics simulation outcomes, with counts and shares across 240 committee simulations](docs/figures/physics-committee-top5.png)
+![Top five Physics simulation outcomes, with counts and shares across 300 committee simulations](docs/figures/physics-committee-top5.png)
 
 #### Proposed recognition
 
 - **Hidetoshi Katori and Jun Ye** for optical lattice atomic clocks and precision timekeeping.
 - **Charles L. Kane, Eugene J. Mele, and Laurens W. Molenkamp** for the theoretical prediction and experimental discovery of topological insulators and the quantum spin Hall effect.
 - **Allan H. MacDonald, Pablo Jarillo-Herrero, and Rafi Bistritzer** for magic-angle twisted bilayer graphene and moiré flat-band quantum matter.
-- **Harald Rose, Maximilian Haider, and Ondrej L. Krivanek** for aberration correction in electron microscopy, enabling sub-ångström imaging.
 - **Michael Berry and Yakir Aharonov** for geometric phases and the role of electromagnetic potentials in quantum interference.
+- **Harald Rose, Maximilian Haider, and Ondrej L. Krivanek** for aberration correction in electron microscopy, enabling sub-ångström imaging.
 
 #### What the simulation analysis reveals
 
-The aggregate combines **240 committee decisions** from GPT-5.6 Terra and Claude Sonnet 5.5, using both factual profiles and profiles that also include inferred traits. Optical lattice clocks win 202 simulations (84.2%). Topological insulators place second with 19 outcomes (7.9%), and magic-angle twisted bilayer graphene places third with 10 (4.2%). Five other configurations account for the remaining nine outcomes. These shares summarize the simulation results; they are not calibrated probabilities of winning the prize.
+The aggregate combines **300 committee decisions** from GPT-5.6 Terra, Claude Sonnet 5.5, and GPT-6 Luna, using both factual profiles and profiles that also include inferred traits. Optical lattice clocks win 236 simulations (78.7%). Topological insulators place second with 22 outcomes (7.3%), and magic-angle twisted bilayer graphene places third with 10 (3.3%). Nineteen other configurations account for the remaining 32 outcomes. These shares summarize the simulation results; they are not calibrated probabilities of winning the prize.
 
-1. **The leading result is robust across models and profile variants.** Optical lattice clocks win 53 of 60 Terra decisions with factual profiles, 38 of 60 Claude decisions with factual profiles, 59 of 60 Terra decisions with inferred-trait profiles, and 52 of 60 Claude decisions with inferred-trait profiles.
-2. **Most disagreement comes from the Claude committees.** The two Claude experiments produce all 19 topological-insulator outcomes and all 10 magic-angle-graphene outcomes, while the Terra experiments account for the lower-frequency alternatives.
+1. **The leading result is robust across models and profile variants.** Optical lattice clocks win 53 of 60 Terra decisions with factual profiles, 38 of 60 Claude decisions with factual profiles, 59 of 60 Terra decisions with inferred-trait profiles, 52 of 60 Claude decisions with inferred-trait profiles, and 34 of 60 Luna decisions with inferred-trait profiles.
+2. **Luna broadens the long tail.** Its 60 committees produce 21 distinct winning configurations, compared with eight across the four Terra and Claude experiments. Luna adds three topological-insulator outcomes and 14 configurations that do not win in the other arms.
 
 For details, including the full outcome distribution and an example committee discussion, check [the Physics experiments](results/physics/README.md).
 

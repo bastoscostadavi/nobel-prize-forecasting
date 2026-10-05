@@ -15,20 +15,6 @@ The [Medicine result](../../README.md#physiology-or-medicine) aggregates **120 c
   </tr>
 </table>
 
-## Committee result breakdown
-
-| Proposed recognition | Claude | Terra | Combined |
-|---|---:|---:|---:|
-| Drucker, Holst and Mojsov — GLP-1 | 56 | 29 | 85 |
-| Lowy, Frazer and Schiller — HPV vaccines | 0 | 18 | 18 |
-| Miller and Cooper — B- and T-cell lineages | 0 | 7 | 7 |
-| Drucker, Holst and Knudsen — GLP-1 | 4 | 0 | 4 |
-| Mori and Walter — unfolded protein response | 0 | 2 | 2 |
-| Horwich and Hartl — chaperonin-assisted protein folding | 0 | 2 | 2 |
-| Feldmann and Maini — TNF blockade | 0 | 1 | 1 |
-| Lo — fetal cell-free DNA | 0 | 1 | 1 |
-| **Total** | **60** | **60** | **120** |
-
 ## What drives the results
 
 **The models enter discussion with different priors.** Claude puts GLP-1 first in 353 of 360 private openings (98.1%), then all six members support it in both discussion rounds of every simulation. Terra's opening preferences are much less concentrated: GLP-1 has 146 of 360 first places (40.6%), HPV vaccines 80 (22.2%), and B- and T-cell lineages 47 (13.1%). This difference appears before members see one another's arguments, so it accounts for most of the gap between the two outcome distributions.

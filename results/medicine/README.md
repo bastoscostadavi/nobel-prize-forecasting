@@ -1,5 +1,11 @@
 # Physiology or Medicine experiment details
 
+## Aggregate simulation outcomes
+
+The figure below shows all eight winning configurations across the **120 committee simulations** pooled in the main forecast. Counts and percentages are observed simulation outcomes, not calibrated probabilities of winning the prize.
+
+![Full Medicine simulation outcome distribution, with counts and shares across 120 committee simulations](../../docs/figures/medicine-committee-full-distribution.png)
+
 ## Simulation variants
 
 The [Medicine result](../../README.md#physiology-or-medicine) aggregates **120 committee decisions**: 60 each from Claude Sonnet 5.5 and GPT-5.6 Terra. The nominator stage was skipped for Medicine; every committee receives the same [candidate list](../../agent-data/medicine/candidates/README.md) of 52 discoveries, in a different order per simulation. The six committee members read factual profiles, and all six vote.
@@ -41,8 +47,8 @@ For comparison, we asked **GPT-6 Sol and Claude Opus 5.5** who would win, withou
 
 <table>
   <tr>
-    <td align="center"><img src="../../docs/figures/medicine-openai-oneshot-distribution.png" alt="OpenAI one-shot probability distribution" width="470"></td>
-    <td align="center"><img src="../../docs/figures/medicine-claude-oneshot-distribution.png" alt="Claude one-shot probability distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/medicine-openai-oneshot-distribution.png" alt="OpenAI one-shot outcome distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/medicine-claude-oneshot-distribution.png" alt="Claude one-shot outcome distribution" width="470"></td>
   </tr>
 </table>
 

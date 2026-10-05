@@ -24,6 +24,17 @@ physics.SLATE_COLORS.update({
     "Eshhar–June–Sadelain": "#C17B35",
 })
 
+MEDICINE_DESCRIPTIONS = {
+    "Drucker–Holst–Mojsov": "GLP-1 physiology and incretin therapies",
+    "Frazer–Lowy–Schiller": "HPV virus-like particle vaccines",
+    "Cooper–Miller": "B- and T-lymphocyte lineages",
+    "Drucker–Holst–Knudsen": "GLP-1 physiology and long-acting drugs",
+    "Mori–Walter": "Unfolded protein response",
+    "Hartl–Horwich": "Chaperonin-assisted protein folding",
+    "Feldmann–Maini": "TNF blockade",
+    "Lo": "Cell-free fetal DNA and prenatal screening",
+}
+
 
 def label(names: list[str]) -> str:
     """Surnames in alphabetical order, so identical trios share a label regardless of name spelling."""
@@ -65,6 +76,19 @@ def main() -> None:
     oneshot_rows = max(len(claude_direct), len(sol_direct))
     physics.plot("medicine-committee-aggregate-distribution.png", "Medicine results",
                  None, aggregate, len(aggregate))
+    physics.ranked_plot(
+        "medicine-committee-top5.png",
+        "2026 Nobel Prize in Physiology or Medicine",
+        aggregate,
+        MEDICINE_DESCRIPTIONS,
+        limit=5,
+    )
+    physics.ranked_plot(
+        "medicine-committee-full-distribution.png",
+        "2026 Nobel Prize in Physiology or Medicine",
+        aggregate,
+        MEDICINE_DESCRIPTIONS,
+    )
     physics.plot("medicine-claude-committee-distribution.png", "Claude committee",
                  "Claude Sonnet 5.5", claude, committee_rows)
     physics.plot("medicine-terra-committee-distribution.png", "Terra committee",

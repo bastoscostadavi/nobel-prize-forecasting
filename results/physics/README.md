@@ -1,17 +1,23 @@
 # Physics experiment details
 
+## Aggregate simulation outcomes
+
+The figure below shows all eight winning configurations across the **240 committee simulations** pooled in the main forecast. Counts and percentages are observed simulation outcomes, not calibrated probabilities of winning the prize.
+
+![Full Physics simulation outcome distribution, with counts and shares across 240 committee simulations](../../docs/figures/physics-committee-full-distribution.png)
+
 ## Simulation variants
 
 The [Physics result](../../README.md#physics) pools four experiments: **GPT-5.6 Terra and Claude Sonnet 5.5, each with v1 and v2 profiles**. Each experiment combines 12 candidate lists and five fresh committees per list: **60 decisions per experiment, 240 in total**. Those lists come from six nomination runs for each of two independently drafted nominator lists. **v1** profiles combine documented background with inferred personality traits and selection preferences. **v2** removes those inferences, providing a more reliable factual basis for representing the members with fewer assumptions about their preferences. Candidate lists and discussion rules are the same. The plots show v2 first, then v1.
 
 <table>
   <tr>
-    <td align="center"><img src="../../docs/figures/physics-openai-committee-v2-distribution.png" alt="OpenAI committee profile v2 probability distribution" width="470"></td>
-    <td align="center"><img src="../../docs/figures/physics-claude-committee-v2-distribution.png" alt="Claude committee profile v2 probability distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/physics-openai-committee-v2-distribution.png" alt="OpenAI committee profile v2 outcome distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/physics-claude-committee-v2-distribution.png" alt="Claude committee profile v2 outcome distribution" width="470"></td>
   </tr>
   <tr>
-    <td align="center"><img src="../../docs/figures/physics-openai-committee-v1-distribution.png" alt="OpenAI committee profile v1 probability distribution" width="470"></td>
-    <td align="center"><img src="../../docs/figures/physics-claude-committee-v1-distribution.png" alt="Claude committee profile v1 probability distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/physics-openai-committee-v1-distribution.png" alt="OpenAI committee profile v1 outcome distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/physics-claude-committee-v1-distribution.png" alt="Claude committee profile v1 outcome distribution" width="470"></td>
   </tr>
 </table>
 
@@ -19,7 +25,7 @@ The [Physics result](../../README.md#physics) pools four experiments: **GPT-5.6 
 
 GPT-6 Luna uses v1 profiles for 60 committee decisions. These results are shown separately from the aggregate.
 
-![GPT-6 Luna committee v1 probability distribution](../../docs/figures/physics-luna-committee-v1-distribution.png)
+![GPT-6 Luna committee v1 outcome distribution](../../docs/figures/physics-luna-committee-v1-distribution.png)
 
 ## One-shot comparison
 
@@ -27,8 +33,8 @@ For comparison, we asked **GPT-6.1 Sol and Claude Opus 5.5** who would win, with
 
 <table>
   <tr>
-    <td align="center"><img src="../../docs/figures/physics-openai-oneshot-distribution.png" alt="OpenAI one-shot probability distribution" width="470"></td>
-    <td align="center"><img src="../../docs/figures/physics-claude-oneshot-distribution.png" alt="Claude one-shot probability distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/physics-openai-oneshot-distribution.png" alt="OpenAI one-shot outcome distribution" width="470"></td>
+    <td align="center"><img src="../../docs/figures/physics-claude-oneshot-distribution.png" alt="Claude one-shot outcome distribution" width="470"></td>
   </tr>
 </table>
 

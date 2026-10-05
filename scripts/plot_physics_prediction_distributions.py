@@ -12,6 +12,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.ticker import FuncFormatter, MultipleLocator
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -171,6 +172,20 @@ SLATE_COLORS = {
 }
 INK = "#23313D"
 MUTED = "#687783"
+ACCENT = "#0B887C"
+BAR_MUTED = "#91AFC0"
+GRID = "#E4E9EC"
+
+PHYSICS_DESCRIPTIONS = {
+    "Katori–Ye": "Optical lattice atomic clocks",
+    "Kane–Mele–Molenkamp": "Topological insulators and the quantum spin Hall effect",
+    "MacDonald–Jarillo-Herrero–Bistritzer": "Magic-angle twisted bilayer graphene",
+    "Rose–Haider–Krivanek": "Aberration-corrected electron microscopy",
+    "Berry–Aharonov": "Geometric phases and quantum interference",
+    "Cirac–Zoller–Blatt": "Trapped-ion quantum computation and simulation",
+    "Bell Burnell": "Discovery of pulsars",
+    "Blais–Wallraff–Schoelkopf": "Circuit quantum electrodynamics",
+}
 
 
 def display_label(label: str) -> str:
@@ -182,6 +197,102 @@ def display_label(label: str) -> str:
         return "Yablonovitch + John + Pendry"
     return textwrap.fill(" + ".join(parts), width=40,
                          break_long_words=False, break_on_hyphens=False)
+
+
+def ranked_plot(
+    filename: str,
+    title: str,
+    counts: Counter[str],
+    descriptions: dict[str, str],
+    limit: int | None = None,
+) -> None:
+    """Render ranked simulation outcomes in the editorial layout used in the README."""
+    ordered = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    total = sum(counts.values())
+    if total == 0:
+        raise ValueError(f"No simulation outcomes available for {title}")
+    if limit is not None:
+        ordered = ordered[:limit]
+
+    row_count = len(ordered)
+    height = 2.05 + 0.92 * row_count
+    figure = plt.figure(figsize=(12.4, height), facecolor="white")
+    figure.text(
+        0.025,
+        0.965,
+        title,
+        color=INK,
+        fontsize=22,
+        fontweight="bold",
+        va="top",
+    )
+
+    label_axis = figure.add_axes([0.025, 0.11, 0.47, 0.75])
+    bar_axis = figure.add_axes([0.515, 0.11, 0.455, 0.75], sharey=label_axis)
+    label_axis.set_xlim(0, 1)
+    label_axis.set_ylim(row_count - 0.5, -0.5)
+    label_axis.axis("off")
+
+    highest_share = 100 * ordered[0][1] / total
+    tick_step = 10 if highest_share <= 50 else 20
+    x_max = max(tick_step * 2, tick_step * (int(highest_share / tick_step) + 1))
+    x_max = min(100, x_max)
+    # Leave room to print the count and percentage outside the longest bar.
+    bar_axis.set_xlim(0, x_max * 1.12)
+    bar_axis.set_ylim(row_count - 0.5, -0.5)
+
+    for row, (slate, count) in enumerate(ordered):
+        share = 100 * count / total
+        is_first = row == 0
+        color = ACCENT if is_first else INK
+        weight = "bold" if is_first else "normal"
+        names = slate.replace("–", " · ")
+        label_axis.text(
+            0.0,
+            row - 0.10,
+            f"{row + 1:02d}  {names}",
+            color=color,
+            fontsize=13.2,
+            fontweight=weight,
+            va="center",
+        )
+        label_axis.text(
+            0.0,
+            row + 0.22,
+            descriptions[slate],
+            color=MUTED,
+            fontsize=9.8,
+            va="center",
+        )
+        bar_axis.barh(
+            row,
+            share,
+            height=0.42,
+            color=ACCENT if is_first else BAR_MUTED,
+            zorder=3,
+        )
+        bar_axis.text(
+            share + x_max * 0.015,
+            row,
+            f"{count}/{total} ({share:.1f}%)",
+            color=ACCENT if is_first else INK,
+            fontsize=12.3,
+            fontweight="bold" if is_first else "normal",
+            ha="left",
+            va="center",
+            zorder=4,
+        )
+
+    bar_axis.xaxis.set_major_locator(MultipleLocator(tick_step))
+    bar_axis.xaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:.0f}%"))
+    bar_axis.grid(axis="x", color=GRID, linewidth=0.8, zorder=0)
+    bar_axis.set_yticks([])
+    bar_axis.tick_params(axis="x", colors=MUTED, labelsize=9.5, length=0, pad=8)
+    bar_axis.set_xlabel("Share of simulations", color=MUTED, fontsize=10, labelpad=10)
+    bar_axis.spines[["top", "right", "left", "bottom"]].set_visible(False)
+
+    figure.savefig(FIGURES / filename, dpi=220, facecolor="white")
+    plt.close(figure)
 
 
 def plot(
@@ -301,6 +412,19 @@ def main() -> None:
         None,
         committee_counts,
         len(committee_counts),
+    )
+    ranked_plot(
+        "physics-committee-top5.png",
+        "2026 Nobel Prize in Physics",
+        committee_counts,
+        PHYSICS_DESCRIPTIONS,
+        limit=5,
+    )
+    ranked_plot(
+        "physics-committee-full-distribution.png",
+        "2026 Nobel Prize in Physics",
+        committee_counts,
+        PHYSICS_DESCRIPTIONS,
     )
     luna = luna_decisions()
     plot(

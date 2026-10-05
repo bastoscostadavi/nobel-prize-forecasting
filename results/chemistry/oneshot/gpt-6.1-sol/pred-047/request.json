@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "arm_id": "chemistry-oneshot-gpt-6.1-sol-high-v1",
+  "prediction_id": "pred-047",
+  "independence_label": "chemistry-oneshot-gpt-6.1-sol-high-v1:pred-047",
+  "prompt_version": "chemistry-oneshot-gpt-6.1-sol-v1",
+  "prompt_file": "prompts/chemistry_oneshot_gpt_6_1_sol_v1.txt",
+  "prompt_sha256": "54c10bbfeee5d343bb734498c685363cf183ce9ffd70d6bd3560a7a7f4053152",
+  "dispatch_payload": {
+    "model": "gpt-6.1-sol",
+    "reasoning": {
+      "effort": "high"
+    },
+    "input": [
+      {
+        "role": "user",
+        "content": "Who will win the 2026 Nobel Prize in Chemistry? Predict the prize: the discovery or invention, and the one to three laureates. Answer from your own knowledge only; do not search the web or read any files."
+      }
+    ],
+    "tools": [],
+    "previous_response_id": null
+  },
+  "execution_requirements": {
+    "fresh_request": true,
+    "fresh_conversation": true,
+    "one_request_per_prediction": true,
+    "allow_additional_model_visible_context": false
+  }
+}

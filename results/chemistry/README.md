@@ -37,14 +37,27 @@ Terra's five neutral profile versions have 13, 10, nine, nine, and nine simulati
 
 **Attribution changes the apparent ranking.** Protein degradation's 28 standalone wins divide into two recipient configurations: Crews–Deshaies–Handa (20) and Ciulli–Crews–Deshaies (eight). The figures display those separately, just as the Medicine forecast separates alternate GLP-1 recipient configurations. Claude also produces three Crews–Deshaies / Liu split awards and one Crews–Handa / Liu split award.
 
+## One-shot comparison
+
+For comparison, we asked **GPT-6.1 Sol with high reasoning effort** to predict the prize in **60 independent one-shot forecasts**, without a candidate list, profiles, or committee discussion. Each forecast used a fresh Codex CLI session with browsing and other tools disabled. The [versioned question](../../prompts/chemistry_oneshot_gpt_6_1_sol_v1.txt) is the Medicine one-shot question adapted to Chemistry; Physics used a shorter question. Standard Codex system instructions still apply, but no additional experimental context was supplied.
+
+![GPT-6.1 Sol Chemistry one-shot distribution across 60 independent forecasts](../../docs/figures/chemistry-openai-oneshot-distribution.png)
+
+**Next-generation DNA sequencing wins 59 of 60 forecasts (98.3%).** Of these, 57 name **Shankar Balasubramanian, David Klenerman, and Pascal Mayer** (95% of all forecasts); two name **Balasubramanian and Klenerman** alone (3.3%). The remaining forecast selects **Stephen L. Buchwald and John F. Hartwig** for palladium-catalyzed carbon–nitrogen cross-coupling (1.7%).
+
+This adds a third distinct leading prediction: Sol favors sequencing, Terra's committees favor Car–Parrinello molecular dynamics, and Claude's committees favor targeted protein degradation. Sequencing and all three Sol-named scientists were present in both committee candidate pools, so their availability does not explain the difference. **The strong disagreement reinforces our concern that these forecasts are very unreliable.** Sol's consistency within its own experiment is not evidence of a 98.3% real-world winning probability. Because the model and experimental setup both change, this comparison does not isolate the effect of committee discussion.
+
+The one-shot results are a separate comparison and are not included in the 100-decision committee aggregate. The [one-shot summary](oneshot/gpt-6.1-sol/posthoc_transcription_summary.json) links every count to its prediction IDs and source hashes. The [saved experiment](oneshot/gpt-6.1-sol) includes the 60 verbatim answers, request and execution records, runtime events, and [primary-pick transcriptions](oneshot/gpt-6.1-sol/transcriptions.json). All 60 results passed validation, with distinct conversation IDs and no observed tool calls. Transcription was performed after generation, without additional model calls; names retain their exact response spelling.
+
 ## Saved results and figure reproduction
 
 The [final summary](final_summary.json) records every outcome, model and profile counts, equal-profile frequencies, and SHA-256 hashes of all 100 published decision snapshots in [committee](committee). All completed decisions were validated against their full local committee records and recomputed voting outcomes before publication. The published snapshots contain the final vote tally and winning proposal; the full discussion and runtime logs remain in the local experiment archive.
 
-From the repository root, with Matplotlib installed, regenerate the four figures using:
+From the repository root, with Matplotlib installed, regenerate the committee and Sol one-shot figures using:
 
 ```sh
 python3 scripts/plot_chemistry_prediction_distributions.py
+python3 scripts/plot_chemistry_oneshot.py
 ```
 
-The plotting script checks every decision against its validated hash, requires 50 decisions per model, merges recipient-order differences, and keeps the denominator of 100 when displaying the top five.
+The committee plotting script checks every decision against its validated hash, requires 50 decisions per model, merges recipient-order differences, and keeps the denominator of 100 when displaying the top five. The one-shot plotting script checks all 60 answer and transcription hashes before rendering its separate distribution.

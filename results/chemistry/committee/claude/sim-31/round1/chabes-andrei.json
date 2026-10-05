@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-31",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For turning ubiquitin-dependent proteolysis into a designable chemical reaction, using bifunctional degraders that bring a target protein to an E3 ligase for destruction"
+      }
+    ]
+  },
+  "alternatives": [
+    "B058",
+    "B057"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation converts a biological process into a well-defined chemical reaction: a small molecule induces proximity between a target and an E3 ligase, and ubiquitin-dependent proteolysis does the rest. The concept (Sakamoto, Crews and Deshaies, 2001) was followed by the first all-small-molecule, drug-like degraders and by structure-guided VHL ligands and ternary-complex mechanism from Ciulli. It gives biologists a general tool, because it removes a protein instead of occupying an active site, and it gives medicine a modality that reaches proteins without a druggable pocket. The key claims have been reproduced by many independent groups and the cereblon/DDB1 and VHL ternary structures are solved, so the mechanism is chemically defined rather than inferred. My profile-driven test is whether the biology was reduced to a reaction and whether the claims survive independent measurement. This candidate passes both, and the three-name configuration around the PROTAC concept, its proof and its structural-mechanistic basis is the most coherent subset.",
+    "case_against": "The strongest objection is that this is really two discoveries, heterobifunctional PROTACs and monovalent molecular glues (thalidomide/cereblon, Handa and Ito), and a three-person cap forces us to leave out the glue strand and contributors such as Sakamoto, Gray and Kim. Clinical benefit is also not yet shown by an approved PROTAC drug, so the timing argument is weaker than for a mature method such as C-N coupling. I rely on recalled, not newly verified, clinical status. If the committee finds the credit split too contested, B058 or B057 are cleaner on attribution.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "B057 (Buchwald and Hartwig) is the straightforward, mature, game-changing enabling chemistry with clean two-person credit, whereas degraders are slightly early and their credit is crowded.",
+        "response": "I agree that B057 is the cleaner attribution case and that the absence of an approved PROTAC drug is a real timing concern; I take that seriously and keep B057 as an alternative. But maturity of impact is not the same as novelty of concept. C-N coupling extends a reaction class the Academy recognised in 2010, whereas degraders created a new mode of pharmacology that depends on measured ternary-complex chemistry. I also note that your own third-ranked B004 trio (Crews, Deshaies, Handa) shows we agree the credit problem is solvable; I would favour Ciulli over Handa only because the VHL chemistry makes the PROTAC half self-contained, and I accept that the glue strand then needs a separate argument."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Base editing (B058) is a clear, principled new capability with defined deaminase chemistry, rapid uptake and first clinical use, and should be ranked first.",
+        "response": "I agree on the chemistry and ranked B058 second myself, since deaminase enzymology turned into a programmable tool is the sort of reaction-level insight I value. My reservation is timing and attribution: the work dates from 2016 and 2017, long-term off-target deamination and safety data are still accruing, and Nishida and Kondo made an independent route, so a Liu-plus-two configuration is less settled than it looks. Degraders have two decades of independent replication, which I weigh more heavily than a decade of clinical promise, but I would not oppose B058 if the committee wants a CRISPR-adjacent follow-on."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular condensates (B051) reframe cellular organisation as liquid-liquid demixing governed by multivalency and thermodynamics, with broad adoption across independent labs.",
+        "response": "The multivalency framework is attractive physical chemistry, but I am not persuaded it is ready. As an experimentalist I want to know which cellular assemblies are truly thermodynamic phases, and quantitative in-cell measurements of composition, concentration and material properties have so far been contested. The field is about a decade old and the debate over functional relevance is unresolved, which is the opposite of the independently confirmed mechanism I would require. I would want that question settled before awarding the prize, and I rank it below the degrader and editing candidates."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation (B004) is a new therapeutic modality built on a clear design principle, but the thalidomide/cereblon glue strand is a second strand that a three-person limit cannot fully accommodate.",
+        "response": "We agree on the core and on the difficulty. I would resolve it by framing the citation around induced proximity to an E3 ligase, so that PROTACs and glues are one chemical principle, and by choosing laureates whose work spans mechanism rather than trying to cover every group. I am less sure than you that the glue work can be folded in without a name such as Handa, so I regard that as the main open point rather than something settled."
+      }
+    ],
+    "uncertainties": [
+      "Whether PROTACs and molecular glues should be treated as one induced-proximity achievement or two, and which three names then represent them (Ciulli versus Handa).",
+      "Whether the absence of an approved PROTAC drug makes the prize premature relative to the mature B057 candidate.",
+      "Current clinical trial outcomes for degraders, which I have not verified from the files."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile; my work on dNTP pools and ribonucleotide reductase at Umeå has no direct link to any shortlisted candidate or credited person."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-52",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B047",
+        "laureates": ["David R. Liu"],
+        "citation": "for the development of base editing, the programmable chemical conversion of DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B020",
+        "laureates": ["Craig M. Crews", "Raymond J. Deshaies"],
+        "citation": "for the conception of targeted protein degradation by heterobifunctional small molecules that recruit ubiquitin ligases"
+      }
+    ]
+  },
+  "alternatives": ["B063", "B061"],
+  "statement": {
+    "case_for": "Base editing is a defined chemical transformation, hydrolytic deamination of cytosine or adenine on a single-stranded R-loop, engineered into a programmable tool. The adenine editor needed directed evolution of a deaminase to act on DNA, which is real molecular design and not just a repackaging of CRISPR. It is independently replicated, widely used, and already used in patients. Targeted protein degradation is the other candidate with the clearest mechanistic and chemical unity: heterobifunctional molecules or glues bring a ligase and a target together through a ternary complex, and catalytic, event-driven degradation replaces occupancy-based inhibition. Crews and Deshaies founded the PROTAC concept in 2001, and the idea has produced a new drug modality. Together these two parts honor two distinct advances in how chemistry acts on biological macromolecules, within the three-person limit.",
+    "case_against": "Base editing follows the 2020 CRISPR prize closely, and a committee could reasonably say it is an extension of that recognition and that clinical outcomes are still too young. Targeted degradation has no approved PROTAC yet, and a Crews/Deshaies pairing leaves out Ciulli's structure-guided VHL ligands and ternary-complex work, and Handa and Ito's identification of cereblon as the thalidomide target, which is the pillar behind molecular glues. The three-person cap forces an arguably unfair cut. Two mature candidates, nanopore or sequencing-by-synthesis (B063) and Car-Parrinello (B061), are overdue by comparison, and pairing two relatively young therapeutic-adjacent fields risks looking presentist.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks degradation first with Crews, Deshaies and Handa, and base editing second with Liu alone as the cleanest fair reading, while noting the committee might feel 2020 already covered this area and might wait for clinical outcomes.",
+        "response": "I agree that Liu alone is the right attribution. Komor and Gaudelli did decisive hands-on work, but the concept, directed evolution strategy and program were Liu's, so I have dropped my opening trio for a single name. On timing I partly disagree: the chemistry of base editing, deamination without strand breaks, is a different principle from nuclease-based cutting and repair, so I do not see it as covered by 2020. I also differ on Handa. Including him would give a cereblon glue strand, but it would push out Deshaies, and I think the concept originating in the 2001 PROTAC work should anchor the part."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist places Car-Parrinello first because the credit is unusually clean (two authors on the 1985 paper), the method is mature and independently confirmed, and recognition is overdue rather than premature. He ranks base editing third as an elegant chemistry-driven invention that could wait for more clinical data.",
+        "response": "The attribution argument for B061 is the strongest on the shortlist and I take it seriously, which is why I list it as an alternative. My reservation is not about merit but about configuration: a two-name method prize fits easily, and I would not object to it on its own, but I do not think waiting on base editing's clinical data is a reason to hold it back, since the mechanism and independent confirmation are already settled. I would ask Johan whether he considers Car-Parrinello more defensible than degradation in the context of the 2013 and 2024 computational prizes, since that bears on whether it displaces a biology-facing part."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks degradation first, with Crews, Deshaies and Ciulli, treating the cereblon glue lineage (Handa, Ito) as a separate strand that the three-person limit may exclude, and base editing third with Liu alone, citing the CRISPR overlap.",
+        "response": "I share the concern about the glue lineage and it is the weakest part of my configuration. I would rather name the two people who founded the concept than split three slots among Crews, Deshaies, Ciulli and Handa, which is why I stop at two names and keep room for Liu. I do not agree that overlap with CRISPR should lower base editing; Aili ranks it third, and I would put it first because it is the clearest example of a nucleotide-chemistry principle turned into a tool. Where we differ is on whether Ciulli deserves the third slot, and I would accept him in place of the single-name Liu part if the committee prefers one achievement."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski puts nitrogenase first for its concrete structural and mechanistic account of biological nitrogen fixation, and lists base editing and degradation in his top four, while noting that any three-person selection for nitrogenase is contestable.",
+        "response": "I accept that nitrogenase is chemically deep and mature, and I have no objection to its science. My difficulty, as Peter himself says, is attribution: Dean, Rees, Einsle, Seefeldt and Ribbe each hold a decisive piece, so a three-name cut would be contestable in a way that Liu or Crews and Deshaies are not. I would keep it in view for a later year rather than set it against the other candidates now."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat base editing as distinct enough from the 2020 CRISPR prize or wait for clinical outcome data.",
+      "Whether to credit the cereblon glue lineage (Handa, Ito) or Ciulli alongside Crews and Deshaies, given the three-person cap.",
+      "Whether Komor and Gaudelli should be credited with Liu if the committee prefers a single-achievement prize.",
+      "My attribution and priority details come from general knowledge and the provided ballots, and have not been independently verified."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for any shortlisted candidate. My own field, dNTP pools and ribonucleotide reductase in the Umeå/Thelander lineage, and my collaborations with Rothstein and Stillman lie outside the shortlisted work, though I have a general professional interest in nucleotide chemistry and LC-MS/MS methods."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-37",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalyzed methods for forming carbon-nitrogen bonds"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Palladium-catalyzed C-N coupling meets my own test of a game-changer that is simple in concept: a general, ligand-controlled reaction that turned aryl amine construction from a harsh, substrate-limited problem into a routine operation, with consequences already demonstrated daily in pharmaceutical, agrochemical and materials synthesis. Having read the openings, I move it to first place. It has the broadest support among the eight ballots for a candidate with clean attribution: Somfai and Zou rank it first, and Chabes and I place it in the top six. Buchwald and Hartwig developed the general catalytic method independently and in parallel with successive ligand generations and mechanistic work, so a two-person prize is precise. Three decades of independent confirmation mean there is no maturity risk.",
+    "case_against": "The strongest reservation is that the 2010 cross-coupling prize may make some colleagues see C-N coupling as an extension of already-honored Pd chemistry rather than a new idea, and that Kosugi's earlier tin-amide coupling is a real precursor that a two-name citation leaves out. I also concede that my own first choice, machine-learned interatomic potentials (B001), has thin support in the room, with only Zou ranking it (seventh) besides me, and its Behler/Csanyi/Parrinello attribution is still contested, so I do not think it can carry a majority this year.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Buchwald and Hartwig independently developed the general catalytic amination, Kosugi's tin-amide work was a narrower precursor, and the method is the clearest case on the list of a transformation that changed how chemists everywhere build bonds.",
+        "response": "I agree, and Somfai's opening moved me from ranking this second to ranking it first. I would go slightly further on Kosugi: the discovery criterion is generality and practicality, and the stannyl amide chemistry was limited by toxic tin reagents and narrow scope, so it is a precursor to cite in the scientific background rather than a laureate. Where I add a qualification is that part of his argument rests on industrial use, which is a consequence and not by itself the discovery. What makes this a prize-worthy discovery to me is the ligand-design logic that made the reaction general."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "C-N coupling is original in its ligand-design logic and sits naturally beside the 2010 cross-coupling prize as a conceptually distinct extension, and recognition is somewhat overdue.",
+        "response": "This answers the 2010 concern better than I did in my opening. Heck, Negishi and Suzuki were recognized for C-C bond formation, whereas amination needed a different mechanistic solution, since amido complexes and C-N reductive elimination were the hard steps that ligand design had to solve. I agree it is distinct. I would still want the citation to state explicitly that this is C-N bond formation, to keep it separate from the earlier prize."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation turns a small molecule into a recruiter of the ubiquitin-proteasome machinery and is a conceptually clean, original design principle that is ripe rather than premature, with Crews, Deshaies and Handa as the core.",
+        "response": "I take this candidate seriously, since I ranked it third, and I accept that it is a new modality. My reservation is maturity and attribution. No degrader is yet an approved drug, and Handa's cereblon work is a separate molecular-glue lineage from the Crews-Deshaies PROTAC concept, so a three-person cut would split two discoveries. I would not hold it back for lack of an approval alone, but waiting costs little, while the C-N coupling case is complete now. I disagree with treating the glue and PROTAC strands as a single clean discovery."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "PROTACs and glues convert ubiquitin-dependent turnover into a designable chemical reaction, with Crews, Deshaies and Ciulli as the founding set and Handa and Ito as a separate strand that a three-person prize would leave out.",
+        "response": "We agree on the attribution problem, and Chabes states it more candidly than others: a Crews, Deshaies, Ciulli prize omits cereblon, which is the mechanistic explanation of thalidomide, and one that included Handa would omit Ciulli, whose VHL ligands made PROTACs chemically rational. That is the main reason I keep B068 as my first alternative and not my preferred prize. If the committee wants it, I would argue for a citation framed around small-molecule control of the ubiquitin system and a deliberate choice of three names."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Dye-sensitized solar cells are a clear quantitative principle of separating light absorption from charge transport, with Gratzel and O'Regan as the core and Hagfeldt left out, and massively parallel sequencing is overdue but limited by how far the 1980 Sanger prize constrains a second sequencing award.",
+        "response": "I respect the quantitative clarity of the dye-sensitized cell, but I would qualify two points. First, the attribution is tidy only if Hagfeldt is excluded, and later efficiency gains have come largely from perovskite devices, so the direct consequence of the 1991 work is more historical than current. Second, I share Linke's concern about sequencing: the Solexa chemistry is a genuine chemical achievement, but the Sanger precedent and the platform-credit contest make me prefer to leave it for later."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat C-N coupling as a distinct discovery from the 2010 cross-coupling prize or as a late extension of it.",
+      "Whether Kosugi's precursor work should be acknowledged in the citation.",
+      "Whether degraders will reach approval soon enough to change the maturity assessment of B068.",
+      "Whether machine-learned potentials will consolidate around a single attribution, which would determine if B001 can become a realistic option."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the preferred candidate. My Warshel/EVB background and Uppsala RNA and ribosome connections are not tied to any shortlisted candidate, but my own computational-chemistry field is close to B001, so I treat that candidate with extra caution and keep it only as an alternative."
+  }
+}

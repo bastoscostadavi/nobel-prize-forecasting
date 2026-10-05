@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-37",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalyzed carbon-nitrogen cross-coupling"
+      },
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Douglas C. Rees"
+        ],
+        "citation": "For determining the atomic structure of nitrogenase and its iron-molybdenum cofactor"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B057"
+  ],
+  "statement": {
+    "case_for": "Pd-catalyzed C-N coupling is the cleanest case on the shortlist of a general, ligand-designed method that changed daily practice in pharmaceutical, agrochemical and materials synthesis, with more than 25 years of independent confirmation and a stable interpretation. Buchwald and Hartwig independently built the general catalytic systems and mechanistic understanding, so attribution to two names is defensible. Alongside it I would honour nitrogenase as a distinct structural achievement: the crystal structures of the MoFe protein and of the FeMo-cofactor, including the interstitial carbide, are the evidence on which all later mechanistic work rests. Rees solved the first structure and drove the cofactor architecture, and these structures were independently reproduced for decades. Pairing a synthetic-methods prize with a bioinorganic structure prize gives two distinct, mature achievements within the three-person limit.",
+    "case_against": "Cross-coupling was honoured in 2010, and a second cross-coupling prize can be criticised as redundant, with Kosugi's earlier tin-amide work as a priority complication. For nitrogenase, the catalytic mechanism and the N2 binding site are still only partly resolved, and giving the structural half to Rees alone leaves out Einsle, who solved the high-resolution carbide structure, and Seefeldt, Dean and Ribbe, who established the biochemistry. Two parts with unequal weight may also look arbitrary. The strongest alternative is that PROTACs, which have the widest opening support, are simply the better prize.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "C-N coupling is the clearest case on the list of a transformative but conceptually simple method, with Buchwald and Hartwig as the dominant figures and Kosugi only a narrower precursor.",
+        "response": "I agree on the science and on keeping Kosugi off the prize, since the general ligand-controlled catalysis is the advance. I do not accept that the 2010 prize makes this an easy yes. We should say plainly that the citation is for C-N bond formation with ligand design, not cross-coupling again, and be ready to defend that distinction to the Academy."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Nitrogenase structure and mechanism is a central bioinorganic problem, but the credit is split between structural (Rees, Einsle) and biochemical (Dean, Seefeldt, Ribbe) work, and the mechanism is still being refined.",
+        "response": "We ranked B003 second on the same grounds, and I agree the structures are what the prize should rest on. Where I differ is on Seefeldt. His mechanistic work matters, but the model of the cofactor and the carbide is a crystallographic result, and the E4 and N2-binding questions are not settled. I would credit the structure, which is Rees and Einsle, and I would sooner accept an incomplete roster than reward an open mechanism. I would like to know how you weigh Einsle against Seefeldt if three slots are forced."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Machine-learned interatomic potentials give near-quantum accuracy at force-field cost and are already validated against experiment, so B001 should be first.",
+        "response": "I agree that the Behler-Parrinello and Gaussian-approximation-potential lines are a real advance, which is why B001 is on my list. I place it below the others because the field is still changing quickly, with foundation models changing what the key contribution is, and because the credit between Behler, Parrinello, Csanyi and Bartok, and the weight of Weinan E and von Lilienfeld, remains open. I share your view that C-N coupling is overdue, and your ranking it second makes me more confident in my first choice."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "PROTACs and molecular glues turn ubiquitin-dependent turnover into a designable chemical reaction, a general tool and a new therapeutic modality with clinical-stage degraders.",
+        "response": "The ternary-complex crystal structures, such as those of VHL and cereblon with degraders and substrates, give the structural evidence I look for, and I accept that B068 has the broadest opening support. I still hesitate: no PROTAC drug is approved, the committee would have to choose between the PROTAC and molecular-glue lineages, and the cereblon and VHL structural-mechanistic work (Handa, Ciulli) is credited for a later step than the founding concept. I rank it below C-N coupling for maturity, not for importance, and I would make it my first alternative."
+      }
+    ],
+    "uncertainties": [
+      "Whether a two-part prize with a single laureate (Rees) in the nitrogenase part is acceptable, or whether Einsle should replace one of the C-N coupling laureates.",
+      "Whether a second palladium cross-coupling prize after 2010 will persuade colleagues.",
+      "Whether the PROTAC and molecular-glue lineages should be one prize or two, and which three names would be credited.",
+      "Whether nitrogenase is mature enough while the N2-binding site and catalytic cycle remain unresolved."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. I note only that I work in electron crystallography and structural chemistry, so I may be biased towards structural candidates such as nitrogenase (B003) and serial femtosecond crystallography (B057), and I have no known personal or institutional tie to any named candidate."
+  }
+}

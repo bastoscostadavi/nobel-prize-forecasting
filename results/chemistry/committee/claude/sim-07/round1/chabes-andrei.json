@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-07",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B060",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B055"
+  ],
+  "statement": {
+    "case_for": "Base editing turns a defined enzymatic reaction, hydrolytic deamination of cytosine and, through directed evolution, of adenine in DNA, into a programmable single-base rewriting tool. The adenine editor is the stronger evidence for originality: no natural deoxyadenosine deaminase existed, so the Liu laboratory evolved one, and that is chemistry in the full sense rather than reuse of a biological part. From my own field I note that the whole approach depends on controlling what happens to a deaminated base inside the cell's repair and replication machinery, which makes the chemistry directly relevant to genome maintenance. Independent laboratories have reproduced and extended both editors for roughly a decade, and clinical use has begun. The credit inside the Liu laboratory is unusually well documented, with Liu as the driver and Komor and Gaudelli as the lead experimentalists on the two editors, which gives a coherent three-person set.",
+    "case_against": "The strongest reservation is overlap with the 2020 prize for CRISPR-Cas9: a committee could reasonably see base editing as an application layer on an already recognised nuclease. Long-term in vivo safety, bystander edits and off-target deamination are not settled, and the clinical record is young. The Kondo and Nishida Target-AID work was independent and parallel, and a Liu-lab trio omits it, which is a genuine attribution cost that I do not want to wave away.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Ranks base editing fifth and recommends Liu alone, judging it about a decade old with long-term safety and impact still developing, so possibly a little early.",
+        "response": "I accept that the clinical record is short, but the prize recognises the discovery of a chemical principle, and that principle has been reproduced in many laboratories and is stable. Safety questions concern therapeutic use, not whether the reaction works as described. On Liu alone, I would keep Komor and Gaudelli: the adenine editor needed a new evolved enzyme activity, a separate decisive step by Gaudelli, and I think omitting the people who did those experiments is harder to defend than a three-name prize."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Ranks PROTACs and molecular glues first as an induced-proximity design principle that makes undruggable targets accessible, and Handa's cereblon work as the foundation of the glue branch.",
+        "response": "I find the mechanism persuasive and I rank it second. My difficulty is attribution: the PROTAC lineage (Crews, Deshaies, Ciulli) and the cereblon lineage (Handa, Ito) are different discoveries, and eight credited names cannot be reduced to three without leaving out a decisive contributor. I also do not think the clinical payoff is demonstrated while no degrader is approved. I would hold this for a later year rather than award a configuration the committee would have to defend as arbitrary."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Ranks base editing first as an original, easily explained chemical principle with the Liu-lab trio as the most coherent configuration, while noting the Kondo/Nishida parallel work.",
+        "response": "I agree on the configuration and the originality. I would sharpen the discussion on Target-AID: it used a cytidine deaminase fused to a nickase-type Cas9 and is parallel to the cytosine editor but has no adenine counterpart, so the prize-defining step, the evolved adenine deaminase, is Liu-lab only. That gives a principled reason to treat the Japanese work as important but not part of the first-order credit, rather than just a numbers limit. I would ask that this be stated in the citation discussion."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Ranks Pd-catalysed C-N coupling first as a general bond-forming method used daily in drug synthesis, with Buchwald and Hartwig as a clean pair and a distinct later advance from the 2010 C-C coupling prize.",
+        "response": "The attribution is cleaner than for base editing, I agree, and the impact is beyond doubt. My reservation is novelty: the palladium cycle and the idea of ligand-controlled cross-coupling were recognised in 2010, and C-N coupling is arguably the same chemistry with a different nucleophile, so the committee would be recognising an extension of a prize already given. Base editing creates a capability that did not exist. If the committee wants a clear two-person prize, however, I would not oppose it and have listed it as an alternative."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Ranks C-N coupling first because it is a simple, general new bond-forming capability with decades of consequences, and says recognition is overdue.",
+        "response": "I accept that overdue is a real criterion and that the reaction's mechanism is well understood. I ask whether decades of use alone separates it from the 2010 award, since the argument for novelty rests on the nucleophile and not the catalytic principle. A discovery that gave biologists a general tool and rests on a defined chemical reaction in DNA seems to me at least as consequential, and I would put it ahead on originality while keeping Buchwald and Hartwig as my second alternative."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards base editing as distinct enough from the 2020 CRISPR-Cas9 prize.",
+      "How much weight the independent Target-AID work (Kondo, Nishida) should carry in attribution.",
+      "Whether long-term in vivo safety and bystander editing will change the view of maturity.",
+      "Whether the eight-name PROTAC and glue field can be allocated fairly in any three-person configuration."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on dNTP pools and replication fidelity is in the same broad area of genome maintenance as base editing, but I have no stated collaboration with, or institutional tie to, any credited candidate."
+  }
+}

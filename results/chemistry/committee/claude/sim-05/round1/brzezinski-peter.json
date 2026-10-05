@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "for the development of targeted protein degradation by induced proximity, using heterobifunctional degraders that recruit ubiquitin ligases"
+      }
+    ]
+  },
+  "alternatives": ["B044", "B052"],
+  "statement": {
+    "case_for": "Reading the eight opening ballots, B007 is the only candidacy that most of the committee rank highly: six of eight members rank it, five place it in their top three, and four of the six name the same trio of Crews, Deshaies and Ciulli. The chemistry is mechanistically precise. A bifunctional molecule forms a ternary complex with a target and an E3 ligase, ubiquitination follows, and proteasomal removal results. The ternary-complex cooperativity described by Ciulli is a physical, quantitative principle, which is the kind of mechanism I weigh most heavily. Crews and Deshaies launched the concept in 2001, and Ciulli supplied the VHL ligand chemistry and structural rationale that made degraders drug-like. Confirmation across many independent laboratories and companies is extensive. My own first-ranked candidate, B044 (Gray and Winkler on long-range electron transfer in proteins), received no support from colleagues, and I do not think I can claim a committee case for it that outweighs the breadth of support for B007.",
+    "case_against": "The strongest reservation is attribution. PROTACs and cereblon-directed molecular glues are two partly separate strands. Handa and Ito identified cereblon as the thalidomide target, and Gray and Sakamoto also have credible claims, so a three-name prize necessarily omits people with real standing. Maturity is the second concern. No degrader is yet an approved drug, so part of the case rests on the validated concept and on clinical promise rather than on delivered clinical outcome. From the expert-report standpoint, we would want the field evaluation to confirm that the 2001 proof of concept and the later ligase-ligand chemistry are each essential and not merely successive refinements.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B007 first but proposes Crews, Ciulli and Handa, arguing that the cereblon/thalidomide mechanism underpins the molecular-glue branch and that Deshaies and Sakamoto's 2001 contribution cannot be verified independently.",
+        "response": "I take the cereblon discovery seriously as a mechanistic advance, but I would put it in a different place. Handa and Ito explained how a known drug works; the induced-proximity design principle that lets chemists build degraders for any chosen target came from Crews and Deshaies, and the first report is not in doubt. I therefore prefer Deshaies over Handa for the third seat. I would still want the citation worded so that it does not read as a judgment that the glue branch is less important, and I accept that a prize built on the concept alone leaves Handa undercredited."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Åqvist treats degradation as a genuinely new modality and a game-changer, but notes that clinical validation is incomplete and that molecular glues might be viewed as a separate discovery.",
+        "response": "I agree on the modality and share the concern about timing, and like Johan I judge the chemistry on mechanism. The ternary-complex picture is established independently of the clinic, so the scientific basis for recognition does not depend on an approval. Where I qualify his view is that an absent approval is a weaker objection here than for an application-driven candidacy, because the achievement we would cite is the chemical principle. I do not think this is a reason to wait, though I would like the expert report to confirm the status of the late-stage trials."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks phase separation (B001) first as a quantitative physical principle of cellular organization, and places B007 second with the same Crews, Deshaies and Ciulli trio.",
+        "response": "I share Heiner's preference for physical principles and I find B001 attractive in that respect. My reservation is the one he raises himself: the field is still debating which cellular condensates are genuine equilibrium phase separation and what their physiological function is. For a prize I would want that question resolved, and I do not think it is yet. I also see a credit problem between the cell-biology discovery and the polymer-physics framework that is harder than the three-name problem in B007. I would keep B001 in view for a later year but not rank it above B007 now."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing (B052) first and proposes a Liu, Komor and Gaudelli trio, noting the 2020 CRISPR prize as a precedent to weigh and that B007 is slightly early.",
+        "response": "Base editing is a strong candidacy and the chemistry of converting one base to another is clear, so I place it among my alternatives. I differ on two points. First, the 2020 prize recognized genome editing as a platform, and a citation for B052 would have to explain what is chemically distinct, which requires care. Second, the attribution is unusually clean for Liu alone but the Komor and Gaudelli trio you propose leaves out Nishida and Kondo's independent work, which a priority review would have to address. I would not choose it over B007 on the evidence presented."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalyzed C-N coupling (B029) first as a workhorse reaction with Buchwald and Hartwig as the natural pair, treating the 2010 prize as a possible continuation concern.",
+        "response": "I ranked B029 low in my own opening, so I should say why. The achievement is real and mature and I do not dispute that Buchwald and Hartwig are the natural pair. My difficulty is that after the 2010 cross-coupling prize the committee would need to show that C-N coupling is a distinct conceptual step and not a ligand-driven extension of the same catalytic cycle. Your point on Kosugi's precursor also matters, because it determines whether this is a two-person or three-person award. I am willing to be persuaded on the novelty question, and I keep B029 in mind as a mature candidacy if B007 is judged premature."
+      }
+    ],
+    "uncertainties": [
+      "Whether the expert reports treat PROTACs and cereblon-based molecular glues as one achievement or as two, which would decide whether Handa and Ito belong in the citation.",
+      "Current clinical status of degraders in late-stage trials, which I have not verified here and which affects how strongly maturity can be asserted.",
+      "Whether B044 (Gray and Winkler) can be viewed as a distinct experimental advance after the 1992 Marcus prize, or as a continuation of already-recognized electron-transfer theory."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile with the B007 candidates or the shortlisted names. I note only that I am a Stockholm University colleague of Xiaodong Zou, which is not a conflict with any candidate, and that my first-ranked B044 touches the electron-transfer field of my own research on respiratory enzymes, so I have taken care to argue it on its merits and have not made it the preferred configuration."
+  }
+}

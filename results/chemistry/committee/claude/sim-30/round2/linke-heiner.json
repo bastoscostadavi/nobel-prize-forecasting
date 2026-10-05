@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-30",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B056",
+    "B068"
+  ],
+  "statement": {
+    "case_for": "I have moved from nanopore sensing to base editing. The chemistry is explicit and distinct from what the 2020 prize honoured: a Cas-guided deaminase converts one base to another in place, with no double-strand break. The cytosine editor required fusing a deaminase to a Cas9 nickase and managing uracil repair, and the adenine editor required evolving a deaminase (TadA) that does not exist in nature to act on DNA, which is the hardest step and is a clear molecular-engineering achievement. The attribution traces cleanly to Liu with Komor (first cytosine editor) and Gaudelli (adenine editor). The result is quantitative and reproduced widely, and it opens a generative capability, precise single-base correction, that I weight heavily. Clinical use has begun, so the concept is no longer only a promise.",
+    "case_against": "Base editing is the youngest candidacy on the shortlist, with a short clinical record and open questions on off-target deamination, bystander edits and delivery. The 2020 CRISPR prize leaves a legitimate question about increment, and prime editing may later be folded into the same story. Kondo and Nishida's independent Target-AID work is a real priority question for the cytidine editor that the three-name cap leaves unresolved. Plurality support is not majority support, and Somfai, Aqvist and Sparr remain unconvinced.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski asked what a base-editing citation would credit that the CRISPR citation did not, and disagreed with a Liu-only prize.",
+        "response": "I accept both points and have changed my position. The 2020 citation concerned programmable cleavage of DNA. Base editing is a different chemical outcome, deamination of a base in situ without cleavage, so a citation worded around chemical conversion of single bases is distinct from it. I withdraw the Liu-only idea: Komor made the first cytosine editor and Gaudelli evolved the adenine deaminase, so omitting them would misdescribe where the discoveries were made."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes argued that Target-AID priority is narrower than it looks because it covers only a cytidine deaminase fusion, and that the adenine editor has no independent parallel.",
+        "response": "That persuades me that the priority question is real but bounded. The adenine editor, whose evolved deaminase is the most original chemistry, has no independent parallel, and the citation is defensible without naming Kondo and Nishida if it claims base editing as a programmable conversion and not the first deaminase fusion. I still list the Target-AID priority as an open risk and not a closed one. On prime editing I now agree with you that it is too recent to fold in."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks phase separation first and replied that the debate is about which condensates qualify, not whether liquid demixing can organize a cytoplasm.",
+        "response": "That is a fair distinction and I keep B056 as my first alternative. I still think the citation would need to be limited to the physical principle and the P-granule and in vitro evidence, and your own reservation about Pappu and Mittag shows the trio would be criticised. On those grounds I would not put it ahead of a candidate whose chemical outcome is as definite as base editing."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks base editing low, asking what is new chemically beyond a fusion to an existing nickase, and ranks C-N coupling first.",
+        "response": "I take the objection seriously, and the evolved TadA deaminase acting on DNA is my answer: that is new enzyme chemistry, not just a fusion. On B032 I accept that the attribution is the cleanest on the list and the maturity is beyond doubt. Your answer on what is conceptually new beyond ligand evolution and the 2010 prize did not move my judgement, and I think the 2010 overlap is more of an obstacle there than the 2020 overlap is for base editing."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr offered to reconsider if the committee agreed the ratchet step was decisive for nanopores, and described base editing as most likely to command a majority.",
+        "response": "I have not been able to produce a defensible three-name nanopore cut: Deamer, Branton, Kasianowicz, Bayley and Akeson each made a necessary step, and five members have now said the same. As chair I should not hold a configuration that no colleague supports for a reason I cannot answer. On your lipid case I still see the six-name split and the 2023 Medicine overlap as unresolved, so I leave B017 outside my alternatives."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts base editing as a sufficient increment over the 2020 prize, given its short clinical record.",
+      "Whether Kondo and Nishida should be credited for the cytidine editor, and whether Komor and Gaudelli should share with Liu or Liu should stand alone.",
+      "Whether a configuration with a plurality and not a majority can consolidate, or whether degraders or phase separation are the better compromise.",
+      "Whether my own preference for physically quantitative, newly enabling results biases me toward an editing technology with strong generative potential."
+    ],
+    "conflict_note": "No conflict with any shortlisted candidate or named person, and no recusal requested. I share Lund affiliation with Somfai and Sparr, which is a colleague connection and not a connection to any candidate. I am a physicist and my prior preference for nanopore sensing reflected a field bias toward the ionic-current principle, which I disclosed in round 1 and have now set aside."
+  }
+}

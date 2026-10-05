@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Craig M. Crews",
+          "Alessio Ciulli",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation, in which small molecules recruit E3 ubiquitin ligases to remove disease-relevant proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation changes the operating logic of small-molecule pharmacology: instead of occupying an active site, a bifunctional or glue-like molecule induces a ternary complex and the cell's own ubiquitin-proteasome machinery removes the protein. This is design-driven control over recognition and proximity, it reaches targets without a classical binding pocket, and it has spread from chemical biology into industrial pipelines and clinical trials. Crews conceived and built PROTACs, Ciulli supplied the VHL ligand chemistry and the structural and cooperativity rules that made degrader design rational, and Handa's identification of cereblon explains the glue branch and links thalidomide-type drugs to the same mechanism. Independent confirmation across many labs, companies and E3 ligases is already extensive.",
+    "case_against": "No PROTAC is yet an approved drug, so the clinical impact is still prospective, and my own bias toward translational biomedicine should be discounted. A three-name slate also forces a hard cut: Deshaies and Sakamoto share the original 2001 PROTAC report, while Ito, Gray and Kim have real claims on the glue and degrader-chemistry strands, so any trio leaves out people whose contributions a careful reader would call decisive. The PROTAC and cereblon-glue stories may also be two separate discoveries that do not fit under one citation.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks B007 first but would name Crews, Deshaies and Ciulli, treating the PROTAC concept and its early demonstration as the core and cereblon glues as a possibly separate recognition.",
+        "response": "I take the priority argument seriously: Deshaies was a co-author of the first PROTAC and a leader of the ubiquitin-ligase framework. I still put Handa in the third slot because cereblon is the mechanism that explains why the most clinically advanced degraders and glues work at all, and a prize that omits it risks being incomplete. If the committee prefers a pure PROTAC citation, I would accept Deshaies over Handa; I am not insisting on my own slate, only on one that covers both strands honestly."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalyzed C-N coupling first as a general, ligand-enabled and ubiquitously used bond-forming method, while noting that it extends the 2010 cross-coupling prize and that Kosugi's precursor work complicates credit.",
+        "response": "I agree the chemistry is excellent and the usage is enormous, and attribution to Buchwald and Hartwig is cleaner than in degraders. But a second prize in palladium cross-coupling is the kind of continuation I would weigh against, because it refines an already recognised reaction class. Targeted degradation opens a new modality with a different mechanism of action, and I would rank it higher on novelty. I would keep C-N coupling strongly in reserve, since it is overdue in maturity terms."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, ranks biomolecular phase separation first for its quantitative physical framework, which generalises across cell biology, and places degraders second on a new pharmacological modality.",
+        "response": "I agree the physical principles behind condensates are elegant and the field has had wide influence. My reservation is that the field is still debating which cellular condensates are true equilibrium phase separation and what is functionally relevant in vivo, and the chemical output, what researchers and clinicians can now do with it, is less concrete than for degraders. I would be open to condensates if the committee wants a physical-chemistry prize, but I would not yet put it ahead of B007."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first as a controlled chemical conversion of DNA bases without double-strand breaks, with clear intellectual leadership by Liu, but flags the 2020 CRISPR prize as an overlap risk.",
+        "response": "Base editing is my first alternative: it is original chemistry on nucleobases and has early clinical use. I am less sure that a Liu-Komor-Gaudelli trio is correct, since the engineering-heavy credit is concentrated in Liu, and the 2020 prize makes it read as a downstream step of CRISPR. Degraders do not have that precedent problem, which is part of why I rank them above it."
+      }
+    ],
+    "uncertainties": [
+      "Whether PROTACs and cereblon molecular glues should be one citation or two separate discoveries, and the right weight of Deshaies and Sakamoto versus Handa.",
+      "How much the absence of an approved PROTAC should count against timing.",
+      "Whether the committee would prefer a configuration pairing B007 with a second distinct achievement, given the three-person cap."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. My postdoc mentors (Stevens, Boey) and my Linköping group are not credited names, and my research overlap with Sparr concerns peptide and self-assembly work, not these candidates."
+  }
+}

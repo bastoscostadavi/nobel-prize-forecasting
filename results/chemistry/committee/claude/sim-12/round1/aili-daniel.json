@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-12",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": ["Craig M. Crews", "Raymond J. Deshaies", "Alessio Ciulli"],
+        "citation": "for the development of targeted protein degradation by designed bifunctional molecules that recruit E3 ubiquitin ligases"
+      }
+    ]
+  },
+  "alternatives": ["B007", "B002"],
+  "statement": {
+    "case_for": "Targeted protein degradation is a new pharmacological modality built on a chemical design principle: a small molecule that brings a ligase and a target together and so converts recognition into destruction rather than inhibition. The concept dates to 2001 (Crews and Deshaies), the VHL ligands and ternary-complex structural logic (Ciulli) made it drug-like, and the design rules are now taught and reused by many independent groups. It changed what chemists and clinicians can attempt on proteins once called undruggable, and degraders are in late clinical development. It also appears on every one of the eight opening ballots, ranked 1 to 8, which makes it the broadest-based candidate on the shortlist, though I treat that as breadth of acceptance and not as a measure of merit.",
+    "case_against": "No degrader has yet been approved, so the prize could be early on the clinical consequence. The molecular-glue and thalidomide-cereblon thread (Handa, Ito, and others) is a parallel line whose mechanism arguably has the stronger chemical-biology payoff, and a three-person PROTAC-centred prize would leave out contributors who established how glues work. Overlap with the earlier ubiquitin-proteasome recognition (Ciechanover, Hershko, Rose) could also be argued, and the three-person limit forces an uncomfortable cut.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks base editing first as a distinct chemical invention, with Liu the intellectual leader and Komor and Gaudelli the lead inventors, but notes it is close in time to the 2020 CRISPR prize.",
+        "response": "I agree that base editing is a real chemical idea and I ranked it fourth for that reason. My reservation is the one Heiner himself raises: it is an extension of a platform already recognised in 2020, and with Liu likely to be associated with prime editing as well, the committee may prefer to let the field settle into one larger genome-editing recognition. I would not call it a poor choice, but it does not beat degradation on novelty of modality. If the committee wants a Liu-centred prize, I would want to see the case made on the deaminase engineering and evolution chemistry, not on clinical promise."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist places machine-learned interatomic potentials first, citing near quantum accuracy at force-field cost and wide uptake, and ranks PROTACs second while noting that no degrader is yet approved.",
+        "response": "I take his point on approval seriously and I share it as a maturity concern, but I read the scientific test differently. The degradation principle has been validated mechanistically and structurally across many ligases and targets, and the clinical readouts are on a credible path, whereas the machine-learned potentials field is still moving quickly and its foundation-model era has barely begun. Computation was also recognised in 2013 and 2024. I would value hearing which experimental problem machine-learned potentials have already settled that the older methods could not."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks nitrogenase first as a core bioenergetic problem, with the MoFe-protein structures, the central carbide and the kinetic and spectroscopic work giving a physically stated mechanism.",
+        "response": "This is the strongest purely mechanistic case on the list and I find the structural story persuasive, particularly Einsle's carbide. My hesitation is that the catalytic cycle is, by his own account, still not resolved, and the attribution between structure people (Rees, Einsle) and mechanism or biosynthesis people (Seefeldt, Dean, Ribbe) is hard to cut at three. I defer to him on the electron-transfer chemistry, and I would count a nitrogenase prize as legitimate, but I weigh the lasting methodological spread to other fields more heavily than he does."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation first as a new physical-chemical organising principle, with Hyman, Brangwynne and Rosen as the core trio, while acknowledging that physiological relevance is still debated.",
+        "response": "I agree the concept is important and the soft-matter framing is attractive; I ranked it fifth. Where I differ is on how much of it is settled. The question of when an in vitro droplet is a functional condensate in the cell is still open, and a citation would have to state precisely what was shown. Her point on the multivalent-interaction framework is the part I find most chemically solid, but I would hold the prize until the in vivo criteria are firmer."
+      }
+    ],
+    "uncertainties": [
+      "Whether the citation should centre on bifunctional PROTACs, on molecular glues and cereblon biology, or on both",
+      "Whether the absence of an approved degrader makes the prize premature",
+      "Allocation among Crews, Deshaies, Ciulli, Handa, Ito and Gray under a three-person limit",
+      "Whether a second prize part (for example base editing) would be a better use of the prize than a single broad degradation citation"
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile: none of the shortlisted candidates is a postdoc mentor or direct collaborator of mine. My only stated connection is a research overlap with Emma Sparr on peptide-lipid and protein self-assembly, which bears on the phase-separation ballot only as a shared field."
+  }
+}

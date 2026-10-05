@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of palladium-catalysed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": [
+    "B043",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling is the clearest case on the shortlist of a general method whose mechanism is understood (oxidative addition, amine binding, reductive elimination) and whose ligand design explains why it works. It is used daily in pharmaceutical, agrochemical and materials synthesis, and it has decades of independent validation. After the opening round I would drop Kosugi from my proposal and credit Buchwald and Hartwig, who independently made the reaction general. The case rests on enabling-method impact that is verified, not on forecasts.",
+    "case_against": "The 2010 prize already honoured Pd cross-coupling, so some members will see this as a follow-on and not a new discovery. The distinct invention here is amine coupling with ligand control, and the committee must be sure that is enough. Excluding Kosugi also leaves a precursor uncredited, and if the committee thinks the story is the same as 2010, B011 loses its main advantage.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "B011 is a general, mechanistically clear bond construction that is overdue, and Kosugi's earlier tin-amide coupling had limited scope and should not take one of at most three places.",
+        "response": "I agree on the substance and have changed my position. In my opening I named Kosugi, but his tin-amide work did not give a general catalytic method, and ligand-enabled generality is what Buchwald and Hartwig delivered. I would acknowledge the precursor in the committee's background text and not in the citation. I take your 2010 overlap point seriously but would answer it differently: Negishi, Suzuki and Heck concerned C-C bond formation, and C-N coupling needed new ligand classes and mechanistic work."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Base editing (B008) is the best-defined chemical invention on the list: a deaminase reaction directed to one nucleotide without a double-strand break, with a clean Liu, Komor, Gaudelli trio.",
+        "response": "This is the strongest rival to my pick and I keep it as an alternative. The attribution is cleaner than for most biology candidates. My reservations are the 2020 CRISPR prize, which makes this look like a follow-on to genome editing, and the limited clinical outcome data. Your point that Nishida and Kondo's concurrent deaminase work is secondary also needs checking, because priority disputes tend to resurface after an announcement. I do not think those problems are fatal, but C-N coupling has more mature validation."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Targeted protein degradation (B009) is a new pharmacological modality, with Crews, Deshaies and Handa capturing concept plus the cereblon mechanism.",
+        "response": "I accept that it is a genuinely new modality and that cereblon explains the molecular glue mechanism. My difficulty is maturity: no degrader is yet widely approved, and the credit split among Ciulli, Gray, Sakamoto and Ito is open to dispute. Compared with that, the evidence for C-N coupling is already settled. I would revisit B009 in a few years once clinical results arrive."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Ionizable lipid nanoparticles (B016) enabled siRNA therapy and mRNA vaccines at global scale, with unusually strong clinical validation.",
+        "response": "The impact is undeniable. My concern is attribution: six or more people from academic and industrial groups contributed, and a trio would leave out Hope, Madden and Langer. I am also unsure that the discovery is a single chemical concept and not a formulation platform, and the pKa-tuned ionizable lipid is the part I would want to see credited. I would support it only if the committee can name a defensible three, and as of now I cannot."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Phase separation (B003) brings thermodynamics into cell biology and reorganised how compartmentalisation is understood.",
+        "response": "The concept is important, but as a structural chemist I ask whether the claimed phase-separated state has been established in vivo by structural or quantitative data, and you note yourself that physiological relevance is debated. That is a significant maturity gap relative to the methods candidates."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee treats C-N coupling as distinct from the 2010 cross-coupling prize",
+      "Whether acknowledging Kosugi only in background text is acceptable",
+      "Relative merit of B043 (perovskites) given unresolved stability and credit among six contributors"
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile; Peter Brzezinski is a Stockholm University colleague, but none of the shortlisted candidates is connected to my institution or to my own work."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalyzed carbon-nitrogen cross-coupling"
+      },
+      {
+        "ballot_id": "B008",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the invention of base editing, the programmable chemical conversion of single DNA bases without double-strand breaks"
+      }
+    ]
+  },
+  "alternatives": [
+    "B067",
+    "B043"
+  ],
+  "statement": {
+    "case_for": "After reading the openings I am moving my own first choice, nanopores, down. Only Sparr ranked it besides me, and I should not treat my personal affinity for single-molecule physics and thermal ratchets as committee-level support. The two achievements with the strongest and most independent backing are B011 and B008. C-N cross-coupling is mechanistically clear (oxidative addition, amine binding, reductive elimination), the ligand-design principle explains its scope, and three decades of industrial use give it unusually strong validation. Base editing is an original chemical invention: a defined deaminase reaction is directed to a single nucleotide without a double-strand break, with a quantitative mechanistic basis and early clinical use. Pairing them gives a prize with one clean synthetic-methods part and one chemical-biology part, each explainable to a broad audience in a sentence, and with a combined union of three people.",
+    "case_against": "A two-part prize with Liu alone in the second part is a hard compromise. It omits Komor and Gaudelli, who did the hands-on work on cytosine and adenine editors, and it sits in the shadow of the 2020 CRISPR prize, so we must be able to state exactly what is new in base editing. Pairing a mature 1990s method with a field that is still in early clinical development also makes the two parts uneven in maturity. B011 has a Kosugi question and is the kind of prize some will say is overdue and others incremental after the 2010 cross-coupling prize. If the committee prefers a single story, the weaker part is likely the one to give way.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks C-N coupling first and would credit only Buchwald and Hartwig, treating Kosugi's tin-amide coupling as a limited precursor.",
+        "response": "I agree with the two-name configuration and have used it. The earlier tin-amide work is a genuine precursor but it lacked scope and ligand control. I would ask Somfai to say, as the specialist, what exactly was missing in 1983 that the 1994-1995 work supplied, so that the citation text can state it plainly and the omission of Kosugi is defensible if challenged."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks PROTACs first and base editing second, with Liu alone as a fair configuration and a warning that genome editing may be seen as already honored in 2020.",
+        "response": "I take his point on Liu alone and have adopted it, because the invention is the conversion of a base, not the targeting. On the 2020 worry I disagree: CRISPR-Cas9 was a programmable cutter, and base editing deliberately avoids the cut, so the chemistry is different. On PROTACs I accept the concept is new, but with no approved degrader and credit split among Crews, Deshaies, Handa, Ciulli, Gray and others, I find B009 less defensible as a citation at present than he does."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first with a Liu, Komor, Gaudelli trio and notes that clinical safety data remain limited.",
+        "response": "I share his view of the science. Where I differ is on the trio. If Komor and Gaudelli are included, the union cap forces C-N coupling down to one name or removes it. I would like Chabes to argue whether the student and postdoc contributions are distinct enough from Liu's program to justify that cost, since the prize is for the invention and Liu conceived and directed both editor classes."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks C-N coupling first and perovskite solar cells second, calling perovskites a materials-chemistry result with large impact but unresolved stability and lead toxicity.",
+        "response": "I agree on C-N coupling. On perovskites I share her maturity concern: the efficiency rise is remarkable but the physical explanation of the performance and the long-term device stability are not settled, and I ranked it third mainly for generative potential. I would keep it as an alternative, not a lead, and it is hard to cap with three names given Grätzel, Seok and Kanatzidis."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a prize with Liu alone for base editing, or insist on adding Komor and Gaudelli.",
+      "Whether two parts with very different maturity can be explained as one coherent prize.",
+      "How strongly the 2010 cross-coupling prize and the 2020 CRISPR prize count against B011 and B008 respectively.",
+      "Whether nanopore sequencing belongs in chemistry at all given overlap with Physics and Medicine; I have left it as an alternative only."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for B011, B008, B067 or B043. I work in nanophysics at Lund and know nanopore and molecular motor work as a field, but I have no stated personal or institutional tie to any shortlisted candidate. Peter Somfai and Emma Sparr are Lund colleagues, which is not a conflict for these candidates."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "My opening ballot put long-range electron transfer in proteins (B028) first because it states a biological energy-conversion mechanism in physical terms. In this round I have to weigh that against how the committee as a whole sees the shortlist, and B018 is the candidacy with the broadest support: two first places (Aqvist, Chabes) and top-four placements from four members. Base editing is a defined chemical invention, deamination chemistry on DNA delivered by a Cas-fused, evolved deaminase. It has a clear originating program in the Liu laboratory, with Komor (cytosine editors) and Gaudelli (adenine editors, which required evolving TadA to act on DNA) as the lead experimentalists on the two editor classes. It has been reproduced in many laboratories and has reached clinical use. The expert-report question I would put first is whether the claim is separable from the 2020 CRISPR prize, and I think it is: the prize would reward a new chemical transformation of a nucleobase at a programmed site, not RNA-guided cleavage.",
+    "case_against": "Priority is not fully clean. Nishida and Kondo published a parallel cytidine-deaminase fusion shortly before or around the same time, and a three-person limit forces us to leave out two credited names. Base editing also builds on the 2020 prize, and the long-term clinical safety (bystander edits, off-target deamination) is still accumulating. Finally, my own first choice, B028, is arguably the more fundamental mechanistic result, but it rests on a decades-long line of work and is adjacent to Marcus theory, which was recognized in 1992. I am therefore not pressing it over the broader support for B018.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Liu alone should be recognized for base editing, since the conceptual and engineering contribution is clearly his and adding names would dilute attribution.",
+        "response": "I agree that Liu is the decisive figure, but I would not go to a single name without asking what the experimental record shows. Cytosine and adenine base editors are two chemically distinct inventions (a native APOBEC deaminase on single-stranded DNA versus an evolved TadA on DNA), and Komor and Gaudelli carried the experimental work for each. Nishida and Kondo remain a priority question that we should check against dates in the expert report rather than settle by omission. I prefer the three-name configuration, while accepting that a single-name prize is defensible if the report separates the roles."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Base editing is among the cleanest cases of nucleotide chemistry reshaping biology, supports a coherent three-person prize with Komor and Gaudelli, and the Kondo/Nishida parallel work should be flagged but not resolved.",
+        "response": "I largely agree and have adopted this configuration. My qualification is that flagging is not enough for a prize citation. If Kondo and Nishida's cytidine-deaminase fusion is earlier or concurrent, the citation must be worded around the broader invention (cytosine and adenine editors) rather than around the first fusion, and the report should tell us explicitly why the committee prefers the lead trainees to the Japanese group."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Massively parallel sequencing (B058) transformed genomics and should rank first, though Sanger was recognized in 1980 and the split between Solexa and 454 lineages and Mayer is unresolved.",
+        "response": "I accept the impact, but I read the unresolved lineage question as a real weakness for a three-person prize. Solexa sequencing-by-synthesis, 454 pyrosequencing and Mayer's contribution are different technical routes, and any trio would put a platform-lineage choice in the citation. You also raise the chemistry-versus-technology issue yourself. For me this makes B058 a strong alternative rather than the lead, but I would want the expert report on whether the reversible-terminator chemistry can be credited separately."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Phase separation (B007) brings thermodynamics and multivalency to cell organization and is a mainstream paradigm after about fifteen years, with Hyman, Brangwynne and Rosen as the core.",
+        "response": "I rank it highly too and gave it second place. My reservation is that the in vivo criteria remain debated: which cellular assemblies are truly phase-separated, and which functional claims hold, are still contested, and Pappu and Mittag would be left out of any trio. I think that interpretive instability makes it a good prize candidate for a later year, and the better alternative now if base editing falls through on priority."
+      }
+    ],
+    "uncertainties": [
+      "Relative priority of Nishida and Kondo versus Komor and Gaudelli, which depends on dates I cannot verify from the supplied files.",
+      "Whether the committee wants a single-name or three-name prize, and whether the citation should name both editor classes.",
+      "Whether B028 (Gray and Winkler) is sufficiently distinct from Marcus theory and from other experimental contributors to deserve a slot in a later year."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for these candidates. As Secretary I note my connection to Xiaodong Zou (Stockholm University colleague) and my biophysical interest in electron transfer in proteins (B028), neither of which affects B018."
+  }
+}

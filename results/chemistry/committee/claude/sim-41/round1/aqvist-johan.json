@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": ["David R. Liu"],
+        "citation": "for the development of base editing, the chemical conversion of one DNA base into another at a programmed site without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B058",
+        "laureates": ["Shankar Balasubramanian", "David Klenerman"],
+        "citation": "for the development of massively parallel DNA sequencing by synthesis with reversible terminator chemistry"
+      }
+    ]
+  },
+  "alternatives": ["B023", "B054"],
+  "statement": {
+    "case_for": "Both parts pass my test of being a game-changer that is simple in principle and already has consequences. Base editing is a chemical idea, deamination of a base on a Cas-programmed target, that gives single-nucleotide changes without double-strand breaks, and it is in clinical use. Sequencing by synthesis with reversible terminators is a well-defined chemical reaction coupled to a fluorescent readout, and it made genome reading routine. Together they form a coherent prize about chemistry for reading and rewriting DNA. Attribution is unusually clean in both: Liu is the decisive inventor, and the Solexa chemistry traces to Balasubramanian and Klenerman. Three laureates in total, with no forced compromise on names. After hearing Chabes, Brzezinski, Linke and Aili, I have moved from a single-part prize to this two-part one because sequencing is mature, repeatedly supported across the table, and fits my opening rank 4 view that it is arguably overdue.",
+    "case_against": "Base editing follows the 2020 CRISPR prize closely, and the committee may feel that genome editing has been recognised and that clinical durability and off-target profiles are not yet settled. Sequencing by synthesis is mature but is a technology prize, and some will say it is more genomics than chemistry, and that Rothberg's pyrosequencing and Mayer's work are sidelined. Pairing two biotechnology achievements may look like a prize about tools for biology rather than a unifying chemical discovery, and it leaves out the theory and physical-chemistry candidates.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first with Liu, Komor and Gaudelli, arguing that the lead experimentalists on the cytosine and adenine editors make a coherent three-person prize, and he ranks sequencing second.",
+        "response": "I agree with Chabes on the science and on sequencing. I still would not add Komor and Gaudelli. They were the lead trainees, but the conceptual step of fusing a deaminase to a nickase or dead Cas and the evolution of the editors were directed by Liu, and the committee has often credited the principal inventor. Adding them also uses two slots that I want for sequencing. If colleagues consider the editor classes as separate, I could accept Komor or Gaudelli as a second name, but I would need that argued from the primary papers rather than from authorship order."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke places sequencing first with Balasubramanian, Klenerman and Rothberg, treating Rothberg's pyrosequencing-based 454 platform as the first commercial massively parallel system.",
+        "response": "I take Linke's point on Rothberg seriously, since 454 was first to market. But the chemistry that survived and that the prize would honour is reversible-terminator sequencing by synthesis, whereas pyrosequencing is a different chemistry that was largely displaced. A prize on Rothberg would require us to cite two technologies, and with Liu on the list that would give four people. I prefer the two-person configuration, and I would want the citation to name reversible terminators specifically so that the scope is clear."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks Gray and Winkler's long-range electron transfer through proteins first as a rigorous quantitative principle with three decades of confirmation, and puts base editing third.",
+        "response": "I respect this as the kind of quantitative theory-to-experiment link I value, and Peter and I have shared a committee since 2015. My reservation is that the field has been mature for decades and the claim is partly adjacent to Marcus theory and to Hopfield and Beratan-Onuchic work. It is a candidate that I rank below the shortlist leaders, because it did not rank for me as a game-changer in the sense of a new capability. I would like Peter to say what the crisp, citable discovery is beyond confirming tunnelling timetables."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks protein degradation first, with Crews, Deshaies and Ciulli, as a new chemical modality that removes proteins rather than inhibiting them.",
+        "response": "I agree that protein degradation is a game-changer in concept, and it was my second choice. The disagreement is about maturity and attribution. No degrader is approved, and the cereblon mechanism of thalidomide, found by Handa and Ito, is a separable discovery that Aili's trio omits, so the prize would either split the credit in a way I find unclear or be incomplete. I keep it as my first alternative, to be revisited if clinical approval arrives or if colleagues can agree on a clean division between PROTACs and glues."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept Liu alone for base editing, or insist on Komor and Gaudelli, or on Nishida and Kondo for parallel priority.",
+      "Whether pairing two DNA-technology achievements is seen as one prize theme or as a lack of discipline, and whether either part should be dropped in favour of a single-part prize.",
+      "How much weight to give the overlap with the 2020 CRISPR prize and the still-early clinical record of base editing.",
+      "Whether Rothberg's pyrosequencing has a claim that would force a different attribution for sequencing."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for these candidates. My connection to Warshel and to the Uppsala ribosome community is relevant only to simulation candidates, none of which are in my preferred configuration."
+  }
+}

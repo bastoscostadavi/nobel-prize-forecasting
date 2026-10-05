@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B009"
+  ],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling is the clearest case on the shortlist of a new bond-forming method that changed daily practice. Before it, aryl amines came from nitration/reduction or harsh nucleophilic substitution with narrow scope; after Buchwald's and Hartwig's ligand-controlled systems, the reaction became predictable and tolerant of functional groups, and it is routine in medicinal and process chemistry and in materials synthesis. The chemical novelty is real and conceptually simple: ligand design controls amine binding and reductive elimination, so a hard transformation became an ordinary one. Its adoption is verifiable in the literature across thousands of syntheses and in industrial processes at scale. It is mature, mechanistically well understood, and independently reproduced for three decades. It also sits squarely in the core of chemistry as molecule-making, which this shortlist otherwise under-represents.",
+    "case_against": "The strongest objection is that the 2010 prize already honoured palladium cross-coupling, so a committee could see this as a continuation of a recognised field rather than a new concept. I think that undervalues the difference: C-N bond formation needed its own mechanistic and ligand solutions, and the 2010 laureates did not work on it. The second reservation is attribution, since Kosugi and Migita reported tin-amide aminations earlier, and Buchwald and Hartwig's Pd-catalysed chemistry has its own priority history that I have not checked at the level of exact dates. Finally, other candidates (PROTACs, base editing, lipid nanoparticles) have more dramatic clinical consequences, and a committee that weights societal impact over chemical generality could reasonably rank them higher.",
+    "responses": [
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou also ranks B011 first, but would include Masanori Kosugi as a third laureate because the early tin-amide coupling is a precursor that fits the historical record.",
+        "response": "I agree Kosugi's work must be named in the citation discussion, but I would not give him a place. His tin-amide reaction required stoichiometric toxic tin reagents and had limited scope, and the tools that made C-N coupling general (amine-based substrates, bulky electron-rich ligands, a base-mediated catalytic cycle) came from Buchwald and Hartwig. Awarding a seat for a precursor with narrow impact would blur the point of the prize, which is generality. I would revisit this if someone shows that Kosugi's mechanism informed the later systems more than the literature suggests."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing (B008) first, arguing that cytosine and adenine deamination directed to a single nucleotide without a double-strand break is a defined chemical reaction made programmable and widely used.",
+        "response": "The tool is impressive and I do not dispute its impact, but my question is what was new chemically. The reactions are enzymatic deamination, and the invention is protein engineering and directed evolution of the deaminase fused to a Cas variant, which is a biotechnology achievement closer to the 2020 genome-editing prize. Liu's adenine base editor, which required evolving a deaminase for DNA, is the strongest chemical element. I would rank B008 well below B011, and the attribution among Liu, Komor, Gaudelli and the Japanese Nishida and Kondo work adds further uncertainty. I take his point on clinical use, but that is not by itself evidence of chemical novelty."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks PROTACs and molecular glues (B009) first as a new pharmacological modality of induced proximity, with the cereblon discovery explaining thalidomide's mechanism.",
+        "response": "I take the paradigm argument seriously, and degraders are a real conceptual shift. Where I differ is on timing and on the chemistry. No degrader is yet approved, so the clinical payoff is still open, and the cereblon work is biology and mechanism of action more than new chemistry, while PROTACs are bifunctional molecules whose design is largely medicinal chemistry optimisation. If the committee wants a chemical biology prize, B009 is a good candidate in a few years, but I would not put it ahead of a method whose adoption is already measured in decades of use. I would be moved if the clinical results arrive strongly and the credit can be cleanly assigned among Crews, Deshaies, Handa and Ciulli."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks ionizable lipid nanoparticles (B016) first as the enabling chemistry for siRNA drugs and mRNA vaccines, with extremely mature clinical validation.",
+        "response": "The clinical validation is the strongest on the list, and I accept that pKa-tuned ionizable lipids are a molecular design principle with real consequences. My reservation is attribution: Cullis, Hope, Madden, MacLachlan, Anderson and Langer all have defensible claims, and a three-person limit forces an arbitrary cut. The 2023 Medicine prize also makes the vaccine application feel already recognised. I would support B016 if the committee can agree on a narrowly defined achievement (ionizable lipid design for nucleic acid encapsulation) with a clean trio, but today I do not see that agreement."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee treats the 2010 cross-coupling prize as closing the area, or accepts C-N coupling as a distinct achievement.",
+      "Exact priority history between Kosugi and Migita's tin-amide chemistry and the first Pd-catalysed amine-based systems of Buchwald and Hartwig, which I have not verified to the date level.",
+      "Whether native chemical ligation (B001) with Kent, Dawson and Muir is a stronger chemistry-core alternative than the biology-adjacent candidates, and how to handle Danishefsky, Brik and Liu in attribution.",
+      "Whether a two-part prize pairing C-N coupling with a chemical biology achievement would be better than a single-topic prize, given that the shortlist is dominated by biology-facing work."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for any shortlisted candidate. I trained with Satoru Masamune and work in synthetic methodology, but have no stated personal or institutional tie to Buchwald, Hartwig, Kosugi or other shortlisted names."
+  }
+}

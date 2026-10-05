@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-60",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B020",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation, in which designed bifunctional small molecules bring E3 ubiquitin ligases to chosen proteins and destroy them catalytically."
+      }
+    ]
+  },
+  "alternatives": [
+    "B053",
+    "B059"
+  ],
+  "statement": {
+    "case_for": "After the first round I keep a single-part prize on targeted protein degradation for Crews, Deshaies and Ciulli. The scientific case is the same one I made earlier and nothing in round 1 weakened it: a designed molecule that recruits an E3 ligase to a target and removes it catalytically is a new chemical principle, event-driven rather than occupancy-driven, and it has been reproduced independently in many laboratories. It is also the only topic that appears in the preferred configuration of five members and in the top three of six, and the chair's summary shows that the five agree on the mechanism and differ only on the third name and on the citation wording. That is a convergence on science, and I weigh it for that reason, not as a count. Crews and Deshaies conceived and first demonstrated the PROTAC; Ciulli's structure-guided VHL ligands and ternary-complex work turned it into something chemists can design, which is the part of the story that is most clearly chemistry. As a computational chemist I find the ternary-complex cooperativity argument especially persuasive, since it is the quantitative basis for rational degrader design.",
+    "case_against": "The weaknesses are real and I do not think the committee should hide them. No degrader has been approved, so the clinical payoff is still prospective. The citation, if it is worded narrowly around heterobifunctional degraders, leaves out Handa and Ito, whose identification of cereblon underlies the only degrader-related drugs in use, and also Sakamoto, Kim and Gray. If the committee decides that PROTACs and glues cannot be separated, the three-name limit makes this prize incomplete, and Car-Parrinello (B053) or Pd-catalysed C-N coupling (B059) would be the safer, fully mature choices, though B059 faces the 2010 cross-coupling prize as a bar and B053 has had little support in the committee.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes now ranks degradation first, with Crews, Deshaies and Handa and a citation that covers both PROTACs and the thalidomide-cereblon glue mechanism, and he accepts that the work may be somewhat early.",
+        "response": "I take the cereblon strand seriously and I agree that it is the part of the field with patient benefit today. My difficulty is that a citation covering PROTACs and glues in the same sentence is a broad claim, and with Handa as the third name it drops the structure-guided design work that made heterobifunctional degraders designable. Handa's result identified the target of an existing drug and explained a mechanism; it did not give a rule for building new degraders. I would accept Handa only if the committee decides the prize is for the mechanism of induced degradation and not for the design of degraders. I do not think the record forces that choice, so I stay with Ciulli, but my disagreement with Chabes is about what the prize is for and not about the quality of the science."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili supports the same trio and the same single part, argues that Handa's cereblon work is a target-identification result and not a design principle, but says he could accept Handa in the third slot if glues have to be covered explicitly.",
+        "response": "I agree with his reasoning that the design principle is the generalisable chemical contribution, and his willingness to move on the third name only if glues must be covered is the same position I hold. He also rejected a two-part split because Ciulli would be dropped and the glue and PROTAC stories share ubiquitin-ligase machinery. I accept that argument. The consequence is that the citation should be worded around designed bifunctional molecules and not around degraders in general, so that the three names match what the citation claims. I do not see the missing approved drug as a reason to delay, because the prize would rest on the mechanism and on the design chemistry, both of which are independently confirmed."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr proposes two parts, Cullis for ionizable lipid nanoparticles and Crews and Deshaies for the PROTAC concept, and concedes that Cullis alone understates a team effort.",
+        "response": "I understand the wish to give delivery chemistry its own part, and I accept that pKa-tuned ionizable lipids are chemistry. But her own case against shows the problem: with one name for B049 and two for B020, the configuration excludes Hope, Madden, MacLachlan, Anderson, Langer and Ciulli, and the industrial optimisation she mentions makes attribution weaker than for a single clean part. A two-part prize that needs that many arbitrary exclusions is less defensible, in my view, than one part whose three names match a single claim. I would rank B049 as a serious later candidate, not as a part of this year's prize."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou asks whether the 2013 multiscale-modelling prize and the 1998 density-functional recognition already cover Car-Parrinello molecular dynamics, and says B053 deserves discussion if they do not.",
+        "response": "Those prizes do not cover it. The 1998 prize recognised density-functional theory and quantum-chemical methods built on static electronic structure, and the 2013 prize recognised multiscale models that combine classical and quantum descriptions of large systems. Car-Parrinello dynamics, in which the electronic structure and nuclear motion are propagated together, is a different method with its own use across condensed-phase chemistry and materials. I therefore still regard B053 as a clean, mature candidate and keep it as an alternative. I do not put it ahead of B020 now, because a prize that only one member has chosen as a first preference does not meet the bar the committee has set for this round."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts a citation narrowed to designed bifunctional degraders, or insists that cereblon glues (Handa, Ito) be inside the prize, in which case Handa would replace Ciulli or the prize would need a second part",
+      "Whether the absence of an approved degrader drug is a timing risk the committee should accept for a prize that rests on mechanism and design chemistry",
+      "Whether Crews, Deshaies and Ciulli is the best allocation under the three-person cap, given the strong claims of Sakamoto, Kim, Gray, Handa and Ito"
+    ],
+    "conflict_note": "No conflict with any credited name on B020. My postdoc work with Arieh Warshel and my work on free-energy calculations place me close to the computational field of B053 and B050, but none of the credited people on those ballots is a collaborator, and I treat my view of B053 as an alternative for that reason. No change from round 1."
+  }
+}

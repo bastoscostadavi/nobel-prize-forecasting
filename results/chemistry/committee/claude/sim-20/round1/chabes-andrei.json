@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-20",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For converting targeted protein degradation into a designable chemical principle, through heterobifunctional degraders and the molecular-glue mechanism of cereblon"
+      }
+    ]
+  },
+  "alternatives": [
+    "B061",
+    "B044"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation takes a biological process, ubiquitin-dependent proteolysis, and makes it a designable chemical reaction: a small molecule brings a chosen protein and an E3 ligase together and the protein is removed. That is the kind of discovery I look for, a mechanism turned into a general tool. It is the only candidate that received first-place votes from two members (Aili and me) and was ranked by six of eight, and it is backed by independent reproduction, ternary-complex structures and degraders in late clinical trials. Handa's identification of cereblon explains thalidomide-type drugs as molecular glues, and this ties the PROTAC and glue strands into one principle. Crews and Deshaies conceived and first demonstrated the degrader concept. A Crews, Deshaies, Handa configuration gives the principle and the mechanistic explanation of the glue branch.",
+    "case_against": "Credit is crowded: Ciulli (VHL ligands, structure-guided design), Sakamoto, Gray, Ito and Kim all have real claims, and a three-person cap forces a choice that a prize history will judge. Approval-level clinical proof of a degrader is still missing, and combining PROTACs and glues may blur the citation. B061 is the closest competitor, with a cleaner single-laureate story and earlier patient data, but it follows the 2020 CRISPR prize, and maturity there is also still unfolding.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B007 first but proposes Crews, Deshaies and Ciulli, arguing that Ciulli's structure-guided VHL ligands and degrader design are central, with the cereblon strand a separate line.",
+        "response": "I agree Ciulli's contribution is substantial, and the quantitative ternary-complex and cooperativity work is exactly what turned PROTACs into design. My difficulty is the citation: without Handa the prize explains PROTACs but not why thalidomide and its analogues work, and that explanation is the cleanest mechanistic result in the field. Ciulli over Handa is defensible, and I would not oppose it; I prefer Handa only because the cereblon finding is a single decisive discovery, whereas VHL ligand design was developed in parallel by others (Crews included)."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, ranks B001 first for its clear principle and large effect, and ranks B007 seventh as possibly premature because no PROTAC drug is approved.",
+        "response": "I understand the concern about timing, but the prize is for the discovery, not an approved product, and the principle is reproduced by many independent groups and understood structurally. Approval of lenalidomide-type glue drugs already shows the cereblon mechanism acting in patients. I take the point on B001: sequencing-by-synthesis is of enormous reach, but I am unsure it is the chemistry committee's discovery, given the earlier sequencing prizes and the diffuse credit among Balasubramanian, Klenerman, Rothberg, Ju and Mayer, which I do not think a three-person cut can settle."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks B034 first and B007 third, and notes that the molecular-glue lineage (Handa, Ito, Kim, Gray) is a separate strand that may need separate recognition.",
+        "response": "I take the separate-strand point seriously, which is why I include Handa and not only the PROTAC pair. On B034, I respect the conceptual reach of condensates, but as an experimentalist I am cautious: whether liquid-like behaviour in cells reflects functional phase separation, and not overexpression or measurement artefacts, is still disputed, and your own opening says so. A prize built on a concept still contested in vivo is riskier than one resting on a defined reaction with structures."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks B061 first for Liu alone, as a simple chemical idea with clean attribution, and ranks B007 fourth because clinical validation is still limited and credit among eight names is difficult.",
+        "response": "Your case for Liu alone is the strongest competitor to mine, and I ranked B061 second. I accept that attribution is cleaner there. Where I differ is on novelty relative to 2020: base editing is a chemical extension of a platform already recognised, whereas degradation opens a new modality. On clinical maturity, I would say both are at similar stages, so that cannot discriminate between them. I could support a two-part prize combining B007 and B061 if the committee wants both."
+      }
+    ],
+    "uncertainties": [
+      "Whether the citation should centre on PROTACs, on the cereblon glue mechanism, or both.",
+      "Ciulli versus Handa for the third place, and the weight of Sakamoto, Gray, Ito and Kim.",
+      "Whether clinical efficacy of degraders will be shown soon enough to support recognition now.",
+      "I rely on my recollection of the literature and have not verified priority details."
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile. My research on dNTP pools and ribonucleotide reductase has no link to the credited degrader, base-editing or sequencing candidates; I have no recorded collaboration with any credited person."
+  }
+}

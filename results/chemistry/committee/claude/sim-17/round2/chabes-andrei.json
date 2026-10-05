@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-17",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B038",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation: heterobifunctional small molecules that bring a target protein and an E3 ubiquitin ligase together so that the cell destroys the target."
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B003"
+  ],
+  "statement": {
+    "case_for": "After the first round I keep targeted protein degradation as a single-part prize. It is the nomination where a biological process, regulated proteolysis, was turned into a designable chemical reaction that can be measured: ternary-complex formation, cooperativity, linker geometry and ligase-ligand structure all give quantitative readouts, and the principle has been reproduced in many laboratories with many E3 ligases and many targets. Crews and Deshaies conceived and demonstrated the idea of recruiting a ligase to a chosen protein, and Ciulli's VHL ligands and ternary-complex structures turned it from a proof of concept into a general design discipline. The citation is deliberately limited to heterobifunctional degraders, which is the part the three named people can honestly be credited for.",
+    "case_against": "The attribution cost is real and I do not think a three-name list removes it. The thalidomide-cereblon molecular-glue strand (Handa, Ito, Gray, Kim) is a separate discovery, and Sakamoto, coauthor of the 2001 founding paper, is left out. No PROTAC is yet an approved drug, so clinical validation of the modality is incomplete. Base editing and nanopore sensing have cleaner single-lineage or longer deployment records, and a committee that wants the least contestable credit could reasonably prefer Liu alone for B011.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist argues that the PROTAC and molecular-glue credit split makes a degrader list contestable in a way that Liu alone for base editing is not, and that no degrader is approved.",
+        "response": "The split is the real weakness of B038 and I do not dismiss it. Still, a three-name PROTAC citation is internally coherent: Crews, Deshaies and Ciulli all worked on recruiting a ligase with a designed bifunctional molecule, whereas the cereblon mechanism is a different chemical event (a ligand reshaping a ligase surface) and could be described in the background text. For base editing I agree Liu alone is the cleanest credit, but I still see its off-target and bystander deamination as less well measured than the ternary-complex chemistry of degraders, and the 2020 prize is closer to B011 than anything is to B038. Approval is a clinical milestone, not evidence for or against the mechanism, which has been confirmed structurally and biochemically."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili agrees on the trio and says a citation built on induced proximity through heterobifunctional degraders is defensible, with the cereblon glue strand noted in the background text.",
+        "response": "I agree with this and my wording follows it. In answer to the chair's question, I would write a PROTAC-only citation, not add a glue part, because a second part would need Handa, Ito or Gray and the three-person cap would then remove Deshaies or Ciulli. I would not defer: the mechanism is established. Daniel, you asked in your base-editing reply whether trainees who executed founding papers should be named, and the same logic applies here, since Sakamoto is the analogous omitted coauthor; the committee should record this explicitly in the expert report rather than hide it."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai proposes a two-part prize pairing Buchwald and Hartwig with a Crews-only degrader credit, calling Crews the originator.",
+        "response": "I understand the logic, but I think a Crews-only B038 credit is the weakest form of that nomination. Deshaies independently developed the protein-degradation concept, and Ciulli's structure-based work is what showed the chemistry is general and tunable. If the committee must drop a name, Ciulli or Deshaies cannot be dropped without making the citation harder to defend than the trio. I also share your doubt that B058 is more than an extension of the 2010 prize, so I would keep B038 whole rather than squeeze it to make room."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, ranks nanopore sequencing first and asks whether Deamer's conception can be separated from the first translocation experiments of Branton and Kasianowicz.",
+        "response": "I agree nanopores are mature and well replicated, and the capability is real. My problem is that the discovery chain is a five-way chain and, from the first-round statements, I cannot separate conception, first translocation and the engineered pore and enzyme ratchet cleanly enough to defend three names. Whether it is chemistry is a second question, and Bayley's engineered pores and Akeson's enzyme-controlled translocation are the chemical parts. I keep B003 as an alternative and would not stop a majority forming around it, but I would not move it ahead of B038 on attribution grounds."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr proposes pairing phase separation (Hyman, Brangwynne) with Liu-only base editing, and notes that Rosen's quantitative in vitro work is excluded only by the three-person cap.",
+        "response": "I raised Rosen myself, so I accept that point, and I stay of the view that his reconstituted work is the most quantitative part of that field. Even so, my reading of the first round is that the debate about which condensates are true phases is not settled, and that a prize should rest on what has been measured and reproduced. A two-part prize that sets that field against base editing also gives each part only one or two names, and I prefer a single coherent achievement with a full trio over a compromise."
+      }
+    ],
+    "uncertainties": [
+      "Whether a PROTAC-only citation is accepted by colleagues who regard the cereblon glue discovery as the more consequential strand.",
+      "Whether the lack of an approved degrader makes recognition early compared with B011 and B003; I am working from memory of the clinical status and have not verified it.",
+      "Whether base editing should go to Liu alone, and how the Kondo and Nishida priority question should be resolved.",
+      "Whether any two-part configuration can attract five votes given the three-person cap."
+    ],
+    "conflict_note": "No change from round 1. My work on dNTP pools, ribonucleotide reductase and replication fidelity is only thematically adjacent to degraders and base editing, and I have no personal or institutional tie to any credited candidate. I need no recusal."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-13",
+  "member_id": "sparr-emma",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B019",
+        "laureates": [
+          "Pieter R. Cullis",
+          "Thomas D. Madden",
+          "Michael J. Hope"
+        ],
+        "citation": "for the design and formulation of ionizable lipid nanoparticles that enable systemic delivery of nucleic-acid medicines"
+      }
+    ]
+  },
+  "alternatives": [
+    "B056",
+    "B026"
+  ],
+  "statement": {
+    "case_for": "Ionizable lipid nanoparticles are a case where lipid phase behaviour and self-assembly decided a medical outcome. pH-dependent charge, the propensity of ionizable lipid and nucleic-acid complexes to form non-bilayer (inverted hexagonal-type) structures, and controlled mixing to give reproducible particle formation together explain both encapsulation and endosomal release. This is physical chemistry that can be stated in general terms and tested quantitatively (pKa tuning, packing parameters, phase diagrams). The consequences are very large and already demonstrated, in siRNA drugs and in mRNA vaccines at pandemic scale. The 2023 Medicine prize recognised the nucleoside-modification half of the mRNA story. The delivery chemistry, without which neither the vaccines nor the siRNA drugs would work, has not been recognised. The record is mature, with decades of independent work, approved products and no serious dispute that the Vancouver formulation and ionizable-lipid line is the foundation.",
+    "case_against": "The strongest objection is that this is pharmaceutical formulation and translation rather than a discovery of a new chemical principle, and that credit is diffuse. Anderson and Langer (lipidoid libraries, combinatorial screening) and MacLachlan (clinical-scale siRNA-LNP) made real contributions, and a three-person cap forces me to leave out people with credible claims. I also have to admit that my own field leans on my intuition here, and that I may overweight the phase-behaviour explanation relative to what the empirical screening lines contributed. If the committee decides the decisive step was lipid-library design rather than the Vancouver formulation chemistry, my laureate choice would shift towards Anderson.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B019 first and proposes Cullis, Madden and Anderson, arguing that molecular design (pKa-tuned lipids, self-assembly, endosomal escape) is the decisive contribution and that it complements the 2023 Medicine prize.",
+        "response": "I agree on the scientific case and on the 2023 complementarity. Where I differ is on Anderson versus Hope. Anderson's combinatorial lipidoid work is genuinely important, but it is a screening-based route to potent delivery lipids and came after the Vancouver work that established the ionizable-lipid concept, the encapsulation chemistry and scalable particle formation. Hope is central to the formulation methods that made reproducible, scalable particles. I would want Aili to say what evidence makes lipidoid screening part of the founding discovery rather than a later, parallel optimisation. I accept this is a close call and not a settled one."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks targeted protein degradation (B056) first for its chemical mechanism, the cereblon explanation of thalidomide and its broad reach, and places B019 third behind base editing.",
+        "response": "I take B056 seriously, which is why it is my first alternative. The ternary-complex cooperativity logic is real physical chemistry and cereblon is a satisfying mechanistic result. My reservations are about maturity and attribution. No degrader is yet an approved drug, and the credited list splits across PROTAC and molecular-glue lines in a way that a three-person prize handles badly (Crews, Deshaies, Handa leave out Ciulli, Gray and Sakamoto). B019 has completed the clinical and societal validation that B056 is still approaching. If B056 matures further I would revisit this, but I do not think 2026 is that moment."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks Car-Parrinello ab initio molecular dynamics (B058) first as an original, conceptually clean theory with unambiguous two-person attribution and field-wide consequences, and ranks B019 fifth.",
+        "response": "The attribution argument is strong and B058 is the cleanest credit case on the shortlist, and I do not dispute its importance. My concern is that a clean attribution is not a reason in itself to rank it above work whose consequences changed what medicine can do, and the method has been established for four decades without a prize. I would ask Aqvist why the field-wide influence in 2026 is a stronger argument than the lipid delivery case, given that the delay itself suggests the committee has repeatedly judged it differently. I regard B058 as a valid candidate and I would not oppose it as a second part, but not as my preferred outcome."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks nanopore sequencing (B017) first for a transparent physical principle turned into a new analytical capability, and ranks biomolecular phase separation (B026) fourth.",
+        "response": "I share Linke's emphasis on physical principle, and I would defend B026 on exactly that basis: multivalency and thermodynamic phase diagrams reframed cellular organisation. I rank it second. My qualification is that the field is moving fast, the physical picture of condensates in living cells is still contested (equilibrium phase separation versus other assembly mechanisms), and the credited list of five makes a clean three-person cut difficult. On B017, I appreciate the principle but find the attribution more uncomfortable than the one for B019, since Branton, Kasianowicz and Deamer, who originated the idea, are not the people who made it work. I would want to hear how Linke resolves that."
+      }
+    ],
+    "uncertainties": [
+      "Whether the decisive credit lies with the Vancouver formulation and ionizable-lipid work (Cullis, Madden, Hope) or should include the lipidoid screening line (Anderson, Langer), and where MacLachlan belongs.",
+      "Whether the committee will see ionizable lipid nanoparticles as chemistry in its own right or as pharmaceutical formulation.",
+      "Whether pairing B019 with a second, distinct part (for example B056 or B026) would be preferable to a single-achievement prize, given the three-person limit."
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile for B019. I work on lipid self-assembly and membranes, so I am close to the subject matter scientifically, and my profile notes a research overlap with Daniel Aili on peptide and protein self-assembly and biointerfaces and with Peter Brzezinski on membranes, but I have no stated personal or institutional connection to any credited candidate."
+  }
+}

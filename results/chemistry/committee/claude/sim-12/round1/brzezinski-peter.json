@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-12",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B028",
+        "laureates": [
+          "Douglas C. Rees",
+          "Oliver Einsle",
+          "Lance C. Seefeldt"
+        ],
+        "citation": "For elucidating the structure and mechanism of nitrogenase, the enzyme that reduces atmospheric nitrogen to ammonia"
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B007"
+  ],
+  "statement": {
+    "case_for": "Nitrogenase is a problem of fundamental chemical mechanism in a living system: how a metal cofactor, driven by ATP-coupled electron delivery, breaks the N2 triple bond. The crystal structures of the MoFe and Fe proteins (Rees), the atomic-resolution cofactor with its central carbide (Einsle), and the kinetic and spectroscopic framework for trapped intermediates (Seefeldt, building on Lowe-Thorneley) together state the mechanism in physical terms, which is the criterion I apply. The attribution is workable, with a structural pair and one mechanism figure. The consequences for agriculture, the nitrogen cycle and the industrial Haber-Bosch comparison are lasting. Independent confirmation of the structures is complete, and recent cryo-EM of turnover states is strengthening, not overturning, the picture.",
+    "case_against": "The strongest reservation is that this is a line of work rather than a single attributable discovery. Dean and Ribbe (cofactor biosynthesis and mechanism) have a real claim that the three-name limit excludes, and the N2 binding mode and the redox states that bind substrate are still unresolved, so the catalytic cycle is not closed. Some will say the prize is early on mechanism, and others that the structure-versus-mechanism split among the credited people is contestable. It drew only one first-place vote in the opening ballots, mine, so I should not mistake my own field affinity for committee consensus.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Base editing (B007) is a clear chemical mechanism, deaminase chemistry on DNA made programmable, with Liu, Komor and Gaudelli as the founding inventors, and its validation is extensive with clinical results emerging.",
+        "response": "I agree that the deaminase mechanism is clean and that Liu's group is the decisive origin, and I ranked it fifth for that reason. My qualification is twofold. First, the committee has just recognised genome editing in 2020, and I want the expert report to say what chemical principle is new here beyond what was shown by fusing a known enzyme class to a programmable targeting module. Second, you note Kondo and Nishida's Target-AID as parallel work. If priority between the two groups is unresolved, a citation naming only the Liu lab invites dispute. I would keep B007 as an alternative, not as the first choice, until priority and off-target safety are examined in the evidence."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation (B011) is a new pharmacological modality, with Crews, Deshaies and Ciulli credited for PROTACs, and Handa, Ito and Gray credible for molecular glues.",
+        "response": "I take the point that recruiting an E3 ligase to remove a protein is a genuinely new idea, and it is my own fourth choice. But you say yourself that the configuration is open, and I would press that harder. The PROTAC concept and the thalidomide-cereblon glue mechanism are different discoveries by different people, and three seats cannot honour both without a citation that is vague. There is also the matter that no degrader is yet an approved drug, which weighs on maturity in a way it does not for nitrogenase, whose structures and kinetics are settled. I would ask the expert report whether the committee should recognise the concept or the cereblon mechanism before we count the support for B011 as one block."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular phase separation (B046) is a new physical-chemical organising principle, with Hyman and Brangwynne for the founding droplet observation and Rosen for the quantitative framework.",
+        "response": "The thermodynamic framing is attractive to a physicist, and I do not dispute the founding observation. My reservation is the one you raise yourself: the functional relevance of many condensates in vivo is still debated, and quantitative mechanism, the measurement I look for, is thinner than in a field where kinetics and structure converge. Pappu and Mittag complicate the three-name set as well. I would want the expert evaluation to separate established physical chemistry from artefacts of overexpression before I could place B046 above a candidate whose mechanism is independently confirmed."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Machine-learned interatomic potentials (B026) bring near quantum accuracy at force-field cost, with Behler, Parrinello and Csanyi the cleanest core and Bartok a hard cut.",
+        "response": "Johan, I share your emphasis on quantitative validation, and the broad adoption is a strong point. My concern is attribution and timing relative to the 2013 and 2024 computational prizes: the field is still moving, with universal models only now being tested for transferability, and cutting Bartok from GAP is a priority question I would not want to settle by a three-seat convenience. I would rank it as a serious candidate for a later year, once its extrapolation limits are clearer, and I do not think it displaces a mechanism that is already pinned down experimentally."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat nitrogenase as one attributable achievement or as a line of work, and whether Dean and Ribbe must be weighed against Seefeldt for the third seat.",
+      "Priority among Rees, Einsle, Dean, Ribbe and Seefeldt for the structure and the carbide assignment.",
+      "Whether the unresolved N2 binding mode makes the mechanism part of the citation premature.",
+      "Whether expert reports distinguish PROTAC from molecular-glue contributions, which determines how B011 should be configured."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for B028; nitrogenase is bioinorganic and not my own research. I share biological energy-conversion interests with the field, and Xiaodong Zou is a Stockholm University colleague, which is relevant only if her candidates are voted on and is a collegial, not a recusal, matter."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-06",
+  "member_id": "sparr-emma",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B026",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For establishing induced proximity through ternary complexes as a designable chemical principle for directing the ubiquitin-proteasome degradation of target proteins, by small-molecule degraders and molecular glues"
+      }
+    ]
+  },
+  "alternatives": [
+    "B031",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "I have moved my preferred configuration from B031 to B026. The decisive point for me is physical-chemical: a bifunctional or glue molecule works by stabilising a ternary complex, and the degradation outcome is governed by binding thermodynamics, cooperativity and ligand-linker design, which is a quantitative, reproducible mechanism and not a black-box phenotype. That reduces a messy biological outcome to general principles of molecular association, the kind of explanation I value. The concept (Crews, Deshaies) and the cereblon-dependent glue mechanism (Handa) are two faces of one induced-proximity principle, and one citation worded in chemical terms (ternary-complex formation that redirects ubiquitination) covers both without naming any drug. It is reproduced independently in many laboratories, has produced a new class of designable molecules, and approved cereblon-dependent glue drugs show that the principle works in patients, so the absence of an approved heterobifunctional PROTAC does not undermine the principle.",
+    "case_against": "Real weaknesses remain. No PROTAC is approved to my knowledge, and I have not verified current clinical status. The three-person limit omits Ciulli, whose VHL ligands and ternary-complex structures are central to the mechanistic quantitation, and also Sakamoto, Kim, Gray and Ito, and each omission needs a stated rationale. Somfai is right that part of the chemistry is linker and ligand optimisation on known E3 ligands, and some of the cereblon story is pharmacology. Condensates (B031), which I preferred, still have the stronger claim as a general concept of molecular organisation, but uneven in vivo evidence and the exclusion of Pappu and Mittag make them less ready for a prize this year.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist treats approved glue drugs as sufficient evidence of principle and is willing to hear a case for Ciulli replacing Deshaies.",
+        "response": "I now agree with your maturity standard: the principle is established by the ternary-complex mechanism, independent replication and approved cereblon-dependent glues, and I would not require an approved PROTAC. On Ciulli, I would not replace Deshaies. Deshaies and Crews together carry the concept and the 2001 proof of principle, Handa carries the cereblon mechanism that connects it to a drug, and the citation can name ternary-complex formation without leaning on VHL structures. I accept that this leaves Ciulli out, and that this omission is the hardest to defend."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski moved B026 up from fourth and treats induced proximity as a single mechanism covering both PROTACs and glues, with the lack of an approved PROTAC as the strongest objection.",
+        "response": "This answers the question I put to Aili in round 1, whether to credit PROTACs and glues as one discovery or two. Your framing of induced proximity as one physical mechanism persuades me to treat them as one, provided the citation names the ternary complex rather than a drug class. I agree with you on the maturity objection but weigh it less, because the evidence rests on structure, kinetics and cooperativity measured in vitro and in cells, which I find more convincing than clinical counts."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranked targeted protein degradation first as a designable chemical reaction that turns protein removal into a new modality.",
+        "response": "My round-1 reservation about two mechanistic stories was too strong; a citation worded around induced proximity answers it. I do not fully agree that the case is chemistry on the strength of therapeutic impact. I support it because the ternary-complex thermodynamics and ligand design are chemical, and I would want the citation to say so explicitly."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai says the core chemistry of B026 is linker and ligand design on known E3 ligands, and that it may be pharmacology as much as chemistry.",
+        "response": "I take this objection seriously and it is why my support is conditional. I weigh it differently: the new element is a designable reaction in which a small molecule creates a protein-protein interface and redirects ubiquitination, a form of chemical control over molecular association, and the cereblon mechanism showed that existing drugs act this way. If the citation stays in those terms I think B026 is chemistry. If the committee prefers a pure synthetic-method anchor, I would not oppose B060, which has the cleanest attribution, but I do not rank it higher."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, treats induced proximity as a single mechanism and the absence of an approved PROTAC as the strongest objection, and now treats B067 as a fall-back.",
+        "response": "I agree on both counts and answer your maturity question as follows: the standard I apply is mechanistic establishment plus independent replication plus at least one clinical proof of the principle, which approved glues provide. I agree B067 should be the fall-back only if the reversible-terminator chemistry can be separated from the 454 and Mayer lineages, which I cannot confirm."
+      }
+    ],
+    "uncertainties": [
+      "Current clinical status of PROTACs and glues, which I have not verified.",
+      "Whether Handa, Ciulli or Deshaies is least defensible to omit under the three-person limit.",
+      "Whether the committee reads B026 as chemistry rather than pharmacology.",
+      "How far in vivo condensates are true phase separation, which still affects my view of B031 as an alternative.",
+      "I rely on recall of field histories and have not checked the literature."
+    ],
+    "conflict_note": "No tie to any credited laureate in B026, B031 or B028. I am a Lund colleague of Heiner Linke and Peter Somfai, which is institutional only. My soft-matter field previously led me to favour B031; moving to B026 reflects the scientific and attribution discussion, not a connection to any candidate."
+  }
+}

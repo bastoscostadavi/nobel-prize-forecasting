@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-34",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B003",
+        "laureates": [
+          "Anthony A. Hyman",
+          "Clifford P. Brangwynne",
+          "Michael K. Rosen"
+        ],
+        "citation": "For establishing that liquid-liquid phase separation, driven by multivalent molecular interactions, is a physical-chemical principle by which biomolecules form membraneless compartments"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "I keep B003 as my first choice, and round 1 sharpened rather than weakened the case. The discovery has a dated origin (the 2009 P-granule droplet work of Brangwynne and Hyman) and a quantitative physical-chemical mechanism (Rosen's multivalent SH3/PRM reconstitution, 2012), and both have been reproduced by many independent groups. A citation that names only the principle, demixing driven by multivalency, and claims nothing about which specific cellular condensates are phase-separated in vivo is defensible as written. The concept has produced new questions and tools in signalling, gene regulation, neurodegeneration and condensate-targeting chemistry, which is the generative reach I look for. It also shows what a physicist hopes chemistry can show: a general thermodynamic idea that organizes a large body of biochemistry.",
+    "case_against": "The in vivo evidence is still argued case by case, with overexpression artefacts and a blurry line between true demixing and other assemblies, and there is no therapeutic payoff yet. I accept that this makes B003 the less mature of the two leading ideas on the maturity axis the chair raised, and a citation that overreaches would be a real error. Attribution is also uncomfortable: Pappu and Mittag supplied the sequence-encoded grammar of phase behaviour, and under the three-person cap they are excluded. If the committee concludes that the core principle cannot be separated cleanly from the contested claims, B068 is the stronger fallback.",
+    "responses": [
+      {
+        "member_id": "sparr-emma",
+        "point": "Phase separation is a thermodynamic and phase-behaviour idea with more than fifteen years of independent confirmation, but its in-cell physiological relevance is still argued case by case.",
+        "response": "We now agree on the structure of the question. What holds up: purified proteins and RNA with multivalent interaction motifs demix into dense liquid phases, with concentration thresholds and valence dependence, in many independent labs, and P-granule-like droplets show liquid behaviour in cells. What does not hold up is the blanket claim that any given cellular body is a phase-separated condensate. The citation I now propose is worded to the first and silent on the second. If you read it and still think it asserts physiological relevance, tell me which words, and I will change them."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "B068 leaves out the cereblon and thalidomide molecular-glue lineage, which has the strongest link to approved drugs, so a PROTAC-only trio looks arbitrary.",
+        "response": "This is the argument that keeps me from moving to B068. The Crews, Deshaies, Ciulli trio gives a clean PROTAC citation, but your point about Handa, Ito, Kim, Sakamoto and Gray means that citation would omit the part of the field that has helped patients. I would not combine glues and PROTACs in one citation under a three-name cap only to make it fit. I treat B068 as a strong alternative and not as my first choice, and if the committee wants it I would want the wording limited to PROTAC chemistry and induced proximity."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation is a designable, catalytic, event-driven chemical principle that has changed what researchers can do, and the citation could be narrowed to the PROTAC concept.",
+        "response": "I agree the chemical principle is real and that it is the most chemically designed of the shortlisted ideas, and your offer to narrow the citation is the right move. Where we differ is on how that interacts with maturity: you concede that no PROTAC is approved, and the narrowed citation then also drops the glue lineage that has patient benefit. I do not think that lowers the case, but I rank it second, not first, because the narrowed version is a smaller prize than the one you argue for. I would support it if the committee will accept the narrower citation."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Nitrogenase structure and mechanism is a mature, independently confirmed, well-attributed small-group achievement, though the N2 reduction mechanism is unresolved.",
+        "response": "I respect that you flagged your own interest in energy conversion, and the structural work (the MoFe protein, FeMo cofactor, interstitial carbide) is solid. My difficulty is that the question I care most about, how the cofactor reduces N2, is the one you and Zou say is unresolved, so the citation would reward structure, not mechanism. The third name also divides your own side (Dean or Einsle), and Ribbe is left out in both trios. That makes the credit under a three-name cap harder to defend than for B003, where the core trio is the same in both supporting statements."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Base editing is a conceptually simple new chemical tool with tractable attribution, though close to the 2020 CRISPR prize and with an unresolved Kondo and Nishida priority question.",
+        "response": "I like the chemical logic, a defined deamination on one base in situ, and I accept that Liu is the clear driver. My concerns are the ones you list: the overlap with 2020 and the Target-AID priority question, which is a real attribution risk. Prime editing (B038) may well make a later combined prize cleaner. I would not oppose B024 on science, but I do not think it is ready as a standalone prize with this trio."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts that the core physical-chemical principle can be credited without endorsing specific in vivo condensates",
+      "Whether Rosen or Pappu (or Mittag) is the right third name; I keep Rosen because of the 2012 reconstitution, but the choice is a judgment call, not a clear fact",
+      "Whether the maturity concern about B003 outweighs the cleaner attribution of B009, B004 and B023",
+      "Whether B068 can be credited fairly with PROTAC and glue lineages given the three-name cap"
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. I am a Lund colleague of Peter Somfai and Emma Sparr, but no shortlisted candidate is linked to Lund in my profile; for B023 I would note that Aqvist has declared a connection to Warshel and none of mine applies. Unchanged from round 1."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B055",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of reversible-terminator sequencing-by-synthesis chemistry enabling massively parallel DNA sequencing"
+      },
+      {
+        "ballot_id": "B021",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editors that chemically convert one DNA base into another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B063"
+  ],
+  "statement": {
+    "case_for": "Sequencing-by-synthesis is a chemistry prize in the strict sense: engineered reversible-terminator nucleotides, polymerase engineering and surface chemistry turned DNA synthesis into a massively parallel readout. It is the most thoroughly reproduced candidate on the list, with two decades of routine and clinical use, and it underlies nearly all modern work on mutation, replication fidelity and genome stability. Base editing pairs naturally with it as a second, distinct achievement: a defined chemical reaction (cytidine or adenosine deamination on a Cas-exposed single strand) that gave biologists a general tool and is now producing first clinical data. Reading and rewriting DNA are two distinct achievements that fit one prize. Liu is the clear intellectual driver, and the directed evolution of an adenine deaminase acting on DNA is a distinctive chemical contribution. The union of three people fits the limit.",
+    "case_against": "Sequencing may be seen as an enabling technology in which instrument engineering and commercialisation (Solexa/Illumina, 454) carry much of the credit, and the attribution against Rothberg and Mayer is contestable. Base editing is young, with long-term safety, bystander and off-target deamination still being measured, and omitting Komor, Gaudelli, Nishida and Kondo is a real attribution cost. Pairing the two parts also means neither is the one clearly dominant candidate that a more cautious committee might prefer. B052 has the broadest opening support, and my ranking of it below B021 reflects the maturity of its clinical evidence, not a view that it is the weaker science.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Ranks PROTACs and molecular glues first as a genuinely new pharmacological principle, with Crews, Deshaies and Handa as the core, accepting that Ciulli, Gray, Sakamoto, Kim and Ito are left out.",
+        "response": "I agree the principle is chemically clean and general, and I ranked it third for that reason. My reservation is measurement. Degrader pharmacology rests on cellular DC50 and Dmax readouts, and the hook effect makes dose-response data hard to interpret. Clinical proof for a PROTAC specifically is still pending. The attribution is also two lineages (PROTAC and cereblon glue), and I am not convinced the Crews, Deshaies, Handa trio treats Ciulli's structure-guided VHL work or Gray's glue chemistry fairly. If the committee wants a PROTAC prize, I would want that settled before it becomes the first choice, so I keep it as an alternative."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Ranks base editing first and finds Liu, Komor and Gaudelli defensible, noting independent replication, first treated patients and the Kondo/Nishida parallel work.",
+        "response": "I share the view that base editing is ripe and mechanism-defined, and it is my own second choice. I would credit Liu alone in the prize part rather than naming Komor and Gaudelli. They are the lead trainees on the two editors, but the concept, the directed-evolution strategy and the sustained programme are Liu's, and a single name leaves room for the sequencing pair. I also disagree mildly that it should stand alone first. Sequencing has far more independent validation behind it and a longer record of changing chemistry-adjacent biology."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Ranks Car-Parrinello molecular dynamics first as an unambiguous two-person credit with four decades of use, and PROTACs and genetic code expansion next.",
+        "response": "The clean attribution and maturity of Car-Parrinello are strong points and I do not dispute the science. As an experimentalist I weigh a method by what it let people measure or build, and by whether the key claims were independently tested. The method has had a large effect in condensed-phase simulation, but I cannot judge how that compares with sequencing or editing in effect on chemistry broadly. Perhaps the field is better served by a computational prize in a year when the computational-chemistry members can show the case more concretely. I therefore leave it out of my configuration, and would like to hear whether its influence reaches beyond water, ice and materials."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Ranks mesoporous silica first and halide perovskites second, noting that sequencing is fully mature with abundant independent validation.",
+        "response": "I appreciate that you also rate sequencing as mature and well validated; your third place gives it a stronger base than the other members' lists. On the perovskite candidate, I accept that efficiency gains were exceptional, but you note yourself that interpretation (ion migration, hysteresis, stability) is still evolving and commercial maturity is unproven. I would be cautious about recognising it before those questions settle. For mesoporous silica the attribution looks sound, but I would ask how many of the later claimed applications have been independently demonstrated at scale."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts sequencing as chemistry rather than an enabling instrument technology, and how Rothberg and Mayer should be treated.",
+      "Whether a two-part prize of Balasubramanian and Klenerman plus Liu is acceptable, or whether the committee prefers a single-topic prize such as B052 or B021 alone.",
+      "Whether crediting Liu alone for base editing is defensible given Komor, Gaudelli, Nishida and Kondo.",
+      "Whether clinical evidence for PROTACs will mature enough for B052 to overtake B021 on timing."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no personal or institutional connection to any shortlisted candidate. My own field (dNTP metabolism and replication fidelity) makes me a user of sequencing and a subject-matter reader of the nucleotide chemistry, which is an interest rather than a conflict."
+  }
+}

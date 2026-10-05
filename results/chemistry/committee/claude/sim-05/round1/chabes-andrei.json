@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For the conception and development of heterobifunctional degraders (PROTACs) that harness the ubiquitin-proteasome system for targeted protein degradation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B029",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Both parts turn a biological process into a defined chemical reaction and give biologists a general tool. Base editors install a specific deamination on genomic DNA without double-strand breaks, which matters directly for genome stability and mutagenesis, the area I know best. The claims have been independently reproduced in many labs and have reached patients. PROTACs convert ubiquitin-proteasome biochemistry into a rational design principle, with ternary-complex cooperativity as the mechanism and degradation, not inhibition, as the outcome. Neither depends on a contested single measurement. Together they are two clearly distinct achievements, and they hold the two highest places on my opening ballot and strong cross-member support (B007 has five top-three placements, B052 four).",
+    "case_against": "Base editing may be read as a genome-engineering extension of the 2020 CRISPR prize rather than new chemistry, and Liu-only credit sidelines Komor and Gaudelli. On the PROTAC side, no degrader is yet broadly approved, so clinical impact is still prospective. A three-person cap forces me to leave out Ciulli, Handa, Ito, Sakamoto and Gray, whose claims, especially for the cereblon glue branch, are real. Putting two prizes into one year also risks a diluted citation compared with a single coherent achievement such as B029.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Liu alone is a clean configuration for base editing, because the 2020 prize already recognised CRISPR and the platform is largely his, and PROTACs are a game-changing modality, albeit early.",
+        "response": "I agree that Liu alone is the cleanest attribution and I now prefer it to my opening trio. Komor and Gaudelli did decisive first-author work, but the prize-level conceptual claim rests with Liu, and this frees a slot for the degrader part. I would resist treating the 2020 prize as settling the matter, though. Base editing is a distinct chemical reaction on DNA, not an application of Cas9 cleavage, and I would want that stated in the citation."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation is a new modality, and the cereblon glue branch (Handa) is a major part of it, so a Crews, Ciulli, Handa trio is a compromise across PROTAC and glue strands.",
+        "response": "I take the Handa point seriously, since identifying cereblon as the thalidomide target is a mechanistic discovery rather than a design exercise, and it is arguably the more measurement-grounded one. But under a three-person cap I would anchor the citation on the PROTAC concept (Crews, Deshaies) and leave glue degraders to a later prize, rather than blur two partly separate stories into one citation. I disagree with swapping Deshaies for Handa. If the committee prefers the glue branch, then I would want it argued as its own part. This is a genuine disagreement, not a settled one."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Phase separation (B001) gives a quantitative physical principle for membraneless compartments and has opened large new capabilities in cell biology, so he ranks it first.",
+        "response": "The physical framework is attractive, but my hesitation is empirical. Whether many reported condensates are equilibrium phase separation, and whether they function in vivo, still depends on assays that are prone to in vitro artefacts, and I would want independent reproduction of key physiological claims before a prize. That is why I keep B001 as an alternative rather than a preferred part. If Heiner can point to measured, quantitative tests in cells that distinguish real phase behaviour from aggregation, I would move it up."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Pd-catalysed C-N coupling made aryl amine construction routine through ligand design and is mature, though close to the 2010 cross-coupling prize.",
+        "response": "I accept that B029 is the most mature and mechanistically well defined candidate, and I keep it as my first alternative. My reservation is weight of novelty and the 2010 precedent, not quality. If the committee wants a single-achievement prize, Buchwald and Hartwig are a safer and cleaner choice than my two-part proposal, and I would not oppose it."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards base editing as chemistry after the 2020 CRISPR prize.",
+      "Whether PROTACs and cereblon glue degraders should be one citation or separate, and how the three-person cap should split Crews, Deshaies, Ciulli, Handa and Ito.",
+      "Whether the absence of an approved degrader makes B007 premature this year.",
+      "Whether a two-part prize is preferable to a single coherent achievement."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on dNTP pools and replication fidelity is topically adjacent to genome editing but involves no personal or institutional tie to the candidates."
+  }
+}

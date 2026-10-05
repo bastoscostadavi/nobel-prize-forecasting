@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-44",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B050",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, programmable chemical conversion of single nucleobases in genomic DNA without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B042",
+    "B052"
+  ],
+  "statement": {
+    "case_for": "Base editing takes a biological process, genome modification, and turns it into a defined chemical reaction: a deaminase tethered to a programmable Cas scaffold converts one nucleobase to another inside a narrow editing window, with no double-strand break. The adenine editor is the stronger evidence of chemical originality, because no natural DNA adenine deaminase existed and TadA had to be evolved to act on DNA. As someone who measures nucleotide chemistry in cells, I value that the outcome is a clean, quantifiable chemical change that many independent labs have reproduced for a decade. It has become a general tool for biologists, and it has reached patients. Five of eight members ranked it, and two placed it first, which suggests it is one of the few candidates with broad support across biology, physical chemistry and simulation.",
+    "case_against": "The strongest reservation is overlap and timing. The 2020 prize already honoured CRISPR-Cas9 genome editing, so a second genome-editing prize could look like the same story twice. The work dates from 2016 and 2017, so durable clinical safety, including off-target deamination and bystander edits, is not yet established. Attribution is awkward: naming two postdoctoral first authors beside Liu is unusual, Liu alone is defensible, and Nishida and Kondo's Target-AID work was contemporaneous and independently published. If the committee decides this is a medicine or biotechnology prize, my preference would have to give way to a more clearly chemical modality such as targeted protein degradation.",
+    "responses": [
+      {
+        "member_id": "sparr-emma",
+        "point": "Emma Sparr ranked base editing only sixth, said a Liu-only prize is defensible, and worried about overlap with the 2020 CRISPR chemistry prize.",
+        "response": "I take the overlap concern seriously, but I read it differently. The 2020 prize recognised programmable cleavage of DNA. Base editing is a different reaction: it makes a defined chemical substitution on a nucleobase and avoids the break entirely, so the mechanism, the enzymology and the evolved TadA deaminase are new. On the Liu-only option, I would not rule it out, but Komor and Gaudelli each built one of the two editor classes, with their respective evolution and engineering steps, so a trio fits the work better than a single name. I accept that naming postdoctoral authors is the weaker part of my proposal and I would defer if the committee prefers Liu alone."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan Aqvist put targeted protein degradation first as a simple chemical idea with large consequences, and he was unsure whether base editing counts as chemistry or medicine.",
+        "response": "I agree that PROTACs and molecular glues are a strong chemical modality, and I ranked them second myself. I place base editing ahead because its central step, hydrolytic deamination of a specific cytosine or adenine in genomic DNA, is a single chemical reaction we can name. It has been tested by many independent labs and is already in the clinic. Degraders have a harder attribution problem, since the PROTAC and cereblon glue strands belong to different people, and approvals are still pending. Your doubt about chemistry versus medicine is fair, but the same doubt applies to degraders, which are also assessed through drug development. I would be content with B042 as the committee's choice if base editing falls short."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel Aili put ionizable lipid nanoparticles first for their global clinical impact, and acknowledged the 2023 Medicine prize overlap and an unresolved credit split between the Vancouver and Boston groups.",
+        "response": "I share your respect for the pKa-tuned lipid chemistry and ranked it third. My hesitation is attribution rather than merit: Cullis, Hope, Madden, MacLachlan, Anderson and Langer all made real contributions, and patent disputes make the record harder to read. The Medicine prize for nucleoside-modified mRNA also covers much of the vaccine story. I do not see the same crowding for base editing, where the Liu line is clearly the origin. I still regard B052 as a serious alternative and would support it if the committee settles on a three-person split."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner Linke ranked base editing first, with the same three names, and saw its clear chemical principle and therapeutic applications, while noting that Kondo and Nishida complicate the credit.",
+        "response": "I agree with your reading and with your concern. Target-AID was published at almost the same time, and a fair reading may credit Nishida and Kondo as independent co-discoverers of the cytosine editor. My view is that the adenine editor, the evolved TadA and the systematic characterisation of the editing window distinguish the Liu programme, which is why I still support Liu, Komor and Gaudelli. I would like the committee to look at the actual dates and priority before the final ballot, and I would not call the question settled."
+      }
+    ],
+    "uncertainties": [
+      "Whether Nishida and Kondo's Target-AID work should be recognised alongside the Liu programme",
+      "Whether a second genome-editing prize after 2020 is acceptable, or whether the committee sees it as too close to CRISPR-Cas9",
+      "Whether naming Komor and Gaudelli is appropriate, or whether Liu alone is the right configuration",
+      "Long-term clinical safety, including off-target deamination, is not yet fully known",
+      "Whether base editing will be judged as chemistry or as medicine and biotechnology"
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on nucleotide metabolism and DNA replication fidelity is adjacent to the topic but involves no collaboration with any candidate in the credited names."
+  }
+}

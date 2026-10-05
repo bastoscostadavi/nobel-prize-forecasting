@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-17",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B058",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of palladium-catalyzed carbon-nitrogen cross-coupling"
+      },
+      {
+        "ballot_id": "B038",
+        "laureates": [
+          "Craig M. Crews"
+        ],
+        "citation": "For the conception and development of small-molecule protein degraders that harness the ubiquitin-proteasome system"
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B064"
+  ],
+  "statement": {
+    "case_for": "Palladium-catalysed C-N coupling (B058) is the one shortlisted achievement that is plainly a general synthetic method: Buchwald and Hartwig turned aryl amine formation from a narrow, forcing-conditions problem into a routine bond construction, with ligand-design principles (bulky, electron-rich phosphines) that carried over to many other couplings. Its use in pharmaceutical process chemistry and materials is vast and independently confirmed over three decades, and nobody on the committee has questioned its maturity. It extends the 2010 prize to C-heteroatom bonds, but that is a real extension in scope and in ligand logic, not a repeat. Alongside it, I now think targeted protein degradation (B038) is the most chemically original of the biology-facing nominations. Induced proximity, linker and ligase-ligand design, and ternary-complex cooperativity are molecule-design problems, and it has the strongest opening support among candidates that are clearly chemistry (two first places, ranked by six members). Pairing the two keeps the union at three people while giving the prize one methods part and one new modality.",
+    "case_against": "B058 has almost no opening support (my own first place only), and cross-coupling's 2010 prize may make colleagues feel the area is covered; the Kosugi/Migita precedent also needs a literature check I cannot do here. For B038, a Crews-only credit is thin and arguably unfair to Deshaies, Ciulli and the cereblon/thalidomide glue arm (Handa, Ito), and clinical validation is not yet at approval level, so recognition may be early. The three-person cap forces this trade-off, so the configuration is a compromise that could end up less defensible than a single clean prize.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation is a new modality in which a designed small molecule recruits an E3 ligase, and the Crews/Deshaies/Ciulli trio is the natural credit.",
+        "response": "I agree on the chemistry: this is the border-field nomination where I can say what is new chemically, namely heterobifunctional design and ternary-complex geometry. I disagree on the trio, though, because with B058 in the configuration the three-person cap leaves room for only one degrader name, and I would rather pick Crews as the originator than split the prize into pieces. If B038 stands alone, I would support Crews, Deshaies and Ciulli, with the glue arm (Handa, Ito) left as a real attribution risk."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Base editing is a game-changer, a simple idea (deaminase tethered to a nickase Cas9) with clinical use and a clean Liu/Komor/Gaudelli attribution.",
+        "response": "The impact is not in doubt, but I ranked it eighth because most of the novelty is engineering of an existing CRISPR system, and the 2020 prize covers the platform. The adenine base editor, with its evolved deaminase, is the part with real chemical content and I would credit that if the committee goes this way. Johan, what do you see as new chemically beyond protein evolution? That answer would decide whether I move B011 above B038, so I keep it as my first alternative rather than in the preferred prize."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Nanopore sensing is a new capability resting on a clear physical principle, with a Bayley/Deamer/Akeson credit and a mature, widely deployed technology.",
+        "response": "I accept the maturity and the impact, but I put B003 outside my configuration because the central insight is ionic-current transduction and instrumentation, which is more physics and analytical engineering than molecule-making; Bayley's engineered pores are the chemical part. The five-way attribution (Branton, Deamer, Kasianowicz, Bayley, Akeson) is also harder to resolve than for B058. It is a serious candidate, and I would not object strongly to it as a second part."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular phase separation is a physical-chemical principle of cellular organisation, backed by thermodynamics and multivalency, with a Hyman/Brangwynne/Rosen triad.",
+        "response": "I respect the physical chemistry, but Heiner's own point that the interpretation is not yet stable matters to me: there is ongoing debate over which condensates are true phase-separated systems and what function that has. A prize should reward a result whose meaning has settled, and here the settled core (multivalent assembly in vitro, Rosen's work) is narrower than the headline concept. I would revisit it in a few years."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Nitrogenase structure at the FeMo cofactor, including the central carbide, is a landmark of structure-driven mechanistic chemistry with a Rees/Einsle/Seefeldt allocation.",
+        "response": "This is a strong chemistry candidate and it is why B064 is my second alternative. My reservation is shared by Peter Brzezinski's note: substrate binding and the catalytic cycle are not resolved, so the prize would honour a structure rather than a mechanism, and the credit is spread over at least five people. If the mechanism firms up I would support it."
+      }
+    ],
+    "uncertainties": [
+      "Whether the Kosugi/Migita priority claim materially affects a two-person Buchwald/Hartwig credit; I cannot verify the literature in this setting.",
+      "Whether a Crews-only credit for B038 is defensible, or whether B038 must stand alone with Deshaies and Ciulli.",
+      "Whether the committee sees B058 as too close to the 2010 cross-coupling prize.",
+      "How much to weight the lack of an approved degrader drug."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. I have a general tie to the Masamune school of stereocontrolled synthesis, but none of the shortlisted laureates is a collaborator, mentee or colleague at Lund, Chalmers or KTH as far as the profile shows."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-33",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B059",
+        "laureates": [
+          "Roberto Car",
+          "Michele Parrinello"
+        ],
+        "citation": "For the development of first-principles molecular dynamics, unifying electronic structure and atomic motion in a single simulation framework"
+      }
+    ]
+  },
+  "alternatives": [
+    "B069",
+    "B054"
+  ],
+  "statement": {
+    "case_for": "First-principles molecular dynamics is a clean two-person attribution (the 1985 Car-Parrinello paper) and is exactly the kind of work I hold to my own standard: completely new when introduced, and four decades later it has demonstrably changed what can be computed, from liquid water and aqueous reactivity to interfaces, catalysis and materials, with continuous quantitative comparison to experiment. It fits comfortably within chemistry because its main uses are in chemical systems. Nothing on the shortlist is more mature or more broadly validated by independent implementations, so recognition is overdue rather than premature. Attribution needs no apology, which is rare on this list.",
+    "case_against": "Only two of us ranked it in the top eight in the openings (I put it first, one colleague placed it eighth), so it clearly does not command broad support, and it will be read as a methods prize for the physics-leaning side of chemistry. The strongest counterargument is that the machine-learned potential lineage, which grew from this work and which I ranked fourth, may soon eclipse the original method, and that a committee seeking clinical or societal consequence will prefer base editing or targeted degradation. I accept that a prize that only I and one other member are enthusiastic about is unlikely to reach five votes without more argument.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Long-range electron transfer through proteins (Gray and Winkler) is the overdue, textbook-standard physical basis of redox enzyme function, with four decades of confirmation, and Marcus theory's 1992 prize does not preclude it.",
+        "response": "I agree on maturity and on the relevance to enzyme catalysis, and I respect that you know the bioenergetics far better than I do. My reservation is the one you flag yourself: the quantitative framework is Marcus theory plus tunnelling-pathway theory by Beratan and Onuchic, which the credited pair did not author, so a citation to Gray and Winkler would reward superb experiments whose theoretical interpretation is credited elsewhere. I would want a precise citation limited to the experimentally established distance dependence and driving-force dependence in modified proteins before I move it above a method with a clean two-person origin."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Base editing, with Liu, Komor and Gaudelli, is a clear chemical idea (deaminase chemistry fused to a Cas9 nickase) that is already reproduced everywhere and in the clinic, and the three-person attribution is clean.",
+        "response": "I largely share this and ranked B069 third myself, which is why I keep it as my first alternative. I do not agree that timing is simply ripe: the 2020 prize for CRISPR-Cas9 means the committee will ask what new principle base editing adds beyond a refinement of the same programmable nuclease, and long-term safety evidence is thin. I also would not dismiss Kondo and Nishida's Target-AID so quickly, since it was published within weeks and a fair citation has to address the priority question openly. If the committee wants a biology-facing prize this year, I think your trio is the best-supported version."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Ionizable lipid nanoparticles are the enabling chemistry behind siRNA drugs and mRNA vaccines, clinically validated at global scale, and delivery chemistry was left out of the 2023 Medicine prize.",
+        "response": "The impact is undeniable, and I take the point that the mRNA prize left delivery unrecognised. My difficulty is attribution, which you also concede: six credited names across a long and distributed effort in Vancouver, Cambridge and elsewhere, and any three-person cut leaves out people who made decisive formulation contributions. I would not want the committee to settle that by choosing the three most prominent names. Unless we can write a citation that is tied to the ionizable-lipid design principle and to specific people, I cannot support it above the methods and base-editing options, though I would be glad to be shown a defensible trio."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Halide perovskite absorbers are a rare case where a simple materials family went from a few percent to over 25 percent efficiency in little over a decade, with overwhelming independent confirmation, and the stability issues do not undermine the discovery.",
+        "response": "I ranked B017 fifth with the same trio, so we are not far apart on the science, and I agree the confirmation is overwhelming. I remain more cautious than you on the standard I normally apply, that a prize should show real consequences, because stability and commercial deployment are still open, and on attribution: Miyasaka, Snaith and Park are defensible, but Grätzel, Seok and Kanatzidis have strong claims and the priority narrative for the solid-state device is disputed. I also see a Chemistry-versus-Physics question in the solid-state absorber physics that you describe. I would like you to say how the citation would stay in chemistry and be protected against the dispute over who made the decisive device."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular phase separation is a genuinely new organising concept for the cell, fifteen years confirmed, with Hyman, Brangwynne and Rosen as the plausible core.",
+        "response": "I find the concept important and generative, but I do not think the in vivo question is settled enough: the field still argues about which cellular structures are truly phase-separated and what function that confers, and the quantitative link to experiment is weaker than for the other candidates. That matters to me more than the novelty. The attribution problem is also real, because Pappu and Mittag supply the sequence grammar and theory that turn the observation into physical chemistry, and I would not want to leave them out silently. I would keep it as a strong later candidate rather than this year's."
+      }
+    ],
+    "uncertainties": [
+      "Whether five members can be brought to a methods-development prize built on Car and Parrinello, given that opening support was concentrated on B069, B054, B017, B036 and B044.",
+      "How the committee will treat the overlap between the original method and the machine-learned potential lineage, which is not on this shortlist, if Parrinello's contributions are counted twice.",
+      "Whether the base-editing prize is judged a refinement after the 2020 CRISPR prize, and how the Target-AID priority should be handled.",
+      "For targeted degradation, the split between PROTAC concept, structure-guided ligands and the cereblon molecular-glue strand, and the lack of an approved PROTAC drug that I can verify."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates: my Warshel collaboration and Uppsala ribosome and RNA connections do not involve any credited person on this shortlist. I work in simulation and biomolecular computation, which is adjacent to B059, but I have no personal or institutional tie to Car or Parrinello."
+  }
+}

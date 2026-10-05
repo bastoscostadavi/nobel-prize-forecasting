@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-60",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B020",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "for the development of targeted protein degradation, in which small molecules recruit E3 ubiquitin ligases to destroy chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B018",
+    "B049"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is the one candidate on the shortlist that introduces a genuinely new pharmacological principle through molecular design: a bifunctional molecule induces proximity between an E3 ligase and a target, and catalytic, event-driven destruction follows. It reaches proteins that occupancy-based inhibitors could not, and it has changed how medicinal chemistry and chemical biology frame drug discovery. The mechanism is reproduced in many independent laboratories, and the field has a deep structural and biophysical base (VHL and cereblon ligand design, ternary-complex cooperativity). The opening ballots show broad convergence: it was ranked in the top three by six of eight members and first by two. Crews and Deshaies conceived and first demonstrated PROTACs, and Ciulli's structure-guided VHL work made degraders drug-like, so the trio gives a coherent story of concept, validation and design.",
+    "case_against": "No degrader has yet been approved, so the clinical payoff that normally underwrites a prize of this kind is still prospective, and the Committee may reasonably prefer a field with settled outcomes. Attribution is the harder problem. The thalidomide-cereblon strand (Handa, Ito) and the molecular-glue chemistry behind it are a separate and arguably earlier mechanistic discovery, and any three-name selection from PROTACs plus glues excludes people with strong claims (Handa, Ito, Sakamoto, Kim, Gray). If the prize is framed as PROTACs alone, it understates the field; if framed as degraders in general, the three names do not cover it.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks B020 third and would credit Crews, Deshaies and Handa, arguing that Handa and Ito's identification of cereblon underlies molecular glue degraders and links to the mechanism of thalidomide-like drugs.",
+        "response": "I agree that cereblon is the most defensible mechanistic anchor for the glue half, and that omitting it makes the citation incomplete. Where I differ is on the third name. Handa's contribution is a target-identification result about an existing drug, and it did not by itself yield a design principle chemists could generalise. Ciulli's work on VHL ligands and ternary-complex structure did, and it is what made heterobifunctional degraders designable. I could support Handa in the third slot if the Committee wants the citation to cover glues explicitly. I would then want Ciulli's absence discussed openly, because that choice weakens the molecular-design strand."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes places B014 (massively parallel sequencing) first on the strength of the nucleotide chemistry behind reversible-terminator sequencing-by-synthesis. He treats B020 as borderline early for the PROTAC half because clinical validation is still emerging.",
+        "response": "The point on clinical maturity is fair. I weigh it less because the Prize is for the discovery. The chemistry and mechanism of degraders are independently confirmed, and numerous clinical programmes are running. I also disagree with ranking B014 above B020 on maturity alone. Sequencing is the stronger case for impact, but its credit is split across competing platform routes (Solexa, 454, Ion Torrent and others), and I doubt the Committee can draw a clean line there. I would also like Chabes to say whether he sees reversible-terminator chemistry as the Chemistry prize, or whether the achievement is closer to a technology that Physiology or Medicine would claim."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks B020 first alongside B014 and B005. He values the conceptual originality of induced-proximity degradation, and he notes that the lack of an approved PROTAC drug makes recognition slightly early.",
+        "response": "We agree on the scientific case. I would qualify his view of a two-name sequencing prize as the clean alternative. Balasubramanian and Klenerman are a coherent core, but that framing depends on setting Rothberg and the pyrosequencing route aside, which Brzezinski and Chabes both treat as a real claim. A degrader prize has the opposite difficulty, with too many strong names rather than a disputed field. Neither is free of exclusions, so I would not count a two-name configuration as evidence of greater maturity."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks B020 only seventh and suggests the credit is distributed enough that a two-part prize (PROTACs and molecular glues) may be needed. Zou's first place is the molecular-sieve catalyst field (B044).",
+        "response": "The two-part suggestion is the most useful structural idea raised on B020, and I take it seriously. The practical limit is the three-person cap. A PROTAC part (Crews, Deshaies) plus a glue part (Handa) would fit it, but would drop Ciulli and split a story that I think reads better as a single modality, since glues and PROTACs act through the same ubiquitin-ligase machinery. I would keep a single part unless the Committee finds the cereblon claim cannot be accommodated otherwise. On B044, I find the industrial importance clear, but I would like to hear how the credit is settled across Corma, Davis and Zones, and why the Committee should place it ahead of a new modality."
+      }
+    ],
+    "uncertainties": [
+      "Whether the glue and cereblon strand (Handa, Ito) should be inside the same citation, in a second part, or left out",
+      "Whether the absence of an approved degrader drug should weigh against recognition now",
+      "Allocation among Crews, Deshaies and Ciulli, and whether Ciulli or Handa takes the third place",
+      "Whether sequencing (B014) or lipid nanoparticles (B049) are better judged as chemistry than as enabling technology for medicine"
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on designed peptides, nanoparticle hybrids and biosensors is in an adjacent field, and I have no documented collaboration with any credited name on the shortlist. My postdoc mentor Molly Stevens is not a credited name for any shortlisted ballot."
+  }
+}

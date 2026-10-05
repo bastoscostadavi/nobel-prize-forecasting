@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-29",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B014",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For developing targeted protein degradation, in which bifunctional small molecules recruit E3 ligases to destroy rather than inhibit proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B042",
+    "B030"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is the closest thing on this shortlist to what I mean by a game-changer: a completely new mode of drug action (event-driven, catalytic removal of a protein instead of stoichiometric occupancy) that has already had real consequences. Six of eight members place it in their top three, which I treat as a sign of breadth and not as proof of merit. The merit lies in the chemistry: ternary-complex formation and cooperativity, structure-guided linker and ligand design (Ciulli's VHL ligands and crystal structures), and a quantitative link between binding thermodynamics and degradation that is amenable to the kind of free-energy and simulation work I know. It has been confirmed across many laboratories and ligases and is in clinical trials. Crews and Deshaies conceived and demonstrated the PROTAC concept (2001, with Sakamoto and Kim), and Ciulli made the first fully small-molecule VHL-based degraders and showed the structural basis of the mechanism. That is a precise, defensible three-name unit.",
+    "case_against": "The strongest reservation is that clinical benefit is not yet established by approvals for the PROTAC arm, so the 'already has consequences' test is met mainly by mechanism and trial activity. The second is attribution: the molecular-glue lineage (Handa and Ito on cereblon as the thalidomide target, plus Gray and others) is a separate discovery with its own claim, and a three-name prize built on PROTACs leaves it out, which a careful reader will notice. If the Committee will not accept that omission, the configuration becomes a choice between concept and mechanism and the case weakens.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner puts Crews, Deshaies and Handa together and argues the PROTAC concept (Crews, Deshaies, Sakamoto) must be kept separate from the thalidomide-cereblon mechanism and from later optimisation work (Ciulli, Gray).",
+        "response": "I agree the lineages are separable, and I think that is the reason not to merge them in one citation. Handa's identification of cereblon explains how thalidomide-type drugs work, which is important, but it is a mechanism discovery about existing drugs, whereas Crews and Deshaies designed a general modality. Taking Handa instead of Ciulli leaves the rational-design chemistry, which is the core of what this prize would celebrate in chemistry, without a name. I would rather state a narrow citation on PROTACs and accept that glue work may deserve its own consideration later than blur two claims into one."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei ranks base editing first as an elegant deaminase chemistry with clinical use, and notes that Kondo and Nishida's Target-AID was parallel and independent, so Liu, Komor and Gaudelli omits them.",
+        "response": "I put base editing second and think it is a strong, timely candidate, but I would qualify it. The attribution problem is the same kind as for degraders: a trainee-heavy trio leaves out an independent Japanese group, and a Liu-alone prize would be cleaner but then ignores Komor and Gaudelli, who made the two editor classes. The 2020 CRISPR prize also raises the question of whether this is a distinct chemical invention or an extension of genome editing. Degradation has no such precedent in this Committee, which is why I rank it above base editing, though only narrowly."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter ranks Buchwald-Hartwig amination first as the method that changed how chemists everywhere form bonds, with a clean two-person attribution and no maturity concerns.",
+        "response": "The attribution and maturity arguments for C-N coupling are as clean as anything on the list, and I do not dispute that it is overdue in the sense of impact. My hesitation is the 2010 cross-coupling prize: the Committee would be rewarding an important extension of a recognised family, whereas the question for a game-changer is whether something completely new has appeared. I would not object strongly if the Committee preferred it, but I do not see it as more novel than protein degradation, and only four members ranked it at all."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranks PROTACs first and would honour the PROTAC core (Crews, Deshaies, Ciulli) while accepting that glue degraders are partly left out, noting clinical proof is still maturing.",
+        "response": "I largely agree with Daniel on both configuration and timing. Where I would press further is on what we put in the citation: if the clinical proof is the open point, the citation should rest on the chemical principle (recruiting E3 ligases to destroy proteins) and not on therapeutic outcomes, so that the prize does not depend on the result of late-stage trials. I would also want the Committee to confirm the priority of Sakamoto and Kim in the 2001 paper before we settle on the final names."
+      }
+    ],
+    "uncertainties": [
+      "Whether the Committee requires an approved PROTAC drug before recognition, given that clinical efficacy is still being established.",
+      "Whether the Ciulli versus Handa choice for the third name is the right one, or whether the glue lineage should be treated as the primary achievement.",
+      "Whether Kondo and Nishida's independent base editing work is enough to disturb the Liu, Komor and Gaudelli unit if the Committee turns to B042.",
+      "Whether Car-Parrinello molecular dynamics, my own opening first choice, has enough support or is too close to the 1998 and 2013 recognition of computational methods."
+    ],
+    "conflict_note": "No specific conflict is apparent for the preferred candidate from my profile. For the alternative B030 (Car and Parrinello) I note that it lies in my own field of biomolecular simulation, so I will be careful not to overweight my own field; my Warshel connection concerns EVB and the 2013 prize, not this method."
+  }
+}

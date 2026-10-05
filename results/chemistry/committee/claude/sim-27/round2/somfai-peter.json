@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-27",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B057",
+        "laureates": ["Stephen L. Buchwald", "John F. Hartwig"],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling, ligand-controlled methods that make aryl-nitrogen bond formation a routine synthetic operation."
+      }
+    ]
+  },
+  "alternatives": ["B026", "B058"],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged after round 1: B057 for Buchwald and Hartwig. The round-1 exchange sharpened the one question that matters, namely what is conceptually new relative to the 2010 prize. The answer is chemical, not just a matter of use. In C-C coupling the difficult steps were largely solved by the existing organometallic partners. In C-N coupling the amine must bind to palladium without poisoning it, the amido complex must undergo C-N reductive elimination, which is intrinsically slow, and beta-hydride elimination competes. Those problems were solved only by ligand design (bulky biaryl phosphines, hindered alkylphosphines), and the mechanistic work that explained why they work is what let the reaction be predicted and extended. It is also the only candidate on the shortlist where a method that is four decades old and independently confirmed can be seen in the daily practice of discovery and process chemistry. Five members rank it in the opening, and all eight round-1 files either prefer it or name it as an alternative or as the cleanest case on maturity and attribution, but I do not rest the case on that count. I rest it on mechanism, generality and a clean two-name credit.",
+    "case_against": "The overlap with the 2010 cross-coupling prize and the 2021 organocatalysis prize is real, and Aqvist, Chabes, Aili, Sparr and Linke all press it. A committee may reasonably say that a new heteroatom is a sequel and that a prize should open a new door, as degraders or condensates would. Kosugi and Migita also reported tin-amide aminations first, so a two-name citation has to be worded carefully to avoid implying priority for the first C-N coupling. Finally, the choice of a core synthetic method will look conservative, and I have to concede that I am a field insider and may undervalue what lies outside my own area.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist keeps B057 as an alternative because after 2010 and 2021 it reads as an extension of an honoured concept, whereas degradation opens a new modality, and he says impact is not the discriminator.",
+        "response": "I agree that impact alone should not decide, and I do not argue from it. My argument is that the C-N problem was mechanistically different (amine binding, slow C-N reductive elimination, beta-hydride elimination) and that the solution was a ligand-design principle that the field then generalised. That is a new chemical idea. I also accept that degraders are a genuine principle. My difficulty is that the credited work is split between a design concept (PROTACs) and a mechanism-of-drug-action discovery (cereblon), and without an approved degrader the committee would be honouring a trajectory. If the clinical record were in hand I would weigh B068 much more heavily; for now it does not displace a prize with no open question about whether the thing works."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes argues that C-N coupling is a ligand-driven extension of a recognised reaction class and that degraders open a new modality, and he argues that one citation can cover both PROTACs and glues.",
+        "response": "I take the last point seriously, because it is the strongest route to a clean B068, but I do not think it works. A citation general enough to cover a designed heterobifunctional molecule and a thalidomide-type glue found by chance would describe the mechanism and credit people whose contributions were of different kinds, so Handa and Ciulli are not interchangeable and Sakamoto still has a claim. On novelty, I would say that a ligand-driven advance is exactly what some prizes recognise: the problem was not solvable by the existing catalysts, and the ligand principle made it so. Calling it an extension undervalues the mechanistic work."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili prefers B068 because it opens a new modality instead of refining a reaction class already honoured, and he treats the absence of an approved PROTAC as an acceptable risk.",
+        "response": "I accept that the capability is real and reproducible, and the design rules are chemical. Where we differ is the timing weight. A degrader approval would settle questions that are still open today: durability of benefit, which ligases matter, and whether the credited trio matches the discovery. A prize in a few years could name the right people more safely than one now, and nothing is lost by waiting, whereas for B057 nothing further is going to be learned. I note that Aili himself concedes the three-name cut is contestable, and that is part of why I stay where I am."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, asked me to say whether ligand-controlled amine binding and reductive elimination amount to a new chemical problem and not a sequel, and prefers B022 with B057 second.",
+        "response": "My answer is yes: C-N reductive elimination from palladium amido complexes is a different elementary step from C-C coupling, and the ligand effects that govern it (steric bulk, electron donation, and the geometry that speeds elimination over beta-hydride loss) were established by Buchwald and Hartwig, and later work from many groups confirmed them. As for B022, I recognise that the physical principle is strong and the credit is cleaner than I first thought with Hyman, Brangwynne and Rosen. But the open question you yourself list, whether in-vitro demixing is liquid-liquid phase separation in cells, is a reason to wait, and I do not see Pappu and Mittag being excluded without injustice. I would be glad to see B022 return when that question is settled."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr asks whether B057 adds a new concept or extends a recognised one, and says everyday use should not be equated with a prize-worthy discovery.",
+        "response": "I agree that routine use is not the criterion by itself. The criterion is whether a general method resolved a problem that was previously unsolved, and use is the evidence that it did. On that test C-N coupling replaced harsh, narrow routes to aryl amines with a mild, general reaction, and the replacement was not obvious from the 2010 work. Your concern about the dividing line between concept and extension is fair, and it is why I describe the citation in terms of the ligand-controlled method and mechanism and not in terms of the bond type alone."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority will treat C-N coupling as a distinct discovery or as a sequel to the 2010 prize; this is the point on which my preference could fail.",
+      "Whether Kosugi and Migita should be mentioned in the citation or only in the background text; I now lean to the citation word general and the background text, and not to a third name, because the three-name limit is not the issue and the catalytic general method is what is credited.",
+      "Whether a degrader approval or in-cell evidence for condensates will arrive in time to change the balance; at present I cannot see a configuration other than B057 that reaches five.",
+      "Whether I am too close to the field to judge B057 fairly against modality-level candidates."
+    ],
+    "conflict_note": "No specific conflict is apparent. I have no known personal or institutional tie to Buchwald, Hartwig, Kosugi or Migita (mentor Masamune at MIT; Chalmers, KTH, Lund, Tartu). I work in synthetic methodology and so am a field insider on B057, which I disclose. I share the Lund affiliation with Linke and Sparr, which is a colleague relationship and not a candidate connection. No recusal is indicated."
+  }
+}

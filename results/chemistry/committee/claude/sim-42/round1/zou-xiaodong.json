@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-42",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B067",
+        "laureates": [
+          "Alessio Ciulli",
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For the development of targeted protein degradation by heterobifunctional PROTAC molecules that hijack the ubiquitin-proteasome system."
+      }
+    ]
+  },
+  "alternatives": [
+    "B022",
+    "B029"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a new design principle: a small molecule is built to bring a chosen protein to an E3 ligase so that it is destroyed instead of inhibited. The concept was proposed by Crews and Deshaies, and Ciulli's structure-guided VHL ligands and ternary-complex crystallography turned it from a peptide-based proof of principle into drug-like chemistry. That structural work is the kind of evidence I trust, because the ternary complexes were actually determined and the design rules follow from them. The idea has been replicated in many laboratories and for many targets, and it has opened targets that were considered undruggable. In the opening round it drew three first places and five top-three rankings, more than any other candidate, and having heard my colleagues I now think it is the strongest case for this year even though I ranked it only third. My own first choice, B022 (molecular-sieve design), is mature and consequential. But it was supported only by me, and I accept that this partly reflects my field's familiarity with it, and does not show that it is the best candidate.",
+    "case_against": "No PROTAC has yet been approved, so the clinical validation is still maturing and recognition could be early. The molecular-glue strand (thalidomide and cereblon: Handa, Ito, and the Sakamoto, Gray and Kim work) is a separate and well-supported claim that a three-name PROTAC citation excludes. If the committee thinks the two strands cannot be separated, the citation becomes either too broad or unfairly narrow. Against my own earlier ranking, B022 has the stronger record of industrial impact over decades, and the zeolite and molecular-sieve field has an honest attribution problem as well, because Yu, Tsapatsis and others made structural and design advances that three names cannot cover.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B067 first with Crews, Deshaies and Ciulli, treating induced proximity as a general drug modality and the Handa/Ito and Gray/Sakamoto/Kim molecular-glue work as a contestable but separable strand.",
+        "response": "I now agree with this ranking and with the trio. I would add one condition: the citation should be framed around the PROTAC concept and its structure-based design. Crews and Deshaies established the concept, and Ciulli's work supplied the structural evidence that made it a design principle. If the citation also tries to cover molecular glues, it will claim more than three names can support, and the claim would be hard to defend. I also share your worry about timing but I do not think it should decide the matter, because the mechanism has been confirmed independently in many laboratories."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks B067 first but replaces Ciulli with Handa, because Handa identified cereblon as the thalidomide target and so explains the molecular-glue branch and enabled CRBN-based degraders.",
+        "response": "This is the most serious attribution disagreement among the supporters, and I do not think it is settled. Handa's cereblon identification is a clear mechanistic discovery, and the mechanism was demonstrated, so I take it seriously. But it explains how an existing drug works, and Crews and Deshaies introduced the design idea of building a degrader on purpose. The prize would be given for the second. I would credit Ciulli rather than Handa because his work is what made the principle rational, with VHL ligands and ternary-complex structures. Handa and the glue work could be a second part of the prize if the committee wants a broader citation, but then the three-person limit forces us to drop someone from the PROTAC side."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks B067 first and B029 (halide perovskites) second, with Miyasaka, Park and Snaith, noting that stability and lead toxicity are unresolved and the group of contributors is large.",
+        "response": "We agree on B067. On perovskites I share your reservation, and I would go further: the efficiency increase is remarkable and well confirmed, but the claim that this is a new class of semiconductor is stronger than the device evidence, and stability is the main unresolved chemistry. I ranked it second, so I am not dismissing it, but I would not give the prize for it before the degradation question is clearer. On names, I would not exclude Grätzel, whose dye-sensitized cell was the direct starting point for Miyasaka's first perovskite sensitized cell, so your trio and mine differ and that is an honest disagreement."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks phase separation (B049) first, with Hyman, Brangwynne and Rosen, as a clear physical principle with quantitative support, and puts B067 second and B013 (C-N cross-coupling) third.",
+        "response": "I respect the physical principle, but I do not rank B049 in my top group because I am not convinced that the structural and in-cell evidence supports the claim as widely as the concept suggests. Whether many reported condensates are phase-separated liquids, or artifacts of overexpression, is still debated, as your own maturity note admits. That matters to me as someone who asks whether the claimed state was actually shown. PROTACs have defined molecular structures behind them. On B013 we are closer: I ranked it fifth and agree that Buchwald and Hartwig are the clean pair, with Kosugi a precursor, and that it would be an honest prize, though an incremental extension of the 2010 cross-coupling prize."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range protein electron transfer (B069) first and nitrogenase (B036) second, valuing quantitative mechanistic evidence.",
+        "response": "I like the quantitative standard and I ranked nitrogenase sixth for the structural reason: the cofactor structure and the carbide are well established, but you say yourself that the full catalytic mechanism is still debated, and the credit is diffuse across Rees, Einsle, Seefeldt, Dean and Ribbe. I would want that mechanistic gap closed before giving a prize. B069 is a high-quality body of work, but the 1992 prize for Marcus covers much of the theoretical frame, and a prize now would need to be justified by the biological extension alone, which I would find difficult to argue against B067's broader reach."
+      }
+    ],
+    "uncertainties": [
+      "Whether the PROTAC and molecular-glue strands should be one prize part or two, and if two, which three people.",
+      "Current clinical status of degraders: I am not certain whether any has been approved, and approval would change the maturity argument.",
+      "Whether Ciulli or Handa is the better third name next to Crews and Deshaies.",
+      "Whether B022 (Corma, Davis, Zones) should be a fallback if B067 cannot gather a majority, given the credit complexity involving Yu and Tsapatsis."
+    ],
+    "conflict_note": "No specific conflict is apparent for B067 from my profile. I note two connections: B022 and B029 lie close to my own field of zeolites and porous or crystalline materials, and I know that community, but my profile shows no collaboration with the named candidates; and I am a Stockholm University colleague of Secretary Peter Brzezinski, which does not bear on any shortlisted candidate."
+  }
+}

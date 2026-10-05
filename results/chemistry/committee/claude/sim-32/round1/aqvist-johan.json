@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Michele Parrinello",
+          "Roberto Car"
+        ],
+        "citation": "For unifying electronic-structure theory and molecular dynamics, enabling first-principles simulation of chemical bonding and reactions in condensed phases."
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B064"
+  ],
+  "statement": {
+    "case_for": "Car-Parrinello molecular dynamics is a game-changer in the sense I care about: a simple, general idea (an extended Lagrangian that propagates electrons and nuclei together) that was completely new in 1985 and has had four decades of real consequences. It made bond breaking, proton transfer, liquid water and reactions in solution and at surfaces computable without a pre-fitted force field, and it is the foundation on which later ab initio and QM/MM work in enzymes and materials was built. The credit is a clean two-person paper, so the three-laureate limit is no problem and attribution is unusually safe. Recognition is mature, not premature, and the results connect quantitatively to experiment.",
+    "case_against": "The strongest reservation is that this may be read as computational physics rather than chemistry, and that Parrinello's most celebrated later work (metadynamics, ML potentials) is different from the 1985 discovery and could blur the citation. There is also the risk that I, as a simulation person, overvalue theory relative to experimental discoveries with direct clinical or industrial reach, such as degraders or lipid nanoparticles.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke also ranks Car-Parrinello first, as a clear physical idea turned into a general capability, but asks whether the committee sees it as chemistry or condensed-matter physics and whether Parrinello's later work blurs the citation.",
+        "response": "I agree on the clarity but not that the discipline question is serious. The questions Car-Parrinello answers are chemical: how bonds form and break, how water and ions behave, how reactions proceed in condensed phases. Its main use has been in chemistry and biochemistry, so I would tie the citation strictly to the 1985 method and leave metadynamics and ML potentials out. That also protects us from the priority and attribution disputes that would follow if we reached into Parrinello's later career."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes puts massively parallel sequencing first because reversible-terminator chemistry became the general tool of genomics, with a Balasubramanian-Klenerman core and Rothberg, Ju and Mayer contesting credit.",
+        "response": "I do not question the impact or that there is real chemistry in sequencing-by-synthesis, and I ranked it sixth for those reasons. My reservation is attribution. Solexa, 454, Ju's terminator chemistry and Mayer's clonal arrays are parallel, overlapping routes, and a prize limited to three would have to pick one route and leave out others who made decisive contributions. Car-Parrinello does not have that problem. I would like an expert view on whether the Solexa chemistry can be defended as the single decisive step before I move B012 up."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks Car-Parrinello sixth and puts phase separation first and energy-landscape folding theory second, valuing concept-level reframings of molecular organisation.",
+        "response": "Concept-level reframing is a fair criterion and the folding funnel qualifies, but I see two weaknesses. First, the 2024 prize on structure prediction and design makes folding theory feel adjacent, and the credit among Wolynes, Onuchic, Dill and Fersht is spread. Second, for phase separation I am not yet convinced the in vivo evidence matches the in vitro droplet work, which you flag yourself as unresolved. By my 'game-changer that has shown real consequences' standard, the maturity of Car-Parrinello is the stronger case. I will happily hear a case that the folding theory carries more consequence than I credit."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks ionizable lipid nanoparticles first as the enabling delivery chemistry behind siRNA drugs and mRNA vaccines, favouring the Vancouver core of Cullis, Hope and Madden.",
+        "response": "I agree that the consequences are huge and I keep it as an alternative. The problem is the three-person limit. The core ionizable-lipid and mixing work is split between Vancouver (Cullis, Hope, Madden, MacLachlan) and MIT (Anderson, Langer), and a Vancouver trio leaves out people with real claims. The 2023 Medicine prize also covered the mRNA vaccine end of this story, so the committee may see overlap. Of the application-driven candidates, I find the attribution for PROTACs somewhat easier to defend, though neither is as clean as Car and Parrinello."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority will treat Car-Parrinello as chemistry rather than computational physics.",
+      "Whether the citation should be limited to the 1985 method or acknowledge later ab initio MD developments.",
+      "Whether the committee prefers a more application-driven or experimental discovery, such as degraders or sequencing, over a theory/method prize.",
+      "Allocation among the PROTAC, molecular-glue and cereblon contributors remains unresolved if B046 becomes the leading alternative."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. My Warshel/EVB background and my work on biomolecular simulation are in the same broad field as ab initio molecular dynamics, but I have no personal or institutional tie to Car, Parrinello or the other shortlisted names."
+  }
+}

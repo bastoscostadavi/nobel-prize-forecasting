@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For the conception and development of heterobifunctional degraders (PROTACs) that harness the ubiquitin-proteasome system for targeted protein degradation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B029",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "My configuration is unchanged. Base editing (Liu alone) is a defined chemical reaction on genomic DNA, deamination of cytosine or adenine at a chosen position, installed without a double-strand break, and it has been reproduced independently by many groups and has reached patients. For genome maintenance this is the cleanest example of a repair-pathway-sparing edit, and the mutational outcomes are measurable, not inferred. PROTACs (Crews, Deshaies) turned ubiquitin-proteasome biochemistry into a design principle in which a ternary complex yields removal of the target instead of inhibition. The round-1 exchange strengthened my confidence on attribution: four members who discussed B052 independently preferred Liu alone, and the 2001 Sakamoto-Crews-Deshaies concept is the origin that every later degrader paper cites. The two parts are distinct achievements and the three-person total is respected (Liu, Crews, Deshaies).",
+    "case_against": "The strongest objections remain real. Base editing sits close to the 2020 CRISPR prize, and Somfai's point that the transformation is a natural deamination on an engineered scaffold means the citation must be worded around the chemistry. For degraders, no PROTAC is an approved drug, and the 2001 paper used peptidic, cell-impermeable molecules, so the drug-like chemistry (Ciulli's VHL ligands and cooperativity work) is arguably later; leaving Ciulli out under the cap is a cost that Aqvist, Brzezinski and Linke rightly point to. A two-part prize also gives up the coherence of a single achievement, and B007 has majority-sized support only as a single part with Ciulli.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke prefers B007 as a single coherent achievement with Crews, Deshaies and Ciulli, ranks base editing below degraders because the generative potential of a new modality is larger, and notes that the 2001 PROTAC paper was proof of concept with cell-impermeable peptides.",
+        "response": "I agree that degraders have the larger generative potential and I accept that the 2001 paper was a proof of concept. But the claim that a bifunctional molecule can recruit a ligase and cause degradation was demonstrated then, and the later chemistry refined it. I considered moving to your single-part B007 trio. I did not, because my case for base editing rests on exactly the kind of evidence I trust most: the chemical outcome is measured directly in genomic DNA and reproduced across laboratories. If the committee leans toward a single achievement, I would accept your trio, with Ciulli taking the seat I currently give to Deshaies only if the citation is written around ligand chemistry and cooperativity rather than the 2001 concept. I hold that this is a judgment call and not a settled point."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili keeps Handa in the trio for the cereblon glue branch, says Handa's identification of cereblon is a mechanistic discovery, and says he would accept Deshaies over Handa. The chair asked him for a priority argument.",
+        "response": "On the science, identifying cereblon as the thalidomide target is a real mechanistic discovery, and I said so in round 1. My objection is to the structure, not the merit. Glue degraders and PROTACs share a downstream mechanism, but the discoveries are different: one is a design concept, the other an after-the-fact explanation of a drug. Placing them in one citation under a three-person cap would blur both. Your willingness to accept Deshaies over Handa narrows our gap, since it removes the main attribution conflict within the PROTAC strand. I still keep the glue strand for a later prize, where it could be argued as its own part with Handa and Ito."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist wants Liu alone for base editing, asks that the citation state that base editing is distinct from Cas9 cleavage, and asks for the clinical status of degraders to be verified in the expert report.",
+        "response": "We agree on Liu alone and on the wording. My citation says programmable chemical conversion of single DNA bases without double-strand cleavage, so the distinction from the 2020 prize is in the text. On clinical status, I would not make approval a requirement for the degrader part, because the committee has recognised principles before clinical proof, but I support your request that the expert report document the phase of the late-stage trials. If it shows that no degrader has yet shown a clinical benefit in a controlled trial, I would weigh the maturity of B007 down and reconsider a single-part B052 or a B029 pairing."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai argues that base editing is a natural deamination placed on a programmable scaffold, that the achievement is mostly protein evolution, and that long-term clinical safety is open, so it is a near-future candidate.",
+        "response": "The deamination chemistry exists in nature, but the base editors required evolving a deaminase that acts on single-stranded DNA, including the adenine deaminase TadA, which has no natural counterpart that edits DNA. That is a new enzymatic reaction and not merely a scaffold change. Your safety point is fair: off-target and bystander editing are quantified in the literature, and long-term outcomes are unknown. I still regard the maturity as sufficient, given the independent reproduction. I also agree with your view on B029, which I list as my first alternative, and I would not oppose it as a single-part prize."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski notes that a Liu, Komor and Gaudelli trio would omit Nishida and Kondo's independent Target-AID work, and that a base-editing citation must explain what is chemically distinct from the 2020 prize.",
+        "response": "This changes my view on attribution. I no longer propose Komor and Gaudelli, since a trainee-based trio does not resolve the Target-AID priority problem and would use two of the three seats. Liu alone is a cleaner choice, and the citation addresses your point about what is chemically distinct. I would add that Nishida and Kondo's work was a cytidine-deaminase fusion, whereas the adenine editor is separate, so Liu has the broader claim."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept base editing as chemistry distinct from the 2020 CRISPR prize.",
+      "Whether the expert report shows degraders to be late-stage enough for the principle to be recognised now.",
+      "Whether Ciulli should hold the second B007 seat instead of Deshaies if the committee wants a single-achievement B007 prize.",
+      "Whether a two-part prize is preferable to a single coherent achievement."
+    ],
+    "conflict_note": "No specific conflict is apparent. My work on dNTP pools and replication fidelity is topically adjacent to genome editing, since deaminated bases and base-excision repair intersect with nucleotide metabolism, but I have no personal or institutional tie to any credited person. I have no recusal to declare."
+  }
+}

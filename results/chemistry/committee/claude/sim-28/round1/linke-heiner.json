@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-28",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B058",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B050",
+        "laureates": [
+          "Hagan Bayley",
+          "Mark Akeson"
+        ],
+        "citation": "for engineering nanopores and enzyme-controlled translocation that read single DNA and RNA molecules electrically"
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B059"
+  ],
+  "statement": {
+    "case_for": "I opened with nanopore sensing (B050) because it combines a clean physical principle, ionic-current blockade with single-molecule resolution, with a capability that did not exist before: portable long-read sequencing and a generic single-molecule analytical platform. Having read the other seven ballots, I now see that base editing (B058) has the broadest support (four top-three placements, ranked by six members, and first by Aqvist) and the cleanest conceptual story: an evolved deaminase fused to a programmable binder turns a base conversion into designed chemistry, and it has reached patients. I propose the two as a shared prize. Both are chemically engineered molecular tools for DNA, one that writes a single base and one that reads a single strand, and each can be explained to a broad audience. Liu is the intellectual driver of the first, and Bayley (engineered protein pores) and Akeson (enzyme-ratcheted translocation) supply the chemistry-driven steps of the second that turned a proof of concept into a working technology.",
+    "case_against": "Base editing follows CRISPR (2020) closely, and its first clinical record is short. Nanopore sequencing has a hard attribution problem, because the three-name limit excludes Deamer and Branton, who proposed the strand-through-pore idea, and Kasianowicz, who made the first demonstration. I am also aware that I rank nanopores first partly because the physics is congenial to me. A reviewer could reasonably say the chemistry content of the pore work is less decisive than the instrumentation and enzyme-motor engineering, and that a combined prize dilutes two stories that each stand better alone. If Deamer is dropped, the citation has to be worded carefully so it describes what Bayley and Akeson actually did.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks base editing first as a chemist's contribution through evolved deaminases, argues that CRISPR in 2020 makes a Liu-led or Liu-only configuration cleanest, and treats Kondo and Nishida as a secondary claim.",
+        "response": "I agree on the science and have moved B058 into my preferred configuration because of this argument. I follow Aqvist on naming Liu alone: it avoids debating whether Komor and Gaudelli, as trainees, belong, and it frees one slot of the three-person cap for a second achievement. I do not think Kondo and Nishida's parallel Target-AID work can be ignored in the citation, but it does not change who should be named. My caveat is that the CRISPR 2020 prize is a real counterweight, so I would want the citation to stress the chemistry of nucleobase conversion and not genome editing in general."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks targeted protein degradation (B008) first as turning ubiquitin-proteasome proteolysis into a designable chemical reaction, while admitting that clinical approval of a degrader is still pending.",
+        "response": "The induced-proximity principle is compelling and I put B008 as an alternative. I do not put it first for two reasons. The credit is spread over Crews, Deshaies, Handa, Ciulli, Gray and others, and the three-name limit forces an arbitrary cut. Also, Chabes himself notes that no PROTAC is approved, so the therapeutic proof that supports the strongest 'vast possibilities' argument is still arriving. Base editing has the same age but has already treated patients. If the committee wants B008, I would ask for a precise statement of who first showed what: PROTAC concept, cereblon as the thalidomide target, or ternary-complex design."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalysed C-N cross-coupling (B030) first, with Buchwald and Hartwig, noting that Kosugi's tin-amide chemistry is a precursor and that the field is mature and arguably overdue.",
+        "response": "I accept that B030 has the cleanest attribution of any shortlisted case, and that its maturity is not in doubt. My hesitation is that the 2010 cross-coupling prize already rewarded the central idea of Pd-catalysed bond formation, so I would like Somfai to say what is new in kind, not only in scope, for C-N coupling beyond ligand optimisation. If he can show a distinct mechanistic discovery, I would readily consider B030 as a second part, but I have not seen enough in his ballot to displace the two tools above."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation (B059) first as a physical-chemical principle of membraneless organisation, while recognising that Pappu and Mittag are decisive for the theory and that the in vivo function of condensates is debated.",
+        "response": "This is the case closest to my own physicist's taste, since it rests on thermodynamic principles, and I ranked it second myself. I take her point about the strong quantitative framework. But Brzezinski's opening and my own both flag the unresolved question of what counts as true phase separation in living cells, and the attribution among Hyman, Brangwynne, Rosen, Pappu and Mittag is as difficult as for nanopores. I keep it as an alternative and would reconsider if she can state which result, as opposed to the broad concept, a citation would credit."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts a two-part prize combining base editing and nanopore sensing, or prefers a single achievement.",
+      "Whether excluding Deamer, Branton and Kasianowicz from the nanopore part is defensible, and whether Deamer should replace Akeson or Bayley.",
+      "Whether Kondo and Nishida's Target-AID work should be recognised or at least acknowledged for base editing.",
+      "Whether the 2020 CRISPR prize makes base editing too close a follow-on, and whether the chemistry content of nanopore sensing is sufficient for a chemistry prize.",
+      "Relative weight of clinical maturity: degraders (B008) lack an approved drug, while base editing has early clinical results and nanopores are in routine use."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My research on nanostructures, molecular motors and biocomputation is close in spirit to nanopore physics, but the profile lists no collaboration or institutional tie to any shortlisted candidate. I note it for transparency."
+  }
+}

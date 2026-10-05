@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-45",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of single DNA bases without double-strand breaks"
+      },
+      {
+        "ballot_id": "B009",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "for the concept and demonstration of targeted protein degradation by induced proximity with PROTACs"
+      }
+    ]
+  },
+  "alternatives": [
+    "B058",
+    "B013"
+  ],
+  "statement": {
+    "case_for": "I opened with B009 first and B024 second, and the first round has moved me toward treating them as a pair rather than rivals. Base editing has the strongest opening support in the room (three first places, five top-three), and it passes my game-changer test cleanly: a simple chemical idea, deamination of a defined base by an engineered enzyme tethered to a nickase, that gave a general capability and is already in patients. Targeted protein degradation is the same kind of idea in pharmacology: induced proximity turns a protein-binding molecule into a protein-removing one, reaching targets without an active site, and the mechanism is quantifiable and independently confirmed. Together they form a coherent two-part prize on programmable chemical control of biomolecules, with distinct achievements and a union of only three people, which the three-laureate limit makes workable. Liu alone for base editing is defensible because he is the intellectual originator and the engineering programme was his; Crews and Deshaies hold the 2001 PROTAC priority, with Sakamoto and Kim as first authors who cannot be seated.",
+    "case_against": "The strongest reservation is that a pairing like this buys breadth at the cost of leaving out people with strong claims: Komor and Gaudelli did the decisive first-author work on the two base editors, Nishida and Kondo have a real Target-AID precedent, and Handa, Ciulli and Gray are central to the glue and VHL-based branches of degradation. Clinical proof is also incomplete, since no PROTAC drug is approved as far as I know, so B009 may be early for the PROTAC branch, and a second genome-editing prize so soon after 2020 may look like a follow-on to some. If the committee decides that the molecular-glue/cereblon story is the real mature core, my PROTAC attribution is wrong and I would shift to Handa.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel Aili ranks base editing first and proposes Liu, Komor and Gaudelli as the natural trio, with the 2020 CRISPR prize as the main maturity worry.",
+        "response": "I agree that base editing is the leading candidate on maturity and independent replication, and that the 2020 concern is manageable because the new chemistry is distinct. Where I differ is on using all three seats for it. Komor and Gaudelli were superb lead authors, but Liu directed the concept, the evolution of the deaminase and the follow-on editors; if we take three seats here, we cannot honour a second achievement. I would accept the trio only if the committee decides that a one-part prize is stronger, but I think the Liu-alone configuration with a second part is cleaner."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei Chabes ranks base editing first as turning a biological process into a defined chemical reaction on DNA, and rules out Nishida and Kondo as less general precedents.",
+        "response": "The framing as a defined chemical reaction is exactly why this belongs in Chemistry, and I share the view that the Liu work generalised the approach. I am less comfortable excluding Nishida and Kondo as casually: Target-AID was independent and published at almost the same time, so priority is something we should state explicitly rather than assume. It does not change my seat allocation, since the three-person limit forces the choice either way, but I would want the citation to be about the principle and not about one lab's constructs."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Peter Brzezinski ranks nitrogenase structure and mechanism first, valuing structure plus kinetics, and considers the field mature even though the catalytic cycle is still debated.",
+        "response": "I take the point that nitrogenase is a deep and mature problem, and I respect the Rees and Einsle structural work, including the carbide. My hesitation is the one you flagged yourself: the central mechanistic question of where and how N2 binds is unresolved, so the discovery is a structure without a settled catalytic explanation, and attribution among Rees, Einsle, Seefeldt, Dean and Ribbe is crowded. The theory-minded test I apply is whether the mechanism connects quantitatively to experiment, and for nitrogenase that is not yet established. I would want the committee to be sure about a consequential outcome before elevating it."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Emma Sparr ranks ionizable lipid nanoparticles first for its clear physical-chemical principle and enormous impact, and phase separation second, with Cullis, Hope and Madden as the coherent trio.",
+        "response": "The pKa-tuned ionizable lipid is a compelling chemical idea and the clinical validation is overwhelming, so I put B013 among my alternatives for that reason. My qualification is that the delivery system emerged from several groups (Cullis in Vancouver, Anderson and Langer, MacLachlan), and the seat limit forces an allocation that leaves out people with real claims, including those who made the ionizable lipids that actually drive the potency. I would also want the committee to ask whether this reads as chemistry or as pharmaceutical formulation after the 2023 Medicine prize."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee prefers a one-part base-editing prize (Liu, Komor, Gaudelli) over a two-part prize pairing it with targeted protein degradation.",
+      "Whether the degradation prize should centre on PROTACs (Crews, Deshaies) or on molecular glues and cereblon (Handa), and how to treat Ciulli and Gray.",
+      "How much weight to give the absence of an approved PROTAC drug when judging maturity.",
+      "How to handle the Nishida and Kondo priority claim for deaminase-Cas fusion editing."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. My Warshel/EVB background and professional interest in simulation methodology are not tied to any of them, and I have no stated connection to Liu, Crews, Deshaies, Handa or the other named candidates."
+  }
+}

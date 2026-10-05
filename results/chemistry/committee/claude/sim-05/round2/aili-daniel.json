@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation by induced proximity, in which bifunctional small molecules recruit E3 ubiquitin ligases to remove chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation changes what a small molecule does: instead of occupying a site, it brings a target and an E3 ligase into a ternary complex whose cooperativity is measurable and tunable, and the cell's ubiquitin-proteasome system does the removal. That is a design principle with precise control over recognition and proximity, it reaches proteins without a classical pocket, and it has been independently reproduced across many academic and industrial groups and many ligases. Crews and Deshaies conceived and first demonstrated the PROTAC concept in 2001, and Ciulli supplied the VHL ligand chemistry and the structural and cooperativity rules that turned it into a rational, drug-like discipline. After reading the exchange I have moved from Crews, Ciulli and Handa to Crews, Deshaies and Ciulli. B007 remains my first choice because it is the only candidate where most of the committee already agrees on the mechanism, the principle is confirmed outside the originating labs, and the effect on what chemists and clinicians can do is concrete.",
+    "case_against": "No degrader is yet an approved drug, so clinical payoff is still prospective, and my translational leaning should be discounted. A three-name cut leaves out Handa, Ito, Sakamoto, Gray and Kim, and the cereblon glue strand is a real discovery that the citation will only cover through its wording. Somfai's challenge that the bifunctional design is largely medicinal chemistry on E3 biology has force for the 2001 peptidic proof of concept, though I think the later quantitative ternary-complex work answers it. If the committee judges clinical proof to be required, base editing or C-N coupling are the more mature fallbacks.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist asks that any case for Handa rest on priority and not on fame, and would keep Crews, Deshaies and Ciulli with the glue story covered by the citation text.",
+        "response": "I cannot produce a priority argument that beats this. Handa and Ito identified cereblon as the thalidomide target, which explains how an existing drug works. The design of a degrader for a chosen target starts with Crews and Deshaies, and dropping Deshaies would leave the 2001 concept without a co-originator. I withdraw Handa from my slate and take Deshaies. My earlier reason for Handa was completeness of the glue branch, and I now think that is better served by wording the citation around induced proximity than by a name."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski prefers Deshaies over Handa for the third seat and wants the citation not to imply that the glue branch is less important; he also wants the field evaluation to confirm that the 2001 proof of concept and the later ligase-ligand chemistry are each essential.",
+        "response": "I accept both points. My round-1 doubt about verifying the 2001 contribution was a reason to ask for the expert report, not a reason to exclude Deshaies, and the first report is not in doubt. I agree the citation must not read as a ranking of strands, so I use the general phrase induced proximity and recruitment of E3 ligases, which does not exclude molecular glues. Whether the later VHL chemistry is an essential step and not a refinement is why I keep Ciulli: his structural account of cooperativity is what made degrader design predictive."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes anchors on Crews and Deshaies and would argue the glue branch as its own part, and pairs B007 with base editing as a two-part prize.",
+        "response": "I now agree on the PROTAC anchor. I do not follow you to a two-part prize, because a second part ties B007 to the unsettled question of whether base editing is chemistry after the 2020 CRISPR prize, and it dilutes the citation. I also keep Ciulli instead of dropping to two names, since the cooperativity and VHL work is what justifies calling this a design discipline. If the committee wants the glue branch recognised, I agree it should be argued separately, in a later year, and not blurred into this citation."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai asks what is new chemically in degraders, calls the design largely medicinal chemistry on E3 biology, and prefers to wait given attribution and the lack of an approved drug.",
+        "response": "Part of this I concede: the 2001 molecules were peptidic and not drug-like, and E3 biology is a precondition. But the new chemistry is that binding is no longer the endpoint. A bifunctional molecule is designed to create a ternary complex whose cooperativity sets selectivity, and that is quantitative and transferable across targets and ligases, which is why it spread. On attribution, I now think Crews, Deshaies and Ciulli is cleaner than my round-1 slate, which weakens your point. On waiting, I would not make an approval the bar when the principle has been confirmed by many independent groups."
+      }
+    ],
+    "uncertainties": [
+      "I have not verified the current clinical status of late-stage degraders and rely on the expert report for it.",
+      "Whether the committee accepts a citation worded around induced proximity as adequately covering cereblon molecular glues without naming Handa or Ito.",
+      "Whether Ciulli or Sakamoto, Handa and Gray would be preferred by colleagues for the third seat if the committee treats the 2001 report as proof of concept only."
+    ],
+    "conflict_note": "No specific conflict with any credited name. My postdoc mentors (Stevens, Boey) and my Linköping group are not credited. I disclose a translational and biosensor-industry leaning that makes me favour candidates with a visible route to application, and I have discounted it. Research overlap with Sparr concerns peptide self-assembly, not these candidates."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-47",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B029",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "for the conception and first demonstration of targeted protein degradation by bifunctional small molecules that recruit E3 ubiquitin ligases"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "Both parts turn a biological process into a defined chemical reaction and give the field a general tool. Base editing is hydrolytic deamination of a nucleobase, engineered by directed evolution and tethered to a programmable nickase, so the enzymology is transparent and has been independently reproduced in a very large number of laboratories, in animals and in early human trials. Targeted protein degradation introduces event-driven, induced-proximity pharmacology in which a small molecule hijacks an E3 ligase, and the concept has been confirmed by many independent groups with compounds now in the clinic. Together they cover the two strongest-supported ideas in the opening ballots, one on nucleic-acid chemistry and one on the chemistry of protein homeostasis, and each can be given a clean citation with one or two names.",
+    "case_against": "Base editing follows the 2020 CRISPR-Cas9 prize, and the clinical record is only a few years old, so some will call it early. Targeted protein degradation has no approved PROTAC drug that I can confirm, so clinical benefit is unproven and the thalidomide/cereblon strand (Handa, Ito) is left outside this configuration, which is a real attribution cost. Splitting into two parts also dilutes each, and a single-achievement prize with a more settled attribution might be easier to defend.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked base editing first but credits only David Liu, since Komor and Gaudelli were the first authors of the key papers and Nishida and Kondo complicate priority.",
+        "response": "I moved toward this view. In my opening I listed Komor and Gaudelli because they carried out the experiments on the cytosine and adenine editors, but the conception and the program were Liu's, and a Liu-only part is easier to defend and frees a place for a second achievement. I disagree with Linke only mildly: Nishida and Kondo (Target-AID) are a real parallel line, so the citation should be worded around the engineered base-editor concept and not claim priority for the first deaminase fusion."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked targeted protein degradation first, as a genuinely new pharmacological principle with testable chemistry, and proposed Crews, Deshaies and Handa to cover both PROTACs and molecular glues.",
+        "response": "I agree on the principle and on the maturity of the mechanism. Where I qualify it is on attribution: the Crews-Deshaies PROTAC concept and the Handa cereblon work are different discoveries, and a prize that names both under one citation risks reading as arbitrary. In this configuration I cut to Crews and Deshaies to keep a coherent citation, and I accept that the molecular glue story is then excluded. If the committee wants Handa, it should say explicitly that the citation covers glue degraders and then ask whether Deshaies still belongs."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranked Pd-catalyzed C-N coupling first, as a ligand-controlled method that made aryl amines routine, and ranked base editing fourth because the chemistry is evolved enzyme chemistry and genome editing was honored in 2020.",
+        "response": "I take the synthetic-method case seriously: Buchwald-Hartwig is mature and its impact on drug synthesis is easy to demonstrate. My reservation is not about merit but about novelty relative to 2010, which Somfai himself raises. On his point that base editing is only evolved enzyme chemistry, I disagree: converting one defined nucleotide to another in a living cell without a strand break is a new capability, and the chemistry is a defined reaction, not an observation. I keep B002 below the two I propose, but I would not oppose it as an alternative."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranked nitrogenase first and base editing last in his list of eight, on the grounds that mechanism backed by kinetics in a living system matters most, with the nitrogenase mechanism still under debate.",
+        "response": "I agree that nitrogenase is a hard and important chemical problem, but his own account says the catalytic mechanism and substrate-binding site are still open. That makes it less settled than the two I propose, and the credit is spread across five people. I would want to see the recent cryo-EM turnover-state work independently reproduced before ranking it above either of these."
+      }
+    ],
+    "uncertainties": [
+      "Whether Nishida and Kondo (Target-AID) deserve credit alongside Liu for the base editor concept.",
+      "Whether the absence of an approved PROTAC drug makes targeted protein degradation premature relative to base editing.",
+      "Whether Handa's cereblon work should be named, and whether Deshaies or Ciulli is the correct second PROTAC name.",
+      "Whether the 2020 CRISPR-Cas9 prize makes a base editing prize look redundant to the broader committee."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on dNTP pools and replication fidelity is adjacent to nucleic-acid editing, but I have no recorded collaboration, institutional tie or lineage link to any credited candidate; I should recuse if any candidate turns out to be a collaborator from the Umea, Rothstein or Stillman networks."
+  }
+}

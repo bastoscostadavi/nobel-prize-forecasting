@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-42",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B067",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For turning ubiquitin-proteasome chemistry into a design principle: small molecules that direct an E3 ligase to a chosen protein and trigger its degradation"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B051"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation converts a biological process, regulated proteolysis, into a defined chemical reaction that can be designed: a bifunctional molecule or a molecular glue brings an E3 ligase and a target into proximity and the target is ubiquitinated and destroyed. This is the kind of result I look for, a mechanism understood at the level of a chemical event that also gives biologists a general tool. Opening support was broad and not confined to one subfield: three first-place votes and five top-three placements, including colleagues from computation, biophysics and biochemistry. The concept (PROTACs, 2001) preceded the chemistry that made it work, and the cereblon story (Handa and Ito) supplied a molecular explanation for thalidomide-type drugs, which links the PROTAC and glue branches into one coherent achievement. Degraders are in clinical trials, and the tool is already used routinely in chemical biology, including acute depletion of proteins in genome-maintenance work.",
+    "case_against": "Clinical validation is incomplete: there is no broadly approved heterobifunctional degrader yet, and I would want evidence that degradation is robust and not specific to a few favorable targets and E3 ligases, since most of the field relies on only two or three ligases (CRBN and VHL). The attribution is also the most contested on the shortlist. Credit is spread over at least eight named people, any three-person selection leaves out important contributors (Ciulli, Gray, Sakamoto, Ito, Kim), and the PROTAC and molecular-glue strands have different intellectual origins, so a single citation could look like a merger of two discoveries. A reasonable committee could find it slightly early.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B067 first but proposes Crews, Deshaies and Ciulli, treating Ciulli's VHL ligand and structural rationale as what made PROTACs drug-like, and flags that the glue branch (Handa, Ito, Gray, Sakamoto, Kim) is a strong competing claim.",
+        "response": "I agree that Ciulli's VHL ligand was a decisive step, because the first PROTACs used peptides and were not usable as drugs. Where I differ is that Handa's identification of cereblon as the thalidomide target is not only a glue-branch contribution; it is the target-identification result that put CRBN-based degraders in the clinic and gave the field its second E3 handle. If the prize is for the principle that a small molecule can redirect an E3 ligase, I would credit the conceptual origin (Crews, Deshaies) and the mechanistic discovery that explains the drug class (Handa). I accept that choosing Handa over Ciulli is a judgment call, and I would not oppose Ciulli if the committee prefers the PROTAC-only framing."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks phase separation (B049) first as a clear physical principle of demixing and concentration thresholds with quantitative support, and ranks degraders second.",
+        "response": "The observation that P granules and nucleoli behave as liquids is real and influential, but I am less convinced that the field has reached the point of established chemical mechanism. Much of the cellular evidence relies on overexpression, in vitro droplets at nonphysiological concentrations, and the question of whether condensate formation is the cause or a consequence of function is still disputed. In my own field I have seen widely held assumptions fail when quantities were measured carefully, so I want independent confirmation that these assemblies work in cells at endogenous concentrations before treating the concept as settled. Degraders have the opposite profile: a defined chemical reaction, many independent groups reproducing it, and molecules in patients. I would keep B049 as a candidate for later, not as the leading choice."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalyzed C-N coupling (B013) first as a general, simple, and routinely used method with a clean two-person credit (Buchwald and Hartwig).",
+        "response": "I accept that the attribution is the cleanest on the list and the impact on medicinal chemistry is lasting. My reservation is novelty: it extends the 2010 palladium cross-coupling prize to a new bond type, and the committee would be rewarding a refinement of an already recognized idea. Degraders open a modality that did not exist before, namely removal of a protein by design, and that is the kind of change in what chemists can do that I would put ahead of a mature extension. I would not oppose B013 as a prize later, and I think it is a reasonable second-tier choice."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range electron transfer in proteins (B069, Gray and Winkler) first and nitrogenase (B036) second, as physical-mechanism foundations for biological redox chemistry, and gives degraders no rank.",
+        "response": "I share his respect for mechanism, and nitrogenase was in my own top eight. But electron tunneling in proteins is already largely in the textbook and partly covered by the 1992 Marcus prize, so it is less likely to change what researchers do now. The nitrogenase credit is diffuse (Rees, Einsle, Seefeldt, Dean, Ribbe) and the catalytic mechanism is still not fully resolved. I would ask him what experimental result he expects to settle the mechanism, since that decides for me whether it is mature enough."
+      }
+    ],
+    "uncertainties": [
+      "Whether PROTACs and thalidomide-type glues should be a single prize part or are two distinct achievements; a two-part prize would require dropping one of them to keep the union at three people.",
+      "Who should hold the third place: Handa (cereblon target identification) or Ciulli (VHL ligand and structure-guided design), and whether Ito, Gray, Sakamoto or Kim should be considered for it.",
+      "How much weight the committee should give to the lack of a broadly approved heterobifunctional degrader at this date.",
+      "Whether base editing (B052) would be seen as too close to the 2020 CRISPR prize if the committee prefers a nucleic-acid chemistry choice."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I know none of the credited degrader researchers as a collaborator, and my work on nucleotide metabolism and replication fidelity is only distantly related; I note a mild interest in base editing and sequencing as nucleic-acid tools, which does not affect my preferred choice."
+  }
+}

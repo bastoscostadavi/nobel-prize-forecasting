@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-20",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of sequencing-by-synthesis chemistry and single-molecule array methods enabling massively parallel DNA sequencing"
+      },
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the chemical conversion of one DNA base to another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B044"
+  ],
+  "statement": {
+    "case_for": "After reading the openings I would pair two achievements that are different sides of the same chemical control over DNA: reading it at massive scale (sequencing-by-synthesis with reversible terminators on clustered or single-molecule arrays) and rewriting a single base in place (base editing). Both have a clear underlying principle, a genuinely new capability, and a quantitative payoff that can be explained to a broad audience. Sequencing is more than fifteen years mature and independently confirmed everywhere; base editing is about a decade old, with many independent labs and first patients treated. Support is real: Aqvist ranks Liu first and sequencing second, so the pairing is the configuration closest to a possible overlap of views rather than a product of artificial consensus. I narrowed B001 to Balasubramanian and Klenerman, who originated the Solexa chemistry, so the pair of parts stays within three people and Liu stands alone as the clean single-laureate part.",
+    "case_against": "The strongest objection is that this is a two-part prize with an unusual thematic link and neither part has broad opening support: B001 was ranked by only three members and B061 by six, so the pairing may satisfy no one's first choice. Sequencing may be judged biology or technology rather than chemistry, and the 1980 prize already honoured DNA sequencing. Dropping Rothberg's 454 pyrosequencing leaves out the first commercial massively parallel platform and invites a fair challenge on attribution; including Rothberg would require removing Liu or splitting differently. Base editing follows the 2020 CRISPR prize closely and long-term clinical safety is unproven, which argues that it may be early.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks Liu's base editing first as a game-changer with a clean single-laureate story, and sequencing second, noting the Solexa and 454 lineages divide credit.",
+        "response": "I agree that Liu alone is the cleanest attribution and that base editing is a chemically conceived invention distinct from CRISPR cleavage. I part from you on the sequencing credit: because you treat Balasubramanian, Klenerman and Rothberg as one natural trio, you pass over the fact that this uses all three slots of the cap and forces a choice against Liu. Hence my two-part configuration with only the Solexa originators, and I would like you to say whether you would accept dropping Rothberg for the sake of pairing it with Liu."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes places PROTACs and molecular glues first as a designable chemical reaction that converts ubiquitin-dependent proteolysis into a general tool, and treats sequencing as mature and possibly better suited to medicine or already covered by 1980.",
+        "response": "The conceptual originality of induced proximity is real and I moved B007 up into my alternatives, but I place it behind the two DNA parts because the credit is the problem: eight credited names across the PROTAC and glue strands, and your own three-person cut of Crews, Deshaies and Handa leaves out Ciulli, Sakamoto and Gray, as Aili and Sparr emphasise. On the 1980 point I disagree: that prize recognised the Sanger and Maxam-Gilbert chemistry, whereas massively parallel sequencing by synthesis is a different invention with a distinct measurement principle and a million-fold change in scale. I am more persuaded by your timing argument, since approval-level clinical proof for degraders is still pending."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular condensates first, as phase behaviour applied to living systems that reduces biological complexity to physical-chemical principles, while acknowledging that liquid-like behaviour in vivo does not always demonstrate function.",
+        "response": "I like the physical-chemical framing and agree that the P-granule droplets are an elegant starting observation. My reservation is the one you raised yourself: it is hard for me to write a defensible citation when the physiological relevance and the definition of a condensate are still debated, and five people (Hyman, Brangwynne, Rosen, Pappu, Mittag) each have a strong claim to a three-person cap. I would want the committee to separate the original discovery from later refinements before settling this, and the case would be stronger if quantitative tests of function in vivo had matured further."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range electron transfer through proteins first, as a compact, physically clean and foundational mechanism by Gray and Winkler underlying respiration and photosynthesis.",
+        "response": "This is the kind of quantitative, mechanism-level result I respect, and Gray and Winkler are a compact two-person set. Where I differ is on generative potential: it explains a fundamental process very well, but I see less of a new capability that opens a field. I also share your point about attribution, since Marcus theory was already recognised in 1992 and the pathway models came from other groups, so I would want to know what exactly is new beyond that theory before I put it ahead of the DNA candidates."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts sequencing as chemistry and treats it as distinct from the 1980 DNA sequencing prize.",
+      "Fair division of sequencing credit among Solexa/Illumina, 454 pyrosequencing, and the reversible-terminator and cluster-amplification contributors if Rothberg is excluded.",
+      "Whether base editing is early relative to long-term clinical safety data, and how to weigh the Nishida and Kondo work against Liu's group.",
+      "Whether the PROTAC and molecular-glue strands can be cut to a defensible three-person set."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no personal tie to any shortlisted candidate. My own research interest in single-molecule nanoscale devices is closest to the nanopore ballot B044, which I have kept as an alternative, and I will weigh that on its merits only."
+  }
+}

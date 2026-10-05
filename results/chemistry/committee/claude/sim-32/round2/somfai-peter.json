@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalyzed carbon-nitrogen cross-coupling, a ligand-controlled method for forming aryl amines."
+      }
+    ]
+  },
+  "alternatives": [
+    "B024",
+    "B046"
+  ],
+  "statement": {
+    "case_for": "I keep Pd-catalyzed C-N coupling as my preferred single prize part. After round 1 the case rests on three points that nobody disputed. First, maturity: three decades of independent use in medicinal and process chemistry, materials and total synthesis, so the interpretation is stable and the adoption is documented. Second, attribution: Buchwald and Hartwig built the general catalytic systems independently in the mid-1990s, the pair is accepted by every member who commented, and Kosugi's tin-amide chemistry is a precedent that a citation worded around the general catalytic method handles cleanly. Third, what was new chemically: C-N reductive elimination from palladium amido complexes, competing beta-hydride elimination and the ligand design that solved it were new mechanistic problems, not a rerun of C-C coupling. The round-1 exchange has not produced any candidate that combines these properties with a cleaner three-person cut, and the chair's observation that B024 is the only other cleanly attributed candidacy is correct.",
+    "case_against": "The 2010 prize for palladium-catalyzed cross-coupling is a real headwind: Chabes and Linke weigh it more heavily than I do, and a committee that values a new principle over a new, general reaction will see B006 as a follow-on. A second reservation is that B006 does not answer the chair's question about reach into biology and medicine in the way B064, B012 or B046 do. Third, B024 has three first-place supporters and the same clean credit, so if the committee wants the most defensible single-discovery citation, it can fairly argue that B024 is stronger on novelty of concept than B006 is.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke accepts B006 as mature and cleanly attributed but weighs the 2010 cross-coupling prize more heavily, and asks whether C-N coupling is a new mechanistic concept or a major ligand-driven refinement.",
+        "response": "It is more than a refinement, and the answer is mechanistic. The 2010 prize rested on transmetalation of a carbon nucleophile to arylpalladium followed by C-C reductive elimination. In C-N coupling the amine must bind and be deprotonated at palladium, and the resulting amido complex must undergo C-N reductive elimination against competing beta-hydride elimination, which is why the first-generation tin-amide system was narrow and why bulky chelating and then biaryl and hindered alkyl phosphines were needed. That is a different elementary-step problem and it opened aryl amines, a motif in a very large share of drugs. I concede that this is a difference of degree for a committee that reads the 2010 citation broadly, and I do not claim it settles the matter."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist argues that Car-Parrinello is a clean two-person credit, a game-changer for theory, and that the discipline objection is not serious since its questions are chemical and its use is mainly in chemistry and biochemistry.",
+        "response": "The attribution and maturity points stand and I have no scientific objection to B024; that is why I now list it as my first alternative. I remain less convinced that its main use is in chemistry and biochemistry. As a synthetic chemist I see the daily effect of C-N coupling in every discovery programme, whereas ab initio molecular dynamics shapes how chemists understand liquids, interfaces and solids rather than how they make molecules. Your point that the 1985 citation can be fixed without adjudicating Parrinello's later work is well taken and answers the blurring concern. If the committee decides it wants a theory prize, I would vote B024 over any other computational choice."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes names Car-Parrinello as his fallback for B012 because credit among Solexa, 454, Columbia and Mayer is hard to settle, and says C-N coupling is weakened by the 2010 prize.",
+        "response": "I agree with his own conclusion about B012: if the allocation between Solexa, 454, Ju and Mayer cannot be defended, a three-person cap makes that prize arbitrary, and the 1980 Sanger and Gilbert prize also weakens the novelty case. The 2010 point I have addressed in my reply to Linke. I would add that the same cap, which hurts B012, B064 and B046, does not hurt B006, and attribution is a legitimate scientific criterion rather than a counting convenience."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili prefers ionizable lipid nanoparticles (B064) with Cullis, Hope and Madden as the clearest case of a chemical design principle (the pKa-tuned lipid) that changed clinical practice, and sees the 2023 Medicine prize as not covering the delivery chemistry.",
+        "response": "The pKa-tuned ionizable lipid is a real design principle and I accept the pharmaceutical consequence. Sparr's reading of the phase behaviour also answers my formulation worry better than I expected. My difficulty remains the cut: Aqvist and you both concede that Anderson and Langer have a defensible claim, and I am unable to judge the priority between Vancouver and MIT from the documents. I would not oppose B064 on chemistry grounds, but I cannot support a trio that the committee itself regards as contestable when a cleaner choice exists."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority accepts that C-N coupling is conceptually distinct from the 2010 prize, which I regard as a judgement about weight rather than fact.",
+      "Whether the committee prefers a prize that points at a new medical modality (B046, B064, B012) over core synthetic methodology; the chair's question about moving first choices makes this a values question.",
+      "Whether Kosugi should appear in the expert report; I would leave him out of the credited names and word the citation around the general catalytic method.",
+      "I could move to B024 if the committee clearly wants a single cleanly attributed prize and B006 cannot reach five votes; I could move to B046 if the discovery and the names (PROTACs or molecular glues) are fixed and clinical maturity is shown."
+    ],
+    "conflict_note": "No conflict with any shortlisted candidate: no collaboration or institutional tie to Buchwald, Hartwig, Kosugi, Car, Parrinello or the degrader groups. As the committee's synthetic organic chemist I may be biased toward molecule-making over theory or biology, which I state here. My mentor Masamune is not a candidate; I share Lund University with Linke and Sparr, which creates no tie to any candidate. Unchanged from round 1."
+  }
+}

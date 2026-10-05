@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-11",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of one DNA base into another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B053",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "Base editing takes two well-defined chemical reactions, cytidine and adenosine deamination, and turns them into a general single-nucleotide tool by placing an engineered deaminase on a displaced DNA strand next to a catalytically impaired Cas protein. The cytosine editor (Komor) and the adenine editor (Gaudelli) are separate chemical achievements: the latter required evolving TadA to act on DNA, which has no natural counterpart. The chemistry has been reproduced across many laboratories and organisms, and there is first clinical data. Because I measure nucleotide pools and replication fidelity, I care that the editing outcome follows from a defined chemical mechanism with a measurable product distribution, which is the kind of discovery I value. The credited names are clean: Liu led both programs, and Komor and Gaudelli were the lead experimentalists on the two editor classes.",
+    "case_against": "The strongest reservation is timing and category. The 2020 prize recognized CRISPR-Cas9 genome editing, so a reader may see base editing as a refinement of it, and the field is only about ten years old. Long-term safety (off-target deamination, bystander edits, and Cas-independent off-target effects) is not fully settled, and the clinical record is short. Kondo and Nishida (Target-AID) made a parallel, near-simultaneous invention that a three-name prize cannot include, which leaves a real attribution gap.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks base editing fourth and proposes crediting Liu alone, since the CRISPR prize recently honored genome editing and a single-laboratory prize would be simpler.",
+        "response": "I agree the CRISPR prize makes the novelty question fair, but the distinction is chemical: base editing makes no double-strand break and instead uses deamination followed by cellular repair to fix the base. That is a different reaction with a different mechanism and a different error profile. I would still credit Komor and Gaudelli. They did not merely follow instructions. Komor built the first cytosine editors and Gaudelli evolved TadA to deaminate adenosine in DNA, which was a separate and non-obvious chemical result. Reducing the prize to Liu alone would understate that, and we have room for three names."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks targeted protein degradation first as a programmable tool that removes proteins instead of inhibiting them, and ranks base editing fourth as a chemistry-driven tool.",
+        "response": "I respect the PROTAC case and rank it third. My difference is evidential and not about importance. The degradation mechanism is well confirmed, but clinical efficacy is still being established and the credit is split between PROTACs and the thalidomide-cereblon glues (Handa, Ito, Gray), which a three-name prize cannot hold without a hard choice. Base editing has a tidier priority picture and independent reproduction at the level of measured editing outcomes, with patients already treated."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalyzed C-N coupling first because of three decades of confirmation, industrial use and generality from ligand design, and ranks base editing sixth, partly because it is only about ten years old.",
+        "response": "Buchwald-Hartwig is mature and I do not doubt its impact, and Peter's point about timing is fair for base editing. My reservation about C-N coupling is the 2010 cross-coupling prize and the Kosugi precedent, which make the novelty argument harder to argue. I think the committee should weigh maturity against whether the achievement is a clean, new chemical concept. Base editing is more recent but has stronger conceptual novelty, and replication is already extensive. I would not call C-N coupling a poor choice; I just think the case is less clear."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks base editing first as a clear chemical principle, an engineered deaminase on an impaired Cas protein, with strong replication and clinical trials.",
+        "response": "I agree with the core argument. I add that the real test is whether the proposed chemical mechanism holds up when measured, and here it has, including product purity and the bystander-editing window. Where I would temper the discussion is clinical readiness. We should base the case on the chemistry, which is solid today, and not on the therapeutic outcomes, which are still emerging."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat base editing as sufficiently distinct from the 2020 CRISPR prize, or as an extension of it.",
+      "Whether Kondo and Nishida (Target-AID) priority is strong enough to require a different three-name configuration.",
+      "Whether long-term off-target and bystander-editing safety data will change the assessment; I have not independently reviewed the latest data."
+    ],
+    "conflict_note": "No specific conflict is apparent from my provided profile. I work on nucleotide metabolism and genome stability, not genome editing, and have no stated collaboration with any shortlisted candidate. My field is adjacent to base editing, since DNA repair and dNTP pools affect editing outcomes, but I am not aware of a personal or institutional tie."
+  }
+}

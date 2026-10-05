@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Michele Parrinello",
+          "Roberto Car"
+        ],
+        "citation": "for unifying electronic-structure theory and atomic motion in first-principles molecular dynamics"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B046"
+  ],
+  "statement": {
+    "case_for": "Car-Parrinello molecular dynamics is the cleanest combination of principle, generality and attribution on the shortlist. The 1985 extended Lagrangian lets electrons and nuclei evolve together, so bonds break and form, liquids and solids are treated at finite temperature, and no pre-fitted force field is needed. The idea is quantitative, forty years of independent use in water, solids, catalysis and biomolecular active sites support it, and it can be explained to a broad audience in one sentence. It has the highest opening support (two first places, Borda 25), and the credit is a clean two-person one: a single two-author paper. Recognition is overdue rather than premature, and the citation can be kept to the original method so later work (metadynamics, machine-learned potentials, plane-wave DFT codes) does not need to be adjudicated.",
+    "case_against": "The strongest reservation is category and framing: some will see this as computational or condensed-matter physics rather than chemistry, and as a physicist I may be too favourable to a physical idea. Computational methods also have recent prize precedent (2013 multiscale models, 2024 structure prediction), so the committee may feel the area is already covered. Finally, the method is now partly displaced in everyday practice by Born-Oppenheimer MD and machine-learned potentials, so one must be careful that the citation honours the original conceptual step and not the present tools.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks Car-Parrinello first as a game-changer for theory that connects quantitatively to experiment, with clean two-person credit and an overdue case.",
+        "response": "I agree on attribution and maturity, and your experience with simulation of biomolecular reactions is the best test of the 'game-changer' claim. I would press one qualification: the computational-chemistry precedent (2013, 2024) means we must say what is new here. My answer is that it is the unification of electronic structure and dynamics, with no empirical force field, rather than simulation in general. Can you confirm that bond-breaking in condensed phase and enzymatic reactions was truly out of reach before 1985, and that the citation need not extend to Parrinello's later metadynamics?"
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks massively parallel sequencing first, as sequencing-by-synthesis chemistry that underpins genomics, with credit best held by Balasubramanian and Klenerman and the other inventors contesting the split.",
+        "response": "I share your view that the impact is exceptional and the timing is mature, which is why I keep B012 as my first alternative. I disagree that the attribution is settled by taking the chemical-core pair: Rothberg's pyrosequencing route and Mayer's and Ju's work are independent routes to the same capability, and a prize built on one of them would need a clear argument for why that chemistry is decisive. Until the committee can state that crisply, I see a larger risk of an unfair citation than for B024. I would like you to say what, precisely, in the Solexa chemistry could not have been replaced by the competing routes."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks ionizable lipid nanoparticles first as the enabling delivery chemistry of siRNA drugs and mRNA vaccines, with pKa-tuned lipids and controlled mixing, noting that the 2023 Medicine prize did not cover delivery.",
+        "response": "The societal impact is as large as anything on the list and I ranked it fifth only because of attribution, not merit. Six names are credited across Vancouver and MIT, and you yourself note credit is spread across academic and company teams, so a three-person cut is hard to defend. I also want to separate the discovery of the ionizable-lipid principle from later formulation optimization. If you can show that Cullis, Hope and Madden hold the decisive step (the pKa-tuned lipid and rapid mixing), I would move it up."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalyzed C-N coupling first as the strongest molecule-making candidate, with a clean Buchwald-Hartwig pair, while noting the 2010 cross-coupling prize may make the area seem recognized.",
+        "response": "I accept that it is a mature and widely used method and that Buchwald and Hartwig are the right pair. My reservation is the same one you raise: with the 2010 prize for Pd cross-coupling, it risks reading as an extension of an already honoured principle, whereas Car-Parrinello opens a different capability. I would welcome your view on whether C-N coupling is a new mechanistic concept or a major ligand-driven refinement."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts Car-Parrinello as chemistry rather than computational physics, given the 2013 and 2024 computational precedents.",
+      "Whether the citation should cover only the 1985 method or also Parrinello's later developments.",
+      "For the sequencing alternative, which route (Solexa, 454, Mayer, Ju) is decisive for credit.",
+      "I am relying on memory for the 1985 paper and its priority relative to related work."
+    ],
+    "conflict_note": "As Chair I am a physicist at Lund; none of the shortlisted candidates is at Lund or a collaborator of mine as far as the profile shows, so no specific conflict is apparent from the provided profile. My physics background may bias me toward B024, which colleagues should weigh."
+  }
+}

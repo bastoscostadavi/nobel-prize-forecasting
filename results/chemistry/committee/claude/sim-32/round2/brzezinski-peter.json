@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Michele Parrinello",
+          "Roberto Car"
+        ],
+        "citation": "for the unification of electronic-structure calculation and atomic motion in first-principles molecular dynamics"
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "I keep Car-Parrinello molecular dynamics (B024) as my single-part position. After the full round-1 exchange nothing has changed the core of the case: one dated, physically transparent step (the 1985 extended Lagrangian that propagates electronic degrees of freedom and nuclei together), a two-author paper that leaves no credit dispute and no pressure on the three-name limit, and four decades of independent use that fixes its interpretation. The chair asks whether this is chemistry. I think it is: the method exists to make bond breaking, proton transfer, liquid water and reactions in solution and at surfaces computable without a pre-fitted force field, and those are the questions chemists ask. From my own field, proton motion in water and in hydrogen-bonded networks is exactly where fixed-topology force fields fail, and ab initio dynamics is what gave a first-principles picture of it. The citation can be limited to the 1985 unification, so metadynamics, plane-wave codes and machine-learned potentials need not be adjudicated. In the expert report this is the easiest candidacy to defend, because the claim is specific and checkable.",
+    "case_against": "The reservations are real. The category question remains open: B024 sits close to condensed-matter physics, and the 2013 multiscale and 2024 structure-prediction prizes mean a third computational prize needs a clear argument that it recognizes a different principle (it does: ab initio dynamics, not classical or multiscale force fields, and not learned structure prediction). The method is also partly displaced in everyday practice by Born-Oppenheimer MD and machine-learned potentials, so the citation must honour the conceptual step rather than the present tools. It is a pure theory-and-method prize with no biological or clinical counterpart, so it carries less of a chemistry-wide signal than B046, B064 or B012. I regard those candidacies as scientifically important; I do not support them as first choice mainly because their credit cannot be settled in three names on the evidence presented.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "The citation can be limited to the 1985 method so that later work, such as metadynamics, machine-learned potentials and the plane-wave codes, does not need to be adjudicated, and one must honour the original conceptual step and not today's tools.",
+        "response": "I agree and would write it the same way. That also answers your chair question on category: the citation should name the unification of electronic structure and ionic motion, which is a statement about how chemical change is computed, and should not mention condensed-matter applications as the reason. Where I differ from you is weight. In round 1 I said I would test attribution cleanliness against reach. After doing so, I still rank clean attribution higher because the other leading candidacies need a three-name cut that the record in front of us does not justify, but I do not claim cleanliness alone makes B024 the more important science."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Car-Parrinello is a game-changer that made bond breaking and proton transfer computable without a pre-fitted force field and underlies later ab initio and QM/MM work in enzymes and materials.",
+        "response": "I accept the proton-transfer and condensed-phase examples and would want the expert report to cite them. I would be more careful with the statement that it is the foundation of QM/MM work in enzymes. The Warshel-Levitt line, already recognized in 2013, was built on a different route, and the citation should not claim a lineage the report cannot document. Your worry that a simulation specialist overvalues theory is shared by me, which is why I treat B046 as a serious competitor and not as a lesser one. My choice rests on the fact that its attribution is settled and its credit is exact."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Massively parallel sequencing is a chemical achievement at its core, built on reversible terminators, cleavable fluorophores and clonal clusters, and the Balasubramanian and Klenerman pair is the unambiguously chemical part of the story.",
+        "response": "Your argument that the reversible-terminator cycle is chemistry is persuasive and is the strongest case for B012 as a chemistry prize. It does not remove the attribution problem you yourself flagged. Ju's terminator chemistry, Rothberg's 454 route and Mayer's clonal arrays are parallel contributions, and Aili's ballot includes Rothberg, so the committee would be defining the discovery by choosing a route. A two-name Solexa citation could be defended only if the expert report shows that this route, and not the competing ones, is what the field adopted, and that is a documentary question I cannot answer from this record. I note that you name B024 as your fallback if attribution cannot be settled, and I think it cannot be settled on the evidence given."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Ionizable lipid nanoparticles are the clearest case on the shortlist of a chemical design principle (pKa tuned for neutral circulation and cationic endosomes plus rapid-mixing assembly) that changed what clinicians can do, and the carrier was not covered by the 2023 Medicine prize.",
+        "response": "I accept the consequence and the point that the 2023 prize recognized the cargo and not the carrier, which is a better answer to redundancy than I gave in round 1. I withdraw that part of my objection. The remaining problem is the cut. You, Sparr and the chair summary all name Cullis, Hope and Madden, yet MacLachlan, Anderson and Langer, as well as company work, are credited on the ballot, and Sparr's opening paired Cullis with Anderson. For a three-person citation I need the expert report to show which step is decisive (ionizable lipid design, rapid-mixing assembly or lipidoid screening) and who did it first. Until then I cannot move B064 above B024, though it is a better candidate than I first treated it."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Ionizable lipid nanoparticles are a physical-chemical solution rooted in lipid polymorphism and self-assembly, and you now judge B064 stronger and better attributable than biomolecular condensates (B025).",
+        "response": "I appreciate your openness about your own field. I agree that the principle is physical chemistry, and I also think B025 is rightly held back, since the question of how much of in vivo condensate behaviour is true phase separation is not settled. My disagreement is on 'better attributable': your own statement says that six names are contested and that you have not verified dates. I would not treat that as better attributed than a single two-author paper. If the committee does move toward B064, I would ask that the credit follow documented priority in ionizable lipid design and not a count of support."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Palladium-catalysed C-N coupling replaced harsh, narrow routes to aryl amines, and its attribution to Buchwald and Hartwig is tractable with thirty years of independent confirmation.",
+        "response": "I agree on maturity and on the pair, and you answer the question of what is chemically new more directly than most do. My hesitation is only the 2010 palladium cross-coupling prize: the C-N step needed different ligand and mechanistic solutions, as you say, but the committee would have to accept that as a distinct principle and not a follow-on, and your own uncertainties show that is a judgement call. I rank B006 below B024 for this reason, not because the science is weaker; if the committee is leaning toward a synthetic-methodology prize I would find your case more convincing than the alternatives in that area."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Long-range electron tunnelling through proteins (Gray, Winkler) has strong kinetic data, but much of the theory is Marcus-type, so the new contribution is the distance dependence and pathway picture, which should be stated in the citation.",
+        "response": "Thank you for restating the boundary against Marcus; it is the right test and I applied it myself. In this round B068 has no support besides my opening vote, so I have removed it from my alternatives. The reason is not that I doubt the science but that a prize cannot be built on one vote, and I should not treat my own field interest as committee evidence. As a Stockholm University colleague I also want to be transparent that your own B030 has no first-place support beyond yours, and that my objection to it (a line of work rather than a dated discovery, with Tsapatsis and Yu partly separable from the trio) is about structure of the case, not about your expertise."
+      }
+    ],
+    "uncertainties": [
+      "Whether the expert report will treat Car-Parrinello as chemistry, and whether a third computational prize after 2013 and 2024 is seen as redundant or as a distinct principle (ab initio dynamics).",
+      "Whether the citation can be fixed to the 1985 unification without the later work being read into it; I rely on the report, not memory, for priority relative to related early work.",
+      "Whether B046 can be reduced to a defensible three-name credit (PROTACs against molecular glues, and Crews, Deshaies, Ciulli, Handa), which is the main thing that could move my first choice.",
+      "Whether the committee will prefer a medicine-facing prize (B064, B012, B046) over a clean-credit prize, which is a values question that I cannot resolve by evidence alone."
+    ],
+    "conflict_note": "I am a Stockholm University colleague of Xiaodong Zou, whose B030 is not my preferred pick, and I work on biological electron and proton transfer, so B068 touches my field, which is why I no longer rely on it as an alternative. Car-Parrinello touches biological energy conversion only indirectly through proton-transfer simulation; no personal or institutional tie to Car, Parrinello or any other shortlisted name. No recusal is needed, and I have disclosed that my physics training may favour a physical principle such as B024."
+  }
+}

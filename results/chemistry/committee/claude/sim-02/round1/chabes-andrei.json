@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of reversible-terminator sequencing-by-synthesis chemistry and clustered single-molecule arrays for massively parallel DNA sequencing"
+      },
+      {
+        "ballot_id": "B031",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editors that chemically convert one DNA base into another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B043",
+    "B020"
+  ],
+  "statement": {
+    "case_for": "Both parts are cases where a defined chemical reaction on nucleotides became a general tool for biologists. Sequencing by synthesis rests on modified nucleotides that a polymerase will incorporate and that can be unblocked on a surface. It is mature, independently validated for fifteen years and underlies nearly all genome-stability, cancer and population-genetics work, including mine. Base editing is a designed deamination of a base inside DNA, with the outcome measured quantitatively, and it has reached patients. Pairing the two keeps the prize on one chemical theme, reading and rewriting DNA bases, and keeps it at three people. On the opening ballots B043 has the broadest support (six of eight members rank it, three in their top three). I have therefore moved it up to my first alternative and I accept that it could end up the committee's centre of gravity.",
+    "case_against": "The strongest objection is that both parts are genomics technologies, and the committee may see them as instrumentation and genome engineering rather than chemistry. Sequencing by synthesis has parallel lineages (454 pyrosequencing, Ju's terminators, Mayer's clustering) and restricting it to two names leaves out genuine contributors. Base editing is about a decade old and sits close to the 2020 CRISPR prize, and long-term safety is unknown. Only I and Aili rank B012 in the top four, and only Aqvist and Zou rank B031 at all besides me. The pairing may lack the breadth of support that B043 or B016 already has.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B045 first but gives B012 a fully mature, enormous-impact case for Balasubramanian and Klenerman alone, while noting competing platform claims by Rothberg, Mayer and Ju.",
+        "response": "I agree that Balasubramanian and Klenerman are the chemically decisive pair, and I now drop Mayer from my opening trio. Clustering was an important parallel contribution but the reversible-terminator and single-molecule array chemistry is what the citation should rest on. On B045 I accept the delivery chemistry is outstanding, but the credit is spread over at least six people with proprietary history. I cannot see a clean two- or three-name cut from the ballots."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke places B012 last in his top eight and doubts the chemistry versus medicine fit and the competing platform lineages, and gives B016 perovskites his first place.",
+        "response": "I disagree on fit. The decisive step is nucleotide chemistry: modified dNTPs, polymerase tolerance and a cleavable blocking group. That is the type of molecular work the chemistry prize has honoured before, and Physiology or Medicine would be unlikely to recognise it. I do share your concern about parallel lineages, which is why I narrow to two names. On perovskites I take your point about scale of impact, but I cannot judge stability or lead toxicity and would want these shown to be solved before ranking it above mature candidates."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks B043 eighth because it is mainly a design principle for heterobifunctional molecules rather than a new reaction, and may be premature with no approved PROTAC drug.",
+        "response": "I partly agree: the maturity gap is why I do not make B043 my first choice, and the Crews/Deshaies versus Handa/Ito split is a real problem. But I would resist the claim that nothing is new chemically. Cereblon as the thalidomide target is a clear mechanistic result explaining an old drug, and event-driven catalytic degradation is a different pharmacology. I keep B043 as a first alternative, not a lead, until clinical proof arrives."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks B031 fifth, proposes Liu with Komor and Gaudelli, and worries about overlap with the CRISPR prize and about Nishida and Kondo's priority.",
+        "response": "I propose Liu alone because Komor and Gaudelli are trainees who carried out experiments in his design, and naming them would be unusual for a chemistry prize. On Nishida and Kondo, their cytidine-deaminase fusion is a real independent precedent, and I accept that this weakens a clean Liu-only citation unless the wording is on the engineered, defined-outcome editor. I agree with you that the 2020 CRISPR overlap is the main risk and that this is why B031 should be a second part rather than the whole prize."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks B031 seventh and says Liu is the clear leader but a Liu-plus-trainees configuration is unusual and the CRISPR overlap suggests waiting or pairing with prime editing.",
+        "response": "I agree that trainee recognition is unusual, so my configuration names Liu only. Pairing with prime editing (B035) would strengthen the case but it is not on the shortlist, so I cannot use it now. If the committee thinks B031 is too early on its own, I would rather see B012 stand alone as the two-name prize than add a weaker second part."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee treats sequencing-by-synthesis and base editing as chemistry rather than genomics and genome engineering.",
+      "How to credit Mayer, Ju and Rothberg fairly if only Balasubramanian and Klenerman are named.",
+      "Whether Nishida and Kondo's independent cytidine-deaminase work undermines a Liu-only citation.",
+      "Whether B043 should displace my configuration if the committee prefers a single, broadly supported discovery, and if so whether Handa or Ciulli completes the trio."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I know the Umeå, Cold Spring Harbor and Rothstein networks, but none of them includes the credited names for B012, B031 or the listed alternatives. My own field relies on sequencing and on nucleotide pool measurements, which could bias me toward B012, and I flag that."
+  }
+}

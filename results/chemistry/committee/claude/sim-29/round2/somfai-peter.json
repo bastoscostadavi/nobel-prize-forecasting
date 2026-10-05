@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-29",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B057",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "for the development of palladium-catalyzed carbon-nitrogen cross-coupling, the ligand-controlled catalytic amination of aryl halides"
+      },
+      {
+        "ballot_id": "B042",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B014",
+    "B054"
+  ],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged: B057 for Buchwald and Hartwig, and B042 for Liu alone, three names in total. Palladium-catalyzed C-N coupling is the clearest case on the list of a general method that changed how molecules are made. Ligand design, bulky electron-rich phosphines and later biaryl phosphines and NHCs, turned the formation of aryl C-N bonds from a narrow reaction needing harsh conditions or classical Ullmann/SNAr limits into a routine step in medicinal chemistry and process chemistry. Its mechanism (oxidative addition, amine binding and deprotonation, C-N reductive elimination) is well understood, and it has been confirmed independently for three decades. For base editing the new chemistry is concrete and checkable: a deaminase acts on a defined single-stranded window exposed by a Cas-bound nickase, and the adenine editor needed directed evolution of an enzyme with no natural DNA activity. Liu alone keeps the pair at three names and keeps the credit clean. Round 1 did not give me a scientific reason to drop either part. It did show that B057 has narrow support, and I say that plainly below.",
+    "case_against": "B057 was ranked by only four members at opening and sixth to eighth by three of them. Several colleagues (Linke, Aqvist, Zou) see it as an extension of the 2010 cross-coupling prize, and I have not given them a quantitative answer, such as counts of drug candidates or process routes that use the reaction, because I do not have verified numbers. B042 sits next to the 2020 CRISPR prize, its clinical record is short, and leaving out Komor, Gaudelli, Nishida and Kondo is a real credit cost. My configuration gives no part to targeted protein degradation, which six colleagues put in their preferred configuration. If the committee wants that, I would not obstruct it, but I do not think a PROTAC-only citation resolves the Ciulli/Handa question, and I would not let the three-name limit decide it silently.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke asks what new capability C-N coupling adds beyond the 2010 prize, and in the chair's questions for round 2 the same issue is asked of B057 and B025.",
+        "response": "The new capability is a different bond type that required different catalyst design. The 2010 reactions form C-C bonds; forming C-N bonds needs catalysts that allow amine binding and C-N reductive elimination to outcompete beta-hydride elimination and catalyst deactivation, which is why ligand development was the real advance. It gave access to arylamines, which are ubiquitous in drugs, agrochemicals and materials, by a route that previously had no general solution. I accept that this is a value judgment, and that I cannot prove it against a colleague who reads the 2010 prize as covering the family. I do not change my view, but I would drop Kosugi from any version of B057, since the tin-amide chemistry was stoichiometric and narrow."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist said he would not object strongly to B057 but does not see it as more novel than protein degradation, and urged that a citation rest on the chemical principle.",
+        "response": "I take the point that novelty of concept favours degradation, and I will not claim that C-N coupling is conceptually newer. My criterion is different: whether chemists everywhere got a general method they could not have used before. I agree with the principle-over-outcome wording he wants in a degradation citation, and I would apply the same standard to mine, which is why my B057 citation names the reaction and the ligand-controlled catalytic amination without claiming any therapeutic outcome."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes now prefers Liu alone for base editing, to free a seat for Crews and Deshaies, and says he cannot yet check priority between the cytosine base editor and Target-AID.",
+        "response": "I agree on Liu alone for the reasons he gives (architecture and directed evolution came from one group, and it keeps the configuration within three), and I share his unease about Nishida and Kondo. The Komor 2016 and Nishida 2016 papers were close in time, and I cannot settle priority from memory, so I would want the committee to say explicitly that a Liu-only part is a credit judgment made under the three-name limit. Where I differ from him is on pairing: his B014 plus B042 pair is also a chemical-biology pair, and I would sooner have a prize with one molecule-making part, which is why I keep B057 beside B042."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou disagrees that degradation is early and says B057 is defensible but that she would not put it above B014 on novelty; she also asks whether the committee should honour the PROTAC concept or the glue mechanism.",
+        "response": "I accept her correction on timing: the PROTAC concept dates from 2001 and cereblon from 2010, so 'early' is not the right word for the science, and it is only the missing approved PROTAC that is open. My real concern with B014 is the credit problem that she herself identifies. Handa's cereblon work is a mechanism of an existing drug; Ciulli's VHL ligands and structure-guided design are the part that I, as a synthetic chemist, recognise as new chemistry. If the committee goes with B014, I would take Crews, Deshaies and Ciulli, with a citation framed on induced proximity by small molecules, and not Handa. That is my answer to the chair's Ciulli versus Handa question."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski keeps B025 as a distinct physical principle, and says Gray and Winkler's work is overdue, and the chair asks what B025 and B057 add beyond earlier prizes.",
+        "response": "I respect the mechanistic case and the clean two-person credit, and B025 and B057 are alike in having clean attribution and a maturity that nobody doubts. But I rate a general method that others use daily above a framework that explains a natural process, and B025 builds on Marcus theory in a way that makes the 'what was new' question as hard as for B057. I do not change on that, and I would not oppose B025 as an alternative for a later year."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept Pd C-N coupling as distinct from the 2010 cross-coupling prize; I have no verified usage counts to offer.",
+      "Whether the Liu-only credit for base editing is defensible given Komor, Gaudelli and the parallel Nishida-Kondo work, whose priority I cannot settle from memory.",
+      "Whether a two-part prize with a weakly supported first part can compete with the six-member support for B014.",
+      "How much clinical evidence for degraders and base editors the committee needs, given that no heterobifunctional degrader is approved as far as I recall, which should be verified."
+    ],
+    "conflict_note": "No conflict requiring recusal. None of Buchwald, Hartwig, Liu or the other names in my configuration or alternatives is a collaborator, former mentor or colleague. My doctoral and postdoctoral background (Chalmers, and Masamune at MIT) is in synthetic methodology, so I may favour method-development candidates, and I disclose that bias. I am a Lund colleague of Heiner Linke and Emma Sparr, which is not a recusal matter here."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-07",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B055",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling, through ligand design and mechanistic understanding of the amination of aryl halides"
+      }
+    ]
+  },
+  "alternatives": [
+    "B060",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged: B055, Buchwald and Hartwig, as a single part. Having read the full exchange, the case still rests on what was new chemically, which I can now state in one sentence for the citation: a catalytic C-N bond formation that works on ordinary amines and aryl halides under practical conditions, because ligand design solved problems that the C-C couplings never posed. Amines bind palladium and can poison it, amido complexes are prone to beta-hydride elimination, and C-N reductive elimination from Pd(II) is intrinsically hard. Bulky, electron-rich biaryl and hindered alkyl phosphines (Buchwald) and the mechanistic work on amido intermediates (Hartwig) addressed each step, and the result became a default disconnection in medicinal and process chemistry and in materials. The two-name attribution is clean, the independent confirmation spans thirty years, and there is no timing risk, which no other leading candidate can claim on all three counts.",
+    "case_against": "The strongest objection, raised by Chabes and Aili, is originality relative to the 2010 prize: that a different nucleophile on the same Pd(0)/Pd(II) cycle is an extension, not a new principle. I do not think it is decisive, for the mechanistic reasons above, but I accept it is a real judgement call and not one the literature can settle. The second is that the Kosugi priority question rests on my memory and not on documents in the files. The third, which I take more seriously after round 1, is that a molecule-making prize may be less novel in capability than base editing or degraders, which create things that did not exist before, whereas C-N coupling made an existing target (aryl amines) routine.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke asks how Buchwald and Hartwig can be separated from Kosugi's precursor in a citation a general audience can follow, and says that if the answer is clean B055 might even pair with a second part.",
+        "response": "Kosugi (1983, Kosugi, Kameyama and Migita, as I recall it) coupled aryl bromides with tributyltin amides, which needs a stoichiometric, toxic and preformed nitrogen reagent and does not reach ordinary amines. The 1994-1996 work replaced that with free amines plus a base, then supplied the ligand classes and mechanistic picture that made it general and predictable. The citation can therefore say 'general' and 'ligand design' and omit Kosugi without distortion: the prize goes to the method everyone uses, not to the first proof of concept. I do not move to a two-part prize. Adding a second part would dilute a clean, mature, two-name award, and the committee has no majority for any pairing, so I keep a single part."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes says C-N coupling is arguably the same chemistry with a different nucleophile, so the committee would recognise an extension of the 2010 prize, whereas base editing creates a capability that did not exist.",
+        "response": "I disagree on the premise. Chemistry's own history treats a new bond type with a new mechanistic obstacle as a new achievement: the Pd cycle was recognised in 2010, but the amido-palladium steps (amine coordination, deprotonation, C-N reductive elimination) were not part of that story, and it took roughly a decade of ligand work to make them work. On capability, the aryl amine was not impossible before, but it was harsh and substrate-limited; it is now routine at scale, which is a capability change for every synthetic chemist. I do accept that base editing is a stronger new-capability story, and my remaining concern with it is still attribution (Kondo and Nishida's parallel Target-AID work, which a Liu, Komor, Gaudelli trio omits) and the 2020 CRISPR prize it follows. That keeps it as my alternative and not my first choice."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili defends B012 as a new mechanistic principle, with cooperativity in the ternary complex and reprogramming of E3 substrate specificity, already confirmed independently, and accepts some prematurity risk.",
+        "response": "I concede that point in part: the cereblon finding that a small molecule can redirect a ligase is a mechanistic principle, not only optimisation, and I was too quick to call it medicinal-chemistry design. That is why B012 stays on my alternatives list. What I still cannot resolve is the credit. The chair's summary shows two lineages (PROTAC concept and thalidomide-cereblon mechanism), a contested third seat between Handa and Ciulli, and Gray, Sakamoto, Kim and Ito in the background, and no approved degrader. A prize for a method that has settled into daily use is the more defensible option today, and degraders can be recognised later once outcomes and the credit picture settle."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist agrees with the distinction from 2010 but asks that the citation state the reasoning on how the mechanistic problem differs, instead of assuming it.",
+        "response": "I agree and have changed my citation accordingly: it now names ligand design and mechanistic understanding of aryl-halide amination. The committee should also record that the 1990s papers that established the method came from two groups working independently and converging on the same conclusion, which is the strongest evidence for a two-name award."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski chooses Handa over Ciulli to fit B012 in three names and accepts that a real structural-chemistry contribution goes unrecognised, noting that the lineages might be better treated separately.",
+        "response": "That last caveat is my own reading: if the PROTAC and glue strands are two achievements, a three-name B012 puts them under one citation and leaves out Ciulli, who made PROTACs drug-like. That is the cleanest statement of why I rank it below B055, and I would be more comfortable with a two-part degrader prize than a merged one, though that would use up the three-name budget."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee treats C-N coupling as distinct from the 2010 prize or as an extension; I believe it is distinct but cannot show it from the files.",
+      "The Kosugi history is recalled from memory, not verified literature; I have not been able to check dates, conditions or scope.",
+      "Whether a molecule-making prize is the committee's priority this year over a chemical-biology or tools prize; no majority exists for any configuration.",
+      "Whether the credit for degraders or base editing will become cleaner (Ciulli versus Handa; Target-AID) in a way that would change my ranking."
+    ],
+    "conflict_note": "No conflict with any credited name for B055 (Buchwald, Hartwig) or any alternative. I am the committee's sole synthetic organic chemist, which shapes my weighting toward methods; I have no collaboration, institutional or family tie to any shortlisted person."
+  }
+}

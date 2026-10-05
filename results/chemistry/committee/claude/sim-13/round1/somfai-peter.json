@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-13",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "for the development of palladium-catalyzed carbon-nitrogen cross-coupling, a general method for constructing aryl amines"
+      }
+    ]
+  },
+  "alternatives": [
+    "B056",
+    "B058"
+  ],
+  "statement": {
+    "case_for": "Pd-catalyzed C-N coupling is a clean example of a general method that changed everyday bench practice. Ligand design (bulky biaryl phosphines from Buchwald, hindered trialkyl- and ferrocenyl phosphines from Hartwig) turned a harsh, substrate-limited transformation into a predictable one that works on hindered, heteroaromatic and base-sensitive substrates. Its adoption is visible in a very large share of medicinal and process chemistry routes and in textbooks, so the impact is easy to verify in the literature. The attribution is also tidy: two independent groups developed the catalytic systems and kept extending them for decades. After 25-plus years of use, recognition is mature and arguably overdue, and the 2010 prize for C-C cross-coupling left C-N coupling unrecognised. Mechanistically it also rests on well-understood oxidative addition, amine binding and reductive elimination steps, which is the conceptual simplicity I look for.",
+    "case_against": "The strongest objection is that it is incremental after 2010: the same palladium cross-coupling logic, now with a new nucleophile, and a committee that wants a new concept may call it extension rather than discovery. Priority is also not entirely clean, because Kosugi and Migita's tin-amide chemistry preceded it and is on the credited list. Finally, it has far less public reach than the lipid nanoparticle or degrader candidates, and several colleagues weigh that reach heavily.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan ranks Car-Parrinello first as an overdue, conceptually clean two-person method with unambiguous credit, and ranks Buchwald-Hartwig second as a simple, general and practical reaction.",
+        "response": "We agree that B016 is mature and cleanly attributed, and I accept that B058 is a strong foundational candidate. My reservation is about field breadth: ab initio molecular dynamics has changed how simulations are done, but its reach into the experimental practice of most chemists is narrower than that of a reaction used daily in laboratories and in industry. I do not read that as a ranking of merit, since I can judge the synthetic literature far better than the simulation one. I would be glad to hear whether the arguments for B058 rest on adoption, or on the conceptual step of joining electronic structure and dynamics. I would keep B058 as my alternative and would not oppose it."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei ranks PROTACs and molecular glues first, because induced proximity gives a general catalytic chemical tool and the cereblon discovery explains thalidomide at the molecular level.",
+        "response": "The cereblon mechanism is a real result, and I ranked B056 sixth rather than lower for that reason. As a synthetic chemist I ask what was new chemically. The heterobifunctional design and the E3 ligands (VHL, cereblon) are genuine molecular design, but the central discovery is biological and pharmacological, and the field has no approved PROTAC yet. The attribution is also the hardest on the list, because Crews, Deshaies, Handa, Ciulli, Sakamoto, Gray, Kim and Ito all have claims and the three-person limit forces a split between the PROTAC and glue lines. I think B056 is a likely future prize but is less ready than B016, and I would favour waiting."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner ranks nanopore sequencing first as a clean physical principle (ionic-current blockade) that became label-free long-read sequencing with wide field use.",
+        "response": "I agree on maturity and commercial validation, and the measurement is a beautiful one. My qualification is on the chemical contribution and attribution. The principle came from physics and engineering, the central innovations were protein pore engineering and enzyme-controlled translocation, and any three-name selection from Deamer, Branton, Kasianowicz, Akeson and Bayley leaves out someone with a strong claim. If the committee prefers this one I would want a careful account of who made it work. B016 has no comparable attribution problem."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranks ionizable lipid nanoparticles first for delivering nucleic-acid drugs, as pKa-tuned molecular design with siRNA and mRNA vaccine impact, and the natural chemistry complement to the 2023 Medicine prize.",
+        "response": "I agree that the societal impact is the largest on the list and that ionizable lipid design is real chemistry. Two doubts remain. First, credit is spread across Cullis, Madden, Hope, MacLachlan, Anderson and Langer, and as Daniel acknowledges, the Vancouver and MIT contributions do not fit three names without a contestable cut, and the colleagues' openings propose three different trios. Second, the decisive advances look closer to formulation and screening than to a new chemical principle. I would not block B019, but I do not yet see it as the stronger case chemically."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will see C-N coupling as a sufficiently distinct advance after the 2010 C-C cross-coupling prize.",
+      "How much weight Kosugi and Migita's earlier tin-amide work should carry in the citation; Migita is not on the credited list, so I would limit the names to Buchwald and Hartwig.",
+      "Whether colleagues weigh public and biomedical reach so heavily that B019 or B056 outranks a method-centred prize."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no known tie to Buchwald, Hartwig or Kosugi (my mentor was Masamune, not a candidate), and the only relevant connection is that Heiner Linke and Emma Sparr are Lund colleagues, which does not affect this candidate."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B058",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of massively parallel DNA sequencing by synthesis based on reversible-terminator chemistry"
+      },
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of one DNA base into another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B024",
+    "B007"
+  ],
+  "statement": {
+    "case_for": "Both parts pass the test I apply as chair: a clear underlying principle, a quantitative record, and a capability that did not exist before. Sequencing by synthesis rests on one well-defined chemical idea, a reversible terminator that lets a polymerase add exactly one fluorescently read nucleotide per cycle on a clustered or single-molecule array. That turned reading DNA into a scalable measurement and made genomics routine; two decades of global use leave no doubt about maturity or impact. Base editing is the same kind of story at the other end of the central dogma: deaminase chemistry, coupled to a programmable DNA-binding protein, rewrites a single base without a double-strand break, and the results are measured quantitatively (editing window, bystander edits, off-target deamination) and are already in clinical use. Together they read and write DNA by chemical means, which makes a citation that can be explained to a broad audience in two sentences, and the 2020 CRISPR prize was for the genetic scissors, so base editing is a distinct chemical step. Two parts with three names in total stays within the rules and gives a defensible attribution to each.",
+    "case_against": "The two parts are only loosely related, so the pairing could look assembled rather than natural, and each is vulnerable on its own. Sequencing by synthesis has a genuine priority and platform problem: Rothberg's pyrosequencing-based 454 system was the first commercial massively parallel instrument, and Mayer's early contribution is in the credited list, so dropping them needs a clear principled argument that the reversible-terminator chemistry is the core discovery. Base editing is young, long-term clinical safety is not established, Kondo and Nishida's independent Target-AID work is a real priority claim, and naming only Liu means leaving out the lead experimentalists Komor and Gaudelli. Finally, base editing may be read as biology or medicine, and the 2020 and 2024 prizes already went to genome editing and protein science.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan ranks base editing first and argues that a single-laureate prize for David R. Liu is defensible, because the conceptual and engineering contribution is clearly Liu's and adding a second name would dilute it, while the chemistry claim is distinct from the CRISPR prize.",
+        "response": "I agree with the attribution logic and have adopted it: a Liu-only part keeps the citation clean and lets the other part carry a different field. I would press on one point. Komor and Gaudelli made the first cytosine and adenine editors, and the adenine editor needed directed evolution of TadA on DNA, which was not a trivial extension. If the committee names only Liu, we must be able to explain that the citation is for the concept and its general realization. I am also less convinced than Johan that the Kondo and Nishida priority claim can be waved off as parallel; it should be checked against dates before we finalize."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei places base editing first with Liu, Komor and Gaudelli and sequencing by synthesis second with Balasubramanian and Klenerman, arguing that both are chemistry-driven inventions with extensive independent reproduction, and that sequencing is overdue.",
+        "response": "Our rankings are very close and I find his nucleotide-chemistry argument for both persuasive. Where I differ is on breadth of the base-editing credit: three names would use the entire three-person limit on one part, which would force sequencing down to a single name or out of the configuration, and that is the main reason I support Liu alone. I also take his caution that his knowledge of the priority history in sequencing is imperfect, since this is where I opened with Rothberg and have now moved away from that."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Peter ranks long-range electron transfer through proteins first, as a quantitatively established physical mechanism with three decades of confirmation, and a clean two-person prize for Harry B. Gray and Jay R. Winkler.",
+        "response": "This is the kind of principle I value, distance, driving force and reorganization energy stated quantitatively, and I take the point that it is overdue. My reservation is a prize-explanation one: it has only one first-place vote and is not on the top lists of the other members, and the tunneling-timetable result is partly an experimental demonstration of Marcus and Hopfield theory that has already been recognized. I would keep it as a strong candidate but need Peter to say what the discovery is that is not already credited to Marcus's 1992 prize."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Emma ranks biomolecular phase separation first, as a general physical-chemical concept with broad reach into neurodegeneration, widely reproduced over about fifteen years, and considers recognition timely.",
+        "response": "I share her interest in the polymer-physics framing, but I side with Andrei and Peter Brzezinski on maturity: the existence of in-cell phase separation at endogenous concentrations, and the functional meaning of condensates, are still debated, and the credit split among Hyman, Brangwynne, Rosen, Pappu and Mittag is not stable. I rate it as a strong alternative, not the preferred option now, and would want a clearer statement of what is established beyond P-granule droplet behavior."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a prize for sequencing by synthesis limited to Balasubramanian and Klenerman, given the competing Rothberg (454) and Mayer lineages.",
+      "Whether the dates of Kondo and Nishida's Target-AID work versus Liu's group's cytosine base editor undermine a Liu-only attribution.",
+      "Whether base editing is judged to be chemistry rather than biology or medicine, in view of the 2020 and 2024 prizes.",
+      "Whether pairing a read technology with a write technology yields a citation that is coherent rather than two unrelated prizes."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the candidates in the preferred configuration. My nanophysics and molecular-motor research is adjacent to nanopore sensing (B026) and my Lund colleagues Peter Somfai and Emma Sparr serve on the committee, but I have no personal or institutional tie to any shortlisted candidate that would require recusal."
+  }
+}

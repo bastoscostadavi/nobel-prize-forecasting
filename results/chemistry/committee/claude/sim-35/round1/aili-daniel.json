@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-35",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B044",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation, in which bifunctional PROTACs and molecular glues recruit ubiquitin ligases such as cereblon to destroy proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B051",
+    "B019"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation turned a biological pathway, the ubiquitin-proteasome system, into a programmable chemical tool. A bifunctional molecule or a molecular glue induces proximity between an E3 ligase and a target, and the target is destroyed. That is a defined chemical event with a clear design rule, and it reaches proteins that have no active site to occupy. The thalidomide-cereblon discovery gave the molecular-glue branch a mechanistic explanation. Many independent laboratories have extended the principle to new E3 ligases and targets, and many degraders are in clinical trials. This changes what chemists, biologists and clinicians can actually do, which is the test I apply.",
+    "case_against": "No PROTAC drug has yet been approved, to my knowledge, so clinical vindication is incomplete and the prize could be seen as early. Credit is also spread across concept (Crews, Deshaies), target identification (Handa, Ito), VHL ligand design and structural work (Ciulli) and kinase degraders (Gray), and a three-person limit leaves out strong contributors. Bundling PROTACs and molecular glues under one citation may blur two distinct achievements.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first as a chemically explicit deaminase mechanism that is already used everywhere and in clinical translation, crediting Liu alone because the laboratory's unifying contribution was decisive.",
+        "response": "I agree the deamination chemistry is explicit and the impact is broad, and I rank B019 as my alternative. Two things hold me back from placing it above degradation. Liu alone would pass over Komor and Gaudelli, who made the first editors, and over Kondo and Nishida's independent Target-AID priority. The case also leans on gene editing, which the 2020 CRISPR prize already honored, whereas degradation introduces a new small-molecule pharmacology. You also rank B044 second, so we may be closer than the first places suggest."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke places nanopore sequencing first, calling it a clean physical principle turned into a general analytical capability that is mature and timely, and he warns that biomolecular condensates (B039) risk premature recognition.",
+        "response": "I take the maturity point on B039 seriously and share the worry about premature recognition there. I would also say the same caution applies partly to degradation, because no PROTAC is approved. I see a difference in kind. The degradation mechanism itself is not debated, and only its clinical payoff is pending, whereas for condensates the physiological relevance is still contested. Nanopore sequencing is a strong, mature achievement, but credit is split between the physical concept (Deamer, Branton) and the enzyme-ratchet engineering (Akeson, Bayley), and I would want to see that settled before I rank it above B044."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist places Car-Parrinello ab initio molecular dynamics first, citing a clean two-person attribution and decades of confirmation, and ranks degradation second with Ciulli instead of Handa.",
+        "response": "The Car-Parrinello case is the cleanest on attribution and maturity, and I do not dispute its merit. My reservation is about the breadth of its effect on experimental chemistry compared with a tool that opens a new class of targets. On the third name, I would keep Handa over Ciulli because identifying cereblon as the thalidomide target is a discovery that explains an entire drug class, while Ciulli's VHL ligand work is an important but more incremental step on the PROTAC side. I accept that this is a judgment call and that Ciulli has a real claim."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks ionizable lipid nanoparticles second, citing lipid self-assembly, pKa-dependent behaviour and overwhelming clinical validation, with the Vancouver group of Cullis, Hope and Madden as the core, while noting the 2023 Medicine prize may have partly covered the topic.",
+        "response": "I agree the clinical validation is far stronger than for degraders, and I ranked B051 second for that reason. I worry about attribution. The Vancouver group, Anderson and Langer, and MacLachlan's translation overlap, and patent disputes could complicate any three-person selection. Your Hope and Madden trio drops Anderson, whose combinatorial lipid discovery drove the current ionizable lipids. The 2023 prize honored the RNA modification, not the delivery chemistry, so the overlap is partial. I would take this as the strongest alternative if the committee wants maturity over novelty."
+      }
+    ],
+    "uncertainties": [
+      "Whether PROTAC design and the cereblon molecular-glue discovery should be one citation or two parts of a shared prize.",
+      "Whether the absence of an approved PROTAC drug makes the prize premature for a majority of the committee (not independently verified).",
+      "Whether Handa or Ciulli should take the third place, and how Ito, Gray, Sakamoto and Kim are weighed."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. I know Emma Sparr's work on self-assembly through our overlapping research, but that does not involve any shortlisted candidate. None of my postdoc mentors or my Linkoping colleagues is among the credited names."
+  }
+}

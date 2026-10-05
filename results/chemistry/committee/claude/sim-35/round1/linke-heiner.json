@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-35",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B044",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation, in which small molecules direct disease-relevant proteins to the cell's ubiquitin-proteasome machinery, from the first PROTACs to the molecular-glue mechanism of thalidomide-class drugs."
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B019"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is the candidate with the broadest and most independent support in the opening round (six of eight members ranked it, three of them in their top three), and it passes my own tests as a physicist-chair. There is a clear principle: a bifunctional or glue-type molecule induces proximity between a target and an E3 ligase, so the pharmacology becomes event-driven and catalytic instead of occupancy-driven. The quantitative chemistry of ternary-complex cooperativity is explicit. It opens capabilities that were unforeseen, namely reaching proteins with no active site to block, and it can be explained to a broad audience. Crews and Deshaies launched the PROTAC concept, and Handa's identification of cereblon as the thalidomide target explains the molecular-glue branch, so a three-person configuration with a single unifying citation is defensible. My own first choice, nanopore sensing (B068), is scientifically mature and very close to my own field, but nobody else ranked it first and I should not mistake closeness to my expertise for committee-wide merit.",
+    "case_against": "No PROTAC has been approved to my knowledge, so clinical vindication is incomplete and the Academy could reasonably wait. Credit is also spread: Ciulli's structure-guided VHL ligands and ternary-complex work, Sakamoto's first PROTAC paper, Gray's degraders and Ito and Kim's cereblon work are all left outside a three-person limit, and joining PROTACs with molecular glues risks a citation that sounds like two separate discoveries stapled together. I changed my laureate set from my opening ballot (Ciulli) to Handa because the molecular-glue half is hard to defend without cereblon, and I remain unsure that this is the right trade.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B044 first and argues that induced proximity changed what a small molecule can do, with Crews, Deshaies and Handa as the core, while asking whether PROTAC design should be separated from the cereblon glue discovery.",
+        "response": "I agree on the principle and have moved toward your three names. I would resist splitting the two halves into separate prize parts: the unifying idea is hijacking ubiquitin ligases to destroy a target, and cereblon is the mechanistic proof that nature and medicine already used it. The citation has to say this explicitly, otherwise Ciulli and Sakamoto are omitted without a reason a lay audience can follow. I would like you to say what Handa's work adds mechanistically beyond identifying a binding target."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks Car-Parrinello molecular dynamics first for its clean two-person attribution and decades of impact, and puts degradation second with Ciulli among the laureates.",
+        "response": "Car-Parrinello is attractive to me as a physicist for exactly the reasons you give: a simple original idea, clean credit and four decades of use. My reservation is breadth of impact within chemistry as such. It is a method whose chief consequences are for the theorist, whereas degradation reshapes what chemists and biologists can do experimentally. I take your point on Ciulli seriously and I held him in my own opening set; I have dropped him only because the glue branch needs Handa and the cap is three. If you can argue that the structural basis of ternary complexes is the decisive step, I would reconsider."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks phase separation first as a physical-chemistry reframing of cellular organization, and proposes Hyman, Brangwynne and Rosen, while acknowledging that the interpretation of in-cell condensates is still being refined.",
+        "response": "I ranked B039 fourth and share your view that it is conceptually important, with a quantitative thermodynamic basis. But I draw a firmer distinction between the original discovery and the interpretation: the P-granule observation is solid, yet what counts as a true phase in cells, and how general the phenomenon is, remain contested. I regard that as a maturity problem, not a flaw in the science. I would like you to say which testable prediction of the framework has been confirmed in vivo and not only in vitro, because that would change my view."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first with David R. Liu alone, on the grounds that the chemistry is explicit and clinically translated, while noting that CRISPR was recognised in 2020 and Komor and Gaudelli worked as trainees.",
+        "response": "I agree base editing is a real chemical invention, and I ranked it seventh mainly out of caution about overlap with the 2020 prize. A Liu-alone prize is a clean attribution but I doubt it is the best use of the slot given the independent Target-AID report from Nishida and Kondo, whose priority question you raised yourself. I disagree mildly that Komor and Gaudelli can be set aside as trainees: the cytosine and adenine editors are distinct chemical achievements, and a citation that omitted them would be harder to defend. I would keep B019 as a strong alternative."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks nitrogenase first as a fundamental biological energy-conversion problem with structures that are independently confirmed, and cautions that phase separation is less mature than his other ballots.",
+        "response": "I am sympathetic: nitrogenase is exactly the sort of problem where a physical principle (coupling ATP hydrolysis to electron transfer and proton delivery) meets chemistry. My concern, which you partly share, is that the catalytic cycle is still unresolved, and a prize for structures alone would leave the answer to how N2 is reduced open. I also agree with your maturity caution about condensates. I would ask whether the structural achievement of Rees and Einsle can be cited cleanly without crediting a mechanism the field has not settled."
+      }
+    ],
+    "uncertainties": [
+      "Whether a single degradation citation can cover both PROTACs and molecular glues without seeming to credit two separate discoveries.",
+      "Whether Handa or Ciulli is the stronger third laureate beside Crews and Deshaies, given the three-person cap and the omission of Sakamoto, Gray, Ito and Kim.",
+      "Whether the absence of an approved PROTAC drug makes the prize premature this year.",
+      "Whether my opening first choice, nanopore sequencing, can attract any support beyond me, and how to cap the credit among Deamer, Branton, Akeson, Kasianowicz and Bayley."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates; I have no stated connection to any credited person, though I note that nanopore sensing and phase separation lie near my own nanophysics and biophysics interests, and that my Lund colleagues Somfai and Sparr sit on the committee with me."
+  }
+}

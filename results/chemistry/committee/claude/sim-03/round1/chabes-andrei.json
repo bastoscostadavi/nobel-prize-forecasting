@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-03",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B037",
+    "B002"
+  ],
+  "statement": {
+    "case_for": "Base editing is a clean chemical-mechanism story: a programmable DNA-binding step is coupled to defined deaminase chemistry on one nucleotide, so a C-G pair becomes T-A, or an A-T pair becomes G-C, without a double-strand break. Avoiding break-driven repair matters from a genome-maintenance view, because it sidesteps the end-joining and homology-directed pathways that make Cas9 outcomes heterogeneous. The adenine editor needed directed evolution of a deaminase that has no natural DNA substrate, so it is new chemistry and not just a re-targeting of an existing enzyme. The tool has been reproduced independently in many labs and cell types, and it is already in clinical trials. This is the kind of discovery I value: a biological process turned into a well-defined chemical reaction that biologists can use generally.",
+    "case_against": "The 2020 prize recognised the CRISPR-Cas9 platform, and base editing may be read as a sequel built on that platform. Clinical outcome and long-term safety data (off-target deamination, bystander edits, durability) are still emerging, which argues for some patience. Attribution is also unsettled: Kondo and Nishida's Target-AID cytidine-deaminase work was independent and near-simultaneous, and the prize cap of three people forces a choice between crediting the lead inventors and the Kondo/Nishida line. Liu's laboratory also sits behind the related prime-editing candidate, so a committee could prefer to treat these together.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Ranked base editing low (seventh) because it combines deaminase chemistry with CRISPR targeting and asked what is chemically new; he did, however, credit the directed evolution of an adenine deaminase acting on DNA as the chemical novelty. He also noted committees usually credit senior investigators.",
+        "response": "I think his own point answers his doubt. The adenine base editor is an enzyme-evolution and mechanism result: a deaminase that does not exist in nature for DNA was created, and the product is a defined single-nucleotide chemical transformation. That is more than assembling parts. I agree on attribution risk and would not object to Liu alone, but the lead-author contributions of Komor and Gaudelli are specific enough that a three-name prize is defensible. I disagree with leaving it low on chemistry grounds, though I accept the PROTAC chemistry is also more medicinal than synthetic."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Ranked base editing sixth: a chemically inventive idea with immediate therapeutic and research use, but clinical safety data are limited and the timing may be early relative to the rest of the list. He ranked electron transfer in proteins (B009) first as overdue.",
+        "response": "I share the safety caveat, but the Prize is for a validated discovery, not for clinical outcomes, and replication across many labs is already solid. I do not think the 2018-2020 timing is premature when the mechanism is so clearly established. I respect that B009 is mature and conceptually rigorous, yet it has no support from other members at present, and I would need to see how the committee weighs overdue fundamental work against a field this actively used. I do not think maturity of that kind should displace base editing."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Ranked base editing first, with Liu, Komor and Gaudelli, but flagged the Target-AID priority question and the overlap with the 2020 CRISPR prize and with prime editing.",
+        "response": "We agree on the core, but I want to hold the priority question open rather than wave it away. Target-AID used the same cytidine-deaminase logic, so if the committee wants to credit Kondo or Nishida, the cap of three people forces dropping Komor or Gaudelli, and I would resist that because the two editors are distinct achievements. I would address it in the citation wording, which should name base editing as the invention and not any one editor class. On the CRISPR overlap I think the chemistry, not the nuclease, is what is being honoured here."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Ranked Pd-catalysed C-N coupling first and PROTACs second, with base editing third; described C-N coupling as an extension of the 2010 cross-coupling prize with real mechanistic understanding.",
+        "response": "Johan makes a strong case for C-N coupling on impact and maturity, and I defer to the organic chemists here; I cannot judge the ligand and mechanism literature as well as Peter Somfai or Xiaodong Zou. My reservation is not scientific but about novelty of kind: it extends a recently honoured method class. That is a weaker objection than the one I raise against base editing, so I am keeping B052 as a serious alternative. I would listen if Somfai argues the C-N advance is clearly independent of the 2010 prize."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Put phase separation first with a two-person Hyman-Brangwynne prize, calling it a quantitative thermodynamic framework with fifteen years of independent confirmation.",
+        "response": "I rank it fourth, not first, because as a measurement-minded biochemist I see many in-cell phase-separation claims that rest on overexpression and imaging rather than quantitative in vivo tests. The 2009 P-granule result is solid, and a Hyman-Brangwynne prize is the cleanest, but then Rosen's reconstitution work is dropped, which seems unfair given it supplies the multivalency mechanism. I would support it if the citation is anchored on the physical concept and not on cellular claims that are still debated."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will credit Kondo and Nishida for Target-AID, and whether that would cost Komor or Gaudelli a place.",
+      "Whether prime editing, which shares the Liu laboratory, should be considered alongside base editing and so change the laureate allocation.",
+      "How much weight the committee gives the 2020 CRISPR prize as an argument for waiting.",
+      "Whether degrader clinical approvals might arrive soon enough to change the ranking of B037."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: I have no stated personal or institutional connection to Liu, Komor, Gaudelli, Kondo or Nishida. My field of DNA replication and genome stability is close to the topic, which affects my judgement but is not a recusal issue."
+  }
+}

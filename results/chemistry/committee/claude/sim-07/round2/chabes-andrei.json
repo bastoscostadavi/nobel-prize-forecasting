@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-07",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B060",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B055"
+  ],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged after the full round-1 exchange. Base editing is a defined enzymatic reaction, hydrolytic deamination of a nucleobase in DNA, placed under programmable control so that one base is converted in situ and the cell's own repair and replication machinery fixes the change. The adenine editor is the decisive point on originality: no natural deoxyadenosine deaminase existed, so activity on DNA had to be evolved, and that step is documented as Liu laboratory work, with Komor as lead on the cytosine editors and Gaudelli on the adenine editors. The principle has been reproduced and extended in a very large number of independent laboratories over roughly a decade, and the principle is stable even though the therapeutic record is young. Having listened to the chair's questions, I would state the distinction from CRISPR-Cas9 in one sentence: the 2020 prize recognised programmable cleavage of DNA, whereas this prize recognises programmable chemical conversion of a base without cleavage, which needed new enzyme activities and a different outcome pathway.",
+    "case_against": "The case against remains overlap with the 2020 prize, and I take Somfai's point that the chemistry is closer to protein engineering than to molecule-making, so a committee that wants a core synthetic-chemistry prize this year would reasonably prefer B055. Attribution has a real cost: Kondo and Nishida (Target-AID) reported a cytidine-deaminase fusion in parallel with the cytosine editor, and the three-name limit means they are outside the configuration. My argument that the adenine editor is Liu-laboratory only justifies the narrowing in principle, but it does not remove the fact that the cytosine-editor priority is shared. Postdoctoral co-credit, raised by Brzezinski, is a convention question the committee will have to decide, and long-term in vivo safety, bystander edits and off-target deamination are still open.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Asks what was new chemically in base editing, since cytidine and adenosine deamination are known enzyme reactions, and calls the invention fusion architecture plus directed evolution, closer to biology than to molecule-making.",
+        "response": "This is the strongest objection to my position, and I partly concede it: the cytosine editor is chiefly an architectural invention, and I do not claim it creates a new reaction. The adenine editor is different. Deamination of adenosine in DNA had no natural enzyme, so activity on a substrate nobody had observed an enzyme acting on had to be created, which is a new catalytic capability and not a reuse of a known reaction. Together the two editors give a chemical way to convert C-G to T-A and A-T to G-C inside living cells. I accept that this sits at the chemistry-biology boundary, but the committee has recognised directed evolution before, and I do not think the boundary location lowers the claim. I also keep B055 as an alternative because your point that its attribution is cleaner is correct."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Would keep base editing only as an alternative, preferably Liu alone or Liu-led, because awarding postdoctoral lead experimentalists raises a convention question, the Kondo and Nishida work makes a three-name prize contestable, and a decade of safety evidence is still accumulating.",
+        "response": "I considered a Liu-only configuration seriously. I keep three names because the committee's own evidence on credit separates the two editors: Komor made the first cytosine base editor and Gaudelli made the first adenine base editor, each as the lead experimentalist on a distinct and decisive step, and a single name would credit the concept while leaving out the person who made the adenine editor work, the part I consider chemically most original. The Nobel record has recognised early-career lead experimentalists when the discovery depended on them. I agree that the Target-AID contest is real and I have stated it as a cost. On safety, I would separate the maturity of the chemical principle, which is established, from the maturity of the therapy, which is not and which the citation does not claim."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Proposes Crews, Deshaies and Handa for targeted protein degradation, an induced-proximity design principle reproduced across laboratories and E3 ligases, and lists base editing as an alternative.",
+        "response": "I still find induced proximity persuasive and I keep B012 as my first alternative. My view on attribution is unchanged: the PROTAC lineage (Crews, Deshaies, Ciulli) and the cereblon lineage (Handa, Ito) are separate discoveries, and a three-name citation that joins them either describes two achievements or leaves out Ciulli, whose VHL ligands and ternary-complex structures made PROTACs drug-like. The chair asked whether maturity should be judged by independent confirmation or clinical outcome. By independent confirmation B012 is strong, so I do not rest on the absence of an approved degrader, but that absence together with the attribution problem means I cannot vote for it as a first choice this year."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Accepts mechanism-level clarity as a criterion but asks whether base editing is really clearer than phase separation, given the off-target deamination and bystander edits, and says the Target-AID question shows the three-name attribution is fragile.",
+        "response": "The mechanism of base editing is defined at the level of a specific reaction on a specific base, with a measurable product and a known repair outcome, and bystander edits and off-target deamination are consequences of that mechanism that can be quantified and engineered around. They are failures of precision, not doubts about what happens. The case for condensates is a physical-chemical principle whose physiological relevance, by your own account, is still under test, and as someone who measures cellular quantities I am cautious about concentration and overexpression artefacts. On Target-AID I agree the attribution is fragile; I think it is fragile at the cytosine editor only, which is why I rest the prize on both editors and keep it in the discussion as a cost."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Argues that C-N coupling has the decades of confirmed consequences that neither base editing nor PROTACs have, and disagrees that B060 is ahead of it on maturity.",
+        "response": "I accept the point on maturity: on that criterion B055 is ahead of base editing, and I will not claim otherwise. A decade of independent reproduction in very many laboratories is, however, substantial, and the principle has already been taken into first-in-human use. Where we differ is how much weight originality carries against the 2010 prize. I take the nucleophile-versus-catalytic-principle objection seriously, and Kosugi's earlier tin-amide coupling is the kind of precursor claim that I would want checked against the literature before the committee commits, because it is not on the record here. I therefore keep B055 as my second alternative without changing my first choice."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Supports the same Liu, Komor and Gaudelli configuration and wants the citation to separate the original 2016-2017 discovery from later refinements such as prime editing.",
+        "response": "I agree and have kept that boundary in my citation wording, which names programmable conversion of single bases without double-strand cleavage and leaves prime editing outside. I would add that the committee should record the reason for excluding Kondo and Nishida as scientific rather than numerical: the adenine editor has no Target-AID counterpart. I would also stress that this shared position is not a reason to treat the support count as evidence, since the committee has no five-vote configuration and the objections from Somfai and Brzezinski are about substance."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards base editing as distinct enough from the 2020 CRISPR-Cas9 prize, and whether the cleavage-versus-conversion distinction is accepted.",
+      "Whether a chemistry prize should rest on directed evolution of a deaminase, which sits at the boundary with protein engineering.",
+      "How much weight the independent Target-AID work (Kondo, Nishida) should carry for the cytosine editor.",
+      "Whether the committee will accept postdoctoral lead experimentalists as co-laureates.",
+      "Whether long-term in vivo safety and bystander editing will change the view of maturity."
+    ],
+    "conflict_note": "No specific conflict is apparent. My work on dNTP pools and replication fidelity is in the same broad area of genome maintenance as base editing, since deaminated bases are processed by repair and replication machinery I study, but I have no collaboration with, or institutional tie to, Liu, Komor, Gaudelli, Kondo or Nishida, or to any other credited candidate. I have not changed this disclosure since round 1."
+  }
+}

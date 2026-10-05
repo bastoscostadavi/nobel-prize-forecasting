@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Tsutomu Miyasaka",
+          "Henry J. Snaith",
+          "Nam-Gyu Park"
+        ],
+        "citation": "For the discovery and development of halide perovskite absorbers for high-efficiency solution-processed solar cells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B043"
+  ],
+  "statement": {
+    "case_for": "After reading the openings, I move from my own first-place ballot (B001, mesoporous silica) to B016 as the configuration most likely to survive scrutiny. Halide perovskites are a new semiconductor family whose behaviour can be explained from structure: the corner-sharing ABX3 framework, soft lattice, defect tolerance and tunable band gap. Efficiency rose from a few percent in 2009 to above 25 percent, and independent groups worldwide reproduced it. Four of the eight openings (Linke, Aqvist and Brzezinski name the same trio; I do too) converge on Miyasaka, Park and Snaith, which is rare agreement on attribution in a crowded field. The chain is clean: Miyasaka made the first perovskite-sensitized cell, Park the 2012 solid-state step, Snaith the mesosuperstructured and planar architectures showing the perovskite is itself the absorber and transporter. The science also spread beyond photovoltaics to LEDs, detectors and a large structural and defect-chemistry literature.",
+    "case_against": "Operational stability, lead toxicity and scale-up are unresolved, and no perovskite module has yet matched silicon on lifetime. Any trio omits Kanatzidis, Seok or Gratzel, and Gratzel's dye-sensitized-cell lineage makes the exclusion awkward. Much of the structural debate (ion migration, phase segregation, the role of grain boundaries) rests on nanoscale characterisation that is still contested, so the mechanism of why these cells work is less settled than the efficiency numbers suggest. A committee that waits for a decisive deployment record could reasonably say the prize is early.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranked B016 last of his eight because stability, lead content and commercial deployment remain unproven, and he favoured mechanistically grounded work such as Gray and Winkler on protein electron transfer (B062).",
+        "response": "The stability concern is real, but the prize question is the discovery and its scientific consequences, not whether a product is on the market; we did not wait for lithium-ion commercial maturity either. I do agree that Gray and Winkler give a rigorous, well-attributed quantitative mechanism. My reservation is that B062 is the experimental complement to a theory the committee already honoured in 1992, so it is the more incremental of the two. I would keep it as a serious future candidate rather than prefer it over the perovskite case."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked B016 first, citing a clear physical picture (strong absorption, long diffusion lengths, defect tolerance, tunable gap) and a Miyasaka, Park and Snaith trio, and ranked phase separation (B069) second.",
+        "response": "I agree with the B016 attribution and with the physical rationale, and I would add that the defect-tolerance explanation is itself a structural-chemistry result built on electronic-structure calculations and diffraction. I am less comfortable with B069 as a chemistry prize. Much of the in vivo evidence is optical and indirect, there is a live debate on whether many condensates are true liquid phases, and I want the structural evidence for what the assemblies actually are before ranking it near the top."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr placed phase separation (B069) first and ionizable lipid nanoparticles (B045) second, arguing both are physical chemistry of self-assembly with large reach, and named Cullis, Hope and Madden for B045.",
+        "response": "I accept that B045 is a successful application of lipid polymorphism and pH-dependent charge, and its clinical validation is stronger than that of the perovskites. My reservation is attribution and framing: delivery was built from liposome work, lipidoid screening and industrial formulation by many groups, and the 2023 Medicine prize already covers the mRNA vaccine story, so the chemistry-specific claim of Cullis, Hope and Madden needs to be argued carefully. On B069, a three-person cut of Hyman, Brangwynne and Rosen leaves out Pappu and Mittag, who supplied the sequence-level physical-chemical grammar you cite, which weakens the claim that the concept is cleanly attributed."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist put Car-Parrinello molecular dynamics (B029) first as a clean two-person invention and a game-changer for ab initio simulation, with perovskites third.",
+        "response": "Car and Parrinello is the best-attributed candidate on the list and I agree its validity is beyond question. My difficulty is that the method won recognition largely through what others did with it, and the committee already honoured computational chemistry broadly in 1998 and recently in 2013 and 2024. I would take it seriously as a reserve configuration, but I think a discovery of a new material class with comparable breadth, as in B016, is the stronger statement of what chemistry has produced in the last fifteen years."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts the Miyasaka, Park, Snaith trio or insists on including Kanatzidis, Seok or Gratzel, which a three-person limit does not permit.",
+      "Whether long-term stability and lead toxicity make B016 premature for 2026.",
+      "How much weight B001 (Kresge, Beck, Stucky), which I still rate scientifically very high but which only I ranked first, should keep given amorphous pore walls and the FSM-16 priority dispute.",
+      "Whether the B043 credit can be divided between the PROTAC line and the cereblon glue line without leaving out a decisive contributor."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. I am a Stockholm University colleague of the secretary, Peter Brzezinski, which does not bear on any candidate here, and I know the porous-materials community behind B001 professionally but have no stated collaboration with any credited person."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-08",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B021",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "for the development of ligand-controlled palladium-catalysed carbon-nitrogen cross-coupling, which made the synthesis of aryl amines general and routine"
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B058"
+  ],
+  "statement": {
+    "case_for": "I have moved from halide perovskites (B003) to Pd-catalysed C-N cross-coupling (B021). In round 1 I said I would move B021 into my top tier if the ligand-design step could be shown to be the discovery, and Somfai and Zou did that: the bond class is different, the mechanism (amide binding, C-N reductive elimination) is different, and bulky biaryl and hindered alkyl phosphine ligands are what turned a narrow, harsh reaction into a general one. That gives a clear principle and a quantitative record, with roughly thirty years of independent confirmation, adoption in pharmaceutical process chemistry, and several ligand and precatalyst generations. It has the cleanest attribution on the shortlist: Buchwald and Hartwig developed the catalytic method independently and in parallel, and the citation can be explained in one sentence to a broad audience.",
+    "case_against": "The 2010 prize honoured Pd cross-coupling, so a second award in the family can look like an extension, and the generative reach beyond chemistry is lower than for base editing, lipid nanoparticles or perovskites. Kosugi's earlier tin-amide work is a precursor that a two-name citation must handle carefully in its wording. Support for B021 in the openings was narrow, and I am moving toward it partly because my own first choice did not survive scrutiny, not because I have independently verified every timeline.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "C-N coupling is distinct from the 2010 C-C coupling prize because it forms a different bond through a different mechanism and needed its own ligand design; Kosugi belongs in the background of the citation rather than on the laureate list.",
+        "response": "This answers the question I put to you in round 1. The distinction between C-C coupling of organometallic nucleophiles and C-N coupling through amide binding and C-N reductive elimination is a real difference in principle, and the ligand design is where the discovery lies, so I now accept B021 as a distinct achievement. I agree that the stoichiometric tin amides of Kosugi need not be a third seat provided the citation names the catalytic, ligand-controlled general method. I still weigh reach beyond chemistry more heavily than you do, but with maturity and attribution this clean I am willing to give those more weight than I did in round 1."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "The 2010 prize covered C-C coupling, not C-N, and the committee should word the citation broadly enough to acknowledge the precursor without naming Kosugi.",
+        "response": "I agree on both points and I am adopting your wording approach: the citation names the catalytic, ligand-controlled method and says nothing that implies a priority claim for the tin-amide chemistry. Your point that the mechanism has been studied in depth matters to me as a physicist, because a quantitative mechanistic understanding is what separates a general method from a lucky protocol. I take the novelty objection from Brzezinski and Chabes seriously, but I think your argument that the bond class is new answers it."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Sequencing by synthesis (B028) rests on concrete chemistry, and Balasubramanian and Klenerman form a defensible two-person core now that Rothberg has been dropped from the configuration.",
+        "response": "The narrowing helps, and I accept that a citation built on reversible-terminator chemistry and clonal readout is a chemistry citation. My remaining difficulty is that your own case against lists 454 pyrosequencing, Mayer's colony sequencing and Ju's terminators as parallel lineages and a two-name cut leaves them out, which is a harder attribution problem than B021 presents. I also note Somfai's concern that the platform depends on optics, engineering and commercial competition. I therefore keep B028 outside my configuration, though I would not oppose it if the committee settles the credit."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Base editing (B052) is the clearest game-changer on the shortlist, with Liu as the principal and a workable attribution.",
+        "response": "I still think the deaminase-Cas chemistry is real and elegant, and I take your argument that the 2020 prize covered nuclease cutting, not nucleobase conversion. My reservation is that the Kondo and Nishida claim is not addressed by naming Liu alone, and the clinical record is still early, so I do not see it as ready for the prize this year. That is why I list B003 and B058 rather than B052 as my alternatives."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Lipid nanoparticles (B058) are the area of widest overlap among members, but the credit split among the Vancouver and MIT lineages is unresolved, and Cullis alone is her one-name proposal.",
+        "response": "I agree that B058 has the broadest support and I kept it as my alternative. Your one-name Cullis proposal avoids the three-name problem, but it leaves out Hope, Madden, MacLachlan, Anderson and Langer, who are each credited on the ballot, and the 2023 Medicine prize means the citation has to be about lipid design and delivery rather than mRNA. Until the committee can settle that cut, I prefer a part whose credit does not need to be argued."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts C-N coupling as distinct from the 2010 cross-coupling prize; I am persuaded but Brzezinski and Chabes may not be.",
+      "Whether a citation can acknowledge Kosugi's precursor chemistry without implying that he is a laureate.",
+      "Whether halide perovskites (B003) will be better placed once stability and lead content are resolved, and whether Gratzel, Seok and Kanatzidis can be excluded from a three-name cut.",
+      "Whether B058 can be resolved into a defensible three-name allocation that is distinct from the 2023 Medicine prize.",
+      "I am relying on my own recollection of timelines and have not independently verified them."
+    ],
+    "conflict_note": "No conflict requiring recusal. I am a physicist at Lund, and no credited laureate on B021 is a collaborator or colleague. My earlier physics-side bias toward B003 is the reason I moved away from it. Lund colleagues Somfai and Sparr share my institution, which is not a recusal issue for any candidate."
+  }
+}

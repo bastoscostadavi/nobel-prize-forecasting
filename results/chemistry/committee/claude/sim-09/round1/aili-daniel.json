@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For developing targeted protein degradation, in which small molecules recruit E3 ubiquitin ligases to destroy chosen proteins, through PROTAC heterobifunctional degraders and the molecular basis of cereblon-directed molecular glues."
+      }
+    ]
+  },
+  "alternatives": [
+    "B062",
+    "B021"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a new chemical principle with a clear design logic: a small molecule induces proximity between an E3 ligase and a target, and the cell's own machinery removes the protein. It gives chemists a route to targets that inhibitors could not address, and the same logic has spread to chemical biology tools, molecular glues and other induced-proximity modalities. It has been reproduced across many laboratories, supported by structures, and is now in many clinical programs, so it clearly changed what researchers and clinicians can do. Handa's identification of cereblon as the thalidomide target gives the molecular-glue strand a mechanistic foundation, and Crews and Deshaies supply the heterobifunctional concept, so a Crews, Deshaies, Handa configuration covers both lineages in one citation.",
+    "case_against": "The attribution is the weak point: Ciulli, Gray, Sakamoto, Kim and Ito all have real claims, and a three-person cap forces a choice between the PROTAC and glue lineages that some will see as arbitrary. No PROTAC drug is approved yet, so the clinical case is still maturing, and a committee that wants a completed therapeutic record might prefer ionizable lipid nanoparticles or base editing, where patient outcomes are further along or already established at scale.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Car-Parrinello molecular dynamics is a simple, game-changing idea with unambiguous two-person credit and four decades of use, and PROTACs are possibly still early.",
+        "response": "I agree that B007 has the cleanest attribution on the list and that its maturity is beyond question, and I cannot judge its methodological depth as well as you can. But Johan ranked B052 second himself, so we may be closer than the rankings suggest. My reservation is breadth of consequence for the wider chemical sciences: degraders created a new design space that medicinal chemists, chemical biologists and clinicians now work in daily. I see timing as a matter of when the principle is validated, and the many reproducing laboratories and clinical programs show that, even without an approval."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "B052 is a compound candidate whose configuration is unsettled, and Ciulli's VHL ligand work should be part of any trio, separate from the cereblon glue discovery.",
+        "response": "This is the fair challenge to my own ranking. Ciulli's structure-based VHL ligands made PROTACs drug-like and are real credit, and I take the point that Handa's cereblon work is a separate discovery. I still prefer Handa to Ciulli because cereblon explains a long-standing drug mystery and underlies the molecular-glue strand, while VHL ligand design is an enabling refinement of the heterobifunctional concept, but I hold that view with low confidence and would accept discussion of Crews, Deshaies, Ciulli if the committee wants a PROTAC-only citation. Andrei, I would also like your view on whether a two-part prize splitting the strands is plausible."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Base editing is easy to state, a clear new chemical capability with emerging clinical use, and B063 condensates import physical chemistry into cell biology but are still debated in physiology.",
+        "response": "I find the base-editing case strong and keep B021 as an alternative, mainly because of the chemical logic and engineering of the deaminase. My hesitation is that the CRISPR prize in 2020 already recognized the programmable-nuclease foundation, and a Liu, Komor, Gaudelli trio gives a trainee share that the committee has not generally favored. On B063 I agree with Heiner's maturity concern: it is a deep conceptual shift, but the debate over which condensates are truly phase-separated and what they do makes a clean citation harder than for degraders."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Ionizable lipid nanoparticles are a lipid self-assembly and phase-behavior solution with exceptional impact, though the 2023 Medicine prize may blunt perceived novelty.",
+        "response": "I share Emma's view that B062 is a molecular design and self-assembly success, and it is my third choice and one of my alternatives. Unlike her, I do not think the 2023 Medicine prize makes it redundant, since that prize covered nucleoside modification and not the delivery chemistry. Where I disagree is on the configuration: the credit spans early liposome technology, ionizable lipid design and combinatorial lipidoids, and I find that harder to resolve into three names than the degrader case. I would revisit B062 if the committee could agree on a clear citation."
+      }
+    ],
+    "uncertainties": [
+      "Whether a three-person prize should combine the PROTAC and molecular-glue lineages, and whether Ciulli should replace or accompany Handa.",
+      "How much weight to give the absence of an approved PROTAC drug, given that many degraders are in late clinical development.",
+      "Whether the committee would prefer a candidate with a cleaner attribution, such as B007, B021 or B031, over a compound one."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My postdoc mentors (Molly Stevens, Freddy Boey) and my Linkoping colleagues are not credited on any shortlisted ballot; my research overlap with Emma Sparr on self-assembly is scientific and not a recusal matter."
+  }
+}

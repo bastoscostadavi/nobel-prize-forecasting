@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-35",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B019",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand breaks."
+      },
+      {
+        "ballot_id": "B044",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For the development of targeted protein degradation by chemically induced proximity between a target and a ubiquitin ligase."
+      }
+    ]
+  },
+  "alternatives": [
+    "B032",
+    "B037"
+  ],
+  "statement": {
+    "case_for": "Both preferred parts turn a biological outcome into a defined chemical event that biologists can use. Base editing is explicit deaminase chemistry on a Cas-exposed single-stranded DNA window, and it changes one nucleotide without a double-strand break. It has been reproduced thousands of times and is in clinical use. Targeted protein degradation is chemically induced proximity: a bifunctional molecule delivers a target to an E3 ligase, and the target is destroyed. The principle has been confirmed with many ligases and many targets, and degraders are in the clinic. Liu is the clear principal inventor of base editing, and Crews and Deshaies launched the PROTAC concept in 2001. Together the parts form a coherent prize in chemical biology, a general tool for rewriting the genome and one for removing proteins, and the three-person cap is respected.",
+    "case_against": "The strongest reservation is timing and overlap. The 2020 prize already recognised CRISPR-Cas9, and a base-editing prize could look like a derivative of it, while prime editing (B049) comes from the same laboratory and complicates the framing. No PROTAC drug is approved yet, so clinical vindication is incomplete. A three-name cap also excludes Handa, whose cereblon work explains the molecular-glue half of the field, as well as Ciulli, Gray, Komor, Gaudelli, Kondo and Nishida. A two-part prize that spreads over two achievements may satisfy neither claim fully.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Nitrogenase (B032) is a central problem in biological energy conversion. The FeMo-cofactor structure, including the carbide, is firmly established, and recognition of the structural and mechanistic foundation is not premature.",
+        "response": "I share your view that this is the kind of mechanism-under-biology question I value, and I ranked it seventh myself. My hesitation is the one you and Zou Xiaodong note: the N2-reduction cycle, the E4 state and the substrate-binding site are still contested. I would want to know which parts of the mechanism have been reproduced quantitatively by independent groups before crediting a mechanism rather than a structure. The structural claim is strong, so I would keep B032 as an alternative. I do not think it should displace parts that give a general tool."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Base editing is a simple, elegant use of deaminase chemistry with a strong clinical proof of concept, but it follows the 2020 CRISPR prize and may be slightly early. Degraders may also be early for a clinical verdict.",
+        "response": "I take the CRISPR-overlap concern seriously and do not dismiss it. I think it is answered by the chemistry. Base editing replaces cleavage and repair with a direct nucleobase reaction, which is a different mechanism and a different tool. On clinical timing I disagree in part. Both fields have been independently reproduced in many laboratories, and mechanistic validity does not depend on drug approval. I would still accept your ranking of B037 above B019 as a reasonable alternative, which is why I list it."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Degraders should be ranked first. Crews and Deshaies introduced PROTACs, and Handa's identification of cereblon as the thalidomide target explains the molecular-glue branch.",
+        "response": "I agree with the science, and I put B044 second. I disagree on the allocation. With a three-person cap, adding Handa's cereblon work would take a place from Liu, and I think base editing has the cleaner single-inventor attribution. The PROTAC concept can be recognised with Crews and Deshaies, and Handa's claim is real. If the committee prefers one achievement, I could support B044 with Handa as the third name."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Phase separation (B039) reframed intracellular organisation as a physical-chemistry problem of multivalency and phase behaviour, and it has wide, independent confirmation.",
+        "response": "The concept is important and I understand its attraction. My concern is quantitative. Many in-cell condensates have not been shown to be equilibrium phases, and results from over-expression and from in-vitro droplets are hard to compare with endogenous concentrations. As someone who has seen assumptions fail when they were measured carefully, I want those measurements before I treat it as mature. I think Linke and Brzezinski are right that this is the youngest field on the shortlist."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee wants one achievement or two, and whether Handa's cereblon work should replace Deshaies in the degradation part.",
+      "Whether base editing is seen as distinct enough from the 2020 CRISPR prize, given its overlap with prime editing (B049).",
+      "How much weight the absence of an approved PROTAC drug should carry.",
+      "Whether the Nishida and Kondo parallel deaminase work (Target-AID) warrants a share."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no known personal or institutional link to the credited candidates for B019, B044, B032 or B037."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-34",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B009",
+        "laureates": [
+          "Douglas C. Rees",
+          "Oliver Einsle",
+          "Lance C. Seefeldt"
+        ],
+        "citation": "For determining the atomic structure of nitrogenase and its FeMo cofactor and for establishing how the enzyme reduces dinitrogen"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B033"
+  ],
+  "statement": {
+    "case_for": "Nitrogenase is a structural problem solved by exactly the kind of evidence I trust. The MoFe protein and FeMo cofactor structures, the interstitial carbide, ligand-bound states and recent turnover-state cryo-EM structures have been reproduced by several independent groups over three decades. The work explains at atomic level how biology fixes nitrogen and links directly to ammonia synthesis and the nitrogen cycle. Rees and Einsle supplied the decisive crystallographic advances, and Seefeldt supplied the kinetic and spectroscopic mechanism that interprets them. Unlike the more fashionable candidates, the underlying claims are firmly established and the question of what was actually determined is clean.",
+    "case_against": "The catalytic mechanism of N2 reduction at the cofactor is still not fully resolved, so a citation must be worded around structure and the established framework rather than a finished mechanism. Credit among Rees, Dean, Einsle, Seefeldt and Ribbe is crowded, and a three-name limit could look arbitrary. B068 has far broader opening support and a clearer conceptual story, and my own first choice B033 is mature but has modest practical impact and drew no support from colleagues.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Nitrogenase is a central problem in biological chemistry, with structure, the carbide and cryo-EM turnover states giving a physically grounded mechanistic picture; he proposes Rees, Dean and Seefeldt.",
+        "response": "I agree on the importance and on Rees and Seefeldt. I would put Einsle in the third place rather than Dean. Einsle's atomic-resolution structure established the central carbide, which is the structural finding that changed the chemical picture of the cofactor, whereas Dean's genetics and biochemistry made the protein tractable but are enabling rather than structure-defining. I accept that this is a judgement call, and that omitting Dean and Ribbe will be contested."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Induced-proximity degradation is a design principle that opens undruggable targets; PROTACs and molecular glues form a new modality, with Crews, Deshaies and Ciulli as the core.",
+        "response": "I take the conceptual argument seriously and keep B068 as my first alternative. My reservation is maturity: no PROTAC drug is approved, and the credited set splits into two lineages, PROTACs and cereblon-based glues (Handa, Ito, Gray). A trio of Crews, Deshaies and Ciulli leaves out the glue work that has the strongest clinical record. I prefer to wait until the clinical case is demonstrated and the prize configuration is less of a compromise."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Car-Parrinello ab initio dynamics has an unambiguous two-person attribution and is fully mature, though it may look close to the 1998 and 2013 computational prizes.",
+        "response": "The attribution is clean, and I agree that it is overdue on maturity grounds. My concern is that its main contribution is a computational methodology, already covered by two earlier computational prizes, while nitrogenase is an unsolved enzyme problem with experimental structures. I do not rank it above B009, but I would not object to it as a clearly attributable choice if the committee wants one."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular condensates reframe cellular organization as phase separation with Hyman, Brangwynne and Rosen at the core; she considers it mature and timely after fifteen years.",
+        "response": "I disagree on timing. Fifteen years of confirmation is not the same as agreement on physiological relevance: in-cell evidence, overexpression artefacts and the definition of true phase separation are still argued, as Brzezinski and Aqvist also note. From a structural standpoint it is hard to say what molecular structure the condensate concept determines. I would want a clearer structural and mechanistic basis before recognising it."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a prize built around structure while N2 reduction mechanism remains unresolved.",
+      "Choice of third name among Dean, Einsle and Ribbe alongside Rees and Seefeldt.",
+      "Whether B068 can be configured with a clean split between PROTAC and molecular-glue credit."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for these candidates. I am a Stockholm University colleague of the Secretary, Peter Brzezinski, who also supports B009, but this is not a personal tie to any candidate."
+  }
+}

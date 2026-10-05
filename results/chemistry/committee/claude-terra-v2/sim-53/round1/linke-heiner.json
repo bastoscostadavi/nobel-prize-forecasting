@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-53",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B027",
+        "laureates": [
+          "Roberto Car",
+          "Michele Parrinello"
+        ],
+        "citation": "for the development of first-principles molecular dynamics, in which electrons and nuclei evolve together"
+      }
+    ]
+  },
+  "alternatives": [
+    "B014",
+    "B068"
+  ],
+  "statement": {
+    "case_for": "Car-Parrinello molecular dynamics removed the need for a pre-fitted force field by propagating the electronic structure and the nuclei in a single extended dynamics. That made bond breaking, solvation, proton transfer and condensed-phase reactivity accessible from first principles, and it is now a standard capability in water, catalysis, battery and materials chemistry. The 1985 paper has two authors, so credit is unambiguous and no allocation dispute can arise. Four decades of independent implementation and use mean maturity is not in doubt, and the pair has not been recognised even though neighbouring computational prizes (2013, 2024) have gone to others.",
+    "case_against": "Computational chemistry was recognised recently, in 2013 and 2024, so some colleagues will see little appetite for another computational prize. Parrinello's later work (metadynamics, machine-learned potentials) may blur how his contribution is framed. The method is also often described as physics-flavoured, and its impact on chemical practice is less visible than that of a reaction used daily in drug synthesis or of a new drug modality. I also rely on recollection of the 1985 publication details.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Ranks targeted protein degradation first, favouring a PROTAC concept plus cereblon-mechanism configuration (Crews, Deshaies, Handa), and also ranks Car-Parrinello second, noting that recent computational prizes may reduce urgency.",
+        "response": "I agree that Car-Parrinello is a clean two-person case and I take your concern about 2013 and 2024 seriously, but those prizes honoured multiscale modelling and protein structure prediction. First-principles dynamics of the electronic ground state is a different contribution. On B014, I accept that it is the stronger-supported entry and conceptually clear. My reservation is that you yourself say the three-person limit forces a choice between PROTAC concept and molecular-glue mechanism, and any cut here excludes Ciulli, Gray and Sakamoto. That attribution problem is much harder than the one for B027."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Ranks B014 first on the grounds that heterobifunctional degraders and molecular glues convert binding into catalytic removal of a target, widening the druggable proteome, with many degraders in clinical trials.",
+        "response": "I agree the principle is original and chemically real, and I moved B014 from a weaker position to a serious alternative on reading your case. I still put it behind B027 for two reasons. No degrader is approved, so the therapeutic claim rests on trials still in progress, and the PROTAC and cereblon-glue lineages have separate origins that you also flag as unresolved. If the committee decides that the concept and the mechanism may be recognised together, I could support B014 with Crews, Deshaies and Ciulli, but I would want that boundary argued out first."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Ranks Buchwald-Hartwig C-N coupling first for its mechanistic clarity and daily use in synthesis, while acknowledging the shadow of the 2010 cross-coupling prize.",
+        "response": "The mechanistic understanding and the industrial footprint are beyond dispute, and I find the two-person attribution attractive. My concern is the one you raise yourself: the 2010 prize recognised Pd-catalysed cross-coupling, and a second prize for a ligand-driven extension of the same catalytic cycle risks looking like a repeat. The Car-Parrinello method does not overlap with any earlier prize in this way. I also note that B046 plus B027 would exceed three people, so we cannot simply combine them, which is why I keep B046 outside my configuration."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Ranks biomolecular phase separation first as a physical-chemical reframing of cellular compartmentalisation, while noting that the physiological relevance of many condensates is contested.",
+        "response": "I appreciate the thermodynamic framing, and it is close to my own training. But your own uncertainty, that many reported condensates may be in vitro droplets without in vivo function, and the five-way split among Hyman, Brangwynne, Rosen, Pappu and Mittag, make me think the field is still sorting out what is established. I would see this as a strong candidate for a later year rather than the one with the firmest mechanism today."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat first-principles dynamics as too close to recent computational prizes (2013, 2024).",
+      "Whether B014 can be given a defensible three-person cut across the PROTAC and cereblon molecular-glue lineages.",
+      "Whether B046 would be judged distinct enough from the 2010 cross-coupling prize, and whether it could be paired with a one-person second part within the three-name limit.",
+      "My account of the 1985 Car-Parrinello paper is from recollection and has not been checked against sources."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. I am chair and sit with Lund colleagues Peter Somfai and Emma Sparr, which is not a candidate-level connection. My background is in nanophysics and I have no documented link to Car, Parrinello or the other shortlisted laureates."
+  }
+}

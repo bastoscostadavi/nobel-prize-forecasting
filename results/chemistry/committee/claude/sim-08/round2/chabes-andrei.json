@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-08",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B028",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of massively parallel DNA sequencing by synthesis, based on reversible-terminator nucleotide chemistry and clonal single-molecule readout"
+      }
+    ]
+  },
+  "alternatives": [
+    "B021",
+    "B058"
+  ],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged: Balasubramanian and Klenerman for sequencing by synthesis. The achievement is a chemical solution to a measurement problem: reversible 3'-blocked fluorescent nucleotides, engineered polymerase incorporation, linker cleavage chemistry and surface-attached clonal clusters. It has been reproduced independently for nearly two decades at enormous scale, so maturity is not in question. From my own work I can add a concrete observation: mutation spectra, replication-error signatures and ribonucleotide incorporation into genomes are now measured quantitatively because this chemistry exists. Narrowing the citation to the reversible-terminator and clonal-readout route defines the achievement by its chemical principle, which also answers part of the credit objection, since the 454 pyrosequencing route is chemically different and the citation does not claim the whole field.",
+    "case_against": "The credit objection has not gone away. Rothberg, Mayer and Ju each have a parallel claim, and a narrow citation does not make those claims disappear; it only states honestly what is being rewarded. Somfai's chemistry-versus-technology objection is also real, because optics, engineering and commercial competition all shaped the platform. I have no verified documents on the priority chronology, only recollection. Finally, B028 has only two explicit first-place supporters and no path to five votes yet, so I must accept that it may not carry.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai argues that the 2010 prize covered C-C coupling of organometallic nucleophiles, that C-N coupling opened a different bond class with its own mechanism and ligand design, and that sequencing is a platform where chemistry is only part of the story.",
+        "response": "Your argument on 2010 moved me. Amide binding and C-N reductive elimination are a different mechanistic problem, and the ligand design that overcame beta-hydride elimination is a real advance, so I no longer call B021 merely incremental. It stays my first alternative, and I would vote for it if sequencing fails. On chemistry versus technology I disagree in degree. The reversible-terminator nucleotide is a designed molecule with a defined chemical function, and the fluorophore, linker and polymerase engineering around it are chemistry; optics and engineering are there, but the prize-relevant step is the nucleotide chemistry. I would hold B028 to that standard by wording the citation around it, which is why I have kept the narrow citation."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou finds B028 less secure than B021 because of crowded credit among Solexa, 454, Ju and Mayer, but would support a Balasubramanian and Klenerman core if the committee favours it.",
+        "response": "I take the credit point seriously and do not think it can be dismissed. Where I differ is on how much it weakens the claim. The three platforms are chemically distinct routes, and only the reversible-terminator route with clonal clusters scaled and became standard, so a two-name citation on that route is a statement about that chemistry, not about the whole field. I accept that your ligand-design answer to Aqvist is the strongest argument for B021 and that its attribution is cleaner. If the committee cannot accept the Rothberg, Mayer and Ju exclusions, that is a legitimate reason to prefer B021, and I would then support it without reluctance."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili would still accept Rothberg as a third name if the committee judges that a prize on massively parallel sequencing as a whole needs three names.",
+        "response": "I have thought about this again and I still prefer two names. Adding Rothberg would change the citation from the reversible-terminator chemistry to the first commercial parallel platform, and that is a different, technology-flavoured claim; I would be uncomfortable with a compromise third name chosen for fairness. If a majority insists on three, I would accept Rothberg before Mayer or Ju, but I would regard the cleaner citation as lost. I do agree with Aili that the committee should say openly that Rothberg, Mayer and Ju are being left out, not hide it behind vague wording."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist argues that base editing is a different chemical mechanism from the 2020 CRISPR prize because it deliberately avoids cleavage, and that a Liu-only part with Car-Parrinello is cleaner than the contested sequencing credit.",
+        "response": "Your distinction is fair: nucleobase deamination without a double-strand break is chemically different from programmable cleavage, and I find the deaminase-on-nickase design convincing. I keep my timing concern: the clinical record is a few years old, the Kondo and Nishida priority question is open, and I would want independent reproduction of long-term safety before rewarding it. As a reader of mutation data, I also note that off-target and bystander deamination are still being characterised. I do not object to Liu alone on attribution, but I do not rank B052 above a mature achievement. I also do not see why unrelated parts should be combined to avoid an attribution cut; a single coherent achievement is better."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority will accept sequencing by synthesis as chemistry rather than biological technology.",
+      "Whether leaving out Rothberg, Mayer and Ju is acceptable to colleagues; my account of the priority history relies on recollection, not verified documents.",
+      "Whether B021 is the better consensus choice if B028 cannot reach five votes; I now regard that as plausible.",
+      "How strongly the 2023 Medicine prize for mRNA and the 2020 CRISPR prize should weigh against B058 and B052."
+    ],
+    "conflict_note": "No conflict requiring recusal. I have no personal or institutional tie to any credited name on the shortlist. My research on dNTP metabolism and genome maintenance uses sequencing as a tool, which is a scientific interest and not a recusal issue. This disclosure is unchanged from round 1."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-47",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Pieter R. Cullis",
+          "Michael J. Hope"
+        ],
+        "citation": "for the design of ionizable lipid nanoparticles that enable delivery of nucleic-acid medicines"
+      },
+      {
+        "ballot_id": "B029",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, programmable chemical conversion of DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B018",
+    "B002"
+  ],
+  "statement": {
+    "case_for": "The two parts share one logic: a molecular design principle gave precise control over a biological process and then changed what clinicians can do. Ionizable lipids that are neutral in circulation and charged in the endosome solved the delivery problem for siRNA and mRNA medicines, with validation from Onpattro to population-scale vaccination. Base editing turns defined nucleobase chemistry, engineered deaminases on a programmable nickase, into a general tool for single-nucleotide change without double-strand breaks, and it is already entering the clinic. Both are chemical inventions rather than biological observations, and both are broadly used in biomedicine and materials work. Combining them recognises chemistry as the enabling layer under modern nucleic-acid medicine, and avoids forcing a single contested attribution into a three-name cap.",
+    "case_against": "Both parts sit close to prizes already given: the 2023 Medicine prize touched the mRNA vaccine story and the 2020 Chemistry prize covered CRISPR genome editing, so critics can call this a second helping of the same territory. Credit for lipid nanoparticles is diffuse (Cullis, Hope, Madden, MacLachlan, Anderson, Langer), and trimming to two names leaves out Madden, who belongs to the founding formulation work. Base editing is young, long-term clinical safety is open, and Nishida and Kondo have a real priority claim on deaminase fusion. Targeted protein degradation (B018) may be the more genuinely new chemical modality, though it still lacks an approved drug.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks targeted protein degradation first as a new pharmacological principle, and notes that for base editing Liu is the clear intellectual leader while Komor and Gaudelli were lead trainees.",
+        "response": "I accept the attribution point on base editing and have moved to Liu alone, which also respects the three-person cap. On B018 I agree the concept is new and that Crews and Deshaies conceived PROTACs, but I weigh the lack of any approved degrader more heavily than you do, and the allocation between PROTAC and cereblon glue strands is still unsettled. I keep it as my first alternative, not as the preferred prize, since the delivery lipids already have population-scale clinical proof."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai asks what is chemically new in base editing, answering that it is evolved enzyme chemistry applied to a nucleobase in situ, and he worries it may be slightly premature after the 2020 genome-editing prize.",
+        "response": "I take the prematurity concern seriously and partly share it, which is why I pair Liu with a mature, independently validated part rather than giving base editing the whole prize. I would answer the novelty question differently from you: the new chemistry is a defined deamination reaction directed to one nucleotide inside a living cell, which CRISPR-Cas9 itself did not provide. I am more persuaded by your first choice, Pd-catalysed C-N coupling, on maturity, but it serves the synthetic community and I see it as a stronger case for a different year, so I list B002 as an alternative."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr notes that ionizable lipid nanoparticles rest on lipid self-assembly and phase behaviour, but warns that credit is spread across academic and industrial groups and that the 2023 Medicine prize may make the committee see the delivery chemistry as an engineering extension.",
+        "response": "I agree on the lipid physical chemistry and welcome your expertise there, since it is exactly where the chemical novelty lies: pKa tuning, rapid-mixing self-assembly and fusogenic phase behaviour. I disagree that this is only engineering. The 2023 prize honoured nucleoside modification, which makes the RNA tolerated, while the lipid work makes it deliverable; neither works without the other. Your point on credit dispersion is fair, and I would like your view on whether Cullis and Hope without Madden is defensible."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, ranks base editing first with Liu alone, calling it a clear, original and generative chemical principle, and places nanopore sequencing second.",
+        "response": "I support your Liu-alone formulation for B029 and have adopted it. Where I differ is on the pairing: a one-person prize on a young technology next to the 2020 genome-editing award is a thin foundation, and I would rather share it with the lipid nanoparticle work, whose clinical record is already extensive. I did not rank nanopore sequencing as high because credit among Branton, Deamer, Kasianowicz, Bayley and Akeson is hard to separate."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee would accept a prize split between two nucleic-acid-medicine topics, or would see it as too close to the 2020 and 2023 prizes.",
+      "Whether Madden should be credited alongside Cullis and Hope, and how Anderson, Langer and MacLachlan should be treated if the lipid part is kept.",
+      "Whether the Nishida and Kondo priority claim on deaminase fusion undermines a Liu-only base-editing citation.",
+      "I am relying on memory for inventor histories and have not verified them independently."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My postdoc mentors (Molly Stevens, Freddy Boey) and Linkoping colleagues are not among the shortlisted credited names, and my peptide-nanoparticle and biosensor work is topically adjacent to nucleic-acid delivery but involves no personal tie to any candidate."
+  }
+}

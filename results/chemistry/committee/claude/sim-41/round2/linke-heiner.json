@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B058",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of massively parallel DNA sequencing by synthesis based on reversible-terminator chemistry"
+      },
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of one DNA base into another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B054",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "I keep my round-1 configuration, and the exchange has strengthened it rather than moved it. Both parts rest on one nameable chemical principle with a quantitative record. In sequencing by synthesis, a reversible terminator lets a polymerase add exactly one fluorescently read nucleotide per cycle, which turned DNA reading into a scalable measurement. In base editing, deaminase chemistry is directed to a chosen site so that one base becomes another without a double-strand break, and the outcomes are measured as efficiency, product purity, bystander edits and off-target deamination. Read and write DNA by chemical means is a two-sentence story for a broad audience. It is also the only two-part pairing that two members (Aqvist and I) have independently reached, and Aqvist moved to it after hearing the full discussion, which I take as a scientific argument and not as a count. The citations can be written so the scope is explicit: the sequencing part names reversible terminators and so does not claim pyrosequencing or platform lineages, and the base-editing part names the chemical conversion of a base and so is separable from RNA-guided cleavage, the subject of the 2020 prize. Three names in total, each with a defensible attribution.",
+    "case_against": "The pairing remains two tool-for-biology achievements, and a critic can say it was assembled rather than unified. Sequencing by synthesis excludes Rothberg and Mayer, and the committee has to be willing to say plainly that the chemistry, not the first commercial platform, is what is being honoured. Base editing is young, long-term safety is still accumulating, and a Liu-only part leaves out Komor and Gaudelli, who did the decisive bench work on the cytosine and adenine editors, and does not address Kondo and Nishida's Target-AID. Finally, both parts sit in the chemistry of nucleic acids, so the prize leaves out synthetic, materials and physical chemistry, a balance concern Somfai and Zou are right to raise.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei argues that the cytosine and adenine editors are two distinct chemical solutions, since the adenine editor required evolving TadA to act on DNA adenosine, and that Liu, Komor and Gaudelli should therefore all be credited.",
+        "response": "This is the strongest argument for a three-name base-editing part and I take it seriously, particularly the point that no natural DNA adenine deaminase existed. My difficulty is arithmetic and principle together. Three names on B018 leave one slot for B058 and force us to split Balasubramanian and Klenerman, whose work is a joint invention and is not separable. On principle, the adenine editor was a second realization of the concept Liu conceived and directed, in the same way the committee has usually credited the person who conceived and drove a programme and not each trainee who executed a stage. If Andrei or Johan can show from the primary papers that the adenine editor is an independent inventive step and not a successful extension of the first concept, I would reconsider, but I would then prefer B018 as a stand-alone prize with Liu, Komor and Gaudelli over diluting B058. For now I stay with Liu alone."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan moved to a two-part prize of base editing (Liu) and sequencing by synthesis (Balasubramanian and Klenerman), and argues that the reversible-terminator chemistry survived while pyrosequencing was displaced, so naming a second technology would force a fourth person.",
+        "response": "I agree, and I would add a physicist's test to his argument: what survived is the one reaction cycle, terminator, read, deblock, that is quantitatively characterized and that scaled by more than six orders of magnitude, while pyrosequencing is a different chemistry with a different readout. That is a principled reason to leave out Rothberg, and it should be written into the citation by naming reversible terminators. On the question the chair summary asks about Sanger in 1980, my answer is that Sanger read one fragment population per reaction with a gel, whereas the new element is cyclic, reversible, single-base addition on an immobilized array, which made reading massively parallel. I accept Johan's caution that a skeptic will call this technology and not chemistry. My reply is that the terminator and the fluorophore linker are molecules designed with specific cleavage and polymerase-compatibility requirements."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter proposes Buchwald and Hartwig for Pd-catalysed C-N coupling with Liu for base editing, to give a molecule-making half and a chemistry-of-life half, and notes that a base-editing trio would not fit beside a two-name B054.",
+        "response": "The balance argument is fair, and I agree with Peter's Liu-only logic and with his point that B054 is the most clearly proven method on the list. I rank it as my first alternative for that reason. My reservation is the one he himself concedes: the 2010 cross-coupling prize recognized the area, so a C-N citation must say what is new, which is a distinct bond-forming problem solved by ligand design, and I do not think that is yet settled in this committee. By contrast, I do not see the 2020 prize as an obstacle to either of my parts. Sequencing by synthesis has no precedent among laureates, and base editing is defined by a chemical transformation of a base. If the committee decides that two nucleic-acid parts are too narrow, I could move to B054 with B018, accepting that I would give up the read-write unity."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel pairs Crews and Ciulli for PROTACs with Liu for base editing, a chemical-biology prize acting on proteins and on the genome, and would reconsider Liu-only if the adenine editor is judged a separate inventive step.",
+        "response": "I agree with her on base editing and note that her reconsideration point is the same one Andrei raises. On B023 I side with the reservations she herself lists: no approved degrader from the core modality, and two discoveries (heterobifunctional degraders and the cereblon glue mechanism) with different people, which would leave either Deshaies or Handa and Ito out under a three-person limit. A citation for PROTACs would be explainable, but I could not yet defend the credit boundary in public. I keep B023 as a second alternative for a later year."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts reversible-terminator chemistry, with Balasubramanian and Klenerman only, as the discovery for sequencing, given the 454 and Mayer lineages.",
+      "Whether the primary record makes the adenine editor an independent inventive step. From my recollection Komor's cytosine editor (Nature, 2016) and Nishida and Kondo's Target-AID (Science, 2016) appeared within months of each other, and I could not settle a priority claim from memory, so dates should be checked from the papers.",
+      "Whether a read-and-write nucleic-acid pairing reads as a unified statement or as two biotechnology tools.",
+      "Whether base editing is judged chemistry and not medicine or biology, and whether clinical validation will have progressed enough to make the timing safe."
+    ],
+    "conflict_note": "No conflict requiring recusal. My nanophysics and molecular-motor research is adjacent to nanopore sensing (B026), which is in no configuration, and I have no personal or institutional tie to Liu, Balasubramanian or Klenerman. Peter Somfai and Emma Sparr are Lund colleagues, which I do not regard as a tie to any shortlisted candidate. As chair I have tried to put the questions in my summary neutrally, and my own preferred pairing is shared by only one other member."
+  }
+}

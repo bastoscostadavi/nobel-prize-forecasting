@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-54",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B057",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of chemically induced protein degradation, from bifunctional PROTACs to the cereblon mechanism of molecular glue degraders"
+      }
+    ]
+  },
+  "alternatives": [
+    "B054",
+    "B016"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a new chemical modality: a small molecule no longer occupies a site but acts as a catalytic bridge that recruits an E3 ligase and hands the target to the ubiquitin-proteasome system. Crews and Deshaies supplied the PROTAC concept and the first demonstrations, and Handa's identification of cereblon as the thalidomide target explained a decades-old pharmacological puzzle and underpins molecular glue degraders. Three of eight members placed it first and six placed it in their top three, and the support comes from members with quite different fields (bioengineering, biophysics, synthesis, biochemistry), which suggests the case does not depend on one member's perspective. The concept has been reproduced across many laboratories and targets, and clinical-stage degraders exist. As a biochemist working on cellular control of protein and nucleotide metabolism, I see the chemistry as mechanistically robust (ternary-complex formation, E3 substrate selectivity) and not a repackaging of older inhibitor pharmacology.",
+    "case_against": "No degrader drug has been clearly approved, so the committee may reasonably say the field is a few years early and that its therapeutic payoff is still promised rather than demonstrated. The credit is also spread over many strong contributors (Ciulli, Gray, Sakamoto, Kim, Ito), and a three-person cap forces a choice between the PROTAC lineage and the molecular glue lineage, which are scientifically distinct achievements. Choosing Crews, Deshaies and Handa spans concept and mechanism but excludes Ciulli, whose structure-guided VHL ligands and ternary-complex work made PROTACs a reliable chemical design problem. If the committee prefers waiting for clinical vindication, B054 is the more mature alternative.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Pd-catalysed C-N coupling (B068) is a clear, general methodology with three decades of confirmation and industrial use, and the 2010 cross-coupling prize did not cover C-N bond formation.",
+        "response": "I agree that B068 is mature and its attribution to Buchwald and Hartwig is cleaner than anything in B057, and I do not think the 2010 prize rules it out. My reservation is conceptual rather than about quality: it is an excellent extension of a recognised class of reactions, whereas degraders change what a small molecule does in a cell. Kosugi's precursor also complicates the attribution somewhat. I would not object to B068 as a serious candidate, but I would not rank it above B057 on originality."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Car-Parrinello dynamics (B037) is an unambiguous origin with a clean two-person configuration and four decades of validation, a natural computational prize in the line of 2013.",
+        "response": "The attribution and maturity arguments for B037 are the strongest on the shortlist, and I accept that an overdue prize should not be discounted just because it is a method. I am not qualified to judge the finer points of the ab initio simulation literature, so I defer to you on that. Still, B037 has one first-place vote beyond yours at most, and it competes for the same chemistry slot on a different axis (theory versus a new experimental modality). I read its clean attribution as a strong reason to keep it as a candidate, but not as a reason to prefer it over B057 this year."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "B057 is a new modality that reached the clinic, but he proposes Crews, Deshaies and Ciulli, notes that the cereblon/thalidomide strand may need separate recognition, and ranks B054 first.",
+        "response": "Your point about Ciulli is fair and I take it seriously: the VHL ligands and ternary-complex structures turned PROTACs into a general design principle. But I keep Handa over Ciulli because the cereblon discovery is what links degraders to thalidomide and to the molecular glue class, so it is the mechanistic foundation of the other half of the field. I also agree with you on B054: it is more mature and attribution is workable around Schultz, Chin and Wang, and I would accept it as the preferred prize if the committee decides B057 is premature."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular condensates (B005) reframed intracellular organization as phase-separation physical chemistry and are now central to work on membraneless organelles; she ranks it first.",
+        "response": "The conceptual shift is real, but I differ on timing. Whether most in vivo condensates are truly phase-separated and functionally dependent on that state is still debated, and the attribution among Hyman, Brangwynne, Rosen, Pappu and Mittag is contested. A prize now would have to state what is established, and I find that harder to do for B005 than for B057, where the mechanism is molecularly defined and independently reproduced."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept the absence of an approved degrader drug as sufficient clinical vindication.",
+      "Whether PROTAC (Crews, Deshaies, Ciulli) and cereblon/molecular glue (Handa, Ito) credit can be combined in three names, or whether the strands need separate treatment.",
+      "Whether Handa, Ito or Ciulli is the best third name.",
+      "My recollection of priority and clinical status is not independently verified from the supplied materials."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for any shortlisted candidate. My research on dNTP pools and ribonucleotide reductase is not directly connected to the shortlisted discoveries, and the profile lists no collaboration or institutional tie with any credited name."
+  }
+}

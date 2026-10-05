@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "category": "chemistry",
+  "committee_provider": "anthropic",
+  "committee_model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "list_id": "chemistry-2026",
+  "simulation_id": "sim-05",
+  "seed_label": "chemistry-committee-claude-v1:chemistry-2026/sim-05",
+  "candidate_input": "agent-data/chemistry/candidates/candidates.json",
+  "candidate_input_sha256": "6c4f4d4828a11153613bf065ffc118c1bd88929ae9161177f697b586c98dc51d",
+  "candidate_count": 69,
+  "profiles": "agent-data/chemistry/committee/<member-id>/profile.md",
+  "members": [
+    "aili-daniel",
+    "aqvist-johan",
+    "brzezinski-peter",
+    "chabes-andrei",
+    "linke-heiner",
+    "somfai-peter",
+    "sparr-emma",
+    "zou-xiaodong"
+  ],
+  "chair": "linke-heiner",
+  "voting": "all eight members vote; majority is five",
+  "prompts": {
+    "opening": "prompts/chemistry_committee_claude_opening_v1.md",
+    "round1": "prompts/chemistry_committee_claude_round1_v1.md",
+    "chair": "prompts/chemistry_committee_claude_chair_summary_v1.md",
+    "round2": "prompts/chemistry_committee_claude_round2_v1.md",
+    "final": "prompts/chemistry_committee_claude_final_ballot_v1.md"
+  },
+  "protocol": "docs/PHYSICS_PHASE2.md (adapted to Chemistry)"
+}

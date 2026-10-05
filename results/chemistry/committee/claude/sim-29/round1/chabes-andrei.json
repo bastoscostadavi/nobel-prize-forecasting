@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-29",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B014",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For the conception and first demonstration of PROTACs, small molecules that direct the ubiquitin-proteasome system to degrade chosen proteins"
+      },
+      {
+        "ballot_id": "B042",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editors that chemically convert one DNA base into another at programmed sites without double-strand breaks"
+      }
+    ]
+  },
+  "alternatives": [
+    "B021",
+    "B057"
+  ],
+  "statement": {
+    "case_for": "Both parts turn a biological process into a defined chemical reaction and give biologists a general tool, which is the test I apply. PROTACs (Sakamoto, Kim, Crews, Deshaies 2001, then Crews and Deshaies as the conceptual core) established event-driven, catalytic removal of a protein by induced proximity, and the principle has been confirmed with many E3 ligases and many targets by independent groups, with degraders in clinical trials. Base editing is a chemical reaction, cytidine or adenosine deamination on a Cas-bound single-stranded DNA window, with the adenine editor requiring directed evolution of a deaminase that had no DNA activity. It has been reproduced widely and used in patients. Pairing them keeps the Liu invention clean (one person) and leaves room for Crews and Deshaies, which solves the credit problem better than the three-person trainee configuration I wrote in my opening ballot.",
+    "case_against": "Both achievements sit in chemical biology and drug discovery, so the committee would be recognising one neighbourhood twice, and neither has yet produced the clinical proof (an approved PROTAC drug, long-term safety data on base editing) that would settle maturity. For base editing the 2020 CRISPR prize makes it fair to ask whether this is a distinct chemical invention or an extension of genome editing. For protein degradation, leaving out Handa and Ito (cereblon as the thalidomide target) and Ciulli (VHL-based PROTACs and ternary-complex structure) omits real discoverers, and a two-part prize cannot fix that.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke notes that the PROTAC concept (Crews, Deshaies, Sakamoto) is separable from the thalidomide-cereblon mechanism (Handa, Ito), requires a choice of what exactly was discovered, and prefers a single-laureate award to Liu for base editing.",
+        "response": "I agree that the choice must be explicit, and I now side with him on Liu alone: Komor and Gaudelli were the lead experimentalists, but the idea and the program were Liu's, and a one-name part frees a seat for B014. Where I differ is on glues. Cereblon as the thalidomide target is a mechanistic explanation of an existing drug, whereas PROTACs designed a new modality from first principles. I would anchor the citation on the designed bifunctional molecule and not put Handa in the third seat. I would want the committee to say openly that this is a credit judgement and not a verdict on merit."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou treats the PROTAC concept (Crews, Deshaies) and the cereblon-thalidomide discovery (Handa, Ito) as two pillars, stresses the structural basis of ternary complexes, and notes Liu's base editing may be early given the 2020 CRISPR prize and prime editing.",
+        "response": "The structural point is fair, and it is the reason Ciulli deserves serious consideration, but it argues for a prize on the mechanism of induced proximity, which a three-name seat cannot hold alongside Liu. On timing I disagree with her: base editors are chemically distinct from Cas9 cleavage because no DNA break is made, the first reports are about ten years old, and many labs and clinical programmes have reproduced them. Prime editing is a later extension of the same conceptual line and does not weaken the base-editor claim. I do agree that clinical outcomes remain open, and I would not call it settled."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks Car-Parrinello first as an unambiguous origin with a clean two-person attribution, four decades of independent use, and recognition arguably overdue.",
+        "response": "This is the cleanest attribution on the shortlist and I respect that. My hesitation is about what the committee can check: the method is a computational scheme, and I weigh most the discoveries where a quantitative measurement independently confirmed the claim. If he can point to the experimental systems where Car-Parrinello predictions were decisively validated, as opposed to widely adopted, I would move it above my alternatives. It is not in my preferred configuration because I rate B014 and B042 above it, not because I doubt its standing."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range protein electron transfer (Gray, Winkler) first as a physical mechanism in biology, with a stable interpretation and recognition overdue rather than premature.",
+        "response": "The mechanistic case is strong and independently confirmed, and it is closest to what I value as a biochemist. My reservation is generality for people outside the field, since the tunnelling-and-hopping picture is a framework for understanding a natural process whereas the other two parts are tools that chemists and biologists now use to make things happen. I would not oppose it and it could well be a good second-tier choice, but I place it just outside my top group."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will want a clinically approved PROTAC or a base-editing therapy before recognising either.",
+      "How to weigh Handa and Ito (cereblon) and Ciulli (VHL, ternary-complex structure) against Crews and Deshaies for the third seat.",
+      "Whether two chemical biology parts in one year is acceptable, or whether one should be exchanged for a prize from synthetic or physical chemistry.",
+      "I have not independently checked priority claims in the cytosine base editor and Target-AID papers, which were close in time."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I work on nucleotide metabolism and DNA repair, which is adjacent to the way base editing exploits uracil and inosine repair, but I have no stated collaboration or institutional tie to any shortlisted candidate."
+  }
+}

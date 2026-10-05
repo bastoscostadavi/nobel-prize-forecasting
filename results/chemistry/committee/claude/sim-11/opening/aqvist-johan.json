@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-11",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B037",
+      "proposed_laureates": [
+        "Roberto Car",
+        "Michele Parrinello"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Car-Parrinello molecular dynamics put electronic structure and nuclear motion into a single simple extended-Lagrangian scheme, making ab initio dynamics of liquids, interfaces, reactions and condensed matter routine. It is a genuine game-changer that opened a new way of simulating chemistry, and its descendants (Born-Oppenheimer AIMD, QM/MM) underpin much of modern biomolecular and materials simulation.",
+        "attribution": "A clean two-person prize: the 1985 paper is by Car and Parrinello alone, with unambiguous priority. This fits the three-laureate limit with no crowding.",
+        "maturity": "Four decades of independent use and validation; impact is mature and recognition is, if anything, overdue. Computational methods have been honored before (1998, 2013), so there is precedent.",
+        "uncertainties": [
+          "Parrinello also appears in other candidates (ML potentials, metadynamics); the committee should avoid splitting credit across several overlapping entries.",
+          "Some committee members may judge it a physics-adjacent method rather than chemistry; I cannot independently verify how that is weighed."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B002",
+      "proposed_laureates": [
+        "Jörg Behler",
+        "Michele Parrinello",
+        "Gábor Csányi"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Machine-learned interatomic potentials deliver near-quantum accuracy at near-force-field cost, enabling simulations of reactive and condensed-phase systems at scales previously impossible. This is exactly the kind of completely new capability with real consequences that I look for, and it now touches catalysis, materials and increasingly biomolecular simulation.",
+        "attribution": "The Behler-Parrinello neural-network potential (2007) is the clear origin; Csányi and Bartók's Gaussian approximation potentials are the major parallel framework. Behler, Parrinello and Csányi is a defensible trio, though Bartók, von Lilienfeld and Weinan E also have real claims, so the allocation is contestable.",
+        "maturity": "Rapidly maturing with broad independent adoption and universal-potential foundation models, but the field is still moving fast; reliability outside training domains and transferability remain open, so timing is somewhat early compared with Car-Parrinello.",
+        "uncertainties": [
+          "Parrinello overlaps with B037; both cannot easily go to the same laureate in a single year.",
+          "Long-range interactions, extrapolation and data requirements are not fully resolved.",
+          "I am relying on my own knowledge of the field and have not verified citation or adoption numbers."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B028",
+      "proposed_laureates": [
+        "Craig M. Crews",
+        "Raymond J. Deshaies",
+        "Alessio Ciulli"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Targeted protein degradation by PROTACs and molecular glues is a new therapeutic modality: it uses hijacked E3 ligases to remove proteins rather than inhibit them. Its consequences are already tangible, with degraders in clinical trials, and the chemistry (ligand design, ternary complexes) is solidly chemical.",
+        "attribution": "Crews and Deshaies proposed and demonstrated the original PROTAC concept (2001), and Ciulli developed the VHL-based small-molecule recruiters and ternary-complex structural work. Handa, Ito and others established the thalidomide-cereblon glue mechanism, so the credit is genuinely split between PROTACs and glues and eight names make a three-person cut hard.",
+        "maturity": "Clinical validation is still accumulating and no degrader has yet become an approved drug (to my knowledge), which argues for waiting, though the scientific concept is well confirmed.",
+        "uncertainties": [
+          "Whether to recognize PROTACs and glue degraders together or separately is unresolved.",
+          "Clinical outcomes are not yet decisive.",
+          "Choice of three among at least eight credited names is contestable."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B061",
+      "proposed_laureates": [
+        "David R. Liu"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Base editing converts one base pair into another without double-strand breaks, a conceptually simple and elegant chemical solution that has moved quickly into clinical use. It is chemistry applied to the genome in a way that is truly new, and it has already had real consequences, including patients treated.",
+        "attribution": "David Liu's laboratory conceived and developed cytosine and adenine base editors; Komor and Gaudelli were the decisive first authors, but a single-laureate or Liu-led prize is the cleanest configuration. The prime editing entry (B016) is a separate Liu discovery, so recognition could be framed around Liu's overall genome-chemistry work.",
+        "maturity": "Clinical translation is under way and independent confirmation is extensive, but the CRISPR prize in 2020 recently honored genome editing, so timing and novelty relative to that prize are debatable.",
+        "uncertainties": [
+          "Overlap with B016 prime editing and B067 DNA-encoded libraries, all credited to Liu.",
+          "Whether the committee sees this as sufficiently distinct from the 2020 CRISPR prize.",
+          "Long-term safety and efficacy data are still maturing."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B001",
+      "proposed_laureates": [
+        "Peter G. Wolynes",
+        "José N. Onuchic",
+        "Ken A. Dill"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Energy landscape theory reframed protein folding as funneled, minimally frustrated landscapes, resolving Levinthal's paradox and giving a quantitative physical picture connecting theory to experiment. It is conceptually central to biomolecular chemistry and links closely to the quantitative theory-experiment connection I value.",
+        "attribution": "Wolynes and Onuchic are the principal architects of funnel theory, with Bryngelson and Wolynes giving the earliest formulation; Dill's hydrophobic-collapse and lattice-model work is a parallel contribution and Fersht provided the experimental mapping. Five credited names exceed what can be fairly rewarded, so the cut is not obvious.",
+        "maturity": "Concepts have been tested by decades of experiment and simulation and are widely accepted; however, the 2024 prize on protein structure prediction and design partially covered this area, which affects timing.",
+        "uncertainties": [
+          "Fersht's experimental contribution may be needed for a balanced prize.",
+          "The 2024 protein prize may reduce appetite for another protein topic."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B008",
+      "proposed_laureates": [
+        "Stephen L. Buchwald",
+        "John F. Hartwig"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Palladium-catalyzed C-N cross-coupling is one of the most widely used reactions in pharmaceutical and materials synthesis, and the practical impact is enormous. The chemistry builds simply on a general catalytic idea and is clearly a game-changer for making arylamines.",
+        "attribution": "Buchwald and Hartwig independently developed the general, ligand-controlled catalytic methods; Kosugi's earlier tin-amide work is a precursor but not the general method. A two-person prize is clean, though the 2010 cross-coupling prize may make some members view this as an extension.",
+        "maturity": "Fully mature: decades of industrial use and independent confirmation. Recognition is arguably overdue, with the main concern being relationship to the 2010 prize.",
+        "uncertainties": [
+          "Possible perception as an incremental extension of the 2010 Pd cross-coupling prize.",
+          "Priority between Kosugi's precursor and the Buchwald-Hartwig general method is a minor attribution question."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B015",
+      "proposed_laureates": [
+        "Anthony A. Hyman",
+        "Clifford P. Brangwynne",
+        "Michael K. Rosen"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Biomolecular condensates formed by liquid-liquid phase separation changed how cell organization is understood, introducing a physical-chemistry principle for compartmentalization without membranes. The impact on cell biology has been very large and the idea is genuinely new.",
+        "attribution": "Hyman and Brangwynne demonstrated P granules as liquid droplets (2009), and Rosen's multivalent-interaction phase-separation work (2012) gave the chemical framework; Pappu and Mittag contributed sequence-grammar theory and experiment. The trio is a plausible configuration but others have strong claims.",
+        "maturity": "Still a young field with active debate about physiological relevance, in-cell versus in-vitro behavior and how much of the evidence demonstrates true phase separation, so maturity is moderate.",
+        "uncertainties": [
+          "Disputed physiological significance of some condensates.",
+          "Whether the committee regards it as chemistry rather than physiology or medicine.",
+          "Several credible laureate sets exist."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B044",
+      "proposed_laureates": [
+        "Tsutomu Miyasaka",
+        "Henry J. Snaith",
+        "Nam-Gyu Park"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Halide perovskite solar cells reached high efficiency within a few years from a simple solution-processed material, a striking and unexpected development in photovoltaics with real consequences for energy chemistry and large industrial interest.",
+        "attribution": "Miyasaka first reported perovskite-sensitized cells (2009), Park and colleagues made the first solid-state device (2012), and Snaith's group demonstrated the efficient meso-superstructured and planar devices; Grätzel, Seok and Kanatzidis are other significant contributors. The trio is reasonable but the credit is crowded.",
+        "maturity": "Efficiency records are well confirmed, but long-term stability, lead toxicity and commercial deployment remain unresolved, so recognition may be premature.",
+        "uncertainties": [
+          "Operational stability and scale-up are unproven.",
+          "Crowded credit among six names and the 2025 and Grätzel DSSC connections."
+        ]
+      }
+    }
+  ]
+}

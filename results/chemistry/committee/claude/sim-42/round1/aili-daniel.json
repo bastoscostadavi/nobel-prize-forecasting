@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-42",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B067",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation, using bifunctional PROTAC molecules to direct the ubiquitin-proteasome system to chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B047"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is the strongest case on the table for chemistry as a design discipline. A small molecule is built to bring a target and an E3 ligase together, so recognition chemistry is turned into event-driven removal of a protein instead of occupancy-driven inhibition. That makes proteins addressable that were considered undruggable. The concept is simple and original (Crews and Deshaies, 2001), and the drug-like realisation through structure-guided VHL ligands and rational degrader design (Ciulli) is a molecular design story of the kind I value. Six of eight members ranked it, five in their top three, and three placed it first, so it is the broadest base of support in the opening round. It has spread through chemical biology, medicinal chemistry and clinical development, and the question I always ask is whether researchers and clinicians can now do something they could not before. They can.",
+    "case_against": "The main reservation is maturity and attribution. Clinical validation of degraders is still limited, with few late-stage readouts and no broad approvals, so the award could be early. The field also has two roots that do not map cleanly onto three names: heterobifunctional PROTACs, and thalidomide-type molecular glues (Handa and Ito on cereblon; Sakamoto, Kim, Gray and others). Any three-person credit excludes people with serious claims, and a committee could reasonably prefer to wait until clinical outcomes settle or until the glue and PROTAC stories can be credited coherently.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks B067 first but would credit Handa (cereblon as the thalidomide target) in place of Ciulli, because it explains the molecular-glue branch and enabled CRBN-based degraders.",
+        "response": "I take the Handa point seriously. Cereblon is the mechanistic foundation for the most clinically advanced degraders and glues, and leaving it out makes the citation look PROTAC-only. Still, I keep Ciulli in my configuration. The citation I propose is about designing molecules that recruit E3 ligases to chosen targets, and Ciulli's VHL ligands and structural work made that design rational and drug-like. Handa's work is mainly target identification for an existing drug. If the committee wants the glue branch represented, the honest route is to broaden the citation, not to swap names silently. I would rather debate that explicitly in round 2 than assume it."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, ranks biomolecular phase separation (B049) first for its clear physical principle and quantitative support, and puts degraders second.",
+        "response": "I respect the physical clarity of condensate work and agree it opened a large field. My difficulty is that the chemical content is more contested. It is still unsettled how far liquid-liquid phase separation describes function in living cells as opposed to in vitro phase behaviour, and critics argue that some cellular claims are overinterpreted. Degraders have an unambiguous chemical output, a molecule that removes a named protein, and it is measurable in patients. I would put B049 on the table for a later year, but with the evidence now available I do not think it outranks B067."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks phase separation first and ionizable lipid nanoparticles second, but puts degraders only eighth.",
+        "response": "I am more sympathetic to your lipid nanoparticle case, since the pH-dependent charge logic and self-assembly behaviour are a physical-chemical rationale that I rate highly, and the societal impact is already demonstrated. I do not see why degraders sit at eighth. Please explain whether the objection is about the science or about attribution and maturity. If it is maturity, I would point to the many clinical programmes. If it is attribution, I accept that, but that is a case for choosing the names carefully, not for ranking the discovery low. I also suspect we may differ on B047, where the credit among Cullis, Hope, Madden, Anderson and Langer is just as diffuse as in B067."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks B067 first on the standard of a real game-changer with consequences, with the same trio as mine, but also notes that the molecular-glue branch makes the credit crowded.",
+        "response": "I agree with you on the trio and on the criterion. Where I would push further is that we should not let the existence of a second root count against the first. Two lineages that converge on the same principle, chemical induction of E3-substrate proximity, can share one citation without implying that everyone is credited by name. Your support for perovskites as the second-ranked option is a different matter: the science is strong but the credit is spread across six or more people, which is a bigger allocation problem than the one we face here."
+      }
+    ],
+    "uncertainties": [
+      "Whether the molecular-glue (cereblon) lineage should be named in the citation or credited through Handa, which would change the third laureate",
+      "Whether clinical validation of degraders is mature enough this year",
+      "How the committee should weigh the independent PROTAC and molecular-glue histories against each other for priority",
+      "My exact credit assessment rests on recalled history rather than independent verification"
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: I have no direct link to any candidate on the shortlist. My postdoc mentors (Molly Stevens, Freddy Boey) and the Linkoping sensor tradition are not connected to any shortlisted discovery. I do overlap scientifically with Emma Sparr on peptide and lipid self-assembly, which is relevant to B049 and B047, but this is not a recusal matter."
+  }
+}

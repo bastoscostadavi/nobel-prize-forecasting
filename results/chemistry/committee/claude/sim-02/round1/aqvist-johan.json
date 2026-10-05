@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B029",
+        "laureates": ["Roberto Car", "Michele Parrinello"],
+        "citation": "For the unified first-principles molecular dynamics method that couples electronic structure and nuclear motion"
+      }
+    ]
+  },
+  "alternatives": ["B043", "B016"],
+  "statement": {
+    "case_for": "Car-Parrinello dynamics is a clean two-person invention: one Lagrangian in which the electrons are propagated together with the nuclei, so that bond breaking, solvation, proton transfer and interfacial chemistry can be simulated without a pre-built force field. It meets my own test of a game-changer: something new that has demonstrably changed what chemists can compute, with four decades of independent reimplementation in many codes and a direct line to ab initio MD, QM/MM treatments of enzymes and the data generation behind machine-learned potentials. Attribution is unusually tidy, which matters because at most three people can share the prize, and nobody has disputed the validity of the method. It is a distinct methodological step from the 1998 DFT prize and the 2013 multiscale prize.",
+    "case_against": "I am the only member who placed B029 first, so I should not mistake my own field's familiarity for committee-wide merit. Born-Oppenheimer MD with efficient DFT now does much of what the fictitious-dynamics scheme once did, so the argument rests on the conceptual and historical step more than on current practice. The 2013 prize already honoured computational methods for complex systems, and several colleagues may judge a third computational award in about a dozen years as too much. B043 has broader opening support, and the field it created is more visibly changing the way drugs are made.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner ranks halide perovskites first because they went from a few percent to over 25 percent efficiency in about a decade, with a clear physical picture of defect tolerance and a new solution-processed semiconductor class.",
+        "response": "I ranked B016 third and agree on the scientific reach, but I am less comfortable than Heiner with the maturity. Stability, lead content and deployment are still open, and I would want evidence that the consequences have been shown, not just promised. The attribution is also not as clean as the Miyasaka, Snaith and Park chain suggests, since Grätzel, Seok and Kanatzidis would have a credible grievance. I would support B016 later if stability is solved, but I do not think it should displace a mature candidate now."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter places palladium C-N coupling first because it is simple, general and used daily, and he treats Kosugi's tin-amide work as context rather than a third laureate.",
+        "response": "I share his taste for simple tools and agree that Buchwald and Hartwig are the right pair if the topic were chosen. My reservation is the one Peter himself raises: the 2010 cross-coupling prize already rewarded the Pd-catalysed way of making bonds, and the committee would have to argue that a new bond type and ligand logic is a distinct achievement. I regard that as a serious obstacle but not a decisive one, so I keep B052 as a reserve and not as my lead."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranks ionizable lipid nanoparticles first, citing the delivery of siRNA and mRNA medicines and the maturity shown by approved products and billions of doses.",
+        "response": "The consequences are as demonstrated as any on the list, and I take the maturity point seriously. My difficulty is attribution: Daniel's own opening says the credit is spread across the Vancouver group, Langer and Anderson, and Sparr's trio leaves out Langer. A fair three-name prize needs a defensible decisive step, such as ionizable lipids with rapid-mixing formulation, and I cannot yet say who holds it. I would like to hear from Emma, who knows the lipid chemistry better than I do, whether Cullis, Hope and Madden or another trio is the right cut."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei argues for sequencing by synthesis, with the reversible-terminator chemistry as the decisive step, and for David Liu alone for base editing.",
+        "response": "I agree that the Solexa chemistry is the concrete, chemical contribution and that its consequences are not in doubt. Two qualifications: Linke notes that sequencing may be seen as belonging to Medicine or Physiology, and the parallel routes of Rothberg, Mayer and Ju make the three-person cut contested. On base editing, I think Liu alone is defensible, as Andrei says, but I would hold it until the clinical record is longer. I did rank it fifth, so I am not dismissing it."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Peter B. makes the case for long-range electron transfer in proteins as a quantitative physical mechanism that underpins respiratory and photosynthetic chains, with Gray and Winkler as a compact pair.",
+        "response": "I sympathise, since this is quantitative chemistry that connects directly to experiment, which is the standard I apply to theory. But Marcus received the 1992 prize for the underlying theory, and Beratan, Onuchic, Dutton and others contributed to the protein case, so the Gray and Winkler credit would not be complete. I left B062 off my own ranking, but I would want to hear whether it is a distinct achievement or an experimental completion of a prize already given."
+      }
+    ],
+    "uncertainties": [
+      "Whether a third computational-methods prize in roughly twelve years (1998, 2013, now) would be accepted by the committee",
+      "Whether the Car-Parrinello scheme, as distinct from Born-Oppenheimer ab initio MD, is still seen as a lasting conceptual advance",
+      "Whether a PROTAC or molecular-glue prize can be framed as two or three people without leaving out an obviously deserving contributor, and whether the clinical record is long enough",
+      "Whether Parrinello's later work (metadynamics, machine-learned potentials) should be included in the credit, which would change the citation"
+    ],
+    "conflict_note": "Possible connection: Car-Parrinello is close to my own field of biomolecular simulation, and my QM/MM and EVB work draws on the same ab initio simulation toolbox. I have no personal or institutional tie to Car or Parrinello. My postdoc supervisor Arieh Warshel is already a laureate (2013) and is not a candidate on this list. Beyond the field proximity, no specific conflict is apparent from the provided profile. I would declare the field overlap so that colleagues can weigh my enthusiasm for B029."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-47",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B029",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "for the conception and first demonstration of targeted protein degradation, in which bifunctional small molecules recruit E3 ubiquitin ligases to remove chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B002"
+  ],
+  "statement": {
+    "case_for": "I have changed my preferred configuration from B016 with B029 to B029 with B018. Both parts are molecular design principles that give precise control over a biological process and that researchers and clinicians now use to do things they could not do before. Base editing is a defined deamination reaction directed to one nucleotide in a living cell by an engineered enzyme on a programmable nickase, and Liu alone is the cleanest attribution. Targeted protein degradation replaces occupancy-driven inhibition with event-driven, induced-proximity removal of the target, it has been reproduced by many independent groups, and Crews and Deshaies conceived and first demonstrated it in 2001. The two parts are distinct chemistry (nucleic-acid chemistry in cells and protein homeostasis), both spread well beyond their origin laboratories into biomedicine, and the set of three names stays within the cap without arbitrary cuts.",
+    "case_against": "Neither part has the maturity of ionizable lipids or C-N coupling. No degrader drug is approved that I can confirm, and base-editing therapies are early. Base editing follows the 2020 CRISPR-Cas9 prize, and Komor, Gaudelli, Nishida and Kondo have claims that a Liu-only citation sets aside. Handa and Ito, and Ciulli, are left out of the degradation part, which is a real cost, and two chemical-biology parts together lean toward medicine and away from core chemistry. I also still think the ionizable lipid case has the strongest demonstrated clinical record on the list; I leave it as an alternative only because its credit is diffuse and it overlaps with the 2023 Medicine prize.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes pairs Liu alone for base editing with Crews and Deshaies for PROTACs, treating the cereblon glue branch as a separate achievement, and names the missing approved degrader as the main risk.",
+        "response": "I now join this configuration. Your argument that a Liu-only part and a Crews-Deshaies part each carry a clean one-sentence citation is stronger than my own B016 attribution, where I could not defend a three-name subset. I still weigh the absence of an approved degrader more than you appear to. My answer is that the PROTAC concept itself has been validated by many independent groups and by a large clinical pipeline, so an approval in a few years would strengthen the case but not create it. I accept your cut that leaves Handa outside, and I would put the cereblon story in the citation background and not argue it as a part."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai asks what is chemically new in base editing and PROTACs beyond evolved-enzyme chemistry and ligand-linker-ligand optimisation, and pairs base editing with the mature Pd-catalysed C-N coupling.",
+        "response": "On novelty I keep my view that the new chemistry in base editing is a defined hydrolytic deamination made programmable at one nucleotide in a living cell, which Cas9 cutting did not provide. For PROTACs I agree that ligand-linker design alone would be optimisation, but the new content is the induced ternary complex with an E3 ligase, whose cooperativity can be measured and designed, and that is a principle rather than a series. I take your maturity point on B002 seriously and I regard its attribution as the cleanest on the list. I still cannot name a principle in it beyond ligand design within the manifold honoured in 2010, so I keep it as an alternative and not as a part."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr warned that ionizable lipid credit is spread across academic and industrial groups, that the 2023 Medicine prize makes delivery look like engineering, and asked about a Cullis and Hope trio.",
+        "response": "You were right on credit and I have acted on it. Writing out a defensible subset for B016, I could not justify Cullis and Hope without Madden, and I could not justify excluding MacLachlan, Anderson or Langer under the three-name cap, which is the problem you and Zou described. I still hold that the pKa-tuned lipid design is real lipid physical chemistry and not only engineering, but a prize that cannot name its laureates cleanly is not ready, so I have moved B016 to my first alternative."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist holds B018 as the whole prize with Crews, Deshaies and Handa, and says Liu is the intellectual leader of base editing while Komor and Gaudelli were trainees.",
+        "response": "I agree on the principle and on Liu. On the third name, I think Handa's cereblon work explains the glue branch but is a separate mechanism-of-action discovery, and adding him stretches one citation over two achievements. I would be open to Ciulli or Handa only if the committee decides to treat the degradation part as a broader field citation. I also do not think B018 should carry the whole prize, because the missing approved drug that you accept is easier to bear alongside a part whose chemistry is defined and already in human trials."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "The chair asks whether a Liu-only citation is defensible given the Nishida and Kondo Target-AID claim, and whether the wording should be limited to the engineered base-editor concept with prime editing kept outside it.",
+        "response": "I think a Liu-only citation is defensible if the wording is limited to the engineered cytosine and adenine base editors and does not claim all deaminase-based editing, which leaves the Target-AID claim as a parallel line and not a contradiction. I would keep prime editing (B028) outside the citation. I agree this makes the pairing with B018 a coherent two-part prize that can be explained in two sentences, with the cost you name yourself that both parts are chemical biology."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee would accept two chemical-biology parts, or would see the prize as drifting from core chemistry; B002 or B016 are the mature alternatives.",
+      "Whether an approved degrader or a clinical readout in the next few years should be required before B018 is awarded; I have no firm threshold.",
+      "Whether the Nishida and Kondo claim undermines even a narrowly worded Liu-only citation.",
+      "Whether Handa, Ito or Ciulli should be added to the degradation part, since the PROTAC and cereblon glue strands may be seen as one achievement.",
+      "I am relying on memory for inventor histories and clinical status and have not verified them independently."
+    ],
+    "conflict_note": "No specific conflict is apparent. My postdoc mentors (Molly Stevens, Freddy Boey) and Linkoping colleagues are not among the shortlisted credited names. My peptide-nanoparticle and biosensor work is adjacent to nucleic-acid delivery, and I have no personal tie to Liu, Crews, Deshaies or any other credited name, so I need no recusal. This is unchanged from round 1."
+  }
+}

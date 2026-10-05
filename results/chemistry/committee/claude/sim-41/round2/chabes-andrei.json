@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of cytosine and adenine base editors, which chemically convert single DNA bases at programmed genomic sites without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B058",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "I keep base editing as a stand-alone prize. The chemistry is a defined nucleobase deamination placed under programmable control, and its outcomes are measured quantitatively as editing efficiency, product purity, bystander edits and off-target deamination. The cytosine editor and the adenine editor are two distinct chemical solutions: the adenine editor required evolving a deaminase to act on DNA adenosine, a transformation with no natural enzyme, and that is a separate scientific problem rather than a repeat of the first. Reproduction across many laboratories and organisms, and first clinical use, make recognition timely. Round 1 showed that six of eight members already include this achievement and that all of them read it as chemistry distinct from the 2020 prize for RNA-guided cleavage. A citation naming the base conversion and not the cleavage answers the chair's CRISPR question directly. I keep Liu, Komor and Gaudelli because the two editor classes are the two experimentally demonstrated chemical results, and the three-person limit lets a single part carry them.",
+    "case_against": "Base editing builds on the 2020 CRISPR prize and may still be read as an engineering extension of it. Long-term clinical safety, including guide-independent deamination and bystander edits, is still accumulating, and I am recalling the clinical status from memory. Priority is not clean: Kondo and Nishida's Target-AID was a parallel cytidine-deaminase fusion, and I cannot verify the dates from the files I am allowed to read. Naming two former trainees beside Liu can be argued to dilute the senior inventor's credit, and a three-person cap leaves Kondo and Nishida out. Finally, a one-part prize on a young field leaves the committee with no mature fallback if the maturity objection prevails.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist moved to a two-part prize pairing Liu for base editing with Balasubramanian and Klenerman for sequencing by synthesis, calling attribution unusually clean in both parts and Liu the decisive inventor.",
+        "response": "I take the sequencing pairing seriously and I have not found its chemistry weak: a reversible terminator that lets a polymerase add exactly one read nucleotide per cycle is real nucleotide chemistry, and I work with the polymerase substrates it depends on. My difficulty is that I do not see one idea behind read and write. The pairing reads to me as two tool achievements joined to reach a majority, which several members flagged. I also cannot accept Liu alone as clean attribution, because the adenine editor was a separate directed-evolution problem. Sequencing is mature and can be recognized in any year, whereas base editing is at the point where clinical validation is being established. So I keep B018 stand-alone and keep B058 as my first alternative. If the committee insists on two parts, I would prefer your pairing to the others, with the sequencing citation restricted to reversible-terminator chemistry."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "The chair asks whether Balasubramanian and Klenerman can be cited for reversible-terminator chemistry alone given Rothberg's 454 platform and Mayer, and how a base-editing citation should word the distinction from the 2020 prize.",
+        "response": "On wording, I think the base-editing citation should name the transformation, conversion of one base to another at a programmed site without double-strand cleavage, and avoid any mention of genome editing in general. That separates it from scissors in the text itself. On sequencing, I agree the reversible-terminator restriction is principled, since pyrosequencing used a different chemistry, but it forces the committee to say Rothberg's platform is a different invention and not the same one. That is a judgment I would want argued from the primary record before I put a prize on it. It is another reason I would not make sequencing a required second part this year."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai pairs Buchwald and Hartwig for Pd-catalysed C-N coupling with Liu alone for base editing, to get a molecule-making half and a chemistry-of-life half, and notes Kosugi's tin-amide work as a priority issue.",
+        "response": "Your argument that C-N coupling is the clearest case of a method adopted everywhere is persuasive, and I accept the three decades of independent confirmation as exactly the kind of evidence I weight. My reservation is the one you raise yourself: the 2010 prize already honoured Pd cross-coupling, and the committee would have to explain what C-N coupling adds beyond ligand-driven extension. As a biochemist I cannot judge that as well as you can. I also note that your own three-person arithmetic forces Liu alone on the base-editing side, which is the attribution I find hardest to defend because it omits the adenine editor. I would therefore not join the pairing, but I would rank B054 above any other non-biological candidate if the committee wants a second part."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr makes phase separation her whole prize, arguing that fifteen years of reproduction and a sound physical principle outweigh the open question of which assemblies are phase separated in vivo.",
+        "response": "The in vitro physical chemistry is sound and I do not dispute the multivalent framework. My concern is the step from droplets in a tube to a function in the cell. In my own field a widely held assumption, that dNTP pools rise after DNA damage, failed once measured properly in cells. Until the condensate field has comparably quantitative in-cell tests of which assemblies are phase separated and whether that matters, I think the citation would have to be limited to the principle and would still carry the Pappu and Mittag omission you identify as your weakest point. I do not rule the field out for a later year."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili pairs Crews and Ciulli for PROTACs with Liu, and says she would reconsider Liu alone if the adenine editor were judged a separate inventive step.",
+        "response": "I would make exactly that argument: the adenine editor needed a deaminase evolved to act on DNA, so it is a second inventive step and not a second realization of the first. That is why I still name Komor and Gaudelli. On PROTACs, I still rank them below base editing, as no degrader from the core modality is approved and the PROTAC and cereblon glue lineages are separate discoveries. I would want that clinical record before pairing it in."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts base editing as sufficiently distinct from the 2020 CRISPR prize.",
+      "Priority dates for Kondo and Nishida's Target-AID against the Liu laboratory's cytosine base editor, which I cannot verify from the permitted files; the credited names may change if the dates are unfavourable to Liu's laboratory.",
+      "Whether crediting Komor and Gaudelli is better argued from the primary papers than Liu alone, and whether a Liu and Kondo configuration would be preferable.",
+      "Long-term clinical safety of base-editing therapies, recalled from memory and not verified.",
+      "Whether the committee will find a stand-alone prize acceptable given that no other ballot ID appears in more than two configurations."
+    ],
+    "conflict_note": "No change from round 1. My work on nucleotide metabolism and replication fidelity is topically close to base editing and to sequencing chemistry, since both rely on the handling of nucleotides and DNA polymerase substrates, but I have no personal or institutional tie to any nominee, and I do not see a conflict requiring recusal."
+  }
+}

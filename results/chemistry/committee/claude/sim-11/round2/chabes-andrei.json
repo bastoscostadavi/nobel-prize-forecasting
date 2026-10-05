@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-11",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B028",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For the invention of targeted protein degradation by heterobifunctional small molecules that induce proximity to the ubiquitin ligase machinery"
+      }
+    ]
+  },
+  "alternatives": [
+    "B008",
+    "B053"
+  ],
+  "statement": {
+    "case_for": "Base editing remains my strongest scientific case. Cytidine and adenosine deamination on a displaced DNA strand give a defined chemical conversion with a measurable product distribution, reproduced in many laboratories and already in patients. The adenine editor needed directed evolution of TadA to act on DNA, which has no natural counterpart, and the cytosine editor needed uracil-glycosylase inhibition to steer repair. Both are chemical solutions to a chemical problem, not a restyling of Cas9 cleavage. Targeted protein degradation is the second part because Crews and Deshaies founded the idea of recruiting an E3 ligase to a chosen target, and the mechanism has been confirmed by many independent groups, including by quantitative measurement of ternary complexes and degradation kinetics. Two parts with three names fit the limit, and each part has a coherent single-achievement citation.",
+    "case_against": "Base editing follows the 2020 prize, is only about ten years old, and its off-target deamination, bystander editing and long-term safety record is short. Crediting Liu alone leaves Komor and Gaudelli unrecognised for work I still regard as separately chemical, and Kondo and Nishida are not accommodated. In the degradation part, a three-name cap cannot hold Ciulli or Handa, so the prize omits either the structure-guided design rules or the cereblon target discovery that explained thalidomide-type glues. No bifunctional degrader is yet an approved drug. I accept these costs because the alternative configurations carry attribution problems the committee cannot resolve cleanly.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai asks what is chemically new in base editing beyond harnessing a deaminase, sees the TadA evolution as the genuine chemical step and the cytosine editor as closer to a fusion, and would credit Liu alone.",
+        "response": "I agree with you on the credit and I have changed my configuration accordingly. On your question, I would not call the cytosine editor a mere fusion: a deaminase on a displaced strand yields a uracil that the cell would excise, and the editor works only because uracil glycosylase inhibition and nicking of the opposite strand redirect repair. That is chemistry plus control of the cellular repair outcome, and I would measure it by product purity. The TadA result is the cleaner novelty. Because both belong to one laboratory programme, a single Liu citation about the method is defensible, and I no longer need three names to carry it. I do not think B008 should displace it, but I would not oppose B008 as an alternative."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke now prefers Liu alone for base editing because crediting first-author trainees invites an argument about Kondo and Nishida that the committee cannot settle, and pairs it with Crews and Deshaies for degradation.",
+        "response": "You persuaded me. My round-1 trio rested on Komor and Gaudelli doing separate chemical work, which I still believe, but a prize that names them while leaving out Kondo and Nishida cannot be defended on priority alone, and Liu is the single name every supporter accepts. I therefore adopt your two-part configuration with the same names. On degraders I share your reading that Crews and Deshaies conceived the principle, and I am comfortable that we cite the mechanism and design principle without claiming the glues. Where I still differ is emphasis: the base editing part should be justified by the measured chemistry, not by clinical outcomes."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili keeps Ciulli in the degradation trio for the structure-guided VHL ligands and ternary-complex design rules, and treats replacing him with Handa as unresolved.",
+        "response": "Your design-principles argument is a good one and I take it seriously, but the three-person cap forces a choice between a trio for degradation alone and keeping base editing in the prize. I cannot test the Ciulli versus Handa question to my satisfaction: Ciulli's work made the approach programmable, and Handa's identification of cereblon explained an existing drug and gave the glue strand a molecular target. Since neither fits under my configuration, I keep the citation to heterobifunctional induction of proximity and leave the glue strand explicitly outside it. If the committee prefers a stand-alone degradation prize with Ciulli, I would accept that as the second-best outcome."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski doubted a prize in which two of three base editing places go to first authors from one laboratory, and cited long-term safety and the Kondo and Nishida work as reasons to keep it only as an alternative.",
+        "response": "Your attribution objection was correct and I have conceded it by dropping Komor and Gaudelli. I do not think maturity should exclude base editing: the question is whether the chemical mechanism holds up when measured, and across laboratories it does, including the bystander window and product purity. I agree the clinical safety record is short, which is why my citation names the chemical conversion and not a therapy. It would help me to know whether your objection survives the narrower Liu-only citation."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept base editing as distinct from the 2020 CRISPR-Cas9 prize rather than an extension of it.",
+      "Whether Liu alone, with Komor, Gaudelli, Kondo and Nishida unrecognised, is a defensible public record of credit.",
+      "Whether a three-name cap can honestly represent degradation without Ciulli or Handa, and whether the missing approved PROTAC drug makes the part premature.",
+      "I have not reviewed the latest long-term off-target and bystander editing data."
+    ],
+    "conflict_note": "No personal or institutional tie to any shortlisted candidate. My field, nucleotide pools, DNA repair and genome stability, is adjacent to base editing because repair pathways shape editing outcomes, but that is a scientific closeness and not a conflict, and I do not request recusal."
+  }
+}

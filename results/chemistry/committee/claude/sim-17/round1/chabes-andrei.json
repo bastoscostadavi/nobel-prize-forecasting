@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-17",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B038",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For turning the ubiquitin-proteasome system into a chemically programmable tool: heterobifunctional degraders that induce proximity between a target protein and an E3 ligase."
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B003"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation converts a biological process, regulated protein turnover, into a defined chemical reaction: a small molecule forms a ternary complex and the target is ubiquitinated and destroyed. The mechanism is quantitative (cooperativity, linker geometry, ligase-ligand structure), it has been reproduced across many laboratories and many E3 ligases, and it gives biologists a general way to remove proteins acutely, which is useful well beyond drug discovery. The link to disease is concrete, since degraders are in late-stage trials and the thalidomide-cereblon mechanism explains an old clinical puzzle. Crews and Deshaies introduced the concept experimentally and Ciulli supplied the structural and chemical basis that made it general and drug-like.",
+    "case_against": "The strongest reservation is attribution. A three-name limit forces a choice between the PROTAC strand and the molecular-glue strand (Handa, Ito, Gray and others), and whichever we choose leaves out real discoverers. There is also a maturity argument: no PROTAC is yet an approved drug, so clinical validation of the principle is incomplete. By comparison, base editing and nanopore sequencing have cleaner single-lineage attribution, and nanopore sequencing has years of routine deployment.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked base editing first and argued for a Liu, Komor, Gaudelli trio, noting that Nishida and Kondo have a legitimate but different claim; he also saw the PROTAC versus glue split as a hard choice.",
+        "response": "I agree that base editing is a very strong alternative and that the glue-versus-PROTAC allocation is the real weakness of B038. Where I differ is that I would still keep Liu alone for B011: Komor and Gaudelli were first authors of the two founding papers, but the platform design and the evolution programme were Liu's, and the Kondo/Nishida priority question grows if the prize names trainees. I would also want off-target and bystander deamination quantified more carefully before I treat B011 as fully mature. On B038 the mechanistic science has been confirmed by many groups, which to me outweighs the missing approval."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke put nanopore sequencing first for its clear physical principle and a new capability, and ranked PROTACs only fifth, partly because clinical validation is still emerging and recognition may be premature.",
+        "response": "I accept that nanopores are mature and independently validated, and I ranked them in my top five. My reservation is the same attribution problem, with five credible founders (Deamer, Branton, Kasianowicz, Bayley, Akeson) and only three slots, so any trio omits a founder. On maturity I disagree with calling degraders premature: the chemical principle is not in doubt, and a prize recognises the discovery and its confirmed mechanism, not drug approval. The timing risk is real but smaller than you suggest, and the allocation problem is comparable in both fields."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranked PROTACs first with the same trio, but noted that the cereblon glue strand is a distinct contribution and that his nanopore selection omits some founders.",
+        "response": "We are aligned on the trio, and I think we should be honest that the cereblon work (Handa, Ito) is a distinct discovery rather than a footnote. If the committee wants to credit it, it needs a second part and the three-person ceiling makes that costly. My view is that a citation framed around induced proximity through heterobifunctional degraders is defensible and keeps the discovery well defined, with the glue mechanism noted in the committee's background text."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranked phase separation first and lipid nanoparticles second, emphasising their physical-chemical grounding and, for LNPs, very large demonstrated impact.",
+        "response": "The LNP impact is undeniable, but I rank it lower because credit is spread across academic and industrial groups and the mRNA-modification prize of 2023 already covers much of the framing. For phase separation, I share your view that the core phenomenon is robust, but several members, including Linke and Aqvist, note the debate over which condensates are truly phase-separated. As an experimentalist I would want that resolved by quantitative measurement in cells before I rank it above degraders."
+      }
+    ],
+    "uncertainties": [
+      "How to allocate credit between PROTAC and molecular-glue (cereblon) discoveries within three names, and whether a prize built on one strand is fair to the other.",
+      "Whether the absence of an approved PROTAC drug makes recognition premature compared with base editing or nanopores.",
+      "Whether Komor and Gaudelli should share a base-editing prize with Liu, and how to treat the independent Kondo/Nishida claim.",
+      "I am working from memory on the current clinical status of degraders and have not verified it."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on dNTP pools and replication fidelity is only thematically adjacent to degraders and base editing, and I have no personal or institutional tie to the named candidates."
+  }
+}

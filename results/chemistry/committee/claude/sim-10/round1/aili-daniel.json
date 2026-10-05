@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-10",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B066",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation, in which small molecules recruit ubiquitin ligases to eliminate chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B057",
+    "B038"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a molecular-design principle rather than a single tool: a bifunctional PROTAC, or a molecular glue such as thalidomide acting through cereblon, converts a ligand into an adaptor that induces proximity between an E3 ligase and a protein of choice. It moves pharmacology from occupancy to event-driven removal, reaches targets that inhibitors cannot, and has spread through chemical biology, medicinal chemistry and clinical development. Handa's cereblon work gives the glue strand a clear mechanistic explanation, and the Crews and Deshaies PROTAC concept gives the rational-design strand. Both belong to one citation. It is also the candidate that most clearly changed what chemists and clinicians can do, and it has the strongest opening support across the committee (two first places, four top-three placements).",
+    "case_against": "No degrader drug is approved yet, so the clinical verdict is not in, and the choice of three names leaves out Ciulli, Gray, Sakamoto and Kim, whose contributions were decisive (VHL ligands, drug-like degraders, the first PROTAC). Credit is also split between a designed-bifunctional strand and a serendipitously discovered glue strand. A committee that wants confirmed impact at scale could reasonably prefer sequencing or C-N coupling, where recognition is overdue rather than early.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner ranks B066 third and notes that the mechanism is reproducibly confirmed but no PROTAC drug is approved, so recognition could be premature relative to clinical validation.",
+        "response": "I take the maturity worry seriously, but I would separate clinical validation from chemical validation. The induced-proximity principle, ternary-complex structures and the cereblon mechanism have been independently confirmed in many laboratories, and thalidomide-type glues are already in medical use, which makes the chemistry mature even if PROTAC approvals lag. We have recognised discoveries before their last clinical milestone when the principle was secure. I would still weigh that approval timing as a real uncertainty in the final ballot, and I do not claim it is settled."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan puts sequencing-by-synthesis (B057) first, calling it a game-changer with a clean Cambridge chemistry attribution to Balasubramanian and Klenerman, and recognition overdue after two decades of universal use.",
+        "response": "I agree that B057 is the more mature case and the attribution to Balasubramanian and Klenerman is compact, which is why I keep it as my first alternative. Where I differ is on how much of the achievement is chemical design. The reversible-terminator chemistry is clearly chemistry, but the field also depends on cluster generation, optics and platform engineering, and Rothberg, Ju and Mayer have credible competing claims, so the three-name limit is not clean either. Degraders are a more direct example of molecular design opening a new modality, though I accept B057 wins on proven impact."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter ranks Pd-catalysed C-N coupling (B038) first, as a ubiquitous medicinal and process chemistry method with a clean two-person attribution to Buchwald and Hartwig, and recognition overdue rather than premature.",
+        "response": "The attribution for B038 is the cleanest on our list and the industrial use is not in doubt. My reservation is that the 2010 cross-coupling prize already covers the Pd-catalysed bond-forming logic, so this would partly be a second prize for the same idea applied to C-N bonds, and it is more an enabling method for chemists than a new capability for biomedicine. I would not oppose it as a winner, and I put it as an alternative, but I think the case that it opens something that chemists could not do before is weaker than for degradation."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei also ranks B066 first and sees Crews, Deshaies and Handa as a coherent trio, turning ubiquitin-proteasome regulation into a chemical design principle with drugs now in clinical use.",
+        "response": "I agree with the trio and the framing, and I would add that the weak point he flags, dividing credit with Ciulli and others, is genuine. If the committee prefers to honour the VHL-based degrader strand, the three-name limit forces a choice that I think is defensible but contestable, and we should say so openly in the discussion rather than treat it as settled."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Emma ranks biomolecular phase separation (B036) first as a concept-forming physical-chemistry principle, while accepting that the in vitro versus in vivo condensate debate is still active.",
+        "response": "I find B036 intellectually attractive, and it resonates with my own work on peptide folding and assembly. But the unresolved question of whether in vitro droplets reflect physiological condensates, along with methodological artifacts, is a maturity problem that degraders do not have, because the mechanism there is shown by structures and by clinical pharmacology. I would put it below B066 for now, without discounting its long-term influence."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee frames the prize as PROTACs, molecular glues, or both, and who anchors each strand.",
+      "Whether the lack of an approved PROTAC drug is enough to postpone recognition.",
+      "Whether three names can fairly exclude Ciulli, Gray, Sakamoto and Kim."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile: my postdoc mentors (Stevens, Boey) and my Linköping group are not among the credited names for B066 or the alternatives, and my research overlap with Emma Sparr on peptide and lipid self-assembly is topical, not a personal or institutional tie to any candidate."
+  }
+}

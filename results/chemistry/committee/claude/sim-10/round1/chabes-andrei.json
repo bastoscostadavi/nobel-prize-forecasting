@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-10",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B066",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "for the development of targeted protein degradation, using bifunctional PROTAC molecules and molecular glues to direct E3 ubiquitin ligases to chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B057",
+    "B022"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation took a biological process, regulated proteolysis by the ubiquitin-proteasome system, and made it a defined chemical design principle: induced proximity between an E3 ligase and a chosen target. The principle is general, the chemistry is molecular and testable, and it gave biologists a tool (acute, reversible, post-translational knockdown) as well as a drug modality. Handa's identification of cereblon as the thalidomide target explains molecular glues mechanistically, and Crews and Deshaies conceived and demonstrated the PROTAC concept. The mechanism has been reproduced by many independent groups, and I weigh that heavily because I care about whether widely held claims survive proper measurement. Degraders are in late-stage clinical trials, and the link to the biology of cancer and genome maintenance is direct.",
+    "case_against": "No degrader has been approved as far as I know, so the clinical verdict is not in. The credit is crowded: Ciulli (VHL ligands and structural work), Sakamoto and Kim (first PROTAC), Gray, and Ito all have strong claims, and any three-person split leaves out decisive contributors. Dividing credit between the PROTAC and glue branches is arguable. A reasonable reading is that this is one year or a few years early, and the committee could still prefer sequencing, which is fully mature.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked B066 eighth because approvals are still pending and the credit leaves out important parts, while proposing Ciulli in place of Handa; he put massively parallel sequencing first because it is mature, chemical, and overdue.",
+        "response": "I agree sequencing is mature and my own second choice, and the lack of an approved degrader is a real weakness. I disagree on swapping Handa for Ciulli. Ciulli's VHL ligands and structural work made PROTACs drug-like, but they are an optimization of the concept, whereas the thalidomide-cereblon mechanism is a separate discovery that explains an entire drug class and shows the principle was already operating in medicine. The scientific confirmation of the mechanism is already extensive, so I would treat clinical approval as a timing question rather than a doubt about the chemistry."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked perovskite solar cells first and Car-Parrinello molecular dynamics second, and found PROTACs possibly premature because no PROTAC drug is approved, while recognizing that the induced-proximity principle is a new capability.",
+        "response": "The Car-Parrinello pair is attractively clean on attribution, and I accept that the laureates' age matters. But the principle is a methodological advance in simulation, and I cannot judge from my field whether it is more consequential now than a new pharmacological modality. On perovskites, I share Heiner's attribution concern: six names and near-simultaneous 2012 results, plus open stability and lead-toxicity questions, make that candidate less settled to me than degraders, where the mechanism is already well confirmed and only the clinical outcome is pending."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranked Pd-catalyzed C-N coupling first as an enabling method with a clean Buchwald-Hartwig pair and decades of confirmation, and base editing second with Liu alone.",
+        "response": "The attribution for B038 is cleaner than for any candidate I favor and its maturity is not in doubt, so I take it seriously. My reservation is novelty: the 2010 cross-coupling prize already honored the central idea of Pd-catalyzed bond formation, and C-N coupling is a major extension rather than a new concept. Degraders open a new class of target and a new kind of drug. On base editing, I agree that Liu is the intellectual leader, but with Kondo and Nishida's parallel work and the 2020 CRISPR prize, I would not put it above B066 or B057 this year."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranked biomolecular phase separation first as a concept-forming physical-chemical principle, while placing PROTACs fourth as clinically consequential but possibly early.",
+        "response": "I see the conceptual weight of phase separation and the Hyman-Brangwynne-Rosen trio is defensible. As an experimentalist, though, I worry that the physiological relevance of specific condensates is still contested and that some in vitro results have not held in cells, which echoes cases where assumptions failed under careful measurement. Degraders have the opposite profile: the mechanism is demonstrated at the molecular level, with structures of ternary complexes, even though clinical value is incomplete. I would rank mechanistic confirmation above breadth of conceptual influence."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a prize with no approved degrader drug, or consider PROTACs and molecular glues two separate achievements.",
+      "Whether Handa or Ciulli (or Ito or Sakamoto) is the better third name, and how to treat the PROTAC and glue branches in the citation.",
+      "Whether sequencing (B057) is judged chemistry rather than medicine or technology, and how its platform credit would be split.",
+      "Whether the 2020 CRISPR prize and the 2010 cross-coupling prize make adjacent candidates (B022, B038) look redundant."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the shortlisted candidates. I work on dNTP metabolism and ribonucleotide incorporation into DNA, which is related to the nucleic-acid chemistry of sequencing (B057) and deaminase editing (B022), but I have no stated collaboration or institutional tie to any candidate."
+  }
+}

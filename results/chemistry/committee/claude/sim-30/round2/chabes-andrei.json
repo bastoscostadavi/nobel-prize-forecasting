@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-30",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single nucleotides in genomic DNA without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B067"
+  ],
+  "statement": {
+    "case_for": "I keep base editing as my single-part configuration after reading the whole first round. It is a defined chemical reaction, deamination of a nucleobase in situ, placed under programmable control by tethering a deaminase to a Cas9 nickase, with the cell's own repair turning the deamination into a stable base change. The cytosine editor uses a known enzyme in a new setting. The adenine editor needed directed evolution of TadA because no natural enzyme deaminates adenine in DNA, so that step is new chemistry and not a repackaging. The products are verified at nucleotide resolution, many laboratories have reproduced and extended the editors, and base-edited cells and patients are already in clinical use. It is also the only configuration with explicit support from three members with different backgrounds (Brzezinski, Zou and me), and the chair's summary shows that the three of us name the same trio and nearly the same citation wording. On the chair's first question, the increment over 2020 is real and statable: the 2020 prize honoured guided double-strand cleavage, and base editing is defined by avoiding cleavage and by performing a specific chemical conversion of one base. Attribution follows the work: Liu conceived and led both editor families, Komor made the first cytosine base editor and Gaudelli the first adenine base editor.",
+    "case_against": "The strongest remaining reservation is the increment over the 2020 CRISPR prize, which some colleagues, Aili in particular, read as a stronger obstacle than I do. A second layer on a Cas9 platform may be judged smaller than a new field, and prime editing may later be folded into the same story. Kondo and Nishida's independent Target-AID cytidine deaminase fusion is a genuine priority question that a three-person limit leaves unresolved, and I cannot call the exclusion costless. The clinical record is short and long-term off-target deamination, bystander editing and delivery are not settled. Finally, no configuration has yet reached five supporters, so even my own preference is a plurality and not a consensus.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili prefers B068 with Crews, Deshaies and Handa, arguing that degradation opens a different mechanistic area and adds more new chemistry per prize than a second genome-editing prize, and that the approved cereblon glue lineage means the citation does not depend on PROTAC approval.",
+        "response": "I take the glue argument seriously, and it answers part of my own maturity objection. My remaining difficulty is that the citation then has to join two strands with different lineages: the engineered heterobifunctional degrader and the cereblon glue mechanism. Handa's work explains how thalidomide-class drugs act, but it is not a design invention in the sense that Crews and Deshaies's concept is, and Ciulli's VHL ligands and ternary-complex structures are what made PROTACs drug-like. A three-name cut distorts one strand or the other. I also do not accept that base editing adds less new chemistry: in situ deamination of a base on genomic DNA, and an enzyme evolved to deaminate adenine in DNA, are new chemical function and not a second layer of cleavage. I keep B068 as my first alternative and would support it if the committee prefers a mature, mechanism-based design principle."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist prefers phase separation (Hyman, Brangwynne, Rosen) as the one candidacy with a physical-chemistry core, and treats Kondo and Nishida's Target-AID as a priority problem that complicates the base-editing trio.",
+        "response": "I accept the quantitative-link standard you apply, and Rosen's multivalency framework meets it in vitro. For the prize as a whole, though, the central claim that specific cellular structures are liquids is still not established quantitatively in vivo, and you list that as your own main reservation, so I do not see how a citation avoids either overreaching or being narrowed to the in vitro result. On Target-AID, the priority question is narrower than it looks: it concerns a cytidine deaminase fusion only, whereas the adenine editor and its evolved deaminase have no independent parallel. A citation worded around programmable conversion of single bases, and not around first demonstration of a deaminase-nickase fusion, is defensible, but I agree the committee should record the Kondo and Nishida contribution openly."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou supports the Liu, Komor, Gaudelli trio on structural and mechanistic grounds but notes that Komor and Gaudelli's credit as trainees is a judgement call and that a Liu-only prize is defensible, and that base editing is the youngest candidacy.",
+        "response": "I agree with your mechanistic case and your honesty about timing. On trainee credit I would draw the line at who made the decisive chemical step, not at seniority: Komor made the first cytosine base editor and Gaudelli evolved the DNA adenine deaminase, which is the hardest chemical step and the one that changes what the technology can do. A Liu-only prize would misdescribe where the discoveries were made, and it would not solve the Kondo and Nishida question either. On youth, I weigh independent reproduction and clinical use more than age, and both are in place, though I agree the safety record is short."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai prefers Pd-catalysed C-N coupling (Buchwald, Hartwig) as the only mature, cleanly credited synthetic method and ranks base editing eighth, and says the sequencing-by-synthesis attribution is harder than C-N coupling.",
+        "response": "I agree that the Buchwald and Hartwig pair is clean and that the sequencing-by-synthesis attribution is harder, and I have therefore not moved B067 into my preferred part. I do not think the 2010 objection is symmetric with the 2020 one. Both ask whether a new prize is an increment, but base editing introduces a different chemical outcome, a base conversion without cleavage, whereas C-N coupling is a new bond type formed by the same family of palladium catalysis honoured in 2010, and the Kosugi tin-amide precedent adds a further priority question. That is a judgement of degree and I respect your reading, given that you work in that field. I would not oppose B032 as a second part, but I cannot place it above base editing."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr prefers ionizable lipid nanoparticles (Cullis, Hope, Madden) and argues that if the 2020 prize counts against base editing then the 2023 Medicine prize should count equally against lipid nanoparticles.",
+        "response": "The parallel is fair, and I did not intend to apply it asymmetrically. The difference I see is in what the earlier prize covered. The 2020 prize described guided double-strand cleavage, which base editing deliberately avoids, while the 2023 prize covered nucleoside modification and not the delivery vehicle, so for both candidacies the overlap is partial. The real obstacle for B017 is the one both of us name, six credited names and a Vancouver versus MIT split, and a pH-switched lipid that is both the concept and the formulation process is hard to bring down to a clean three without dropping Anderson and Langer. I remain ready to support it as an alternative, but I cannot yet defend the three-person cut as I can for base editing."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept base editing as sufficiently distinct from the 2020 CRISPR-Cas9 prize, since cleavage versus base conversion is a judgement and not a measurement.",
+      "How to treat Kondo and Nishida's Target-AID work if the prize is limited to three people.",
+      "Whether long-term off-target and bystander editing data will change the assessment of maturity.",
+      "Whether the committee can consolidate around any configuration, since no one has yet reached five supporters."
+    ],
+    "conflict_note": "No change from round 1. My Umeå, Thelander and Stillman connections concern nucleotide metabolism and DNA replication and none of the credited names on B006, B068 or B067, so I request no recusal. Nucleotide chemistry is my field, which may incline me to favour candidacies built on the chemistry of the bases (B006, B067)."
+  }
+}

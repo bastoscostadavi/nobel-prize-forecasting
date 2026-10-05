@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-39",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation by small molecules that recruit E3 ubiquitin ligases to a chosen protein"
+      }
+    ]
+  },
+  "alternatives": [
+    "B061",
+    "B052"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation turns binding into elimination: a designed bifunctional molecule brings a chosen protein to an E3 ligase and the cell's own machinery removes it. This is molecular design with precise control over recognition and assembly of a ternary complex, and it has changed what chemists and clinicians can attempt, since targets once called undruggable (scaffolding proteins, proteins without an active site) can now be approached. The concept has been reproduced by many independent groups, and Ciulli's structure-guided VHL ligands and ternary-complex work gave it rational design rules rather than luck. After reading the openings I still rank it first: it was the most widely supported candidate (seven of eight members ranked it, five in their top three), and that breadth comes from scientists with quite different criteria, which I take as a weak but real sign of robustness, not as proof of merit.",
+    "case_against": "No degrader is yet a broadly approved drug, so the clinical payoff is still a promise, and the committee could reasonably say the prize would be early. The credit is also crowded: the PROTAC lineage (Sakamoto, Kim, Crews, Deshaies, Ciulli) and the molecular-glue lineage (Handa, Ito, Gray) are distinct, and a three-person cap forces us to leave out real contributors, including the first-author trainees of the 2001 paper.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks PROTACs first as a new pharmacological principle with real consequences, but warns that the credit is crowded, that Sakamoto and Kim cannot be recognised under the three-person limit, and that timing is arguably slightly early.",
+        "response": "I agree on the principle and share the worry about Sakamoto and Kim, but I would not answer it by widening the prize to the glue lineage. A narrowly worded citation on bifunctional degraders keeps it one coherent achievement; the trainees' omission is a cost of the three-person rule that also applies to most other candidates here. On timing I am less worried than you: the mechanism and the ternary-complex chemistry are confirmed by many labs, and our criterion is the discovery's chemical importance, not an approved drug. I would still want to know whether any degrader reaches approval before the announcement."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes also ranks PROTACs first but replaces Ciulli with Handa, arguing that identifying cereblon as the thalidomide target underpins molecular glues and explains an old drug class mechanistically.",
+        "response": "This is the serious disagreement for me. Handa's cereblon work is a landmark of mechanism, but it is a discovery about how an existing drug acts, while the Crews-Deshaies-Ciulli line is about designing new degraders. Folding both into one prize makes the citation vague and sacrifices Ciulli, whose VHL ligands and ternary-complex structures made rational design possible and whose work I weight heavily from a design view. If the committee wants glues recognised, I think Handa and Ito deserve a separate part, not a seat that displaces the design lineage; I would listen to an argument for a two-part prize but I do not think a three-name mixed citation is cleaner."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, ranks nanopore sequencing (B017) first for its clean physical principle and deployed tool, and places PROTACs third, noting that no PROTAC drug is approved yet and credit is split between lineages.",
+        "response": "I accept that nanopore sequencing has the stronger record of deployment, and the Deamer-Akeson-Bayley line is a good example of physical insight becoming an instrument. My reservation is attribution: you yourself note Branton and Kasianowicz have strong claims, so the three-name split looks more contested than the degrader trio, where Crews and Deshaies are widely seen as the founders. On your maturity point about no approved drug, I would say the chemistry is unusually well characterised, but I take the criticism and would rank it as the main risk."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks phase separation (B035) first and ionizable lipid nanoparticles (B061) second, and notes that the 2023 Medicine prize for mRNA may make the committee hesitate about whether lipid delivery chemistry is distinct enough.",
+        "response": "I agree that the Medicine prize overlap is the main risk for B061, and it is why I keep it as an alternative and not my first choice, even though I value the lipid pKa and self-assembly design it rests on. On B035, the concept is stimulating, but you note yourself that how much in-cell condensate behaviour is true equilibrium phase separation is contested, and the allocation among five people is open. Compared with that, I find the molecular-design content and the experimental validation of degraders firmer, though your physical-chemical view of ternary-complex cooperativity is a point I would like to see reflected in the citation."
+      }
+    ],
+    "uncertainties": [
+      "Whether the prize should cover bifunctional PROTACs only or also molecular glues and the cereblon mechanism, and if so whether that needs a second part.",
+      "Whether the lack of an approved degrader drug makes recognition premature; I have not verified current trial status.",
+      "Whether Ciulli or Handa should hold the third place if glues are excluded from the citation."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. My postdoc mentors (Stevens, Boey) and my work on peptide-nanoparticle biosensors do not connect to any named candidate; I share research interests with Emma Sparr in self-assembly, but this is not a conflict."
+  }
+}

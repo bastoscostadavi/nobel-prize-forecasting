@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B023",
+        "laureates": [
+          "Craig M. Crews",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of proteolysis-targeting chimeras, small molecules that recruit E3 ubiquitin ligases to induce degradation of target proteins"
+      },
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B058"
+  ],
+  "statement": {
+    "case_for": "Both parts are molecular design principles that changed what researchers and clinicians can do. PROTACs turn a binder into a catalytic recruiter of an E3 ligase, so proteins once considered undruggable are removed rather than inhibited, and Ciulli's structure-guided VHL ligands and ternary-complex work made the idea a general, drug-like platform. Base editing is deaminase chemistry made programmable on a nucleic-acid target, and it is the opening-ballot candidate with the broadest support: six of eight members ranked it, two of them first. Pairing them gives a chemical-biology prize with two distinct mechanisms, one acting on proteins and one on the genome, each reproduced across many laboratories and already in clinical programs.",
+    "case_against": "Neither area has an approved drug from its core modality yet, so a skeptic can call both slightly early. A two-part prize forces me to drop Deshaies from the PROTAC trio and Komor and Gaudelli from the base-editing trio, and I am uneasy about leaving out the people who did much of the experimental work. The molecular-glue branch (Handa, Ito, cereblon) is also left out, which a purist would call an incomplete account of targeted degradation. Finally, two chemical-biology parts leave out analytical, materials and synthetic chemistry entirely, which may look unbalanced.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks base editing first and argues for Liu alone, because adding names would dilute a clear attribution, while his degradation trio is Crews, Handa and Ciulli.",
+        "response": "I now agree that Liu alone is the cleanest attribution for base editing. The conceptual and engineering line runs through his laboratory, and keeping this part at one name is what lets me fit a degradation part with two. I disagree on Handa. Cereblon identification explains how thalidomide-type glues work, but that is a different mechanistic discovery from designed heterobifunctional degraders, and putting it in the same citation blurs the claim. If the committee wants the molecular-glue story, it should be argued as its own part."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first and proposes Liu, Komor and Gaudelli, calling it the cleanest case of nucleotide chemistry reshaping biology. He flags Kondo and Nishida's parallel work as a priority question and the overlap with prime editing.",
+        "response": "I share his chemical reading of the deamination step. I part from him on the three names. Komor and Gaudelli were the lead trainees who carried out the experiments, and Nobel committees have usually credited the principal investigator who conceived the program. That default is not automatic, and I would reconsider if the committee judges the evolved adenine deaminase a separate inventive step. I would still keep Kondo and Nishida out of the citation, because their parallel work was a cytidine-deaminase fusion and is less general."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation first as a general physical-chemical organizing principle, with Hyman, Brangwynne and Rosen as laureates, and notes the debate over physiological relevance.",
+        "response": "I put this third in my own opening and still find it attractive. It brings multivalency and phase behaviour into cell biology and matters for biomaterials. My reservation is that the key evidence is still contested for in-cell condensates, and the claim risks being framed as cell biology rather than chemistry. Her point that Pappu and Mittag are omitted from any three-person cut is a real attribution weakness. I keep it as an alternative, not as a preferred part, until the committee can state a tight citation."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, ranks sequencing by synthesis first and asks whether it is chemistry rather than biology or technology, and what is new after Sanger in 1980.",
+        "response": "I take the chemistry argument seriously, since reversible-terminator chemistry is real nucleotide chemistry, and I had it fifth. I am not persuaded it should outrank the two parts I propose, because the prize would require deciding between the Solexa and 454 lineages and Mayer's role, and the three-person cap makes that hard. The Sanger precedent also pushes the committee to argue what is new. It stays an alternative for me."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee prefers one three-person PROTAC part or the two-part split that omits Deshaies.",
+      "Whether the molecular-glue and cereblon work should be a separate part or be excluded.",
+      "Whether the Kondo and Nishida parallel base-editing work changes the priority argument for Liu alone, and whether Komor and Gaudelli merit slots.",
+      "I am recalling clinical status of degraders and base editors from memory and have not verified it.",
+      "Whether two chemical-biology parts is acceptable breadth for a single year."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My postdoc mentors Molly Stevens and Freddy Boey are not credited on any shortlisted ballot. I note research overlap in self-assembly with Emma Sparr, which bears on phase separation (B007) only as a scientific proximity, not a personal tie."
+  }
+}

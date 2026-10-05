@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-46",
+  "member_id": "sparr-emma",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B045",
+        "laureates": ["Pieter R. Cullis", "Michael J. Hope", "Daniel G. Anderson"],
+        "citation": "For the development of ionizable lipid nanoparticles for the delivery of nucleic-acid medicines"
+      }
+    ]
+  },
+  "alternatives": ["B019", "B002"],
+  "statement": {
+    "case_for": "Ionizable lipid nanoparticles are, to my mind, applied lipid self-assembly at its most consequential. The key design principle is physical-chemical: a lipid whose apparent pKa is tuned so that it is cationic at low pH, where it condenses and encapsulates the nucleic acid during rapid mixing, and close to neutral at physiological pH, where it is tolerated in circulation and then re-protonates in the endosome and drives non-bilayer phase transitions that release the cargo. That is phase behaviour, electrostatics and kinetically controlled assembly turned into a general platform that works for siRNA and mRNA alike. It has produced multiple independently approved products and reached billions of people, so maturity and independent confirmation are not in doubt, and the chemistry (lipid structure to pKa to phase behaviour to delivery efficiency) is distinct from the nucleoside-modification science recognised in Medicine 2023.",
+    "case_against": "The credit is crowded and partly industrial. Cullis, Hope, Madden and MacLachlan in Vancouver, Anderson and Langer in Boston, and company scientists all have real claims, and any three-person cut will look arbitrary to someone. There is also a legitimate worry that this reads as a second pandemic-vaccine prize after 2023, and that much of the decisive optimisation was empirical screening rather than a clean conceptual discovery. B019 has far broader opening support and an arguably cleaner conceptual story, and I ranked it only sixth, so I should be open to the possibility that my field bias is pulling me toward the lipid case.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranked B019 first, as a new drug modality built on induced proximity and a designable chemical reaction, and also placed B045 third as enabling delivery chemistry, proposing Cullis, Hope and Madden.",
+        "response": "I agree with the delivery-chemistry framing, and your trio is more faithful than mine to the ionizable-lipid origin story, since Madden was central to the early Vancouver lipid work. I would defend Anderson on the grounds that the combinatorial lipid libraries are what made the siRNA formulations potent in vivo, but I accept this is the contestable seat. On B019 I am less convinced than you that this is a settled chemical concept: PROTACs and cereblon glues are two partly separate stories, and the physical-chemical basis of ternary-complex cooperativity is still being worked out. I would rather see that settle than force Crews, Deshaies and Handa into one citation."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked B019 first with Crews, Deshaies and Ciulli, arguing that degrading rather than inhibiting a target is a conceptually simple, chemically elegant new modality, and that the PROTAC pioneers should be anchored rather than the glue arm.",
+        "response": "I take the elegance point seriously and I do not dispute the novelty. My reservation is the one you flag yourself: no PROTAC drug is approved, so we would be recognising a modality on the strength of late-stage trials, whereas ionizable lipid nanoparticles already have approved products and years of real-world safety data. If the committee agrees B019 should wait for a first approval, B045 is the more mature candidate. If the committee wants to go with B019 now, I would favour your Crews, Deshaies and Ciulli grouping over adding the molecular-glue names, because it keeps the citation coherent."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked nanopore sensing (B002) first as a clear physical principle, ionic current blockade by a single polymer, that became label-free long-read sequencing, while acknowledging that credit spreads over more than three people.",
+        "response": "I find the physical principle compelling and it is the closest rival to B045 for me as a general concept turned into technology. My qualification is the attribution problem you describe: separating the 1996 translocation demonstration from the later enzyme-ratcheting and pore engineering means any trio omits a decisive person, and the prize would then look like a judgment about who counts as the inventor. That is also true for B045, but there the family of ionizable lipids is more clearly one achievement. I would keep B002 as an alternative and would like to hear whether you think Bayley can be excluded on principle."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranked long-range electron transfer through proteins (B055) first, as a quantitative physical-mechanism description of biological redox chains, with a clean two-person attribution.",
+        "response": "The attribution is indeed the cleanest on the table, and I share your preference for physical-mechanism explanations. My concern is the one you raise about the 1992 Marcus prize: experiments that validate a distance-dependent tunnelling picture may be seen as the confirmation of an already recognised theory rather than a new concept. I would also note that B055 had little support in the other openings, so on its own it is unlikely to reach five votes. I would want to see whether it can be paired with a second part rather than treated as the lead."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a delivery-technology prize with three names from a crowded group that also includes Madden, MacLachlan and Langer.",
+      "Whether recognising ionizable lipid nanoparticles after Medicine 2023 will be read as a repeated pandemic prize.",
+      "Whether B019 should be preferred, given its much broader support, if no clinical approval is required for recognition."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile with any shortlisted candidate. Heiner Linke and Peter Somfai are Lund colleagues, and my research on lipid self-assembly overlaps the subject matter of B045, but that is a scientific interest rather than a personal or institutional tie to the candidates."
+  }
+}

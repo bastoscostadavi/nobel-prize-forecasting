@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-02",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B029",
+        "laureates": [
+          "Roberto Car",
+          "Michele Parrinello"
+        ],
+        "citation": "For the unified first-principles molecular dynamics method in which electrons and nuclei are propagated together, making it possible to simulate bond breaking, solvation and condensed-phase chemistry from the electronic structure"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B045"
+  ],
+  "statement": {
+    "case_for": "I keep Car and Parrinello, and I want to answer the chair's question about what is distinct. The 1985 contribution is a single extended Lagrangian in which the electronic orbitals are given a fictitious dynamics and evolve together with the nuclei, so that no self-consistent electronic problem has to be solved at every step. That made first-principles dynamics of liquids, amorphous solids and reacting systems practical for the first time, with no force field to parametrise in advance. Results that depended directly on this formulation were the early ab initio simulations of liquid and amorphous silicon and carbon, of water and aqueous proton transfer, and of bond making and breaking in condensed phases, where a pre-built force field could not have predicted the chemistry. It is distinct from the 1998 prize, which gave chemists the density-functional machinery and quantum-chemical methods, and from the 2013 prize, which was about coupling classical and quantum descriptions for large systems. Car-Parrinello is what allowed the electronic structure to be solved on the fly along a trajectory. It is a game-changer by my own test: it was new, it has been reimplemented in many independent codes for forty years, and it opened the road to ab initio MD, to QM/MM treatments of enzymes of the kind I use, and to the reference data behind machine-learned potentials. Attribution is two names with no dispute. With no candidate close to five votes after round 1, I would rather defend the one configuration in which neither priority nor validity is open, and I will say plainly that I am not defending it as the most popular.",
+    "case_against": "The round-1 exchange sharpened rather than removed my main weakness. Born-Oppenheimer ab initio MD with efficient density-functional codes now does much of what the fictitious-dynamics scheme did, so a citation must rest on the conceptual unification and its historical role, not on the details of today's practice. Zou and Sparr are right that much of the visible impact came from what others built on the idea, and I cannot show that every later development should be credited to the two names. A third computational prize since 1998 is a legitimate worry for colleagues who weigh breadth across chemistry, and I was the only member to put B029 first, so my field's familiarity may be inflating my view. Perovskites and lipid nanoparticles have a larger and more visible audience than a method does.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke asked what was discovered that is distinct from the 1998 DFT prize and the 2013 multiscale prize, and how far Born-Oppenheimer MD has displaced the original scheme, and said he would take it seriously as part of a two-part prize.",
+        "response": "The distinct element is the dynamical unification itself: electrons and nuclei in one Lagrangian, solved on the fly, which is neither a new functional (1998) nor a classical and quantum coupling for large systems (2013). I concede that Born-Oppenheimer MD has displaced the original scheme in much routine work, and I would word the citation around the unified first-principles method, not the fictitious mass. I cannot offer him a clean second part to pair it with, because three people is the limit and two are already taken. Where we agree is the Miyasaka, Park, Snaith trio. If the committee prefers perovskites, I will vote for that trio without reservation about attribution, though I still hold my maturity worry on stability and lead."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou finds Car-Parrinello the best-attributed candidate but says its recognition rests largely on what others did with it, notes the prizes of 1998, 2013 and 2024, and prefers B016 as the stronger statement of the last fifteen years.",
+        "response": "The argument that a method is recognised through its use is true of every enabling method, including the 2013 prize that Zou cites, so I do not think it counts against this one specifically. Her point on breadth is fair, and a new semiconductor class with chemistry behind its defect tolerance is a serious claim. It is why B016 stays my first alternative. Where we differ is on maturity: I think a decade of efficiency gains is not yet the same as the forty-year record that Car-Parrinello has, and I would like stability to be demonstrated before I put perovskites ahead of a candidate with no open priority or validity question."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili accepts the attribution and the foundational character of Car-Parrinello but doubts it changed what researchers outside theory can do and asks which results depend on the fictitious-dynamics formulation.",
+        "response": "The dependence is concrete: the first routine ab initio simulations of liquids, amorphous materials, interfaces and proton transfer in water, and the reaction mechanisms that experimentalists could then compare with spectroscopy, relied on the extended-Lagrangian scheme. Outside theory it is felt through the materials and solution chemistry those simulations explained. I accept that this is less visible to a clinician than a lipid nanoparticle. On B045 I now agree with her that the clinical consequence is exceptional, and I still object that her pair, Cullis and Langer, and Sparr's trio, Cullis, Hope and Madden, cannot both be right. I have moved B045 into my alternatives."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr says Car-Parrinello is the strongest case on attribution and maturity but is a methodological enabler, and asks how much of what would be cited is the 1985 scheme and how much was developed later by others.",
+        "response": "I accept the distinction and would keep the citation to the 1985 unified scheme and its immediate demonstration, leaving later work on metadynamics, variable cells and machine-learned potentials outside the credit, even though Parrinello contributed to some of it. Her preference for concept over enabler is reasonable, and it is what separates her ranking from mine. On B045 I am persuaded by her lipid physical-chemistry argument that the ionizable-lipid and rapid-mixing line is the core, which makes the Vancouver names the natural centre of any such prize. I still cannot reduce Cullis, Hope and Madden to a fair three without examining the experts' record on MacLachlan and on the lipidoid strand."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski keeps B043 as a candidate to revisit but not ready for a clean configuration this year, because the PROTAC line and the cereblon glue line have different protagonists and clinical proof is pending.",
+        "response": "I agree and it changes my view. In round 1 I placed B043 as my first alternative. After his and Somfai's points that a three-name cut cannot cover both the PROTAC and the glue strands, and with no approved degrader, I no longer think it can form a clean configuration this year, so I replace it with B045 in my alternatives. His own B062 is rigorous and cleanly attributed, but the 1992 Marcus prize, and the unrecognised Beratan, Onuchic and Dutton contributions, still leave it as a completion in my view."
+      }
+    ],
+    "uncertainties": [
+      "Whether a third computational-methods prize since 1998 will be accepted by a majority, given that no member other than me ranked B029 first.",
+      "Whether the committee regards the Car-Parrinello scheme as still distinct from Born-Oppenheimer ab initio MD, or only as a historical step.",
+      "Whether Parrinello's later work should enter the credit, which I have chosen to leave out of the citation.",
+      "Whether stability and lead toxicity make B016 premature, or whether the discovery alone is sufficient."
+    ],
+    "conflict_note": "Field overlap only: Car-Parrinello is close to my own work in biomolecular simulation, since my QM/MM and EVB studies draw on the same ab initio toolbox. I have no personal or institutional tie to Car or Parrinello, and I do not seek recusal. My postdoc supervisor Arieh Warshel is a 2013 laureate and not a candidate. Nothing has changed from round 1."
+  }
+}

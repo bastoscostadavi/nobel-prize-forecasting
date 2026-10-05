@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B058",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of massively parallel DNA sequencing by synthesis based on reversible-terminator chemistry"
+      }
+    ]
+  },
+  "alternatives": [
+    "B023",
+    "B007"
+  ],
+  "statement": {
+    "case_for": "I have moved my second part from PROTACs (B023) to sequencing by synthesis (B058). Base editing stays as the first part: deaminase chemistry made programmable at a chosen base, reproduced in many laboratories, separable from the 2020 scissors prize because the citation names a chemical transformation of a base and not RNA-guided cleavage, and the one achievement six of eight members already carry. For the second part, the reversible terminator is a real piece of nucleotide chemistry, one fluorescently read base per cycle, and it changed what researchers and clinicians can do more than almost any other tool on the list: reading a genome became a routine measurement in diagnostics, oncology and microbiology. Paired with base editing it gives a prize about reading and rewriting DNA by chemical means, explainable in two sentences, and it keeps the configuration at three people with a clean attribution on each part. My own round-1 objection to B058 was the Solexa versus 454 lineage question. The Aqvist and Linke wording, which cites the reversible-terminator chemistry and not sequencing in general, answers that for me.",
+    "case_against": "The pairing can look assembled, two DNA technologies rather than one chemical idea, and sequencing by synthesis may be read as genomics or technology, with Sanger in 1980 as the obvious precedent. Excluding Rothberg's pyrosequencing lineage and Mayer needs an explicit argument that the reversible terminator is the core step, and I accept that this is contestable. For base editing, Liu alone leaves out Komor and Gaudelli, who carried out the experiments, and Kondo and Nishida have a parallel cytidine-deaminase claim that I have not been able to settle from dates in the files. I also give up the PROTAC part, which I still think is a molecular design principle of the first rank, and I leave the committee without any representation of synthetic, materials or physical chemistry.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist moved to a two-part prize pairing Liu for base editing with Balasubramanian and Klenerman for reversible-terminator sequencing, calling attribution clean in both and the pairing coherent as chemistry for reading and rewriting DNA.",
+        "response": "I have followed him here and I want to say what moved me. In round 1 I put PROTACs second, and he and Chabes and Somfai pointed to the absence of an approved degrader from the core modality and to the split between the heterobifunctional design and the cereblon glue mechanism. I cannot make a three-name citation that is honest about that split, since Crews and Ciulli alone omit Deshaies, Handa and Ito. His sequencing part has a settled impact record and a citation that names one chemical reaction. I accept his point that a Liu-only base-editing part is what lets two names fit on the second part. Where I am less sure than he is: the pairing will be read by some as a bundle of tools, and the citation text has to carry the unity."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, proposes the same two parts and lists as open questions whether Balasubramanian and Klenerman alone can be defended against Rothberg's 454 and Mayer, and whether the reading-and-writing pairing is coherent.",
+        "response": "On priority, I think the defence is the citation wording: reversible-terminator chemistry on a clustered or single-molecule array is the step that made sequencing by synthesis scalable and parallel in the form still used, whereas pyrosequencing is a different chemistry with a different readout. That is an argument, not a proof, and I would want the committee to check the primary record on Mayer. On coherence, I agree the pair is not one discovery, but the 2020 prize was for the scissors and this pair is for chemistry that acts directly on the bases, once to read them and once to rewrite them, which I find acceptable. I would not claim more than that. I am less worried about Sanger in 1980 than he is, because the parallelism and the terminator design are the new content."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes proposes Liu, Komor and Gaudelli for cytosine and adenine base editors, arguing that the adenine editor needed a TadA deaminase evolved to act on DNA and that the three names match the experimental lineage.",
+        "response": "His point about the adenine editor is the strongest argument for a wider credit, since there was no natural enzyme to repurpose and the directed evolution was a separate inventive step. I still come out at Liu alone for two reasons. First, the three-person limit: Komor and Gaudelli would push the second part below two names, and I do not see how to cut Balasubramanian or Klenerman. Second, the established practice of crediting the laboratory head who conceived and directed the programme. I have not changed my view that this default is not automatic, and if the committee decides the evolved adenine deaminase is a distinct step, I would revisit the configuration. He also treats B058 as the mature alternative, and I agree it is the safer second part."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai pairs Buchwald and Hartwig's Pd-catalysed C-N coupling with Liu for base editing, to give a molecule-making half and a chemistry-of-life half, and notes that Kosugi's tin-amide work is a precursor.",
+        "response": "I see the value of a balanced prize, and my own configuration is exactly the one he cautions about: both parts are chemistry of life. My difficulty with B054 is the one he names, that the 2010 cross-coupling prize already honoured the area and the new element is a ligand-design extension of it. I do not think it is mature-versus-immature that separates us, it is how much new principle remains. I would rather defend a part where the chemistry did not exist in a form that could be used before, and sequencing by synthesis and base editing both meet that for me. I accept that the committee could reasonably choose his configuration if it values breadth across subfields."
+      }
+    ],
+    "uncertainties": [
+      "Whether the Kondo and Nishida Target-AID dates relative to the Liu laboratory's cytosine base editor change the Liu-only attribution. I cannot verify the dates from the files I am allowed to read.",
+      "Whether the evolved adenine deaminase is judged a separate inventive step that warrants Gaudelli, and whether the committee would then accept Liu, Gaudelli and one sequencing name.",
+      "Whether Balasubramanian and Klenerman can be defended without Rothberg's 454 lineage and Mayer, and whether sequencing by synthesis is accepted as chemistry.",
+      "Whether pairing two DNA technologies reads as a coherent prize or as an assembled one.",
+      "I recall the clinical status of base editors and degraders from memory and have not verified it."
+    ],
+    "conflict_note": "No conflict requires recusal on B018 or B058. My postdoc mentors Molly Stevens and Freddy Boey are not credited on any shortlisted ballot. I retain a scientific proximity in self-assembly to Emma Sparr, which now bears only on my alternative B007 and is not a personal tie. My earlier first-round preference for B023 has been dropped and I have no tie to Crews or Ciulli."
+  }
+}

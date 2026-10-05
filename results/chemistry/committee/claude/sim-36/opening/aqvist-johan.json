@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-36",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_opening_v1.md",
+  "rankings": [
+    {
+      "rank": 1,
+      "ballot_id": "B009",
+      "proposed_laureates": [
+        "Pieter R. Cullis",
+        "Daniel G. Anderson",
+        "Robert S. Langer"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Ionizable lipid nanoparticles are the enabling chemistry behind siRNA drugs and the mRNA vaccines. This is the kind of game-changer with demonstrated real-world consequences that I look for: a molecular design principle (pH-dependent charge for encapsulation and endosomal release) that turned nucleic acids into practical medicines.",
+        "attribution": "Cullis and colleagues developed the ionizable-lipid and microfluidic-mixing LNP concept and the route to clinical siRNA; Anderson and Langer contributed combinatorial lipidoid libraries and in vivo delivery. Madden, Hope and MacLachlan are also important, so a three-person cut is genuinely hard, and Cullis alone is arguably the most defensible core.",
+        "maturity": "Clinically validated at global scale (Onpattro, COVID-19 mRNA vaccines) and independently reproduced; recognition is timely, and the 2023 Medicine prize rewarded the mRNA modification but not the delivery chemistry.",
+        "uncertainties": [
+          "Fair division of credit among the Cullis group members, Anderson and Langer is unresolved.",
+          "Overlap with the 2023 Medicine prize may make some members hesitate; I am relying on my own recollection of the patent and publication history, not verifying it here."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ballot_id": "B026",
+      "proposed_laureates": [
+        "David R. Liu"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Base editing converts one base pair to another without double-strand breaks, using engineered deaminases fused to Cas proteins. It is a clearly new chemical capability for programmable genome chemistry, with rapid therapeutic consequences, and it is conceptually simple.",
+        "attribution": "Liu's laboratory conceived and demonstrated both cytosine and adenine base editors (Komor and Gaudelli as lead researchers). Nishida and Kondo reported a parallel cytidine-deaminase system, so priority is not entirely exclusive. A single-laureate prize to Liu is the cleanest configuration; extending it to trainees would be unusual.",
+        "maturity": "Early clinical trials and approved-pathway progress show consequences, and many independent labs use the tools. Long-term clinical safety data are still accumulating, so some members may feel it is a bit early.",
+        "uncertainties": [
+          "Whether prime editing (a separate entry) should be recognized jointly or later.",
+          "Long-term clinical outcomes remain to be established; I am relying on my recollection of trial status."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ballot_id": "B067",
+      "proposed_laureates": [
+        "Shankar Balasubramanian",
+        "David Klenerman"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Massively parallel sequencing-by-synthesis, built on reversible-terminator chemistry and clonal clusters on a surface, transformed the ability to read genomes at a scale and cost that changed biology and medicine. The chemical idea is straightforward and the consequences are enormous.",
+        "attribution": "Balasubramanian and Klenerman invented the Solexa approach and its chemistry. Rothberg (pyrosequencing in picolitre wells), Mayer and Ju represent parallel or complementary routes and arguably merit a share, so credit allocation among platforms is contested.",
+        "maturity": "Fully mature: it has dominated sequencing for nearly two decades and underpins clinical genomics. If anything, recognition is overdue.",
+        "uncertainties": [
+          "Whether the Chemistry committee views sequencing as a Chemistry or a Physiology/Medicine subject.",
+          "Allocation between Solexa and 454 or other platforms."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ballot_id": "B045",
+      "proposed_laureates": [
+        "Craig M. Crews",
+        "Raymond J. Deshaies",
+        "Hiroshi Handa"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Targeted protein degradation reverses the usual logic of inhibition by recruiting E3 ligases to destroy proteins, enabling drugging of formerly intractable targets. The molecular glue mechanism of thalidomide analogues, explained via cereblon, adds a satisfying mechanistic story. It is a new modality with growing clinical evidence.",
+        "attribution": "Crews and Deshaies launched the PROTAC concept; Handa identified cereblon as the thalidomide target, which unlocked the molecular glue mechanism. Ciulli, Gray and others made major contributions to VHL ligands and degrader design, so choosing three is a hard call.",
+        "maturity": "Many degraders are in clinical trials, but no PROTAC has yet reached approval at scale, so consequences are still emerging; the glue branch is more mature than PROTACs.",
+        "uncertainties": [
+          "Compound discovery: PROTAC and molecular-glue strands may need different recognition.",
+          "Pending clinical validation of PROTACs."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ballot_id": "B055",
+      "proposed_laureates": [
+        "Peter G. Wolynes",
+        "José N. Onuchic",
+        "Alan R. Fersht"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Energy landscape theory with funnels explained how proteins fold quickly and connected theory to experiment through phi-value analysis. As a simulation person I value work where theory quantitatively meets experiment, and this reshaped how folding is understood.",
+        "attribution": "Wolynes and Onuchic (with Bryngelson) developed the funnel framework; Fersht provided the experimental kinetic and mutational mapping. Dill and Bryngelson have strong claims, so a trio omits important contributors.",
+        "maturity": "Decades of confirmation, though the field's practical prominence has been reframed by structure prediction; recognition could be considered overdue rather than premature.",
+        "uncertainties": [
+          "The 2024 prize on structure prediction and design may reduce appetite for another protein-focused award.",
+          "Allocation among Wolynes, Onuchic, Dill, Bryngelson and Fersht."
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ballot_id": "B052",
+      "proposed_laureates": [
+        "Roberto Car",
+        "Michele Parrinello"
+      ],
+      "assessment": {
+        "nobel_worthiness": "The Car-Parrinello method made ab initio molecular dynamics practical, allowing bond making and breaking and electronic structure to be treated within a dynamical simulation. It is a foundational simulation technique with broad consequences in chemistry, materials and condensed matter.",
+        "attribution": "The credit is clean and fits a two-person prize: Car and Parrinello's 1985 paper. Parrinello also appears in other candidates (metadynamics, ML potentials), which could complicate how a combined computational prize is configured.",
+        "maturity": "Highly mature, with four decades of use and independent implementations, though it is mostly a method enabling work rather than a single discovery; the 2013 prize already honoured multiscale methods and the 2024 prize computational work.",
+        "uncertainties": [
+          "Competition from other computational candidates and possibly overlapping Parrinello recognition.",
+          "Committee appetite for another computational method after 2013 and 2024."
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ballot_id": "B069",
+      "proposed_laureates": [
+        "Stephen L. Buchwald",
+        "John F. Hartwig"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Palladium-catalysed C-N cross-coupling is a workhorse transformation in medicinal chemistry and materials, widely used to construct arylamines. It is practical and simple in the sense I value, and extends the logic of the 2010 cross-coupling prize.",
+        "attribution": "Buchwald and Hartwig developed the general ligand-controlled catalytic methods; Kosugi and Migita reported earlier tin-based amination, a priority nuance. Buchwald and Hartwig are the natural pair.",
+        "maturity": "Very mature, with industrial adoption across pharmaceuticals; recognition is timely or overdue.",
+        "uncertainties": [
+          "Whether the committee sees it as an extension of the 2010 prize rather than a new discovery.",
+          "Earlier tin-amine coupling priority."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ballot_id": "B064",
+      "proposed_laureates": [
+        "Tsutomu Miyasaka",
+        "Henry J. Snaith",
+        "Nam-Gyu Park"
+      ],
+      "assessment": {
+        "nobel_worthiness": "Halide perovskites emerged as photovoltaic absorbers with remarkable efficiency gains in a very short time, a new class of material in energy conversion. This matches my notion of a game-changer, comparable in spirit to how I regard MOFs as a new material class with already evident applications.",
+        "attribution": "Miyasaka first reported perovskite-sensitized cells in 2009; Park and Snaith (with Grätzel, Seok and others) established solid-state high-efficiency devices around 2012. Grätzel, Kanatzidis and Seok have strong claims, so the allocation is contentious.",
+        "maturity": "Efficiencies are record-setting and widely reproduced, but long-term stability, lead toxicity and commercial deployment remain open, so it may be somewhat premature.",
+        "uncertainties": [
+          "Stability and commercialization remain unproven at scale.",
+          "Contested priority among Miyasaka, Park, Snaith, Grätzel, Seok and Kanatzidis."
+        ]
+      }
+    }
+  ]
+}

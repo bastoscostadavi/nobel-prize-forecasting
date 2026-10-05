@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-12",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": ["David R. Liu", "Alexis C. Komor", "Nicole M. Gaudelli"],
+        "citation": "for the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": ["B065", "B011"],
+  "statement": {
+    "case_for": "I have changed my preferred configuration from the two-part prize of round 1 (Buchwald and Hartwig for B065, Liu alone for B007) to a single-part base editing prize naming Liu, Komor and Gaudelli. The reasons are scientific and practical. Base editing is real chemistry: a deaminase is turned into a site-selective reagent for one nucleotide in a genome, and the adenine editor required directed evolution of TadA to act on DNA, a reaction no natural enzyme performs. The mechanism is explicit (deamination in the R-loop window, nickase-directed strand choice, mismatch-repair handling) and the tools are replicated and extended by many independent groups, with patients now treated. In round 1 I defended a Liu-only part to avoid a priority fight, but a one-name part inside a two-part prize pairs two unrelated fields and was supported by me alone on the B065 side. Komor and Gaudelli made the founding experiments for the two editor classes, and a three-name citation of the cytosine and adenine editors is a cleaner, explainable achievement than a Liu-only one. It also converges with the Chabes and Linke configurations, which is a consequence of re-weighing the evidence and not a goal in itself.",
+    "case_against": "The proximity to the 2020 CRISPR prize is a genuine objection, and I do not think it disappears: a committee can argue that base editing is a successor step in the same story. Kondo and Nishida (Target-AID) were independent and near-contemporaneous, and a three-name citation leaves them out, so the citation wording must stay on the engineered deaminase editors and not claim to be the first or only cytidine editor. Long-term safety, bystander edits and off-target deamination are still being characterised. I also give up my preferred molecule-making case. B065 remains, in my judgement, the most clearly mature and widely used method on the shortlist, but only one member put it first, its distinctness from the 2010 palladium prize is arguable, and the Kosugi and Migita history is not independently checked by me. Moving it to an alternative is a judgement about what can reach five votes, and I should not claim it reflects a change in how I rate the science of C-N coupling.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner asks whether base editing can be framed as distinct from the 2020 prize and whether it holds at three names (Liu, Komor, Gaudelli) given Target-AID, or whether the Liu-only option fits better.",
+        "response": "I now accept the three-name version and withdraw my Liu-only suggestion. The distinction from 2020 is that Cas9 cutting exploits cellular repair, whereas base editing performs a defined chemical transformation on a single base and the adenine editor needed an enzyme to be evolved to accept DNA, which is new chemistry. On attribution, Komor and Gaudelli each carried one of the two editor classes from concept to a working tool, so excluding them while crediting Liu looks harder to defend than the Target-AID omission, which a carefully worded citation can acknowledge. I would keep the citation on the engineered editors and avoid priority language."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei argues that the two founding inventions, the cytosine and adenine base editors, are separable and attributable to Liu, Komor and Gaudelli, and that the deaminase, nickase and mismatch-repair logic is chemically understood and engineered.",
+        "response": "That is persuasive to me as an organic chemist, because a reaction whose selectivity window, strand choice and outcome are designed and not found empirically is what I look for in a general method. I share your doubt about whether the committee should wait for a longer clinical record. My view is that the prize rests on the invention and its reproduced chemistry, not on approval of a drug, and the clinical benefit already reported is supporting evidence. I disagree that Kondo and Nishida can be treated as a footnote. They are a real attribution risk and I would rather say so than minimise it."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel proposes Crews, Deshaies and Ciulli for targeted protein degradation as a new modality that changed what chemists and clinicians can attempt, and concedes that no degrader is approved and that the glue line is a parallel strand.",
+        "response": "In round 1 I asked how you would deal with Handa and Ito, and your case against already concedes that the cereblon and glue thread may have the stronger mechanistic payoff. That is the point on which I remain unconvinced: the achievement that you would name (bifunctional PROTAC design) is not the one with the clearest chemical-biology discovery, and a three-name cut either slights the glue work or forces a citation that merges two mechanisms. With no approved degrader, I still rank B011 below base editing, but I keep it as my second alternative because its breadth across all eight ballots is real."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan values B011 as a chemically simple idea with large consequences and weights its presence on all eight opening ballots above the number of first places.",
+        "response": "I take the breadth argument seriously, since every member ranking it is information, but I treat broad acceptance as a statement about safety, not conviction, because most members listed it as an alternative rather than a first choice. Simplicity of the principle is also an argument for base editing, whose concept can be explained in a sentence and whose reagent design is as explicit as a bifunctional degrader. Where I agree with you is that the credit for PROTACs (Crews, Deshaies, Ciulli) is coherent as a trio, and if the committee wanted a prize on that topic I could support that cut better than the alternative of adding the glue names."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Peter Brzezinski treats nitrogenase as a mechanism problem and acknowledges that it is a line of work rather than a single attributable discovery, with Dean and Ribbe excluded and the N2 binding mode open.",
+        "response": "Your own reservations are the ones I hold: structure is confirmed but the catalytic cycle is not closed, and the attribution among five people is contested. I would not support a citation to the mechanism of nitrogenase while the N2 binding mode is unknown, and a structure-only citation would honour work that is already largely decided. I do not see a reading of your case that gets past those two points, so B028 stays outside my configuration."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee judges base editing sufficiently distinct from the 2020 CRISPR prize, and whether the Kondo and Nishida Target-AID priority question can be met by wording alone.",
+      "Whether the three-name cut (Liu, Komor, Gaudelli) is the right one, or whether Komor and Gaudelli should be recognised as trainees whose work is part of a Liu-led invention.",
+      "Whether I have discounted B065 only because of thin support, and whether C-N coupling is too close to the 2010 palladium prize. My recollection of the Kosugi and Migita history is not independently verified.",
+      "Whether PROTAC and molecular glue contributions could be combined into one defensible B011 citation, and how much the lack of an approved degrader should count."
+    ],
+    "conflict_note": "No conflict has appeared in round 1 that changes my earlier disclosure. None of the shortlisted candidates is a former mentor, collaborator or colleague of mine; my postdoctoral mentor Masamune is not on the shortlist. Lund colleagues Linke and Sparr are fellow committee members, not candidates, and my agreement with Linke on B007 is not a coordinated position."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-11",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B008",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of palladium-catalyzed carbon-nitrogen cross-coupling through ligand design"
+      },
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B028",
+    "B037"
+  ],
+  "statement": {
+    "case_for": "My configuration is unchanged: B008 (Buchwald and Hartwig) paired with B061 (Liu alone), with B008 to stand alone as a two-laureate prize if the committee does not accept the second part. The first round did not weaken the case for C-N coupling. Nobody disputes the attribution, the maturity or the impact, and the objections are about novelty relative to 2010. Zou's argument answers it: amine binding, deprotonation and the difficult C-N reductive elimination needed a ligand-design solution of their own, and that is a separate achievement from C-C coupling. I would accept the citation naming C-N coupling and ligand design explicitly, so no one can say we are repeating ourselves. On base editing, Chabes's point on TadA is the best new-chemistry argument made in the exchange: the adenine editor required evolving a tRNA deaminase to act on DNA, which has no natural counterpart, and the cytosine editor is a smaller step but still a defined reaction on a displaced strand. I keep Liu alone because the committee should credit the principal investigator who conceived and led both programs, and because it keeps the whole configuration at three people.",
+    "case_against": "The two parts are not equal. B008 is mature, clean and the one I can defend on the chemistry without caveat. B061 is ten years old, follows the 2020 CRISPR prize, has a short clinical safety record, and a Liu-only citation will be challenged by anyone who thinks Komor, Gaudelli, Kondo and Nishida were equally essential. Chabes's three-name version is defensible on lead experimentalist grounds but I do not move to it, because Komor and Gaudelli were trainees and it would take the configuration to five people. Linke's paired B061/B028 prize would also be a narrow, chemical-biology-only prize. The fair reading of the first round is that B061 is the weaker half of my own configuration, and if the committee finds it unready I would rather see B008 alone than a diluted pair.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Synthetic methodology is already well represented by the 2010 and 2021 prizes, so there is no comparable gap for C-N coupling as there is for induced-proximity pharmacology.",
+        "response": "I do not accept prior representation of a field as a reason to pass over a distinct achievement. Neither 2010 nor 2021 covered amination, and the bonds made by Buchwald-Hartwig chemistry are in a large share of drug candidates, including, I would note, many of the degraders you favour, whose linkers and ligands are assembled this way. The chemistry is not a gap-filler, it is overdue. I do agree with you on how narrow a B028 citation must be, and I would be more comfortable with PROTAC-only wording that does not claim the glue strand, but my objection to the Crews, Deshaies, Ciulli trio is not removed: the cereblon strand is arguably the more decisive clinical story and the committee would be asked to leave it out."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "C-N coupling has less conceptual novelty than degradation, and the 2010 prize weakens the novelty part of the game-changer test, though it is a strong and safe candidate.",
+        "response": "I take the novelty test seriously, but I think it is applied unevenly here. Degradation is conceptually new, yet its attribution is eight names with two mechanistic strands and it has no approved drug, while the C-N coupling has a clean two-person attribution and thirty years of consequences. A prize that is safe and also correct on the chemistry should not be put off to a future year just because the field is quiet. On the 2010 point, the mechanistic problem differs: C-N reductive elimination from palladium is much harder than C-C, and it took bulky biaryl and hindered alkyl phosphines to solve it. That is a new idea in ligand design, not an extension."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Base editing has stronger conceptual novelty than C-N coupling, with the cytosine and adenine editors as separate chemical achievements and Liu, Komor and Gaudelli as the credited names.",
+        "response": "Your TadA argument moved me: that is the genuine chemical step, and it is why I keep B061 in my configuration. I still disagree on three names. Komor and Gaudelli did the lead experimental work, but the prize has traditionally gone to the person who conceived and directed the program, and the three-person cap leaves no room for the Buchwald-Hartwig pair if you are in the configuration. I also disagree that C-N coupling is the less clear case: a clean novel chemical concept and a thirty-year record is not a trade-off here. Where I agree is that Kondo and Nishida remain an unresolved gap in any B061 attribution and I cannot claim to have closed it."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Pairing base editing with PROTACs gives two explainable stories with tight names, and the union stays at three people.",
+        "response": "I accept the logic of a paired prize inside the three-name cap, but I would not pair two chemical-biology achievements when one of them, as you say in your case against, carries the bigger attribution and maturity risk. Crews and Deshaies without Ciulli, and without the cereblon strand, is a cut I find hard to defend, and I think it would be reopened the next year. B008 is core chemistry with a clean cut; paired with B061 it gives the committee a range of chemistry without a contested attribution on both halves. I would support B008 as a companion part to B061, which is your first alternative."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "C-N coupling needed a different mechanistic solution from C-C coupling and the citation should name C-N coupling specifically so the committee cannot be seen as repeating itself.",
+        "response": "I agree and have changed the citation to name carbon-nitrogen coupling and ligand design explicitly. To your question about a stand-alone prize: I would accept B008 alone as Hartwig and Buchwald, and I would prefer it to a pairing in which the second part cannot reach a majority. Your point that Kosugi is a precursor is settled for me."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts that the 2010 prize does not cover amination, or treats B008 as a repetition.",
+      "Whether Liu alone for B061 is acceptable given Komor, Gaudelli, Kondo and Nishida, and whether B061 can reach five votes at all.",
+      "How much weight the 2020 CRISPR prize and the short clinical safety record deserve for base editing.",
+      "Whether degradation can be framed as a single prize without leaving the cereblon and molecular glue strand unrecognized; I have not seen a cut I can accept."
+    ],
+    "conflict_note": "No change. I share Lund University with Heiner Linke and Emma Sparr, and my mentor Satoru Masamune was at MIT where Buchwald works, but I have no direct tie, collaboration or institutional overlap with any shortlisted candidate and I do not request recusal."
+  }
+}

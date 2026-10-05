@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B008",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of cytosine and adenine base editors, which convert single nucleotides in DNA by directed deaminase chemistry without double-strand breaks"
+      }
+    ]
+  },
+  "alternatives": [
+    "B059",
+    "B016"
+  ],
+  "statement": {
+    "case_for": "Base editing takes a well-defined enzymatic reaction, hydrolytic deamination of cytosine (and, after directed evolution of a tRNA deaminase, of adenine) and makes it programmable at a single nucleotide in living cells. The chemistry is evolved rather than merely borrowed: the adenine deaminase did not exist for DNA and had to be created by protein engineering. The product is a general tool used daily in many laboratories and organisms, and it is already in patients. The Liu, Komor and Gaudelli trio matches who did the decisive work, and it has been reproduced independently many times. I weigh a chemical mechanism that biologists can use over reach of impact alone, and this candidate meets that test.",
+    "case_against": "The 2020 prize for CRISPR-Cas9 already recognised programmable genome editing, so the committee may see base editing as a follow-on and may want more clinical evidence before recognising it. Bystander editing, off-target deamination and the credit owed to the concurrent Nishida and Kondo work remain open points, and nothing yet shows that base editors cure disease at scale.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks PROTACs and molecular glues first as a new pharmacological modality, and ranks base editing second but would credit Liu alone, noting that CRISPR (2020) may have exhausted genome editing.",
+        "response": "I agree that PROTACs introduce a real new modality, but no degrader is approved and the attribution is spread over eight names, so the concept is still ahead of its evidence. On CRISPR overlap, the 2020 prize rewarded programmable DNA cleavage; base editing is a different chemical idea, direct nucleotide conversion without a break, and its enzymes had to be engineered. I would keep Komor and Gaudelli beside Liu, since the cytosine and adenine editors were distinct inventions made by those first authors, and a Liu-only prize hides that."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, puts nanopore sequencing first for its clean physical principle and engineered protein pores, and ranks base editing second, noting the CRISPR follow-on problem and the need to define the distinct invention.",
+        "response": "I share his second-place view of base editing and take the follow-on concern seriously; the distinct invention is the chemical conversion of one base to another without cleavage. On nanopores, I accept the principle and the sequencing impact, but the credit among five people is hard to settle, and the contributions are experimentally staggered: Deamer and Branton's proposals, Kasianowicz's demonstration, Bayley's engineering and Akeson's enzyme ratchet. I would need clearer evidence of who made the decisive step before ranking it above base editing."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks ionizable lipid nanoparticles first for their enabling role in siRNA drugs and mRNA vaccines, with very strong maturity and clinical validation.",
+        "response": "The impact is hard to dispute, and I have ranked it third myself. My reservation is attribution: a trio must omit Hope, Madden or Langer, and the discovery lies in formulation as much as in a single molecular insight. The 2023 Medicine prize also covered the nucleoside modification that made mRNA workable, so the chemistry prize would partly revisit the same application. I would keep it as a strong alternative rather than my first choice."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalysed C-N cross-coupling first as a mature, pervasive method, with Buchwald and Hartwig as the central developers and Kosugi's earlier tin-amide work as a limited precursor.",
+        "response": "I agree with the attribution to Buchwald and Hartwig, and with leaving Kosugi out. The method is mature and clearly widely used, which is a strong argument for it. My hesitation is that the 2010 cross-coupling prize already covers the underlying Pd chemistry, so I place it lower, but I defer to the synthetic chemists on how distinct the C-N advance is, as it is beyond my expertise."
+      }
+    ],
+    "uncertainties": [
+      "How much weight the committee will put on base editing as a follow-on to the 2020 CRISPR prize.",
+      "Whether clinical data in 2026 are mature enough, and how serious bystander and off-target deamination are in practice.",
+      "Whether Nishida and Kondo's concurrent cytidine-deaminase editing deserves a place in the citation or only a mention."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile; my nucleotide-metabolism work is related in subject to base editing and sequencing chemistry, but I have no collaboration with any of the candidates."
+  }
+}

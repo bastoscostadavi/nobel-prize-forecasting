@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-59",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B002",
+        "laureates": ["Peter G. Schultz", "Jason W. Chin"],
+        "citation": "for expanding the genetic code with orthogonal aminoacyl-tRNA synthetase/tRNA pairs that install designed non-canonical amino acids in living cells"
+      },
+      {
+        "ballot_id": "B060",
+        "laureates": ["David R. Liu"],
+        "citation": "for the development of base editing, the programmable chemical conversion of DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": ["B037", "B005"],
+  "statement": {
+    "case_for": "Both parts are inventions in which chemists redesigned the molecular machinery of the cell and handed the community a general tool. Orthogonal synthetase/tRNA pairs let a designed side chain be placed at a chosen site in a protein in a living cell. That is the enabling step for bioorthogonal handles, photocrosslinkers, and designed peptide and protein materials, and it has been independently reproduced for over twenty years. Base editing is the same style of work: engineered deaminase fusions, evolved by directed evolution, that carry out a defined chemical transformation on DNA with no double-strand break. It has about ten years of independent validation and early clinical use. Each part has a clear intellectual leader (Schultz and Chin for the code, Liu for base editors), which keeps the configuration to three people without leaving a notable inventor out.",
+    "case_against": "The strongest reservation is credit allocation in B002. Dropping Lei Wang, Ryan A. Mehl and Shigeyuki Yokoyama is a judgement about who was decisive, and the early E. coli and eukaryotic work is genuinely shared with Wang. A second concern is that B060 sits close to the 2020 CRISPR prize. The Nishida and Kondo parallel report also weakens a Liu-alone framing, even if I consider it a secondary contribution. A third concern is that two chemical-biology parts may look too uniform. The committee could prefer a configuration that spans synthesis, methods and biology, and the most broadly supported alternatives (B037, B005) would do that better.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner ranks targeted protein degradation first as a clear conceptual invention that is easy to state, with a fast-growing clinical pipeline, and treats a Crews, Deshaies and Handa trio as a workable judgement call.",
+        "response": "I put B037 third, not first, and the disagreement is mostly about attribution and maturity, not scientific merit. The PROTAC concept and the cereblon mechanism are two different discoveries: one is a design principle and the other is an explanation of an old drug. A prize naming Crews, Deshaies and Handa leaves out Sakamoto, Ciulli, Gray, Ito and Kim, and Ciulli's structure-guided VHL work is what made the modality chemically rational. As far as I know, no degrader has been approved yet. I would keep B037 as my first alternative and I could move toward it if the committee decides the maturity risk is acceptable."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan ranks Car-Parrinello molecular dynamics first because it is a clean, bounded two-author methodological invention that is overdue after four decades.",
+        "response": "I accept the attribution argument without reservation. Car and Parrinello is the cleanest credit boundary on the shortlist, and in that respect it is better than my own B002 cut. My difference is about which prize best serves chemistry now, not about merit. I consider CPMD fully deserving, but placing it above the chemical-biology inventions, whose reach into experimental chemistry and medicine is more direct, is a matter of taste. I am not opposing it, and I would expect it to be a strong candidate if the committee prefers a theory and methods prize."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei ranks base editing first and proposes David R. Liu alone as the cleanest configuration, with nearly ten years of independent validation and the CRISPR credit already awarded in 2020.",
+        "response": "I agree that Liu alone is the right framing for B060 and that the work is chemistry in substance: engineered deaminases that make a defined chemical change in DNA. I partly disagree on timing. The 2020 prize recognized programmable cleavage, so base editing as a separate step is defensible, but clinical safety data are still accumulating. That is why I pair it with B002, which is the more mature part, instead of leaving it as a stand-alone prize."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Peter Brzezinski ranks Pd-catalyzed C-N coupling first as a mechanistically well-understood method with decades of industrial use, and he sees a two-person Buchwald and Hartwig prize as clean.",
+        "response": "I agree that B005 is mature, correctly attributed and widely used, and it is my second alternative. My hesitation is novelty of impact relative to the 2010 C-C coupling prize: it extends an already-honored catalytic logic into a different bond, whereas genetic code expansion and base editing open qualitatively new capabilities. I do not think the Buchwald-Hartwig case is weak, and if the committee decides that attribution clarity is the decisive criterion, B005 would be a safer choice than my pairing."
+      }
+    ],
+    "uncertainties": [
+      "Whether two or three contributors should be credited for B002, and in particular whether Lei Wang's early experimental role outweighs Chin's later extensions.",
+      "Whether the committee will treat base editing as sufficiently distinct from the 2020 CRISPR prize and mature enough, given the still-developing clinical safety record.",
+      "Whether B037 will have a first regulatory approval by the time of decision, which would change its maturity argument and could make it the stronger option."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. My postdoc mentors (Molly Stevens, Freddy Boey) and my Linköping colleagues are not credited on any shortlisted ballot. My research on peptide self-assembly and condensed phases overlaps with B024 (phase separation), which I am not proposing."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling"
+      },
+      {
+        "ballot_id": "B008",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the invention of base editors that convert one DNA base to another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B027",
+    "B009"
+  ],
+  "statement": {
+    "case_for": "I have moved from B027 plus B008 to B011 plus B008. B011 is the most mature and best-validated method on the shortlist, and its mechanism is stated in physical-organic terms I trust: oxidative addition, amine binding and reductive elimination, with ligand sterics and electronics controlling the rate-limiting steps. Three decades of independent use and a clean two-name credit (Buchwald and Hartwig) make it the least contested attribution on the table. B008 remains my second part because it is a defined chemical transformation, deaminase chemistry on DNA with an adenine deaminase that had to be evolved, reproduced independently and already in patients. With Liu alone the whole configuration has exactly three people, so it is feasible under the limit. The pairing is coherent as a prize for two ways of making a specific bond change in a molecule on demand, one in a flask and one inside a genome, and each part can be explained in one sentence.",
+    "case_against": "B027, my round-1 first choice, received no support from any other member, and I cannot defend a configuration that rests on my own field affinity. Its attribution beyond Gray and Winkler is diffuse and the 1992 Marcus prize makes it look like a completed chapter. For the chosen configuration, the weakest point is B008: Liu alone leaves out Komor and Gaudelli, who carried out the experiments on the two editors, and the committee still has to state exactly what is chemically new relative to the 2020 CRISPR prize. B011 faces the objection that the 2010 prize closed palladium cross-coupling, and the two parts differ greatly in maturity. If the committee cannot agree on Liu alone, the three-person cap makes B008 the part that should give way, not B011.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai argues that C-N coupling is the clearest case on the shortlist, that Kosugi's tin-amide reaction was a precursor of narrow scope, and that C-N bond formation needed its own ligand and mechanistic solutions beyond the 2010 C-C couplings.",
+        "response": "I find this persuasive and it is the main reason I moved. The 2010 laureates worked on C-C bond formation, and the amine problem had a different kinetic bottleneck, C-N reductive elimination from a palladium amido complex, which ligand design had to solve. That also answers the chair's question about 1983: Kosugi used stoichiometric tin amides without a general catalytic cycle or ligand control. I would still ask Somfai to confirm the priority dates for Kosugi and Migita before the citation is fixed, since the expert report has to state them, but I am now content to credit Buchwald and Hartwig only."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, moved from nanopores to B011 plus B008 with Liu alone, arguing that the pair is explainable in a sentence each and uses exactly three people.",
+        "response": "I arrived at the same configuration by a different route and I agree with the reasoning on Liu alone: the invention is the conversion of a base without a break, and Liu conceived and directed both editor classes. On your worry about uneven maturity I would not hide it. The citation for B008 should say plainly that it is a method, already reproduced and in early clinical use, and the committee should accept that the two parts are not equally old. I do not think that is disqualifying, because the Academy has paired mature and recent work before when each part has a clear attributable discovery."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes keeps Liu, Komor and Gaudelli as the trio for base editing and argues that the cytosine and adenine editors were distinct inventions by the first authors.",
+        "response": "The first authors' contribution is real and I will not minimise it, and I would want it recorded in the background text. But with three names on B008 the union cap removes B011 or cuts it to a single person, and splitting Buchwald and Hartwig would be a worse attribution error than naming Liu as the originator of the programme. If you can show from the expert report that Komor and Gaudelli independently conceived the editors, and not as executors of a Liu design, I would reconsider, but then a single-part B008 prize would have to be compared on its own merits with B011."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist prefers targeted protein degradation as a new pharmacological modality, led by Crews, Deshaies and Handa.",
+        "response": "I accept that degraders are a genuine conceptual shift and the answer to the chair's question is, for me, not yet: no degrader is widely approved, and PROTACs and cereblon glues were discovered by different logic, so a single citation would be a stretch. I would rather wait until the clinical record is in than recognise a promising principle early. I keep B009 as an alternative, and I would support it if approval data arrive and the committee can write one citation with a defensible three names."
+      }
+    ],
+    "uncertainties": [
+      "Whether Liu alone is acceptable to the committee for base editing, or whether the committee will insist on Komor and Gaudelli, which would force the pair to drop B011 or become a single-part prize.",
+      "The exact priority history between Kosugi and Migita and the first Pd-catalysed amine couplings, which the expert report must settle before the B011 citation is final.",
+      "Whether the committee will see the 2010 and 2020 prizes as closing C-N coupling and genome editing respectively.",
+      "Whether the clinical record for base editors is long enough to count as validated, given bystander and off-target deamination."
+    ],
+    "conflict_note": "I no longer prefer B027, which is close to my own research on electron and proton transfer in respiratory enzymes, and I keep it only as an alternative. I have no tie to any candidate in B011, B008 or B009. I am a Stockholm University colleague of Xiaodong Zou, but no shortlisted candidate is connected to Stockholm University to my knowledge."
+  }
+}

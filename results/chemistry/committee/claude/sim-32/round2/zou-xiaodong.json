@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Roberto Car",
+          "Michele Parrinello"
+        ],
+        "citation": "for the unification of electronic-structure theory with atomic motion in first-principles molecular dynamics, enabling bond breaking and condensed-phase chemistry to be simulated without pre-fitted force fields"
+      }
+    ]
+  },
+  "alternatives": [
+    "B030",
+    "B028"
+  ],
+  "statement": {
+    "case_for": "After the full first-round exchange I move my preferred configuration from B030 (zeolite and molecular-sieve design) to Car-Parrinello molecular dynamics. My own case for B030 was weakened by exactly the points I raised against it: it is a field built over decades rather than one dated discovery, early industrial priority (Union Carbide, Mobil) cannot be settled from what the committee has, and the three-name limit excludes Tsapatsis and Yu. Nobody else ranked it, and the chair's question about whether zeolite design can be cited as a single discovery has no good answer I can give. B024 has the opposite profile: one two-author 1985 paper, a general principle (electrons and nuclei propagated together through an extended Lagrangian), and four decades of independent adoption for liquids, solids, surfaces, proton transfer and catalysis, including in my own area, where it is used to understand adsorption, templating and reaction pathways inside porous materials. Attribution and maturity are as clean as anything on the shortlist, and the citation can be fixed to the 1985 step without adjudicating metadynamics or machine-learned potentials. I judge the scientific case to be stronger than the alternatives that depend on disputed credit (B012, B064, B046).",
+    "case_against": "The category question is real. Car-Parrinello is as much condensed-matter and computational physics as chemistry, and the 2013 multiscale and 2024 structure-prediction prizes mean computational methods have been recognized recently. Plane-wave DFT with fictitious-mass dynamics has known functional, sampling and adiabaticity limits, and Born-Oppenheimer MD and machine-learned potentials have displaced the original scheme in much current practice, so the claim of quantitative agreement with experiment is not uniform. As a structural chemist I also note that a method prize does not itself verify a structure or mechanism; its value depends on how well the results are benchmarked against diffraction and spectroscopy. Finally, the experimental candidates with direct reach into medicine and biology, especially B064 and B012, have a stronger public case if their attribution could be resolved.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "The citation can be kept to the original 1985 method so later work (metadynamics, machine-learned potentials, plane-wave DFT codes) does not need to be adjudicated.",
+        "response": "I agree, and this is what lets me move. In round 1 I asked that the citation not be stretched to Parrinello's later work, and your wording solves it: a prize for the 1985 unification, stated in terms of what it does for chemistry (bond breaking, condensed-phase reactions, no fitted force field), is a defined achievement. On your own caveat that Born-Oppenheimer MD and machine-learned potentials have displaced the original scheme in practice, I would not count that against the prize. The extended-Lagrangian idea created the capability that those successors implement, and a prize recognizes the origin."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Ab initio molecular dynamics makes bond breaking, proton transfer and reactions in solution computable and connects quantitatively to experiment.",
+        "response": "In round 1 I asked how often the quantitative link to experiment is really delivered. Your reply on the 1985 paper's role as foundation is persuasive, because the limits I cited (functional choice, sampling, fictitious mass) are limits of how the method is used, not of the idea. I still think the citation should say what it enables rather than claim uniform accuracy. From the materials side, the cases where AIMD has been checked against diffraction, adsorption and spectroscopy in zeolites and framework materials are the ones that carry weight for me, and that is a fair benchmark for the committee's expert report."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "A candidacy resting on one dated, attributable discovery is much easier to defend in the expert report than a broad line of work, and the zeolite candidacy is a line of work with a binding three-name limit.",
+        "response": "You are right about B030, and I conceded the same in my own case against it. Tsapatsis and Yu are only partly separable from Corma, Davis and Zones, and I cannot name one decisive design principle that is cleanly dated and credited. That is the main reason I am leaving it. I would still keep B030 as an alternative, because the structural outcomes there are verified crystallographically and industrially. A single-paper candidacy is the better basis for a defensible report, which is why I now join you on B024."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Massively parallel sequencing-by-synthesis is a chemical achievement at its core, with Balasubramanian and Klenerman as the chemical core pair.",
+        "response": "I still find your pair a defensible cut and I accept that the reversible-terminator chemistry is chemistry. My difficulty is the one you flagged: the Solexa, 454, Ju terminator and Mayer clonal-array routes each have a case, and I have no basis in the supplied material to rank their priority. You say you would fall back on B024 if attribution cannot be settled. For me it cannot be settled by this committee without more evidence, so I think B024 is the safer shared position and the chemistry-based sequencing case remains a strong alternative for a later year."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Ionizable lipid nanoparticles are a pKa-tuned molecular design principle with outsized clinical consequence, credited to Cullis, Hope and Madden.",
+        "response": "I accept that this is a genuine design principle and that its consequence for medicine is larger than any other candidacy on the list. My reservation is credit. The MIT lipidoid work (Anderson, Langer) and the Vancouver rapid-mixing and ionizable-lipid work are not separable from my seat, and a three-name cut would leave out contributors the expert report would have to defend. I have not changed my view that attribution matters here, and for that reason I do not rank B064 first, but I would not call that a verdict on its science."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority will treat Car-Parrinello molecular dynamics as chemistry rather than computational condensed-matter physics, given the 2013 and 2024 computational prizes.",
+      "Whether the final citation can stay on the 1985 unification without being read as a general award for ab initio simulation.",
+      "Whether B064 or B012 could be resolved on attribution well enough to outweigh B024's clean credit if the committee prefers reach into medicine and biology.",
+      "Whether Tsapatsis and Yu should be weighed against the named zeolite trio if B030 returns in a later year."
+    ],
+    "conflict_note": "No recusal-level conflict with the shortlisted candidates. My field of electron crystallography overlaps with zeolite and framework structure determination (B030), and I may know some credited zeolite researchers such as Jihong Yu and Michael Tsapatsis through the porous-materials community. This is a scientific acquaintance, and it is one reason I give B030 less weight now. I have no personal or institutional tie to Car, Parrinello or any other candidate in my preferred configuration."
+  }
+}

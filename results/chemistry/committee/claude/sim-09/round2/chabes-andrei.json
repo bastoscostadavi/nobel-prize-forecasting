@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B055",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the development of reversible-terminator sequencing-by-synthesis chemistry, which turned polymerase incorporation of engineered nucleotides into a massively parallel readout of DNA"
+      },
+      {
+        "ballot_id": "B021",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editors that chemically convert one DNA base into another at a targeted site without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B063"
+  ],
+  "statement": {
+    "case_for": "I keep the same configuration after reading the whole first round. Sequencing-by-synthesis is the only shortlisted candidate where the key claims have been tested by thousands of independent laboratories for two decades, and the invention is a defined chemical scheme: 3'-blocked, fluorescently labelled nucleotides with cleavable linkers, an engineered polymerase, and surface-bound clusters. Zou is right that the citation must name that chemistry and not the genomics it enabled, and I have written it that way. Base editing is a second, distinct achievement: a defined deamination reaction on a Cas-exposed single strand, a protein-engineering route (directed evolution of TadA to act on DNA) that is unmistakably chemical, independent replication, and first patients treated. Reading and rewriting DNA are two achievements that fit one prize and stay within three names, Balasubramanian, Klenerman and Liu.",
+    "case_against": "The weakest point is still attribution in B055. Rothberg (454), Ju (terminators) and Mayer (clonal amplification) have claims, and I cannot settle priority from the material before me. A second reservation is that two parts with no clear single dominant candidate may be read as a hedge, and that base editing is young: long-term bystander and off-target deamination data are still accumulating, and leaving out Komor, Gaudelli, Nishida and Kondo is a real cost. B052 has the broadest support, and I do not dispute its science. My concern is that the trio and the clinical record are not settled, and I would not accept a split into two lineages inside a single three-person citation.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Keeps B055 as an alternative but asks whether a Cambridge-only prize can defend excluding Rothberg's pyrosequencing and Mayer, and whether the citation is chemistry or instrumentation.",
+        "response": "This is the right test and I accept it is the main risk to my first part. My answer is that the citation can be written so that it stands on the Cambridge contribution: the reversible-terminator chemistry and the single-molecule concept. 454 pyrosequencing used a different readout, with unblocked nucleotides and enzymatic light detection, and its homopolymer limitation is exactly what blocked terminators solved. So the exclusion of Rothberg is a statement about which chemistry is being honoured, not an oversight. Mayer's clonal amplification and Ju's terminators are closer, and I admit I cannot rank them from the supplied material. If the chair thinks that exposure is unacceptable, I would rather lose the part than dilute it with a fourth name, which the three-person limit does not allow anyway."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Asks whether a two-part prize splitting the PROTAC and glue strands is plausible, and accepts discussion of Crews, Deshaies and Ciulli for a PROTAC-only citation.",
+        "response": "A split would give each strand its own citation, which is cleaner scientifically, but three names cannot cover it: Crews and Deshaies for PROTACs plus Handa for cereblon leaves Ciulli out and puts each part on one or two people. It also takes the entire name budget for one field. I find your own concession useful. If the committee wants a PROTAC-only prize, Crews, Deshaies and Ciulli is closer to what the data show, since structure-based VHL ligands made the molecules drug-like, but then the cereblon discovery that explains thalidomide is not honoured. I still regard that as a reason to wait for clinical proof of a PROTAC, not to compress two discoveries into one."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Moved from mesoporous silica to B055 for Balasubramanian and Klenerman only, as the cleanest case for maturity, and wants the committee to treat Ju's terminator work as a deliberate exclusion.",
+        "response": "Agreed on both counts. The citation names terminator nucleotides, polymerase incorporation and surface clustering, so it is a chemistry citation. Ju's work on 3'-O-modified, labelled terminators is a real parallel, and the exclusion is a judgement that the Cambridge work was the one that became the working scheme with the single-molecule concept behind it. I hold that view with moderate confidence, because it rests on the history I can verify, not on lab notebooks. Our difference is scope: you want B055 alone, I add base editing as a second achievement. I would accept a single-part B055 as my fallback if the committee prefers one topic."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Asks what portion of sequencing's effect lies in the nucleotide chemistry itself rather than in imaging, clustering and instrumentation.",
+        "response": "A fair question and the one I find hardest. My view is that the chemistry is the rate-determining invention: without a reversible, near-quantitative termination and a clean deblocking step, the optics and clusters have nothing to read, and read length and accuracy track the incorporation chemistry. Imaging and flow cells are enabling, but they were developed around that chemistry. I measure this by the error profile, which is dominated by incorporation, phasing and deblocking efficiency. I cannot quantify a percentage, but I think it is sufficient for a chemistry prize, and I appreciate that you are open to B055 in a combined configuration."
+      }
+    ],
+    "uncertainties": [
+      "Whether Rothberg, Ju and Mayer can be excluded from B055 on the chemistry criterion, and whether a majority will accept that, which I cannot resolve from the supplied material.",
+      "Whether the committee accepts a two-part prize with no single dominant candidate, or prefers one topic, in which case I would fall back to B055 alone.",
+      "Whether crediting Liu alone for base editing is defensible given Komor, Gaudelli, Nishida and Kondo, and whether base editing is mature enough.",
+      "Whether the clinical evidence and settled attribution for B052 will arrive in time to overtake my configuration."
+    ],
+    "conflict_note": "No conflict or recusal. I have no personal or institutional connection to any shortlisted candidate or nominee. My own field, dNTP metabolism and replication fidelity, makes me a user of sequencing and a subject-matter reader of nucleotide chemistry, which is an interest and not a conflict. Nothing in the first round changed this."
+  }
+}

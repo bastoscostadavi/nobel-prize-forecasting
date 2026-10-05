@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-42",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B069",
+        "laureates": ["Harry B. Gray", "Jay R. Winkler"],
+        "citation": "for establishing, through experiment and theory, how electrons tunnel over long distances through proteins"
+      },
+      {
+        "ballot_id": "B052",
+        "laureates": ["David R. Liu"],
+        "citation": "for the development of base editing, programmable chemical conversion of DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": ["B067", "B036"],
+  "statement": {
+    "case_for": "Gray and Winkler gave a quantitative physical account of how electrons move through protein matrices: ruthenium-modified proteins with photo-triggered electron transfer, distance and driving-force dependence, and the tunneling-pathway picture. This is the foundation on which the understanding of respiratory chains, photosynthesis and redox enzymes rests. It has about four decades of independent confirmation and a compact two-person credit. Marcus theory was recognised in 1992, but this is the experimental and biological extension, which is a separate achievement. Liu's base editing is chemically original, since it pairs engineered deaminase chemistry with a programmable DNA-binding protein. It has independent confirmation across many labs and first clinical use, and Liu is the clear central figure. Together the two parts form a coherent, three-person prize about chemical principles, one in natural systems and one in engineered ones.",
+    "case_against": "Gray and Winkler are a field-foundational contribution rather than a single discrete discovery, and the tunneling-pathway interpretation is still debated at the margins. A committee can fairly ask whether the prize has already been given for electron transfer theory. Base editing is recent, long-term clinical outcomes are not known, and the 2020 CRISPR prize makes a second genome-editing prize look close. Pairing two unrelated achievements is also a weaker story than a single unified one. Targeted protein degradation (B067) has the broadest support among my colleagues and a clearer story of new capability. If its attribution can be settled, it may be the stronger choice.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks targeted protein degradation first and proposes Crews, Deshaies and Ciulli. His case is that induced proximity turns the ubiquitin-proteasome system into a general drug modality, and he accepts that the molecular-glue side makes a three-person split contestable.",
+        "response": "I agree the concept is original and that Crews and Deshaies hold the priority for PROTACs. My reservation is the one Aili himself raises. Handa and Ito's identification of cereblon as the thalidomide target is not a footnote, because it explains the glue branch and also enabled cereblon-based PROTACs. A trio that omits it sits uneasily with the prize's three-person limit. The clinical validation is also incomplete, since no degrader is yet approved. I would want the expert report to say whether PROTACs and glues are one achievement or two before I support it as a first choice. I keep it as my first alternative, not my preferred option."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks phase separation first. He argues it is a clear physical principle of demixing and concentration thresholds, with Hyman, Brangwynne and Rosen as the founding group.",
+        "response": "Linke's framing as physical mechanism appeals to me. My concern is the evidential standard. The physiological role of condensates, as opposed to overexpression artifacts, is still unsettled, and Pappu and Mittag's claims make the three-person cut hard to justify. For a prize about mechanisms, I want quantitative in vivo evidence that the liquid-like state is functionally essential, and I do not yet see it settled. B049 is not on my ballot for that reason, though I would listen to evidence on it."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks molecular-sieve catalyst design first and cites decades of industrial confirmation, with a clean Corma, Davis and Zones split between design, synthesis and application.",
+        "response": "I accept that the maturity is excellent and the impact is large. My hesitation is attribution and novelty. The credited set has five names, and the case rests on a line of work spanning many topologies more than on one clearly attributable discovery. I would like the committee to say what the single defining chemical advance is. I can see it as a serious candidate on technical grounds, but I rank it below the electron-transfer case."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks PROTACs first and perovskite solar cells second, noting that perovskites rose from a few percent to over 25 percent efficiency but that stability and lead toxicity remain unresolved.",
+        "response": "I share his caution on perovskites about timing. Efficiency is confirmed, but the unresolved stability and the difficult three-person split among Miyasaka, Park, Snaith, Grätzel, Seok and Kanatzidis make this the weakest attribution on the list. I would not support it this year. I concur with his view that PROTACs are the leading medicinal-chemistry candidate, subject to the attribution problem above."
+      }
+    ],
+    "uncertainties": [
+      "Whether the expert report treats Gray and Winkler as a separable achievement from the recognised electron-transfer theory, or as a continuation of it",
+      "Whether PROTACs and thalidomide-type molecular glues are one achievement or two, and how three names could be chosen fairly",
+      "Whether base editing is too close to the 2020 CRISPR prize, and whether the committee would prefer to wait for long-term clinical outcomes",
+      "Whether a combined prize of two unrelated achievements is preferable to a single unified one"
+    ],
+    "conflict_note": "No specific conflict is apparent for Gray, Winkler or Liu. My research on respiratory proton and electron transfer is adjacent to the Gray and Winkler field, so I will declare that scientific proximity, and the committee can judge whether recusal is needed. I am a Stockholm University colleague of Xiaodong Zou, but that has no bearing on the shortlisted candidates."
+  }
+}

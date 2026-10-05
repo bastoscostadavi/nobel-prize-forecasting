@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-14",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B034",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "for the development of targeted protein degradation, in which bifunctional small molecules recruit E3 ubiquitin ligases to destroy chosen proteins"
+      },
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of single DNA bases without double-strand breaks"
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B047"
+  ],
+  "statement": {
+    "case_for": "After the full first-round exchange I keep the same configuration, with a narrower and more explicit citation for degraders. Both parts turn a biological process into a designable chemical reaction, and both changed what researchers and clinicians can do. For degraders, Crews and Deshaies supplied the generalisable design principle: a bifunctional molecule forms a ternary complex that brings a chosen protein to an E3 ligase, and the protein is removed, which inhibitors cannot achieve. The mechanism is defined at the level of binding, cooperativity and ubiquitin transfer and has been reproduced independently by many groups. For base editing, Liu's group built the cytosine and adenine editors by evolving deaminases onto a programmable DNA-binding scaffold, giving single-nucleotide chemical conversion with defined outcomes and a clinical record that has begun. The three-person cap is respected (Crews, Deshaies, Liu), and the two parts are distinct achievements that a lay audience can follow as 'destroying a chosen protein' and 'rewriting a chosen base'. No configuration in round 1 is near five votes, so I am not claiming this one is; I am saying it is the one I can defend on molecular design principle and consequence.",
+    "case_against": "The objections I take most seriously are these. First, maturity: no PROTAC drug is approved, so the clinical verdict on bifunctional degraders is early, and B011 or B053 have decades of settled record that these two do not. Second, base editing comes six years after the 2020 CRISPR chemistry prize, and Somfai and Linke are right that a sceptic can call it protein engineering applied to a prize-winning targeting system. Third, the citation for B034 excludes Handa and the cereblon glue arm, and also Ciulli, Sakamoto, Kim, Gray and Ito, so a reader can say that I rewarded one branch of a two-branch field. Fourth, the pairing reads as a chemical-biology or medicine prize, and my own bioengineering background may make me overweight tools that reach the clinic.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes keeps B034 alone with Crews, Deshaies and Handa, treating the cereblon glue arm as the strongest evidence of maturity because thalidomide-type drugs have a decade of patient data.",
+        "response": "The maturity point is strong and I do not dismiss it, but I think it argues for a different citation, not a trio. Handa identified how existing drugs act; that is a mechanism discovery and a separate achievement from the design principle of recruiting a ligase with a bifunctional molecule. Putting both in one citation, as Brzezinski also warns, credits neither branch fully. I therefore keep my citation on Crews and Deshaies and say plainly what it excludes: the glue arm, Handa and Ciulli's structure-guided ligands. If the committee insists on a single degrader citation covering glues, I would accept Handa in place of Deshaies, but I would then regard B034 as a weaker prize, because the design logic would be less clearly recognised. I would not make this boundary a condition of my vote."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski asks the committee to settle first whether B034 is one discovery or two, and says Ciulli's structure-guided VHL ligands matter more for the modern field than the glue attribution.",
+        "response": "I answer his question directly: one discovery for the purpose of this citation, the bifunctional degrader concept of Crews and Deshaies, with the glue strand and Handa left as a separate matter for another year. I take his point about Ciulli seriously. VHL ligands made PROTACs drug-like and ternary-complex structure explained cooperativity, and that is a real contribution to how the modality is designed. But it refines a principle that Crews and Deshaies had already established, and I would not displace one of them to credit it under a three-person cap that I also need for Liu. On B028, I repeat that I do not doubt the physics. My question remains what the electron-transfer rules let a chemist do that was not possible before, and I have not heard an answer in round 1 that moves me."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai backs Liu alone for base editing but asks as a synthetic chemist what is new chemically, since a natural deaminase is repurposed and the innovation is largely protein engineering.",
+        "response": "This is the objection I find hardest, and I cannot fully rebut it. My answer is that the chemistry is the point: base editing is a programmable hydrolytic deamination of a specific cytosine or adenine in the cell, with the adenine editor needing an enzyme that does not exist in nature, TadA evolved to act on DNA. A transformation that nobody could do selectively on one nucleotide became a designed reaction with a defined product distribution. That is directed evolution of a catalyst for a new substrate, in the tradition the 2018 chemistry prize recognised. I agree with him that it is nearer to biology than to molecule-making, and I would accept that a committee reading chemistry narrowly could stop at that point. I am also glad that he agrees that Liu alone is the right credit, since Target-AID did not give the adenine editor."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, asks what beyond the deaminase fusion is a new principle and not an application of the 2020 discovery, and stresses the short clinical record.",
+        "response": "The 2020 prize recognised programmable cleavage of DNA by Cas9. Base editing is the opposite design choice: it avoids the break and instead performs a chemical conversion at a single base, which is why its outcomes are defined and why it is used for point mutations that cleavage handles poorly. The new principle is the evolved catalyst for that conversion, not the targeting. That said, the clinical record is short, and I will not claim it is as settled as sequencing by synthesis. I note that he and Aqvist now both treat B011 as the mature core, and that is the reason B011 remains my first alternative. I cannot support his nanopore part unless the attribution among living candidates is settled, and one name for a field shared by five does not meet that bar."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat base editing as distinct from the 2020 CRISPR prize in principle, and as chemistry rather than biology.",
+      "Whether a degrader citation limited to Crews and Deshaies is defensible without Handa and Ciulli, or reads as honouring one branch of the field.",
+      "Whether the lack of an approved PROTAC drug makes B034 premature compared with B011, and how much weight the glue-drug record should carry.",
+      "Whether a two-part prize of two newer modalities can reach five votes against a mature single-field prize such as B011."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. I am a bioengineering and biosensor researcher at Linkoping, and my mentors and collaborators (Stevens, Boey) are not among the credited names. My thematic overlap with Emma Sparr concerns peptide and lipid self-assembly and does not touch any shortlisted candidate. I have no tie to Crews, Deshaies or Liu, and my first-hand interest in tools that reach clinicians is a bias I flag, not a conflict."
+  }
+}

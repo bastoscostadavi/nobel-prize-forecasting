@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-07",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B055",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B060"
+  ],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling meets my standard of a game-changer: a simple, general and predictable reaction that turned aryl amine construction from a harsh, substrate-limited problem into daily routine in pharmaceutical, process and materials chemistry. It rests on straightforward catalytic logic (ligand design that controls oxidative addition and reductive elimination) and has more than 25 years of independent confirmation and industrial use, so there is no maturity question. Having read the opening ballots, it is the only shortlisted candidate with both a clean two-person attribution and unambiguous maturity, and it is distinct from the 2010 prize for C-C coupling. Buchwald and Hartwig independently built the general ligand-controlled method and its mechanistic understanding from 1994-95 on.",
+    "case_against": "The strongest objection is that the 2010 cross-coupling prize already honoured the Pd cross-coupling paradigm, so C-N coupling may be read as an extension rather than a new principle, and the Prize is not meant for refinements of a recognised idea. There is also the Kosugi precursor (tin amides), which makes priority less tidy than a two-name configuration suggests, and the work is a synthetic method whose benefit is indirect, through the molecules it enables, rather than a new capability in biology or medicine.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks B055 first and argues that ligand design (bulky biaryl and hindered alkyl phosphines) made C-N coupling general, that Kosugi is a real precursor but the practical general method is Buchwald and Hartwig, and that it is a distinct, later advance from the 2010 prize.",
+        "response": "I agree on attribution and on the distinct-from-2010 point, and as a non-synthetic chemist I find his account of what ligand design actually solved convincing. I would add one qualification for us to settle honestly: the 2010 committee chose Heck, Negishi and Suzuki for C-C coupling, and some will argue C-N is the same idea applied to a new bond. I think the answer is that the mechanistic problem differs (amine binding, beta-hydride elimination, difficult C-N reductive elimination), but we should state that reasoning in the citation rather than assume it. I also note Hartwig appears in his B002 ballot, so Hartwig should be used once only, here."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks base editing (B060) first as a clear chemical principle with a large therapeutic and research impact, with Liu as the intellectual leader and Komor and Gaudelli as lead experimentalists, and he sees good timing after the 2020 CRISPR prize.",
+        "response": "I respect that base editing is original and that Liu's attribution is clean, and I do not dismiss it. My reservation is the one he partly raises himself: the enabling idea, programmable DNA targeting, was recognised in 2020, and the clinical record is still early, so the consequences are promising rather than demonstrated at scale. I would also question whether three names (Liu, Komor, Gaudelli) are the right unit when Nishida and Kondo reported a parallel deaminase route, which makes the credit more contested than in C-N coupling. I rank it below B055 and keep it as an alternative."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks B060 first and B012 second, valuing the conversion of an enzymatic chemistry into a programmable tool and noting that targeted protein degradation has many trials but no routine approved drugs, with a separate molecular-glue lineage.",
+        "response": "I agree with his caution on B012: it fits my idea of a new modality, but with no approved PROTAC and the glue and PROTAC lineages (Handa, Ito versus Crews, Deshaies, Ciulli) separable, three names will leave out real contributors. I disagree that this is a reason to prefer B060 on maturity; both are clinical-stage, and neither has the decades of confirmed consequences of C-N coupling. I keep B012 as my first alternative, as the likeliest candidate to become mature in a few years."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski puts massively parallel sequencing (B035) first for its durable, near-universal impact, with Balasubramanian and Klenerman and Rothberg as a defensible third, and also ranks nitrogenase and PCET highly as mechanism-focused chemistry.",
+        "response": "I agree that sequencing is a world-changing technology with no maturity doubt, and I take his point seriously. But the credit problem is as hard as any on the list: Ju, Mayer and others are real contributors, and Rothberg's pyrosequencing platform is a different technical lineage from Solexa chemistry, so a three-name prize would be a compromise. The impact is also arguably more technological than chemical. If the committee finds a clean attribution I would support it, and I would like him to say how he would justify Rothberg alongside the Cambridge pair."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts C-N coupling as conceptually distinct from the 2010 C-C cross-coupling prize rather than a continuation.",
+      "How much weight to give Kosugi's precursor work against the ligand-enabled general method; my recollection of the history is from memory and not verified in the files provided.",
+      "Whether targeted protein degradation (B012) is mature enough without an approved drug, and whether the PROTAC and molecular-glue lineages should be recognised together or separately.",
+      "Whether two names in one part is better than adding a second part, given the three-person limit and Hartwig's presence in other candidates."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for B055, B012 or B060. My connections are Arieh Warshel (EVB collaboration), the Uppsala structural biology and ribosome community, and Peter Brzezinski as a long-time committee colleague; none is a candidate on the shortlist. The shortlist has no candidate from my own simulation field."
+  }
+}

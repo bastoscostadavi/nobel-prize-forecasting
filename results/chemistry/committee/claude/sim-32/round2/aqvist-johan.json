@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Michele Parrinello",
+          "Roberto Car"
+        ],
+        "citation": "For unifying electronic-structure theory and atomic motion in first-principles molecular dynamics, enabling parameter-free simulation of bond breaking and chemical reactions in condensed phases."
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B064"
+  ],
+  "statement": {
+    "case_for": "I keep Car-Parrinello molecular dynamics (B024) as my single-part position after reading all eight round-1 statements and the chair's questions. The idea is simple and was completely new in 1985: an extended Lagrangian propagates the electronic orbitals and the nuclei together, so forces come from the electronic structure at every step and no pre-fitted force field is needed. Before that, bond breaking, proton transfer and the structure of liquid water and solutions could only be treated with empirical potentials fitted to systems where the answer was already known, or with static quantum calculations that lacked finite-temperature dynamics. Four decades of independent use in water, ionic solutions, surfaces, catalysis and enzyme active sites show real consequences. The credit is one two-author paper, so the three-laureate limit is not binding and the priority question is closed. Our shared first-round point is that this attribution is unusually clean, and the remaining debate is about category and significance, not about maturity or credit.",
+    "case_against": "The strongest objections stand and I have weighed them. First, the category: part of the method's uptake is in condensed-matter physics and materials, and the 2013 multiscale and 2024 structure-prediction prizes mean a computational prize needs a distinct justification. My answer is that the novelty is the unification of electronic structure and dynamics without empirical force fields, which is a different step from multiscale QM/MM partitioning or from structure prediction. Second, Chabes and Aili are right that cleaner credit does not by itself show greater significance, and that reach into experiment and medicine is larger for sequencing, lipid delivery or degraders. Third, Zou is right that plane-wave DFT with fictitious-mass dynamics has functional and sampling limits, and that Born-Oppenheimer MD and machine-learned potentials now do much of the daily work. The citation must therefore honour the 1985 conceptual step, not present-day tools. I also disclose that, as a simulation specialist, I may overvalue theory.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke asked me to confirm that bond breaking in condensed phase and enzymatic reactions was truly out of reach before 1985, and that the citation need not extend to Parrinello's later metadynamics.",
+        "response": "My answer is yes on both, with one qualification. Before 1985, reactive condensed-phase chemistry could be treated only with fitted potentials, which cannot describe a bond that breaks unless the reaction is built in, as in my own EVB work, or with static quantum calculations of small clusters. Dynamics driven by the electronic structure itself was not available. The qualification is that enzymatic reactions only became tractable later, through QM/MM hybrids, so I would not claim that Car-Parrinello alone solved enzymology. The citation should be limited to the 1985 unification and need not mention metadynamics, machine-learned potentials or plane-wave codes. That also meets Brzezinski's wish to anchor on the original step and Linke's own concern about displacement by newer tools."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou asks how often the quantitative link to experiment is actually delivered, given the functional and sampling limits of plane-wave DFT with fictitious-mass dynamics, and contrasts this with crystallographically verified zeolite design.",
+        "response": "The limits are real. Liquid water with common functionals is over-structured, and timescales are short. But a method is not a game-changer only because every output is quantitatively right. It made a class of question answerable, and the error sources are now diagnosed and improved because the capability exists. Proton transfer in water, the structure of solvated ions and surface reaction pathways were mapped this way and compared with spectroscopy and diffraction. I accept the contrast with zeolite design, where structures are directly verified. I still judge B030 a field rather than a single dated discovery, which Brzezinski also noted, and with the Tsapatsis and Yu cut and the industrial priority questions it is harder to defend than a single paper."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes argues that clean attribution is not higher merit and that sequencing reaches every biological discipline, while saying he would not oppose B024 if sequencing credit cannot be resolved.",
+        "response": "I agree that attribution is not merit, and I do not rank B024 first only on that basis. My reservation on B012 remains that Solexa, 454, Ju's terminators and Mayer's clonal arrays are overlapping routes, and no one has shown that Balasubramanian and Klenerman are the single decisive pair. Chabes has not verified the chronology either, and the 1980 Sanger and Gilbert prize already honoured sequencing chemistry. I would reconsider if an expert report established that the reversible-terminator step is separable and decisive. Your fallback to B024 matters for the count, but I take it as a statement about attribution, not as a claim about merit."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili holds that lipid delivery chemistry changed clinical practice directly while B024 reaches experiment and medicine only indirectly, and that B064 was not covered by the 2023 Medicine prize.",
+        "response": "The clinical consequence of B064 is not in dispute and I keep it as an alternative. I do not agree that B024's reach is merely indirect. Its role in chemistry is the capability to compute reactive condensed-phase systems from first principles. My unresolved problem with B064 is the cut. Sparr and you both choose Cullis, Hope and Madden, which is defensible for the pKa and rapid-mixing work, but MacLachlan, Anderson and Langer have real claims, and the committee would have to defend that boundary in public. If the documentary record showed a decisive trio, I would move B064 above B046 among my alternatives."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai says B024's centre of gravity is condensed-phase physics and materials, so its consequence for chemists is weaker than for a reaction used daily in laboratories, though he would support it if the committee wants a theory prize.",
+        "response": "I accept that C-N coupling is used every day and that Buchwald and Hartwig form a clean pair. But Chabes and Linke question whether it is a new principle after the 2010 palladium prize, and I share that doubt. B024 asks a question that no earlier prize asked, namely how to compute bond rearrangement from the electrons without a fitted model. The chemistry-versus-physics worry is addressed by the questions the method answers and the communities that use it: aqueous chemistry, catalysis and reaction mechanisms."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority will treat Car-Parrinello as chemistry rather than computational physics, and whether the 2013 and 2024 computational prizes make the committee wait.",
+      "Whether the committee prefers a prize with direct experimental or clinical reach over a theory and method prize; this is a values question, not a factual one.",
+      "Whether an expert report can confirm priority relative to related electronic-structure and dynamics work, since I am relying on recollection of the 1985 paper.",
+      "If B046 becomes the leading alternative, the split between PROTAC, molecular-glue and cereblon contributors and the three-person cut remain unresolved."
+    ],
+    "conflict_note": "Updated disclosure: I have no personal or institutional tie to Car, Parrinello or any other shortlisted name, and no formal recusal request. My Warshel/EVB background and my work on biomolecular simulation lie in the same broad field as ab initio molecular dynamics, and I may overvalue theory relative to experimental discoveries. I have no relationship to B064, B012 or B046 candidates."
+  }
+}

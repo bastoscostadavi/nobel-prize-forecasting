@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-06",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B026",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "for turning targeted protein degradation into a chemical design principle, using bifunctional PROTACs and molecular glues that recruit E3 ubiquitin ligases to chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B067",
+    "B038"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation converts a regulated biological process, ubiquitin-dependent proteolysis, into a designable chemical reaction: a small molecule brings an E3 ligase and a chosen target together, and the target is destroyed rather than inhibited. The mechanism is well defined (ternary complex formation, cereblon as the thalidomide-class glue receptor), it has been reproduced independently across many targets and laboratories, and it gives biologists and clinicians a general tool for proteins once considered undruggable. It was the top choice of three members in the openings and ranked by seven of eight, so the support is broad and not driven by one subfield. Crews and Deshaies carry the PROTAC concept and its early demonstration, and Handa's identification of cereblon explains the molecular-glue branch, so the trio covers the concept and its mechanistic foundation.",
+    "case_against": "No PROTAC drug is approved yet, so the clinical consequence is still a promise supported by trial data rather than a settled outcome. The prize would also bundle two partly separate lines, heterobifunctional degraders and thalidomide-type glues, whose credit sits with different people, and a three-person limit excludes Ciulli, Gray, Sakamoto and Kim, whose contributions (VHL ligands and ternary-complex structures, degrader design, the 2001 proof of concept) are substantial. A committee that prefers to wait for the first approval, or that thinks the glue and PROTAC discoveries deserve separate citations, has a reasonable case.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks targeted degradation first as a genuinely new pharmacological principle, but is unsure whether Handa or Ciulli is the better third laureate, and notes that PROTACs and glues might be better recognised as separate discoveries.",
+        "response": "I agree on the importance and on the open question. I would keep Handa over Ciulli because cereblon turned an old clinical puzzle into a defined molecular mechanism, and the glue branch rests on it. Ciulli's VHL ligands and ternary-complex structures are a refinement and extension of a concept already demonstrated, not the origin of it. I would not split the prize in two: the unifying chemistry is induced proximity to an E3 ligase, and one citation can state that without naming drugs."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range electron transfer through proteins first and nitrogenase second, valuing mechanisms stated in physical terms and tested by kinetics, and ranks degradation only fourth because clinical validation is incomplete and cereblon identification may be pharmacology rather than chemistry.",
+        "response": "The physical rigour of the electron-transfer work is real, and I take the point that the dependence on clinical results is uncomfortable. But the chemistry in degraders is measurable in just the way you ask for: ternary-complex cooperativity, binding kinetics and ubiquitin transfer are quantified in vitro, and the degradation outcome has been reproduced widely. The mechanism does not depend on an approval. I do not read cereblon as pharmacology only, since it identifies the molecular target of a drug class and turns it into a design handle. On your first choice, my concern is the reverse of yours: Marcus already received the 1992 prize for electron-transfer theory, and I do not see the same breadth of new capability for other scientists."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks phase separation first as a general physical-chemical principle of molecular organisation, and ranks degradation fourth, partly because no PROTAC drug is approved and she considers it outside her expertise.",
+        "response": "I respect phase separation as a unifying concept, but I would qualify it on the evidence. As a quantitative biochemist I am cautious about how much of the in-cell data distinguishes true thermodynamic phase separation from other assemblies, and Linke and Aili also flag overexpression artefacts and chemistry-versus-cell-biology fit. Degraders rest on a mechanism that has been tested directly, target by target, with measured pools and kinetics. The field is also not waiting on a settled definition. I would support condensates later, once the in vivo claim is sharper, but I do not think it is ready to lead."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks massively parallel sequencing first for its chemistry-driven, generative impact, and places degradation second, calling it somewhat early on the therapeutic side. He also raises that the eligibility of some nanopore candidates must be confirmed.",
+        "response": "I rank sequencing by synthesis second myself, and I agree the Solexa chemistry is a clear invention of lasting consequence. My reservation is attribution, not merit: Balasubramanian and Klenerman are a clean pair, but a prize on sequencing as a whole must reckon with the pyrosequencing lineage of Rothberg and with Mayer, and it overlaps in impact with the physiology or medicine side. I would put it as the strongest alternative to degradation. On timing, lenalidomide-class glues are already approved drugs, which supports the mechanism of the cereblon branch even if no PROTAC is approved. I also agree the nanopore status question should be settled before that candidate is considered."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks palladium-catalysed C-N coupling first as a general, ligand-controlled method of large practical use, and ranks base editing last among his choices because the new chemistry is protein engineering and whether it counts as chemistry is open.",
+        "response": "I accept the C-N coupling case on merit and defer to you on the synthetic side. On base editing I partly agree: I placed it fourth and credited Liu alone, because the conceptual step and the decisive work are his, and the first part of your reservation about border-field fit is fair. I would still defend that deaminase chemistry applied at a programmed site, evolved for DNA in the adenine case, is a defined chemical conversion and not only biology. The remaining worry for me is the interval since the 2020 CRISPR prize and clinical outcomes that are still being collected, which is why I keep it as an alternative and not my first choice."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee should wait for the first approved PROTAC drug, or accept that approved glue drugs and the trial data already establish the principle.",
+      "Whether Handa or Ciulli is the better third laureate, and how the Sakamoto, Kim and Gray contributions should weigh in a three-person limit.",
+      "Whether a single citation can cover both heterobifunctional degraders and molecular glues without implying a single discovery.",
+      "My recollection of trial status and of the early PROTAC history comes from memory and has not been verified against sources in this process."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My field (nucleotide metabolism, ribonucleotide reductase) is near the sequencing and base-editing candidates only in subject matter, and I have no stated connection to any credited name; my Umeå and Cold Spring Harbor collaborators (Thelander, Stillman, Rothstein) are not credited on any shortlisted ballot."
+  }
+}

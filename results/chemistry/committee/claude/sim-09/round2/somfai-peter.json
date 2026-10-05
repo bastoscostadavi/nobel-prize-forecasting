@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B055",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "for the development of reversible-terminator sequencing-by-synthesis chemistry, which enabled massively parallel DNA sequencing"
+      }
+    ]
+  },
+  "alternatives": [
+    "B031",
+    "B052"
+  ],
+  "statement": {
+    "case_for": "I have moved from Pd-catalysed C-N coupling (B031) to reversible-terminator sequencing-by-synthesis (B055). In round 1 I asked what share of the effect lies in the nucleotide chemistry rather than in imaging and instrumentation. Having read Chabes and Zou, I think the answer holds up for a chemistry citation. The 3'-blocked, cleavable-fluorophore nucleotides, the polymerase that accepts them, and the surface attachment chemistry are molecule-making problems of exactly the kind I judge candidates by: a hard operation, one incorporation per cycle with quantitative deblocking, was turned into a routine and general readout. Its adoption is the most thoroughly documented on the shortlist, with two decades of independent use in research and clinical genomics. Balasubramanian and Klenerman conceived and built the single-molecule and reversible-terminator scheme, so a two-person prize anchored in the terminator chemistry is a coherent and explainable citation. My own B031 has no other supporter and the chair's tally shows no path to five, and I do not think the 2010 overlap is disqualifying but it is a real handicap I cannot argue away.",
+    "case_against": "The main reservation is attribution and category. Rothberg's pyrosequencing, Ju's terminator work and Mayer's clonal amplification each have a claim, and a committee that reads sequencing as an engineered platform with large commercial development will see biology or technology rather than chemistry. A citation limited to the terminator chemistry answers the category worry but gives away some of the credit for what made the platform work. B055 also leaves out Ju, whose parallel 3'-O-allyl terminator work is chemically close to the Solexa approach. I cannot verify the priority picture from the supplied material, and I treat that as the weakest part of my position. The cost to B031 is real: it is the most cleanly attributed method on the list and I am giving up a two-person claim with no contested third seat.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes configured B055 for Balasubramanian and Klenerman as a strict chemistry prize built on engineered reversible-terminator nucleotides, polymerase engineering and surface chemistry, and paired it with Liu alone for base editing.",
+        "response": "This is the argument that moved me. I agree the terminator nucleotide design is chemistry in the strict sense and that the citation should name that chemistry rather than 'sequencing' in general. I part from Chabes on the second part. A Liu-only base-editing part omits Komor, Gaudelli, Nishida and Kondo, and as I said in round 1 the clinical safety record is still being written, so I would not add it for the sake of a two-part prize. I would hold B055 as a single-topic prize and keep the attribution risk to one candidate, not two."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou moved from mesoporous silica to B055, crediting only the Cambridge pair to keep the claim tied to the Solexa chemistry and single-molecule concept, and flagged the risk that it reads as technology or biology.",
+        "response": "I agree with the two-name cut and with the maturity argument, and Zou's own flag is the right one: the weakness is category and priority, not science. I would add that the answer to the category worry is the wording of the citation, which should say reversible-terminator chemistry, and not a general reference to DNA sequencing. Zou is right that Ju's terminators and Mayer's clonal amplification cannot be settled from the supplied material. I think the committee has to accept that cost openly, and I would still choose it over a three-person list that is looser on credit."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili and Linke both configured B052 with Crews, Deshaies and Handa, arguing that one induced-proximity principle covers both the PROTAC and cereblon-glue lineages and that the validated mechanism outweighs the missing approved drug.",
+        "response": "B052 remains my strongest alternative, and I take Aili's point that Handa's cereblon work gives the glue strand a mechanistic basis. My concern is unchanged in kind. The PROTAC is a conjugation of known ligands, so the novelty is the concept more than a new reaction, and the glue and PROTAC lineages are historically distinct, so a joint citation covers two things with a three-person cap that omits Ciulli, Gray, Sakamoto, Kim and Ito. The lack of an approved PROTAC drug adds a maturity discount. If the committee is set on B052, I would ask for a citation that names induced proximity to a ligase as a single principle, as Linke's does, and not one that lists both lineages by name, which invites the attribution objections."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist is the only member configuring Car-Parrinello dynamics (B007), citing clean two-person priority and four decades of use, and listed B031 as an alternative.",
+        "response": "I appreciate that Aqvist lists B031 as an alternative; we agree that the attribution is clean in both cases. My round-1 request for evidence of adoption by experimentalists is still open for B007, and the overlap with the 1998 prize and the Born-Oppenheimer practice question make it, for me, a harder sell than a method used at the bench. I do not obstruct B007, but I now rank a chemistry-anchored B055 above it on breadth."
+      }
+    ],
+    "uncertainties": [
+      "Whether Rothberg, Ju and Mayer can be left out of a terminator-chemistry citation without the committee seeing the credit as arbitrary.",
+      "Whether the committee will accept sequencing-by-synthesis as chemistry rather than as an enabling technology, and whether the citation wording is enough to settle that.",
+      "Whether a clean two-person B031 would have been the better choice for a committee that wants to avoid the platform question, given the 2010 overlap.",
+      "Whether B052 will carry the committee on mechanism despite the lack of an approved PROTAC drug."
+    ],
+    "conflict_note": "No conflict with any shortlisted candidate: none is a former mentor, student, collaborator or colleague, and nothing in round 1 changes this. I share Lund University with Heiner Linke and Emma Sparr, which is an institutional tie to colleagues and not to any candidate. Masamune, my postdoctoral mentor, is not on the shortlist."
+  }
+}

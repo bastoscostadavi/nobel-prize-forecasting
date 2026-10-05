@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For developing targeted protein degradation, in which small molecules bring a chosen protein to a ubiquitin ligase so that the cell destroys it, through the PROTAC concept and the identification of cereblon as the target of molecular-glue degraders"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B055"
+  ],
+  "statement": {
+    "case_for": "I have moved from B007 to B052. The round-1 exchange shows that Car-Parrinello dynamics has no route to five votes, and I will not hold a first choice only because I find it attractive as a theorist. On the merits, B052 meets the standard I apply: a game-changer that has already had consequences. Event-driven, catalytic removal of a protein by induced proximity is a new pharmacological principle rather than a better inhibitor. It is supported by crystal structures of ternary complexes, by kinetic and cooperativity analyses that connect quantitatively to degradation rates, and by independent reproduction across many laboratories. Crews and Deshaies conceived and demonstrated the heterobifunctional concept, and Handa's identification of cereblon explains the thalidomide-type glues mechanistically, so the trio carries both lineages while staying within the three-laureate limit. The citation is written around the mechanism, which is the part that is validated.",
+    "case_against": "No PROTAC drug is approved, so the consequences are still partly prospective, and a committee that waits for a registered product would rightly wait. Attribution is lossy: Ciulli (rational VHL ligand design that made small-molecule PROTACs practical), Gray, Sakamoto, Kim and Ito have real claims, and the PROTAC and cereblon-glue lineages are historically distinct, so one citation risks blurring who discovered what. B007 remains, in my view, the cleanest attribution on the list and a mature, quantitatively tested method, but its overlap with the 1998 recognition of computational chemistry and DFT and its single-member support make it a weaker route to a decision.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "B052 rests on one transferable principle, converting occupancy-driven pharmacology into event-driven catalytic removal, and the lack of an approved PROTAC counts for less than the validated mechanism.",
+        "response": "I agree with the principle and this is the main reason I moved. On your maturity question I would not be satisfied by a promise of pipeline. What I need to see is independent structural and kinetic evidence that degradation is driven by defined ternary complexes, and clinical proof that degradation is achieved in patients. Both exist in published form, and the cereblon glues already have approved drugs whose mechanism Handa's work explained. That gives the mechanism a clinical anchor even without an approved PROTAC. I would therefore name the principle in the citation and not the pipeline."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Ciulli should sit in any B052 trio, and B055 plus B021 as a two-part prize pairs reading and rewriting DNA.",
+        "response": "Ciulli's VHL ligand work was what made fully small-molecule PROTACs possible, so the claim is real. But the earliest concept and demonstration belong to Crews and Deshaies, and Handa's cereblon identification is what links the glue lineage to the principle. If the committee wants the PROTAC lineage alone, Ciulli would take the third seat from Handa, and then the glue strand is no longer in the citation. I prefer to keep the induced-proximity principle across both lineages. On the pair, I find the sequencing chemistry persuasive but the two-part prize would split the committee's attention between two methods that are each contested on attribution, and base editing with Liu alone leaves out Komor and Gaudelli."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "A Crews, Deshaies, Handa trio covers both the PROTAC and cereblon-glue lineages in one citation.",
+        "response": "My round-1 reservation was that this attribution would be contested and that I thought a 40-year-old method was no less mature. I still hold the attribution reservation, but I now think it is the unavoidable cost of a three-laureate cap for a field with several authors, not a flaw of this configuration. Your citation names both lineages explicitly, and I have adopted similar wording because it explains why Handa is in the trio."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Sequencing-by-synthesis (B055) is a mature chemical method, and B052 is the stronger alternative if the committee wants a molecular principle rather than an engineered platform.",
+        "response": "You state the dilemma well. I do not dismiss B055, which is why it is my second alternative. But the question you raise is the one that decides it for me: the reversible-terminator idea, polymerase engineering and clonal amplification are spread across several groups and a commercial platform, and nobody has settled who owns the idea. A prize with a molecular principle and a clearly named mechanism is easier to defend than one where the committee itself cannot verify the priority picture."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Pd-catalysed C-N coupling (B031) has clean two-person attribution but sits close to the 2010 cross-coupling prize.",
+        "response": "I listed B031 as an alternative in round 1 and I share your concern about its proximity to 2010. I have dropped it from my alternatives for that reason: the ligand design is real chemistry, but I cannot call it a distinct principle, and the Kosugi and Migita precedents add attribution noise that you also acknowledge you have not verified."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a joint PROTAC and cereblon-glue citation, or will insist on a single lineage, in which case Ciulli's place changes.",
+      "Whether the absence of an approved PROTAC drug is judged decisive this year, given that cereblon-directed glues are already in clinical use.",
+      "Whether Car-Parrinello dynamics should have been held as a distinct achievement given its overlap with the 1998 prize; I have set it as an alternative rather than dropped it."
+    ],
+    "conflict_note": "No conflict with any B052 candidate appears in my profile. My postdoc with Arieh Warshel and my work in biomolecular simulation are not connected to Crews, Deshaies or Handa. I previously disclosed methodological proximity to B007; I no longer prefer it, but it remains an alternative and I state that proximity again."
+  }
+}

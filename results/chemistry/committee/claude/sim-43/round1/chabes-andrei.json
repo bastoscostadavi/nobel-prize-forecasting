@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-43",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B038",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B027",
+        "laureates": [
+          "Craig M. Crews",
+          "Hiroshi Handa"
+        ],
+        "citation": "for the development of targeted protein degradation by induced proximity, from PROTACs to the cereblon mechanism of molecular glues"
+      }
+    ]
+  },
+  "alternatives": [
+    "B062",
+    "B043"
+  ],
+  "statement": {
+    "case_for": "Base editing (B038) is a defined chemical reaction, deaminase chemistry on a single base in DNA, turned into a general tool that biologists in many organisms use and that is already entering patients. Liu's laboratory made both the cytosine and the adenine base editors, so the attribution is unusually clean for a single laureate. Targeted protein degradation (B027) is a new chemical modality and, through the cereblon mechanism, links an old and notorious drug to a molecular event we can write down. Crews and Handa cover the two branches: the heterobifunctional PROTAC concept and the glue mechanism for thalidomide and the imides. Both achievements meet my test of a biological process reduced to a well-defined reaction, both have been reproduced independently by many groups, and both have clinical consequences.",
+    "case_against": "Both parts sit close to medicine and biology, and the 2020 CRISPR prize makes base editing look like a follow-on. For B027 no degrader is approved yet, and the cap of three people means Deshaies, Ciulli, Sakamoto, Gray and Ito are left out, which will look arbitrary. Pairing two quite different achievements to reach a prize may also be more a product of the three-person limit than of scientific logic. The more conservative option is Liu alone, or a different pairing from the chemical core such as B019 or B049.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks base editing second and argues that a single laureate, Liu, is the cleanest configuration because Target-AID (Nishida and Kondo) is a parallel credit question; he also puts Car-Parrinello first as the unambiguous, overdue achievement.",
+        "response": "I agree on Liu alone for B038, and the Target-AID question is a reason to keep the part narrow. I do not agree that Car-Parrinello should outrank it. It is a computational scheme, and I weigh measured, reproducible chemistry in living systems more heavily, although I accept that the 1985 attribution is cleaner than anything else on the list. I would support B049 if the committee wants a prize with no attribution disputes, but I do not think it displaces base editing."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks degraders first with Crews, Deshaies and Ciulli, treating the glue branch (Handa, Ito) as a separate discovery that would crowd a three-person citation.",
+        "response": "I qualify this. Ciulli's VHL-based small-molecule PROTACs and ternary-complex structures are important, but cereblon as the target of thalidomide is the discovery that turned a mechanism into a measurable chemical event, and it explains the whole glue class, so I would not treat it as a side branch. Within three names I would take Crews for the concept and Handa for the mechanism. I accept that dropping Deshaies, who co-founded PROTACs with Crews, is a real cost and I do not see a clean solution."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili puts ionizable lipid nanoparticles first for their clinical impact (siRNA drug, billions of vaccine doses) and rational pKa-tuned lipid design, while admitting six or more credible claimants and some overlap with the 2023 Medicine prize.",
+        "response": "The medical impact is certain and I take it seriously. My hesitation is attribution and mechanism. With Cullis, Madden, Hope, MacLachlan, Anderson and Langer all credible, any three names is a coin toss, and I would like to see better evidence for what in the formulation, as opposed to the lipid pKa alone, controls endosomal release. I keep B062 as my first alternative but cannot rank it above the two parts I proposed."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range electron transfer through proteins first (Gray and Winkler), praising distance-dependent tunnelling rates as a mechanism stated in physical terms and tested with time-resolved kinetics, and puts nitrogenase second.",
+        "response": "I respect the quality of the measurements, which is what I look for. My concern is breadth: the principle is long established, fits a textbook framework, and its recent consequences for other fields seem narrower than those of the tools I favour. On nitrogenase, I share your reservation that the catalytic mechanism and the N2 binding site are still debated, which is why I keep B043 only as an alternative and not in my preferred configuration."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks lipid nanoparticles first for their lipid physical chemistry, with Cullis, Madden and Hope, and phase separation (Hyman, Brangwynne, Rosen) second as a new concept of cellular organization.",
+        "response": "On condensates, my reservation is the quality of the evidence. Many in vivo claims rest on overexpression and imaging, and not every condensate shown to be liquid-like is known to be functional. In my own field, widely accepted assumptions about dNTP levels failed when measured properly. I would want independent quantitative reproduction before the committee honours this, so I rank it below B038 and B027 even though the concept is important."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts a two-part prize pairing base editing with targeted degradation, or prefers a single coherent achievement.",
+      "Whether Deshaies or Ciulli should replace Handa in B027 if the committee weights the PROTAC branch more.",
+      "Whether base editing is seen as chemistry or as an extension of the 2020 CRISPR prize.",
+      "Whether the lack of an approved degrader makes B027 premature this year.",
+      "Off-target and bystander editing and degrader selectivity are still being quantified, and I am relying on general knowledge, not checked data."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I work on nucleotide metabolism and DNA replication fidelity, which is adjacent to DNA editing but involves no direct collaboration with any credited candidate; I am a biology-class member and should state that my view of B038 and B027 is shaped by that background."
+  }
+}

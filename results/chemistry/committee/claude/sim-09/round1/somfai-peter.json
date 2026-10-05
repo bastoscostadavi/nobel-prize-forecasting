@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B031",
+        "laureates": [
+          "John F. Hartwig",
+          "Stephen L. Buchwald"
+        ],
+        "citation": "for the development of palladium-catalysed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B055"
+  ],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling turned aryl amine construction from a case-by-case problem into a general, predictable transformation. The decisive chemical advance was ligand design: bulky, electron-rich phosphines and later dialkylbiaryl phosphines made the oxidative addition/amine binding/reductive elimination cycle work across a huge substrate range, including aryl chlorides and weakly nucleophilic amines. The evidence of adoption is concrete: it is a default disconnection in medicinal chemistry, it runs at scale in pharmaceutical manufacturing, and it is routine in organic electronics and agrochemical synthesis. Buchwald and Hartwig each independently built the catalytic, general versions and the ligand families behind them, so a two-person prize is clean and leaves room for no contested third seat. It is the only shortlisted candidate where the novelty is a bond-forming reaction that any synthetic chemist can recognise and use on Monday morning.",
+    "case_against": "The strongest reservation is proximity to the 2010 prize for Pd-catalysed cross-coupling (Heck, Negishi, Suzuki): some will see this as an extension of a recognised field rather than a new principle, and the committee has been reluctant to reward the same family of reactions twice in quick succession. Attribution also has a fringe, because Kosugi's tin-amide coupling and Migita-type work precede the catalytic, general versions; I have not verified every priority detail. Finally, my own ranking is a method-prize ranking; against candidates that change a whole discipline (degraders, base editing, sequencing) the case rests on breadth of use in synthesis rather than on a new way of thinking about biology.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranked targeted protein degradation (B052) first as a new pharmacological principle: induced proximity to hijack E3 ligases, with Crews, Deshaies and Handa as laureates, and noted that PROTAC approval is still pending.",
+        "response": "I agree the principle is original and the thalidomide-cereblon mechanism is a real chemical-biology insight. My reservations are about attribution and the chemistry. Aili's own note that Ciulli, Gray, Sakamoto, Kim and Ito all made real contributions means a three-person cut leaves out credit that others will regard as comparable, and the PROTAC itself is a conjugation of known ligands, so what was new chemically is the concept more than a new reaction. The lack of an approved drug adds a maturity discount. I would regard B052 as a strong second choice, but I would not put it above a fully mature, cleanly attributed method."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist put Car-Parrinello molecular dynamics (B007) first: a simple extended-Lagrangian idea, an unambiguous two-person attribution and four decades of independent implementation, so recognition is overdue.",
+        "response": "I have no quarrel with the attribution or maturity argument, and B007 is the cleanest in that respect. Where I part from Aqvist is the comparison on breadth: Car-Parrinello is a theoretical method whose reach is mainly among computational specialists, while C-N coupling is used by thousands of bench chemists and in industrial process routes. Both are overdue, and I think both could reasonably be argued. If the committee prefers a computational prize, I would not obstruct it, but I would ask for the evidence on how many experimental discoveries rely on it, since this is the kind of evidence on adoption I find persuasive for a method."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranked massively parallel sequencing-by-synthesis (B055) first, argued that the Solexa reversible terminator chemistry turned polymerase chemistry into a readout that reshaped genomics, and proposed Balasubramanian and Klenerman as a clean two-person prize.",
+        "response": "This is the strongest challenge to my first choice. The reversible terminator chemistry is real chemistry and the impact on biology is far larger than that of any cross-coupling. I accept the two-person cut as reasonable, though Rothberg's pyrosequencing and Mayer's work on clonal amplification mean the attribution is more exposed than Chabes suggests, and much of the platform success came from engineering and commercial development. I would ask what portion of the transformative effect lies in the nucleotide chemistry itself rather than in imaging, clustering and instrumentation. If that question has a good answer, B055 belongs in the preferred slot or a combined configuration, and I have listed it as an alternative."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, ranked DNA base editing (B021) first with Liu, Komor and Gaudelli, calling it a clear principle with a new chemical capability on the genome and ripe timing given first clinical patients.",
+        "response": "The deaminase chemistry is cleanly defined and the Liu lab's directed evolution of an adenine deaminase acting on DNA is a distinctive piece of work. I would qualify the maturity claim: clinical data are only starting to arrive, and off-target and bystander editing remain open, so the committee would be making a call before the safety record is in. There is also the unresolved parallel work of Nishida and Kondo, which the shortlist credits and which Linke acknowledges but sets aside; I would want that settled before a trio is chosen. This is another candidate that I think can wait a few years more than C-N coupling can."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranked biomolecular condensates (B063) first as a new physical-chemical organising principle for cells, with Hyman, Brangwynne and Rosen, while acknowledging debate over which assemblies are truly phase-separated.",
+        "response": "I respect the conceptual reach and Sparr's point that this is where soft-matter physical chemistry meets biology. But when I ask what was new chemically, I find the answer is mostly the importation of established phase-behaviour concepts into cell biology, and the physiological relevance of many reported condensates is still contested. Together with credit spread across Pappu, Mittag and a large community, that makes the three-person citation hard to write without being either too vague or wrong. I regard this as premature for a prize, not unimportant."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat C-N coupling as a distinct achievement or as too close to the 2010 cross-coupling prize.",
+      "How much weight Kosugi's earlier tin-amide coupling (and related Migita work) should carry, since I have not verified the priority details.",
+      "Whether the nucleotide chemistry in sequencing-by-synthesis can be separated from instrumentation and commercial platform development in a way that supports a chemistry citation.",
+      "Whether the shortlist's treatment of attribution for protein degradation can be resolved within three people."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: none of the shortlisted candidates is a former mentor, student, collaborator or colleague. I share Lund University with Heiner Linke and Emma Sparr, which is an institutional tie to colleagues but not to any candidate, and Masamune (my postdoctoral mentor) is not on the shortlist."
+  }
+}

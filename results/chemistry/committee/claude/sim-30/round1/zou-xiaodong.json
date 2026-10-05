@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-30",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editors that chemically convert single DNA bases in living cells without double-strand breaks"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "My opening ranked B008 first, but it drew no first-place support from anyone else, and I weigh that as information about how the committee will read the field, not as a verdict on merit. The base editing case is the one I can defend most rigorously on structural and mechanistic evidence. The deaminase-on-nickase architecture is a designed molecular machine with a defined chemical mechanism. The adenine base editor required evolving a deaminase that does not exist for DNA in nature, and the edited products are verified at nucleotide resolution. Independent laboratories have reproduced and extended the editors, and clinical use is emerging. Attribution is also workable: Liu led both editor families, with Komor and Gaudelli as the lead inventors of the cytosine and adenine editors, giving a clean three-person prize.",
+    "case_against": "Base editing is the youngest candidate on the shortlist (2016-2017), and the 2020 prize already recognised programmable genome editing, so the committee must ask whether this is a distinct chemical achievement or an increment on CRISPR. Kondo and Nishida's independent Target-AID work leaves a priority question that the three-name configuration does not resolve. Trainee credit for Komor and Gaudelli is a judgement call, and a Liu-only prize is defensible. The more mature alternatives, especially B008 with over thirty years of confirmation, do not carry this timing risk.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Base editing may be premature relative to more established methodology and sits in the shadow of the 2020 CRISPR prize, so the chemical novelty needs to be shown.",
+        "response": "I take the timing concern seriously and it is why this is not a comfortable choice for me. I disagree on novelty, though. The 2020 prize recognised programmable DNA cleavage. Base editing is a different chemistry, direct deamination on a Cas-guided scaffold with no double-strand break, and the evolved TadA deaminase is a real piece of molecular engineering. I do not see B032 as the stronger case here, since the 2010 cross-coupling prize already covers its core concept and I find that overlap harder to justify than the CRISPR proximity."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation (B068) is a genuine molecular design principle with broad clinical consequences, and Aili ranks it first with Crews, Deshaies and Handa.",
+        "response": "I agree that B068 is conceptually original and I ranked it fourth. My reservations are about attribution and maturity. The PROTAC concept and the cereblon molecular-glue mechanism are two separable discoveries, so a three-name prize forces an uncomfortable cut between Crews and Deshaies on one side and Handa on the other, with Ciulli and Gray left out. Approved PROTAC drugs are also still pending. I would not oppose B068 as a preferred outcome, and I list it as my first alternative."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Nanopore sensing (B048) converts a clean physical principle, the ionic current blockade, into label-free long-read sequencing, and the ratcheting step makes it decisive.",
+        "response": "The physical principle is elegant and the commercial impact is real. My difficulty is attribution. Credit is spread across Deamer, Branton, Kasianowicz, Bayley and Akeson, and each of the five has a defensible claim to a different essential step. Unlike base editing, I cannot see a three-name cut that fits the history without excluding someone whose contribution was necessary. Whether the work is chemistry or biophysics and engineering is also open. If the committee can settle the attribution problem I would reconsider, since the structural-biology strand of the pore engineering is strong."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Base editing is a mechanistically clear chemical-biology invention with a Liu-led configuration that is attributable, but the Cas9 prize may make the committee weigh the added increment.",
+        "response": "I largely agree and share the same reservation about increment. I would add that the credit is cleaner here than in most of the shortlist, since the evolution of the adenine deaminase can be traced to Gaudelli and Liu and the first cytosine editor to Komor and Liu. I would still like the committee to be explicit in the citation about the chemistry, deamination without cleavage, so it is clearly distinct from the 2020 citation."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee judges base editing a sufficiently distinct chemical achievement from the 2020 CRISPR prize.",
+      "Whether Kondo and Nishida's Target-AID work should be credited, and whether Komor and Gaudelli should share the prize with Liu or Liu should be honoured alone.",
+      "Whether B008 should be reconsidered later, since it is mature and well attributed but has little support from colleagues and has been overtaken by perovskites."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the shortlisted candidates. I am a Stockholm University colleague of Secretary Peter Brzezinski, but that creates no recusal issue for any candidate, and I have no apparent personal or institutional tie to Liu, Komor, Gaudelli or the other shortlisted names."
+  }
+}

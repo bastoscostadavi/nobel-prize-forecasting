@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "Michele Parrinello",
+          "Roberto Car"
+        ],
+        "citation": "for unifying electronic-structure theory with the motion of atoms in first-principles molecular dynamics"
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "After the full first-round exchange I keep Car-Parrinello molecular dynamics (B024) as my final position, with Michele Parrinello and Roberto Car and a citation fixed to the 1985 step. The discovery is a single dated, two-author paper: an extended Lagrangian that propagates electrons and nuclei together, so bond breaking, proton transfer, liquid water and reactions at surfaces and in solution become computable at finite temperature without a pre-fitted force field. Four decades of independent use support it, and Aqvist, Brzezinski, Zou, Somfai and Sparr all concede maturity and clean credit. The category question I raised myself has been answered more convincingly than I expected: the questions it addresses (how bonds form and break, how ions and solvent behave, how reactions proceed) are chemical, and its main use has been in chemistry. The citation names the 1985 unification only, so Parrinello's later metadynamics and machine-learned potentials need not be adjudicated and the 2013 and 2024 computational prizes are distinguished by a different principle (no empirical force field, electrons and nuclei in one dynamics).",
+    "case_against": "The reservation I take most seriously is Brzezinski's: clean attribution makes a prize safe, not necessarily the most important one. Sparr and Aili are right that ionizable lipid nanoparticles created a capability with immediate clinical consequence, and Somfai is right that Car-Parrinello does not make molecules. A purely theoretical prize gives less of a chemistry-wide signal than one bridging to biology, and my physics background biases me toward a physical principle. The method is also partly displaced in everyday work by Born-Oppenheimer MD and machine-learned potentials, so the citation must honour the original step, not today's tools.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski moved to B024 but said clean attribution alone does not justify first place and that a two-person prize with no attribution risk is the safer decision, not necessarily the more important one.",
+        "response": "I accept that distinction and do not rest my case on attribution alone. My argument is that B024 also meets the standard I apply to every candidate: a quantitative principle that opened a genuinely new capability, namely treating bond breaking in condensed phases from first principles. B064 and B012 have larger societal reach, but the committee cannot fix a defensible three-person cut for either, and a prize that cannot be explained fairly is a worse prize. I would change my first choice if someone shows that Cullis, Hope and Madden hold the decisive step on documented grounds, which I do not think has been shown yet."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr now ranks B064 first and rejects my Medicine-prize concern, since the 2023 prize honoured the nucleoside modification while the carrier is a separate chemically defined invention.",
+        "response": "That is a fair correction and I withdraw the redundancy argument: the 2023 prize covered the cargo, and the pKa-tuned ionizable lipid is a distinct chemical design. My remaining objection is attribution, not merit. Six names across Vancouver, MIT and companies, and your own opening pairing of Cullis with Anderson, show the committee has not agreed on who made the decisive step among ionizable-lipid design, rapid-mixing assembly and lipidoid screening. If you can state which of those is the discovery and who documented it first, B064 becomes a serious competitor to B024 for me."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist argues the discipline question is not serious because the questions Car-Parrinello answers are chemical, and that the citation should be tied strictly to the 1985 method and leave out metadynamics and ML potentials.",
+        "response": "I agree and have adopted that framing. As the member most familiar with simulation of reactions in condensed phases, you carry the burden of the practical claim, and your argument on bond breaking, proton transfer and solution reactions persuades me that the category worry is weaker than I stated in round 1. I have written the citation around the unification of electronic structure and atomic motion so that it excludes later developments, and I would resist any wording that stretches to Parrinello's later career."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes prefers B012 with the Solexa pair Balasubramanian and Klenerman, resisting the addition of Rothberg, and names B024 as his fallback if attribution cannot be settled.",
+        "response": "I take your point that the pair is the cleanest chemical core and that mixing 454 pyrosequencing with reversible-terminator chemistry blends two distinct routes, which is why I no longer include Rothberg in a preferred citation. But the Ju, Mayer and Rothberg routes remain unresolved, and you say yourself that you have not verified the chronology. Since you name B024 as your fallback, I invite you to treat that fallback as live: the committee is closer to agreement on B024 than on any sequencing citation."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai argues C-N coupling is mechanistically distinct from the 2010 prize and that Car-Parrinello is a method for computing chemistry, not making molecules.",
+        "response": "Your mechanistic argument about amido complexes and competing beta-hydride elimination is persuasive and I now see B006 as less of a follow-on than I implied. Buchwald and Hartwig are the right pair and maturity is beyond doubt. My difference is one of weighing: B024 changed what can be calculated about bonds and reactions in the liquid and solid state, which no experiment could do before 1985, and chemistry has long recognized methods that explain as well as make. I keep B006 below B024 but do not dismiss it."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority accepts Car-Parrinello as chemistry rather than computational physics after the 2013 and 2024 computational prizes.",
+      "Whether the committee will keep the citation to the 1985 method or be drawn into Parrinello's later metadynamics and ML-potential work.",
+      "The Cullis, Hope, Madden cut for B064 and the Solexa versus 454, Ju and Mayer allocation for B012 remain unresolved and I cannot verify priority dates from the supplied materials.",
+      "If B046 becomes a first choice, the split between PROTACs and molecular glues and the crowded credit are unresolved; I rely on memory for the 1985 paper and its priority."
+    ],
+    "conflict_note": "As Chair I am a physicist at Lund, and B024 is my own first choice, so my physical-principle bias should be weighed by colleagues. None of the shortlisted candidates is at Lund or a collaborator of mine as far as my profile shows, and I do not request recusal. I wrote the round-1 chair summary and have tried to represent it neutrally."
+  }
+}

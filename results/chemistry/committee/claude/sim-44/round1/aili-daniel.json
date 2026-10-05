@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-44",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": [
+          "Pieter R. Cullis",
+          "Michael J. Hope",
+          "Daniel G. Anderson"
+        ],
+        "citation": "For the development of ionizable lipid nanoparticles for the delivery of nucleic-acid medicines"
+      }
+    ]
+  },
+  "alternatives": [
+    "B042",
+    "B050"
+  ],
+  "statement": {
+    "case_for": "Ionizable lipid nanoparticles are a molecular-design solution to a concrete chemical problem: how to encapsulate a large, highly charged nucleic acid, keep it stable in circulation, and release it in the cytosol. The pKa-tuned lipid that is nearly neutral in blood and cationic in the acidic endosome, together with controlled self-assembly, is a transferable design principle. It is validated at global scale through patisiran and the mRNA vaccines, and it reaches well beyond one product into gene editing delivery, protein replacement and nanomedicine. Several colleagues independently rank it highly (Sparr second, Chabes third, Linke fourth), which suggests it is a broad area of agreement rather than my own specialty enthusiasm.",
+    "case_against": "The strongest reservation is attribution. The Vancouver lineage (Cullis, Hope, Madden, MacLachlan) and the Boston combinatorial-lipid lineage (Anderson, Langer) overlap, and a three-person cap forces us to leave out Madden, MacLachlan and Langer, which some will see as arbitrary. The 2023 Medicine prize for nucleoside-modified mRNA also covered part of the same story, so we must be clear that the chemical contribution is the delivery vehicle and not the payload.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first because it turns a biological process into a defined chemical reaction, deamination at a single nucleotide, without double-strand breaks, and it is already in clinical use.",
+        "response": "I agree base editing is chemically clean and I ranked it third. My reservation is that it is built on the CRISPR-Cas9 scaffold honoured in 2020, so the Chemistry prize would partly revisit that territory, and the credited trainees (Komor, Gaudelli) make a three-person allocation awkward in practice, with Liu alone a thin configuration. Lipid nanoparticles are less overlapped by an earlier chemistry prize and have clinical impact at far larger patient scale. I would not call base editing premature, only second in line for me."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks targeted protein degradation first as a simple chemical idea, hijacking E3 ligases with bifunctional molecules or glues, that opens the undruggable proteome, with many degraders in clinical trials.",
+        "response": "I share the enthusiasm and ranked PROTACs second. The difference is maturity: no PROTAC is yet an approved drug, whereas ionizable lipids have delivered approved medicines to hundreds of millions of people. There is also a real attribution split between the PROTAC concept (Crews, Deshaies) and the molecular-glue strand (Handa on cereblon, with Ciulli and Gray), and I doubt three names capture both fairly. If the committee prefers the degradation field I would want the citation to be explicit about which strand it honours."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation first and ionizable lipid nanoparticles second, framing the latter as lipid self-assembly and colloid chemistry with microfluidic assembly.",
+        "response": "I agree with that framing and it supports my citation: the prize would recognise lipid phase behaviour and pKa design, not just a formulation. On phase separation I am less convinced it is ready. The physical-chemical concept is important, but how general and functionally decisive condensates are is still debated, and the attribution among Hyman, Brangwynne, Rosen, Pappu and Mittag is hard to settle. I would put it behind a result with settled mechanism and therapeutic proof."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks base editing first and then sequencing and nanopores, valuing clear physical principles, and he notes that lipid nanoparticles are clinically proven at scale since 2018.",
+        "response": "I agree with his maturity assessment of lipid nanoparticles. On the sequencing and nanopore candidates I accept the physics-meets-chemistry appeal but see a Chemistry-versus-Medicine framing risk: massively parallel sequencing is a technology whose chemistry is secondary to its biological impact, and I would want a sharper chemical citation before ranking it above a delivery chemistry that is itself the invention."
+      }
+    ],
+    "uncertainties": [
+      "Fair allocation of credit between the Vancouver and Boston lipid lineages and whether Madden, MacLachlan or Langer should displace one of the three named",
+      "Whether the 2023 Medicine prize makes a delivery-chemistry prize look like a second recognition of the same advance",
+      "Whether the committee prefers a two-part prize pairing a delivery chemistry with a modality such as base editing or degraders, which would force harder name choices under the three-person cap"
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. I have a research-field overlap with Emma Sparr in self-assembly and peptide-lipid systems, and a translational interest in nanomedicine, but no personal or institutional tie to any nominee that would require recusal."
+  }
+}

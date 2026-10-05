@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-39",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation, in which small molecules recruit E3 ubiquitin ligases to eliminate chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B042",
+    "B053"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation meets my standard of a game-changer: a simple, completely new principle (a bifunctional molecule that brings a chosen protein to an E3 ligase so that the cell destroys it) with real consequences already visible. It converts binding into elimination, reaches targets that occupancy-based inhibitors could not, and has produced clinical-stage molecules. Three members ranked it first and five placed it in their top three, so the support is broad across chemical biology, physical chemistry and biochemistry. The attribution is workable under the three-person cap: Crews and Deshaies for the PROTAC concept and first proof of principle, Ciulli for structure-guided VHL ligands and the ternary-complex mechanism that made design rational and quantitative, which is the part I as a theorist find most convincing.",
+    "case_against": "The strongest reservation is maturity and attribution. No degrader is yet a broadly approved drug, so the clinical consequences are promised rather than demonstrated, and a prize now could look slightly early. Credit is also crowded: Sakamoto and Kim shared the 2001 PROTAC paper, Handa and Ito identified cereblon, and Gray made major contributions to degrader chemistry. A trio of Crews, Deshaies and Ciulli leaves out real contributors and arguably splits the field into a concept strand and a molecular-glue strand that a different committee might frame differently.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks B011 first but names Handa instead of Ciulli, arguing that identification of cereblon as the thalidomide target underpins molecular glues and explains thalidomide-class drugs mechanistically.",
+        "response": "I take the cereblon discovery seriously, since it is a rare case where a mechanism explains a drug with a notorious history. But the glue strand arose from serendipity and retrospective explanation, whereas the PROTAC strand is the rational design principle, which is closer to a game-changer in the sense I use. Ciulli's VHL ligands and ternary-complex structures are what let others design degraders at all, and I prefer to anchor the prize on the principle, not on one E3 ligase. I would not object to a citation wording that mentions molecular glues, but I would not give up Ciulli for Handa."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks Gray and Winkler's long-range electron transfer in proteins (B058) first on grounds of mature physical mechanism, and places B011 fourth because clinical validation is still emerging and recognition may be somewhat early.",
+        "response": "The maturity concern is fair and is my own main reservation, so I do not dismiss it. Where I differ is that the chemistry here is already reproduced by many groups and the mechanistic basis (cooperative ternary complexes) is quantitative, which is a standard I think you would also endorse. B058 is a distinguished body of work, but part of its framework (Marcus theory, tunnelling pathways) was recognised earlier or sits with others, and the claim needs sharp scoping. I would put B058 below B011 on novelty of consequences, not on scientific quality."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks nanopore sequencing (B017) first and B011 third, noting that the molecular-glue strand is a separate lineage and that no PROTAC drug is approved, so validation is still maturing.",
+        "response": "I agree the two strands are separate and that this is the weak point of B011, which is why I would keep the citation to the degradation principle with E3 recruitment. On B017, I accept the physical clarity and deployed impact, but the attribution is very difficult: Kasianowicz, Branton, Deamer, Akeson and Bayley each hold a distinct step, and the three-person cap forces a contestable cut. That unresolved credit is for me a larger obstacle than the clinical immaturity of degraders, where the core names are better defined."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai places Buchwald-Hartwig C-N coupling (B055) first for its daily use in synthesis, with clear credit to Buchwald and Hartwig independently.",
+        "response": "The attribution for B055 is indeed cleaner than for most candidates and the adoption is not in question. My hesitation is novelty relative to the 2010 cross-coupling prize: the committee could reasonably feel the principle was already recognised, whereas degradation introduces a new pharmacological logic. I would not oppose B055 on merit, and if the committee prioritises synthetic methodology it is a safe choice, but I do not rank it above B011."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will centre the prize on PROTACs or on molecular glues and cereblon biology, which changes the laureate set",
+      "Whether clinical validation of degraders is sufficient, since I cannot independently verify the latest trial outcomes",
+      "How to treat Sakamoto and Kim, whose early contribution cannot be recognised under the three-person limit",
+      "Whether a Parrinello-centred computational prize (B053) would be preferred by colleagues who see simulation as underrecognised, given recent prizes in that area"
+    ],
+    "conflict_note": "No specific conflict is apparent for B011 from the provided profile. I have no connection to the degrader candidates. I note that I am a computational chemist and was a postdoc with Arieh Warshel, so I should stay aware of a bias toward simulation work when I assess B053 (Car and Parrinello), though I have no personal tie to them."
+  }
+}

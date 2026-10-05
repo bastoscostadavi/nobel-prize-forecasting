@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-38",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B039",
+        "laureates": ["David W. Deamer", "Mark Akeson", "Hagan Bayley"],
+        "citation": "For developing nanopore methods that read single DNA and RNA molecules electrically, enabling label-free long-read sequencing and single-molecule chemistry"
+      }
+    ]
+  },
+  "alternatives": ["B060", "B041"],
+  "statement": {
+    "case_for": "Nanopore sensing rests on a clear physical principle, the modulation of ionic current as a single polymer threads a pore, and it delivered a genuinely new capability: portable, label-free, long-read sequencing that also detects chemically modified bases directly. The decisive steps can be separated cleanly. Deamer and Branton conceived electrical sequencing through a pore, Bayley engineered protein pores and adapters into a controllable sensor, and Akeson showed that an enzyme ratchet can slow the strand to a speed at which bases are resolved. That last step is the kind of non-equilibrium motor physics I find most convincing, because it turns thermal fluctuation into controlled, readable motion. The technology has been commercially validated for over a decade and confirmed worldwide, so the discovery is mature, can be explained to a broad audience, and has opened many applications, from genomics to RNA modification mapping and single-molecule reaction chemistry.",
+    "case_against": "Credit is spread over at least five people (Kasianowicz, Branton, Deamer, Bayley, Akeson), and a three-person cut inevitably excludes Branton and Kasianowicz, whose 1996 translocation demonstration is the founding experiment. There is also a fair question whether the achievement is analytical-physical instrumentation or chemistry, and whether the commercial instrument rests more on later engineering (pore engineering, motor proteins, basecalling) than on the original discovery. Opening support for it is modest, so I should not mistake my own enthusiasm for committee weight.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Palladium-catalysed C-N coupling (B023) is a simple, general, broadly used method for which Buchwald and Hartwig are the decisive pair, in the tradition of the 2010 cross-coupling prize.",
+        "response": "I accept that the maturity and impact are beyond doubt, and the Buchwald and Hartwig attribution is clean. My reservation is the 2010 precedent: the committee must ask whether this is a distinct discovery or the completion of a prize already given. I would also ask what principle was discovered that was not already implied by C-C coupling, other than ligand design. If you and Peter can show that the ligand-controlled mechanism is a new insight rather than an extension, B023 is a strong competitor, and it has clearer attribution than nanopores."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Nanopore reading of nucleotides (B039) is a fundamental analytical idea realised in long-read sequencing, with direct detection of modified bases, but credit spans at least five people and a fair trio is hard to pick.",
+        "response": "I agree with your reading of the attribution problem, and your trio of Bayley, Branton and Deamer differs from mine by one name. I would keep Akeson over Branton because strand control by an enzyme ratchet is what made base reading practical, whereas Branton's contribution is conceptual and shared with Deamer. I also want to hear from you, as the nucleotide chemist, whether the modified-base detection is robust enough to count as a chemical advance in its own right. On base editing, which you ranked first, I would ask whether it is a downstream extension of the 2020 CRISPR prize rather than a separate discovery."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular condensates (B052) are a new organising principle for the cell, grounded in physical chemistry, with Hyman, Brangwynne and Rosen as the founding contributors.",
+        "response": "The concept has great generative potential and I respect the physical chemistry behind it. My concern is maturity and rigour: you note yourself that it is unsettled which in vivo condensates are truly phase-separated. I would want quantitative evidence of function in cells, not only in vitro droplets, before putting it into a citation. I also see the omission of Pappu and Mittag, who supplied sequence grammar, as a real attribution cost. I would support it later, but it is not yet as clear as the nanopore case on what exactly was discovered."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Long-range electron transfer through proteins (B030) is compact and mature, with Gray and Winkler as a clean two-person credit and a textbook framework.",
+        "response": "I find the physical clarity of this case attractive, since tunnelling and distance dependence are quantitative and well tested, and a two-person credit fits the limit well. My doubt is the Marcus precedent in 1992 and the fact that the framework is textbook, so the sense of a new capability is weaker. It could well be a late recognition of a foundational field rather than an opening of vast new possibilities. I could support it if it is paired with a second, more generative achievement, but I would like you to say what the key experimental discovery was and in what year."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Halide perovskite solar absorbers (B010) are a materials discovery with efficiencies rising to above 25 percent in a decade, though stability and toxicity are unresolved and the credit is spread over six people.",
+        "response": "The efficiency trajectory is remarkable, but I would separate the original discovery from the later refinements, as your own attribution analysis implies. The unresolved stability problem and the lack of a settled commercial product make the maturity weaker than nanopore sequencing, which already has a decade of deployment. If the committee wants a materials prize, I would ask whether the true distinction is the first perovskite-sensitised cell or the solid-state architecture, because that determines who is credited."
+      }
+    ],
+    "uncertainties": [
+      "Whether Branton and Kasianowicz can fairly be omitted from a three-person nanopore prize, and whether the committee prefers Branton to Bayley or Akeson.",
+      "Whether the committee will see nanopore sequencing as chemistry rather than analytical physics and instrumentation.",
+      "Whether base editing (B060) is a distinct discovery or an extension of the 2020 CRISPR prize, and whether Liu alone is the right credit.",
+      "Whether the PROTAC and cereblon molecular-glue strands of B041 can be combined into one defensible citation within three names."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no stated connection to nanopore work or any shortlisted candidate, although my own research on molecular motors and Brownian ratchets is conceptually adjacent to the enzyme-ratchet step; as chair I should also avoid steering discussion."
+  }
+}

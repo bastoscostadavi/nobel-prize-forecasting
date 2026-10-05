@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": ["Craig M. Crews", "Raymond J. Deshaies", "Alessio Ciulli"],
+        "citation": "For the development of targeted protein degradation by heterobifunctional degraders, converting induced proximity to the ubiquitin-proteasome system into a new chemical modality"
+      }
+    ]
+  },
+  "alternatives": ["B052", "B029"],
+  "statement": {
+    "case_for": "Targeted protein degradation meets my standard of a game-changer: it is completely new, and it has already shown consequences. A small molecule that brings a target and an E3 ligase together removes the protein instead of merely occupying it. That changes what can be drugged, including scaffolding proteins and targets without a pocket. It also rests on chemistry I can judge quantitatively, namely ternary-complex cooperativity, linker design and structure-guided VHL ligands, and these are measured in binding and kinetic experiments, not asserted. The concept has been reproduced by many academic and industrial groups across several E3 ligases, and degraders are in late-stage clinical trials. Attribution can be made defensible in three names: Crews and Deshaies proposed and first demonstrated the PROTAC concept, and Ciulli supplied the structural and chemical basis that made it a drug-like, rational design discipline.",
+    "case_against": "The honest weakness is maturity and scope. As far as I know no PROTAC is yet an approved, broadly used drug, so the real-world payoff is still a promise. The category also bundles two partly separate histories, bifunctional PROTACs and the thalidomide/cereblon molecular-glue line (Handa, Ito, with Gray and Sakamoto also claimants). A three-name cut inevitably leaves out people with strong claims, and a citation that says 'degradation' invites the question of why the cereblon discovery is not credited. If the committee judges clinical proof to be required, or the attribution problem to be unresolvable in three names, a cleaner and more mature choice such as B052 or B029 is the fallback.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B007 first and proposes Crews, Ciulli and Handa so that the prize covers both the PROTAC modality and the cereblon-based glue branch.",
+        "response": "I agree on the ranking and on the importance of the glue branch, but I am not convinced that Handa belongs in the three. Handa and Ito identified cereblon as the thalidomide target, which is a mechanistic discovery about an existing drug. The design of heterobifunctional degraders, the actual new modality, begins with Crews and Deshaies, and dropping Deshaies in favour of Handa makes the citation about a drug-target discovery and leaves the 2001 concept without its co-originator. I would take Crews, Deshaies and Ciulli with a citation about induced-proximity degradation, and let the glue story be covered by the text of the citation and not by a fourth or substituted name. I am open to hearing the case for Handa over Ciulli, but it would have to rest on priority and not on fame."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first with Liu, Komor and Gaudelli, calling the C-to-T and A-to-G conversions controlled chemical reactions on DNA with timely, demonstrated impact.",
+        "response": "I share the view that base editing is real chemistry, and the evolved TadA deaminase acting on DNA is impressive. But I would keep Liu alone, as most of us who ranked it proposed. Komor and Gaudelli did the decisive experimental work as trainees, yet the concept and the continuing platform come from Liu, and adding trainees under a three-person cap weakens the clean attribution that is the main advantage of this candidate. My larger reservation is the one Chabes himself notes in part: 2020 recognised CRISPR, so the committee must explain why base editing is chemistry and not further genome editing. That is answerable, but it makes B052 a strong alternative and not my first choice. I also note that Chabes puts B007 second and calls it slightly early but near, which is close to my own assessment."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, the chair, ranks phase separation first as a clear physical principle with quantitative thermodynamics, confirmed across many labs for more than 15 years.",
+        "response": "This is a serious candidate and I respect the physical-chemistry framing, but I am less convinced it is ready. The field is still debating physiological relevance, condensate versus aggregate, and in vitro artefacts, as Linke concedes himself. Calling something an organizing principle of the cell is a larger claim than the experiments currently support in every system. Degradation has a sharper test: you can measure whether the protein disappears, and patients are being treated. There is also the attribution issue that Pappu and Mittag, who supplied the sequence-encoded physics, would be excluded from a Hyman-Brangwynne-Rosen trio. I would not oppose B001 as a later prize, but I would not choose it now over B007."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks ionizable lipid nanoparticles second, arguing the lipid physical chemistry is decisive for siRNA drugs and mRNA vaccines, with a UBC trio of Cullis, Madden and Hope.",
+        "response": "The impact is unquestionable and I rated B066 sixth for that reason, not for lack of merit. My difficulty is attribution: credit is spread across the UBC group, Anderson and Langer's lipidomimetics, MacLachlan and several companies, and Sparr's trio leaves out people I think a fair account must weigh. Patent and corporate priority disputes make it hard to name three people with confidence. If the committee can agree that Cullis's ionizable-lipid pKa insight is the discovery and Madden and Hope its co-originators, then I could support it. I would like Sparr to say how she would defend excluding MacLachlan and Anderson."
+      }
+    ],
+    "uncertainties": [
+      "Whether any PROTAC or degrader has been approved by now; my knowledge of clinical status is not current and I have not verified it",
+      "Whether the cereblon molecular-glue line (Handa, Ito, Gray, Sakamoto) must be named to make the citation honest, and who would then be dropped from the three",
+      "Whether the committee regards genome-editing prizes after 2020 as sufficiently chemical to prefer B052 over B007"
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. My Warshel/EVB, free-energy and Uppsala ribosome connections do not touch any shortlisted ballot, although I have computational interests in ligand binding that make me familiar with the thermodynamic side of ternary-complex work, which is a scientific closeness and not a personal tie."
+  }
+}

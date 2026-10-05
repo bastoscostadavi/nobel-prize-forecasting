@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-04",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B036",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For turning targeted protein degradation into a chemical strategy, through bifunctional PROTAC degraders and the identification of cereblon as the target through which thalidomide-class molecular glues act."
+      }
+    ]
+  },
+  "alternatives": [
+    "B006",
+    "B014"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation converts a biological process, ubiquitin-dependent proteolysis, into a designable chemical reaction: a small molecule brings a chosen protein and an E3 ligase together, and the cell's own machinery does the rest. This is the type of discovery I value most, a mechanism that is now a general tool for chemists and biologists. It has three independent lines of evidence: the PROTAC concept (Crews, Deshaies), the molecular explanation of thalidomide-type drugs through cereblon (Handa), and structural work on ternary complexes. The first two are the conceptual anchors and have been reproduced in very many laboratories. Seven of the eight opening ballots place it in their top seven, and I see that agreement as reflecting the content of the chemistry and not just popularity. The biomedical relevance is direct, since degraders reach targets that inhibitors could not, and the field's quantitative pharmacology (degradation kinetics, cooperativity, hook effect) is measured rather than assumed.",
+    "case_against": "The strongest reservation is timing and framing. To my knowledge no PROTAC has yet been approved, so the clinical proof is still arriving, although the chemistry is established independently of that. A second reservation is that a three-person cut forces a choice between the PROTAC line and the molecular-glue line and leaves out Ciulli, Gray, Sakamoto, Ito and others who made decisive later contributions. Finally, the prize could be read as honouring a drug modality more than a chemical principle, and the committee should make sure the citation is stated in terms of the principle (induced proximity to an E3 ligase) and not in terms of the clinical pipeline.",
+    "responses": [
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou also ranks targeted degradation second but would credit Ciulli instead of Handa, because his VHL ligands and ternary-complex structures made PROTACs drug-like. She also notes that clinical validation is still emerging and the timing may be somewhat early.",
+        "response": "I take the Ciulli argument seriously: the VHL ligands made PROTACs non-peptidic and the ternary-complex structures explain selectivity, so his omission is a real cost. But the question for me is which contribution defines the principle. Handa's identification of cereblon is the measurement that turned thalidomide from an empirical drug into a defined chemical mechanism, and without it the molecular-glue half of the field has no anchor. Ciulli's work, however good, refines a concept that Crews and Deshaies had already shown in cells. If the committee wants to cover the structural and ligand-design side, that is an argument for a different third name and I would accept a Crews, Deshaies, Ciulli trio as the second-best attribution, but I would not drop the cereblon mechanism from the citation. On timing I agree that approval is still pending, and I do not think approval is the test; reproduced mechanism is."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke places phase separation (B014) first because it is a physical principle with a clear thermodynamic basis and broad reach, and notes that the interpretation of specific in vivo condensates is still debated, while ranking degradation second and saying it may be a little early.",
+        "response": "I agree phase separation is conceptually attractive and I gave it a high ranking, but the debate Linke himself lists is what keeps it below degradation for me. Whether in-cell condensates are equilibrium liquid phases or other assemblies depends on how they are measured, and several of the early claims did not hold up when quantified carefully, which is the kind of problem I look for. I would also point out that the founding observation, the P-granule paper, is cell biology and the chemical contribution (Rosen's multivalent-interaction framework) is real but narrower than the headline concept. Degradation has the opposite profile: the mechanism is directly measurable in vitro and in cells, and the chemical entity is well defined. So I would keep B014 as a strong alternative, and I do not think the timing concern for degradation is larger than the measurement concern for condensates."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist puts energy landscape theory and folding experiments (B023) first because it is a quantitative framework tested directly against experiment, and he ranks degradation second while noting that clinical validation is incomplete and that Ciulli and Gray are left out.",
+        "response": "The folding framework is a deeper and older idea than degradation and I do not dispute its standing. My hesitation is that it has been recognised in pieces, with the 2024 prize touching adjacent protein structure and design ground, and that its credit is spread across theory (Wolynes, Onuchic, Bryngelson, Dill) and experiment (Fersht) in a way that is hard to fix in three names. I would want to hear from Aqvist whether the funnel picture has made predictions that experiments later confirmed in a way that sets it apart from the broader physical picture of folding. On the shared concern that Ciulli and Gray are excluded, I accept it as the main weakness of B036, but it is a weakness of attribution and does not change my view that the discovery is ready."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili puts degradation first as a designable modality tied to molecular recognition, backs the same three laureates, and asks whether the prize should centre on PROTACs or on molecular glues.",
+        "response": "I agree with the trio and with the reading of this as a recognition-design problem. On the PROTAC versus glue question, I think the cleanest answer is to centre the citation on induced proximity to an E3 ligase, which covers both: the bifunctional design is the engineered version, and the thalidomide-class glues are the discovered version of the same mechanism, now explained by cereblon. This avoids having to pick one line over the other. It does not remove the problem of Ciulli, Gray and Sakamoto, but it makes the three-person cut easier to defend because each laureate then represents a distinct element of the principle."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts clinical approval as unnecessary for recognition, given that I cannot verify the current regulatory status of any degrader.",
+      "Whether Ciulli should replace or join Handa, and how much weight the ternary-complex structural work carries compared with the cereblon mechanism.",
+      "Whether the credited names for the PROTAC concept are fully settled between Crews, Deshaies and Sakamoto for the original 2001 work, which I am recalling and have not independently checked."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. I have no known institutional or collaborative link to Crews, Deshaies, Handa, Ciulli or the other credited names, and my work on nucleotide metabolism at Umeå is not directly related to ubiquitin-dependent degradation."
+  }
+}

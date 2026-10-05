@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-20",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For conceiving and demonstrating targeted protein degradation by heterobifunctional small molecules that recruit E3 ubiquitin ligases"
+      },
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B044"
+  ],
+  "statement": {
+    "case_for": "Both parts rest on a physical-chemical mechanism that can be stated precisely and has been tested by many independent groups. For B007, induced proximity turns ubiquitin-dependent proteolysis into a designable chemical reaction. The ternary-complex and cooperativity picture is now understood structurally, and Crews and Deshaies hold the clearest priority for the heterobifunctional concept. B007 is also the only candidate that six of the eight openings ranked, with two first places. For B061, Liu's cytosine and adenine base editors are engineered deaminase chemistry on genomic DNA. The mechanism is concrete and the work has a clean intellectual leader, which matters when only three names are available. The two parts are distinct achievements, one acting on proteins and one on nucleic acids, so the pairing is not a double count of a single idea.",
+    "case_against": "B007 is a line of work with crowded credit. PROTACs (Crews, Deshaies, Sakamoto, Ciulli, Gray) and molecular glues (Handa, Ito, Kim) are separate strands, and a three-name cap forces the committee to leave out Ciulli, whose VHL ligands made the approach drug-like, and Handa, whose cereblon identification explained thalidomide. Approved clinical benefit is still pending. For B061, the 2020 CRISPR prize sits directly beneath it, clinical durability is unproven, and the independent Nishida and Kondo cytidine-deaminase work is a priority question I cannot dismiss. Neither candidate is an enzymatic or biophysical mechanism of the kind I know best, so my own field-specific expertise adds little here. I must be careful not to let my preference for mechanism decide the matter by default.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel Aili ranked B007 first with Crews, Deshaies and Ciulli, arguing that induced-proximity degradation makes the ubiquitin-proteasome system a designable tool, and that glues and PROTACs are separable strands.",
+        "response": "I agree on the science and on the maturity of the mechanism. I would credit the PROTAC concept to Crews and Deshaies before Ciulli, because the heterobifunctional idea and its first demonstrations precede the structure-guided VHL work. Ciulli's contribution is real but is an optimisation of a concept already in hand. If we want a third name on that part, the committee should say whether it is attributing the concept or the drug-like realisation, and I would want the expert report on that before settling it. I also doubt that a molecular-glue citation can be folded into the same part without reopening the Handa question."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan Aqvist ranked B061 first as a game-changing chemical idea, preferring a Liu-alone citation, and placed B001 second as an overdue sequencing-chemistry prize.",
+        "response": "I share the preference for Liu alone on B061 and have kept Komor and Gaudelli off the list. They were trainees leading the experiments, and diluting the citation would blur a clean attribution. I am more cautious than Johan on timing, though. About a decade on, with early clinical data, it is strong but not fully tested, and the committee should not treat that as settled. I disagree mildly on B001. Its maturity is beyond doubt, but the credit between the Solexa and 454 lineages, plus Ju and Mayer, is a harder attribution problem than he suggests."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei Chabes ranked B007 first with Handa as the third name, arguing that cereblon explains the glue mechanism, and ranked B061 second as clearly distinct from the CRISPR prize.",
+        "response": "I take the Handa point seriously, because identifying cereblon as the thalidomide target is a discrete, attributable discovery and not a refinement. My reservation is that putting it in the same citation as heterobifunctional degraders merges two mechanisms. Cereblon recruitment by glues and engineered bifunctional recruitment answer different questions. I would still keep Crews and Deshaies as the core and treat Handa as the alternative third name if the committee wants glues in scope. I agree with Andrei that base editing is distinct from CRISPR-Cas9 in its chemistry."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Xiaodong Zou ranked B013 (molecular-sieve catalysts) first, as an archetype of structure-to-function design, with Corma, Davis and Zones, and ranked B007 and B061 lower.",
+        "response": "I understand the appeal of a designed-framework prize, and the industrial scale is beyond doubt. My concern is attribution. Credit for structure-directing agents and new frameworks is spread across many groups, and the proposed three would leave out Yu and Tsapatsis, among others. I would want the expert report to show a single attributable discovery before this goes ahead of candidates with clearer leaders. I am not against it on merit, and I would not object if the committee settles the attribution."
+      }
+    ],
+    "uncertainties": [
+      "Whether the expert report on targeted protein degradation supports crediting the concept (Crews, Deshaies) separately from Ciulli's ligand work and the cereblon glue strand",
+      "Whether Nishida and Kondo's independent cytidine-deaminase work is close enough in time and substance to change the Liu-alone attribution",
+      "How much the 2020 CRISPR prize should weigh against base editing, and whether clinical validation is far enough along",
+      "Whether B068 (Gray, Winkler) deserves a place now that opening support is limited to my own ballot, given that Marcus theory was recognised in 1992 and theory credit for pathways is outside the credited list"
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for B007 or B061. B068, B044 and B058-style respiratory and electron-transfer topics are close to my own research on proton and electron transfer in respiratory enzymes, so I would flag that for any part involving bioenergetics. Xiaodong Zou is a Stockholm University colleague, which is relevant only to B013 and does not require recusal on its own."
+  }
+}

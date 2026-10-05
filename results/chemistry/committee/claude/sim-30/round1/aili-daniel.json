@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-30",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B068",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation by chemically induced proximity, from PROTACs to the molecular-glue mechanism of thalidomide-class drugs"
+      }
+    ]
+  },
+  "alternatives": [
+    "B006",
+    "B017"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a molecular design principle rather than a single tool: a small molecule is engineered to bring an E3 ubiquitin ligase and a target together so the cell removes the protein instead of merely inhibiting it. It changed what chemists and clinicians can do against targets once called undruggable, it has spread across chemical biology and medicinal chemistry, and it already has clinical-stage degraders and an approved IMiD-class lineage whose mechanism, through cereblon, is now understood. The Crews-Deshaies concept and Handa's identification of cereblon as the thalidomide target are two complementary strands, the engineered heterobifunctional degrader and the discovered molecular glue, that together make one coherent citation about induced proximity. Three of eight members ranked it in their top three and seven of eight ranked it somewhere, the broadest placement on the shortlist, which tells me it is a consensus-compatible choice and not a niche one.",
+    "case_against": "The strongest reservation is maturity and attribution. No heterobifunctional PROTAC has yet been approved, so the clinical proof for the most original half of the concept is still pending, and the approved glue drugs (thalidomide analogues) predate the mechanistic understanding. Attribution is also genuinely hard: Ciulli (VHL ligands, ternary-complex structure), Sakamoto, Kim and Gray have strong claims, and a three-person cap forces me to leave out people whose work made PROTACs drug-like. Base editing (B006) and lipid nanoparticles (B017) are further along on demonstrated patient benefit and have cleaner stories.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks base editing first as a mechanistically clear chemical-biology invention, with Liu, Komor and Gaudelli as the credited core and the 2020 CRISPR prize as the main risk.",
+        "response": "I agree base editing is a clear, original invention and I ranked it third myself, so I would not oppose it. But I read the 2020 prize as a stronger obstacle than you do: the committee would be recognising a second layer on a Cas9 platform it has already honoured, with prime editing likely to be folded into the same story. Degradation opens a different mechanistic area, protein removal through the ubiquitin-proteasome system, so it adds more new chemistry per prize. I would accept B006 as the fallback if the committee prefers demonstrated clinical benefit over breadth."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes places base editing first and ranks Balasubramanian-Klenerman sequencing second, arguing next-generation sequencing is overdue and rests on nucleotide chemistry, while seeing degraders as slightly early without an approved PROTAC and leaving out the cereblon branch.",
+        "response": "Your point that no PROTAC is approved is the fair objection to my case, and I concede it affects the timing. I think it matters less than the mechanism: the cereblon-glue strand already has years of approved clinical use and an established mechanism, so the citation does not rest on PROTAC approval alone. On sequencing, I agree the reversible-terminator chemistry is important and overdue, but the shortlist shows it is contested among Balasubramanian, Klenerman, Rothberg, Ju and Mayer, and I worry that scoping that prize will be harder than scoping degradation. I take your point that the three-person limit leaves out Ciulli and that Handa's inclusion is a deliberate choice."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks phase separation first as a new organizing principle for cell chemistry, and ranks PROTACs second with Crews, Deshaies and Ciulli, treating Handa's cereblon work as a separate molecular-glue strand.",
+        "response": "I am glad we overlap on B068, and I take your attribution argument seriously: Ciulli's VHL ligand and structural work did make PROTACs drug-like, and I may be undervaluing it by taking Handa. My reason for Handa is that without cereblon the thalidomide-class story has no mechanism, so the citation would not cover glues. On phase separation, I am less convinced that it is ready: the in vivo status of many condensates is still contested, and the chemical content, a quantitative multivalency framework from Rosen, is narrower than the biology the prize would be credited for. I would rather wait for that debate to settle."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks ionizable lipid nanoparticles first as lipid self-assembly and phase behaviour turned into a medicine, with a Cullis, Hope and Anderson configuration, and notes it is mature with global clinical validation.",
+        "response": "I largely share your enthusiasm, and I ranked B017 second for the same reason: the lipid design work (pKa tuning, endosomal escape) is exactly the chemistry-to-clinic path I value. My hesitation is the six-person credit group and the overlap with the 2023 Medicine prize for nucleoside modification, which makes the chemistry-versus-medicine boundary harder for LNPs than for degraders. I also see that you and I may be biased toward self-assembly and delivery chemistry because of our related fields, so I would like us to test whether the chemical novelty is in the lipid design itself or in the formulation process."
+      }
+    ],
+    "uncertainties": [
+      "Whether the lack of an approved heterobifunctional PROTAC makes the prize premature, or whether the approved glue drugs and clinical-stage degraders suffice.",
+      "Whether the best three names are Crews, Deshaies and Handa, or whether Ciulli should replace one of them, given VHL ligands and ternary-complex structure.",
+      "How much room the committee has for a second genome-editing prize (B006) after 2020, which determines whether base editing is a stronger alternative than I currently estimate."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile: my postdoc mentors (Molly Stevens, Freddy Boey) and my Linkoping colleagues are not credited on B068, B006 or B017. I note only a research-field overlap with Emma Sparr on self-assembly and peptide systems, and my own translational and biosensor-company background, which may bias me towards chemistry-to-clinic cases."
+  }
+}

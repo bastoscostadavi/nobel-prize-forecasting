@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-42",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B067",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For developing targeted protein degradation, using bifunctional molecules that bring a chosen protein to the ubiquitin-proteasome system for destruction."
+      }
+    ]
+  },
+  "alternatives": [
+    "B049",
+    "B013"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation has the property I weigh most: a simple, general principle that gives a capability that did not exist. Instead of occupying a protein's active site, a small molecule recruits an E3 ligase and the cell removes the target, which makes proteins without a druggable pocket addressable. The concept dates from Crews and Deshaies (2001), the chemistry was made drug-like by structure-guided VHL ligands (Ciulli), and the principle has been reproduced across many ligases and targets. Five of eight openings put it in the top three, and three put it first. That is the broadest support on the shortlist, and it is support for a different reason than the ranking alone suggests: the scientific case is strong. It is the clearest 'previously unforeseen opportunities' candidate on the table and can be explained to a general audience in one sentence.",
+    "case_against": "The field is young. No PROTAC drug is approved, and clinical validation is still maturing, so recognition could be early. Attribution is also genuinely contestable: the thalidomide-cereblon molecular-glue branch (Handa, Ito) and the Gray, Sakamoto and Kim contributions are not covered by a three-name prize, and one can argue that PROTACs and molecular glues are two discoveries that converged on the same mechanism. My own first-place candidate, phase separation (B049), is the more fundamental physical principle, and a prize that favours drug-modality impact over principle would be a choice I should acknowledge as one.",
+    "responses": [
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation (B049) first as a general thermodynamic concept that brings soft-matter physics into cell biology, with a decade of independent confirmation.",
+        "response": "I put B049 first and agree on the physical core. But hearing the maturity discussion I am less sure it is ready. You note that the field is still sorting out which in-cell assemblies are genuine, and I share that worry: overexpression artifacts and the physiological relevance of condensates are not settled. The citation would have to be stated narrowly enough to be defensible, and the credit is hard (Hyman, Brangwynne, Rosen, with Pappu and Mittag). I therefore keep B049 as my first alternative rather than the lead. I would like you to say what claim you would put in a citation that survives the artifact critique."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks degraders first as a genuinely new therapeutic modality, with Crews and Deshaies's proof of principle and Ciulli's structure-guided VHL work forming a coherent trio, and sees the molecular-glue branch as a complication.",
+        "response": "I agree with the trio and the novelty argument. I disagree that the glue branch is only a complication to be managed in the citation. If the committee names Crews, Deshaies and Ciulli, then Handa and Ito's identification of cereblon as the thalidomide target is the origin of the entire glue story, and a citation that says only 'bifunctional molecules' might look incomplete in retrospect. I would phrase the citation around hijacking the ubiquitin-proteasome system, which can cover both branches in wording, and accept that the names are a hard cut. I want us to settle whether that is acceptable before round 2."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks degraders first but proposes Crews, Deshaies and Handa, so that the molecular-glue branch is represented by the cereblon target discovery rather than Ciulli's VHL design work.",
+        "response": "This is the real attribution question. Substituting Handa for Ciulli puts the cereblon biology in the prize, which is the discovery that explains an already-clinical drug class, thalidomide analogues. Against that, Ciulli made the PROTAC approach chemically general and drug-like, which is the design principle I find compelling. I still lean toward Ciulli because the prize is for a chemical principle, but I do not think this is settled and would like to hear what evidence you weigh most, since you know the biochemistry of the ubiquitin system better than I do."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalyzed C-N cross-coupling (B013) first as the core of molecule-making: conceptually simple, mature, industrially routine and arguably overdue.",
+        "response": "I take the argument seriously and I ranked B013 third, so it is my second alternative. Its maturity and the clean two-person credit (Buchwald and Hartwig) are real advantages over degraders. My reservation is the one you raise yourself: it follows the 2010 cross-coupling prize, so the novelty case is weaker, and it is an extension to a new bond type rather than a new capability. I would not call it overdue so much as a safe choice. If the committee prefers maturity and clean attribution over novelty, B013 is the right fallback; I would ask whether it opens anything that is not already routine."
+      }
+    ],
+    "uncertainties": [
+      "Whether PROTACs and thalidomide-type molecular glues should be one prize or two separable discoveries, and whether Ciulli or Handa belongs in the third place.",
+      "Whether the lack of an approved PROTAC drug makes recognition premature in 2026.",
+      "Whether phase separation (B049) can be given a citation that withstands the artifact and physiological-relevance critique.",
+      "My own historical attribution rests on recalled history rather than independent verification."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile: none of the shortlisted candidates is from Lund or NanoLund, and I have no known collaboration with the named people. I am a physicist and the chair, with Lund colleagues Somfai and Sparr on the committee, which is a general institutional connection and not a recusal issue."
+  }
+}

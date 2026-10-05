@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-18",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B010",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For developing chemical inducers of proximity that harness the ubiquitin-proteasome system to degrade target proteins, from heterobifunctional degraders to the cereblon mechanism of molecular glues"
+      }
+    ]
+  },
+  "alternatives": [
+    "B046",
+    "B011"
+  ],
+  "statement": {
+    "case_for": "I have moved my preferred configuration from B046 to B010. The reason is the exchange itself. B010 has the clearest physical principle on the list: a small molecule induces a ternary complex and catalytic, event-driven removal of the target. That principle is quantitatively measurable through cooperativity and ubiquitin-transfer kinetics, it was originated by identifiable people, and it has been reproduced across academia and industry. It also answers my own test of generative potential, since it opens proteins once considered undruggable to design. On the maturity and unity questions I put in round 1, Chabes and Aili-Daniel gave an answer I find persuasive. The cereblon finding links the PROTAC strand to thalidomide-class medicines already in patients, so the induced-proximity logic is clinically validated through glue drugs even without an approved heterobifunctional degrader. One sentence can honestly cover both strands if it names the shared principle (induced proximity to an E3 ligase) and not a drug class. Crews and Deshaies supply the concept and first demonstration, and Handa supplies the mechanism that explains the glue strand. That is a defensible trio and is explainable to a broad audience.",
+    "case_against": "No heterobifunctional PROTAC is yet approved, so the heterobifunctional half of the citation rests on trials and on the concept's reproducibility, not on a completed clinical record. Credit is genuinely split: Sakamoto shares the first PROTAC demonstration with Crews and Deshaies, Ciulli made PROTACs a rational medicinal-chemistry platform, and Ito, Gray and Kim have real claims in the glue strand. A three-name limit leaves all of them out, and a critic can say the citation stitches two strands together. I also still hold B046 to be a strong, original physical-chemical principle, and I give up on it because its in-cell evidence is contested and the committee shows no path to a majority for it, not because I think the science is weak.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "You argue that Handa is the better third name than Ciulli because the cereblon finding explains the glue strand and drugs already in patients, whereas Ciulli's VHL and ternary-complex work refines the PROTAC strand.",
+        "response": "This changed my position on the third name. In round 1 I named Ciulli, reading PROTACs and glues as separate strands. Your argument that Handa supplies the mechanism behind drugs already in use, and that this gives clinical maturity a PROTAC-only reading lacks, passes my test of separating the original discovery from later refinement. Ciulli's work is excellent and is the strongest alternative third name, but it refines a strand whose concept Crews and Deshaies had already shown. I therefore accept your trio. I keep your caution on wording. The citation should name induced proximity as the common principle and should not imply that PROTACs have been approved."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "You say the concept has been validated for about 25 years in many independent laboratories and that the Nobel record has recognised enabling chemistry before every downstream drug was approved.",
+        "response": "I accept the validation point and no longer treat the lack of an approved PROTAC as disqualifying. My round-1 reservation was that a three-name citation might blur two strands, and your reply that a citation built around induced degradation via the ubiquitin-proteasome system covers both is the one I adopted. I would still keep Sakamoto, Ciulli, Gray, Ito and Kim visible in the committee's explanatory text. Whoever drafts the expert report should confirm the status of late-stage degrader trials and approved cereblon-based medicines, which neither of us has checked against the record."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "You ask the committee to decide explicitly whether it rewards the demonstrated liquid behaviour and thermodynamic description or the claim that condensates organize cells, and you ask what wording survives criticism.",
+        "response": "I cannot give you a wording that survives the criticism without weakening the claim. A citation limited to the in vitro thermodynamic framework reads as soft-matter physics, and one that says condensates organize living cells claims more than the evidence supports. That is the gap I could not close. My reasoning on Pappu is also unchanged: sequence grammar is a quantitative refinement of the multivalent framework and not a separate discovery, so Rosen is the right third name for B046. I still hold B046 as my first alternative and would support it, with explicitly narrowed wording, if the committee later shows a way to reach a majority for it."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "You keep B011 as a two-name configuration of Balasubramanian and Klenerman, with one lineage of reversible-terminator chemistry, and describe it as having no maturity risk.",
+        "response": "I agree with the two-name attribution and with the claim that B011 carries no maturity risk. That is why it stays among my alternatives. My preference for B010 rests on the concept being newer and on there being more chemical design in it. Your remaining objection is that B010 lacks an approved heterobifunctional drug. I answer that the cereblon glue drugs are in patients already and the induced-proximity principle is the same. I would not oppose B011 as a final configuration, but I would not add Rothberg to it without an argument that 454 pyrosequencing is part of the same discovery."
+      }
+    ],
+    "uncertainties": [
+      "Whether heterobifunctional degraders and cereblon-based glues can be credited in one citation without being criticised as two prizes stitched together.",
+      "Whether the status of late-stage PROTAC trials and approved cereblon-based medicines matches what colleagues and I recall, since none of us has checked it against an expert report.",
+      "Whether Sakamoto's claim on the first PROTAC demonstration is strong enough that the committee should replace Deshaies or Handa with her.",
+      "Whether B046 can reach a majority, given that I withdrew from it and that its in-cell evidence remains contested.",
+      "I rely on supplied credit lists and recalled priority details, and cannot independently verify priority."
+    ],
+    "conflict_note": "No conflict has arisen since round 1. No candidate on the shortlist is connected to Lund University or NanoLund, and I have no tie to any credited name. My nanophysics interest in molecular motors is a perspective, not a connection. I remain a Lund colleague of Peter Somfai and Emma Sparr, which is an institutional overlap and not a recusal ground."
+  }
+}

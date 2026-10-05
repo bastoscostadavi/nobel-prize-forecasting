@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-20",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B022",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "for the development of palladium-catalysed carbon-nitrogen cross-coupling"
+      },
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B007",
+    "B001"
+  ],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling is the clearest case on the list of a general method that changed how chemists build bonds. Ligand design made aryl amine formation routine, and the reaction is used daily in pharmaceutical, agrochemical and materials synthesis, so adoption is visible in countless later syntheses. The mechanism is well understood and the attribution is clean: Buchwald and Hartwig independently made the catalytic, general version. Pairing it with base editing gives a prize that spans molecule-making and chemical biology. Base editing is the one border-field candidate where I can name the chemical novelty: a nucleobase deamination turned into a programmable, double-strand-break-free operation on genomic DNA, with the deaminase evolved by directed evolution. It has a single clear intellectual driver in Liu and early clinical results.",
+    "case_against": "Cross-coupling was prized in 2010, so C-N coupling can be read as an extension of a recognised area rather than a new departure. Kosugi's earlier tin-amide coupling is a precursor that a careful committee might want to credit. For base editing, the 2020 CRISPR prize already covers the programmable-targeting platform, and the chemistry is arguably protein engineering around a known enzymatic reaction. Clinical validation is still early, and the attribution against Nishida and Kondo's independent cytidine-deaminase work is not fully settled.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "C-N coupling is a workhorse but follows the 2010 cross-coupling prize and so is less of a new departure; he ranks base editing and massively parallel sequencing above it.",
+        "response": "I take the overlap concern seriously but disagree on its weight. The 2010 prize recognised C-C coupling, and C-N bond formation needed a separate catalyst design: amide and amine binding, beta-hydride elimination and reductive elimination from Pd-amido complexes had to be solved with new ligands. That is a new capability, not a refinement. I agree with him on base editing and have moved it into my configuration, with Liu alone as the cleanest credit."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation by PROTACs and molecular glues turns the ubiquitin-proteasome system into a designable chemical tool and is his first choice.",
+        "response": "The concept is original and I do not dismiss it. My reservations are attribution and timing. Credit is spread over at least six strands: Crews, Deshaies, Sakamoto, Ciulli, and the cereblon-glue lineage of Handa, Ito, Kim and Gray. No PROTAC drug is approved yet. I would keep it as an alternative for a later year, and ask what the founding chemistry is that a three-person citation would honour: heterobifunctional design, or cereblon-mediated glue degradation."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "He ranks massively parallel sequencing first, as a surface and single-molecule chemistry idea with clear principle and overdue recognition, and Pd C-N coupling second.",
+        "response": "I agree on C-N coupling and on maturity. On sequencing I am less convinced it is chemistry-led as a prize. The reversible-terminator chemistry is real, but the attribution among Balasubramanian, Klenerman, Rothberg, Ju and Mayer is contested, and much of the impact is instrumentation and biology. I would support it as an alternative but not as a part of my configuration; I would want the committee to say clearly which chemical step is the discovery."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular condensates and ionizable lipid nanoparticles are her top picks, each framed as a phase-behaviour principle with large consequences.",
+        "response": "The lipid nanoparticle case has real clinical validation, but the credit is spread over Cullis, Madden, Hope, MacLachlan, Anderson and Langer, and some of the ionizable-lipid design is empirical screening. For condensates I ask what was new chemically. The P-granule observation is biology, and the interpretation of liquid-like behaviour in vivo is still debated, so I find it less secure than the chemistry-led candidates."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept C-N coupling as distinct enough from the 2010 cross-coupling prize, and whether Kosugi should be credited.",
+      "Whether base editing falls under chemistry or reads as a continuation of the 2020 CRISPR prize, and how to treat Nishida and Kondo.",
+      "Whether the maturity of targeted protein degradation will improve enough, with a first approval, to displace either part of my configuration."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no known tie to the shortlisted candidates. My Masamune-school background and my work on stereoselective methods are field-adjacent to C-N coupling but not a personal connection. Lund colleagues Linke and Sparr are fellow committee members but have no stake in these candidates."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "Roberto Car",
+          "Michele Parrinello"
+        ],
+        "citation": "For the development of first-principles molecular dynamics, in which atomic forces are computed on the fly from the electronic structure"
+      }
+    ]
+  },
+  "alternatives": [
+    "B052",
+    "B031"
+  ],
+  "statement": {
+    "case_for": "Car-Parrinello molecular dynamics is a simple idea with large consequences: an extended Lagrangian lets electrons and nuclei evolve together, so forces come from the electronic ground state without repeated self-consistent minimisation. It made liquids, aqueous solutions, proton transfer and condensed-phase reactions accessible from first principles, and it has been tested quantitatively against experiment for four decades in many independent codes. Attribution is as clean as it gets, a two-person 1985 paper, which leaves room within the three-laureate limit and respects the point that fame is not the criterion. It is theory that connects to experiment, which is the standard I apply, and it is a methodological foundation under much of modern chemistry rather than one application.",
+    "case_against": "The strongest reservation is that the 1998 prize to Kohn and Pople already recognised density functional theory and computational methods, so some members may see this as a continuation and ask whether it is a game-changer in its own right. Practical ab initio MD today often uses Born-Oppenheimer propagation rather than the Car-Parrinello Lagrangian itself, so one may argue the lasting contribution is the concept of on-the-fly first-principles dynamics, and that the exact algorithm matters less. Parrinello's other work (metadynamics, machine-learned potentials) may also invite a broader and more contested citation. Finally, only two of eight members ranked it in their openings, so it clearly has narrower support than the degrader and base-editing candidates.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation (B052) is a new pharmacological principle, with Crews and Deshaies conceiving PROTACs and Handa's cereblon work underpinning molecular glues, and with many degraders in clinical trials.",
+        "response": "I ranked B052 second and agree that removing a protein rather than inhibiting it is a real conceptual change. My concern is the one you partly raise yourself. The trio combines two mechanistic lines, PROTACs and glues, and leaves out Ciulli, Gray, Sakamoto, Kim and Ito, so the attribution would be contested. No PROTAC drug is approved yet, so the consequences are still prospective. I would keep B052 as the first alternative, but I do not think it is clearly more mature than a 40-year-old method with demonstrated consequences."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Long-range electron transfer through proteins (B054) gave a quantitative, physics-based account of tunnelling and hopping that underlies bioenergetics, with Gray and Winkler as a compact two-person credit.",
+        "response": "I respect this as theory tied to experiment, and it is close to my own interests in biological energy conversion. I disagree with the framing of the credit. Marcus theory was recognised in 1992, and the tunnelling-pathway and hopping ideas of Beratan, Onuchic, Dutton, Moser and others are not in the credited pair, so a Gray-Winkler citation would read as an experimental refinement of a recognised theory. I would need a clear argument that it is a game-changer beyond that, and I have not yet seen one."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Sequencing-by-synthesis (B055) is a defined chemical scheme with reversible terminators that reshaped genomics, and the cleanest prize is Balasubramanian and Klenerman.",
+        "response": "The impact is beyond dispute and the maturity argument is fair. My reservation is attribution and discipline. Rothberg's pyrosequencing platform, Ju's terminator chemistry and Mayer's clonal amplification all have claims, and a two-person prize would exclude people who contributed to the same technology. I also think many of the consequences are in biology and medicine, so the chemistry citation has to be written carefully. I am not opposed, but I want the committee to settle who owns the reversible-terminator idea before we call it clean."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Base editors (B021) are a clear chemical principle with a defensible Liu, Komor, Gaudelli attribution, extensive replication and first clinical use.",
+        "response": "This is a strong candidate and I ranked it fifth. Two things hold me back. CRISPR was recognised in 2020, so this builds on it, and Nishida and Kondo reported a parallel deaminase approach, so the three-person cut is not obvious. Long-term clinical safety is also still being accumulated. I would want the committee to be sure it is not prematurely rewarding the next step after a recent prize, whereas B007 has no such timing issue."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular condensates (B063) introduced phase behaviour and multivalency into cell biology and are the natural point where soft-matter physical chemistry meets biology.",
+        "response": "I find the framework attractive, but I put it last in my ranking because the quantitative link to function is not yet as firm as I would like. The physiological relevance of many reported condensates is disputed, and credit is spread across five or more people. I agree it is a new organising principle, but I would treat it as more premature than the folding-landscape theory you also ranked, and I do not think it is ready this year."
+      }
+    ],
+    "uncertainties": [
+      "Whether members will treat first-principles MD as a distinct achievement or as a continuation of the 1998 prize for computational chemistry and DFT.",
+      "Whether the citation should name the Car-Parrinello Lagrangian itself or the broader concept of ab initio molecular dynamics, given that Born-Oppenheimer MD is now common.",
+      "Whether B052 can be given a defensible three-person split among Crews, Deshaies and Handa, and how much weight the lack of an approved degrader drug should carry."
+    ],
+    "conflict_note": "I did my postdoc with Arieh Warshel, who is not a candidate on this shortlist, and I work in biomolecular simulation, which is close to B007 in method though not in subject. My profile shows no personal or institutional connection to Car or Parrinello, so no specific conflict is apparent from the provided profile; I will state the methodological proximity so colleagues can weigh it."
+  }
+}

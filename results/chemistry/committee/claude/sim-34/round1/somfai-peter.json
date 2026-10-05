@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-34",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B004",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling reactions"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling is the clearest case on the shortlist of a general method that changed how chemists everywhere build bonds. Arylamines went from a hard, substrate-limited problem to a routine disconnection through successive ligand generations (bulky biaryl phosphines, hindered alkylphosphines, NHC and ferrocenyl systems), and the evidence is in the literature: it is used in a very large share of medicinal-chemistry and process routes and in materials such as OLED hole-transport layers. The mechanistic picture (oxidative addition, amine binding, deprotonation, reductive elimination) is well defined, so the achievement is understood chemistry and not merely a useful recipe. The attribution is clean: Buchwald and Hartwig developed the catalytic, broadly general versions in parallel and independently, and a two-person citation fits exactly. Thirty years of confirmation means there is no maturity question.",
+    "case_against": "The strongest objection is that it follows the 2010 cross-coupling prize closely and a committee may see C-N coupling as an extension of C-C coupling. I think that undersells it, because forming C(sp2)-N bonds needs different catalysts and a different mechanistic bottleneck (reductive elimination from amido complexes) and it opened chemical space that Heck, Negishi and Suzuki did not. A second reservation is Kosugi's 1983 tin-amide coupling, which is an earlier priority claim; I regard it as a precursor that was not general or catalytic in the amine, but I cannot fully verify the priority record. Finally, the field is not discussed as much as the biology-adjacent candidates, so it may look less exciting than it is.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranked B004 fifth, calling it a mature, industrially used method but worrying that the 2010 prize may make the committee cautious about a closely related area.",
+        "response": "I take the 2010 concern seriously but disagree that it should count against the candidate. The 2010 citation was for palladium-catalysed cross-couplings in organic synthesis, but the bond-forming problem here is different: the key step is C-N reductive elimination, and the ligand design that solved it is original work by these two groups. Chemistry has given multiple prizes within one family when the later contribution opened a distinct bond class, as with the olefin metathesis and organocatalysis precedents. The caution is a legitimate framing question for the citation wording, but it is not a reason to push a method with this adoption record down the list. I do agree with him that Kosugi's priority should be handled by the citation text and not by adding a third name."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked base editing (B024) first, as a genuinely new chemical tool on DNA without double-strand breaks, already in clinical trials and widely adopted, with Liu as the decisive driver.",
+        "response": "Base editing is impressive and the attribution is Liu-centred, but I ask what was new chemically. Cytidine and adenosine deamination are known reactions, and the invention is in fusing deaminases to a Cas protein and, for the adenine editor, evolving a new deaminase. That is protein engineering and genome engineering built on the 2020 CRISPR prize, with the Kondo and Nishida priority question unresolved. The clinical record is also still young. Buchwald-Hartwig, by contrast, is a case where the chemistry itself is the discovery and the impact can be counted in synthetic routes. I would not oppose base editing in a later year, but I do not think it is more mature or cleaner than C-N coupling today."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranked targeted protein degradation (B068) first, as turning ubiquitin-dependent proteolysis into a designable chemical process for previously undruggable targets, with Crews, Deshaies and Ciulli as the clearest trio.",
+        "response": "I agree that induced-proximity degradation is a real new modality and the strongest of the biology-facing entries, and I have it as my first alternative. My reservations are practical: no PROTAC drug is approved, so clinical validation is incomplete, and the credited group has eight names with PROTAC and molecular-glue lineages that do not fit in one three-person citation without excluding Handa, Ito or Gray. I would ask the committee how a citation that leaves out the thalidomide-cereblon line would read. If the group prefers a degrader prize, I would want the citation to be narrowly about the PROTAC concept and its structure-based development."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked Car-Parrinello molecular dynamics (B023) first, with an unambiguous two-name attribution, forty years of adoption and generative reach across chemistry and materials.",
+        "response": "His attribution and maturity argument is as strong as mine, and I regard B023 as a serious competitor and a fully defensible alternative. My hesitation is that it is computational methodology adjacent to the 1998 DFT and 2013 multiscale prizes, so I am not sure about the sense of a third computation-related prize, and its experimental footprint is harder to count than the footprint of a synthetic method. I do not see a real disagreement on quality, only on the question of where the committee wants the Chemistry prize to point."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat C-N coupling as too close to the 2010 cross-coupling prize",
+      "How to word the citation so that Kosugi's earlier tin-amide coupling is acknowledged as a precursor without being credited",
+      "Whether a two-part prize pairing a synthetic method with a second distinct achievement is preferred over a single two-person prize",
+      "The exact extent of adoption in pharmaceutical routes, which I am citing from memory of the literature and not from a counted survey"
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for B004: I have no recorded tie to Buchwald, Hartwig or Kosugi. My mentor Masamune and my institutional ties (Chalmers, KTH, Lund, Tartu) do not intersect with any shortlisted candidate that I can identify."
+  }
+}

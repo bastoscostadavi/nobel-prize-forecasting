@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-38",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B060",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, programmable chemical conversion of single DNA bases without double-strand breaks"
+      },
+      {
+        "ballot_id": "B041",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "For the development of targeted protein degradation by chemically induced proximity"
+      }
+    ]
+  },
+  "alternatives": [
+    "B023",
+    "B039"
+  ],
+  "statement": {
+    "case_for": "Base editing (B060) takes a defined nucleic-acid reaction, cytidine or adenosine deamination (the latter via evolved TadA acting on DNA), and makes it a programmable, general tool that avoids double-strand breaks and is already in patients. It was ranked in the top six by seven of eight members, and almost everyone names Liu as the decisive originator, so attribution is the cleanest of the biology-facing candidates. Targeted protein degradation (B041) is the other candidate where a biological process, ubiquitin-dependent proteolysis, became a designable chemical principle, with many independent groups and a large clinical pipeline. Pairing the two gives a coherent prize on chemistry that reprograms biology, and Liu plus Crews and Deshaies stays within three people. Both were reproduced widely, which matters to me more than conceptual appeal.",
+    "case_against": "Base editing is a downstream extension of the 2020 CRISPR prize, and long-term clinical safety is unproven. No PROTAC is approved, so B041 may be a few years early, and omitting Ciulli, Handa and the cereblon/thalidomide strand leaves a visible credit gap. Pairing two chemical-biology items also gives up the classical chemistry core that Aqvist and Somfai prefer in B023, which is fully mature and has an unusually clean attribution.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Pd-catalyzed C-N coupling (B023) is the simple, broadly consequential method that continues the 2010 cross-coupling tradition, with decades of independent use and Buchwald and Hartwig as the clear pair.",
+        "response": "I agree B023 is the most mature and the best attributed case on the list, and I rank it below my picks only because of maturity relative to impact, not doubt about the science. My reservation is that Kosugi's tin-amide priority is unresolved, and that a prize so close to 2010 is an extension of a recognized reaction class. I would accept it as a prize part, and it is my first alternative. I would resist making it the sole prize while two newer modalities remain unrecognized."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "B023 is the clearest case of a general method that changed how chemists build bonds, while for base editing the question is what was chemically new, given that Liu ranked it only sixth.",
+        "response": "The question about chemical novelty is fair. What is new is not deamination itself, which is old enzymology, but that the reaction was made site-specific, evolved to act on DNA (TadA was an RNA enzyme) and kept free of double-strand breaks, which is a designed chemical outcome rather than only a biological one. I accept this is less of a bond-forming advance than Buchwald-Hartwig, so I would not argue base editing outranks B023 on classical chemistry, only that it is the stronger case on novelty and recency."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Induced-proximity degradation (B041) redefines what is druggable and joins PROTACs with the molecular-glue mechanism, but allocation between the PROTAC and cereblon strands is unresolved.",
+        "response": "I share the ranking and the concern. Daniel's trio (Crews, Deshaies, Ciulli) is what I put on my own ballot, but fitting B041 into a two-part prize leaves room for only Crews and Deshaies, which sharpens the credit problem rather than resolving it. I would like the committee to decide whether the citation should be about heterobifunctional degraders only, which makes Handa's strand a separate matter, or about both mechanisms, which breaks the three-person limit."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Nanopore sensing (B039) rests on a clear physical principle, delivered label-free long-read sequencing and has been commercially validated for over a decade, so recognition is timely.",
+        "response": "I agree on maturity and independent validation, and I ranked it third for that reason, including its use for modified nucleotides. The difficulty is attribution across Kasianowicz, Branton, Deamer, Bayley and Akeson, with Branton's role and the engineering-heavy commercial step hard to separate. I am less certain than Heiner that three names can be defended, which is why it is my alternative rather than my lead."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Condensates (B052) are physical chemistry at its core and a new organizing principle for the cell, with a decade of replication, though there is active debate about which in vivo condensates are truly phase separated.",
+        "response": "The physical-chemistry framing is real and I accept the conceptual weight. My reservation is experimental: many in vivo claims rest on overexpression and imaging, with few quantitative tests of functional relevance, and a prize would freeze an interpretation that is still moving. I would prefer to wait until that rigor catches up, though I would not object if the majority sees it differently."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a second CRISPR-adjacent genome-editing prize so soon after 2020.",
+      "Whether B041 should be framed as PROTACs only or should include cereblon molecular glues, since that determines the three-name split and whether Ciulli or Handa is included.",
+      "Whether trainee credit for Komor and Gaudelli in B060 is warranted, and the weight of Kondo and Nishida's independent Target-AID work.",
+      "Whether the absence of an approved degrader is a real maturity obstacle."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on dNTP pools and replication fidelity is thematically adjacent to nucleic-acid editing and nanopore detection of nucleotides, and I have no known collaboration with any credited candidate."
+  }
+}

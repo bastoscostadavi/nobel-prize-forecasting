@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-08",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B052",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editors that chemically convert one DNA base into another without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B019",
+        "laureates": [
+          "Roberto Car",
+          "Michele Parrinello"
+        ],
+        "citation": "for first-principles molecular dynamics that unites electronic structure and atomic motion in a single simulation scheme"
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B058"
+  ],
+  "statement": {
+    "case_for": "Base editing is the clearest game-changer on the shortlist in the sense I apply: a simple chemical idea (hydrolytic deamination of a nucleobase, delivered by an engineered deaminase tethered to a Cas nickase) that produced a completely new capability, programmable single-base conversion without a double-strand break, and that already has independent replication, a large family of derived editors and first clinical results roughly ten years after the 2016 report. Three members placed it in their top three or six, so it is not only my enthusiasm. The attribution is also workable: Liu is the intellectual driver of both cytosine and adenine editors, and a single-laureate part avoids the awkward question of crediting trainees. I pair it with Car-Parrinello because it is the cleanest theory attribution on the list, a two-author 1985 paper that put electrons and nuclei into one dynamical scheme and opened ab initio simulation of liquids, solids and reactions. It has four decades of independent validation and is quantitatively connected to experiment, which is the standard I hold theory to. Two distinct achievements, one chemical biology and one theoretical, fit the three-person limit without forcing a contested cut.",
+    "case_against": "Base editing may look like a refinement of the 2020 CRISPR prize, and some will argue it belongs in Physiology or Medicine; long-term clinical safety is still being established and Kondo and Nishida (Target-AID) have a nearly contemporaneous deaminase claim that a Liu-only part leaves unaddressed. Car-Parrinello is the weaker half of my pairing: in practice the method has been largely supplanted by Born-Oppenheimer AIMD, so one can argue the lasting impact is the concept rather than the code, and earlier theory prizes (1998, 2013) may be thought to cover the territory. Pairing two unrelated achievements also dilutes the coherence of the prize, and ionizable lipid nanoparticles (B058), which had the broadest top-three support, may simply have the larger demonstrated impact.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks halide perovskites first for the clear underlying principle and generative potential, and ranks base editing third while worrying it looks like a refinement after the 2020 CRISPR prize and that clinical outcomes are preliminary.",
+        "response": "I take the perovskite case seriously and keep it as my first alternative, but I weigh it differently: the physics of efficiency is mature while stability and lead toxicity leave the practical consequences unproven, and the three-person cut among Miyasaka, Park, Snaith, Grätzel, Seok and Kanatzidis is genuinely contested. On the CRISPR worry I disagree. The 2020 prize rewarded programmable cleavage; base editing is a different chemical mechanism that deliberately avoids cleavage, so it is a new principle and not an increment. I do concede that the clinical record is still short, which is why I would want the citation to rest on the chemistry and not on therapeutic claims."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks massively parallel sequencing first, with reversible-terminator and clonal-cluster chemistry as the enabling steps, and notes that credit across platforms is crowded.",
+        "response": "The impact is beyond dispute and I rank B028 sixth, not lower, for that reason. My reservation is the one Aili names: Balasubramanian and Klenerman are a defensible core, but Rothberg, Mayer and Ju each have a parallel claim, and a prize must name at most three people. A two-person prize would exclude contributors whose work was independent, whereas the base-editing and Car-Parrinello attributions are far cleaner. I would want the committee to settle the chemistry-versus-technology question and the priority chronology before moving it ahead of my choices."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalysed C-N cross-coupling first as a fully mature, ubiquitous method, distinct from the 2010 cross-coupling prize, and would treat Kosugi as a precursor in the citation rather than a laureate.",
+        "response": "I agree with the maturity and the distinctness from 2010; this is a prize that would be uncontroversial on impact, and Somfai's handling of Kosugi seems sound. My doubt is about novelty in the sense of a game-changer: the field had Pd cross-coupling as its framework, and C-N coupling is an extension, albeit a major one built on ligand design. I would ask Peter whether he sees the ligand-design concept as a new principle or a very successful application of an existing one, since that decides whether it displaces base editing for me. I rank it outside my top eight, which I may need to revisit."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range electron transfer through proteins first, as a compact two-person, mechanism-level contribution that is long overdue, and ranks base editing sixth because the chemistry sits mainly in protein engineering and a trainee-inclusive prize is unusual.",
+        "response": "I agree that Gray and Winkler is a clean pairing and I did not rank it, which is a gap in my own ballot; the quantitative link to Marcus theory is exactly what I value. I do accept his point that trainee-inclusive prizes are unusual, and that is why my preferred configuration names Liu alone. Where I differ is on whether base editing is protein engineering: the decisive step is a chemical transformation, nucleobase deamination, applied in a genomic context, and I think that is squarely chemistry."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee considers base editing chemistry rather than medicine, and whether it reads as a refinement of CRISPR.",
+      "Credit of Kondo and Nishida (Target-AID) versus Komor and Gaudelli versus Liu; I rely on memory for dates.",
+      "Whether Car-Parrinello's lasting impact is the method or the concept, given its replacement in practice by Born-Oppenheimer AIMD.",
+      "Whether a two-part prize pairing a chemical biology and a theory achievement is acceptable to colleagues, or whether a single coherent achievement such as B058 or B003 should be preferred."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My Warshel-school work on simulation methods is close in field to Car-Parrinello, but I have no collaboration or institutional tie to Car, Parrinello or Liu."
+  }
+}

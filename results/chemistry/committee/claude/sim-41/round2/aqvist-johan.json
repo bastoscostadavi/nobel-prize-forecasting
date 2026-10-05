@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": ["David R. Liu"],
+        "citation": "for the development of base editing, the programmable chemical conversion of one DNA base into another without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B058",
+        "laureates": ["Shankar Balasubramanian", "David Klenerman"],
+        "citation": "for the development of massively parallel DNA sequencing by synthesis based on reversible terminator chemistry"
+      }
+    ]
+  },
+  "alternatives": ["B023", "B054"],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged from round 1: base editing for Liu, and sequencing by synthesis with reversible terminators for Balasubramanian and Klenerman. The round-1 exchange strengthened the case rather than weakening it. Six members include base editing, and all of them describe it as a chemical transformation, deamination of a base at a programmed site, rather than RNA-guided cleavage, which answers the chair's question about the 2020 prize: the citation should name the conversion of the base and not the cutting of the strand. Sequencing by synthesis rests on one simple chemical idea, a reversible terminator that lets a polymerase add exactly one read nucleotide per cycle, and no member disputes its impact or maturity. Both parts are game-changers with decades or years of consequences behind them, they read and rewrite DNA by chemical means and can be explained in two sentences each, and three laureates in total keeps within the rules without forcing any name.",
+    "case_against": "Base editing follows closely on the 2020 CRISPR prize, clinical safety is still accumulating, and a Liu-only citation leaves out Komor and Gaudelli, whom Brzezinski and Chabes consider lead experimentalists on two distinct editor classes. Kondo and Nishida's Target-AID is an unresolved priority question that I have not been able to settle from the record available to me. Sequencing by synthesis is a mature technology, Zou and Aili may be right that it reads as genomics more than chemistry, and the citation sidelines Rothberg's 454 platform and Mayer. Two DNA-technology parts also leave out theory, physical chemistry, materials and synthetic methodology entirely.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes argues that cytosine and adenine editors are distinct inventions, that evolving TadA to act on DNA was a separate problem, and that Liu, Komor and Gaudelli match the experimental lineage.",
+        "response": "I take the TadA argument seriously and it is the best case for a second name. My difficulty is the arithmetic: the three-person cap and a second part mean Komor and Gaudelli can only enter by removing Balasubramanian or Klenerman, and I do not think a prize is better for dropping a half of the sequencing chemistry. The committee has usually credited the laboratory head who set the concept and directed the evolution, and a citation worded for the general concept of base editing, covering both editor classes, is honest about that. I would reconsider only if the primary papers show that the adenine editor was an independent conceptual step and not an application of the same programme, and in that case I would prefer to give base editing a stand-alone prize with three names over crowding the two-part configuration."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke pairs Liu with Balasubramanian and Klenerman, and the chair asks whether reversible-terminator chemistry alone can be cited given Sanger, Rothberg's 454 platform and Mayer.",
+        "response": "I agree with Linke's pairing and answer the chair's question as follows. What is new after Sanger is not reading DNA but making each cycle a single, fully reversible, fluorescently read nucleotide addition on millions of immobilised molecules in parallel, which is a specific chemical design (the blocked and labelled nucleotide with a cleavable group) and not a general platform. Pyrosequencing used a different chemistry and was displaced, so the citation should name reversible terminators explicitly and say nothing of platforms. That wording also keeps Rothberg and Mayer outside by definition and not by omission, which I think is the defensible position, although I accept that Aili and Brzezinski regard the lineage choice as not fully resolved."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili pairs Liu with Crews and Ciulli for PROTACs, a two-part chemical-biology prize with proteins and genomes as the two targets.",
+        "response": "Aili's pairing is coherent and the PROTAC idea is a genuine new modality, which is why B023 stays my first alternative. I still prefer sequencing as the second part for two reasons. No degrader from the core modality is approved, and the committee itself is split between designed heterobifunctional degraders and the cereblon glue mechanism of Handa and Ito. A PROTAC citation for Crews and Ciulli would omit Deshaies, and a combined degradation citation would exceed the name budget alongside Liu. In a few years, with approval and a settled attribution, this may be the stronger second part."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai pairs Liu with Buchwald and Hartwig for palladium-catalysed C-N coupling, giving a synthetic-methodology half beside a chemistry-of-life half.",
+        "response": "This is the best argument for balance on the shortlist, and C-N coupling is real chemistry with a clean two-name attribution. My concern is the one the chair raises. After the 2010 prize on cross-coupling, the committee has to explain what a new bond-forming problem adds, and I find the argument that C-N needed its own ligand classes and mechanism persuasive but not yet agreed on the table. It is a strong second alternative and I would be comfortable moving to it if the discussion converges on balancing a biology-oriented prize with a synthetic one, but I do not think the argument for it is stronger than for the sequencing chemistry now."
+      }
+    ],
+    "uncertainties": [
+      "Whether Komor and Gaudelli deserve a place, which depends on the primary record of the editor classes, and whether Target-AID by Kondo and Nishida precedes or is concurrent with the cytosine base editor, which I cannot verify from the files I may read.",
+      "Whether the committee will see two DNA-technology parts as one coherent prize or as a prize about tools, and whether either part should stand alone.",
+      "How much weight the 2020 CRISPR prize and the short clinical record of base editing should carry.",
+      "Whether citing reversible-terminator chemistry for Balasubramanian and Klenerman is accepted as a clean attribution or whether Rothberg and Mayer force a different configuration."
+    ],
+    "conflict_note": "No conflict or recusal is needed for any part of my configuration. My connection to Warshel and the Uppsala ribosome community is relevant only to simulation candidates, none of which are in my configuration or alternatives. I have no tie to Liu, Balasubramanian, Klenerman, Crews, Ciulli, Buchwald or Hartwig."
+  }
+}

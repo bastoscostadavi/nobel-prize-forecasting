@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-29",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B014",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation, in which small molecules recruit the ubiquitin-proteasome system to remove chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B042",
+    "B021"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a molecular design principle that changed what chemists and clinicians can attempt. A bifunctional small molecule brings a target and an E3 ligase together, and the cell's own machinery removes the protein catalytically. This shifts pharmacology from occupancy to event-driven action and reaches targets that inhibitors cannot. The PROTAC concept (Sakamoto, Kim, Crews, Deshaies, 2001) was followed by all-small-molecule degraders and VHL-based structure-guided design (Ciulli), then by ternary-complex structural work. Independent groups and many pharmaceutical programmes confirm it, so it is both conceptually clean and widely used as a tool. Four members placed it first or second and six placed it in the top three, which I treat as a sign of convergence rather than as evidence of merit.",
+    "case_against": "The strongest reservation is attribution. PROTACs and molecular glues (the thalidomide-cereblon mechanism of Handa, Ito and colleagues) are distinct lineages, and three names cannot honour both. A PROTAC-centred prize risks leaving out the one arm that already has approved drugs, while a glue-centred prize shortchanges the design concept. The other reservation is clinical maturity: proof of benefit from heterobifunctional degraders is still arriving, and the committee may prefer to wait for an approval.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks B014 first but proposes Crews, Deshaies and Handa, arguing that the PROTAC concept and the cereblon-glue mechanism are separable and a choice is needed between them.",
+        "response": "I agree the two lineages are separable, but I would make the opposite choice. Handa's identification of cereblon is a mechanistic discovery about an existing drug, while PROTACs are a transferable design principle that anyone can use to build new degraders against chosen targets. That generality is the stronger Chemistry argument. Ciulli's VHL ligands and structural work show that the principle can be engineered rationally. I would, however, accept a citation that names glues explicitly, since 'induced proximity' covers both. I would not give up Ciulli for Handa unless the committee wants the clinically proven arm to anchor the prize."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou treats the PROTAC concept and the cereblon-thalidomide mechanism as two pillars, values the structural grounding of the ternary complexes, and notes that Ciulli's work is also decisive.",
+        "response": "I share the emphasis on structural grounding, and it is the reason I keep Ciulli: his VHL-ligand and ternary-complex work gives the molecular explanation for why degraders work and how to optimise them. Where I differ from Zou's three is that the Handa pillar is mostly a target-identification story. If the committee prefers it, the prize needs a citation broad enough to stay honest about what the three laureates did, and I would want that wording settled before the names."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes puts base editing first as a chemically elegant, programmable deaminase tool that is already in clinical use, and treats degraders as strong but lacking approved PROTAC drugs.",
+        "response": "Base editing is a close second for me, and I accept the clinical point. My concern is that its programmability comes from the CRISPR-Cas machinery recognised in 2020, so the chemical invention is mainly the deaminase fusion, whereas degraders add a new chemical mode of action. On late-stage proof, lenalidomide-class glues are already approved and degraders are in phase 3, so I think the PROTAC case is further along than a PROTAC-only reading suggests. Chabes is right that the cell's DNA repair response limits base editing outcomes, which I see as a further maturity question for B042."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist puts Car-Parrinello first as the unambiguous origin of ab initio molecular dynamics, with clean two-person attribution, decades of independent use and recognition that is arguably overdue.",
+        "response": "The attribution is cleaner than for any other candidate, and I do not dispute the impact on simulation. My hesitation is about the breadth of what changed: it transformed computation in a few fields, but I ask what experimentalists and clinicians can now do that they could not before, where degraders and base editors are clearer. I would not stop the committee from taking B030 if it wants a methods prize; I just rank it below the biomedical chemistry candidates."
+      }
+    ],
+    "uncertainties": [
+      "How the committee should weigh the molecular-glue lineage (Handa, Ito) against the PROTAC lineage, and whether one citation can cover both.",
+      "Whether clinical approval of a heterobifunctional degrader is needed first; my recollection of trial status is unverified.",
+      "Priority and credit between Sakamoto, Kim, Crews and Deshaies in the 2001 PROTAC work, given that Sakamoto and Kim are not in my three.",
+      "Whether base editing (B042) is distinct enough from CRISPR, recognised in 2020, to count as a separate chemical invention."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on peptides, gold nanoparticles and biosensors does not overlap with any shortlisted candidate, and I have no known personal or institutional tie to the candidates. My postdoc mentors Molly Stevens and Freddy Boey are not on the shortlist."
+  }
+}

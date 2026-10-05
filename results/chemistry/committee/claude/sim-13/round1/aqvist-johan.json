@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-13",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B056",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "for the development of targeted protein degradation by small molecules that bring proteins to ubiquitin ligases, and for the molecular explanation of thalidomide-type glue degraders"
+      }
+    ]
+  },
+  "alternatives": [
+    "B058",
+    "B016"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is the clearest game-changer on our shortlist by my own standard: something completely new that already has real consequences. The PROTAC concept (Crews, Deshaies) turned a small molecule into an inducer of proximity that recruits the ubiquitin-proteasome system to remove a chosen protein, and Handa's identification of cereblon as the thalidomide target gave a molecular mechanism for glue degraders and for a drug action that was a mystery for decades. Mechanism, design principle and clinical entry all hold together, and it is the only candidate that all eight of us ranked in the opening round, which tells me the breadth of support is not an artefact of one member's field. I ranked it third in my opening, behind Car-Parrinello and Buchwald-Hartwig, and after reading the ballots I move it to first because that breadth matters when a prize has to be defended to the Academy, and because I cannot honestly claim that my own theory candidate has comparable cross-field support.",
+    "case_against": "Clinical maturity is still incomplete: no PROTAC drug is approved, and the approved immunomodulatory drugs whose mechanism Handa resolved were discovered empirically, so the prize would reward a mechanism and a concept more than a finished modality. The chemistry is also arguably more about biology and pharmacology than new bonding or structure principles. Attribution is the hardest part. Ciulli (VHL ligands, ternary-complex design), Sakamoto (first PROTAC with Crews and Deshaies), Gray, Ito and Kim all have serious claims, and the opening ballots do not agree on the third name (Handa in six of eight, Ciulli in two). Excluding Sakamoto and Ciulli risks a defensible but contested trio, and I would want the priority record on the 2001 PROTAC paper and on cereblon checked carefully before we commit.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Induced proximity makes a small molecule a general catalytic tool for removing any protein, and the cereblon discovery explains thalidomide chemically; he ranked B056 first.",
+        "response": "I agree on the substance and have moved B056 up to my first place because of it. I would qualify the claim of generality: degradability depends on productive ternary-complex geometry and cooperativity, which is a quantitative, target-by-target matter and not yet predictable from first principles. That does not undermine the prize, but the citation should say the concept is general and not imply that any protein can be degraded. I also disagree mildly that the credit split is easily resolved; a three-name set that splits PROTAC and glue strands is a compromise, not a settled outcome."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner values a clean physical principle turned into a new analytical capability and ranked nanopore sequencing first, with Car-Parrinello third and degradation only sixth because of its pharmacological, event-driven framing.",
+        "response": "I respect the nanopore case on principle, but I find attribution there much weaker: Kasianowicz, Branton and Deamer's 1996 translocation, Bayley's engineered pores and Akeson's enzyme-controlled reading are separate steps, and a three-name set (Deamer, Akeson, Bayley) leaves out Kasianowicz and, if he is still living, Branton. I am glad he ranked Car-Parrinello third, since that pair is the cleanest attribution on the list, but I accept that it was supported by only two of us. On B056 I would argue that event-driven pharmacology is precisely a new principle and not only a pharmacological gloss, because it changes what a molecule has to do to act."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter ranked Buchwald-Hartwig C-N coupling first as a general, practical synthetic method made predictable by ligand design, and placed degradation sixth, asking what was chemically new.",
+        "response": "The C-N coupling case is strong and I ranked it second, so I share his taste for simple, general chemistry. I would answer his question on B056 this way: the new chemistry is heterobifunctional design and the discovery of ligands for E3 ligases (VHL, cereblon), plus the structural understanding of ternary complexes, and not only the biology. Where I side with him is on Kosugi: the earlier tin-amide work is an antecedent and does not warrant a place beside Buchwald and Hartwig. I note also that his ballot includes Ciulli in place of Deshaies, which shows how fragile our third name is; I would hold B016 as a clean fallback if we cannot settle the degradation attribution."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranked ionizable lipid nanoparticles first as molecular design that changed clinical practice, arguing it is the natural chemistry complement to the 2023 Medicine prize on mRNA.",
+        "response": "I take the real-world consequences seriously and ranked B019 fifth. My difficulty is attribution and the nature of the decisive step: the Vancouver work (Cullis, Madden, Hope, MacLachlan) and the later lipid-library work (Anderson, Langer) are different contributions, and the four ballots that propose names give three different trios (Cullis with Madden and Anderson, Cullis with Hope and Anderson, and the Cullis, Madden and Hope variants). I am not convinced the committee can name three people without a priority review that I cannot do from memory. I also doubt that the timing argument relative to the 2023 Medicine prize should carry weight; a complementary prize is not a scientific criterion. If the attribution can be settled I would move B019 above B058."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Peter put proton-coupled electron transfer first for its quantitative theory and clean model systems, and ranked nitrogenase third and degradation fifth.",
+        "response": "I appreciate the quantitative character of PCET, and as a theorist I like that the theory (Hammes-Schiffer) connects to experimental thermochemistry (Mayer). My reservation is that it received only one opening vote and that Meyer, a legitimate early contributor, makes the three-person limit awkward. On nitrogenase, which I ranked sixth and he third, I agree the structures are decisive, but the mechanism of N2 reduction is still unresolved, so I regard it as less mature than degradation, where the mechanism of action of the glue class is resolved at the molecular level."
+      }
+    ],
+    "uncertainties": [
+      "Whether the third laureate should be Handa (cereblon and glue branch) or Ciulli (VHL ligands and degrader design), and whether Sakamoto's role in the first PROTAC paper makes a three-name set vulnerable.",
+      "Whether clinical validation will be judged sufficient without an approved PROTAC drug.",
+      "Whether the committee will see enough new chemistry in targeted protein degradation or treat it as pharmacology and biology.",
+      "Car-Parrinello has the cleanest credit but only two supporters, and I cannot tell whether a theory and simulation prize can win a majority against the broader biomedical candidates."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. My Warshel and EVB background, my Uppsala RNA and ribosome connections and my work on free-energy methods do not link me to any of the credited names on B056, B058 or B016."
+  }
+}

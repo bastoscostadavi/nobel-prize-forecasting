@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-34",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B068",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation by chemically induced proximity to E3 ubiquitin ligases"
+      }
+    ]
+  },
+  "alternatives": [
+    "B003",
+    "B060"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation turns a cellular process, ubiquitin-dependent proteolysis, into a designable chemical reaction. Heterobifunctional degraders (PROTACs) built from a target ligand, a linker and an E3 ligase ligand let chemists remove proteins that have no druggable pocket, and the event-driven, catalytic mode of action is a new pharmacological principle rather than an incremental improvement. The concept (Crews and Deshaies, 2001) was followed by cell-permeable small-molecule versions, and by Ciulli's structure-guided VHL ligands and ternary-complex work, which made the approach general and rational. It is also a tool for chemical biology, since degraders are now routine probes for target validation, and many clinical candidates exist. From my own vantage point (molecular design that controls recognition and assembly, and tools that reach clinicians), this is the clearest case on the shortlist of a chemical design principle that changed what researchers and clinicians can do.",
+    "case_against": "No PROTAC drug is approved, so clinical validation is incomplete and the prize could be seen as early. The molecular-glue lineage (thalidomide and cereblon: Handa, Ito, Kim, Sakamoto, Gray) has partly separate credit, and a three-person cap leaves out major contributors. The citation might need to be narrowed to the PROTAC concept, or the committee might prefer a more mature and cleaner candidate such as B003 or B060.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Base editing (B024) is ranked first as a genuinely new chemical tool that works on DNA without double-strand breaks, centred on Liu, with Komor and Gaudelli as the lead experimentalists.",
+        "response": "I agree that base editing is chemically elegant and that Liu is the intellectual driver. My hesitation is that the central advance is an engineered protein fusion (directed evolution of a deaminase and Cas9 variants) which builds on the 2020 CRISPR recognition, and the Kondo/Nishida Target-AID priority question, which you also raise, is unresolved within a three-name limit. For degraders the small-molecule chemistry is the invention, so the fit to a chemistry citation is tighter. I accept that the clinical record for base editing is arguably more advanced in individual patients, which is a fair point against my timing worry about B068."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Car-Parrinello molecular dynamics (B023) is a clear, fully mature principle with an unambiguous two-name credit and wide reach across chemistry and materials.",
+        "response": "I respect the conceptual clarity and the clean attribution, which B068 lacks. My reservation is the one you name yourself, that it sits close to the 1998 DFT and 2013 multiscale prizes, and its reach is mostly through computation, while I weigh heavily whether a discovery changed experimental and clinical practice. If the committee puts attribution cleanliness and maturity first, B023 is a defensible alternative, but I do not think the overlap with earlier computational prizes is negligible."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular condensates (B003) are first because they link soft-matter physical chemistry to cell biology with over fifteen years of independent confirmation and a timely recognition.",
+        "response": "I share your interest in self-assembly and rank B003 highly. I differ on maturity and fit: whether specific condensates are truly phase-separated in vivo is still debated, as Heiner and Johan also note, and Rosen versus Pappu versus Mittag is a hard allocation. The mechanism of degraders is by contrast defined molecularly, with crystal structures of ternary complexes, and the in-cell effect is directly measurable. I would take B003 seriously as the strongest alternative if the committee wants a more mature physical-chemistry prize."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Pd-catalyzed C-N coupling (B004) is the clearest case of a general synthetic method, with decades of confirmation and industrial use, credited to Buchwald and Hartwig, not Kosugi.",
+        "response": "I agree on the quality of the chemistry and that Buchwald and Hartwig would be a clean pairing. My worry is the one you raise, that it can be read as an incremental extension of the 2010 cross-coupling prize. I would argue that degraders open a new target space instead of improving a bond-forming step, though I accept that B004 has far less uncertainty about timing and attribution, and that is a real strength I cannot dismiss."
+      }
+    ],
+    "uncertainties": [
+      "Whether PROTACs and molecular glues should be recognized together, or only the PROTAC branch, given the three-person cap.",
+      "Whether the absence of an approved PROTAC drug makes 2026 too early.",
+      "How to weigh Ciulli against Handa or Gray for the third place, and whether attribution of the glue lineage can be resolved without a second prize part."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. My postdoc mentors (Molly Stevens, Freddy Boey) are not credited on any shortlisted ballot, and my research overlap with Emma Sparr on peptide self-assembly is not a recusal issue."
+  }
+}

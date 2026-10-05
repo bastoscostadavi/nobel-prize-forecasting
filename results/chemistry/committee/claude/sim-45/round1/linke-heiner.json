@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-45",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B024",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of single DNA bases without double-strand breaks"
+      },
+      {
+        "ballot_id": "B009",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "for the conceptual development of targeted protein degradation by heterobifunctional molecules that recruit the ubiquitin-proteasome system"
+      }
+    ]
+  },
+  "alternatives": [
+    "B013",
+    "B003"
+  ],
+  "statement": {
+    "case_for": "The two achievements at the top of the opening ballots are each a clear, explainable principle that created a capability that did not exist before. Base editing couples a deaminase, a designed nucleobase reaction, to a programmable nickase, so single-base changes are made without double-strand breaks or donor templates; the mechanism is quantitative, replicated in hundreds of laboratories, and has reached patients. Targeted protein degradation reverses the logic of inhibition: a bifunctional molecule enforces proximity between a target and an E3 ligase and the cell removes the protein, which reaches targets with no active site. Both are about chemical control of molecular recognition and both have large generative potential, which is the property I weigh most. Pairing them gives a prize in which each part can be explained in one sentence to a broad audience, and it uses the three-person limit on the two most strongly supported shortlist entries (B024 has three first places and five top-three placements, B009 has the most opening ballots naming it in the top four).",
+    "case_against": "Base editing sits close to the 2020 CRISPR prize, and a committee could read it as a refinement of that discovery rather than a new one; narrowing it to Liu alone also leaves out Komor and Gaudelli, whose first-author papers are decisive, and Kondo and Nishida, who reported Target-AID independently. For degradation, no PROTAC is yet an approved drug, so the clinical case is incomplete, and restricting the credit to Crews and Deshaies omits Handa, whose cereblon work underlies the molecular glue branch, and Ciulli, Gray and Sakamoto. A three-person cap forces uncomfortable exclusions in both parts.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks PROTACs first as a simple chemical idea, induced proximity, that makes undruggable proteins addressable, and describes Liu as the clear originator of base editing with a single-laureate framing being clean.",
+        "response": "I agree on both points and my configuration follows from them: Liu alone for base editing, and Crews and Deshaies for the PROTAC concept. Where I would press is on clinical maturity: you accept that approvals are still pending, and I think the citation must therefore rest on the concept and its mechanistic validation, not on drugs, which is why I propose wording about recruiting the ubiquitin-proteasome system rather than about therapies."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks base editing first and proposes the trio Liu, Komor and Gaudelli, since Komor and Gaudelli are first authors of the two decisive papers, while noting the committee may prefer Liu alone.",
+        "response": "I opened with the same trio, so I take the attribution argument seriously. My concern is that the original discovery is the idea and demonstration of deaminase-nickase fusion for base conversion, led by Liu, and the first authors' engineering, though essential, can be credited in the text. Using the Liu slot alone is what frees two places for the degradation part. I would reconsider if colleagues argue that excluding Komor and Gaudelli makes the citation indefensible, and I would then fall back on the single-part trio."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks ionizable lipid nanoparticles first as a pKa-tuned, physical-chemical solution to nucleic acid delivery with strong clinical validation, but flags overlap with the 2023 Medicine prize and complicated attribution.",
+        "response": "The physical chemistry is compelling and the clinical validation is the strongest on the list, so I keep B013 as my first alternative. My reservation is the one you raise yourself: the Vancouver contributions, the Anderson, Langer and MacLachlan lines and the industrial development make it hard to say who discovered what, and the 2023 Medicine prize already honoured the mRNA side. I would like you to say which specific step, the ionizable lipid or the formulation process, you would put in a citation."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalysed C-N coupling first as a routine, general bond-forming reaction with a clear ligand-design advance, overdue after three decades.",
+        "response": "I accept that Buchwald-Hartwig coupling is mature and widely used, which is why it is my second alternative. I disagree that maturity alone should raise it above the top two: the 2010 cross-coupling prize covers the general principle, so the question is whether C-N coupling is a distinct discovery or an extension. Brzezinski and Zou also placed it in the top four, so I expect the discussion to turn on exactly this point."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first because it turns a biological process into a defined chemical reaction on DNA, and notes that Nishida and Kondo's earlier deaminase work complicates credit.",
+        "response": "I share the view that the chemistry is the deaminase reaction itself. On Kondo and Nishida, Target-AID was independent and different in architecture, but I think the clear sequence of publications and the broad downstream engineering still point to Liu as the central figure; I would like you to say whether you consider the priority question serious enough to change the credited names."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards base editing as a distinct chemical advance or as a follow-on to the 2020 genome-editing prize.",
+      "Whether the absence of an approved PROTAC drug makes B009 premature, and whether Handa should be credited for cereblon at the expense of Deshaies.",
+      "Whether Liu alone is defensible for base editing without Komor and Gaudelli or Kondo and Nishida.",
+      "Whether a two-part prize is better than a single clearly attributed achievement."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile: none of the candidates is at Lund University or a collaborator of mine, though my profile notes that fellow committee members Somfai and Sparr are Lund colleagues, which is not a conflict for any shortlisted candidate."
+  }
+}

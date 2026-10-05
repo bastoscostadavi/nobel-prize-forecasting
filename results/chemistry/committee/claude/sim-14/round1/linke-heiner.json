@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-14",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the invention of massively parallel DNA sequencing by synthesis using reversible terminator chemistry on clustered single molecules"
+      },
+      {
+        "ballot_id": "B001",
+        "laureates": [
+          "Hagan Bayley"
+        ],
+        "citation": "For engineering protein nanopores that read nucleic acid sequence as single-molecule electrical signals"
+      }
+    ]
+  },
+  "alternatives": [
+    "B034",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "Both parts concern one question: how can a nucleic-acid sequence be turned into a physical signal from single molecules? The Cambridge work (Balasubramanian, Klenerman) is a concrete chemical invention, reversible terminators with cleavable fluorophores on clonally clustered molecules, whose consequences are near-universal and mature after fifteen or more years. Nanopore sensing is, to my mind, the cleanest underlying principle on the shortlist: ionic current blockade as a polymer is threaded through a molecular constriction, with engineered pores and ratcheting enzymes giving base-level readout. It created a capability nobody foresaw, portable and long-read sequencing. Bayley's protein engineering of the pore and its adapters is what turned a demonstration of translocation into a chemical sensor. Together the two parts give a prize that can be explained to a broad audience as reading the genome two ways, with the principle and the chemistry both visible.",
+    "case_against": "The configuration spends the three-person limit on a single technological theme, and two-part prizes with two distinct sequencing methods risk looking like a field prize rather than a discovery. The nanopore attribution is hard: Kasianowicz, Branton (deceased), Deamer, Akeson and Bayley all have claims, and singling out Bayley omits Deamer and Akeson, who did the strand-level discrimination and enzyme ratcheting. Sequencing may also be seen as physiology or medicine rather than chemistry, and Rothberg, Mayer and Ju are left out of the second-generation credit. My physicist's attraction to nanopores may bias me, so I should be challenged on it.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks Balasubramanian and Klenerman first: sequencing by synthesis is a simple chemistry-driven idea that collapsed sequencing cost and is fully mature, with Rothberg and others as parallel platforms.",
+        "response": "I agree on the core credit and on maturity, and I adopt his two-person Cambridge pairing rather than my opening trio with Rothberg. Where I differ is that I would not let the discussion treat 454 pyrosequencing as part of the same discovery. It was the first commercial platform but chemically distinct, and I would ask him to say whether the committee can defend omitting it in the citation. I also ask him to address the chemistry versus physiology concern, since that is the only serious argument against."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks targeted protein degradation first as a designable chemical reaction hijacking ubiquitin ligases, with Crews, Deshaies and Handa spanning PROTACs and thalidomide glues.",
+        "response": "This is the strongest rival and I moved it into my alternatives. I still have reservations. The concept is original and well validated, but the field has two branches with different discoverers, PROTACs and cereblon-based glues, and the three-person limit forces an uncomfortable choice among Crews, Deshaies, Handa, Ciulli, Sakamoto and Ito. I would ask him to separate what Crews and Deshaies discovered from later refinements, and whether the lack of an approved PROTAC drug makes the verdict premature. If the group can agree on one defensible citation, I could be moved."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks base editing first as a chemical solution to a biological problem, and notes it may be viewed as a follow-on to the 2020 CRISPR prize, with parallel credit for Kondo and Nishida.",
+        "response": "I take the chemical argument seriously, but the follow-on concern weighs more for me than for him: base editing builds directly on Cas9 targeting that the committee has already honoured, and the clinical record is still short. The Liu versus Kondo and Nishida question also makes a clean citation harder. I rank it as a second alternative, not preferred. I would like him to say what, beyond the deaminase fusion, is a new principle rather than an application of the 2020 discovery."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation first as a new physical-chemical organising principle bringing thermodynamics into cell biology.",
+        "response": "I am sympathetic to the thermodynamic framing, but I press her on what exactly was discovered and when. Whether intracellular condensates are genuinely phase-separated and functional in vivo is still debated, and the credit among Hyman, Brangwynne, Rosen, Pappu and Mittag is unsettled. Compared with a method that is routinely used, the quantitative evidence for condensate function is still thinner, so I regard it as promising but premature."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts sequencing as chemistry and whether two sequencing-related parts form a coherent prize.",
+      "Who among Bayley, Deamer, Akeson, Kasianowicz and Branton (deceased) carries the decisive nanopore credit.",
+      "Whether Rothberg's pyrosequencing should be credited alongside Balasubramanian and Klenerman.",
+      "Whether targeted protein degradation (B034), with the broadest opening support, can be assigned defensibly to three people."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: none of the shortlisted candidates is at Lund or linked to NanoLund. My interest in molecular motors and ratchets is intellectually close to enzyme-ratcheted nanopore sequencing, which I flag as a possible bias, not a recusal issue."
+  }
+}

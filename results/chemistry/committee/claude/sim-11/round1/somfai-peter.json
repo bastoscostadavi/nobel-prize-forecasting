@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-11",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B008",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalyzed carbon-nitrogen cross-coupling through ligand design"
+      },
+      {
+        "ballot_id": "B061",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of DNA bases without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B028",
+    "B037"
+  ],
+  "statement": {
+    "case_for": "B008 is the cleanest case on the table for what chemistry does at its core: a general, predictable way to make C-N bonds. Ligand design (bulky biaryl and hindered alkyl phosphines) turned a transformation that was harsh and substrate-limited into a daily operation in medicinal chemistry, process chemistry and materials, and about thirty years of independent confirmation and industrial use leave no maturity concern. The 2010 prize covered C-C coupling and did not cover amination. Buchwald and Hartwig developed the catalytic, ligand-controlled method independently, so the two-person attribution is unambiguous. I pair it with B061 because the opening ballots show real convergence on base editing from colleagues with different fields (Chabes, Linke, Aili, Aqvist), and the chemical idea is concrete: engineered deaminase chemistry applied to a displaced DNA strand, with the lead conceptual and engineering role in David Liu's laboratory. A Liu-only second part keeps the union at three people and avoids a five-name credit dispute.",
+    "case_against": "Two reservations. First, B008 may look like a sequel to the 2010 cross-coupling prize and a prize for a mature synthetic method may seem less exciting than the biology-facing candidates; I think that is the wrong standard, but it is a live argument. Second, pairing B061 with B008 means the Liu citation leaves out Komor and Gaudelli, who were the lead experimentalists on the cytosine and adenine editors, and Kondo and Nishida, who reported an independent deaminase approach. The 2020 CRISPR prize also sits close by, and long-term clinical safety of base editors is not yet established. If the committee is not satisfied on attribution or timing for B061, B008 should stand alone as a two-laureate prize rather than be diluted with a weaker second part.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Base editing turns a defined chemical reaction, cytidine or adenosine deamination on a displaced DNA strand, into a general tool for single-nucleotide correction, and has been independently reproduced and used clinically.",
+        "response": "I agree the chemistry is real, and this moved me from sixth place toward including it. What I still need is an answer on what is new chemically beyond harnessing a deaminase, since the directed evolution of TadA to act on DNA (adenine editor) is the genuinely chemical step, whereas the cytosine editor is closer to a clever fusion. I also disagree with your three-name configuration: Komor and Gaudelli were the lead experimentalists, but giving a prize to trainees alongside the principal investigator is unusual, so I would credit Liu alone."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Pd-catalyzed C-N coupling is an enabling method used daily in pharmaceutical and materials synthesis, and the Kosugi tin-amide precedent was stoichiometric in tin and best seen as a precursor.",
+        "response": "I agree and take your point on Kosugi. His reaction needed tin amides, so it did not offer the general catalytic method with a free amine and a base that Buchwald and Hartwig built, and the credit question is therefore narrow. Your argument that the 2010 prize did not cover amination answers the main objection to timing. I part company with you on perovskites (B044): the efficiency gain is spectacular but the stability and lead issues are unresolved, and the attribution is spread over six names."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Targeted protein degradation makes a small molecule a programmable tool that removes a target, opening undruggable targets and giving a clear case of molecular design changing what chemists and clinicians can do.",
+        "response": "I rank B028 fourth and regard it as a serious alternative, but I am less convinced it is ready. The PROTAC trio of Crews, Deshaies and Ciulli leaves out the cereblon and glue strand (Handa, Ito, Gray), and you and Linke both note that more than three names have credible claims. Beyond bifunctional design and linker optimisation, the novel chemistry is thinner than the pharmacology, and clinical validation is still maturing. I would wait, unless the committee can find a clean two-achievement framing that I cannot see yet."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Car-Parrinello molecular dynamics put electronic structure and nuclear motion in a single extended-Lagrangian scheme, with unambiguous two-person priority and four decades of use.",
+        "response": "The attribution and maturity are as clean as for B008, and I do not dispute the scientific standing. My difficulty is that most of its impact sits in condensed-matter and materials simulation, and the open question for me is how much of it chemists use compared with Born-Oppenheimer AIMD descendants. I name it as an alternative because a two-person computational prize is easy to put together alongside a synthetic method, but it would be easier for me to support if you could point to its uptake in chemical reactivity studies rather than in physics-driven systems."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee sees B008 as too close to the 2010 cross-coupling prize.",
+      "Whether a Liu-only credit for B061 is acceptable given Komor, Gaudelli, Kondo and Nishida, or whether B061 should be dropped from the configuration.",
+      "How close base editing sits to the 2020 CRISPR prize and how much weight the incomplete long-term clinical safety record deserves.",
+      "Whether the PROTAC and molecular glue strands of B028 could be framed as one prize with a defensible three-person cut."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for B008, B061, B028 or B037. I share Lund University with Heiner Linke and Emma Sparr, and my mentor Satoru Masamune was at MIT where Buchwald works, but I have no direct tie to any candidate that would call for recusal."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-12",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B007",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of one DNA base into another without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B058"
+  ],
+  "statement": {
+    "case_for": "Base editing is a defined enzymatic chemistry, deamination of cytosine and, after directed evolution of TadA, of adenine, placed under programmable control on genomic DNA without double-strand breaks. The mechanism is explicit, the two founding inventions (cytosine and adenine base editors) are clearly separable and attributable to Liu, Komor and Gaudelli, and the claim has been reproduced by many independent laboratories and has reached patients. It turns a biological process into a general chemical tool, which is the criterion I weigh most. As a person who measures nucleotide chemistry in cells, I also find the biochemical logic compelling: the editors work because the deaminase, the nickase-directed strand choice and the cell's mismatch repair are chemically understood and engineered, not because of an empirical trick.",
+    "case_against": "The 2020 prize already honoured CRISPR-Cas9, so some will see base editing as a derivative step in the same genome-editing story, and clinical benefit is still accumulating with long-term safety, bystander edits and off-target deamination not yet closed. Kondo and Nishida's Target-AID was contemporaneous, so a Liu-centred trio is not free of attribution dispute, and the committee could reasonably judge that the prize is better held until the clinical record is longer.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranks targeted protein degradation first, as a genuinely new pharmacological modality (induced proximity) with clear design rules, ranking base editing only fourth because it extends the CRISPR toolkit and has a short clinical record.",
+        "response": "I agree that PROTACs and molecular glues are a real new modality and I keep B011 as my first alternative. But I do not think base editing is a mere extension of CRISPR: it replaces cleavage with a deamination reaction and needed new protein evolution to work for adenine, so it is a distinct chemical invention. On maturity the two are close: neither degraders nor base editors have yet an approved product, so that argument does not separate them. My real reservation about B011 is attribution, since the PROTAC and cereblon/molecular-glue branches have different inventors and the three-name limit forces a contested cut, whereas the Liu, Komor and Gaudelli split is cleaner."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Emma proposes David Liu alone for base editing, calling a single laureate the cleanest configuration given the parallel Japanese Target-AID work, and notes that clinical validation is still young.",
+        "response": "I respect the argument for simplicity, but I would credit all three. Komor and Gaudelli did not merely execute: the cytosine editor with uracil glycosylase inhibitor and the adenine editor required an evolved TadA, a deaminase that does not act on DNA in nature, which is a distinct molecular invention for each editor class. Crediting only Liu would hide that two chemically different tools exist. I accept that Kondo and Nishida complicate this; their Target-AID is a real parallel cytidine-editor result, but it covers only one of the two editor classes, so it weakens the case less than it would for a single-editor prize."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner also ranks base editing first with the same trio, treating it as a distinct chemical invention after the CRISPR prize, and ranks nanopore sensing second as a clean single-molecule transduction principle that became a deployed sequencing technology.",
+        "response": "We agree on B007 and on the trio. On nanopores I am more cautious than you: the physical principle and the engineered pore are persuasive, but credit is spread across Kasianowicz, Deamer, Branton, Bayley and Akeson and Branton's status is uncertain, so I do not see a clean three-person configuration. I ask whether the central claim, direct electrical reading of nucleotide chemistry, has been reproduced independently, and it has, but that does not resolve attribution, which keeps B030 outside my preferred configuration."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Xiaodong ranks halide perovskites first and base editing third, noting that a three-person slate including the trainees is unusual and that the prize might come through a broader CRISPR framing.",
+        "response": "The unusual nature of crediting trainees is a fair point, but the Nobel record has precedent for crediting the people who made the decisive invention, and here the first-author inventors led distinct editor classes. I do not think a broader CRISPR framing is available, since CRISPR was recognised in 2020 and the base editor is a separate chemistry. On perovskites I defer to your expertise on stability: if degradation and lead content are still open, I would see that as a maturity reservation relative to base editing, whose core claim is stable and independently replicated."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Peter ranks nitrogenase first as a textbook problem in coupled electron, proton and ATP-driven chemistry, and proposes only Liu for base editing at fifth place.",
+        "response": "I find nitrogenase scientifically strong and ranked it fifth myself, with Rees, Einsle and Seefeldt. My reservation is that the mechanism of the catalytic cycle is still not fully resolved, so the prize would honour structure rather than a completed mechanism, and the credit split between structure and kinetics people is difficult. I would be glad to hear what in your view makes the N2-binding question mature enough now."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee views base editing as distinct enough from the 2020 CRISPR prize",
+      "Whether Kondo and Nishida (Target-AID) must be included or whether the Liu, Komor and Gaudelli trio is defensible",
+      "Whether clinical benefit and long-term off-target safety are sufficiently established for timing",
+      "Whether targeted protein degradation (B011) is more compelling once a degrader drug is approved"
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: my work on dNTP pools and replication fidelity is topically adjacent to DNA editing, but I have no stated personal or institutional connection to the base-editing, degrader or lipid nanoparticle candidates."
+  }
+}

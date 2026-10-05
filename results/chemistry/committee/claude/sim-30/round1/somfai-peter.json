@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-30",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B032",
+        "laureates": ["Stephen L. Buchwald", "John F. Hartwig"],
+        "citation": "for the development of ligand-controlled palladium-catalysed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": ["B068", "B006"],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling is the clearest general synthetic method on the shortlist. It replaced harsh, substrate-limited routes to aryl amines with a mild, predictable catalytic reaction built on a well-understood cycle (oxidative addition, amine binding, deprotonation, reductive elimination) and a rational ligand evolution from bidentate phosphines to bulky biaryl and NHC systems. More than 25 years of independent confirmation show up in countless medicinal-chemistry and process routes and in industrial manufacture of drugs and materials. The chemistry was new, the conceptual simplicity is high, and the attribution is clean: Buchwald and Hartwig independently made the reaction general and practical, a natural two-person prize. Kosugi's earlier tin-amide work is real precedent, but it is stoichiometric in tin and was not the general catalytic method; the citation can be worded to the ligand-controlled catalytic amination.",
+    "case_against": "The strongest reservation is the 2010 cross-coupling prize (Heck, Negishi, Suzuki), which a reader may see as having already honoured Pd cross-coupling, so C-N coupling could look like an increment. It also puts a seventh synthetic-methodology prize in a field the Academy has rewarded often (Suzuki, metathesis, organocatalysis, photoredox), and the Kosugi/Migita priority question will draw scrutiny. I judge the C-N bond as a distinct chemical problem with distinct ligands and mechanism, not a repackaging, but a colleague could reasonably weigh it as less novel than a new modality.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Ranked PROTACs and molecular glue degraders first as an induced-proximity design principle that has changed what is druggable, with Crews, Deshaies and Handa as laureates.",
+        "response": "I agree the design principle is real and that clinical impact is growing, which is why I keep B068 as an alternative. My reservations are about attribution and timing: the credited group has eight names, the PROTAC strand (Crews, Deshaies, Ciulli) and the cereblon glue strand (Handa) are distinct discoveries, and you yourself note that approval of a heterobifunctional degrader is not verified. A prize now would either split two achievements or exclude people the field regards as decisive. B032 has none of these timing or attribution problems."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Placed base editing first as a mechanistically explicit chemical-biology invention (deaminase fused to a Cas9 nickase, directed evolution of an adenine deaminase) with very large and growing impact, credited to Liu, Komor and Gaudelli.",
+        "response": "I ranked B006 low, and I should say why: chemically, the new element is protein engineering of deaminases attached to an existing programmable nickase, and the 2020 CRISPR prize already recognised the programmable-targeting idea. The adenine base editor is a real chemical achievement, but I would ask what is new chemically beyond the fusion concept. Also, Kondo and Nishida's independent Target-AID work weakens a clean Liu-trio credit. I take your point that clinical use makes it timely, and I would accept it as a serious alternative, but I do not think it displaces a method used in thousands of syntheses."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Argued for base editing and for Solexa sequencing by synthesis, stressing explicit nucleotide chemistry and reversible-terminator design as compelling and overdue.",
+        "response": "I am sympathetic on the sequencing-by-synthesis chemistry, which is elegant, but B067 is at the border with technology and biology, and the credit is split across Solexa, 454 and others, so a three-person limit forces an arbitrary choice. That is a harder attribution problem than C-N coupling, where two independent groups made the same general method practical. I would want the committee to settle the attribution before I rank it above a mature, cleanly credited chemical method."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Ranked ionizable lipid nanoparticles first as a case where lipid self-assembly and phase behaviour became a medicine, with Cullis, Hope and Anderson as laureates.",
+        "response": "The chemical idea of pH-dependent ionizable lipids is clear and the medical impact through Onpattro and the mRNA vaccines is undeniable. My concern is attribution, which you also flag: Cullis, Hope, Madden, MacLachlan, Anderson and Langer all made decisive contributions and the set is six names for three seats. The 2023 Medicine prize also places this delivery technology close to a recent award, and the discovery is more formulation optimisation than a new bond-forming transformation. I would support it more readily if the committee can name a tight, defensible trio."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat C-N coupling as sufficiently distinct from the 2010 cross-coupling prize.",
+      "How much weight the Kosugi/Migita tin-amide precedent should carry, and whether the citation wording handles it adequately.",
+      "Whether other members will see a chemical-biology or medicine-adjacent topic (degraders, base editing, lipid nanoparticles) as more pressing than a mature synthetic method.",
+      "My ranking of B006 and B017 may underweight their clinical and medical consequences relative to what colleagues in biochemistry weigh."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. Hartwig and Buchwald are not connected to Lund, KTH, Chalmers, Tartu or my mentor Masamune, though as a synthetic organic chemist I use their methods and know the field well."
+  }
+}

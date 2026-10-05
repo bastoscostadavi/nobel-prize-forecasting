@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-53",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B027",
+        "laureates": [
+          "Roberto Car",
+          "Michele Parrinello"
+        ],
+        "citation": "for the development of first-principles molecular dynamics, in which electrons and nuclei evolve together"
+      }
+    ]
+  },
+  "alternatives": [
+    "B014",
+    "B046"
+  ],
+  "statement": {
+    "case_for": "I keep Car-Parrinello molecular dynamics as my preferred configuration. The 1985 idea of propagating the electronic degrees of freedom and the nuclei in one extended dynamics removed the need for a pre-fitted force field and made bond breaking, solvation, proton transfer and condensed-phase reactivity accessible from first principles. It is a standard tool in water, catalysis, battery and materials chemistry, and the method has been independently implemented and used for four decades, so maturity is not in question. The credit is a two-author paper and no allocation dispute has been raised by any member in either round. After round 1 this is the only candidate for which no one has stated an open attribution problem, whereas B014 has two competing trios and B046 has an acknowledged precursor gap. The cost is that it has the weakest support count, and I do not treat that as evidence for or against it.",
+    "case_against": "Computational chemistry was recognised in 2013 and 2024, so a third computational prize may meet resistance. The method is often described as physics-flavoured, and its daily presence in the synthetic and medicinal chemist's work is less visible than that of C-N coupling or a new drug modality. Parrinello's later work (metadynamics, machine-learned potentials) can blur how the citation is framed, and the citation must be kept to the 1985 idea. Round 1 gave this configuration one explicit supporter, so a vote for it from me may only split the committee without producing a majority. I also still rely on recollection of the 1985 publication details.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Prefers B046 with Buchwald and Hartwig, argues that ligand control of oxidative addition, amine binding and reductive elimination is a conceptual advance beyond the 2010 prize, and says the committee should openly state why Kosugi is excluded on generality.",
+        "response": "Your argument that the novelty lies in ligand-controlled generality, not in a new bond type, is the best answer I have seen to the 2010 overlap, and it moves B046 up for me; I now list it as an explicit alternative. I am still not persuaded that it can be written as one sentence of citation without sounding like a heteroatom extension of Heck, Negishi and Suzuki. Your own point that the exclusion of Kosugi, Migita, Guram and Rennels has to be justified in public is a cost that B027 does not carry, but it is not disqualifying, and I would accept your reasoning if the committee settles on B046."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Prefers B014 with Crews, Deshaies and Ciulli, treats the cereblon and molecular-glue strand as a separate lineage, and warns that a prize covering both runs into the three-person limit and a diffuse citation.",
+        "response": "I take this to be the most direct answer to the chair's question: a PROTAC-only citation is coherent and avoids stretching three names across two lineages, which I find more convincing than the combined citation proposed by Aili and Aqvist. It leaves Handa, Ito, Sakamoto, Kim and Gray uncredited, which you concede, and the absence of an approved degrader remains a real maturity gap for the PROTAC strand specifically, since the approved drugs belong to the cereblon strand. If the committee wants a new-concept prize, I think your trio is better defended than the Handa version, but I would still place it behind a candidate whose credit is not contested."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Prefers B014 with Crews, Deshaies and Handa, tying the PROTAC concept to the clinically proven cereblon mechanism as one principle of induced proximity to an E3 ligase.",
+        "response": "Your move from Ciulli to Handa shows how much the third-name choice changes the story, and I do not think it can be resolved by joining the strands, because Ito's joint cereblon paper with Handa makes the Handa seat as awkward as the Ciulli seat. The unifying principle of induced proximity is attractive, but Chabes and Zou treat the strands as two achievements, and I cannot see a three-name citation that is accurate for both. That is why B014 stays an alternative and not my choice. Which of the two trios would you accept if the committee had to pick one?"
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Ranks B014 first and B027 as the clean fallback, noting that if the attribution for B014 cannot be defended, Car and Parrinello is the cleaner prize.",
+        "response": "I note that you name B027 as the fallback if the attribution for B014 fails, and round 1 has not resolved that attribution. Your concern about a third computational prize is the one I find hardest to answer, but 2013 honoured multiscale modelling of reactions and 2024 protein design and structure prediction, and neither covered ab initio dynamics of electrons and nuclei together. If the committee cannot settle a B014 trio, I would ask you to say whether you would move to B027 or to B046."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee has appetite for a third computational prize after 2013 and 2024, and whether my view of first-principles dynamics as a distinct contribution is shared.",
+      "Whether either B014 trio or the B046 pair is defensible enough to gather five votes, which would change how far I should hold B027.",
+      "Whether the Kosugi, Migita, Guram and Rennels precedents weigh enough to block B046; my knowledge of that history is partial.",
+      "My account of the 1985 Car-Parrinello paper is from recollection and has not been checked against sources."
+    ],
+    "conflict_note": "No change from round 1. I have no documented link to Car, Parrinello or any other shortlisted candidate. I chair the committee and sit with Lund colleagues Peter Somfai and Emma Sparr, which is not a candidate-level connection. My background is in nanophysics, which may make me favour a physics-based method, and I have taken that into account in my case_against."
+  }
+}

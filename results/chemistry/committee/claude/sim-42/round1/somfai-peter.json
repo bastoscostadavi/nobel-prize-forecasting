@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-42",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B013",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of palladium-catalyzed carbon-nitrogen cross-coupling, a general method for constructing aryl amines"
+      }
+    ]
+  },
+  "alternatives": [
+    "B067",
+    "B022"
+  ],
+  "statement": {
+    "case_for": "Pd-catalyzed C-N coupling is the clearest case on the shortlist of a general method that changed how chemists build bonds. Aryl amines are everywhere in pharmaceuticals, agrochemicals and materials, and before the Buchwald and Hartwig ligand systems their construction was harsh and substrate-limited. Three decades of independent use, many ligand generations and routine process-scale application can be verified in the synthesis literature, not just asserted. The chemistry is conceptually simple (amine plus aryl halide, tuned ligand), the mechanism is well understood, and attribution is clean for two independent laureates.",
+    "case_against": "The 2010 prize for Pd-catalyzed cross-coupling in organic synthesis may make the committee see C-N coupling as an extension rather than something new. The citation must show a distinct bond-forming achievement, and Kosugi's earlier tin-amide work leaves a precedence footnote. Several candidates with more public visibility and stronger novelty (degraders, phase separation) may outweigh a mature, quiet method.",
+    "responses": [
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks molecular-sieve design first on industrial impact and structure-to-function logic, and notes that B013 raises a scope-overlap question with the 2010 prize.",
+        "response": "I take the overlap point seriously, but 2010 recognized C-C coupling (Heck, Negishi, Suzuki). C-N bond formation needed its own ligand design and mechanistic work (amide binding, reductive elimination from a poorly disposed intermediate), which is why it came two decades later. On zeolites, I agree on industrial weight, but I see credit spread across Corma, Davis, Zones, Yu and Tsapatsis with no single transformation or concept that can be cited, whereas C-N coupling has a sharp, checkable citation."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks targeted protein degradation first: chemically induced proximity makes undruggable proteins addressable and is a general drug modality with wide uptake.",
+        "response": "The concept is original and I would not oppose it, but I have two reservations. First, no degrader is yet an approved drug, so impact is mostly projected. Second, the credit splits into the PROTAC strand (Crews, Deshaies, Ciulli) and the molecular-glue strand (Handa, Ito, Gray, Sakamoto), and a three-person cut would leave out one of them. I also ask what is new chemically: the heterobifunctional design is clever, but the chemistry is mainly linker and ligand optimization around a biological mechanism. Compared with that, C-N coupling is validated and overdue."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks phase separation first as a clear physical principle, and places C-N coupling third as mature, mechanistically detailed and overdue.",
+        "response": "I agree on maturity and mechanistic clarity, and I am glad he sees the two-person credit as clean. I disagree that phase separation should come first. Its founding observations are well supported, but the committee is still unsure which in-cell assemblies are real phase separation, and the chemical novelty is a physical framing of biology, not a new molecular transformation. I would defer it until the physiological role is settled."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks degraders first and perovskites second as game-changers with real consequences, and calls C-N coupling a simple, widely used tool that builds on the 2010 prize.",
+        "response": "Wide use is the standard I apply, and C-N coupling meets it more fully than any other candidate because it is in daily use in medicinal chemistry. Aqvist's framing suggests that building on 2010 counts against it. I would answer that most Nobel-level methods build on earlier ones, and the question is whether the new transformation is distinct and general. I also disagree on perovskites: efficiency is confirmed but stability and lead toxicity are open, so I see them as premature."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority will accept C-N coupling as sufficiently distinct from the 2010 cross-coupling prize.",
+      "Kosugi's precedence is a judgment based on my own recollection of the literature, not checked against sources in this process.",
+      "Whether degraders will be seen as mature enough given that no approved drug exists yet, and which strand (PROTAC or molecular glue) a citation would honor."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the shortlisted candidates. My Masamune lineage and my interest in synthetic methodology are a disciplinary bias toward B013, not a personal or institutional tie to any named candidate."
+  }
+}

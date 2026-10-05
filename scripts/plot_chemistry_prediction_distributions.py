@@ -20,6 +20,9 @@ physics.SLATE_COLORS.update({
     "Crews–Handa / Liu": "#4FA3AE",
     "Crews–Deshaies / Liu": "#4FA3AE",
     "Car–Parrinello": "#7162AA",
+    "Balasubramanian–Klenerman–Mayer": "#167D8D",
+    "Matyjaszewski–Sawamoto": "#C17B35",
+    "Matyjaszewski–Rizzardo–Sawamoto": "#D9A066",
 })
 
 CHEMISTRY_DESCRIPTIONS = {
@@ -54,6 +57,13 @@ def committee(pattern: str) -> Counter[str]:
     return counts
 
 
+def claude_oneshot() -> Counter[str]:
+    counts: Counter[str] = Counter()
+    for path in sorted((ROOT / "results/chemistry/oneshot/claude-opus-5-5").glob("pred-*.json")):
+        counts[label(json.loads(path.read_text())["laureates"])] += 1
+    return counts
+
+
 def main() -> None:
     # The published summary binds every input decision to its validated snapshot.
     summary = json.loads((ROOT / "results/chemistry/final_summary.json").read_text())
@@ -76,7 +86,12 @@ def main() -> None:
                  "Claude Sonnet 5.5", claude, rows)
     physics.plot("chemistry-terra-committee-distribution.png", "Terra committee",
                  "GPT-5.6 Terra", terra, rows)
-    print({"aggregate": dict(aggregate), "terra": dict(terra), "claude": dict(claude)})
+    claude_direct = claude_oneshot()
+    if claude_direct:
+        physics.plot("chemistry-claude-oneshot-distribution.png", "Claude one-shot",
+                     "Claude Opus 5.5", claude_direct, len(claude_direct))
+    print({"aggregate": dict(aggregate), "terra": dict(terra), "claude": dict(claude),
+           "claude_oneshot": dict(claude_direct)})
 
 
 if __name__ == "__main__":

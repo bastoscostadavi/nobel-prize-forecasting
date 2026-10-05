@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-16",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B040",
+        "laureates": [
+          "Pieter R. Cullis",
+          "Ian MacLachlan",
+          "Daniel G. Anderson"
+        ],
+        "citation": "For the development of ionizable lipid nanoparticles that enable systemic delivery of nucleic-acid medicines"
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B021"
+  ],
+  "statement": {
+    "case_for": "Ionizable lipid nanoparticles meet my own test of a game-changer: a conceptually simple piece of physical-organic design (a lipid whose pKa keeps it neutral in blood and charged in the endosome, assembled by rapid mixing) that made siRNA and mRNA drugs deliverable and has had consequences at global scale, from patisiran to the COVID-19 vaccines. It has been validated independently and at scale, so the maturity question is settled. The 2023 Medicine prize honoured the nucleoside-modified mRNA but not the delivery chemistry that made it work, so a Chemistry prize here is complementary and not duplicative. Four of eight openings ranked it in their top four, and the discussion should now concentrate on attribution.",
+    "case_against": "The attribution is the weak point. At least six people have credible claims (Cullis, Hope, Madden, MacLachlan, Anderson, Langer), the three-person limit forces hard exclusions, and my own priority judgment on who designed the first effective ionizable lipids rests on recollection and is something colleagues should challenge. There is also a real risk that the committee sees this as the second prize for the mRNA vaccine story after 2023 Medicine, and some would call it formulation engineering and not discovery chemistry.",
+    "responses": [
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks B040 fourth and credits the core lipid-nanoparticle and ionizable-lipid concept mainly to the Vancouver group (Cullis, Madden, Hope), with MacLachlan, Anderson and Langer as secondary lipid-design contributors.",
+        "response": "I agree that the Vancouver group carries the foundational formulation work, which is why Cullis is first in my trio. But Hope and Madden's contributions were mostly the early liposome and remote-loading formulation. What changed the outcome in vivo was the pKa-tuned ionizable lipid, which came from the SNALP optimisation by MacLachlan and Cullis and was later pushed by Anderson's lipidoid libraries and potency screening. Those steps determine the modern product, so I would credit the ionizable-lipid design and not the earlier liposome formulation. I accept that this leaves Hope and Madden out unfairly, but any three-person split does that."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai places B004 first. Buchwald and Hartwig turned aryl amination into a routine, ligand-controlled and mechanistically understood bond construction, which is widely used in industry and clearly mature.",
+        "response": "I put B004 fourth and agree with the science: ligand design turned a tin-amide curiosity into a general method, and the two-person attribution is clean. My reservation is the 2010 Suzuki, Heck and Negishi prize. A C-N coupling prize would be read by many as a second helping from a field already honoured, and I would hold that against it when a newer area with larger consequences is available. Peter, I do not consider it unworthy. I would rather it follow lipid nanoparticles, and it is the first alternative on my list if the committee prefers a pure chemistry prize."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks B021 first. The Car-Parrinello Lagrangian has unambiguous two-author credit, four decades of independent adoption, and unified electronic structure and nuclear motion in a way that reshaped simulation.",
+        "response": "As a simulation person I have great respect for Car-Parrinello, and the attribution could not be cleaner. My hesitation is the stated standard of a game-changer with demonstrated consequences. Ab initio MD enabled a great deal of understanding, but few single results trace back to it the way a drug or vaccine does. We also gave a computational prize in 2013 (multiscale models) and 2024 (protein structure prediction and design). Heiner, I do not think theory should be penalised for being theory. If the committee wants to honour simulation, I would say Parrinello's later work on metadynamics and learned potentials complicates the citation, so I would need a convincing case that Car-Parrinello alone is the right frame. I keep it as second alternative."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks targeted protein degradation (B046) first as a genuinely new chemical modality with precise control of recognition, and ranks lipid nanoparticles second for the pKa design principle.",
+        "response": "We agree on the value of B040 as a design-principle story. On B046 I am more cautious than Daniel. The concept is excellent, but no PROTAC has yet been approved, so the consequences are still prospective, which conflicts with my requirement that a prize reward work that has already shown real effects. The attribution is also split between the PROTAC and molecular-glue (cereblon) branches, and a Crews, Deshaies and Handa trio ignores Ciulli and Gray. I would revisit this in a few years. Lipid nanoparticles are further along on evidence and have a tighter chemical story."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks phase separation (B043) first as a new organising concept for cells, with lipid nanoparticles second, noting that she values the lipid self-assembly chemistry.",
+        "response": "Emma's second place is welcome and I think her field knowledge of lipid assembly is useful for the attribution issue. I do not share her ranking of B043 above it. Condensates are an important concept, but the standard of evidence for phase separation in living cells is still disputed, and the committee should not choose a laureate trio while its meaning is argued about. I would like Emma to say which lipid-assembly steps she regards as decisive for endosomal escape, because that bears on whether Cullis's group or the lipidoid developers deserve the second and third slots."
+      }
+    ],
+    "uncertainties": [
+      "Which three of Cullis, Hope, Madden, MacLachlan, Anderson and Langer are best supported for the ionizable-lipid design and its in vivo demonstration.",
+      "Whether the committee regards a delivery-technology prize after the 2023 Medicine mRNA prize as complementary or duplicative.",
+      "Whether the committee prefers a pure chemistry prize (B004) or a computational one (B021) over a biomedical-adjacent one.",
+      "Whether the 2013 and 2024 computational prizes make another theory prize unlikely so soon."
+    ],
+    "conflict_note": "No specific conflict is apparent for B040, B004 or B021. My Warshel-school background and general ties to the simulation community (including Parrinello's field) are scientific familiarity, not a personal or institutional link, though I would be careful in any B021 discussion."
+  }
+}

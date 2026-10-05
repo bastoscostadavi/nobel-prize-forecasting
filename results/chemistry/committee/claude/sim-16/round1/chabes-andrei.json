@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-16",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B046",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation, by bifunctional degraders and by the cereblon mechanism of molecular glues"
+      }
+    ]
+  },
+  "alternatives": [
+    "B029",
+    "B004"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a case where a biological process was turned into a well-defined, programmable chemical reaction: a small molecule brings a target and an E3 ligase into proximity and the target is ubiquitinated and destroyed. The cereblon mechanism of thalidomide-class drugs, which Handa's group identified, has been reproduced across many independent laboratories and explains an old pharmacological mystery at the level of molecular recognition. Crews and Deshaies established the PROTAC concept and the first demonstrations, so the two lineages (designed bifunctional degraders and serendipitous glues) share one chemical principle, event-driven induced proximity, and give a coherent citation. The tool is general and is used by biologists as well as medicinal chemists, and the clinical pipeline is large and mature enough that the timing is reasonable.",
+    "case_against": "No designed PROTAC is yet an approved drug, so the claimed medical benefit is still prospective, and I would not want the prize to rest on clinical promise alone. The three-person limit forces hard exclusions (Sakamoto, Ito, Ciulli, Gray, Kim), and Ciulli and Gray did a great deal to make degraders reliable chemistry. The PROTAC and molecular-glue stories may be two discoveries stitched into one citation, and the committee may feel that is artificial. As a fallback I would prefer massively parallel sequencing (B029), which is more mature and has unambiguous impact, if colleagues judge degraders premature.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranked B046 first because it is a genuinely new chemical modality with a precise design logic (heterobifunctional linkers, glue-like surface remodelling), while noting that credit between PROTAC inventors and the thalidomide-mechanism discoverers is unresolved.",
+        "response": "I agree on the design logic and I share the concern about credit. My view is that the unifying principle, induced proximity to the ubiquitin-proteasome system, justifies one citation, and Handa's cereblon identification is the measurement that turned a pharmacological observation into a mechanism. I would add that the cereblon mechanism has been independently reproduced many times, which for me carries more weight than the clinical pipeline. Where I would push back is on leaning on clinical trials as the maturity argument, since no designed PROTAC has an approval; the case has to stand on the chemistry and the mechanism."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranked Pd-catalysed C-N coupling first: ligand design turned aryl amination into a routine, general bond construction used throughout medicinal and process chemistry, with Buchwald and Hartwig as the clear originators and Kosugi's tin-amide work as a precursor.",
+        "response": "I accept that B004 is the most conventional chemistry prize on the list, with clean attribution and long independent validation, and I ranked it third for that reason. My reservation is novelty after 2010. The committee already recognised Pd cross-coupling, and a C-N coupling award may read as completing a recognised field rather than opening a new one, whereas degradation changes how one thinks about drug action. I do not think this reservation is decisive, and if the committee wants a safe, mechanistically solid award I would not oppose Buchwald and Hartwig. On Kosugi, I agree he is best treated as a precursor and I would keep him off a three-name list."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked Car-Parrinello first for its clean two-author attribution and ranked sequencing-by-synthesis second, but worried about whether sequencing is chemistry rather than biology or medicine, since Sanger sequencing was recognised in 1980.",
+        "response": "I share the worry about chemistry versus biology for B029 and it is the main reason I now place B046 above my own opening first choice. The Solexa contribution, reversible terminators and clonal clusters, is chemistry in the strict sense, and I would support Balasubramanian and Klenerman as the cleanest two-person case, but the committee's own precedent in 1980 and the credit competition with the 454 and other platforms make it harder to defend than I first allowed. On Car-Parrinello I accept the clean attribution but I find it harder to rank it above discoveries that changed experimental practice, given the recent computational prizes in 2013 and 2024."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked ionizable lipid nanoparticles first as a game-changer: pKa-tuned ionizable lipids, rapid-mixing self-assembly and PEG-lipid control made siRNA and mRNA delivery practical, while acknowledging overlap with the 2023 Medicine prize and a contested credit split.",
+        "response": "I agree the chemistry is real and the impact is large, and I ranked it fourth. My difficulty is attribution rather than merit. My own opening proposal was Cullis, Madden and Hope, who built the core lipid-nanoparticle formulation, while Aqvist and others propose Cullis with MacLachlan and Anderson, who did the later ionizable-lipid and lipidoid work. I cannot resolve that from the file evidence, and a prize that depends on arbitrating between a Vancouver formulation lineage and a lipidoid-library lineage, with Langer excluded, looks fragile. The 2023 Medicine prize recognised the nucleoside modification, not the delivery chemistry, so I do not think overlap is disqualifying, but it adds to my hesitation."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept PROTACs and molecular glues as one discovery, or insist on separate parts that the three-person limit makes hard to staff.",
+      "Whether the absence of an approved PROTAC drug makes degradation premature relative to mature candidates such as B029 and B004.",
+      "Credit allocation among Crews, Deshaies, Sakamoto, Handa, Ito, Ciulli and Gray rests on my recalled history, not on verified priority claims."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on dNTP pools and ribonucleotide reductase is topically close to nucleotide chemistry in sequencing (B029), but I have no personal or institutional tie to any shortlisted candidate, and I do not think this requires recusal."
+  }
+}

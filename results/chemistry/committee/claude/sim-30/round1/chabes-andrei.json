@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-30",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B006",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of base editing, the programmable chemical conversion of single nucleotides in genomic DNA without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B067"
+  ],
+  "statement": {
+    "case_for": "Base editing is a defined chemical reaction put under programmable control: a nucleobase deaminase is tethered to a Cas9 nickase so that C-to-U or A-to-I deamination happens at one position in a genome, and the cell's own repair converts that into a stable base change. The cytosine editor used a known enzyme in a new way. The adenine editor needed directed evolution of TadA, because no natural enzyme deaminates adenine in DNA, so that part is real new chemistry and not a repackaging. The work is independently reproduced by many laboratories, and base-edited cells and patients are already in the clinic. From my own work on nucleotide metabolism and genome integrity, I value that it makes the chemistry of the four bases a direct tool for biologists and medicine. Attribution is workable: Liu is the senior inventor, Komor led the first cytosine base editor and Gaudelli the first adenine base editor. I do not read the 2020 CRISPR prize as covering this, since that prize honoured guided double-strand cleavage and base editing deliberately avoids it.",
+    "case_against": "The strongest reservation is that the committee may see base editing as a derivative of a discovery it honoured in 2020, so the added increment is judged smaller than for a fresh field. Attribution is also not fully clean: Kondo and Nishida reported an independent cytidine deaminase fusion (Target-AID) at about the same time, and the three-person limit leaves them out, which a careful reader could call unfair. Long-term off-target deamination, bystander editing and delivery are not settled, and the clinical record is short. I also worry that opening support for B006 is concentrated in members who rank it first or third, while Aqvist, Sparr and Somfai place it low or leave it out.",
+    "responses": [
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks base editing first as a mechanistically clear chemical invention, notes the Kondo/Nishida priority question, and says a Liu-led configuration is attributable despite the 2020 CRISPR prize.",
+        "response": "I agree on the mechanism and on the Liu/Komor/Gaudelli attribution. I would add that the priority problem is real but narrower than it looks. Target-AID is a cytidine deaminase fusion only, while the adenine editor and its evolved deaminase have no independent parallel, so a citation worded around base editing as the programmable chemical conversion of single bases is defensible without naming Kondo and Nishida. I would still want the citation to avoid claiming first demonstration of a deaminase-nickase fusion. I do not share the view that the 2020 prize makes caution unnecessary, because the committee must state explicitly what is new here relative to cleavage-based editing."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, our chair, ranks nanopore sequencing first on physical principle and impact, and places base editing third with a single-laureate Liu proposal, noting a possible grouping with prime editing and a risk that the CRISPR prize makes the committee wary.",
+        "response": "I disagree with a Liu-only prize. Komor and Gaudelli were not just trainees: Komor made the first cytosine base editor and Gaudelli evolved a DNA adenine deaminase, which is the single hardest chemical step and changes what the technology can do. Leaving them out would misdescribe where the discoveries were made. I accept the point about prime editing, but it is more recent and its clinical record is thinner, so I would not fold it into this citation yet. On B048 I find the nanopore case impactful, but five-way credit across Deamer, Branton, Kasianowicz, Bayley and Akeson is harder to settle than the base-editing split, and by your own opening you could not name a clean three."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks phase separation first as a new organising principle with a physical-chemistry core, but notes it is still debated which cellular condensates are truly phase-separated and how this links to function.",
+        "response": "I find the phase-separation concept important, but I weigh your maturity caveat heavily. As someone who has seen assumptions about dNTP pools fail when measured carefully, I am cautious about a prize whose central claim, that specific cellular structures are liquids, is not yet quantitatively established in vivo. The in vitro thermodynamics is solid. The biological claims are uneven, and a citation would have to choose between them. Base editing has a much more definite chemical outcome and a measurable result. I would want a convincing statement of what Hyman, Brangwynne and Rosen each established that is independent of the in vivo debate before moving B056 up."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks PROTACs and molecular glues first as a genuine design principle with an approved IMiD class, and proposes Crews, Deshaies and Handa.",
+        "response": "I agree that induced proximity is a real chemical design principle and I ranked it third. My concern is the attribution rather than the science. Heterobifunctional PROTACs and cereblon-mediated glue degraders are two separate strands, and I am not sure a three-person prize can honour both without distorting one, as your own list of Crews, Deshaies and Handa shows. A heterobifunctional PROTAC has also not clearly reached approval, which makes this a close second behind base editing for me, not a prior. If the committee prefers it, I would want Handa's cereblon work stated as the mechanistic basis in the citation."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept base editing as sufficiently distinct from the 2020 CRISPR-Cas9 prize.",
+      "How to treat Kondo and Nishida's independent Target-AID work if the prize is limited to three people.",
+      "Whether long-term off-target and bystander editing data will change the assessment of maturity.",
+      "Whether PROTACs and glue degraders could be split into two prize parts without a person-count conflict."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My Umeå, Thelander and Stillman connections concern nucleotide metabolism and DNA replication and none of the shortlisted candidates, so no recusal is needed."
+  }
+}

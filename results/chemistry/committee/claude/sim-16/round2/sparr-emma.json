@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-16",
+  "member_id": "sparr-emma",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B040",
+        "laureates": [
+          "Pieter R. Cullis",
+          "Ian MacLachlan",
+          "Daniel G. Anderson"
+        ],
+        "citation": "For the design of ionizable lipids and their self-assembly into lipid nanoparticles that carry nucleic acids into cells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B043"
+  ],
+  "statement": {
+    "case_for": "I keep ionizable lipid nanoparticles as my single-part choice, now with a citation written around the lipid chemistry, as the chair asked. The decisive steps for endosomal escape are physical-chemical and can be stated simply. First, the apparent pKa of the ionizable headgroup, tuned to roughly 6 to 7, keeps the particle near-neutral in blood, which limits nonspecific binding and clearance, and makes it cationic only as the endosome acidifies. Second, the newly cationic lipid pairs with the anionic lipids of the endosomal membrane, and this ion pair has a cone-like geometry that favours a non-lamellar (inverted hexagonal-type) phase over a bilayer. That phase change is what opens the membrane and releases the cargo. Third, particle structure is set by assembly: rapid mixing at low pH traps the polyanion in a dense lipid core, and a PEG-lipid sets size and is shed after injection. The non-bilayer lipid phase argument has deep roots in Cullis's own earlier work on lipid polymorphism, which is why I see him as the anchor. Independent validation at scale (patisiran and the COVID-19 vaccines) settles maturity. The 2023 Medicine prize honoured the modified nucleoside, not the vehicle. A citation about lipid design and assembly describes a different thing and is complementary, not a second vaccine prize.",
+    "case_against": "Credit is still the weak point, and I cannot settle it from the files. I chose Cullis, MacLachlan and Anderson because they cover the two steps I regard as decisive, the pKa-tuned ionizable lipid for systemic delivery (Cullis and MacLachlan) and the combinatorial route to new ionizable lipids that extended it to other targets and to mRNA (Anderson). Hope and Madden built the early Vancouver formulation methods, and a Cullis, Madden, Hope trio is the defensible alternative if the expert report shows they, not the later lipid optimisation, made the first working particles. Langer is excluded by the cap. Some members will also still see this as pharmaceutical engineering, and I remain a lipid scientist with a closeness to the topic, so I should not weigh my own taste too heavily.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist asked which lipid-assembly steps are decisive for endosomal escape, because that bears on whether Cullis's group or the lipidoid developers deserve the second and third slots.",
+        "response": "My answer is the pKa window, the ion-pair-driven shift to a non-bilayer phase in the endosome, and rapid-mixing assembly with a sheddable PEG-lipid. The first two come from the Cullis and MacLachlan ionizable-lipid optimisation, which is why they stay in my trio. The third, and the generalisation to mRNA and new targets through lipid libraries, is the reason I keep Anderson over Hope or Madden. That is a judgment about which step decided the outcome, not a verified priority result, and I agree with you that the expert report should be able to overturn it."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai and Zou argue that Pd C-N coupling, with Buchwald and Hartwig as a clean pair, is a mature method that needed its own ligand and mechanistic solution, distinct from the 2010 C-C prize.",
+        "response": "Your ligand-and-mechanism argument persuades me that C-N coupling is not a duplicate of 2010, and I keep B004 as my first alternative. What I weigh differently is the kind of discovery. B004 refines how a bond is made in a field the Academy honoured recently. B040 gives a design rule connecting charge, lipid phase and membrane fusion that opened a modality which did not exist before. If the committee puts clean attribution first, B004 is the safer choice, and I would not call that a mistake. My own judgment is that a contested trio is still a fairer price for a larger conceptual gain."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes proposed Cullis, Madden and Hope in the opening for the lipid nanoparticle part, and prefers targeted protein degradation (B046) in round 1, noting that no designed PROTAC is approved.",
+        "response": "I take your Cullis, Madden, Hope trio seriously as the early-formulation reading, and the decision between that and mine is exactly the primary-literature question the chair posed. Where I part from you is on B046. Your own caveat, that the medical benefit is prospective and the two lineages may be stitched together, is the reason I do not move it ahead of a mechanism that is already validated clinically. I would be glad to revisit degraders when a designed degrader is approved."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke asked whether I could weigh clean credit against a discovery with reach beyond chemistry, and as chair asked whether the committee wants a delivery prize soon after the 2023 Medicine mRNA prize.",
+        "response": "My weighing is that clean credit matters but should not decide alone, and B021 has it while B040 does not. I would rather accept a harder attribution than a prize that is easier to write but has had less effect on what chemists can do. On recency, I do not see 2023 as a bar, because it recognised the nucleoside and not the lipid carrier, and a citation that says lipid design and assembly keeps the two apart. I also accept your point on phase separation, B043: the in-cell interpretation is not settled, so I no longer treat it as a first choice, and it stays a long-term alternative."
+      }
+    ],
+    "uncertainties": [
+      "Whether the primary literature supports Cullis, MacLachlan and Anderson, or Cullis, Madden and Hope, as the first to establish the pKa-tuned ionizable lipid for in vivo delivery; I cannot verify patent and publication priority.",
+      "Whether the committee will read lipid design and assembly as a chemistry discovery or as pharmaceutical formulation.",
+      "Whether the 2023 Medicine prize still makes a lipid-delivery citation look like a second prize for the mRNA story to the wider Academy.",
+      "Whether the committee will put clean two-name attribution (B004) ahead of novelty of modality."
+    ],
+    "conflict_note": "No tie to any shortlisted candidate. My research on lipid self-assembly is close to the lipid nanoparticle topic and may lead me to overweight it; I flag this as scientific closeness and not as a ground for recusal. Heiner Linke and Peter Somfai are Lund colleagues on the committee but not candidates. My disclosure is unchanged from round 1."
+  }
+}

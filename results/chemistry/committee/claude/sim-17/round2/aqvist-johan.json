@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-17",
+  "member_id": "aqvist-johan",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, the programmable chemical conversion of single DNA bases without double-strand breaks, including the directed evolution of deaminases that act on DNA"
+      }
+    ]
+  },
+  "alternatives": [
+    "B038",
+    "B064"
+  ],
+  "statement": {
+    "case_for": "I keep base editing by Liu alone as a single-part prize. The chair asked for one sentence on the chemical discovery that is not a CRISPR extension, and mine is this: Liu showed that a nucleobase in genomic DNA can be converted to another base, C to U and then T, or A to I and then G, by a deaminase positioned at a programmed site, and he made the adenine case possible by evolving an RNA-acting enzyme (TadA) into a deaminase for DNA, an activity no natural enzyme provides. That is new-to-nature catalysis obtained by directed evolution and judged against quantitative editing outcomes, not a reuse of cleavage. The 2020 prize honoured programmable DNA cutting; this is programmable chemical modification of a base without cutting, which changes what the tool is for. It also meets my game-changer test: the idea is simple, it was reproduced widely within a few years, and patients have been treated. Liu alone is the attribution I can defend most cleanly, since he conceived the strategy and ran the evolution programme, and the three-name limit then costs nothing here.",
+    "case_against": "The CRISPR platform was honoured in 2020, and a reader who sees a Cas nickase fused to a deaminase will call this an extension, as Somfai, Linke and Brzezinski argue. The Nishida and Kondo Target-AID work is a close, independently published cytidine-deaminase design, and the citation cannot be allowed to claim more priority for the cytosine editor than the record supports. Komor and Gaudelli carried the experimental work, and omitting them is a real cost. Clinical benefit is early, and off-target and bystander deamination is not fully quantified, as Chabes and Sparr note. A one-name prize also looks narrow in a year with several mature multi-contributor fields, and no configuration yet has five supporters.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai asked what is new chemically beyond protein evolution, and said the adenine editor with its evolved deaminase is the part with real chemical content.",
+        "response": "I think his own answer is mine. The adenine base editor is the decisive case: there is no natural adenosine deaminase for DNA, and Liu obtained one by evolving TadA through many rounds of selection, so the editor is new catalysis, not merely a new fusion. I would build the citation on that and on programmed base conversion rather than on the Cas9 architecture. On his B058 plus Crews pairing, I find C-N coupling mature and attractive, but with the 2010 cross-coupling prize behind it and a Crews-only credit that shortchanges Deshaies and Ciulli, I cannot make it the better prize."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke asked whether a Liu prize can be explained as a distinct chemical discovery rather than a CRISPR extension, and argued that nanopores introduce a new transduction principle.",
+        "response": "The 2020 prize recognised cutting DNA at a chosen address; this recognises changing a base at that address without cutting, by chemistry the platform did not contain. That is the explanation I would give a general audience, and it rests on the deaminase evolution. I accept his point that nanopores are a new measurement principle and I respect their maturity. My difficulty is attribution: Deamer, Branton, Kasianowicz, Bayley and Akeson hold distinct founding claims, and his three names leave out two of them. Liu alone has no such problem, which is why I rank B011 ahead of B003 even though nanopores are older in deployment."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou proposed pairing Liu alone with a nitrogenase structure credit for Rees and Einsle, and argued that trainee first authors are normally recognised through the principal investigator.",
+        "response": "I am glad Zou agrees on Liu alone, and I accept the trainee argument. I am not moving to his two-part prize. Nitrogenase is a secure structure, but substrate binding and turnover intermediates are unresolved, Brzezinski and Somfai say the same, and the credit then leaves out Dean, Seefeldt and Ribbe. Adding a second part would not make the prize more defensible; it would add an attribution problem to a clean one. I keep B064 as an alternative, and would revisit it if the expert report shows the cofactor structure can carry a citation by itself."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili and Chabes place targeted protein degradation first, arguing the chemistry is explicit and quantitative, that the mechanism is confirmed, and that approval should not be the test.",
+        "response": "I agree that approval is not the test, and the ternary-complex cooperativity is the kind of quantitative chemistry I value, which is why B038 is my first alternative. My objection is that the two stories are still entangled: the PROTAC concept (Crews, Deshaies, Ciulli) and the thalidomide-cereblon glue mechanism (Handa, Ito, Gray) are separate discoveries, and a trio that honours one leaves out the work that explains an existing drug class. If the committee can settle on a PROTAC-only citation and accept that, I would find B038 a serious option; as it stands the credit is more contestable than for B011."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr pairs Hyman and Brangwynne on phase separation with Liu alone, and asked for evidence on off-target and bystander editing before the final ballot.",
+        "response": "The evidence request is fair, and I would put it to the expert report: the citation should name the editing capability and not promise a clean therapy. I still do not support phase separation this year. The question of which condensates are true phases and what function follows is open, and leaving out Rosen, Pappu and Mittag shows how hard the credit is. I have dropped it from my alternatives for that reason."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept the argument that deaminase evolution, and not the CRISPR platform, is the chemical core of the citation.",
+      "How the Nishida and Kondo Target-AID priority should be worded so that the cytosine editor credit is not overstated.",
+      "Whether the committee will accept a single name when Komor and Gaudelli were first authors of the founding papers.",
+      "How far off-target and bystander deamination should count against maturity when long-term clinical data are still accumulating."
+    ],
+    "conflict_note": "No tie to any credited candidate on the shortlist and no recusal needed. My Warshel and Uppsala ribosome and RNA connections are unrelated to base editing. My free-energy and EVB simulation field overlaps with protein folding theory (B036), which is not part of my configuration or alternatives. I have no new disclosure since round 1."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-33",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B017",
+        "laureates": [
+          "Tsutomu Miyasaka",
+          "Henry J. Snaith",
+          "Nam-Gyu Park"
+        ],
+        "citation": "For the discovery and development of halide perovskite absorbers for high-efficiency solar cells"
+      }
+    ]
+  },
+  "alternatives": [
+    "B054",
+    "B062"
+  ],
+  "statement": {
+    "case_for": "Halide perovskites are a structurally simple ABX3 family whose composition, defect tolerance and solution processability give a clear structure-to-function story, and certified efficiency rose from a few percent to above 25 percent in little over a decade. Miyasaka made the first perovskite-sensitized cell in 2009, and the solid-state devices of Park and of Snaith with Miyasaka's group established the thin-film architecture that drove the efficiency jump. The result has been independently reproduced worldwide for over a decade, and the discovery is chemical in nature: compositional engineering, crystal structure and defect chemistry set the device performance. Linke and I both ranked it first, he from the physics side and I from the materials side, which suggests the case is not tied to one discipline.",
+    "case_against": "Operational stability and lead toxicity are unresolved, so a commercial-maturity sceptic can argue the prize should wait for deployment evidence. Attribution is also genuinely hard: Kanatzidis, Gratzel and Seok made decisive contributions (Gratzel's solid-state cell and Seok's efficiency records), and any three-person cut will be called arbitrary. Only four of eight members ranked it at all, so it lacks the breadth of support that protein degradation has.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks perovskites first because the physics (large absorption, long diffusion lengths, defect tolerance) is quantitatively demonstrated and the field is far past the point where recognition is premature.",
+        "response": "I agree on the maturity and on the same trio. I would add that the chemical story, not only the device physics, is the reason this belongs in Chemistry: halide composition, cation mixing and phase stability determine the optoelectronic properties. I disagree mildly that stability and toxicity are minor caveats. They are the reason I would keep the citation on the absorber discovery and not on solar technology broadly, and I would not credit the efficiency records as such."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks Car-Parrinello first because it is a clean two-person credit with forty years of validated use, and ranks protein degradation second as a new modality.",
+        "response": "Car-Parrinello is a clean credit and I do not dispute the method's importance, but a prize for a simulation method needs the case that it changed what chemists can learn, and that case is spread over many follow-on methods and codes. It is less compelling to me than a discovery that created a whole materials field. On PROTACs I accept the modality argument but note that his choice of Ciulli with Crews and Deshaies, against Handa in my own trio, shows how much the credit depends on whether the citation is about degrader design or the cereblon mechanism."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first, as a precise chemical handle on the genome built on deaminase chemistry, with Liu, Komor and Gaudelli credited.",
+        "response": "The chemistry is elegant and Liu is clearly the leader, but I rank it below the materials candidates because the 2020 prize already recognised programmable genome editing, and the clinical outcomes that would show the lasting value are only starting to appear. A Liu, Komor and Gaudelli prize also gives two trainees the same weight as the originator, which seems the wrong split to me. I would want to hear what you think the citation excludes if Kondo and Nishida are left out."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation first as a new organising principle of the cell, reducing membraneless compartments to multivalency and phase behaviour.",
+        "response": "The concept is generative and I do not question its reach. My reservation is evidentiary: much of the support is from overexpressed proteins in vitro and from optical readouts, and the extent to which condensates are functional compartments in vivo is still debated, as Linke also notes. I would not support a prize whose citation claims a cellular mechanism that has not been shown with structural or quantitative evidence. Perovskites have no comparable open question about whether the discovery is real."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range electron transfer through proteins first, as a physically stated mechanism with four decades of confirmation, with Gray and Winkler as the decisive pair.",
+        "response": "The work is rigorous and the pair is clean. My concern is that the discovery is largely understood as a refinement and extension of Marcus theory, which was recognised in 1992, and that the credit overlaps with Beratan, Onuchic and Dutton, who are outside the supplied names. For a structural chemist the more direct way to honour how electrons and substrates move in metalloenzymes is the nitrogenase structures, where the atomic model of the FeMo-cofactor is determined and not inferred from kinetics."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a three-person cut that omits Kanatzidis, Gratzel and Seok, and whether Gratzel's solid-state work should displace Miyasaka or Snaith.",
+      "Whether stability and lead toxicity weigh enough with colleagues to make perovskites look premature compared with targeted protein degradation, which has more first-place and top-three support.",
+      "For nitrogenase, whether the unsettled catalytic mechanism (E4 Janus state, hydride chemistry) leaves a structure-only citation too narrow, and how credit would divide among Rees, Einsle, Seefeldt, Dean and Ribbe.",
+      "For protein degradation, whether the citation should rest on PROTAC design or the cereblon mechanism, and whether approvals are needed first."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile for the shortlisted candidates. I work on electron crystallography and framework materials, which is adjacent to the nitrogenase and perovskite structural questions but involves no personal or institutional tie to any credited person. Peter Brzezinski is a Stockholm University colleague, which is not a conflict for any candidate on this shortlist."
+  }
+}

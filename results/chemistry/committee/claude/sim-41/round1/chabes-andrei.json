@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of cytosine and adenine base editors, which chemically convert single DNA bases at programmed genomic sites without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B058",
+    "B023"
+  ],
+  "statement": {
+    "case_for": "Base editing is a deamination reaction, a well-defined nucleotide chemistry, put under programmable control. The cytosine editor uses cytidine deamination followed by uracil handling, and the adenine editor needed a deaminase evolved to act on DNA, a transformation with no natural enzyme. The outcomes are measured quantitatively as editing efficiency, product purity, bystander edits and off-target deamination, and that quantitative record is what I trust. The method has been reproduced in many laboratories and organisms, and has reached first clinical use, so recognition is timely. It gives biologists a general tool and a mechanism in one package. The three-person configuration of Liu, Komor and Gaudelli matches the experimental lineage of the two editor classes.",
+    "case_against": "CRISPR-Cas9 was recognized in 2020, and base editors are in part an engineering extension of it, so the committee may see this as too close to prior recognition. Long-term clinical safety, including off-target and guide-independent deamination, has not been settled, and the clinical record is short. Attribution is also contestable: Kondo and Nishida's Target-AID was an independent, near-simultaneous deaminase fusion, and including two former trainees alongside Liu could be criticized as diluting the senior inventor's credit. If the committee finds the field too young, B058 is the safer, more mature alternative.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks base editing first but proposes Liu alone, regarding the conceptual and broad engineering contribution as his and the trainees as secondary.",
+        "response": "I agree that Liu is the decisive figure, but I would not reduce the prize to him alone. The cytosine editor and the adenine editor are two distinct chemical solutions. The adenine editor required evolving TadA to deaminate DNA adenosine, which was a separate scientific problem rather than a repeat of the first. Komor and Gaudelli were the lead experimentalists on exactly those two steps. Since the rules allow up to three, a Liu-only citation would understate the record. I accept that the Kondo and Nishida priority question remains open and would drop the trainees if the committee prefers to credit Liu and Kondo."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks long-range electron transfer first and phase separation second, arguing for physical mechanisms stated quantitatively, and notes debate on which condensates are truly phase-separated.",
+        "response": "I share the preference for quantitative mechanism, which is why I rank condensates low. Brzezinski himself concedes that which cellular assemblies are phase-separated, and whether that matters functionally, is still unsettled. Showing that a droplet forms in vitro does not show that it functions in the cell, and I have seen assumptions fail once measured properly. Base editing is on firmer ground because the chemical outcome, a defined base conversion, is directly measurable in cells and patients. Gray and Winkler are a mature and clean case, but I see a weaker link to biology's current needs and no one else has ranked it, so I cannot support it as a first choice."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, ranks massively parallel sequencing first and would credit Balasubramanian, Klenerman and Rothberg, treating pyrosequencing and Solexa chemistry as two technology lines.",
+        "response": "I rank sequencing second myself and would not oppose it. My reservation is attribution. Rothberg's pyrosequencing platform used different chemistry than the reversible-terminator sequencing-by-synthesis that came to dominate, so a shared citation mixes two technologies, and the prize would be cleaner as Balasubramanian and Klenerman for the reversible-terminator chemistry. I would also say the timing argument cuts both ways. Sequencing is very mature and arguably overdue, but that makes it a prize that can wait, whereas base editing is at the point where its clinical validation is being established."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks PROTACs first and base editing fourth, with Liu and Kondo as laureates, and questions whether the prize should combine PROTACs with cereblon molecular glues.",
+        "response": "On Kondo I agree that the parallel work deserves weight, and my reservation is that Target-AID is a cytidine-deaminase fusion only, with no equivalent of the adenine editor, so a Liu and Kondo pairing would leave out half of the chemistry. I rank PROTACs third rather than first because no degrader is approved yet and the glue and PROTAC lineages are separate discoveries. I would favor a PROTAC prize limited to Crews, Deshaies and Ciulli over a combined one, but not before the clinical record firms up."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat base editing as sufficiently distinct from the 2020 CRISPR prize.",
+      "Whether Kondo and Nishida's Target-AID should be credited, and whether it can be fitted within a three-person limit alongside Liu.",
+      "Whether the adenine and cytosine editors should be credited as one achievement or whether later trainee credit should be dropped in favor of Liu alone.",
+      "The state of long-term clinical safety data for base-editing therapies, which I am recalling from memory and have not verified."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on nucleotide metabolism and DNA replication fidelity is topically close to base editing and sequencing chemistry, but I have no stated personal or institutional tie to the nominees."
+  }
+}

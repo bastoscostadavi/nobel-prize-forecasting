@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-15",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B066",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation, using bifunctional PROTACs and molecular glues to direct the ubiquitin-proteasome system to chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B062",
+    "B043"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation is a molecular design principle, not only a technique: a small molecule is built to bring two proteins together so that a cell's own ubiquitin-proteasome machinery removes a chosen target. The PROTAC concept (Crews, Deshaies) and the identification of cereblon as the thalidomide target (Handa) explain, in one framework, both engineered bifunctional degraders and the molecular-glue drugs already in the clinic. It turned formerly undruggable proteins into addressable ones and has spread into chemical biology, oncology, immunology and tool-compound design. Many independent groups have reproduced it, with extensive structural work on ternary complexes. By my test, whether researchers and clinicians can now do something they could not before, the answer is clearly yes.",
+    "case_against": "The strongest reservation is attribution. Ciulli (VHL ligands, ternary-complex structural rationale), Gray, Sakamoto and Kim all have credible claims, and a three-person cut inevitably leaves out decisive contributors. A second concern is clinical maturity: as far as I know no bifunctional degrader is approved yet, so part of the impact is still prospective, although the molecular-glue branch (thalidomide analogues acting through cereblon) is already established in medicine. There is also a risk that the committee reads this as primarily a pharmacology or medicine topic rather than chemistry, though the design of the heterobifunctional molecules and ligands is chemical.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks base editing first as a chemist's invention with a clear intellectual driver in David Liu, and he ranks PROTACs second with Crews, Ciulli and Handa, dropping Deshaies in favour of Ciulli.",
+        "response": "I agree that base editing is a real new capability and that Liu is its central figure. I rank it below degradation because its chemical content is narrower: engineered deaminase-Cas fusions, with the principal advance being protein engineering, whereas degraders give a transferable small-molecule design rule. On attribution I take his Ciulli-for-Deshaies swap seriously; Ciulli's structural work made VHL-based degraders rational. But Deshaies co-originated the proximity concept with Crews and demonstrated it early, so I keep the founding pair plus Handa. I would accept Ciulli in a revised three if the committee prefers rewarding later rationalisation over the original concept."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing first with Liu, Komor and Gaudelli, noting that Kondo and Nishida's independent deaminase-fusion work is a real complication, and puts PROTACs third because no approved PROTAC drug is evident.",
+        "response": "The approval point is fair and I have listed it as my main uncertainty. But I weigh mechanism and breadth of validation above a single approval milestone, and the molecular-glue half already has an extensive clinical record, so the principle is clinically proven. On base editing, the Kondo and Nishida question and the trainee-credit question (Komor, Gaudelli) make the laureate set less clean than the degrader founding trio, and I would want that resolved before putting it first."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou places zeolite design first and PROTACs fourth, and notes that base editing is only about ten years old so recognition could be somewhat early.",
+        "response": "I agree with her timing concern about base editing, which supports ranking it as an alternative rather than my first choice. Zeolite and molecular-sieve design is mature and industrially important, but it is a diffuse field with five plausible names and no single decisive discovery; I find it harder to credit than a concept with identifiable originators. I would like to hear which three people she thinks carry the decisive contributions."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular condensates first and ionizable lipid nanoparticles second, emphasising lipid self-assembly and pH-dependent phase behaviour made into a delivery technology.",
+        "response": "Her argument for lipid nanoparticles is persuasive on the chemistry; they are my second choice and the self-assembly angle is legitimate. My reservation is overlap with the 2023 Medicine prize on mRNA, and credit spread over academic and industrial groups. On condensates, I agree the concept is influential, but I share the worry that in vivo physiological relevance and the specificity of the phase-separation interpretation are still contested, which makes it less settled than degradation."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will credit Crews, Deshaies and Handa, or replace Deshaies with Ciulli or add Gray or Sakamoto.",
+      "Whether the lack of an approved bifunctional degrader weighs against recognition at this time.",
+      "Whether the molecular-glue and PROTAC branches should be presented as one achievement or as two parts."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile; I have no known personal or institutional tie to any shortlisted candidate. My ties are to Molly Stevens, Freddy Boey and Linköping, none of whom are on the shortlist, and I overlap in research interests with Emma Sparr, which is not a recusal matter."
+  }
+}

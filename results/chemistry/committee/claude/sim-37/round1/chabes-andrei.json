@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-37",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B068",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation, using designed small molecules to recruit the ubiquitin-proteasome system to selected proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B005",
+    "B063"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation turns a biological process, ubiquitin-dependent protein turnover, into a designable chemical reaction. A heterobifunctional molecule or molecular glue induces a ternary complex and the target is destroyed. The mechanism is well characterised, with structures of ternary complexes and a quantitative understanding of cooperativity. It is also a general tool: it reaches proteins that inhibitors could not, and it is used well beyond drug discovery as a chemical-biology probe. Independent groups have reproduced and extended the concept for two decades, and several degraders are in clinical trials. This is the kind of work where a biological phenomenon is reduced to a defined chemistry that others can use. Crews and Deshaies conceived and first demonstrated PROTACs, and Ciulli's VHL ligands and ternary-complex structural work made the approach chemically rational and general.",
+    "case_against": "The strongest reservation is attribution and timing. The PROTAC strand (Crews, Deshaies, Sakamoto, Ciulli) and the cereblon molecular-glue strand (Handa, Ito, and the thalidomide work) are arguably distinct discoveries, and a three-person limit forces us to leave out real contributors such as Gray, Sakamoto and Kim. Approved PROTAC drugs are not yet established, so clinical validation lags the chemistry. I also hold my own ranking with some caution, because as a biologist I may be drawn to a mechanism that resembles the biology I know.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel Aili ranked B068 first but proposed Crews, Deshaies and Handa, treating cereblon as the molecular-glue foundation, and noted that the PROTAC and glue branches could be argued as separate discoveries.",
+        "response": "I agree the two branches can be argued separately, and I do not think the committee should hide that. My own preference is Ciulli over Handa for the third place, because the VHL ligand work turned PROTACs from a peptide-based proof of concept into a cell-active, structurally understood chemical design principle. Handa's cereblon identification explains thalidomide-type glues but follows a different logic: glues were found largely by serendipity and explained afterwards. If the committee wants the glue strand credited, I would sooner write a citation broad enough for degradation as a chemical principle than let Handa displace the person who made the heterobifunctional design rational. I would like to hear why Daniel thinks cereblon is more decisive than VHL."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan Aqvist ranked machine-learned potentials first, ranked PROTACs third, and judged targeted degradation somewhat early because Phase 3 data are only now arriving and no drug is approved.",
+        "response": "Johan's maturity concern is fair, and I share part of it. My answer is that the committee has recognised chemistry whose therapeutic payoff was still being proved, and what has to be mature here is the chemistry, not the clinic. Ternary-complex formation, degrader design rules and the ubiquitin-ligase recruitment mechanism are reproduced across many independent laboratories and are well characterised. Where I agree with him is the contrast with B001: machine-learned potentials are certainly important, but I see four or five credible lineages (Behler-Parrinello, Gaussian approximation potentials, others) and a field still moving fast, so the timing and attribution risk looks to me at least as large as for degraders. I would ask him what experimental validation he treats as decisive for B001."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter Somfai ranked Pd-catalysed C-N coupling first as a method that changed how chemists everywhere build bonds, with a clean two-person attribution to Buchwald and Hartwig and a case that recognition is overdue.",
+        "response": "Peter makes the strongest attribution argument on the list: B011 has a clean two-person credit, which B068 does not, and its adoption in synthesis is universal and long confirmed. I ranked it only sixth, mainly because of its relation to the 2010 cross-coupling prize, so the committee would be honouring an extension of a recently recognised class of reactions rather than opening a new area. I accept this is a judgement about novelty rather than merit and I would not oppose it as a second choice. Where we differ is that degradation gives chemists a new capability, destroying a protein with a small molecule, rather than a better route to a bond already made. If the committee values attribution clarity above breadth, Peter's case is stronger than mine."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner Linke ranked dye-sensitised solar cells first and massively parallel sequencing second, and flagged an unresolved question about how far the 1980 Sanger prize limits a second sequencing award.",
+        "response": "I ranked sequencing second, so I take the Sanger concern seriously, but I do not think it is disqualifying. The 1980 prize honoured a different chemistry, chain termination, whereas sequencing-by-synthesis with reversible terminators and clustered arrays is a distinct and decisive advance, and the 2020s have shown its effect on medicine at scale. The harder problem for B005 is the one Heiner raised, the credit among Balasubramanian and Klenerman, Mayer, Rothberg and Ju. That makes it a good alternative but, in my view, a less clean three-person prize than B068. I do not yet see what makes dye-sensitised cells his first choice over these, given that the field's most active descendants (perovskites) are still unsettled on stability."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee prefers a PROTAC-centred prize (Crews, Deshaies, Ciulli) or one that includes the cereblon molecular-glue strand (Handa), and whether one citation can cover both fairly.",
+      "Whether clinical approval of a degrader should be awaited, or whether the chemistry alone is mature enough now.",
+      "My recollection of the exact clinical status and priority details of the early PROTAC and cereblon literature is not verified here.",
+      "How much weight the committee should give to Sanger-era precedent against B005 if sequencing is the alternative."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile. My work on nucleotide metabolism and replication fidelity lies near B005 and B064 as topics, but I have no personal or institutional tie to any shortlisted candidate (my collaborators and mentors, such as Rothstein, Stillman and Thelander, are not on the shortlist)."
+  }
+}

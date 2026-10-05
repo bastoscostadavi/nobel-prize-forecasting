@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B012",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "for the development of massively parallel DNA sequencing by synthesis"
+      }
+    ]
+  },
+  "alternatives": [
+    "B024",
+    "B046"
+  ],
+  "statement": {
+    "case_for": "Massively parallel sequencing is a chemical achievement at its core: reversible-terminator nucleotides, cleavable fluorophores and clonal cluster amplification turned DNA reading into a controlled, repeatable cycle of defined reactions, lowering cost by orders of magnitude. It has been independently reproduced for fifteen years and is the working basis of genomics, cancer genetics and clinical diagnostics. In my own field it is what lets us measure mutational signatures and replication errors directly, so I can judge from use that the claimed impact is real. Maturity is not in question, and Balasubramanian and Klenerman form a coherent pair whose Solexa chemistry is the part of the story that is unambiguously chemistry.",
+    "case_against": "Credit is the weak point. 454 pyrosequencing (Rothberg), Columbia terminator chemistry (Ju) and Mayer's parallel clonal arrays are parallel routes to the same end, so any two- or three-person citation will look arbitrary to some. The Sanger and Gilbert prize (1980) already honoured sequencing chemistry, and some may see this as a technology or medicine prize rather than a chemistry one. If the committee cannot settle the allocation, B024 is the cleaner prize.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Car-Parrinello is a clean two-author, four-decade-old method whose credit is not in doubt and whose recognition is overdue.",
+        "response": "I agree that attribution is better for B024 than for any sequencing configuration, and that is a real advantage. But a clean attribution is not the same as higher merit. I judge B024 on how widely it changed experiments, and for me the reach of sequencing into every biological discipline is larger than that of ab initio MD. I would not oppose B024 if sequencing credit cannot be resolved, but I do not think credit difficulty alone should demote B012."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner puts B024 first for its clear principle and puts B012 second with Rothberg added to Balasubramanian and Klenerman, accepting that the sequencing allocation is contestable.",
+        "response": "I take the point about Rothberg and I see why you and Daniel Aili include him. His 454 platform came first commercially and used a different chemistry. But adding him mixes two chemically distinct routes, and the 2020 and 2023 prizes show this committee has cited a single mechanism when it could. I prefer to keep the Solexa pair as the chemical core and would accept a third name only if the committee wants one sequencing citation covering both platforms."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranks ionizable lipid nanoparticles (B064) first as the delivery chemistry that made siRNA drugs and mRNA vaccines clinically usable, a gap left by the 2023 Medicine prize.",
+        "response": "The pKa-tuned ionizable lipid is a good chemical design principle and the clinical validation is beyond question. My reservation is attribution: six names are credited, and the Cullis, Hope and Madden group, MacLachlan and the Anderson-Langer lipidoid work are separable contributions with different mixes of formulation and lipid design. Sequencing has a similar problem, but I find the Vancouver trio harder to separate from the MIT work than Solexa from 454. I also doubt that LNP reaches as many fields as sequencing."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter ranks Pd-catalyzed C-N coupling (B006) first as the strongest molecule-making candidate: general, mature and used industrially across thirty years.",
+        "response": "I accept that B006 is mature and well reproduced, and the Buchwald-Hartwig pairing is clean. My hesitation is the same one Peter names: the 2010 cross-coupling prize already covers a closely related reactivity concept, so the conceptual step is smaller. I would weigh this more than he does. This is a disagreement of weight, not of facts, and I would not oppose B006 if it gets a majority."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a two-person Solexa citation or insist on including Rothberg (454) or Ju and Mayer.",
+      "Whether sequencing, given the 1980 Sanger and Gilbert prize, is treated as a chemistry achievement or as a methods-for-medicine prize.",
+      "I have not independently verified the invention chronology among Solexa, 454, Lynx and the Columbia terminators."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile; none of the shortlisted candidates is a known collaborator or Umeå colleague. My dNTP and replication-fidelity work is a user of sequencing but is not a personal tie to B012's credited names."
+  }
+}

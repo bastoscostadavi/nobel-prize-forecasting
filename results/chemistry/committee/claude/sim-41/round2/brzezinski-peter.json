@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-41",
+  "member_id": "brzezinski-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "David R. Liu",
+          "Alexis C. Komor",
+          "Nicole M. Gaudelli"
+        ],
+        "citation": "For the development of cytosine and adenine base editors, which chemically convert single DNA bases at programmed genomic sites without double-strand cleavage"
+      }
+    ]
+  },
+  "alternatives": [
+    "B058",
+    "B007"
+  ],
+  "statement": {
+    "case_for": "My preferred configuration is unchanged: base editing (B018) as the whole prize, credited to Liu, Komor and Gaudelli. The chair's first question is whether the record supports Liu alone or the lead experimentalists as well. My reading is that the two editor classes are separate inventive steps. The cytosine editor fuses a native APOBEC deaminase to a nickase Cas9 and a uracil glycosylase inhibitor, which is a design problem about uracil handling in DNA. The adenine editor needed a TadA deaminase evolved to act on DNA, because no natural adenine deaminase acts on DNA. That evolved activity is a new chemical capability, not a second use of the first idea. Komor and Gaudelli carried the experimental work for each class. On the dates, my recollection (which the expert report must confirm, since the supplied files do not contain it) is that the Liu laboratory cytosine editor appeared in April 2016 and the Kondo and Nishida Target-AID paper later that year, and that the adenine editor followed in 2017 with no counterpart from the Japanese group. If that holds, the priority claim is parallel and later for cytosine and absent for adenine. The citation can then name the chemical transformation of a nucleobase at a programmed site, which is separate from RNA-guided cleavage in the 2020 prize. A single-prize configuration also keeps the three-person limit clean.",
+    "case_against": "Three names for one concept will look to some like dilution of the senior inventor, which Aqvist and Linke argue. I cannot rule out that a careful reading of the primary papers makes Komor and Gaudelli look like executors of Liu's design. Kondo and Nishida are left out, and the report must say why in terms of dates and scope. Clinical safety (bystander edits, off-target and guide-independent deamination) is still accumulating, and base editing follows genome editing closely in time. I also accept that the one-part prize is thin in breadth beside a two-part configuration, but I do not think a second part should be added only to fill the prize.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Moved to a two-part prize of Liu for base editing and Balasubramanian and Klenerman for sequencing by synthesis, with attribution called unusually clean in both parts.",
+        "response": "I take the sequencing part seriously, and I have moved B058 to the top of my alternatives because of your argument and the chair's summary. I still do not think attribution is clean in either part. For base editing, naming Liu alone is clean only if the adenine editor is read as the same invention as the cytosine editor, and the TadA evolution argues against that. For sequencing, the report would need to show that reversible-terminator chemistry is the core discovery and that excluding Rothberg's 454 lineage and Mayer is principled. The pairing also fixes the budget at three people, which is the reason you can name only Liu. That constraint is driving the choice of names, and the scientific record should drive it."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Base editing and sequencing by synthesis together read and write DNA by chemical means, giving a citation explainable in two sentences, with sequencing arguably overdue and mature.",
+        "response": "I find the read and write framing attractive for the public but loose as a scientific unification. The two parts share a substrate (DNA) and no mechanism, and a Nobel citation should rest on a discovery that can be stated on its own terms. Your own case_against names the 454 and Mayer priority problem, and I agree it is real, since the platform lineage would sit inside the citation. I would accept B058 if the expert report isolates the reversible-terminator chemistry, but I would want that as a stand-alone decision and not as a second half of a pairing. On the distinction from CRISPR, I agree with your wording point: the citation should name the chemical conversion of a base, as mine does."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "The cytosine and adenine editors match the experimental lineage of a three-person prize, with the quantitative record as the basis for trust, and B058 as the safer mature alternative.",
+        "response": "I agree and I rely on the same quantitative record (editing window, product purity, bystander edits). I would add the procedural point that the citation should name both editor classes, as the one I propose does. Your warning about diluting the senior inventor is the strongest objection to our configuration, and the answer has to come from the primary papers. If the report shows Komor's and Gaudelli's roles as design rather than execution, I would reduce the set to Liu alone and say so in the final ballot. I share your view that B058 is the right fallback if base editing is judged too young."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Pairs Crews and Ciulli for PROTACs with Liu for base editing, giving two distinct mechanisms acting on proteins and the genome.",
+        "response": "The two mechanisms are distinct, and I appreciate that you flag the omission of Deshaies and of Komor and Gaudelli as uncomfortable. That discomfort is the problem for me. The PROTAC part drops Deshaies, and leaves out the cereblon glue strand that Handa and Ito opened, which is a separate discovery with its own mechanism, as you and the chair note. With no approved degrader from the core modality, I think B023 is better judged in a later cycle, when the credit split between heterobifunctional degraders and glues is clearer."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Biomolecular phase separation (B007) as a general physical-chemical organizing principle, with about fifteen years of reproduction.",
+        "response": "I value the physical framework, with the thermodynamics and multivalency that you stress, and I keep B007 among my alternatives. The in-cell question still matters to me: which assemblies are truly phase-separated in vivo is contested, and the chair's question about crediting the framework without those claims has no answer that also handles Pappu and Mittag. Until that is resolved, I think it is a later-cycle candidate."
+      }
+    ],
+    "uncertainties": [
+      "The exact dates and scope of Target-AID against the Liu cytosine editor, which I recall from memory and which the supplied files do not settle.",
+      "Whether the primary papers show Komor and Gaudelli as lead inventors of the two editor classes or as executors of Liu's design, which would move me to Liu alone.",
+      "Whether reversible-terminator chemistry can be credited alone for B058 after Sanger in 1980, given Rothberg's 454 lineage and Mayer.",
+      "Whether the committee prefers a one-part prize to a two-part prize when the second part has an unresolved credit problem."
+    ],
+    "conflict_note": "No conflict requiring recusal. As Secretary I disclose my Stockholm University connection to Xiaodong Zou and my biophysical interest in electron transfer in proteins (B028), which is not in my final configuration. My field (respiratory enzymes and proton transfer) has no tie to any candidate in B018, B058 or B007."
+  }
+}

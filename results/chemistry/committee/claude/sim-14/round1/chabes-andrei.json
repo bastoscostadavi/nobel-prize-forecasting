@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-14",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B034",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For developing targeted protein degradation, in which small molecules recruit ubiquitin ligases to destroy chosen proteins, and for identifying cereblon as the target through which thalidomide-type molecular glues act"
+      }
+    ]
+  },
+  "alternatives": [
+    "B012",
+    "B011"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation turns a cellular process, ubiquitin-dependent proteolysis, into a designable chemical reaction. A bifunctional PROTAC or a molecular glue forms a ternary complex that brings a chosen protein to an E3 ligase, and the outcome (loss of the protein) is something other molecules cannot achieve by inhibition. The mechanism is defined at the level of binding, ternary-complex cooperativity and ubiquitin transfer, and it has been reproduced independently by many groups. The glue arm is the strongest evidence of maturity: Handa's identification of cereblon as the thalidomide target explained, after decades, how drugs already in patients work, and lenalidomide and pomalidomide are established medicines. The PROTAC arm (Crews and Deshaies from 2001) supplied the generalisable design principle and has become a standard tool for biologists, who can now remove a protein acutely and test what it does. Few discoveries combine a clean chemical principle, a tool used across biology, and a drug-discovery modality.",
+    "case_against": "Allocation is the real difficulty. Eight names are credited, and a three-person cap leaves out Ciulli (VHL ligands, ternary-complex structure), Sakamoto and Kim (early PROTAC experiments), Gray and Ito. Crews and Deshaies on the PROTAC side and Handa on the glue side makes a defensible set, but a prize that spans two arms risks looking like a compromise between two discoveries. Also, PROTAC-type degraders have not yet produced a broad record of approved drugs, so the clinical verdict is early, and a committee reading chemistry narrowly could ask whether this is chemical biology and pharmacology more than chemistry.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner ranks nanopore sequencing first and treats degraders as possibly early because many compounds are in trials but approvals are lacking.",
+        "response": "I accept that PROTAC clinical proof is incomplete, but that is why I anchor the citation to Handa and cereblon: the glue mechanism explains approved drugs with a decade of patient data, so the concept is not untested in the clinic. On nanopores, I find the physical principle elegant and the technology mature, but attribution seems harder to me than for degraders. Branton has died, and the line from the Kasianowicz/Deamer/Branton translocation work to Akeson's enzyme-ratcheted reading and Bayley's pore engineering involves several distinct steps that a three-person limit would split awkwardly. I would like to hear which three he would pick and why."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranks base editing first with Liu, Kondo and Nishida, stressing the parallel-credit question, and degraders second.",
+        "response": "We agree on the top two, though in a different order. I would not put Kondo and Nishida in the trio for base editing: Target-AID was a real, independent report of cytidine deamination, but the cytosine and adenine base editors, with the evolved TadA deaminase and the full characterisation of editing outcomes, are Liu's programme, and Komor and Gaudelli did the experiments that established them. The main problem for base editing is not priority but whether the committee wants to follow the 2020 CRISPR prize so soon. Degraders have no such overlap, which is my reason for putting them ahead."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan ranks massively parallel sequencing first, as a chemistry-driven idea (reversible terminators on clustered single molecules) with realised impact on biology and medicine.",
+        "response": "The impact is not in question and I ranked sequencing fifth myself. My hesitation is the one he names: how much of the achievement is chemistry? Reversible terminator chemistry with cleavable fluorophores is a real chemical invention, and the Balasubramanian and Klenerman attribution is clean. But the committee would need to decide that the prize rewards the chemistry rather than the platform engineering that followed, and the 1980 and 1993 prizes already touched DNA sequencing and PCR. I would support it as a strong alternative if the discussion favours a mature, high-impact method over a newer modality."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Emma ranks phase separation first as a new physical-chemical concept of cellular organisation, and also ranks degraders fourth, citing early timing.",
+        "response": "I am glad to see degraders on her list. For phase separation, my reservation as someone who prefers measurements over models is that the concept is real but the evidence for which condensates are truly phase-separated in vivo, at physiological concentrations, remains contested and sometimes rests on overexpression. Degraders have a simpler experimental criterion: the target disappears, and the ternary complex can be measured. That makes the mechanism easier to certify today."
+      }
+    ],
+    "uncertainties": [
+      "Whether the prize should span both PROTACs and molecular glues or be limited to one arm, and if limited, which one",
+      "Whether Crews, Deshaies and Handa is the right three among Ciulli, Sakamoto, Kim, Gray and Ito",
+      "Whether the clinical record for bifunctional degraders is long enough to count as demonstrated impact",
+      "How much weight the committee gives to the 2020 CRISPR prize if base editing comes up as an alternative"
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. My work on dNTP pools and ribonucleotide reductase is not related to any shortlisted candidate, and I have no personal or institutional tie to the credited people."
+  }
+}

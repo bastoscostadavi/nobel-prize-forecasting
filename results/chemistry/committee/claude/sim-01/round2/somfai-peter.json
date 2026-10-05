@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "I keep Pd-catalysed C-N cross-coupling as a single-part prize for Buchwald and Hartwig. The chair asked what the 1994-1995 work supplied that the 1983 Kosugi and Migita tin-amide coupling lacked. Four things. First, a catalytic cycle that works with the amine itself: Kosugi needed a pre-made, toxic aminostannane, whereas the 1995 Buchwald and Hartwig systems deprotonate the amine in situ with a base, so tin disappears and any amine can be a substrate. Second, scope: the 1983 reaction was essentially limited to aryl bromides and a few tin amides of secondary amines, and it did not tolerate functional groups or give primary amines. Third, mechanism: Hartwig's isolation of the oxidative addition and amido intermediates and the study of C-N reductive elimination, and the identification of beta-hydride elimination as the competing pathway, explained the failures and told chemists how to fix them. Fourth, ligand design: chelating bisphosphines (BINAP, DPPF) and then bulky electron-rich phosphines and carbenes turned the reaction into a predictable, general method including aryl chlorides, primary amines and ammonia surrogates. The citation can say plainly that the prize is for the general, ligand-controlled catalytic method, with Kosugi named in the background text as the precursor. Three decades of use in pharmaceutical and materials synthesis make it the only candidate whose impact is measured and not forecast.",
+    "case_against": "The 2010 prize for Pd cross-coupling remains the strongest objection, and I cannot dismiss that some colleagues will read B011 as a continuation. My answer is that Heck, Negishi and Suzuki concerned C-C bond formation, and C-N coupling required its own mechanistic understanding and ligand classes, but this is a judgement about distinctness, not a fact the committee can verify. Kosugi's exclusion is defensible on generality but still leaves a real precursor without a seat, and I have not verified the priority dates at the level of individual manuscripts. Finally, the committee may weigh clinical consequence above chemical generality, in which case B008 or B016 would rank higher, and I accept that this is a legitimate difference in criteria and not an error.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke prefers a two-part prize pairing B011 with Liu alone for base editing (B008), and asked me to state what was missing in 1983 so the omission of Kosugi can be defended.",
+        "response": "My answer is in the case for: the 1983 reaction needed a stoichiometric aminostannane, was narrow in scope, and had no ligand-based mechanistic framework, while the 1994-1995 systems used free amines with a base and made the reaction general. On the pairing, I do not oppose it on scientific grounds for B011, but I do not think B008 fixes my reservation. A one-name second part is a weak prize for a field where Komor and Gaudelli did the decisive experiments, and I would rather present one clean part than a combination chosen to fit the three-name limit. I would not block the pairing if the committee finds the chemistry of base editing persuasive."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes prefers base editing for Liu, Komor and Gaudelli and ranks B011 lower because the 2010 prize already covers the underlying Pd chemistry, deferring to the synthetic chemists on how distinct C-N coupling is.",
+        "response": "I appreciate the deference, and as the synthetic chemist I will say it directly: the 2010 prize did not cover the bond that matters most in pharmaceuticals. The ligand and base requirements, the competing beta-hydride elimination and the reductive-elimination step for C-N are different from the C-C cases and had to be solved separately. On base editing, I still ask what is new chemically. The cytosine deaminase fusion is a clever application of a known enzymatic reaction, and Liu's evolved adenine deaminase is the strongest chemical element, but I would still view it as protein engineering following the 2020 prize. I have not changed my view, though your point about reproducibility and clinical use is fair."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist favours PROTACs and molecular glues (B009) for novelty, but concedes that B011 is the least contested on maturity and attribution and would not stand in the way.",
+        "response": "I am grateful for that, and I agree that novelty counts. My concern with B009 remains the one I raised in round 1, and you state it yourself: PROTACs and cereblon glues are historically separate achievements, and no degrader is widely approved. I would rather the committee wait than write a citation that spans two discoveries and omits Ciulli, Sakamoto, Ito and Gray. If you can show that the clinical record for a degrader is about to be settled, I would revisit B009 in a future year. For this year, I think maturity and attribution should outweigh novelty relative to 2010, since C-N coupling is a distinct bond construction and not a repeat."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou moved from three names to two for B011, dropping Kosugi and treating his tin-amide work as precedent for the background text.",
+        "response": "I agree and your change settles the attribution as far as I am concerned: two names, with Kosugi acknowledged in the committee's background. I would add one point for the citation wording. It should say general, so that the prize rests on scope and mechanism and not on being first to form an aryl C-N bond, which would invite the priority dispute with Kosugi and Migita. If you disagree and think the precursor deserves a seat, I would want to see evidence that the 1983 system influenced the later catalysts directly, which I have not found."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee treats the 2010 prize as closing Pd cross-coupling, or accepts C-N coupling as a distinct achievement; this is a judgement that the literature cannot settle.",
+      "The exact dates and manuscripts for priority between Kosugi and Migita, Guram and Buchwald, and Louie and Hartwig, which I have described from memory and have not checked against the primary papers.",
+      "Whether a two-part prize with B008 would be more broadly acceptable and whether I should accept it as a compromise if no single configuration gets five votes.",
+      "Whether native chemical ligation (B001) or base editing (B008) is the better fallback if B011 fails to gain a majority."
+    ],
+    "conflict_note": "No change. I trained with Satoru Masamune and work in synthetic methodology, but have no personal or institutional tie to Buchwald, Hartwig, Kosugi or any other shortlisted name. I am a Lund colleague of Linke and Sparr, which does not affect this assessment."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-40",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B056",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation, using bifunctional molecules that recruit ubiquitin ligases to remove chosen proteins."
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B048"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation has the clearest underlying principle of the shortlist and the strongest generative potential. It replaces occupancy-based inhibition with event-driven, catalytic removal of a target by recruiting an E3 ligase, and the physics is quantitative (ternary-complex cooperativity, catalytic turnover). It is supported by four first-place rankings and six top-three rankings, so it is the one candidate with broad cross-subfield support. Crews and Deshaies supplied the PROTAC concept and first proof of principle, Crews drove the cell-permeable small-molecule and in vivo development, and Ciulli supplied the structural basis (VHL ligands, cooperativity) that made degraders drug-like. This yields a citation that can be explained to a broad audience.",
+    "case_against": "The strongest reservation is attribution and maturity. A three-person limit forces the molecular-glue line (Handa and Ito on cereblon, with Gray, Sakamoto and Kim) out of the named laureates, even though thalidomide-cereblon is the most clinically consequential strand. Clinical proof is still maturing, and no degrader has yet become a broadly established approved drug, so recognition could be slightly early. If the committee wants the molecular-glue strand honored, the configuration is no longer clean.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B056 first but proposes Crews, Deshaies and Handa, so that cereblon, the thalidomide target, anchors the molecular-glue branch.",
+        "response": "I take the point that Handa's identification of cereblon is the mechanistic foundation of the most clinically consequential degraders, and I do not dismiss it. My difficulty is that Handa's work is the discovery of a target of an existing drug class, while PROTAC design is a transferable principle, which is what the citation should describe. Ciulli's VHL ligands and cooperativity work generalised the design logic, whereas cereblon explains one family. I am willing to be persuaded if Aili or Chabes can show that the cereblon discovery is the more decisive original step than the VHL structural work, but I would then want the citation to say 'induced proximity to ubiquitin ligases' so both strands fit."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranks biomolecular phase separation first as a new thermodynamic description of cell organisation, and places B056 third.",
+        "response": "I respect the physical-chemistry case, and as a physicist I like the multivalency and phase-behaviour framing. My reservation is the one Sparr herself names: whether condensates are physiologically functional or in vitro demixing is still debated, and that is a maturity problem. B056 has independent mechanistic confirmation and a clinical pipeline. I would keep B024 as a candidate for a later year rather than this one, but I would not argue it is unworthy."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranks Pd-catalysed C-N coupling first as a general, universally adopted method, and notes it may overlap with the 2010 cross-coupling prize.",
+        "response": "I agree that Buchwald-Hartwig amination is mature and widely used, and I do not equate the 2010 overlap with a bar. My concern is generative potential: it is a better version of a known disconnection, while degraders open a new class of targets. I would ask Somfai whether he sees the original discovery as distinct from Kosugi's precedent and the 2010 work in a way that supports a stand-alone citation, because I cannot yet separate them as cleanly as I can for degraders."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks the design of molecular-sieve catalysts first because structure determines function and the industrial reach is large, with crystal structures verifying the designs.",
+        "response": "The industrial impact is real and the structure-function evidence is exactly the quantitative evidence I look for. My difficulty is the one Zou notes: the discovery to honour is not sharply defined, and credit is spread across new frameworks, structure-directing agents and catalyst engineering. I would not be able to write a short citation for B059 today, and a prize I cannot explain in one sentence is hard to defend, so I would need Zou to name the single original step."
+      }
+    ],
+    "uncertainties": [
+      "Whether the prize should centre on PROTACs alone or include the cereblon molecular-glue discovery (Handa), given the three-laureate limit.",
+      "Whether late-stage clinical results are needed before recognition; I rely on recollection of trial status rather than verified data.",
+      "Whether Sakamoto's early PROTAC work should weigh more than my opening ballot assumed."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. Colleagues Somfai and Sparr are Lund colleagues, which is a collegial connection, not a conflict with any candidate. As chair I am a physicist, so I rely on the chemical-biology members for field detail."
+  }
+}

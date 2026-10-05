@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-34",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B068",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Alessio Ciulli"
+        ],
+        "citation": "For the development of targeted protein degradation by chemically induced proximity, using bifunctional PROTAC molecules to direct E3 ubiquitin ligases to destroy chosen proteins"
+      }
+    ]
+  },
+  "alternatives": [
+    "B024",
+    "B003"
+  ],
+  "statement": {
+    "case_for": "Targeted protein degradation turns a biological process, ubiquitin-dependent proteolysis, into a designable chemical reaction. A bifunctional molecule forms a ternary complex, and the resulting degradation is measurable, event-driven and catalytic, which is a mechanism and not just a phenotype. The 2001 Crews and Deshaies proof of principle, the later small-molecule PROTACs, and Ciulli's structure-guided VHL ligands and ternary-complex work (cooperativity, selectivity) give a coherent chemical story. It has been reproduced independently across many targets and E3 ligases, and degraders are in late-stage clinical trials. Biologists also use it as a general tool, for acute and reversible depletion of proteins, including in my own area of replication and dNTP-metabolism enzymes. A trio of Crews, Deshaies and Ciulli gives one clean citation around the PROTAC concept and its chemical underpinnings.",
+    "case_against": "Clinical validation is still incomplete, because no PROTAC has been approved, so the prize may be a few years early and could be hurt if late-stage trials disappoint. The credit pool is also crowded: the cereblon and thalidomide molecular-glue thread (Handa, Ito, Kim, Sakamoto, Gray) has a distinct origin and a stronger link to approved drugs. A PROTAC-only trio leaves out the part of the field with the most patient benefit so far. If the committee will not separate the two lineages, any three-person split looks arbitrary.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks base editing (B024) first as a clear game-changer: new chemistry on DNA in situ without double-strand breaks, already in clinical trials, with a Liu-centred attribution.",
+        "response": "I agree that base editing is a strong, cleanly Liu-centred discovery and I kept it as my first alternative. It is also closest to my own interest in genome fidelity. But I would not put it ahead of degraders on mechanism. Base editors are an engineering of known deaminase chemistry plus a Cas scaffold, and they sit in the shadow of the 2020 CRISPR prize, while PROTACs add a new pharmacological principle, event-driven catalysis through induced proximity. I take his point that the clinical record for base editing is young, and I hold degraders to the same standard on timing. On that criterion they are about equal, so I prefer the one whose chemistry is more novel."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou includes Handa in the B068 trio and notes that the cereblon discovery underpins glue degraders, making the PROTAC/glue boundary the key complication.",
+        "response": "This is the most serious qualification of my proposal, and I take it seriously. Handa's identification of cereblon as the thalidomide target explains a drug that was already in the clinic, and the glue lineage is closer to approved therapeutics than PROTACs are. I still prefer Crews, Deshaies and Ciulli because the unifying concept the committee can cite is designed induced proximity, and glues were largely recognised mechanistically after the fact. But if the committee wants a citation covering both degrader classes, Handa should replace Ciulli, and I would want that tested in the next round rather than settled by default."
+      },
+      {
+        "member_id": "brzezinski-peter",
+        "point": "Brzezinski ranks nitrogenase (B009) first: a physically grounded mechanism of N2 reduction with structures confirmed over three decades, but a credit split among Rees, Dean, Seefeldt, Einsle and Ribbe that he calls unresolved.",
+        "response": "I share his preference for mechanism backed by direct measurement, and the nitrogenase structures are solid. My hesitation is that the catalytic mechanism is still debated, as he and Zou both note, so recognition would rest on structure plus a mechanism that is not settled, and the five-person credit problem remains. For degraders, the central claim (a ternary complex leads to ubiquitination and degradation) has been directly measured many times. I am open to nitrogenase if the committee can agree on a defensible three, but at present I do not see that agreement."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks Car-Parrinello molecular dynamics (B023) first: a clear principle with unambiguous two-person attribution, fully mature, but possibly close to the 1998 DFT and 2013 multiscale prizes.",
+        "response": "The attribution is as clean as anything on the list, and I do not dispute that the method is mature and widely validated. My reservation is relevance to the question I ask first, which is what chemical mechanism now lets us do something new. A method that reproduces and predicts is valuable, but I am less able to judge its distinctness from earlier computational prizes, so I will defer to the chemists on the committee there. I would not oppose it as a prize and consider it a legitimate contender, but I do not see a reason to rank it above B068."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks degraders first with me but also puts sequencing (B060) second and phase separation (B003) third, noting that credit for sequencing is contestable.",
+        "response": "We agree on B068 and its maturity caveat. I am less convinced by sequencing as a Chemistry prize even though it matters to my work, because the committee would have to decide credit among the Solexa, pyrosequencing and clustering lineages, which looks harder than the degrader split. I treat phase separation as the better of his later choices, but I think its physiological relevance is still contested in the way Brzezinski describes, so I would put it behind degraders."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will recognise PROTACs and molecular glues in one prize or leave the cereblon lineage for a later year.",
+      "Whether the absence of an approved PROTAC drug makes the timing too early, and how the committee weighs that against mechanistic maturity.",
+      "Whether Ciulli or Handa (or Sakamoto, as author of the first small-molecule PROTAC) is the right third name beside Crews and Deshaies.",
+      "My account of credit priority comes from memory of the literature and the supplied credit list, not independent verification."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no stated personal or institutional tie to the B068 candidates, though I know the dNTP and replication communities, which use degraders as tools."
+  }
+}

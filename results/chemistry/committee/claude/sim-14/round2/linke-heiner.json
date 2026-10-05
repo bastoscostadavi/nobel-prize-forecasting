@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-14",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Shankar Balasubramanian",
+          "David Klenerman"
+        ],
+        "citation": "For the invention of massively parallel DNA sequencing by synthesis, using reversible terminator nucleotides with cleavable fluorophores on clustered single molecules"
+      }
+    ]
+  },
+  "alternatives": [
+    "B034",
+    "B012"
+  ],
+  "statement": {
+    "case_for": "I have withdrawn the nanopore part (B001) and now propose a single achievement. Sequencing by synthesis is the one candidate where the discovery, the chemistry and the credit can all be stated in one sentence: a reversible terminator with a cleavable fluorescent label, so that one base is added and read per cycle, applied to clonally clustered single molecules. The chemistry is concrete and quantitative, since cycle efficiency and error rates are measurable and were driven by molecular design. The consequences are mature, independently confirmed over fifteen years and more, and broad enough that the citation can be explained to a general audience as making the reading of genomes cheap and routine. The Cambridge pair gives a clean two-person credit within the three-person cap. Aqvist and I now hold the same configuration, and he, Chabes, Aili and Sparr all placed it in their top five or among their alternatives, so it has the widest tolerance of any candidate in the round, even if it has few first choices.",
+    "case_against": "The strongest objection, raised by Chabes, Sparr and Aqvist himself, is that this rewards a platform that biology and medicine adopted rather than a chemical discovery. I answer that the reversible-terminator chemistry is the invention and the citation should say so, but I accept that the objection will persuade some members. Attribution is still open: Rothberg's pyrosequencing was the first commercial massively parallel system, and Mayer and Ju contributed clustering and terminator chemistry; I leave them out of the citation because the Cambridge chemistry is what became dominant, but I cannot verify the priority claims from the files. A one-part prize also forgoes the breadth that a second part could bring, and it has only two first-place supporters, so it is far from a majority today.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist keeps Balasubramanian and Klenerman alone, and argues that nanopore credit is spread over five people with a deceased pioneer, and that 454 pyrosequencing was not the route that came to dominate.",
+        "response": "He is right on both counts and I have changed my configuration accordingly. I drop B001 and I do not add Rothberg. My earlier attraction to nanopores rested on the physical principle, but the chair's summary and several members showed that I cannot name a defensible, living, three-person set from Kasianowicz, Deamer, Akeson, Bayley and Branton, and I also cannot support crediting Bayley alone for the whole field. I agree that nanopore sensing may deserve a separate prize later. Where I would still press him is the citation: it should name the reversible-terminator chemistry on clustered molecules, so that it reads as a chemical invention and not as a prize for sequencing the genome."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes anchors B034 on Crews, Deshaies and Handa, with the glue arm (cereblon and thalidomide-type drugs) as the evidence of maturity, and asked which three I would pick for nanopores.",
+        "response": "His question settles the nanopore point: I cannot give three names I could defend, so I withdrew it. On B034, his argument about cereblon is the best answer to my worry about clinical maturity, since the glue drugs have a decade of patient data. But it also makes my attribution problem sharper, because a citation that spans the PROTAC concept (Crews, Deshaies) and the cereblon mechanism (Handa) is two discoveries under one heading, and the cap leaves out Ciulli, Sakamoto, Kim and Gray. I keep B034 as my first alternative and would move to it if the committee agreed on a single citation and a settled trio, but I do not see that yet."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili pairs PROTAC degraders (Crews, Deshaies, with Handa optional) with base editing by Liu alone, as two designable chemical conversions that reached the clinic.",
+        "response": "I agree with him that B034 has a clear design principle and the broadest opening support. I disagree that adding Liu strengthens it. Base editing builds directly on the Cas9 targeting that the 2020 prize honoured, and the answer to my round-1 question, what is a new principle rather than an application, is still that the new part is protein engineering of a natural deaminase, which Somfai also stresses. The paired configuration also needs four or five names to be fair, which breaks the three-person cap if Handa is included. I keep B012 as a second alternative, not a preferred part."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr questions whether sequencing is a prize for a chemical idea or for a platform adopted by biology and medicine, and prefers condensates (B026).",
+        "response": "This is the right test, and I think B011 passes it if the citation is worded around the terminator chemistry. On condensates, I still regard the idea as important but the in vivo evidence as uneven, as she concedes herself, and the credit among Hyman, Brangwynne, Rosen, Pappu and Mittag is unsettled. I do not think it is ready for this year, though I would be glad to see it again."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards sequencing by synthesis as chemistry; I think the terminator chemistry carries that case but five or more members may not agree.",
+      "Whether Rothberg (454) or Mayer and Ju should appear; I rely on Aqvist's and the expert reports, not on my own recollection, and priority among Solexa, Lynx and 454 is not settled in the files.",
+      "Whether B034 can be reduced to one defensible citation and trio; if so it may have a stronger claim to a majority than B011.",
+      "The living status of the nanopore candidates is not established in the files, which is part of why I withdrew B001."
+    ],
+    "conflict_note": "No specific conflict: none of the candidates in my configuration is at Lund or linked to NanoLund. My interest in molecular motors and ratchets, which made me favour nanopore sequencing in round 1, no longer bears on my preferred configuration, and I withdrew that part partly to avoid letting that bias shape the vote."
+  }
+}

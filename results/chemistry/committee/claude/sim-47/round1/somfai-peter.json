@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-47",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B002",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of general palladium-catalysed carbon-nitrogen cross-coupling, which made aryl amines routine to build."
+      },
+      {
+        "ballot_id": "B029",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "For the development of base editing, programmable chemical conversion of single DNA bases without double-strand cleavage."
+      }
+    ]
+  },
+  "alternatives": [
+    "B018",
+    "B016"
+  ],
+  "statement": {
+    "case_for": "B002 is the clearest case on the shortlist of a method that changed how chemists everywhere build molecules. Ligand design (bulky, electron-rich phosphines and carbenes in the Buchwald and Hartwig families) turned an erratic transformation into a general, predictable one with defined mechanism. It is used daily in discovery and process chemistry and in materials. The adoption is visible in the literature, and 25 or more years of independent confirmation leave no maturity question. B029 is the second part because its chemical content is concrete: evolved deaminase chemistry applied to a nucleobase in situ, with Liu's group conceiving both the cytosine and adenine editors. It is a different kind of achievement (programmable molecular editing in living systems) from B002, so pairing them as two distinct contributions is defensible, and Liu alone keeps the union at three people.",
+    "case_against": "The 2010 cross-coupling prize covered closely related Pd chemistry, and some colleagues will say C-N coupling is an extension and not a new principle. For B029, genome editing was recognised in 2020, long-term clinical outcomes of base-edited therapies are still limited, and Komor, Gaudelli, Nishida and Kondo have credible claims that a Liu-only citation sets aside. A two-part prize also risks looking like a compromise between chemistry's core and a hot biology-adjacent topic rather than a single strong idea.",
+    "responses": [
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks Pd-catalysed C-N coupling first as an enabling method with broad, demonstrable impact, a Buchwald-Hartwig two-person prize, and notes that Kosugi's precedent needs a citation and that it does not overlap with 2010.",
+        "response": "I agree on merit and on the pair. On Kosugi, tin amides were stoichiometric in tin and toxic, and the practical catalytic reaction came from Buchwald and Hartwig through ligand design. I would handle him in the citation or background text, not the laureate list. On overlap with 2010 I am slightly less comfortable than Zou: C-C coupling and C-N coupling share the Pd(0)/Pd(II) manifold, so the committee has to be able to say what was new chemically, and I think the answer is ligand control of reductive elimination from Pd-amido complexes."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes puts base editing first: a defined chemical reaction (cytidine and later adenosine deamination) made programmable, mechanistically transparent, reproduced widely and now in clinical use.",
+        "response": "This moved me to add B029 as a second part, since the chemistry is more real than I credited in my opening ranking. I disagree on two points. First, a Liu-led trio including Komor and Gaudelli is hard to separate from Nishida and Kondo's Target-AID, so I want the committee to look at credit before calling it clean. Second, the CRISPR prize in 2020 means that we must be able to say what base editing adds chemically, and I think the answer is the evolved adenine deaminase (TadA), which has no natural counterpart. That is why I prefer Liu alone."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks targeted protein degradation first as a new pharmacological principle (E3-ligase hijacking) that makes undruggable targets accessible and can be tested quantitatively, with Crews, Deshaies and Handa covering the PROTAC and molecular-glue branches.",
+        "response": "The concept is genuinely new, and I keep B018 as a first alternative. My reservation is maturity and chemical content: no degrader drug is approved, and much of the heterobifunctional design is medicinal-chemistry optimisation of ligand-linker-ligand compounds. The cereblon story is the more fundamental discovery, but it is biochemical target identification and is hard to credit in the same citation as PROTAC design. I would want a clear approval or strong late-stage data before putting it ahead of a method with decades of use."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, ranks base editing first with David Liu alone as the most defensible attribution, a clean chemical principle with strong replication and clinical entry.",
+        "response": "I agree that Liu alone is the most defensible attribution and have adopted it. Where I differ is on whether base editing should stand alone as the entire prize. I would pair it with a mature method whose effect on chemistry is already established, since otherwise the Chemistry prize risks reading as a second genome-editing prize four to six years after 2020."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee sees B002 as sufficiently distinct from the 2010 cross-coupling prize.",
+      "Whether a two-part prize pairing a methodology achievement with base editing is coherent, or whether B002 should stand alone.",
+      "Whether credit for B029 should be Liu alone or include Komor and Gaudelli, and how to treat Nishida and Kondo.",
+      "Whether degraders (B018) will have approved-drug evidence soon enough to change the ranking."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: none of the shortlisted candidates is a mentor, collaborator or Lund colleague. I share a Lund affiliation with Heiner Linke and Emma Sparr, but that is not a conflict for these candidates."
+  }
+}

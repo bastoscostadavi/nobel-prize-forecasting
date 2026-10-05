@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-32",
+  "member_id": "sparr-emma",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B064",
+        "laureates": [
+          "Pieter R. Cullis",
+          "Michael J. Hope",
+          "Thomas D. Madden"
+        ],
+        "citation": "For the design of ionizable lipid nanoparticles and their controlled self-assembly, which made nucleic-acid medicines deliverable in vivo"
+      }
+    ]
+  },
+  "alternatives": [
+    "B025",
+    "B046"
+  ],
+  "statement": {
+    "case_for": "Ionizable lipid nanoparticles are, at bottom, a physical-chemical solution: a lipid whose charge is switched by pH is neutral in circulation and cationic in the endosome, and rapid controlled mixing drives self-assembly into particles that encapsulate nucleic acid. The principle (pKa tuning, phase behaviour of lipid and nucleic-acid mixtures, membrane fusion and destabilisation) is general, was reasoned out from lipid polymorphism, and has been independently confirmed through approved siRNA and mRNA products. Three of us ranked it in the top three on different grounds, which suggests it holds up whether one weighs molecular design or consequence. The 2023 Medicine prize recognised the nucleoside-modified RNA cargo, not the carrier, so the chemistry of delivery is not yet recognised. I still rate biomolecular condensates (B025) as the most important conceptual advance in my own area, but I now judge B064 the stronger and better-attributable case this year.",
+    "case_against": "Credit is spread over six names and across academia and companies (Vancouver, Alnylam, MIT), so a three-person limit is contentious and Anderson and Langer, who contributed combinatorial lipidoid discovery, would be left out. There is also a real risk the prize is read as medicine rather than chemistry, and I must be careful not to favour it just because lipid self-assembly is my own field.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks B064 first: pKa-tuned ionizable lipids plus controlled mixing are the enabling chemistry for siRNA drugs and mRNA vaccines, and the Vancouver group (Cullis, Hope, Madden) built the core concepts.",
+        "response": "I agree with the principle and with the core Vancouver trio, and from the lipid phase-behaviour side I would add that the key insight is mechanistic: the ionizable lipid promotes a non-bilayer, fusogenic phase in the endosome, which is why the design works. Where I qualify your view is the neglect of Anderson and Langer; their lipidoid libraries are what optimised potency in the clinical formulations, so the committee should state explicitly why the three-person line falls before them, namely that the concept and first demonstration belong to Cullis, Hope and Madden."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks B024 first for its clean credit and forty years of use, and warns that after the 2023 Medicine prize B064 may be seen as belonging to medicine and has little clear space.",
+        "response": "I take the clean attribution of Car and Parrinello seriously and do not dispute its stature; I ranked it only sixth because ab initio dynamics is a method used across chemistry, whereas B064 is a molecular design that created a new capability. On your Medicine concern I disagree: the 2023 prize honoured the nucleoside modification that stopped the immune response to the RNA, while the carrier is a separate, chemically defined invention, as Sanger's sequencing and the later genome-editing prizes were both distinct from their downstream medical uses. I would nonetheless accept B024 as a strong alternative if the committee prefers theory, though it is not in my configuration."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist puts B024 first as a game-changer for theory with the cleanest two-person credit and ranks B064 third, noting that credit is spread and the mRNA part was recently recognised.",
+        "response": "I share your caution about credit, and that is the reason my configuration is a single part with three named people rather than a six-name list. I would press on one point: you propose Cullis with Anderson, but the first ionizable-lipid and rapid-mixing work, and the pKa argument, came from Cullis with Hope and Madden. Anderson's contribution is later optimisation, so I think the trio is more defensible than Cullis and Anderson alone."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks B012 first, arguing that sequencing-by-synthesis chemistry is the foundation of genomics and is overdue, with a clean Balasubramanian and Klenerman core.",
+        "response": "The impact of B012 is beyond doubt and I would not object to it, but the chemistry content is narrower than the technology: reversible terminators are an elegant but incremental piece of nucleotide chemistry, and the award would end up crediting an instrument platform with several competing routes (454, Ion Torrent, Lynx, Columbia terminators). I would want the committee to decide which route is decisive before accepting a pair, whereas for B064 the decisive concept is a single, identifiable one."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee accepts that the lipid-delivery concept is chemistry rather than medicine after the 2023 Medicine prize",
+      "Where to draw the three-person line among Cullis, Hope, Madden, MacLachlan, Anderson and Langer; I am relying on my recollection of priority and have not verified dates",
+      "Whether B025 (biomolecular condensates) is mature enough, given debate about in vivo phase separation, to be preferred over B064 later in the process"
+    ],
+    "conflict_note": "No specific personal or institutional conflict with the B064 candidates is apparent from my profile. I work on lipid self-assembly, so I am scientifically close to this topic, and I share Lund with Heiner Linke and Peter Somfai; none of this is a recusal issue as far as I can tell, but colleagues should discount my enthusiasm accordingly."
+  }
+}

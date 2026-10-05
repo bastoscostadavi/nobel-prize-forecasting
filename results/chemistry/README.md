@@ -39,6 +39,18 @@ Terra's five neutral profile versions have 13, 10, nine, nine, and nine simulati
 
 ## One-shot comparison
 
+For comparison, we asked **Claude Opus 5.5** who would win, without simulating a committee or providing a candidate list. The graph summarizes 50 independent answers.
+
+<table>
+  <tr>
+    <td align="center"><img src="../../docs/figures/chemistry-claude-oneshot-distribution.png" alt="Claude one-shot outcome distribution across 50 answers" width="470"></td>
+  </tr>
+</table>
+
+Opus selects next-generation sequencing (Balasubramanian, Klenerman, and Mayer) in 31 answers and controlled radical polymerization in 16 (Matyjaszewski and Sawamoto, joined by Rizzardo in six). The remaining three answers name metal halide perovskite solar cells, nanoparticle drug delivery, and chaperone-assisted protein folding. The one-shot answers and the committees diverge sharply. Targeted protein degradation, the Claude committees' leading outcome, never appears in the one-shot answers. Sequencing wins two committee decisions, both without Mayer, and controlled radical polymerization wins none. Every laureate named in the one-shot answers is alive.
+
+### GPT-6.1 Sol
+
 For comparison, we asked **GPT-6.1 Sol with high reasoning effort** to predict the prize in **60 independent one-shot forecasts**, without a candidate list, profiles, or committee discussion. Each forecast used a fresh Codex CLI session with browsing and other tools disabled. The [versioned question](../../prompts/chemistry_oneshot_gpt_6_1_sol_v1.txt) is the Medicine one-shot question adapted to Chemistry; Physics used a shorter question. Standard Codex system instructions still apply, but no additional experimental context was supplied.
 
 ![GPT-6.1 Sol Chemistry one-shot distribution across 60 independent forecasts](../../docs/figures/chemistry-openai-oneshot-distribution.png)

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-01",
+  "member_id": "sparr-emma",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B016",
+        "laureates": [
+          "Pieter R. Cullis",
+          "Michael J. Hope",
+          "Thomas D. Madden"
+        ],
+        "citation": "For the design of ionizable lipids and the lipid-nanoparticle systems that encapsulate nucleic acids and release them in cells, enabling nucleic-acid medicines"
+      }
+    ]
+  },
+  "alternatives": [
+    "B011",
+    "B008"
+  ],
+  "statement": {
+    "case_for": "I keep B016 as a single-part prize with Cullis, Hope and Madden. Having read the full first round, the two questions that matter are whether this is a distinct chemical achievement and whether the credit can be written narrowly enough to defend. On the first, the achievement is physical chemistry: a lipid whose headgroup charge depends on pH, so that it is near neutral in blood and charged in the endosome, and whose bilayer-to-non-bilayer phase behaviour governs both entrapment of polyanionic nucleic acid and membrane fusion and release. This was established as a design principle, not found by screening. It is also the only shortlisted item whose consequences are already delivered at scale, with approved siRNA therapy and mRNA vaccines. The 2023 Medicine prize honoured the nucleoside modification of the cargo, and three members (Chabes, Aili, myself) have independently argued that it does not cover the vehicle. On the second question, Aili and Somfai both said they could support B016 if the achievement were narrowly defined as ionizable lipid design for nucleic-acid encapsulation with a clean trio. I propose exactly that wording, and Cullis, Hope and Madden are the group where entrapment, ionizable lipids and the extrusion and formulation methods were developed. MacLachlan, Anderson and Langer made real later contributions (SNALP development and clinical translation, lipidoid libraries), but I read them as development and screening built on that foundation.",
+    "case_against": "Attribution remains the weakest point and I do not want to hide it. A three-person limit excludes MacLachlan, whose role in turning the Vancouver lipids into the first clinical product is substantial, and Anderson and Langer, whose lipidoids shaped the modern ionizable-lipid space. Patent and priority disputes around particular lipids could make any trio look arbitrary, and Aili and Somfai have each noted that. There is also a category risk: some colleagues will read this as pharmaceutical formulation, and no member has yet argued that the chemistry is separable from the application. Finally no single configuration has five supporters, and B016 has only two explicit supporters, so I should be candid that B011 or B008 may be easier to defend on attribution.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "B016 should keep Anderson in the trio beside Cullis and Hope, because the lipidoid libraries opened the modern ionizable-lipid chemical space, with MacLachlan moved out.",
+        "response": "We now agree on Cullis and Hope as the core, and I want to be fair to your argument that the lipidoid line widened the chemical space. I still do not move to Anderson, because the citation we can defend is the design principle, pH-dependent charge with bilayer-to-non-bilayer phase behaviour driving entrapment and endosomal release, and Madden is part of the group that established it, while lipidoid screening is a later and different strategy. If the committee insists on a lipidoid element, the honest statement is that it needs its own credit and cannot be added without displacing a Vancouver name. I would rather keep the citation narrow than stretch it to fit a fourth strand."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "B011 is the clearest case of a new bond-forming method, mature and reproduced for three decades, with Buchwald and Hartwig as the right pair and Kosugi left out; C-N coupling needed its own ligand and mechanistic solutions after the 2010 prize.",
+        "response": "Your argument that the 2010 laureates did not work on C-N bond formation is persuasive, and the attribution to two names is cleaner than anything I can offer for B016. I agree that Kosugi's tin chemistry is a precursor. My difficulty is comparative, as I said in round 1: B011 refines a field the Academy has already recognised, whereas ionizable lipid nanoparticles open one it has not. I also note that you said you could support B016 for a narrow achievement with a clean trio, which is what I am now proposing. I list B011 as my first alternative because I would vote for it before accepting a lipid trio the committee considers arbitrary."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Base editing converts a defined deaminase reaction into a programmable single-nucleotide change without a double-strand break, with Liu, Komor and Gaudelli as the trio, and Chabes also holds B016 as an alternative with the Vancouver trio.",
+        "response": "We agree on the Vancouver core of B016 and that the 2023 prize addressed the cargo. On B008 I take seriously your point that base editing is a different chemical idea from the CRISPR cut, but Somfai's question about what is chemically new, and Linke's about whether the credit sits with Liu alone or three names, are not yet answered for me, and the Nishida and Kondo work complicates the citation further. B008 is a strong alternative in my view, though its clinical record is shorter and the safety questions (bystander and off-target editing) are real. B016 has the longer record of delivered medicines."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "The strongest two-part prize pairs B011 with B008 (Liu alone), giving one synthetic-methods part and one chemical-biology part with a union of three people, and the chair acknowledges that the maturity of the two parts is uneven.",
+        "response": "I see the logic of a two-part prize, but I do not think it is the most defensible configuration. The Liu-alone part omits Komor and Gaudelli, which you accept is a compromise, and you also describe the maturity of the two parts as uneven. The pairing is also driven partly by the three-person cap, not by a shared scientific story. A single, coherent prize with one narrow citation seems to me safer than a pairing whose parts one would have to explain separately. I also thank you for lowering B067 on my earlier question about who made the decisive step among five nanopore contributors, which I think was the right call."
+      }
+    ],
+    "uncertainties": [
+      "Whether MacLachlan or Anderson should displace Madden or Hope if the committee prefers a citation covering the first clinical product or the lipidoid line.",
+      "Whether the committee accepts ionizable-lipid nanoparticle design as chemistry rather than formulation, in the shadow of the 2023 Medicine prize.",
+      "How patent and priority questions among the Vancouver, industrial and lipidoid strands would look in a published scientific background.",
+      "Whether B011 or B008, which have more explicit supporters, will prove easier to defend on attribution once the final ballot is cast."
+    ],
+    "conflict_note": "No change from round 1. None of the B016 candidates is connected to Lund or to my research group. My lipid and membrane research is scientifically adjacent to B016 and B003, and I share a Lund affiliation with Heiner Linke and Peter Somfai, but I regard this as expertise and not a recusal issue."
+  }
+}

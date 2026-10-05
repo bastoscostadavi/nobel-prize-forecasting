@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-06",
+  "member_id": "aili-daniel",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B026",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies",
+          "Hiroshi Handa"
+        ],
+        "citation": "For the development of targeted protein degradation, in which small molecules induce proximity between a chosen protein and the ubiquitin-proteasome system so that the protein is destroyed rather than inhibited"
+      }
+    ]
+  },
+  "alternatives": [
+    "B060",
+    "B039"
+  ],
+  "statement": {
+    "case_for": "I keep targeted protein degradation first after the full exchange. The achievement is a chemical design principle: a small molecule is built to create a ternary complex between a chosen protein and an E3 ligase, and the ligase then catalyses ubiquitination of the target. Event-driven rather than occupancy-driven action is a new capability that chemists and clinicians did not have. The mechanism is quantitative (ternary-complex cooperativity, linker and ligand structure-activity, degradation kinetics) and has been reproduced in very many laboratories. The cereblon work of Handa and Ito explains the glue arm and shows that one induced-proximity principle covers glues and heterobifunctional degraders, so a single citation is coherent. Five of eight members now name the same three laureates, and each of the other three lists this as an alternative, which suggests the scientific case survives scrutiny, although I do not treat that count as the argument.",
+    "case_against": "No heterobifunctional degrader is approved, so the clinical proof for the PROTAC arm is still pending. Some of the visible success is pharmacology, and the citation must be worded in chemical terms. The three-person limit leaves out Ciulli, Sakamoto, Kim, Gray and Ito, and each of them made contributions that serious colleagues would call decisive. Ciulli in particular made the field rationally designable through VHL ligands and ternary-complex structures. A prize now could be read as arbitrary if the committee cannot justify the cut.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Peter argues that the core chemistry of B026 is linker and ligand design on known E3 ligase binders, so it may be pharmacology rather than a chemical invention, and he prefers Buchwald and Hartwig as a cleaner, mature contribution.",
+        "response": "I take the chemistry-versus-pharmacology question seriously and have tried to answer it with a citation that names no drug. What is new is a design rule: bring a ligase and a target together by a small molecule and the target is ubiquitinated and destroyed. That involves molecular recognition, cooperativity in a ternary complex and the structural basis of glue action, which are physical-organic and structural questions. I agree that C-N coupling is mature and cleanly attributed, and I keep it as my first alternative. But I would still put it second, because it extends a known way of making bonds, whereas degraders change which targets can be addressed at all, and I do not think the 2010 overlap disqualifies it so much as lowers its novelty."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner treats the lack of an approved PROTAC as the strongest objection and notes that the 2001 proof of concept and the cereblon mechanism are two possible anchors for the citation.",
+        "response": "My answer to the chair's maturity question is that the standard should be mechanistic and reproducibility evidence, not drug approval, and B026 meets it: ternary-complex structure and kinetics, independent replication, and approved cereblon-dependent glues acting by the same principle. I have therefore anchored the wording on induced proximity, which covers both arms and does not depend on a PROTAC approval. I accept that if the committee insists on approval, the PROTAC arm would have to wait and that would be a legitimate view. On sequencing by synthesis, I agree with you that it is a strong fall-back, but the reports do not show the reversible-terminator chemistry as cleanly separable from the 454 and Mayer lineages, so I would not move it ahead of degraders."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Xiaodong flags Ciulli's VHL ligands and ternary-complex structures as possibly decisive and asks whether Ciulli rather than Deshaies or Handa belongs in the trio.",
+        "response": "This is the hardest cut and I have reconsidered it. Ciulli's VHL ligands and structures turned the concept into rational design, and I would not call him less central than Deshaies. I still keep Crews, Deshaies and Handa for two reasons. Crews and Deshaies conceived and first demonstrated the PROTAC principle, with the 2001 report as the anchor, and Handa's cereblon work is the only one that explains the glue arm, so these three cover both branches with one mechanistic thread. Replacing Deshaies would make the origin of the idea less clear. I do not think the choice is free of cost, and if Ciulli's structural work is shown to be the key step in rationalising the field, I would accept a version with Ciulli in place of Deshaies."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan is willing to hear a case for Ciulli replacing Deshaies and also worries that the prize may be for the drugs rather than the chemical principle.",
+        "response": "I agree the citation must honour the principle and not the drugs, which is why mine mentions no compound. On Ciulli, I can see the case but I stay with Deshaies because the 2001 proof of concept and the induced-proximity idea are the origin of the field, and Ciulli's structural work builds on that. I also agree with you that base editing follows closely after the 2020 CRISPR prize and has thinner clinical evidence, which is why I now place it below C-N coupling among my alternatives."
+      }
+    ],
+    "uncertainties": [
+      "Whether Ciulli should displace Deshaies as the third laureate; I find this a close call.",
+      "Whether the committee accepts the absence of an approved PROTAC as consistent with maturity, which is a judgement of standard and not a fact I can check.",
+      "I rely on memory for current clinical status and the exact dates of the key reports, and have not verified them.",
+      "Whether the cereblon story is read as chemistry or as pharmacology by the rest of the committee."
+    ],
+    "conflict_note": "No conflict with Crews, Deshaies, Handa or Ciulli. My peptide-nanoparticle and biosensor work is distant from this field, and my postdoc mentors Molly Stevens and Freddy Boey are not credited anywhere in my configuration or alternatives."
+  }
+}

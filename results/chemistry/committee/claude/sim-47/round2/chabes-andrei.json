@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-47",
+  "member_id": "chabes-andrei",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round2_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B029",
+        "laureates": [
+          "David R. Liu"
+        ],
+        "citation": "for the development of base editing, programmable chemical conversion of single DNA bases without double-strand cleavage"
+      },
+      {
+        "ballot_id": "B018",
+        "laureates": [
+          "Craig M. Crews",
+          "Raymond J. Deshaies"
+        ],
+        "citation": "for the conception and first demonstration of targeted protein degradation by bifunctional small molecules that recruit E3 ubiquitin ligases"
+      }
+    ]
+  },
+  "alternatives": [
+    "B016",
+    "B002"
+  ],
+  "statement": {
+    "case_for": "My configuration is unchanged after round 1. Base editing is a defined hydrolytic deamination of a nucleobase, made programmable by tethering an engineered deaminase to a nickase. Directed evolution gave an adenine deaminase (TadA variants) with no natural counterpart, so the chemistry is new and not a borrowed observation. It has been reproduced in very many independent laboratories and is in early human trials. Targeted protein degradation introduces event-driven, induced-proximity pharmacology: a small molecule hijacks an E3 ligase and the cell removes the target. The concept has been confirmed repeatedly since 2001 and compounds are in the clinic. The two parts are distinct achievements, one on the chemistry of nucleic acids and one on the chemistry of protein homeostasis, and each can carry a short citation with one or two names, keeping the total at three people. The wording of the B029 citation is built on the engineered base-editor concept, so it does not claim priority for the first deaminase fusion and does not extend to prime editing (B028), which I keep outside it.",
+    "case_against": "The honest risks are maturity and optics. Base editing follows the 2020 CRISPR-Cas9 prize by only six years and its clinical record is short, which Somfai and Aili rightly say could make a base-editing part look like a second genome-editing prize. Targeted protein degradation has no approved degrader that I can confirm, so benefit is shown by mechanism and by trials, not by approval. My PROTAC citation also leaves out the cereblon and glue strand (Handa, Ito) and Ciulli's VHL ligands, which are real attribution costs, and a Liu-only part sets aside Komor, Gaudelli, Nishida and Kondo. A single-achievement prize would be simpler to explain, but none of the single candidates has a majority behind it, and I do not think either of my parts is strong enough alone to carry the whole prize without that criticism.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist holds B018 as the whole prize with Crews, Deshaies and Handa, arguing that both the PROTAC and the cereblon glue strands rest on one idea, redirecting the ubiquitin-proteasome system by small molecules, and that one citation can cover them. He is open to swapping Handa for Ciulli.",
+        "response": "I accept the unifying idea, but I still read the two strands as different discoveries made by different methods: Crews and Deshaies designed a bifunctional molecule, while Handa identified the target of a drug already in use. Handa's identification of cereblon is a measured, well-reproduced result and I would not dispute its importance. My objection is to the citation: a single sentence that covers both has to be so general that it stops saying what was discovered. If the committee wants Handa, I would rather see it argued as its own part than folded into the PROTAC citation, and I agree with Aqvist that Ciulli is the weakest exclusion in my own wording. I also agree with him that clinical approval should not be the test for a mechanism that is this well confirmed, but I would not put B018 alone, because that leaves the committee with a choice between a three-name compound citation and a contested exclusion."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai pairs B029 (Liu alone) with B002, argues that the new chemistry in base editing is the evolved TadA adenine deaminase, and says a base-editing-led prize would read as a second genome-editing prize four to six years after 2020 unless it has a mature partner.",
+        "response": "His TadA argument is the best answer to the CRISPR objection and I adopt it in my case: the adenine editor depends on an enzyme activity that evolution did not provide, so the chemistry added after 2020 is real. I disagree that the partner must be a mature method. A prize that pairs one idea in nucleic-acid chemistry with an idea in protein homeostasis shows two separate fields and does not repeat the 2020 award. On B002 he has not yet answered the chair's question to my satisfaction. Ligand control of reductive elimination from Pd-amido complexes is a real advance, but it is ligand optimisation within the manifold recognised in 2010. I have therefore moved B002 into my alternatives in place of B023, because its attribution and maturity are the cleanest on the list, and I would take it seriously if the two-part configuration fails to hold."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke, as chair, shares the Liu plus Crews and Deshaies configuration and asks whether a Liu-only citation is defensible given Nishida and Kondo's Target-AID priority claim, and whether prime editing should stay outside it.",
+        "response": "I think it is defensible if the citation is limited to the engineered base editors that convert cytosine and adenine in a programmed way, and says nothing of being first to fuse a deaminase to a targeting protein. Target-AID is an independent parallel line, and my profile cannot tell me who deserves priority, so I would add the Nishida and Kondo claim to the background text for the committee instead of naming them. I agree that B028 stays outside. I disagree only on tone: a Liu-only part is easy to defend on conception and breadth of program, not on exclusive priority, and the committee should say that openly."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr names Crews, Deshaies and Handa for B018, says Ciulli's structure-guided VHL ligands made rational degrader design possible, and asks whether Sakamoto can be left out. She also regards the base-editing part as an engineering fusion on the platform the 2020 prize recognised.",
+        "response": "I agree with her that Ciulli and Sakamoto are costly exclusions and that the committee must state that openly. Sakamoto was a co-author of the 2001 paper but Crews and Deshaies led the programme, and Ciulli's work came later, in rational ligand design. On base editing, I disagree that it is only an engineering fusion: the deamination is a defined reaction on a defined substrate, and evolving a deaminase for it is the chemical step, not the nickase. She has not moved me, but I accept her view that the Target-AID claim makes a Liu-only prize less safe than it looks."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will accept a base-editing part so soon after the 2020 CRISPR-Cas9 prize, and whether a Liu-only citation survives the Nishida and Kondo and Komor and Gaudelli attribution questions.",
+      "Whether the absence of an approved degrader makes B018 premature, and whether Crews and Deshaies without Handa or Ciulli is a defensible cut.",
+      "Whether the PROTAC and cereblon glue strands are one achievement or two.",
+      "Whether the same two-part configuration can reach five votes, given that four members support each of the two parts and only two share this pairing."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile, and round 1 brought none to light. My work on dNTP pools and replication fidelity is adjacent to nucleic-acid editing, but I have no recorded collaboration, institutional tie or lineage link to any credited candidate on the shortlist. I would recuse if any candidate turned out to be a collaborator from the Umea, Rothstein or Stillman networks."
+  }
+}

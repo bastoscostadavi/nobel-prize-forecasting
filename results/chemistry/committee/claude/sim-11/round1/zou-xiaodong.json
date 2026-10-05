@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-11",
+  "member_id": "zou-xiaodong",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B008",
+        "laureates": ["John F. Hartwig", "Stephen L. Buchwald"],
+        "citation": "For the development of palladium-catalysed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": ["B028", "B044"],
+  "statement": {
+    "case_for": "Palladium-catalysed C-N coupling is a textbook enabling method: ligand design turned arylamine construction from a substrate-limited problem into a general, predictable operation that whole communities in pharmaceutical, process and materials chemistry use daily. Buchwald and Hartwig developed the catalytic, ligand-controlled reaction independently and then drove both scope and mechanism, so the attribution is a clean two-person prize. The work is more than thirty years old with industrial scale-up and mechanistic understanding, so there is no maturity question. The 2010 prize recognised C-C coupling and did not cover amination, so this is a distinct achievement and not a repeat.",
+    "case_against": "The strongest reservation is that the committee may see C-N coupling as an extension of the 2010 Pd cross-coupling prize and prefer a more novel concept. There is also a residual historical question about whether Kosugi and Migita tin-amide chemistry deserves credit, although it was stoichiometric in tin and not the general catalytic method. Finally, B008 has limited opening support (three ranked, two first places), so it may lack the breadth of backing needed for a majority.",
+    "responses": [
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranked B008 first, calling C-N coupling a general bond-forming method that changed how chemists build molecules, with Kosugi a precursor and not a third laureate, and he worried about closeness to 2010.",
+        "response": "I agree on both the merit and the Kosugi point. The step that matters is the catalytic cycle with bulky, electron-rich phosphine ligands, not the tin-amide precedent. On the 2010 worry I would go further than you: C-N coupling needed a different mechanistic solution (amine binding, deprotonation, difficult C-N reductive elimination), so it is a separate achievement with its own ligand-design problem. I would still want the citation to name C-N coupling specifically, so the committee cannot be seen as repeating itself."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked B008 sixth and called it a practically enormous reaction built on a simple general catalytic idea, with the 2010 prize possibly making some see it as incremental. His own first choice is Car-Parrinello molecular dynamics (B037) as a clean two-person prize.",
+        "response": "I disagree that the catalytic idea was simple. Making Pd-amido complexes undergo C-N reductive elimination, and not beta-hydride elimination, took decades of ligand development and mechanistic work from both laureates. Car-Parrinello is a fine method with unambiguous priority, but it was ranked first by one member only and I see no committee-wide pull toward it. I would also ask whether its impact on chemistry as practised is comparable to a reaction used in a large share of medicinal chemistry campaigns."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked base editing (B061) first, as a clear chemical principle with very large generative potential, naming Liu, Komor and Gaudelli and noting that the Kondo and Nishida work is parallel.",
+        "response": "I accept that base editing is original and already clinical, but I have two reservations. First, the attribution is unsettled: Komor and Gaudelli did the experiments, Liu led the programme, and Kondo and Nishida had an independent deaminase-fusion route, and I am not sure the committee can resolve that cleanly. Second, the 2020 CRISPR prize and the possible pairing with prime editing may leave the committee wanting to wait until the genome-editing picture is clearer. I treat B061 as a serious candidate, but I do not think it is more mature or cleaner than B008."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranked base editing first and sequencing-by-synthesis second, valuing a defined chemical reaction that becomes a general tool for biology and DNA repair.",
+        "response": "I share your preference for work that rests on defined chemistry, but I do not see why that points to base editing and not to a reaction-defining discovery in organic catalysis. For sequencing, the Solexa chemistry is real, but the priority questions against 454, Mayer and Ju make a prize harder to configure than for Buchwald and Hartwig. I would like to hear what you regard as the chemically new step in base editing beyond the deaminase chemistry, which is itself well known."
+      }
+    ],
+    "uncertainties": [
+      "Whether a majority will accept C-N coupling as distinct from the 2010 cross-coupling prize.",
+      "Whether the committee wants Kosugi credited, which I judge unlikely but cannot verify independently.",
+      "Whether base editing or targeted protein degradation will attract enough support to displace a method prize, and how the three-name limit would be applied to either."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile: I have no known collaboration or institutional tie to Buchwald, Hartwig or the other shortlisted candidates. My field is electron crystallography and porous materials, so I am less equipped to judge the chemical biology candidates and defer to colleagues on them."
+  }
+}

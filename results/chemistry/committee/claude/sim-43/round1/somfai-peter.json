@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-43",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B019",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "for the development of palladium-catalysed carbon-nitrogen cross-coupling, a general method for constructing aryl amines"
+      }
+    ]
+  },
+  "alternatives": [
+    "B027",
+    "B038"
+  ],
+  "statement": {
+    "case_for": "Palladium-catalysed C-N coupling is the clearest case on the shortlist of a reaction that changed how chemists build bonds. Before the mid-1990s aryl amines were made by harsh nucleophilic substitution, Ullmann-type chemistry or nitration/reduction sequences with narrow scope. Buchwald and Hartwig, working independently and in parallel, turned this into a mild, general transformation, and their successive ligand families (bulky biaryl phosphines, hindered alkyl phosphines, later NHC and ferrocenyl systems) are the reason it now works on aryl chlorides, hindered amines, amides and heterocycles. The result is visible in medicinal and process chemistry, where the amination is among the most frequently used C-N bond-forming reactions, in countless total syntheses, and in materials such as OLED hole-transport layers. Attribution is unusually clean: two people, two independent groups, two decades of mechanistic work on oxidative addition, amine binding and reductive elimination that explains why the ligands work. That mechanistic clarity is what I would want the citation to reflect.",
+    "case_against": "The strongest objection is that this is seen as a continuation of the 2010 cross-coupling prize (Heck, Negishi, Suzuki), so the committee may judge the novelty as incremental, and it lacks the public resonance of the medicine-facing candidates. Kosugi and Migita's earlier tin-amide coupling is also a genuine precursor and the credited list contains Kosugi, so a citation must acknowledge the antecedent without diluting the fair two-person attribution. Ligand-evolution contributions by others (e.g. Stradiotto, Nolan, Organ) are not captured. Finally, my own support is thin: only one colleague (Linke) ranks it near the top, so I must test whether chemistry craft is being undervalued relative to medical impact.",
+    "responses": [
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks B019 second, calling it a workhorse transformation with an enabling ligand principle, but worries it is perceived as an extension of the 2010 cross-coupling prize; his first choice is targeted protein degradation (B027) with Crews, Deshaies and Ciulli.",
+        "response": "I share the 2010 concern but I think it is weaker than it looks. The 2010 prize recognised C-C coupling with organometallic partners; C-N and C-O bond formation required a different mechanistic problem, notably amine coordination, beta-hydride elimination and a difficult C-N reductive elimination, and solving it needed new ligand design rather than a reapplication of Suzuki or Negishi logic. That is new chemistry. On B027 I agree the concept is strong and chemically real, but I would not pair Ciulli with Crews and Deshaies without addressing Handa's cereblon work, which is a distinct discovery, so your trio leaves a visible hole that B019 does not have."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranks ionizable lipid nanoparticles (B062) first because of the immediate clinical impact on siRNA drugs and mRNA vaccines, and sees the credit among Cullis, MacLachlan and Anderson as a framing difficulty rather than a blocker.",
+        "response": "The medical impact is not in question, but the chemistry-specific discovery is harder to pin down. The ionizable lipid design principle (pKa tuning) is a real chemical idea, yet the history is spread over at least six people and across patents, with Hope, Madden, MacLachlan, Anderson and Langer all credited, and your own opening admits you are relying on memory for allocation. I also see the 2023 Medicine prize as covering the vaccine consequence. I would ask Sparr to show where the committee can draw a three-name line that survives scrutiny, because with B019 it is trivial."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranks base editing (B038) first, valuing a clear chemical mechanism (deaminase chemistry on DNA) turned into a general tool, and prefers a single laureate, David R. Liu, as the cleanest attribution.",
+        "response": "I find the single-laureate argument for Liu persuasive on attribution and I rate B038 as the most chemically defined of the biology-facing candidates; the deaminase engineering is genuinely chemical logic. My reservations are timing, since the clinical record is roughly a decade old and the 2020 CRISPR prize frames the question, and what was new chemically: the conceptual step is the combination of a catalytically impaired Cas9 with an existing deaminase. That is elegant, but I would still weigh it behind a method with thirty years of demonstrated use. I would keep it as my second alternative."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr's first choice is lipid nanoparticles (B062) with Cullis, Madden and Hope, grounded in lipid self-assembly and phase behaviour, and she ranks condensates (B050) second.",
+        "response": "Your physical-chemistry framing of ionizable lipids is the best argument for B062 being chemistry and not just pharmaceutical science. I accept that and it moves B062 up in my view, but my reservation stands on the other side: your trio of Cullis, Madden and Hope differs from Aili's trio of Cullis, Anderson and MacLachlan, and Zou's again differs. When three members propose three different sets of laureates for the same discovery, that signals the attribution is not yet settled enough to carry a prize."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee will treat C-N coupling as sufficiently distinct from the 2010 cross-coupling prize, or as an extension of it.",
+      "Whether and how a citation should acknowledge Kosugi and Migita's earlier tin-amide work, and whether Kosugi should be a third laureate.",
+      "Whether targeted protein degradation (B027) has enough clinical proof to be considered mature, given that no degrader is approved, and how Handa's cereblon work is credited."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile: I have no stated personal or institutional connection to Buchwald, Hartwig or Kosugi, and my Masamune/MIT postdoc background is not tied to these candidates. Linke and Sparr are Lund colleagues but this does not bear on any shortlisted candidate."
+  }
+}

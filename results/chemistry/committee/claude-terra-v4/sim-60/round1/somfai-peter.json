@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-60",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B059",
+        "laureates": [
+          "John F. Hartwig",
+          "Stephen L. Buchwald"
+        ],
+        "citation": "for the development of palladium-catalysed carbon-nitrogen cross-coupling"
+      },
+      {
+        "ballot_id": "B058",
+        "laureates": [
+          "Kevan M. Shokat"
+        ],
+        "citation": "for covalent targeting of mutant KRAS and the chemical genetics of kinases"
+      }
+    ]
+  },
+  "alternatives": [
+    "B020",
+    "B014"
+  ],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling made aryl amine construction general, predictable and ligand-controlled, and it is now among the most used bond-forming reactions in medicinal chemistry and process synthesis. Its mechanistic and ligand-design framework, developed independently and in parallel by Buchwald and Hartwig, is a clean two-person attribution, and four decades of independent use remove any maturity concern. Shokat's cysteine-directed switch-II targeting of KRAS G12C overturned the view that KRAS was undruggable, rests on a concept that is his alone, and led to approved drugs. Pairing a mature enabling synthetic method with a recent, chemically driven therapeutic breakthrough gives two distinct achievements and three names in total, with unambiguous credit in each part.",
+    "case_against": "The 2010 cross-coupling prize can fairly be read as having already covered Pd-catalysed bond formation, so B059 risks looking like a second prize for the same area, and Kosugi's earlier tin-amide work and Migita's precedent complicate the priority story. For Shokat, the approved drugs were built by Amgen and Mirati, and resistance and durability limit the clinical response, so the clinical validation is still young. Meanwhile the strongest collective opening support lies with targeted protein degradation (B020), which my configuration leaves out.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked B059 third, valuing the ligand and mechanism framework and the tradition of the 2010 prize, but noted that Kosugi's earlier tin-amide work complicates a pure two-person story.",
+        "response": "I agree that Kosugi is a real precursor and I do not dismiss him. His stoichiometric tin-amide coupling was proof of concept, not a general catalytic method. The practical generality with ordinary amines, and the successive ligand generations that made it usable, is the work of Buchwald and Hartwig, so I would keep the credit at two. I disagree with Aqvist ranking Car-Parrinello first, not on merit but on timing: it is a well-attributed two-person case, and I would not oppose it as a second part, but it does not fit the three-name budget I propose."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranked B020 first, arguing that induced-proximity degradation reframes small-molecule pharmacology and that the science is solid even though no PROTAC drug is yet approved, and he also backed B014 with a two-person Balasubramanian-Klenerman core.",
+        "response": "The concept is original and I take the point that the mechanism is well reproduced. My reservation is the one Linke himself concedes: the PROTAC and molecular-glue strands have different discoverers (Crews and Deshaies versus Handa and Ito), and no degrader has been approved. A prize that must exclude Handa, Ito, Ciulli, Sakamoto or Gray today risks a contested attribution that waiting would resolve. I therefore keep B020 as my first alternative, not as my preferred part, and I would move toward it if clinical approvals arrive. On B014 I accept that Balasubramanian and Klenerman are a coherent core, but the field's parallel technologies (Rothberg, Mayer, Ju) make the boundary harder than for B059."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes ranked Shokat fifth, calling the KRAS G12C work chemically elegant and clinically consequential, with clean single-laureate attribution, and he ranked B014 first on nucleotide chemistry.",
+        "response": "I agree with Chabes that Shokat's attribution is the cleanest on the list and that approved sotorasib and adagrasib supply independent validation. I take his point on B014 seriously because reversible-terminator chemistry is real chemistry and the technology is overdue, but credit is intertwined with industrial platforms, and I would need the committee to settle whether a two- or three-person split is defensible before ranking it above a synthetic-methods part."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranked B020 first for its new therapeutic modality, while conceding that approval is pending, timing is somewhat early, and molecular glues fit awkwardly into three names.",
+        "response": "Aili's candour about the timing and the glue-versus-PROTAC split is exactly why I rank it eighth in my opening ballot and do not put it in my preferred configuration. I disagree that appeal from a molecular-design perspective compensates for unfinished clinical validation, since Shokat's KRAS work already shows what a validated chemistry-to-drug path looks like, with approved drugs. If the committee wants a degrader prize, I would favour a two-part design that separates PROTACs from the cereblon glue mechanism, not squeezing both into three names."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee regards the 2010 cross-coupling prize as having already covered C-N coupling.",
+      "Whether the PROTAC and molecular-glue strands of B020 can be given a defensible three-name attribution, and whether a first approved degrader would change the timing.",
+      "Whether Shokat's KRAS work should be recognised alone or together with the kinase chemical genetics, and how much credit belongs to the industrial drug developers.",
+      "Whether the committee prefers one broad achievement over a two-part prize pairing synthetic methodology with chemical biology."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. Somfai is a synthetic organic chemist at Lund with no documented link to any shortlisted candidate; he shares an institution with fellow committee members Linke and Sparr, which is not a candidate-specific conflict."
+  }
+}

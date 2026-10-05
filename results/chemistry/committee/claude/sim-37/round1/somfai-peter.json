@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-37",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B011",
+        "laureates": [
+          "Stephen L. Buchwald",
+          "John F. Hartwig"
+        ],
+        "citation": "For the development of palladium-catalyzed carbon-nitrogen cross-coupling"
+      }
+    ]
+  },
+  "alternatives": [
+    "B068",
+    "B063"
+  ],
+  "statement": {
+    "case_for": "Pd-catalyzed C-N coupling is the clearest case on the list of a general method that changed how chemists everywhere build bonds. Ligand design (bulky biaryl and hindered alkyl phosphines) turned aryl amine construction from a substrate-limited, harsh problem into a routine operation, and the chemistry is conceptually clean: amine binding, deprotonation and reductive elimination from Pd-amido complexes. Adoption can be checked in the literature rather than argued, in countless total syntheses, medicinal chemistry programs and process routes, with more than 25 years of independent confirmation. Buchwald and Hartwig independently built the general catalytic method, so a two-person prize is clean and attribution is not seriously contested.",
+    "case_against": "The strongest objection is overlap with the 2010 cross-coupling prize (Heck, Negishi, Suzuki): some will see C-N coupling as a heteroatom extension of recognized chemistry. Kosugi's earlier tin-amide work is a genuine precursor, and the credit question is not trivial. Against my own preference, B068 has broader support in the room and is a new modality rather than a new reaction; if the committee values a field that is still opening over one that is fully mature, I can see the argument.",
+    "responses": [
+      {
+        "member_id": "aili-daniel",
+        "point": "Daniel ranks targeted protein degradation first as a clean design principle that makes undruggable proteins targetable, with Crews, Deshaies and Handa as laureates.",
+        "response": "I agree the concept is original and the field is important, and I ranked it myself, but I place it lower on chemical novelty and maturity. The new chemistry is mostly in recruiting existing ligase biology with bifunctional molecules, and no degrader drug is approved yet. The attribution is also split between the PROTAC and the cereblon/glue strands, so any three names omit Sakamoto, Ito or Gray. I would not call this early for the chemistry, but a prize here needs a settled citation, and I do not yet see one."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Andrei puts B068 first and B005 (sequencing by synthesis) second, and ranks C-N coupling sixth, noting that it follows the 2010 cross-coupling prize and that Kosugi could be optional.",
+        "response": "The 2010 overlap is a fair concern, but I disagree with ranking it that low. The 2010 prize recognized C-C bond formation, whereas C-N coupling needed different mechanistic solutions (amido complexes, hindered ligands to force reductive elimination), and its industrial footprint is at least comparable. On Kosugi, I would keep him out: his tin-amide reaction was narrow and stoichiometric in tin, and the catalytic general method is what Buchwald and Hartwig delivered. I also see sequencing as a strong case in impact, but the credit among Solexa, 454 and other platforms is contested, so I would not put it above C-N coupling."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Johan ranks C-N coupling second after machine-learned potentials, calling it simple, general and transformative, and notes that the cross-coupling field has not been honoured since 2010.",
+        "response": "I agree with the assessment and the two-person attribution. On B001, I find the case for machine-learned potentials real, and I value the impact on simulation, but the credited set is spread across at least six names (Behler, Parrinello, Csányi, Bartók, von Lilienfeld, E), and Parrinello may arguably be honoured via other work. For me the cleaner candidate is the one with an unambiguous pair of laureates, which favours B011."
+      },
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Xiaodong ranks C-N coupling first and nitrogenase second, with Buchwald and Hartwig as the laureates and with the 2010 overlap as the main hesitation.",
+        "response": "I agree with the pair and with seeing the 2010 prize as complementary, not duplicative. On nitrogenase I am more cautious than you: the structures are excellent but the catalytic mechanism and N2 binding site are still being refined, so I would not want to cite a mechanism the field has not settled, and five credited names make a three-person split difficult."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Heiner ranks dye-sensitized solar cells first, with Grätzel and O'Regan as laureates, and puts sequencing second while questioning whether the Sanger prize limits a second sequencing prize.",
+        "response": "The dye-sensitized cell is a fine piece of interface kinetics, but I ask what was new chemically beyond the device concept: the key advance was mesoporous TiO2 with a molecular dye, and the molecular chemistry in it is less deep than in ligand-controlled catalysis. Its prominence also depends on the perovskite lineage, which is a separate story. I would rank it below a method whose adoption by other chemists can be seen in the literature."
+      }
+    ],
+    "uncertainties": [
+      "How much weight the committee gives to the overlap with the 2010 cross-coupling prize.",
+      "Whether Kosugi's tin-amide precedent should be credited alongside Buchwald and Hartwig.",
+      "Whether the room prefers a mature, universally used method (B011) over a newer modality with unsettled attribution (B068)."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. None of the shortlisted candidates is linked to my institutions (Chalmers, KTH, Lund, Tartu) or to my mentor Masamune; as a synthetic chemist I am an interested reader of B011, but that is a field interest and not a personal connection."
+  }
+}

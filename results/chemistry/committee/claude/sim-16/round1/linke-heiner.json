@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-16",
+  "member_id": "linke-heiner",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B021",
+        "laureates": [
+          "Michele Parrinello",
+          "Roberto Car"
+        ],
+        "citation": "For the unified dynamics of electrons and nuclei that made first-principles molecular dynamics practical for chemistry and condensed matter."
+      }
+    ]
+  },
+  "alternatives": [
+    "B004",
+    "B040"
+  ],
+  "statement": {
+    "case_for": "The Car-Parrinello paper of 1985 has one clear idea: an extended Lagrangian in which fictitious electronic degrees of freedom and real nuclei evolve together, so that forces come from the electronic ground state without repeated self-consistent diagonalization. That single principle opened ab initio simulation of liquid water, solvated ions, interfaces, bond breaking and proton transfer, and it is quantitatively tied to experiment. Attribution is unusually clean, with exactly two originators, and the result is four decades old, independently reimplemented in many codes and absorbed into standard practice. I can explain it to a broad audience in two sentences, which is the test I apply as chair.",
+    "case_against": "The strongest reservation is that the committee has honoured computational chemistry recently (2013 multiscale models, 2024 protein design and prediction), and a method prize may look like a third in thirteen years. Opening support for B021 is also thin: only Aqvist and I ranked it highly, and no one else placed it. If colleagues judge that medicinal and synthetic impact outweighs conceptual elegance, B004 or B040 have far larger visible consequences, and I should not mistake my physicist's taste for a committee preference.",
+    "responses": [
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranked ionizable lipid nanoparticles first as a game-changer for siRNA and mRNA delivery, and Car-Parrinello second, praising its clean two-name attribution and calling recognition overdue.",
+        "response": "I agree with him on B021 and its attribution, and I share his reading of B040's impact, which is the largest real-world consequence on the list. My difficulty with B040 is the one he names himself: three names from six, with Cullis, Hope and Madden, MacLachlan and Anderson and Langer all having distinct claims, and the 2023 Medicine prize already covering the mRNA side. I would need the group to settle who first demonstrated the pKa-tuned ionizable lipid principle before I move it above B021. If that can be done defensibly, I would accept it as the prize."
+      },
+      {
+        "member_id": "somfai-peter",
+        "point": "Somfai ranked Pd-catalysed C-N coupling first, arguing Buchwald and Hartwig independently built a general, ligand-controlled method and that Kosugi's tin-amide work is only a precursor.",
+        "response": "I think his attribution case is strong and the two-person configuration is the cleanest on the table. I qualify it on novelty of principle: after the 2010 cross-coupling prize, a reader may see C-N coupling as a new bond type for an already honoured concept, and Chabes raised the same overlap. Somfai is best placed to say whether the ligand-design and mechanism story is distinct enough, and I would like him to separate what Buchwald and Hartwig discovered beyond the Pd-catalysed C-C precedent. I hold B021 above B004 only slightly, and I would not object to B004 if that argument holds."
+      },
+      {
+        "member_id": "sparr-emma",
+        "point": "Sparr ranked biomolecular phase separation first as a new organizing principle for cells, built on thermodynamic phase behaviour of multivalent biomolecules, while acknowledging the in-cell interpretation is still debated.",
+        "response": "As a physicist I am drawn to this: it applies phase diagrams and polymer physics to cell biology, and I ranked it third. I disagree that the timing is settled, though. Whether in-cell condensates are equilibrium phase-separated, and which ones matter functionally, is still disputed, and the cap of three leaves out Pappu and Mittag, who supplied the sequence grammar. I would prefer to wait than to cite a concept whose boundaries the field has not agreed on."
+      },
+      {
+        "member_id": "aili-daniel",
+        "point": "Aili ranked targeted protein degradation first as a new chemical modality that converts binding into degradation, with PROTAC and cereblon-glue threads that a three-person prize could span.",
+        "response": "I find the mechanism convincing and ranked it fourth. My reservation is that a Crews, Deshaies and Handa citation joins two partly separate stories, PROTACs and molecular glues, with Ciulli, Gray, Sakamoto and Ito left out, and that no degrader is yet approved. I would want to know whether he regards the cereblon mechanism or the PROTAC concept as the main discovery, since the citation needs one."
+      }
+    ],
+    "uncertainties": [
+      "Whether the committee wants another computational method prize so soon after 2013 and 2024.",
+      "Whether the allocation of credit for ionizable lipid nanoparticles can be settled among six candidates.",
+      "Whether C-N coupling is distinct enough from the 2010 cross-coupling prize, and how much weight Kosugi's precursor work deserves.",
+      "Whether a fair citation for degraders can combine PROTACs and molecular glues."
+    ],
+    "conflict_note": "No specific conflict is apparent from my profile for the shortlisted candidates. I have no known tie to Car or Parrinello, though as a physicist working on non-equilibrium nanoscale systems I should note my closeness to the physics-chemistry border that B021 and B043 occupy."
+  }
+}

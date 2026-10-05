@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026",
+  "run": 1,
+  "simulation_id": "sim-27",
+  "member_id": "somfai-peter",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/chemistry_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B057",
+        "laureates": ["Stephen L. Buchwald", "John F. Hartwig"],
+        "citation": "For the development of palladium-catalysed carbon-nitrogen cross-coupling, a general method for forming aryl-nitrogen bonds."
+      }
+    ]
+  },
+  "alternatives": ["B026", "B058"],
+  "statement": {
+    "case_for": "Pd-catalysed C-N coupling is a general method that changed how chemists build aryl amines. Before it, such bonds required harsh, substrate-limited routes. Ligand design (bulky biaryl phosphines from Buchwald, hindered alkyl phosphines and mechanistic work from Hartwig) made the reaction broad, mild and predictable. Its use is directly visible in the literature, in process and discovery chemistry for pharmaceuticals, and in many total syntheses. It combines clear chemical novelty (ligand-enabled amine binding and C-N reductive elimination), conceptual simplicity and four decades of independent confirmation. Five of eight opening ballots rank it, and members from quite different fields (Zou, Linke, Aqvist) give it concrete reasons, not just a vote.",
+    "case_against": "The strongest reservation is overlap with the 2010 prize for Pd-catalysed cross-coupling, which some will read as the same idea applied to a new heteroatom. Credit is also not perfectly clean: Kosugi and Migita reported tin-amide aminations earlier, and the committee has to explain why the general catalytic method, not the precedent, is the discovery. Finally, the topic is a core-chemistry method prize and so will look conservative next to modality-level or biology-facing candidates.",
+    "responses": [
+      {
+        "member_id": "zou-xiaodong",
+        "point": "Zou ranks B057 first because C-N coupling is a distinct bond-forming method with a well-understood mechanism, not a duplicate of 2010, and she regards Kosugi as a precursor rather than the enabling general method.",
+        "response": "I agree, and I would sharpen it. The 2010 prize was for C-C bond formation (Heck, Negishi, Suzuki). C-N coupling needed a different mechanistic solution: amine coordination and the difficult C-N reductive elimination, with beta-hydride elimination as a competing path. That problem was solved by ligand design. That is new chemistry and not an extension of an existing recipe. I do not share Zou's interest in B040 (mesoporous silica) as a second part; its impact is real but narrower, and I would not dilute a clean two-person prize."
+      },
+      {
+        "member_id": "linke-heiner",
+        "point": "Linke ranks biomolecular condensates first as the strongest bridge between thermodynamics and living matter, with B057 second for its unambiguous practical impact.",
+        "response": "I accept that condensates are a real conceptual shift, and I appreciate that Linke puts B057 second without hesitation. My reservation is the one I would raise with any border-field nomination: what is new chemically? The core contribution is a physical framework and cell-biological observation, and the credit set (Hyman, Brangwynne, Rosen, Pappu, Mittag) is hard to cut to three without injustice. The physiological relevance of many condensates is also still debated, which Linke concedes. I would prefer to wait for that to settle before awarding it."
+      },
+      {
+        "member_id": "aqvist-johan",
+        "point": "Aqvist ranks targeted protein degradation (B068) first as a new pharmacological principle with clinical consequences, and puts B057 fourth as the most practised reaction in medicinal chemistry.",
+        "response": "I take the conceptual argument seriously, but I rank B068 eighth for two reasons. First, the chemistry is mostly design principle, with the molecular-glue strand (Handa, Ito) and the PROTAC strand (Crews, Deshaies, Ciulli) being genuinely separate achievements; Aqvist himself notes that the credit set crowds a three-person limit. Second, no degrader is approved yet, so the clinical consequence is still a promise. I disagree with Aqvist's implication that B057 is lower only because it is routine. Routine use is the evidence of success of a method, and the prize has always honoured such cases (2010, 2005 metathesis)."
+      },
+      {
+        "member_id": "chabes-andrei",
+        "point": "Chabes places B068 first as turning protein degradation into a designable chemical event, and notes that approval of a PROTAC is still pending, which may argue for more time.",
+        "response": "Chabes's own maturity caveat is the point I would stress. A prize two or three years before the first approval of a degrader risks being awarded for expectation rather than for a settled outcome. The committee can recognise degraders later, once the clinical record is in. I would also want the chemistry-versus-pharmacology question answered by the expert reports, as Brzezinski suggests, before this takes precedence over a method with a documented record."
+      }
+    ],
+    "uncertainties": [
+      "How strongly colleagues will weigh the 2010 cross-coupling prize against a C-N follow-on.",
+      "Whether the committee wants to acknowledge Kosugi/Migita precedent in the citation wording or in the background text only.",
+      "Whether the committee would rather pair B057 with a second, distinct achievement; I have not found a second part that I think improves the configuration."
+    ],
+    "conflict_note": "No specific conflict is apparent from the provided profile. I have no known personal or institutional tie to Buchwald or Hartwig (my mentor was Masamune at MIT, my institutions are Chalmers, KTH, Lund and Tartu), though I work in the same broad area of synthetic methodology and should be read as a field insider."
+  }
+}

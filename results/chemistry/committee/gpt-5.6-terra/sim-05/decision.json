@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "chemistry-2026-simulation-52",
+  "run": 1,
+  "simulation_id": "sim-05",
+  "committee_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "rule": {
+    "method": "instant runoff over exhaustive rankings",
+    "majority_votes": 5,
+    "elimination_order": [
+      "fewest current first-active preferences",
+      "fewest explicit round-2 supporters",
+      "lowest full-ballot Borda score",
+      "proposal_id ascending"
+    ],
+    "recusals": "disclosed but not adjudicated in this simulation"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "counts": {
+        "P000": 0,
+        "P001": 5,
+        "P002": 2,
+        "P003": 1
+      },
+      "eliminated": null
+    }
+  ],
+  "winner": {
+    "proposal_id": "P001",
+    "no_award": false,
+    "prize_parts": [
+      {
+        "ballot_id": "B018",
+        "candidate_id": "CH043",
+        "discovery": "Palladium-catalyzed carbon-nitrogen cross-coupling",
+        "laureates": [
+          "John F. Hartwig",
+          "Stephen L. Buchwald"
+        ]
+      }
+    ]
+  },
+  "committee_provider": "openai",
+  "category": "chemistry"
+}

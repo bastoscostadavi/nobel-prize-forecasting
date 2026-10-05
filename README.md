@@ -64,7 +64,25 @@ For details, including the full outcome distribution and an example committee di
 
 ### Chemistry
 
-Prediction to be announced.
+![Top five Chemistry simulation outcomes, with counts and shares across 100 committee simulations](docs/figures/chemistry-committee-top5.png)
+
+#### Proposed recognition
+
+- **Roberto Car and Michele Parrinello** for first-principles molecular dynamics by the Car–Parrinello method.
+- **Craig M. Crews, Raymond J. Deshaies, and Hiroshi Handa** for targeted protein degradation by PROTACs and molecular glue degraders.
+- **Stephen L. Buchwald and John F. Hartwig** for palladium-catalyzed carbon–nitrogen cross-coupling.
+- **Alessio Ciulli, Craig M. Crews, and Raymond J. Deshaies** for targeted protein degradation, with alternate credit for the third laureate.
+- **Craig M. Crews and Raymond J. Deshaies / David R. Liu** for a split prize recognizing targeted protein degradation and programmable DNA base editing.
+
+#### What the simulation analysis reveals
+
+The aggregate combines **100 committee decisions** from GPT-5.6 Terra and Claude Sonnet 5.5, with 50 simulations per model. Car–Parrinello molecular dynamics wins 47 simulations (47%). Targeted protein degradation wins 28 (28%): 20 select Crews, Deshaies, and Handa, while eight select Ciulli, Crews, and Deshaies. Buchwald–Hartwig coupling wins ten (10%). Eight other configurations account for the remaining 15 outcomes. These shares summarize the simulation results; they are not calibrated probabilities of winning the prize.
+
+1. **The models favor different discoveries.** Terra selects Car and Parrinello in 46 of 50 decisions (92%); Claude selects them once. Claude selects targeted protein degradation in 28 decisions, plus four split prizes with base editing; Terra never selects it. Both candidate pools include both leading discoveries, but Terra uses 52 candidates and Claude 69, with different profile allocations, so this is not a controlled comparison of models alone.
+2. **Terra's leading result persists across five neutral profile versions.** Car–Parrinello wins between 88.9% and 100% of each version's simulations. Giving the five versions equal weight yields 91.8%, close to the pooled 92%.
+3. **Claude's degradation outcomes differ mainly in credit.** Its 28 standalone awards all include Crews and Deshaies; Handa takes the third seat in 20 and Ciulli in eight. The models overlap on Buchwald–Hartwig coupling, which wins three Terra and seven Claude simulations.
+
+For details, including the full outcome distribution and model-specific figures, check [the Chemistry experiments](results/chemistry/README.md).
 
 ### Peace
 

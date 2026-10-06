@@ -98,7 +98,25 @@ For details, including the full outcome distribution and model-specific figures,
 
 ### Peace
 
-Prediction to be announced.
+![Top five Peace simulation outcomes, with counts and shares across 50 committee simulations](docs/figures/peace-committee-top5.png)
+
+#### Proposed recognition
+
+- **International Court of Justice and International Criminal Court** for peaceful dispute resolution and accountability for atrocity crimes.
+- **HALO Trust, Mines Advisory Group, and Norwegian People's Aid** for demining and clearing explosive remnants of war to protect civilians.
+- **HALO Trust and Mines Advisory Group / International Court of Justice** for a split prize recognizing demining and peaceful dispute resolution.
+- **International Atomic Energy Agency** for nuclear safety and safeguards in wartime.
+- **Sudan's Emergency Response Rooms** for volunteer-led civilian relief during Sudan's civil war.
+
+#### What the simulation analysis reveals
+
+The aggregate combines **50 committee decisions**: 25 each from GPT-5.6 Terra and Claude Sonnet 5.5, using the same 47-entry candidate list and five neutral profile versions. The ICJ–ICC pair wins 18 simulations (36%), the three demining organizations win 13 (26%), and the split ICJ/demining award wins five (10%). IAEA and Sudan's Emergency Response Rooms each win four (8%); five other configurations account for the remaining six decisions. These shares summarize simulation outcomes; they are not calibrated probabilities of winning the prize.
+
+1. **The models favor different approaches to peace.** All 18 ICJ–ICC outcomes come from Claude. Terra supplies 12 of the 13 three-organization demining outcomes and every standalone IAEA or Sudan outcome. Both models use identical candidates, profile versions, and paired list shuffles.
+2. **Demining is the main area of overlap.** It appears in 22 of 50 winning configurations: 15 Terra and seven Claude decisions, including shared awards. Recognition of the international courts appears in 23 decisions, all Claude.
+3. **Profile presentation affects the spread of results.** With the fifth version, all five Terra committees choose the demining trio and all five Claude committees choose the ICJ–ICC pair. Earlier versions produce a broader mix despite containing the same retained facts and public statements.
+
+For details, including the full distribution, model-specific figures and independent one-shot comparison, check [the Peace experiments](results/peace/README.md).
 
 ### Economic Sciences
 

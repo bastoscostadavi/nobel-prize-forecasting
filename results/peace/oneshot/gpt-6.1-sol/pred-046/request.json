@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "arm_id": "peace-oneshot-gpt-6.1-sol-high-v1",
+  "prediction_id": "pred-046",
+  "independence_label": "peace-oneshot-gpt-6.1-sol-high-v1:pred-046",
+  "prompt_version": "peace-oneshot-gpt-6.1-sol-v1",
+  "prompt_file": "prompts/peace_oneshot_gpt_6_1_sol_v1.txt",
+  "prompt_sha256": "eacd085ef8f4efb13f4914f4563dc58b4fb8fcb8bb877de9df52f99daab95332",
+  "dispatch_payload": {
+    "model": "gpt-6.1-sol",
+    "reasoning": {
+      "effort": "high"
+    },
+    "input": [
+      {
+        "role": "user",
+        "content": "Who will win the 2026 Nobel Prize in Peace? Predict the prize: the achievement, and the one to three individuals and/or organizations. Answer from your own knowledge only; do not search the web or read any files."
+      }
+    ],
+    "tools": [],
+    "previous_response_id": null
+  },
+  "execution_requirements": {
+    "fresh_request": true,
+    "fresh_conversation": true,
+    "one_request_per_prediction": true,
+    "allow_additional_model_visible_context": false
+  }
+}

@@ -1,0 +1,2677 @@
+{
+  "schema_version": 1,
+  "category": "peace",
+  "status": "complete",
+  "snapshot_time_utc": "2026-10-06T23:06:31.256407+00:00",
+  "completed_simulations": 50,
+  "model_counts": {
+    "gpt-5.6-terra": 25,
+    "claude-sonnet-5-5": 25
+  },
+  "aggregation_rule": "One vote per completed committee decision; shared awards remain distinct configurations; no one-shot answers are pooled.",
+  "design": "Five identical neutral profile versions per model, five paired shuffles/repetitions per version; 47 candidates and five voting members.",
+  "candidate_input_sha256": "5b2f07268bb65c387141ef3db652704e883b422ecb3f34cd68e22a16e5b524a0",
+  "recipient_configurations": [
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE06",
+          "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+          "laureates": [
+            "International Court of Justice",
+            "International Criminal Court"
+          ]
+        }
+      ],
+      "count": 18,
+      "frequency": 0.36
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE24",
+          "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+          "laureates": [
+            "HALO Trust",
+            "Mines Advisory Group",
+            "Norwegian People's Aid"
+          ]
+        }
+      ],
+      "count": 13,
+      "frequency": 0.26
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE06",
+          "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+          "laureates": [
+            "International Court of Justice"
+          ]
+        },
+        {
+          "candidate_id": "PE24",
+          "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+          "laureates": [
+            "HALO Trust",
+            "Mines Advisory Group"
+          ]
+        }
+      ],
+      "count": 5,
+      "frequency": 0.1
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE33",
+          "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+          "laureates": [
+            "Sudan's Emergency Response Rooms"
+          ]
+        }
+      ],
+      "count": 4,
+      "frequency": 0.08
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE38",
+          "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+          "laureates": [
+            "International Atomic Energy Agency"
+          ]
+        }
+      ],
+      "count": 4,
+      "frequency": 0.08
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE33",
+          "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+          "laureates": [
+            "Sudan's Emergency Response Rooms"
+          ]
+        },
+        {
+          "candidate_id": "PE38",
+          "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+          "laureates": [
+            "International Atomic Energy Agency"
+          ]
+        }
+      ],
+      "count": 2,
+      "frequency": 0.04
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE24",
+          "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+          "laureates": [
+            "HALO Trust",
+            "Mines Advisory Group"
+          ]
+        }
+      ],
+      "count": 1,
+      "frequency": 0.02
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE24",
+          "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+          "laureates": [
+            "HALO Trust"
+          ]
+        },
+        {
+          "candidate_id": "PE38",
+          "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+          "laureates": [
+            "International Atomic Energy Agency"
+          ]
+        }
+      ],
+      "count": 1,
+      "frequency": 0.02
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE24",
+          "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+          "laureates": [
+            "HALO Trust"
+          ]
+        }
+      ],
+      "count": 1,
+      "frequency": 0.02
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "PE24",
+          "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+          "laureates": [
+            "Norwegian People's Aid"
+          ]
+        }
+      ],
+      "count": 1,
+      "frequency": 0.02
+    }
+  ],
+  "models": {
+    "gpt-5.6-terra": {
+      "completed_simulations": 25,
+      "configurations": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "count": 12,
+          "frequency": 0.48
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "count": 4,
+          "frequency": 0.16
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "count": 4,
+          "frequency": 0.16
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "count": 2,
+          "frequency": 0.08
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        }
+      ],
+      "profile_groups": {
+        "neutral-terra-v1": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group",
+                    "Norwegian People's Aid"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust"
+                  ]
+                },
+                {
+                  "candidate_id": "PE38",
+                  "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+                  "laureates": [
+                    "International Atomic Energy Agency"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE33",
+                  "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+                  "laureates": [
+                    "Sudan's Emergency Response Rooms"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE38",
+                  "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+                  "laureates": [
+                    "International Atomic Energy Agency"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v2": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group",
+                    "Norwegian People's Aid"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE33",
+                  "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+                  "laureates": [
+                    "Sudan's Emergency Response Rooms"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE38",
+                  "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+                  "laureates": [
+                    "International Atomic Energy Agency"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v3": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group",
+                    "Norwegian People's Aid"
+                  ]
+                }
+              ],
+              "count": 3,
+              "frequency": 0.6
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE33",
+                  "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+                  "laureates": [
+                    "Sudan's Emergency Response Rooms"
+                  ]
+                },
+                {
+                  "candidate_id": "PE38",
+                  "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+                  "laureates": [
+                    "International Atomic Energy Agency"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            }
+          ]
+        },
+        "neutral-terra-v4": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE38",
+                  "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+                  "laureates": [
+                    "International Atomic Energy Agency"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group",
+                    "Norwegian People's Aid"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "Norwegian People's Aid"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE33",
+                  "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+                  "laureates": [
+                    "Sudan's Emergency Response Rooms"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v5": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group",
+                    "Norwegian People's Aid"
+                  ]
+                }
+              ],
+              "count": 5,
+              "frequency": 1.0
+            }
+          ]
+        }
+      },
+      "achievement_inclusion_counts": {
+        "PE24": 15,
+        "PE33": 6,
+        "PE38": 7
+      },
+      "opening_first_place_counts": {
+        "PE38": 35,
+        "PE24": 41,
+        "PE33": 32,
+        "PE34": 1,
+        "PE06": 3,
+        "PE20": 6,
+        "PE14": 7
+      },
+      "member_opening_first_places": {
+        "clemet-kristin": {
+          "PE38": 6,
+          "PE34": 1,
+          "PE20": 5,
+          "PE14": 7,
+          "PE24": 5,
+          "PE06": 1
+        },
+        "enger-anne": {
+          "PE24": 16,
+          "PE33": 7,
+          "PE38": 2
+        },
+        "frydnes-jorgen-watne": {
+          "PE24": 10,
+          "PE06": 1,
+          "PE33": 8,
+          "PE38": 5,
+          "PE20": 1
+        },
+        "larsen-gry": {
+          "PE33": 17,
+          "PE24": 7,
+          "PE06": 1
+        },
+        "toje-asle": {
+          "PE38": 22,
+          "PE24": 3
+        }
+      },
+      "round2_configuration_counts": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "count": 59,
+          "frequency": 0.472
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "count": 25,
+          "frequency": 0.2
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "count": 12,
+          "frequency": 0.096
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "count": 12,
+          "frequency": 0.096
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "count": 4,
+          "frequency": 0.032
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "count": 3,
+          "frequency": 0.024
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "count": 3,
+          "frequency": 0.024
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            },
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "count": 2,
+          "frequency": 0.016
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE14",
+              "discovery": "Defending Moldova's democracy against hybrid interference",
+              "laureates": [
+                "Maia Sandu"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.008
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE20",
+              "discovery": "Non-violent resistance to dictatorship in Belarus",
+              "laureates": [
+                "Maria Kalesnikava",
+                "Sviatlana Tsikhanouskaya"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.008
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE20",
+              "discovery": "Non-violent resistance to dictatorship in Belarus",
+              "laureates": [
+                "Maria Kalesnikava",
+                "Sviatlana Tsikhanouskaya"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.008
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.008
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.008
+        }
+      ],
+      "immediate_majority_decisions": 24,
+      "runoff_decisions": 1,
+      "simulation_outcomes": [
+        {
+          "simulation_id": "sim-01",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE38": 2,
+            "PE24": 2,
+            "PE33": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-02",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE34": 1,
+            "PE33": 2,
+            "PE06": 1,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-03",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE20": 1,
+            "PE24": 1,
+            "PE33": 2,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 4
+        },
+        {
+          "simulation_id": "sim-04",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE14": 1,
+            "PE24": 1,
+            "PE38": 2,
+            "PE33": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-05",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE24": 1,
+            "PE38": 3,
+            "PE33": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-06",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE38": 4,
+            "PE33": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-07",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE24": 1,
+            "PE33": 3,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-08",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE38": 2,
+            "PE24": 3
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-09",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE38": 2,
+            "PE33": 2,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-10",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE20": 1,
+            "PE24": 3,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-11",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE14": 1,
+            "PE33": 2,
+            "PE06": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-12",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE14": 1,
+            "PE24": 1,
+            "PE38": 2,
+            "PE33": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-13",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE24": 4,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-14",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE14": 1,
+            "PE24": 2,
+            "PE33": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-15",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            },
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE20": 1,
+            "PE24": 1,
+            "PE33": 2,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-16",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 1,
+            "PE24": 2,
+            "PE33": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-17",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE24": 3,
+            "PE33": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-18",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE38": 2,
+            "PE24": 1,
+            "PE33": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-19",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE38": 2,
+            "PE33": 3
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-20",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE38",
+              "discovery": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+              "laureates": [
+                "International Atomic Energy Agency"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE14": 1,
+            "PE33": 2,
+            "PE24": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-21",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE24": 4,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-22",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE20": 1,
+            "PE24": 3,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-23",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE20": 2,
+            "PE24": 1,
+            "PE33": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-24",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE14": 1,
+            "PE33": 2,
+            "PE24": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-25",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE14": 1,
+            "PE24": 2,
+            "PE33": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        }
+      ]
+    },
+    "claude-sonnet-5-5": {
+      "completed_simulations": 25,
+      "configurations": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "count": 18,
+          "frequency": 0.72
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "count": 5,
+          "frequency": 0.2
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        }
+      ],
+      "profile_groups": {
+        "neutral-terra-v1": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice",
+                    "International Criminal Court"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice"
+                  ]
+                },
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v2": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice",
+                    "International Criminal Court"
+                  ]
+                }
+              ],
+              "count": 4,
+              "frequency": 0.8
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice"
+                  ]
+                },
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v3": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice",
+                    "International Criminal Court"
+                  ]
+                }
+              ],
+              "count": 4,
+              "frequency": 0.8
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice"
+                  ]
+                },
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v4": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice",
+                    "International Criminal Court"
+                  ]
+                }
+              ],
+              "count": 3,
+              "frequency": 0.6
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice"
+                  ]
+                },
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE24",
+                  "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+                  "laureates": [
+                    "HALO Trust",
+                    "Mines Advisory Group",
+                    "Norwegian People's Aid"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v5": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "PE06",
+                  "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+                  "laureates": [
+                    "International Court of Justice",
+                    "International Criminal Court"
+                  ]
+                }
+              ],
+              "count": 5,
+              "frequency": 1.0
+            }
+          ]
+        }
+      },
+      "achievement_inclusion_counts": {
+        "PE06": 23,
+        "PE24": 7
+      },
+      "opening_first_place_counts": {
+        "PE06": 78,
+        "PE33": 9,
+        "PE24": 30,
+        "PE32": 6,
+        "PE39": 1,
+        "PE38": 1
+      },
+      "member_opening_first_places": {
+        "clemet-kristin": {
+          "PE06": 22,
+          "PE33": 1,
+          "PE24": 2
+        },
+        "enger-anne": {
+          "PE33": 1,
+          "PE24": 11,
+          "PE06": 10,
+          "PE32": 3
+        },
+        "frydnes-jorgen-watne": {
+          "PE33": 5,
+          "PE06": 16,
+          "PE24": 2,
+          "PE32": 1,
+          "PE39": 1
+        },
+        "larsen-gry": {
+          "PE06": 13,
+          "PE24": 8,
+          "PE32": 2,
+          "PE33": 2
+        },
+        "toje-asle": {
+          "PE06": 17,
+          "PE24": 7,
+          "PE38": 1
+        }
+      },
+      "round2_configuration_counts": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "count": 74,
+          "frequency": 0.592
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "count": 28,
+          "frequency": 0.224
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "count": 8,
+          "frequency": 0.064
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "count": 7,
+          "frequency": 0.056
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            }
+          ],
+          "count": 2,
+          "frequency": 0.016
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            },
+            {
+              "candidate_id": "PE32",
+              "discovery": "Upholding international humanitarian law and protecting civilians, detainees and the missing",
+              "laureates": [
+                "International Committee of the Red Cross"
+              ]
+            }
+          ],
+          "count": 2,
+          "frequency": 0.016
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            },
+            {
+              "candidate_id": "PE33",
+              "discovery": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+              "laureates": [
+                "Sudan's Emergency Response Rooms"
+              ]
+            }
+          ],
+          "count": 2,
+          "frequency": 0.016
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            },
+            {
+              "candidate_id": "PE32",
+              "discovery": "Upholding international humanitarian law and protecting civilians, detainees and the missing",
+              "laureates": [
+                "International Committee of the Red Cross"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.008
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE32",
+              "discovery": "Upholding international humanitarian law and protecting civilians, detainees and the missing",
+              "laureates": [
+                "International Committee of the Red Cross"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.008
+        }
+      ],
+      "immediate_majority_decisions": 24,
+      "runoff_decisions": 1,
+      "simulation_outcomes": [
+        {
+          "simulation_id": "sim-01",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 3,
+            "PE33": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-02",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 3,
+            "PE24": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-03",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-04",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 3,
+            "PE24": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-05",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 2,
+            "PE24": 3
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-06",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 2,
+            "PE32": 2,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-07",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 2,
+            "PE24": 2,
+            "PE32": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-08",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-09",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 2,
+            "PE24": 2,
+            "PE33": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-10",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 5
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-11",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 3,
+            "PE24": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-12",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-13",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE33": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-14",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 5
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-15",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE33": 1,
+            "PE24": 1,
+            "PE39": 1,
+            "PE06": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-16",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-17",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 3,
+            "PE32": 1,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-18",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-19",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice"
+              ]
+            },
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE24": 3,
+            "PE33": 1,
+            "PE38": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-20",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE24",
+              "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+              "laureates": [
+                "HALO Trust",
+                "Mines Advisory Group",
+                "Norwegian People's Aid"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE24": 3,
+            "PE33": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-21",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE32": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-22",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 3,
+            "PE24": 1,
+            "PE32": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-23",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 3,
+            "PE33": 1,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-24",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 4,
+            "PE24": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-25",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "PE06",
+              "discovery": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+              "laureates": [
+                "International Court of Justice",
+                "International Criminal Court"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "PE06": 5
+          },
+          "instant_runoff_rounds": 1
+        }
+      ]
+    }
+  },
+  "source_decisions": [
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-01/decision.json",
+      "sha256": "2899a44a5724f2bae0b7e43ab11d0a757f8ad5bbb258c66ec72e67bcfb8d3596",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-02/decision.json",
+      "sha256": "a2897a6390837bf5336da14ed0e02a63aebfef6a0db0de49fcf40d1baeb5a541",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-03/decision.json",
+      "sha256": "d38d496a73ff11938674dc64f63086913d694b04fd7aa37f7ff6041a0a545b76",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-04/decision.json",
+      "sha256": "c3f371a550ee2a037489e4d0e435f1ddf65bb638c447bd231bcaab8556b0a3ad",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-05/decision.json",
+      "sha256": "862f4fc2c84ef7a8557a65291709766111baf9609b0c5c905ec23266fd9a1893",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-06/decision.json",
+      "sha256": "ed3a1581ef6ab4cead2dacf76b37a938b3fce011ee8d7cc800641cde3df599da",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-07/decision.json",
+      "sha256": "b567aba862b14ae0072b2be7b0acb3a76e8d995ecc1fa62935abdabe7b977c7c",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-08/decision.json",
+      "sha256": "7621a98d216d98ec2184078eaba80a8c88186bd356c13fc2d902123f56d0552d",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-09/decision.json",
+      "sha256": "e4146aa677c98c7012a3dcb4753fc45c8dcb3cc060a209029201fac0b0050151",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-10/decision.json",
+      "sha256": "856adb95b5e9d8334605029f24bfe7e78559f1ffe90f2b01abc713e045d33c30",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-11/decision.json",
+      "sha256": "a1c7d850d759bdff099e8ac543d0dfcd6aaf7dada144ce49e6df335359ef6d60",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-12/decision.json",
+      "sha256": "dca6f15fe29b9b1feaf1dd6549a277ff79d1958a194bc6413ce68e0238589359",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-13/decision.json",
+      "sha256": "b5f620a0e150137807c0fc678d8da7daa21b2412d0587aeb8f6ce5992e8771c4",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-14/decision.json",
+      "sha256": "bd566d17c47b811e2a283a7de013068ecb058f66dd1884239694158cdcde0cb6",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-15/decision.json",
+      "sha256": "97d9790424746c44712209d8012cfbf8a83ceea3f4498243d188e06a076a4fdd",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-16/decision.json",
+      "sha256": "fd4c16bb31c9f10855162beb674ecd866c95a54bcc8ec4df72d75acfd7c70204",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-17/decision.json",
+      "sha256": "c0f4dbb6e2ed08bf736fdad254066ebf55efe233db244d41d1b98c525eeefd02",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-18/decision.json",
+      "sha256": "26793b31019c551ee309a68a6d824aa0e11cf67a91476e4f4281cb2f75a35964",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-19/decision.json",
+      "sha256": "40bf843981ad262fc116607e4cde87f5a283457181659541ceb49ea82c4642b7",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-20/decision.json",
+      "sha256": "e0c948453586d54609594a138ca3966b432d9aa45495d95a4560635cb363fac7",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-21/decision.json",
+      "sha256": "f136a390bcc99b1059ac1698b5d9484a90589e5e6766ef5c62060fbf132ed237",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-22/decision.json",
+      "sha256": "ebefb51ad48f6f37c09a2ee0e7a00eb15791e3f35ee070dcf700b9d1287fcc08",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-23/decision.json",
+      "sha256": "c56afe2970e810ec71b460a786e673325d67f625e213f87aab0232c7cb69597b",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-24/decision.json",
+      "sha256": "b5ab8165a4c702ec09517c0330ee97d2f64c25bda72a6b4ed93a89950db9792b",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/gpt-5.6-terra/sim-25/decision.json",
+      "sha256": "6cad27e56501a4fe254b2a1f5c0f36be16dc1dd525e61db31e3657636c854d95",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-01/decision.json",
+      "sha256": "499437ec61afbc09123c1af95fb436238bd1b54337a10daab37052c8b6932999",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-02/decision.json",
+      "sha256": "76c982ee0f7a1ecdd9f77e9ea533933adf48dff2e0e3086efb3e368cd9d7bc58",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-03/decision.json",
+      "sha256": "52bbeb0f2c10edbc4be2ea896a526d7f7e7a4cefc9ea92f0beb4e9a1ed7c6375",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-04/decision.json",
+      "sha256": "31b0a3ed42344ee1684ff3c0d91e51bbdb18e50550723751c7c0a1bcba9b1fbc",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-05/decision.json",
+      "sha256": "1fcd269462a0471e96b33bd3236b66f99fdfdae62d224d910ed3cf40388f6b7d",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-06/decision.json",
+      "sha256": "1c59a9a4e3057655cc72c38cef3d0dfc605c30001fa194ac14db3d793e46a373",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-07/decision.json",
+      "sha256": "281f71192713966c607e55d1a7f40343ffe4b2427c9ecb8d0e1095a04dad4a59",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-08/decision.json",
+      "sha256": "76ddf9abddc146cf23831c90afcb9c8a672ee7e558da53d3bca1e1c2fd5a59c4",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-09/decision.json",
+      "sha256": "98937eb325b2410b18c7a2ce67d1acd82459697aad9fe005eaf9a67a04aa3dbc",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-10/decision.json",
+      "sha256": "64c0baf2003bee0952f49259eadd71d70a8b952ac9e185bb9854a1b61e4fd51a",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-11/decision.json",
+      "sha256": "dcd11a7e81ecd9fda64846d9366839783779685ad83fabe21bc2533a48eb86e3",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-12/decision.json",
+      "sha256": "6d62eb8171e140b0ce8687aeeb163d954c09ca6cef6a23c932dbe0508425780d",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-13/decision.json",
+      "sha256": "2e828840aa43f4ff42452da3ed64d6c001074d11a4c39cfc908d4436995dc014",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-14/decision.json",
+      "sha256": "d095b650844f024ea996f0011db4fca6c4e445400c52bc6ebb4452ea66db674a",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-15/decision.json",
+      "sha256": "40788e5d4b33334e236bae45972625a1a53252e30450b3b475bfb2706e314bca",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-16/decision.json",
+      "sha256": "f182ffe65dbcfd2be7f2497364081a708f967542577b98c1b6aa1752ca66feb0",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-17/decision.json",
+      "sha256": "61ff616dc676ac5314be7511d07b1b2cd0dfe0e2c2f34cec1fb674c537dc0be4",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-18/decision.json",
+      "sha256": "89647c39840c65f8fdf95599434a0adca1f6611ee7e81c7ed2cd15abeb0c88b3",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-19/decision.json",
+      "sha256": "c307f7fc92cb496f6f47203ddff193f9c76a1b5e1dedfd9454c66de59611cae3",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-20/decision.json",
+      "sha256": "d0a2a74fe700a15b7da5671ee4c6866cfa12ff87708414cc91b9e564cc49b8d0",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-21/decision.json",
+      "sha256": "1d5a3477a68a2828f4306b0ed84ca6301bb0d6f98db4cb6005b7ab6c5a801f77",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-22/decision.json",
+      "sha256": "3db27ac99bed405dfc1e6b74a6ee7e72fc42cbc31a14ff533289acf6a7e0ef9c",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-23/decision.json",
+      "sha256": "755f0c5df5a1a25f0c2a2e207ca2509e10c991f62e189556808c4f44c8f3c873",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-24/decision.json",
+      "sha256": "3831cd841b4bcc4d162cde080b3a3819c1d587ed7c42da7940d12e32c1bd632b",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/peace/committee/claude-sonnet-5-5/sim-25/decision.json",
+      "sha256": "a8559221497568c2e8263b1cd457846169bcb51ae0d8e15b53c30a7434d27a32",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "validated_full_local_records": true
+    }
+  ]
+}

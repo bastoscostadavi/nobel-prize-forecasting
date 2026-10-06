@@ -1,0 +1,1308 @@
+{
+  "schema_version": 1,
+  "category": "peace",
+  "year": 2026,
+  "author_model": "claude-opus-5-5",
+  "method": "Written from model knowledge plus targeted web checks on 2026-10-03 (no simulated nominations). Achievement-centred longlist for a merge with an independent GPT draft. 'nominees' is a provisional award of at most three parties (individuals and/or organisations); 'other_names' holds associated people, alternative framings or co-credited bodies for the merge stage to weigh. Order is thematic, not a ranking. Publicly known 2026 nominations (Wikipedia, '2026 Nobel Peace Prize') and the PRIO Director's 2026 list (prio.org/news/3693, updated at prio.org/news/3746) are all included and flagged in 'note'. Bookmaker positions as of late Sept 2026 (oddschecker, covers.com) are noted only for the leading entries. The nomination count is 287 (208 individuals, 79 organisations); the full list is sealed for 50 years. Excludes laureates and achievements already honoured 2005-2025 as primary awards (e.g. Machado 2025, Nihon Hidankyo 2024, Mohammadi 2023, Bialiatski/Memorial/CCL 2022, Ressa/Muratov 2021, WFP 2020, Mukwege/Murad 2018, ICAN 2017); earlier laureates (MSF, ICRC, UNHCR, IAEA, Amnesty) appear only where a repeat is plausible and are flagged. Committee-proximity check against agent-data/peace/committee/ROSTER.md: CARE International is excluded (Gry Larsen was Secretary General of CARE Norway 2015-2020), and PEN International/Norwegian PEN are excluded (chair Jørgen Watne Frydnes was Secretary General of PEN Norway). PRIO is a nominator, not a candidate. Committee secretary Harpviken is the former PRIO director. Living status for 115 named individuals was checked via a Wikidata SPARQL query on 2026-10-03; none were found deceased (homonyms resolved by hand). Wikidata gave no match for Abid Shamdeen, Alaa Abd el-Fattah, Alokiir Malual, Benetick Kabua Maddison, Davi Kopenawa, Fadel Abdul Ghany, Grace Forrest, Hadi Al Khatib, José Daniel Ferrer, Maria Kalesnikava, Óscar Camps, Raed Al Saleh, Sepideh Gholian, Siosiua Veikune, Venâncio Mondlane, Vishal Prasad and Wael Al-Dahdouh; they are assumed living. Events after the model's June 2026 knowledge cutoff were checked only in outline (Gaza ceasefire holding, Sudan Quad talks, Ukraine talks stalled).",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize",
+    "https://www.prio.org/news/3693",
+    "https://www.prio.org/news/3746",
+    "https://www.rappler.com/world/global-affairs/candidates-2026-nobel-prize/",
+    "https://www.covers.com/entertainment/nobel-peace-prize-odds",
+    "https://www.oddschecker.com/insight/specials/20260929-nobel-peace-prize-2026-odds-attenborough-trump-among-contenders",
+    "https://www.nobelpeaceprize.org/articles/nobels-fredspris-2025-1",
+    "https://snl.no/Gry_Larsen"
+  ],
+  "candidate_count": 94,
+  "candidates": [
+    {
+      "candidate_id": "p01",
+      "achievement": "Volunteer-led emergency relief through communal kitchens, clinics and evacuations in Sudan's civil war",
+      "nominees": [
+        "Sudan's Emergency Response Rooms"
+      ],
+      "other_names": [
+        "Sudan Doctors Network",
+        "Sudanese Professionals Association"
+      ],
+      "field": "Humanitarian relief in armed conflict",
+      "entity_type": "organization",
+      "note": "Publicly nominated (PRIO); on PRIO Director's 2026 list; bookmaker second favourite."
+    },
+    {
+      "candidate_id": "p02",
+      "achievement": "Protecting, rescuing and returning children affected by the war in Ukraine",
+      "nominees": [
+        "Mykola Kuleba",
+        "Save the Children"
+      ],
+      "other_names": [
+        "Save Ukraine",
+        "Bring Kids Back UA",
+        "Daria Herasymchuk"
+      ],
+      "field": "Children in armed conflict",
+      "entity_type": "mixed",
+      "note": "Joint public nomination by PRIO; first on PRIO Director's 2026 list."
+    },
+    {
+      "candidate_id": "p03",
+      "achievement": "Independent medical care for civilians in war zones and defence of medical neutrality",
+      "nominees": [
+        "Médecins Sans Frontières"
+      ],
+      "other_names": [
+        "Médecins du Monde",
+        "International Rescue Committee"
+      ],
+      "field": "Humanitarian relief in armed conflict",
+      "entity_type": "organization",
+      "note": "Previous laureate (1999); a repeat award. Bookmaker third favourite."
+    },
+    {
+      "candidate_id": "p04",
+      "achievement": "Upholding international humanitarian law and protecting civilians, detainees and the missing",
+      "nominees": [
+        "International Committee of the Red Cross",
+        "International Federation of Red Cross and Red Crescent Societies"
+      ],
+      "other_names": [
+        "Palestine Red Crescent Society",
+        "Magen David Adom"
+      ],
+      "field": "Humanitarian law",
+      "entity_type": "organization",
+      "note": "ICRC is a three-time laureate (1917, 1944, 1963); IFRC shared 1963."
+    },
+    {
+      "candidate_id": "p05",
+      "achievement": "Sustaining education, health care and relief for Palestine refugees under existential political pressure",
+      "nominees": [
+        "UNRWA"
+      ],
+      "other_names": [
+        "Philippe Lazzarini"
+      ],
+      "field": "Humanitarian relief in armed conflict",
+      "entity_type": "organization",
+      "note": "Publicly nominated (Une Bastholm). Politically contested; Israel banned its operations in 2024-25."
+    },
+    {
+      "candidate_id": "p06",
+      "achievement": "Feeding civilians at scale in war and disaster zones, including Gaza, Ukraine and Sudan",
+      "nominees": [
+        "World Central Kitchen",
+        "José Andrés"
+      ],
+      "other_names": [],
+      "field": "Food security and humanitarian relief",
+      "entity_type": "mixed",
+      "note": "Seven WCK aid workers killed in Gaza in April 2024."
+    },
+    {
+      "candidate_id": "p07",
+      "achievement": "Protection and assistance for a record number of forcibly displaced people",
+      "nominees": [
+        "UNHCR"
+      ],
+      "other_names": [
+        "Filippo Grandi",
+        "Barham Salih"
+      ],
+      "field": "Refugees and displacement",
+      "entity_type": "organization",
+      "note": "Two-time laureate (1954, 1981). Barham Salih succeeded Grandi as High Commissioner on 1 Jan 2026."
+    },
+    {
+      "candidate_id": "p08",
+      "achievement": "Defending the rights of the displaced and humanitarian access in neglected crises",
+      "nominees": [
+        "Norwegian Refugee Council",
+        "Jan Egeland"
+      ],
+      "other_names": [],
+      "field": "Refugees and displacement",
+      "entity_type": "mixed",
+      "note": "Norwegian organisation; check for committee-proximity concerns."
+    },
+    {
+      "candidate_id": "p09",
+      "achievement": "Civilian search and rescue under bombardment in Syria",
+      "nominees": [
+        "Syria Civil Defence (White Helmets)"
+      ],
+      "other_names": [
+        "Raed Al Saleh"
+      ],
+      "field": "Humanitarian relief in armed conflict",
+      "entity_type": "organization",
+      "note": "Raed Al Saleh became a minister in Syria's transitional government in 2025, which complicates naming him."
+    },
+    {
+      "candidate_id": "p10",
+      "achievement": "Rescuing migrants and refugees at sea in the central Mediterranean",
+      "nominees": [
+        "SOS Méditerranée",
+        "Sea-Watch",
+        "Open Arms"
+      ],
+      "other_names": [
+        "Óscar Camps",
+        "Mediterranea Saving Humans"
+      ],
+      "field": "Refugees and displacement",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p11",
+      "achievement": "Independent famine early warning and classification that triggers humanitarian response",
+      "nominees": [
+        "Integrated Food Security Phase Classification (IPC)",
+        "Famine Early Warning Systems Network (FEWS NET)"
+      ],
+      "other_names": [],
+      "field": "Food security and humanitarian relief",
+      "entity_type": "organization",
+      "note": "IPC confirmed famine in Gaza (Aug 2025) and Sudan; FEWS NET disrupted by US aid cuts in 2025."
+    },
+    {
+      "candidate_id": "p12",
+      "achievement": "Keeping hospitals running and treating patients under siege in Gaza",
+      "nominees": [
+        "Hussam Abu Safiya",
+        "Sara Al-Saqqa"
+      ],
+      "other_names": [
+        "Palestinian Medical Relief Society",
+        "Medical Aid for Palestinians"
+      ],
+      "field": "Humanitarian relief in armed conflict",
+      "entity_type": "individual",
+      "note": "Publicly nominated (Matjaž Nemec et al.). Abu Safiya, director of Kamal Adwan Hospital, has been detained by Israel since Dec 2024."
+    },
+    {
+      "candidate_id": "p13",
+      "achievement": "Demining and clearing explosive remnants of war to protect civilians",
+      "nominees": [
+        "HALO Trust",
+        "Mines Advisory Group",
+        "Norwegian People's Aid"
+      ],
+      "other_names": [
+        "Cluster Munition Coalition"
+      ],
+      "field": "Humanitarian disarmament",
+      "entity_type": "organization",
+      "note": "ICBL already received the prize (1997); this is the clearance side. Norwegian People's Aid is Norwegian."
+    },
+    {
+      "candidate_id": "p14",
+      "achievement": "Locating and identifying the missing of war, atrocity and disaster",
+      "nominees": [
+        "International Commission on Missing Persons"
+      ],
+      "other_names": [
+        "Argentine Forensic Anthropology Team (EAAF)"
+      ],
+      "field": "Humanitarian law",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p15",
+      "achievement": "Survivor-led recovery and justice for the Yazidi genocide",
+      "nominees": [
+        "Yazda",
+        "Nadia's Initiative"
+      ],
+      "other_names": [
+        "Abid Shamdeen"
+      ],
+      "field": "Atrocity prevention and accountability",
+      "entity_type": "organization",
+      "note": "Nadia Murad is a 2018 laureate; listed organisations only."
+    },
+    {
+      "candidate_id": "p16",
+      "achievement": "Defending journalists as killings of reporters reach record levels",
+      "nominees": [
+        "Committee to Protect Journalists"
+      ],
+      "other_names": [
+        "Jodie Ginsberg"
+      ],
+      "field": "Press freedom",
+      "entity_type": "organization",
+      "note": "On PRIO Director's 2026 list."
+    },
+    {
+      "candidate_id": "p17",
+      "achievement": "Worldwide defence of journalists and the right to information",
+      "nominees": [
+        "Reporters Without Borders"
+      ],
+      "other_names": [
+        "International Press Institute"
+      ],
+      "field": "Press freedom",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p18",
+      "achievement": "Reporting from Gaza at extreme personal risk",
+      "nominees": [
+        "Palestinian Journalists Syndicate"
+      ],
+      "other_names": [
+        "Wael Al-Dahdouh",
+        "Motaz Azaiza",
+        "Bisan Owda"
+      ],
+      "field": "Press freedom",
+      "entity_type": "organization",
+      "note": "Gaza is the deadliest conflict for journalists on record; individual names are an alternative framing."
+    },
+    {
+      "candidate_id": "p19",
+      "achievement": "Cross-border investigative journalism exposing corruption, kleptocracy and attacks on reporters",
+      "nominees": [
+        "International Consortium of Investigative Journalists",
+        "Organized Crime and Corruption Reporting Project",
+        "Forbidden Stories"
+      ],
+      "other_names": [
+        "Gerard Ryle",
+        "Drew Sullivan",
+        "Laurent Richard"
+      ],
+      "field": "Press freedom",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p20",
+      "achievement": "Open-source verification of war crimes and disinformation",
+      "nominees": [
+        "Bellingcat",
+        "Eliot Higgins"
+      ],
+      "other_names": [
+        "Mnemonic (Syrian Archive)",
+        "Hadi Al Khatib"
+      ],
+      "field": "Press freedom",
+      "entity_type": "mixed"
+    },
+    {
+      "candidate_id": "p21",
+      "achievement": "Independent journalism under an authoritarian turn in Georgia",
+      "nominees": [
+        "Mzia Amaglobeli"
+      ],
+      "other_names": [
+        "Batumelebi",
+        "Netgazeti"
+      ],
+      "field": "Press freedom",
+      "entity_type": "individual",
+      "note": "Sentenced to two years in Aug 2025; Sakharov Prize 2025 (shared)."
+    },
+    {
+      "candidate_id": "p22",
+      "achievement": "Peace through international law: adjudicating disputes between states and prosecuting atrocity crimes",
+      "nominees": [
+        "International Court of Justice",
+        "International Criminal Court"
+      ],
+      "other_names": [],
+      "field": "International law",
+      "entity_type": "organization",
+      "note": "Publicly nominated; on PRIO Director's 2026 list. ICC under US sanctions; its prosecutor Karim Khan on leave amid a misconduct inquiry."
+    },
+    {
+      "candidate_id": "p23",
+      "achievement": "Defending judicial independence as a check on executive power",
+      "nominees": [
+        "International Association of Judges"
+      ],
+      "other_names": [
+        "International Commission of Jurists"
+      ],
+      "field": "Rule of law",
+      "entity_type": "organization",
+      "note": "Publicly nominated (Even Eriksen)."
+    },
+    {
+      "candidate_id": "p24",
+      "achievement": "Upholding international law and documenting violations in the occupied Palestinian territory",
+      "nominees": [
+        "Francesca Albanese"
+      ],
+      "other_names": [
+        "Navi Pillay",
+        "UN Commission of Inquiry on the Occupied Palestinian Territory"
+      ],
+      "field": "International law",
+      "entity_type": "individual",
+      "note": "Publicly nominated. Under US sanctions since July 2025; highly polarising."
+    },
+    {
+      "candidate_id": "p25",
+      "achievement": "Documenting the disappeared of the Assad era and pursuing accountability",
+      "nominees": [
+        "Syrian Center for Media and Freedom of Expression",
+        "Caesar Families Association",
+        "Association of Detainees and the Missing in Sednaya Prison"
+      ],
+      "other_names": [
+        "Mazen Darwish",
+        "Yasmen Almashan",
+        "Wafa Mustafa",
+        "Diab Serriya"
+      ],
+      "field": "Atrocity prevention and accountability",
+      "entity_type": "organization",
+      "note": "Gained salience after the fall of Assad (Dec 2024) and the opening of the prisons."
+    },
+    {
+      "candidate_id": "p26",
+      "achievement": "Evidence collection enabling prosecutions for war crimes in Syria",
+      "nominees": [
+        "Syrian Network for Human Rights",
+        "Commission for International Justice and Accountability"
+      ],
+      "other_names": [
+        "Fadel Abdul Ghany"
+      ],
+      "field": "Atrocity prevention and accountability",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p27",
+      "achievement": "Impartial documentation of abuses by all parties to the war in Yemen",
+      "nominees": [
+        "Mwatana for Human Rights",
+        "Radhya Almutawakel"
+      ],
+      "other_names": [
+        "Abdulrasheed Al-Faqih"
+      ],
+      "field": "Human rights",
+      "entity_type": "mixed"
+    },
+    {
+      "candidate_id": "p28",
+      "achievement": "Global investigation and advocacy against human rights abuses",
+      "nominees": [
+        "Human Rights Watch",
+        "Amnesty International"
+      ],
+      "other_names": [],
+      "field": "Human rights",
+      "entity_type": "organization",
+      "note": "Amnesty is a previous laureate (1977)."
+    },
+    {
+      "candidate_id": "p29",
+      "achievement": "Protecting human rights defenders at risk",
+      "nominees": [
+        "Front Line Defenders",
+        "CIVICUS"
+      ],
+      "other_names": [
+        "Mary Lawlor"
+      ],
+      "field": "Human rights",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p30",
+      "achievement": "Nuclear abolition testimony and the legacy of nuclear testing in the Pacific",
+      "nominees": [
+        "Setsuko Thurlow",
+        "Marshall Islands National Nuclear Commission"
+      ],
+      "other_names": [
+        "Benetick Kabua Maddison",
+        "Marshallese Educational Initiative"
+      ],
+      "field": "Nuclear disarmament",
+      "entity_type": "mixed",
+      "note": "Nihon Hidankyo (2024) and ICAN (2017) already honoured; Thurlow accepted ICAN's prize. Thurlow is 94."
+    },
+    {
+      "candidate_id": "p31",
+      "achievement": "Nuclear safety and safeguards in wartime, including at Zaporizhzhia, and verification in Iran",
+      "nominees": [
+        "International Atomic Energy Agency",
+        "Rafael Grossi"
+      ],
+      "other_names": [],
+      "field": "Nuclear non-proliferation",
+      "entity_type": "mixed",
+      "note": "IAEA and ElBaradei are 2005 laureates. Grossi was a UN Secretary-General candidate."
+    },
+    {
+      "candidate_id": "p32",
+      "achievement": "Reducing nuclear risk through dialogue between adversaries",
+      "nominees": [
+        "Nuclear Threat Initiative",
+        "European Leadership Network"
+      ],
+      "other_names": [
+        "Ernest Moniz",
+        "Sam Nunn",
+        "Des Browne"
+      ],
+      "field": "Nuclear non-proliferation",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p33",
+      "achievement": "Independent assessment of nuclear and existential risk",
+      "nominees": [
+        "Bulletin of the Atomic Scientists"
+      ],
+      "other_names": [],
+      "field": "Nuclear disarmament",
+      "entity_type": "organization",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p34",
+      "achievement": "Climate justice advocacy for Africa and the global South",
+      "nominees": [
+        "Vanessa Nakate"
+      ],
+      "other_names": [
+        "Elizabeth Wathuti",
+        "Hindou Oumarou Ibrahim"
+      ],
+      "field": "Climate and peace",
+      "entity_type": "individual",
+      "note": "Bookmaker favourite (around 34% implied, late Sept 2026)."
+    },
+    {
+      "candidate_id": "p35",
+      "achievement": "Youth climate mobilisation and non-violent solidarity activism",
+      "nominees": [
+        "Greta Thunberg"
+      ],
+      "other_names": [
+        "Fridays for Future"
+      ],
+      "field": "Climate and peace",
+      "entity_type": "individual",
+      "note": "Publicly nominated (Frøya Sjursæther), also citing Gaza and indigenous peoples; detained on Gaza flotillas in 2025."
+    },
+    {
+      "candidate_id": "p36",
+      "achievement": "A lifetime making the planetary crisis visible to a global public",
+      "nominees": [
+        "David Attenborough"
+      ],
+      "other_names": [],
+      "field": "Climate and peace",
+      "entity_type": "individual",
+      "note": "Turned 100 in May 2026; bookmakers have him around 15/2."
+    },
+    {
+      "candidate_id": "p37",
+      "achievement": "Securing the ICJ advisory opinion on states' legal obligations on climate change",
+      "nominees": [
+        "Pacific Islands Students Fighting Climate Change",
+        "Ralph Regenvanu"
+      ],
+      "other_names": [
+        "Vishal Prasad",
+        "Siosiua Veikune",
+        "Government of Vanuatu",
+        "Alliance of Small Island States"
+      ],
+      "field": "Climate and peace",
+      "entity_type": "mixed",
+      "note": "ICJ delivered the unanimous opinion in July 2025."
+    },
+    {
+      "candidate_id": "p38",
+      "achievement": "Framing Arctic climate change as a human-rights and security issue",
+      "nominees": [
+        "Sheila Watt-Cloutier"
+      ],
+      "other_names": [
+        "Inuit Circumpolar Council"
+      ],
+      "field": "Climate and peace",
+      "entity_type": "individual"
+    },
+    {
+      "candidate_id": "p39",
+      "achievement": "Arctic cooperation and peace in the High North",
+      "nominees": [
+        "Lisa Murkowski",
+        "Aaja Chemnitz"
+      ],
+      "other_names": [
+        "Arctic Council"
+      ],
+      "field": "Arctic security",
+      "entity_type": "individual",
+      "note": "Publicly nominated as a pair. Topical after US pressure on Greenland."
+    },
+    {
+      "candidate_id": "p40",
+      "achievement": "Indigenous land defence in the Amazon as climate protection",
+      "nominees": [
+        "Articulação dos Povos Indígenas do Brasil (APIB)",
+        "Davi Kopenawa Yanomami",
+        "Raoni Metuktire"
+      ],
+      "other_names": [
+        "Sônia Guajajara",
+        "Hutukara Yanomami Association"
+      ],
+      "field": "Indigenous rights and environment",
+      "entity_type": "mixed",
+      "note": "Raoni is about 94. Guajajara is a Brazilian government minister."
+    },
+    {
+      "candidate_id": "p41",
+      "achievement": "Exposing the killing of land and environmental defenders",
+      "nominees": [
+        "Global Witness"
+      ],
+      "other_names": [],
+      "field": "Indigenous rights and environment",
+      "entity_type": "organization",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p42",
+      "achievement": "Continuing the Russian democratic opposition after Alexei Navalny's death",
+      "nominees": [
+        "Yulia Navalnaya"
+      ],
+      "other_names": [
+        "Anti-Corruption Foundation",
+        "Leonid Volkov"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "individual",
+      "note": "Publicly reported nominee; bookmakers around 15/2."
+    },
+    {
+      "candidate_id": "p43",
+      "achievement": "Defending Russia's political prisoners and refugees",
+      "nominees": [
+        "OVD-Info",
+        "Svetlana Gannushkina"
+      ],
+      "other_names": [
+        "Civic Assistance Committee",
+        "Oleg Orlov",
+        "Golos",
+        "Grigory Melkonyants"
+      ],
+      "field": "Human rights",
+      "entity_type": "mixed",
+      "note": "Memorial already honoured in 2022."
+    },
+    {
+      "candidate_id": "p44",
+      "achievement": "Non-violent resistance to dictatorship in Belarus",
+      "nominees": [
+        "Sviatlana Tsikhanouskaya",
+        "Maria Kalesnikava"
+      ],
+      "other_names": [
+        "Siarhei Tsikhanouski",
+        "Belarusian Association of Journalists"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "individual",
+      "note": "Ales Bialiatski/Viasna honoured 2022. Check whether Kalesnikava has been released."
+    },
+    {
+      "candidate_id": "p45",
+      "achievement": "Mediation freeing hundreds of political prisoners in Belarus",
+      "nominees": [
+        "John Coale"
+      ],
+      "other_names": [],
+      "field": "Mediation and peace processes",
+      "entity_type": "individual",
+      "note": "Publicly nominated by Lithuanian MPs. Long shot."
+    },
+    {
+      "candidate_id": "p46",
+      "achievement": "Defending Ukraine's democracy against Russian aggression",
+      "nominees": [
+        "Volodymyr Zelenskyy",
+        "the people of Ukraine"
+      ],
+      "other_names": [],
+      "field": "Democracy and civic resistance",
+      "entity_type": "mixed",
+      "note": "Publicly nominated (Dag Øistein Endsjø). The committee usually avoids belligerent wartime leaders."
+    },
+    {
+      "candidate_id": "p47",
+      "achievement": "Documenting Russian war crimes in Ukraine and supporting victims",
+      "nominees": [
+        "Truth Hounds",
+        "Ukrainian Legal Advisory Group"
+      ],
+      "other_names": [
+        "Tribunal for Putin initiative",
+        "Media Initiative for Human Rights"
+      ],
+      "field": "Atrocity prevention and accountability",
+      "entity_type": "organization",
+      "note": "Center for Civil Liberties honoured in 2022; overlap risk."
+    },
+    {
+      "candidate_id": "p48",
+      "achievement": "Defending Moldova's democracy against hybrid interference",
+      "nominees": [
+        "Maia Sandu"
+      ],
+      "other_names": [],
+      "field": "Democracy and civic resistance",
+      "entity_type": "individual",
+      "note": "Publicly nominated (Arild Hermstad)."
+    },
+    {
+      "candidate_id": "p49",
+      "achievement": "Student-led non-violent movement for accountability and the rule of law in Serbia",
+      "nominees": [
+        "Serbian student protest movement"
+      ],
+      "other_names": [
+        "Students in Blockade"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "organization",
+      "note": "Mass movement since the Novi Sad canopy collapse (Nov 2024). Awarding an unstructured movement is unusual."
+    },
+    {
+      "candidate_id": "p50",
+      "achievement": "Non-violent defence of democracy against Georgia's authoritarian turn",
+      "nominees": [
+        "Georgian pro-European civic movement"
+      ],
+      "other_names": [
+        "Mzia Amaglobeli",
+        "Salome Zourabichvili"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p51",
+      "achievement": "Free expression and prisoners of conscience in Türkiye",
+      "nominees": [
+        "Osman Kavala"
+      ],
+      "other_names": [
+        "Şebnem Korur Fincancı",
+        "Human Rights Association (İHD)",
+        "Can Atalay"
+      ],
+      "field": "Human rights",
+      "entity_type": "individual",
+      "note": "Imprisoned since 2017 despite ECtHR rulings."
+    },
+    {
+      "candidate_id": "p52",
+      "achievement": "Mass non-violent defence of constitutional democracy after South Korea's 2024 martial-law attempt",
+      "nominees": [
+        "Citizen collective of South Korea's 'Light Revolution'"
+      ],
+      "other_names": [],
+      "field": "Democracy and civic resistance",
+      "entity_type": "organization",
+      "note": "Publicly nominated by an academic group."
+    },
+    {
+      "candidate_id": "p53",
+      "achievement": "Defending press freedom and democracy in Hong Kong",
+      "nominees": [
+        "Jimmy Lai"
+      ],
+      "other_names": [
+        "Chow Hang-tung",
+        "Hong Kong Alliance"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "individual",
+      "note": "Jailed since 2020; national-security trial. Strong Chinese reaction is likely."
+    },
+    {
+      "candidate_id": "p54",
+      "achievement": "Exposing the mass internment of Uyghurs",
+      "nominees": [
+        "Ilham Tohti",
+        "Rahile Dawut",
+        "World Uyghur Congress"
+      ],
+      "other_names": [
+        "Dolkun Isa",
+        "Uyghur Human Rights Project"
+      ],
+      "field": "Human rights",
+      "entity_type": "mixed",
+      "note": "Tohti (life sentence, 2014) and Dawut (life, 2023) are imprisoned; their current status cannot be checked."
+    },
+    {
+      "candidate_id": "p55",
+      "achievement": "Non-violent civil disobedience against Myanmar's military junta",
+      "nominees": [
+        "Myanmar Civil Disobedience Movement"
+      ],
+      "other_names": [
+        "National Unity Government",
+        "General Strike Committee of Nationalities"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "organization",
+      "note": "Aung San Suu Kyi is a 1991 laureate."
+    },
+    {
+      "candidate_id": "p56",
+      "achievement": "Health care for refugees and migrants on the Thai-Myanmar border",
+      "nominees": [
+        "Cynthia Maung",
+        "Mae Tao Clinic"
+      ],
+      "other_names": [],
+      "field": "Humanitarian relief in armed conflict",
+      "entity_type": "mixed",
+      "note": "Hit by US aid cuts in 2025."
+    },
+    {
+      "candidate_id": "p57",
+      "achievement": "Women's resistance and education under Taliban rule",
+      "nominees": [
+        "Afghan women's rights movement",
+        "Mahbouba Seraj"
+      ],
+      "other_names": [
+        "Zahra Joya",
+        "Rukhshana Media",
+        "Fawzia Koofi",
+        "Shaharzad Akbar",
+        "RAWA"
+      ],
+      "field": "Women's rights",
+      "entity_type": "mixed"
+    },
+    {
+      "candidate_id": "p58",
+      "achievement": "'Woman, Life, Freedom': women's non-violent resistance in Iran",
+      "nominees": [
+        "Nasrin Sotoudeh"
+      ],
+      "other_names": [
+        "Sepideh Gholian",
+        "Mothers of Laleh Park"
+      ],
+      "field": "Women's rights",
+      "entity_type": "individual",
+      "note": "Narges Mohammadi is a 2023 laureate; a repeat theme."
+    },
+    {
+      "candidate_id": "p59",
+      "achievement": "Free expression and prisoners of conscience in Egypt",
+      "nominees": [
+        "Alaa Abd el-Fattah"
+      ],
+      "other_names": [
+        "Egyptian Initiative for Personal Rights",
+        "Hossam Bahgat",
+        "Laila Soueif"
+      ],
+      "field": "Human rights",
+      "entity_type": "individual",
+      "note": "Pardoned and released in Sept 2025."
+    },
+    {
+      "candidate_id": "p60",
+      "achievement": "Women's rights and peaceful dissent in the Gulf",
+      "nominees": [
+        "Loujain al-Hathloul",
+        "Abdulhadi al-Khawaja",
+        "Ahmed Mansoor"
+      ],
+      "other_names": [
+        "Raif Badawi"
+      ],
+      "field": "Human rights",
+      "entity_type": "individual",
+      "note": "Al-Khawaja and Mansoor remain imprisoned; al-Hathloul is under a travel ban."
+    },
+    {
+      "candidate_id": "p61",
+      "achievement": "Women's participation in peace and dialogue in South Sudan",
+      "nominees": [
+        "Alokiir Malual"
+      ],
+      "other_names": [],
+      "field": "Women, peace and security",
+      "entity_type": "individual",
+      "note": "Publicly nominated (incl. VU Amsterdam)."
+    },
+    {
+      "candidate_id": "p62",
+      "achievement": "Peaceful opposition and electoral rights in East Africa",
+      "nominees": [
+        "Tundu Lissu"
+      ],
+      "other_names": [
+        "Bobi Wine",
+        "Venâncio Mondlane"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "individual",
+      "note": "Lissu has been on trial for treason in Tanzania since 2025."
+    },
+    {
+      "candidate_id": "p63",
+      "achievement": "Religious freedom and non-violent dissent in Nicaragua and Cuba",
+      "nominees": [
+        "Rolando Álvarez",
+        "Ladies in White"
+      ],
+      "other_names": [
+        "José Daniel Ferrer"
+      ],
+      "field": "Human rights",
+      "entity_type": "mixed",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p64",
+      "achievement": "Civic resistance and protection of immigrants in the United States",
+      "nominees": [
+        "City of Minneapolis"
+      ],
+      "other_names": [
+        "American Civil Liberties Union"
+      ],
+      "field": "Democracy and civic resistance",
+      "entity_type": "organization",
+      "note": "Publicly nominated by The Nation. Explicitly a rebuke of the Trump administration."
+    },
+    {
+      "candidate_id": "p65",
+      "achievement": "Joint Jewish-Arab non-violent movements for peace and equality",
+      "nominees": [
+        "Standing Together",
+        "Combatants for Peace",
+        "Parents Circle-Families Forum"
+      ],
+      "other_names": [
+        "Alon-Lee Green",
+        "Sally Abed",
+        "Rami Elhanan",
+        "Bassam Aramin"
+      ],
+      "field": "Israel-Palestine peace",
+      "entity_type": "organization",
+      "note": "A classic committee profile: reconciliation amid war."
+    },
+    {
+      "candidate_id": "p66",
+      "achievement": "Israeli documentation of the occupation and abuses in Gaza",
+      "nominees": [
+        "B'Tselem",
+        "Breaking the Silence",
+        "Physicians for Human Rights-Israel"
+      ],
+      "other_names": [
+        "Yuli Novak",
+        "Yehuda Shaul"
+      ],
+      "field": "Israel-Palestine peace",
+      "entity_type": "organization",
+      "note": "B'Tselem called it genocide in July 2025."
+    },
+    {
+      "candidate_id": "p67",
+      "achievement": "Palestinian non-violent resistance in the West Bank",
+      "nominees": [
+        "Issa Amro",
+        "Ali Abu Awwad"
+      ],
+      "other_names": [
+        "Youth Against Settlements",
+        "Taghyeer"
+      ],
+      "field": "Israel-Palestine peace",
+      "entity_type": "individual"
+    },
+    {
+      "candidate_id": "p68",
+      "achievement": "Joint Palestinian-Israeli documentation of displacement in Masafer Yatta",
+      "nominees": [
+        "Basel Adra",
+        "Yuval Abraham",
+        "Hamdan Ballal"
+      ],
+      "other_names": [
+        "Rachel Szor"
+      ],
+      "field": "Israel-Palestine peace",
+      "entity_type": "individual",
+      "note": "Oscar for 'No Other Land' (2025); Ballal was attacked and detained afterwards."
+    },
+    {
+      "candidate_id": "p69",
+      "achievement": "Advocating for the release of hostages held in Gaza",
+      "nominees": [
+        "Hostages and Missing Families Forum"
+      ],
+      "other_names": [],
+      "field": "Israel-Palestine peace",
+      "entity_type": "organization",
+      "note": "Every living hostage was released under the Oct 2025 ceasefire."
+    },
+    {
+      "candidate_id": "p70",
+      "achievement": "Brokering the 2025 Gaza ceasefire and the Abraham Accords",
+      "nominees": [
+        "Donald Trump"
+      ],
+      "other_names": [
+        "Steve Witkoff",
+        "Jared Kushner",
+        "Marco Rubio"
+      ],
+      "field": "Mediation and peace processes",
+      "entity_type": "individual",
+      "note": "Publicly nominated by several governments and US legislators. Committee hostility is well documented; was snubbed in 2025."
+    },
+    {
+      "candidate_id": "p71",
+      "achievement": "Qatari, Egyptian and Turkish mediation of the Gaza ceasefire and hostage releases",
+      "nominees": [
+        "Mohammed bin Abdulrahman Al Thani",
+        "Hassan Rashad"
+      ],
+      "other_names": [
+        "Tamim bin Hamad Al Thani",
+        "Ibrahim Kalın"
+      ],
+      "field": "Mediation and peace processes",
+      "entity_type": "individual",
+      "note": "State mediators; Qatar's role is contested."
+    },
+    {
+      "candidate_id": "p72",
+      "achievement": "The 2025 Washington peace declaration between Armenia and Azerbaijan",
+      "nominees": [
+        "Nikol Pashinyan",
+        "Ilham Aliyev"
+      ],
+      "other_names": [
+        "Donald Trump"
+      ],
+      "field": "Mediation and peace processes",
+      "entity_type": "individual",
+      "note": "Aliyev's authoritarian record makes this an unlikely pick."
+    },
+    {
+      "candidate_id": "p73",
+      "achievement": "The 2025 Washington accord between the DR Congo and Rwanda",
+      "nominees": [
+        "Félix Tshisekedi",
+        "Paul Kagame"
+      ],
+      "other_names": [
+        "Massad Boulos",
+        "Qatari mediators"
+      ],
+      "field": "Mediation and peace processes",
+      "entity_type": "individual",
+      "note": "Fighting continued after it was signed; Kagame's M23 role makes this very unlikely."
+    },
+    {
+      "candidate_id": "p74",
+      "achievement": "ASEAN mediation of the 2025 Thailand-Cambodia border war",
+      "nominees": [
+        "Anwar Ibrahim"
+      ],
+      "other_names": [
+        "Hun Manet",
+        "Anutin Charnvirakul"
+      ],
+      "field": "Mediation and peace processes",
+      "entity_type": "individual",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p75",
+      "achievement": "Non-governmental mediation of armed conflicts",
+      "nominees": [
+        "Centre for Humanitarian Dialogue"
+      ],
+      "other_names": [
+        "David Harland"
+      ],
+      "field": "Mediation and peace processes",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p76",
+      "achievement": "Faith-based mediation and humanitarian corridors",
+      "nominees": [
+        "Community of Sant'Egidio"
+      ],
+      "other_names": [
+        "Marco Impagliazzo",
+        "Andrea Riccardi",
+        "Matteo Zuppi"
+      ],
+      "field": "Mediation and peace processes",
+      "entity_type": "organization",
+      "note": "Brokered the Mozambique accord (1992); recurring candidate."
+    },
+    {
+      "candidate_id": "p77",
+      "achievement": "Grassroots peacebuilding in fragile states, including the Central African Republic",
+      "nominees": [
+        "Concordis International"
+      ],
+      "other_names": [],
+      "field": "Mediation and peace processes",
+      "entity_type": "organization",
+      "note": "Publicly nominated by British and US Quakers."
+    },
+    {
+      "candidate_id": "p78",
+      "achievement": "Papal advocacy for peace, dialogue and the dignity of migrants",
+      "nominees": [
+        "Pope Leo XIV"
+      ],
+      "other_names": [
+        "Pietro Parolin",
+        "Matteo Zuppi"
+      ],
+      "field": "Interfaith and reconciliation",
+      "entity_type": "individual",
+      "note": "Publicly nominated. A sitting pope has never been awarded."
+    },
+    {
+      "candidate_id": "p79",
+      "achievement": "The Document on Human Fraternity and Muslim-Christian dialogue",
+      "nominees": [
+        "Ahmed el-Tayeb"
+      ],
+      "other_names": [
+        "Higher Committee of Human Fraternity"
+      ],
+      "field": "Interfaith and reconciliation",
+      "entity_type": "individual",
+      "note": "Co-signatory Pope Francis died in 2025."
+    },
+    {
+      "candidate_id": "p80",
+      "achievement": "Ecumenical dialogue and religious environmental leadership",
+      "nominees": [
+        "Bartholomew I of Constantinople"
+      ],
+      "other_names": [],
+      "field": "Interfaith and reconciliation",
+      "entity_type": "individual",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p81",
+      "achievement": "Interfaith peacebuilding and reconciliation",
+      "nominees": [
+        "Hak Ja Han"
+      ],
+      "other_names": [
+        "Universal Peace Federation"
+      ],
+      "field": "Interfaith and reconciliation",
+      "entity_type": "individual",
+      "note": "Publicly nominated (Ján Figeľ). Leads the Unification Church; indicted in South Korea in 2025 for bribery. Very unlikely."
+    },
+    {
+      "candidate_id": "p82",
+      "achievement": "Holocaust remembrance against antisemitism and historical distortion",
+      "nominees": [
+        "Yad Vashem"
+      ],
+      "other_names": [
+        "Auschwitz-Birkenau State Museum",
+        "USC Shoah Foundation"
+      ],
+      "field": "Interfaith and reconciliation",
+      "entity_type": "organization",
+      "note": "Publicly nominated (Joel Ystebø)."
+    },
+    {
+      "candidate_id": "p83",
+      "achievement": "Preserving the rules-based multilateral trading system against trade wars",
+      "nominees": [
+        "World Trade Organization",
+        "Ngozi Okonjo-Iweala"
+      ],
+      "other_names": [],
+      "field": "Multilateralism",
+      "entity_type": "mixed",
+      "note": "Publicly nominated; on PRIO Director's 2026 list."
+    },
+    {
+      "candidate_id": "p84",
+      "achievement": "Twenty-five years of cooperation between geopolitical rivals in orbit",
+      "nominees": [
+        "International Space Station partnership"
+      ],
+      "other_names": [
+        "NASA",
+        "Roscosmos",
+        "ESA",
+        "JAXA",
+        "Canadian Space Agency"
+      ],
+      "field": "Multilateralism",
+      "entity_type": "organization",
+      "note": "Added to the PRIO acting director's updated 2026 list. An awardee would be hard to define."
+    },
+    {
+      "candidate_id": "p85",
+      "achievement": "Scientific cooperation across political divides",
+      "nominees": [
+        "CERN",
+        "SESAME"
+      ],
+      "other_names": [],
+      "field": "Multilateralism",
+      "entity_type": "organization",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p86",
+      "achievement": "Defending the United Nations Charter amid funding cuts and great-power retreat",
+      "nominees": [
+        "António Guterres"
+      ],
+      "other_names": [
+        "United Nations"
+      ],
+      "field": "Multilateralism",
+      "entity_type": "individual",
+      "note": "UN previously honoured (2001, with Kofi Annan). Term ends Dec 2026."
+    },
+    {
+      "candidate_id": "p87",
+      "achievement": "Global health cooperation amid the collapse of aid funding",
+      "nominees": [
+        "World Health Organization",
+        "Tedros Adhanom Ghebreyesus"
+      ],
+      "other_names": [
+        "Africa CDC"
+      ],
+      "field": "Global health",
+      "entity_type": "mixed",
+      "note": "US withdrawal from WHO took effect in Jan 2026."
+    },
+    {
+      "candidate_id": "p88",
+      "achievement": "Equitable access to vaccines and treatment",
+      "nominees": [
+        "Gavi, the Vaccine Alliance",
+        "The Global Fund"
+      ],
+      "other_names": [
+        "CEPI"
+      ],
+      "field": "Global health",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p89",
+      "achievement": "Polio and Guinea worm eradication, including truces for vaccination",
+      "nominees": [
+        "Rotary International",
+        "The Carter Center"
+      ],
+      "other_names": [
+        "Global Polio Eradication Initiative"
+      ],
+      "field": "Global health",
+      "entity_type": "organization",
+      "note": "Jimmy Carter (2002 laureate) died in 2024."
+    },
+    {
+      "candidate_id": "p90",
+      "achievement": "Elder statecraft for peace, climate and human rights",
+      "nominees": [
+        "The Elders"
+      ],
+      "other_names": [
+        "Mary Robinson",
+        "Graça Machel",
+        "Ban Ki-moon"
+      ],
+      "field": "Multilateralism",
+      "entity_type": "organization"
+    },
+    {
+      "candidate_id": "p91",
+      "achievement": "Independent conflict analysis and early warning",
+      "nominees": [
+        "International Crisis Group",
+        "ACLED"
+      ],
+      "other_names": [
+        "Comfort Ero",
+        "Clionadh Raleigh"
+      ],
+      "field": "Conflict prevention",
+      "entity_type": "organization",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p92",
+      "achievement": "Exposing corruption as a driver of conflict and state capture",
+      "nominees": [
+        "Transparency International"
+      ],
+      "other_names": [],
+      "field": "Rule of law",
+      "entity_type": "organization",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p93",
+      "achievement": "Defending digital rights and fighting internet shutdowns in crises",
+      "nominees": [
+        "Access Now"
+      ],
+      "other_names": [
+        "#KeepItOn coalition"
+      ],
+      "field": "Human rights",
+      "entity_type": "organization",
+      "note": "Long shot."
+    },
+    {
+      "candidate_id": "p94",
+      "achievement": "Ending modern slavery and forced labour",
+      "nominees": [
+        "Walk Free",
+        "Anti-Slavery International"
+      ],
+      "other_names": [
+        "Grace Forrest",
+        "International Justice Mission"
+      ],
+      "field": "Human rights",
+      "entity_type": "organization",
+      "note": "Satyarthi (2014) is a related precedent."
+    }
+  ]
+}

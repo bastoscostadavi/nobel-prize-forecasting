@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "list_id": "peace-2026",
+  "run": 1,
+  "simulation_id": "sim-14",
+  "committee_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "rule": {
+    "method": "instant runoff over exhaustive rankings",
+    "majority_votes": 3,
+    "elimination_order": [
+      "fewest current first-active preferences",
+      "fewest explicit round-2 supporters",
+      "lowest full-ballot Borda score",
+      "proposal_id ascending"
+    ],
+    "recusals": "disclosed but not adjudicated in this simulation"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "counts": {
+        "P000": 0,
+        "P001": 3,
+        "P002": 2
+      },
+      "eliminated": null
+    }
+  ],
+  "winner": {
+    "proposal_id": "P001",
+    "no_award": false,
+    "prize_parts": [
+      {
+        "ballot_id": "B019",
+        "candidate_id": "PE24",
+        "discovery": "Demining and clearing explosive remnants of war to protect civilians",
+        "laureates": [
+          "HALO Trust",
+          "Mines Advisory Group",
+          "Norwegian People's Aid"
+        ]
+      }
+    ]
+  },
+  "committee_provider": "openai",
+  "category": "peace"
+}

@@ -51,15 +51,26 @@ Giving profile versions equal weight produces the same frequencies as the pooled
 
 ## One-shot comparison
 
-For comparison, we asked **GPT-6.1 Sol/high** who would win, without providing a candidate list or simulating a committee. The 50 independent forecasts used fresh sessions with browsing and all other tools disabled. Each received only the [versioned Peace question](../../prompts/peace_oneshot_gpt_6_1_sol_v1.txt).
+For comparison, we asked **GPT-6.1 Sol and Claude Opus 5.5**, both with high reasoning effort, who would win without providing a candidate list or simulating a committee. Each model gave **50 independent forecasts** in fresh sessions with browsing and other tools disabled. They received the same [Peace user question](../../prompts/peace_oneshot_gpt_6_1_sol_v1.txt). Opus also received a [JSON-format system instruction](../../prompts/peace_oneshot_claude_v1.md), while Sol answered in natural language.
 
-![GPT-6.1 Sol one-shot distribution across 50 independent Peace forecasts](../../docs/figures/peace-openai-oneshot-distribution.png)
+<table>
+  <tr>
+    <td align="center"><img src="../../docs/figures/peace-openai-oneshot-distribution.png" alt="GPT-6.1 Sol one-shot distribution across 50 Peace forecasts" width="470"></td>
+    <td align="center"><img src="../../docs/figures/peace-claude-oneshot-distribution.png" alt="Claude Opus 5.5 one-shot distribution across 50 Peace forecasts" width="470"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>GPT-6.1 Sol</strong></td>
+    <td align="center"><strong>Claude Opus 5.5</strong></td>
+  </tr>
+</table>
 
-**Sol selects Sudan's Emergency Response Rooms in all 50 answers (100%).** Each predicts the civilian aid network as the organizational recipient, for locally organized relief and solidarity during Sudan's civil war. The complete answers remain available verbatim; their primary predictions were transcribed with exact supporting excerpts and response hashes. All 50 requests have distinct conversation IDs and no observed tool use.
+**Both models select Sudan's Emergency Response Rooms in all 50 answers (100% each).** Every primary forecast names the civilian aid network as the organizational recipient, for locally organized relief and solidarity during Sudan's civil war. Opus uses three spellings: "Sudan's Emergency Response Rooms" in 33 answers, "Emergency Response Rooms (Sudan)" in 16, and "Sudan's Emergency Response Rooms (ERRs)" in one. The figures group these exact aliases while preserving all original records. Alternative candidates mentioned in rationales do not count as primary predictions.
 
-**The one-shot result differs from both committee leaders.** Sudan ERRs wins four standalone committee awards (8% of the 50-decision aggregate) and shares two awards with IAEA (4%), all from Terra. It wins no Claude committee decision, despite being available in the common candidate pool. The one-shot unanimity therefore does not reproduce either Claude's preference for the courts or Terra's preference for demining. This comparison changes both the model and the setup, so it cannot isolate the effect of committee discussion. Repeated agreement is not a calibrated real-world winning probability.
+**The one-shot unanimity differs from both committee leaders.** Sudan ERRs wins four standalone committee awards (8% of the 50-decision aggregate) and shares two awards with IAEA (4%), all from Terra. It wins no Claude committee decision, despite being available in the common candidate pool. The one-shot results therefore reproduce neither Claude Sonnet's preference for the courts nor Terra's preference for demining. Both the models and the setup differ between the one-shot and committee experiments, so this comparison cannot isolate the effect of committee discussion. Repeated agreement is not a calibrated real-world winning probability.
 
-The one-shot answers are **not included** in the 50-decision committee aggregate. The [transcription summary](oneshot/gpt-6.1-sol/posthoc_transcription_summary.json) links every count to its prediction ID and source hashes. The [saved experiment](oneshot/gpt-6.1-sol) includes all 50 verbatim responses, request records, execution records, runtime events, [primary-pick transcriptions](oneshot/gpt-6.1-sol/transcriptions.json), and validated structured results. The recorded returned-model field follows the requested Codex CLI model; the runtime does not independently expose a returned model alias.
+The **100 one-shot answers are not included** in the 50-decision committee aggregate. Sol's [transcription summary](oneshot/gpt-6.1-sol/posthoc_transcription_summary.json) links every count to its prediction ID and source hashes. Its [saved experiment](oneshot/gpt-6.1-sol) includes all 50 verbatim responses, request records, execution records, runtime events, [primary-pick transcriptions](oneshot/gpt-6.1-sol/transcriptions.json), and validated structured results. Sol's recorded returned-model field follows the requested Codex CLI model; its runtime does not independently expose a returned model alias.
+
+Opus's [validated summary](oneshot/claude-opus-5-5/final_summary.json) links each [saved structured forecast](oneshot/claude-opus-5-5) to its matching [raw runtime answer](oneshot/claude-opus-5-5/runtime), with source hashes, exact name variants and observed model IDs. All 50 Opus records match successful `claude-opus-5-5` runtime responses, have distinct conversation IDs, and show no tool use. Sol likewise has 50 distinct conversations and no observed tool use. No additional model calls were used to aggregate either arm.
 
 ## Saved results and figure reproduction
 
@@ -69,6 +80,7 @@ Regenerate the published committee figures with:
 
 ```sh
 python3 scripts/plot_peace_prediction_distributions.py
+python3 scripts/summarize_peace_oneshot_claude.py
 python3 scripts/plot_peace_oneshot.py
 ```
 

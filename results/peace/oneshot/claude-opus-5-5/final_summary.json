@@ -1,0 +1,838 @@
+{
+  "schema_version": 1,
+  "category": "peace",
+  "model": "claude-opus-5-5",
+  "reasoning_effort": "high",
+  "completed_predictions": 50,
+  "distinct_sessions": 50,
+  "user_question": "Who will win the 2026 Nobel Prize in Peace? Predict the prize: the achievement, and the one to three individuals and/or organizations. Answer from your own knowledge only; do not search the web or read any files.",
+  "system_format_instruction": "Answer with only a JSON object with exactly these keys: \"achievement\" (string), \"laureates\" (array of one to three individual and/or organization names), \"rationale\" (string, concise).",
+  "prompt_path": "prompts/peace_oneshot_claude_v1.md",
+  "prompt_sha256": "256fda4ce6895820f786bfb85ea74586394ea60d8e8c3b1ddc42845c6dd97c07",
+  "question_sha256": "eacd085ef8f4efb13f4914f4563dc58b4fb8fcb8bb877de9df52f99daab95332",
+  "runner_sha256": "8cb4935411e96eb79e1fb88259fcc6448e751be0118ed50fe4c16f7c1d199a51",
+  "method": "Existing structured primary forecasts validated against matching raw Opus runtime answers; exact recipient aliases grouped, with originals retained.",
+  "recipient_aliases": {
+    "Sudan's Emergency Response Rooms": "Sudan's Emergency Response Rooms",
+    "Emergency Response Rooms (Sudan)": "Sudan's Emergency Response Rooms",
+    "Sudan's Emergency Response Rooms (ERRs)": "Sudan's Emergency Response Rooms"
+  },
+  "raw_name_counts": {
+    "Emergency Response Rooms (Sudan)": 16,
+    "Sudan's Emergency Response Rooms": 33,
+    "Sudan's Emergency Response Rooms (ERRs)": 1
+  },
+  "configuration_counts": [
+    {
+      "laureates": [
+        "Sudan's Emergency Response Rooms"
+      ],
+      "count": 50,
+      "frequency": 1.0,
+      "prediction_ids": [
+        "pred-01",
+        "pred-02",
+        "pred-03",
+        "pred-04",
+        "pred-05",
+        "pred-06",
+        "pred-07",
+        "pred-08",
+        "pred-09",
+        "pred-10",
+        "pred-11",
+        "pred-12",
+        "pred-13",
+        "pred-14",
+        "pred-15",
+        "pred-16",
+        "pred-17",
+        "pred-18",
+        "pred-19",
+        "pred-20",
+        "pred-21",
+        "pred-22",
+        "pred-23",
+        "pred-24",
+        "pred-25",
+        "pred-26",
+        "pred-27",
+        "pred-28",
+        "pred-29",
+        "pred-30",
+        "pred-31",
+        "pred-32",
+        "pred-33",
+        "pred-34",
+        "pred-35",
+        "pred-36",
+        "pred-37",
+        "pred-38",
+        "pred-39",
+        "pred-40",
+        "pred-41",
+        "pred-42",
+        "pred-43",
+        "pred-44",
+        "pred-45",
+        "pred-46",
+        "pred-47",
+        "pred-48",
+        "pred-49",
+        "pred-50"
+      ]
+    }
+  ],
+  "source_records": [
+    {
+      "prediction_id": "pred-01",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-01.json",
+      "sha256": "c01e0daba5cbce4ac9a89eeeeec54fa28bed409698e58dd329aadbd2890cfb1f",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-01-attempt-1.jsonl",
+      "runtime_sha256": "3ff7f5409044dfbdc88ea5ddec0c19cb18863fbe8b2a45bf8433e3047e308d2d",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "1097413f-66aa-4904-856a-93b8530cb973",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-02",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-02.json",
+      "sha256": "a31b630612e8ba4b843adaa147157966de801a2a25f0fe25cf8a9334d9ce15ae",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-02-attempt-1.jsonl",
+      "runtime_sha256": "64036735adc4bd98936025effb68605e745abe1b111bd2151f39adcfee21b9ac",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "87d58fdc-5fab-459a-abfb-7da2f61709d7",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-03",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-03.json",
+      "sha256": "3cd400d73318377f95deee4390e9385f5caec93500d35fea237b2ac347397189",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-03-attempt-1.jsonl",
+      "runtime_sha256": "c7948abf2bb8af26393ed635b80c2490e712fb9a21fa3f444fefef47a214d4b4",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "ce5135a6-e8c2-4cce-aea0-7a96e9937010",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-04",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-04.json",
+      "sha256": "9c6bdd694e69a069c929c82ef8319760cb63a8be695d74471f30c20cef34af27",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-04-attempt-1.jsonl",
+      "runtime_sha256": "2216f7836579834c9c813b429aa2dfa3ffd42d382a41a67390af1aec9d4e0397",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "9a287789-e30c-4277-8a4a-e2efd0fe1bc2",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-05",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-05.json",
+      "sha256": "1da14e929f6b2e4cedc8596ea05d8577ae0211a8a422c01fdd440bce7ddd64c1",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-05-attempt-1.jsonl",
+      "runtime_sha256": "aaf5d10e761b99fb8d5483c7ca688f81aeaae3a8ed32e96bd49fcd0b77bfc74f",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "d5e5304b-840f-4a5c-a6cc-ec5eaff4db16",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-06",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-06.json",
+      "sha256": "7ffd38e016ca495b4e434098b92f9a2612fce36fa169468f3eef3336402e8f50",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-06-attempt-1.jsonl",
+      "runtime_sha256": "862cfabb9fd655a2724a67563384342f03722f633f390dc388f5b02c38e90a29",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "13500d44-d360-4f79-8363-d5791ebd3349",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-07",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-07.json",
+      "sha256": "a1a7951b02e8ba16f8a7e0e214f198cae6538607d33d49d1fef39d2e0450024b",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-07-attempt-1.jsonl",
+      "runtime_sha256": "5c5b3e2859d484425dc394fe624c8588394acc24f74e47b858a86f4a27668710",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "2d1c785e-7314-4741-81ce-6b72d3fa881e",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-08",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-08.json",
+      "sha256": "018edd0d9434d0c5e5025dd1d0301bf1d0158bd92cb15eb122a5336a6e9c1281",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-08-attempt-1.jsonl",
+      "runtime_sha256": "5b054f6ad8b7d2e7b9ac3f693818e7aae8fa47f59f51014cff09db1d9f735c5a",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "8b73d514-94d3-4bd2-a815-3d826d5a4c83",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-09",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-09.json",
+      "sha256": "959ddbb2365fe361bb095052818473b36e3212e1661455ab2441e63ec0a6ba6c",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-09-attempt-1.jsonl",
+      "runtime_sha256": "567dc47c6327366fd88d946d96008c4bd3b294a563b8fe6e098a8bb0e9fe179a",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "dcb3a796-f127-4cce-8173-2824cf92f531",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-10",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-10.json",
+      "sha256": "858d912a99569880f130db34598f32679440b2fc723ede529564fd47194dc559",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-10-attempt-1.jsonl",
+      "runtime_sha256": "5e58bd9962e9d2b9454f5fff1132c0cc98e3301c7e2bc6b07b49cf41d5e4edc8",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "cc0d09b6-556f-4f22-a050-9297eb123a21",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-11",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-11.json",
+      "sha256": "3f92ccfad89558cd1cd9ea41aab42b0959f6d6fedf1731910d5fea5b053bc70d",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-11-attempt-1.jsonl",
+      "runtime_sha256": "3b4cea3a531ce76f4a2288b4d431d024debe3ab2dfe464513fffdcb7765abdc9",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "b58c7448-d3d0-46f4-bc14-7f9a09ca65f8",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-12",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-12.json",
+      "sha256": "cc0ab4094e9bb9b492bd04d92f2b055142ae1ac9678b2a077ab866ad1a51832a",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-12-attempt-1.jsonl",
+      "runtime_sha256": "340e982779913ca4a0816b184860e67202dd238bd039add6be18017444c4d719",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "be2623af-51df-4441-9d79-ad604f68169f",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-13",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-13.json",
+      "sha256": "ee66bb946293c645b26cc636097079b6fddbc3324b610691fb23a4f5a22aa19b",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-13-attempt-1.jsonl",
+      "runtime_sha256": "a5f9c9fce0730f1a56da2809172d52b6335443d450615624780491b4f7dec8a3",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "35c52acf-c467-40e2-a37f-b9ce7fda7bbe",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-14",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-14.json",
+      "sha256": "291517ab2316d20e64825b5f17c5ab044719eab373b66522a15565bf1d0368e4",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-14-attempt-1.jsonl",
+      "runtime_sha256": "45ba7785edc9438dec7c371c7b197269fcba2a37970ebd944b011db79c454595",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "66a93050-fb9f-4b9e-b242-4e461820aa34",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-15",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-15.json",
+      "sha256": "024ab6c81bfdee6df96b95a3e01c1897658dcab18223565e8b9628a4890e9d5b",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-15-attempt-1.jsonl",
+      "runtime_sha256": "5ec5dc1aead956f00e6b180520157b54a6da4722f801775b5da34def28d7af0d",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "ba5ca5af-b358-4600-aa1b-389544663930",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-16",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-16.json",
+      "sha256": "ac7eb56746b7a5415c021a4483f1dfc6ffbc7505162551b497d77e5c48b4a9f6",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-16-attempt-1.jsonl",
+      "runtime_sha256": "442633017fc06525c1204b17e8acb3efee81f81fbcda8bc4386e5a9f7eb48b37",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "2031d27c-2e23-4138-a6ae-0a271ef94ca6",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-17",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-17.json",
+      "sha256": "74118e619f6f23aa21500c3887bf482fc0b26fddae883512b333dc26f90ec6be",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-17-attempt-1.jsonl",
+      "runtime_sha256": "9b66531512bc60b820ea6c12654e8ccc0cc6c3a6525eda09b56a582572dad16c",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "73d4090d-5fd4-420d-bd52-4423217951f5",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-18",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-18.json",
+      "sha256": "0457cb6666ed0321cfdb5744aa9b9f7bc8ac9121e27267b76866f6c201b533ab",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-18-attempt-1.jsonl",
+      "runtime_sha256": "9664f5d4646ee30e89db57ce651fca7db7cf7db1daf4105c0320c6d22ebd8ab6",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "36b9fea9-a45f-4ce6-a5b6-673c79ac19cd",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-19",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-19.json",
+      "sha256": "698c261a596769c812d11f9426f8b2f682829ba26586018aff393d3a3cb372ed",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-19-attempt-1.jsonl",
+      "runtime_sha256": "607645052b20ccb898cc7ff2357adcf93c3e0b0edc2805ef45355e6fd297664b",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "fac44d62-cc98-4e44-82e6-d658d5956399",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms (ERRs)"
+      ]
+    },
+    {
+      "prediction_id": "pred-20",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-20.json",
+      "sha256": "aa20b26f1b51532013e39732e0d9f2e6db76655d88e6f9b64b95d53307e09d45",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-20-attempt-1.jsonl",
+      "runtime_sha256": "dd548cec4c8e9b9661678065793efcf1baac7a710a48cf6987a22a4a665c631c",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "f90c1ec7-47b4-4ba0-915f-63ce53cc87b4",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-21",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-21.json",
+      "sha256": "a2a1ef4dc0aaedeaf096891175c10aeb6cff9b2c0ee3c393fbbe5841d151d981",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-21-attempt-1.jsonl",
+      "runtime_sha256": "e83d30a940286bd186097c83ff6a3a806d218c8c71c10550333aba8cdd587113",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "98a4fcc0-75a2-433b-b07f-d90eacb9539f",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-22",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-22.json",
+      "sha256": "cf9d294d0fafe72f99f2be96cde10d9d5ca387c84c8d3094b36085cbfe992283",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-22-attempt-1.jsonl",
+      "runtime_sha256": "4af53dfe5427011e9770eb3495e8847e6f9978bcc04c5100f7be7e816d1698fc",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "5c2d0ad7-406d-4d28-a32d-943482db5d90",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-23",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-23.json",
+      "sha256": "eccd87294ba91ca1327426e45cb92f896e92200d6f9800ffb00a98f409e0bd31",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-23-attempt-1.jsonl",
+      "runtime_sha256": "9667f93dacd56eeeb6b8cf1b99a31e0870ad09cb19e617b79bb46a66467b5f46",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "6cfa98c8-e965-4733-bea5-27906adad863",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-24",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-24.json",
+      "sha256": "435247fe19db1231ecef32885680c2b5848be7858b7e32f00f35aa1f9db21408",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-24-attempt-1.jsonl",
+      "runtime_sha256": "b4edb6217bba884b1042313e2b8a593292820901ddc248fc755934370a527fc4",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "e867d851-8e8c-4fe3-af1a-8f1d87685b07",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-25",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-25.json",
+      "sha256": "7edef58e9928e51281564bfef8681336c2e36b189c8434d2d3344d5bff7a7852",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-25-attempt-1.jsonl",
+      "runtime_sha256": "3ed613709be91bafede409577c7012c7e5ef615ed53e4c00bd5893c829882680",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "9e969a87-b95a-48e5-8ecd-fb317f84de4e",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-26",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-26.json",
+      "sha256": "ca48d7be1ddcd5fcaa2737352ae733b8105b10a2eebcccc590464ddfb85496a1",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-26-attempt-1.jsonl",
+      "runtime_sha256": "8a140cd58f183b55e84a12bbfa6198435bca44b0bea215fffb26edc2fe86c265",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "1ad46f7e-c769-477a-98de-a10ede03a13e",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-27",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-27.json",
+      "sha256": "eaf7f76830e5a2c6464506b62f5102775e39ca7b0ad2dc2b1ce7a93e8033590a",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-27-attempt-1.jsonl",
+      "runtime_sha256": "f88ef5e8b397419ca50307bb09b7beb64431b97770ad56cfdfc4b95f1cbf7e1d",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "b5f041dc-c284-4785-b1db-a8e15209fe34",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-28",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-28.json",
+      "sha256": "54a825def8d6aee1efe8cb48e36d67c8704ceb3286591d86d38e3564fbbe3f40",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-28-attempt-1.jsonl",
+      "runtime_sha256": "bfc4663dd96d9525763f100e400b8c69446975c2ee915f1c22abbf497b447858",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "9642ab1a-7307-478d-8a61-3605de371127",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-29",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-29.json",
+      "sha256": "89fda10c98b41d3c4258f529f50d2c97951fa59897c091b4f7490f938ea88638",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-29-attempt-1.jsonl",
+      "runtime_sha256": "4e161c807028d06cc7b02dbccbc64bf5ce04e9085fc7ffcc5d4f08559109f19c",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "7100c04d-f33c-4edf-afa2-88240b24316b",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-30",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-30.json",
+      "sha256": "7bafac6b11bfe73c2be1943f03c9d476d009829500dfce7b33c6048dc1200ee9",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-30-attempt-1.jsonl",
+      "runtime_sha256": "f2da97ae0a08698af312d28cee5db22560c5b9b19307987e2cff93ff8d722a4b",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "5520b10c-c32a-4f31-b4d4-f82466520b7c",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-31",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-31.json",
+      "sha256": "dbb70277944ea0b544a3cf18cc21f0560da11236f3e117989440ef1bd9bd9846",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-31-attempt-1.jsonl",
+      "runtime_sha256": "3b13cd00c1e6a7a17aa00e52031433c459935f251a0afb6350f559d6dab1728f",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "d05cac8b-9574-4bbe-8fca-19927eaf6c2b",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-32",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-32.json",
+      "sha256": "c618e48b9da97331425a4b7a33ac8b2ff6a0725a499892a72d226797a2f522fb",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-32-attempt-1.jsonl",
+      "runtime_sha256": "ec50d4e2819a98293480b64d06bde32810fe7602ebc81b28c349b22760753c8c",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "49125ad0-dd72-4317-aa39-0759b7fbe0cd",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-33",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-33.json",
+      "sha256": "aca0247354a05cef80047b52f0495b341fbc0af076907ef75b49b662af6ae55d",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-33-attempt-1.jsonl",
+      "runtime_sha256": "46293f83d5ea99eb5046150a783cc38ed6c6bf1abe86bb330a565dd83444c596",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "c494c094-f43a-41f2-8d2a-ead20db2bc3d",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-34",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-34.json",
+      "sha256": "ba8a4a30533a18e74da94a02b60fcb6b4652845c6aa8e228a31b0dbb8a10bff0",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-34-attempt-1.jsonl",
+      "runtime_sha256": "0fcf6f1fdcf02f1a6635d0c378484acce156ecc8d82b08f5c1fdb6206fe7509b",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "9c38c799-96d1-4cc3-a9e4-9390c5b95bd0",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-35",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-35.json",
+      "sha256": "b75bc4ea20731a575b9d98bd92df8c034a98e59500b8c0c354c1e7bf71f9a9ff",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-35-attempt-1.jsonl",
+      "runtime_sha256": "db8202be6585aba3743fbc292987b82ba732d1db21676507efdaaee53a1691ea",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "6607ef82-0764-4fe3-8b51-f1f9b9e7f5ba",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-36",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-36.json",
+      "sha256": "cc4a095aac0ebb057c05a2758bb2dadc356cde4f3f6b94e7598c2cbd3faab476",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-36-attempt-1.jsonl",
+      "runtime_sha256": "28a757c2141440c213751579ee4db5fc2c737300066e6bbe8ef6976601e742f5",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "b30ac6fb-ac45-4cb0-af53-db8e1579d5c6",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-37",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-37.json",
+      "sha256": "734eae16058655d0e9fb3d0fe80c930cd2633fa229db293f7a221620dc2c775a",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-37-attempt-1.jsonl",
+      "runtime_sha256": "d97b5c150e6522034ff5481cf7aa1200d1f43b3c40e19c13c532a50e260f5740",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "5c195c6f-b9df-4daa-8748-6f5250ef573d",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-38",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-38.json",
+      "sha256": "41652f2a376c26371b94344cdd8305a3d6ea03c10c8a5ad40d6a90efcd073dab",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-38-attempt-1.jsonl",
+      "runtime_sha256": "d73d8606471488a86a7a2bce9edafdd617567b22a99fe54c056b67dd26612cdd",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "59736aa7-fbe4-4c15-a4eb-d35d58df0a49",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-39",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-39.json",
+      "sha256": "fc992c775b1c64c8bfb0c4617a197e3ffa8a4acacd19c5a99e5594474c6c9e0e",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-39-attempt-1.jsonl",
+      "runtime_sha256": "7e6c0756903845e6c9d0c575e8a9074448039a590a90d08f66cf4197253e87ba",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "e4c8de66-2d9f-4194-8590-90cd1623c42b",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-40",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-40.json",
+      "sha256": "be53585e96f269b9b77470c0b5265cb5bdbd8f51920832160ec9516d77c2ae15",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-40-attempt-1.jsonl",
+      "runtime_sha256": "cb75790f19ad56ff456f4457dcbf5eb7a78ac0e4f40b21afee991675f01ba694",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "db1399b3-7ec6-4d8a-8997-e9abcab61688",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-41",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-41.json",
+      "sha256": "e2df0b15f0c6298fbd31d3b29a1302d846b781056c0c622b93238a4c00e1a2e4",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-41-attempt-1.jsonl",
+      "runtime_sha256": "50710e22df50a891a703b11e941d99b21fa6733902dcba69f9ae685b04f758e5",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "dd3bde23-6139-4b4d-86a8-3a51adc43927",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-42",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-42.json",
+      "sha256": "6f7fcf3a2d8983424ecad8759c2740ce63aaa946db318788062b0f42c002d428",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-42-attempt-1.jsonl",
+      "runtime_sha256": "db82e6da4540249e50d990fdabcb637cc188db26d0ff90d5b4b58b19caa9ebc1",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "46574ff7-c7ee-4b13-a19d-81410f4a9dbe",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-43",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-43.json",
+      "sha256": "5970abd7f506ad003a957a974b7cdf294807d3b0b0307e58de160147f9cc918b",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-43-attempt-1.jsonl",
+      "runtime_sha256": "64e00359c7c7d4e6ac0d38890d76552051d020a278f248aa14c5bbc1052ffd06",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "519cb6ca-815d-40a1-979a-c4f83043de38",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-44",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-44.json",
+      "sha256": "7cbb13d3e4f6b01e0d7433f3d203abfc222fa8361d0d8bf7c07a81745613226a",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-44-attempt-1.jsonl",
+      "runtime_sha256": "4ca173a0dee04a0da7487276b2649be17cf4d2d27fba08aa611a7bc139813e17",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "3320cccc-704c-4231-89c3-c24cc5cb4fe4",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-45",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-45.json",
+      "sha256": "6ec910f76d6d7a478c5d3f558e604064f5ef354f993ef8c76255249fd51b1cc4",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-45-attempt-1.jsonl",
+      "runtime_sha256": "81e41b1ecb755082d2dbe3848e3f8c1776b31b33f4e6d21badd21c39e5131ef1",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "0146b812-4614-4987-b423-79a9a8bf4beb",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-46",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-46.json",
+      "sha256": "d30042ef279be2f4e5ce80dd65be4290a66b24f7819e54741a752586ac159ae3",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-46-attempt-1.jsonl",
+      "runtime_sha256": "8dcdbc211353f18e9136cb3d771f19f7075a0cdaf5e688f523eabacbc947997f",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "0a1282e6-386e-4b25-bdf3-c7828f4cad0d",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-47",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-47.json",
+      "sha256": "a82e6706085daf2bfc5f5c893b61c75ffcb5f0e080a6183b4a09637da728a5f0",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-47-attempt-1.jsonl",
+      "runtime_sha256": "593c4b6d114e1136ff89e9e0a206baebb804eab7df6d63c51979d984df86e998",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "0b1587d3-2e9f-462e-8a22-70fe11aa699e",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-48",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-48.json",
+      "sha256": "7474c8cfca2e972187f3e67b6ecf89f91e1571747a0fe619ba8f1846f9c89dba",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-48-attempt-1.jsonl",
+      "runtime_sha256": "9974bfea8fc12b0b944df26942a5b9781eafc27491e7dd27cc63758f4d3adbd3",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "6260b39f-a52a-413f-87ba-c1632b32b998",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    },
+    {
+      "prediction_id": "pred-49",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-49.json",
+      "sha256": "f8c0623acefb91838d97d92b7749b4d977f2a729e5a0eb1f2da822fb6dcb3560",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-49-attempt-1.jsonl",
+      "runtime_sha256": "37794f7f7d9e51d8623a71ba58366422c3ab688e21987401aec12e876afa838d",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "3d082396-bcb4-4e62-a951-9c6cdabd84df",
+      "raw_laureates": [
+        "Emergency Response Rooms (Sudan)"
+      ]
+    },
+    {
+      "prediction_id": "pred-50",
+      "path": "results/peace/oneshot/claude-opus-5-5/pred-50.json",
+      "sha256": "bac1f31268d8207e73e98fc24100cffc32754af1af79f7289e17a9e0bd4ea670",
+      "runtime_path": "results/peace/oneshot/claude-opus-5-5/runtime/pred-50-attempt-1.jsonl",
+      "runtime_sha256": "2ee851dc2e76facc8c7db683a29f12392b00593687523b84ee04efd7367ba9a5",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "session_id": "24d1084a-80aa-4c9c-99b1-1a28d2c73759",
+      "raw_laureates": [
+        "Sudan's Emergency Response Rooms"
+      ]
+    }
+  ]
+}

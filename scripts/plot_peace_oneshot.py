@@ -1,10 +1,29 @@
-"""Render the validated 50-answer Sol Peace distribution."""
+"""Render the validated Sol and Opus Peace distributions side by side."""
 import hashlib
 import json
 from collections import Counter
 
 import peace_oneshot as protocol
 import plot_physics_prediction_distributions as style
+
+
+def opus_counts():
+    root = protocol.ROOT / 'results/peace/oneshot/claude-opus-5-5'
+    summary = json.loads((root / 'final_summary.json').read_text())
+    if summary['completed_predictions'] != 50 or len(summary['source_records']) != 50:
+        raise ValueError('Expected exactly 50 validated Opus forecasts')
+    for source in summary['source_records']:
+        for path_key, hash_key in [('path', 'sha256'), ('runtime_path', 'runtime_sha256')]:
+            path = protocol.ROOT / source[path_key]
+            if hashlib.sha256(path.read_bytes()).hexdigest() != source[hash_key]:
+                raise ValueError(f'Source changed: {path}')
+    counts = Counter()
+    for row in summary['configuration_counts']:
+        names = ['Sudan ERRs' if name == "Sudan's Emergency Response Rooms" else name for name in row['laureates']]
+        counts['–'.join(sorted(names))] += row['count']
+    if sum(counts.values()) != 50:
+        raise ValueError('Opus counts do not total 50')
+    return counts
 
 
 def main():
@@ -30,8 +49,11 @@ def main():
         counts[' / '.join(sorted(labels)) or 'No award'] += 1
     style.SLATE_COLORS['Sudan ERRs'] = '#167D8D'
     style.FIGURES.mkdir(parents=True, exist_ok=True)
-    style.plot('peace-openai-oneshot-distribution.png', 'OpenAI one-shot', 'GPT-6.1 Sol', counts, len(counts))
-    print(dict(counts))
+    opus = opus_counts()
+    rows = max(len(counts), len(opus))
+    style.plot('peace-openai-oneshot-distribution.png', 'OpenAI one-shot', 'GPT-6.1 Sol', counts, rows)
+    style.plot('peace-claude-oneshot-distribution.png', 'Claude one-shot', 'Claude Opus 5.5', opus, rows)
+    print({'sol': dict(counts), 'opus': dict(opus)})
 
 
 if __name__ == '__main__':

@@ -58,7 +58,17 @@ For details, check [the Medicine experiments](results/medicine/README.md).
 The aggregate combines **300 committee decisions** from GPT-5.6 Terra, Claude Sonnet 5.5, and GPT-6 Luna, using both factual profiles and profiles that also include inferred traits. Optical lattice clocks win 236 simulations (78.7%). Topological insulators place second with 22 outcomes (7.3%), and magic-angle twisted bilayer graphene places third with 10 (3.3%). Nineteen other configurations account for the remaining 32 outcomes. These shares summarize the simulation results; they are not calibrated probabilities of winning the prize.
 
 1. **The leading result is robust across models and profile variants.** Optical lattice clocks win 53 of 60 Terra decisions with factual profiles, 38 of 60 Claude decisions with factual profiles, 59 of 60 Terra decisions with inferred-trait profiles, 52 of 60 Claude decisions with inferred-trait profiles, and 34 of 60 Luna decisions with inferred-trait profiles.
-2. **Luna broadens the long tail.** Its 60 committees produce 21 distinct winning configurations, compared with eight across the four Terra and Claude experiments. Luna adds three topological-insulator outcomes and 14 configurations that do not win in the other arms.
+2. **Two committee members make a consistent case for clocks.** Kröll and Lindroth often rank optical lattice clocks first. Their research backgrounds overlap with the atomic and precision-measurement physics behind Katori and Ye's work, so they reinforce one another's case for the achievement's maturity, distinctiveness, and attribution.
+3. **Clocks are a strong second choice for most of the other members.** The remaining first choices divide among topological insulators, magic-angle graphene, IceCube, and other candidates. The case made by Kröll and Lindroth helps turn clocks' broad second-choice support into a majority during discussion and ranked-vote transfers.
+4. **Luna broadens the long tail.** Its 60 committees produce 21 distinct winning configurations, compared with eight across the four Terra and Claude experiments. Luna adds three topological-insulator outcomes and 14 configurations that do not win in the other arms.
+
+#### Forecast versus the announced prize
+
+The [2026 Nobel Prize in Physics](https://www.nobelprize.org/prizes/physics/2026/summary/) has now been awarded to Francis Halzen “for his decisive contributions to the IceCube Neutrino Observatory and to the discovery of high-energy neutrinos of astrophysical origin.”
+
+IceCube was available to all 300 simulated committees, reached the shortlist in **233 of 300 simulations (77.7%)**, and was ranked first by at least one committee member in **203 (67.7%)**. It reached the final proposal slate in **27 simulations (9.0%)**, but was not selected. None of the 120 independent one-shot forecasts selected Halzen.
+
+The saved deliberations show a consistent pattern: agents praised IceCube for opening a new observational window, but repeatedly objected to awarding a collaboration-scale discovery to Halzen alone. The announced prize resolved that attribution question in Halzen's favor, while the simulations placed greater weight on credit allocation.
 
 For details, including the full outcome distribution and an example committee discussion, check [the Physics experiments](results/physics/README.md).
 

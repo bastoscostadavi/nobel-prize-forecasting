@@ -96,6 +96,28 @@ The aggregate combines **100 committee decisions** from GPT-5.6 Terra and Claude
 
 For details, including the full outcome distribution and model-specific figures, check [the Chemistry experiments](results/chemistry/README.md).
 
+### Literature
+
+![Top five Literature simulation outcomes, with counts and shares across 50 committee simulations](docs/figures/literature-committee-top5.png)
+
+#### Proposed recognition
+
+- **Mircea Cărtărescu** for visionary fiction exploring memory, consciousness and the body.
+- **Anne Carson** for inventive poetry and hybrid forms joining classical literature with contemporary experience.
+- **Thomas Pynchon** for encyclopedic fiction connecting systems of power, scientific knowledge and historical consciousness.
+- **Adonis** for renewing Arabic poetic language through myth and modernist forms.
+- **Hélène Cixous** for experimental writing across fiction, essay and theatre.
+
+#### What the simulation analysis reveals
+
+The aggregate combines **50 committee decisions**: 25 each from GPT-5.6 Terra and Claude Sonnet 5.5, using the same 50-writer list, five neutral profile versions and paired candidate shuffles. Mircea Cărtărescu wins 28 simulations (56%), Anne Carson 12 (24%), and Thomas Pynchon four (8%). Adonis and Hélène Cixous each win two; Can Xue and Gerald Murnane each win one. These shares summarize the simulations and are not calibrated probabilities of the actual prize.
+
+1. **Both committees favor Cărtărescu, with different levels of agreement.** He wins 19/25 Claude and 9/25 Terra simulations. Terra nearly splits between him and Carson, who wins eight. Claude ranks Cărtărescu first in 98/150 private opening rankings; Terra does so in 52/150.
+2. **Profile presentation changes the spread.** Claude’s leading writer remains Cărtărescu across all five versions, while Terra’s third version produces no Cărtărescu selections despite retaining the same factual record.
+3. **The one-shot forecasts point elsewhere.** GPT-6.1 Sol chooses Can Xue in 23/25 direct forecasts, while Claude Opus 5.5 chooses Anne Carson in 21/25. The change in both model and context prevents attributing this difference solely to deliberation.
+
+These committees predict a recommendation; the full Swedish Academy’s final vote is not simulated. For all outcomes, model comparisons, saved records and the one-shot results, see [the Literature experiments](results/literature/README.md).
+
 ### Peace
 
 ![Top five Peace simulation outcomes, with counts and shares across 50 committee simulations](docs/figures/peace-committee-top5.png)

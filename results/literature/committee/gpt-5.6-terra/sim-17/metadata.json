@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "category": "literature",
+  "committee_provider": "openai",
+  "committee_model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "list_id": "literature-2026-codex-50",
+  "nomination_run": 1,
+  "simulation_id": "sim-17",
+  "repeat_index": 2,
+  "design": "five shared neutral profile versions, five paired shuffles per version per model",
+  "seed_label": "literature-committee-paired-profile-v1:literature-2026-codex-50/sim-17",
+  "candidate_input": "agent-data/literature/candidates/codex/candidates.json",
+  "candidate_input_sha256": "eb3a60d0b6cf267b1fd0c964a3af4e92710003a77d43200df90f871b0d62dfc5",
+  "input_candidate_count": 50,
+  "candidate_count": 50,
+  "excluded_candidates": [],
+  "exclusion_policy": "only explicit prepare --exclude IDs",
+  "profile_version": "neutral-terra-v4",
+  "profiles": "agent-data/literature/committee/<member-id>/profile_terra_v4.md",
+  "profile_inputs": {
+    "carlberg-ingrid": {
+      "path": "agent-data/literature/committee/carlberg-ingrid/profile_terra_v4.md",
+      "sha256": "bdcfd00c880bc62078a877ff670de56b3e7de3500b557fee54984c1824f93298"
+    },
+    "mattson-ellen": {
+      "path": "agent-data/literature/committee/mattson-ellen/profile_terra_v4.md",
+      "sha256": "e02b9dcd399ead8e6d181a1a70ac96eb8a4ee918462548f7a03a1d8cfe6a584c"
+    },
+    "olsson-anders": {
+      "path": "agent-data/literature/committee/olsson-anders/profile_terra_v4.md",
+      "sha256": "a91409cd0210040a597e4e5a7914e14a609ba69f0abf2d02ea08dafe2979f3a9"
+    },
+    "palm-anna-karin": {
+      "path": "agent-data/literature/committee/palm-anna-karin/profile_terra_v4.md",
+      "sha256": "ce3079d4b933b5066d5054d74fad5c9915b27248c77ced76b9b31f698f410151"
+    },
+    "sem-sandberg-steve": {
+      "path": "agent-data/literature/committee/sem-sandberg-steve/profile_terra_v4.md",
+      "sha256": "633c7a43e0a3e007e94c217d93293a9c33dd9b731935deebd9769c04f42899c2"
+    },
+    "sward-anne": {
+      "path": "agent-data/literature/committee/sward-anne/profile_terra_v4.md",
+      "sha256": "98edddb5a859a5d03f6f3b404830cd3a1ef95cfe7fb32f874907127137aa7f2d"
+    }
+  },
+  "members": [
+    "carlberg-ingrid",
+    "mattson-ellen",
+    "olsson-anders",
+    "palm-anna-karin",
+    "sem-sandberg-steve",
+    "sward-anne"
+  ],
+  "chair": "olsson-anders",
+  "voting": "all six listed members vote by modeling assumption; majority is four; co-opted Carlberg voting status is undocumented",
+  "conflict_policy": "disclosed but not adjudicated in this simulation",
+  "conflict_flags": [],
+  "prompts": {
+    "opening": "prompts/literature_committee_terra_opening_v1.md",
+    "round1": "prompts/literature_committee_terra_round1_v1.md",
+    "chair": "prompts/literature_committee_terra_chair_summary_v1.md",
+    "round2": "prompts/literature_committee_terra_round2_v1.md",
+    "final": "prompts/literature_committee_terra_final_ballot_v1.md"
+  },
+  "prompt_inputs": {
+    "opening": {
+      "path": "prompts/literature_committee_terra_opening_v1.md",
+      "sha256": "81ee9238a78edafe3c8993788b55c000be29a08e3c8f14f47092fa466f21970a"
+    },
+    "round1": {
+      "path": "prompts/literature_committee_terra_round1_v1.md",
+      "sha256": "25b833bf68e202e352b3e0bca789a510af473bbf038763ca6c0de33c1bc6e1c0"
+    },
+    "chair": {
+      "path": "prompts/literature_committee_terra_chair_summary_v1.md",
+      "sha256": "aafd6eb2d2d59c5bcc9747f8762500054b24618dc20554d488f31ddbbd424986"
+    },
+    "round2": {
+      "path": "prompts/literature_committee_terra_round2_v1.md",
+      "sha256": "c8f9fe4dc0c7f5571d53ad03882e64fd927535a4833eafe1e83660efafedf69d"
+    },
+    "final": {
+      "path": "prompts/literature_committee_terra_final_ballot_v1.md",
+      "sha256": "7db7b4d808a2bfea33c06c7810f3fe7d9c1768ab2c506f27d80c81f87212e72d"
+    }
+  },
+  "protocol": "docs/LITERATURE_EXPERIMENT_DESIGN.md"
+}

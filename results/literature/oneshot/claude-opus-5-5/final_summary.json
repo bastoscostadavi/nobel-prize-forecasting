@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "category": "literature",
+  "model": "claude-opus-5-5",
+  "reasoning_effort": "high",
+  "completed_predictions": 25,
+  "distinct_sessions": 25,
+  "user_question": "Who will win the 2026 Nobel Prize in Literature? Predict the laureate and the literary achievement. Answer from your own knowledge only; do not search the web or read any files.",
+  "system_format_instruction": "Answer with only a JSON object with exactly these keys: \"laureate\" (string, one writer's name), \"achievement\" (string), \"rationale\" (string, concise).",
+  "prompt_path": "prompts/literature_oneshot_claude_v1.md",
+  "prompt_sha256": "42399d6bd02618e8ca5110f166fc408c067b966d112ab4b2a9fb26ff7172f031",
+  "question_sha256": "234ebe67bd03f0a7a91c3fee32e073ba30c0b395ed7d20490a0d24be85374c10",
+  "runner_path": "scripts/run_oneshot_claude.py",
+  "runner_sha256": "5dff13bfaa6562a3e6d4a1eb0d3d4870914ccfe879d55eb8ee5b3467e6a9f9a8",
+  "method": "Structured primary picks matched exactly to separate, tools-disabled Opus runtime sessions. Only explicit spelling/Unicode aliases are merged.",
+  "recipient_aliases": {
+    "Mircea Cartarescu": "Mircea Cărtărescu",
+    "Mircea Cărtărescu": "Mircea Cărtărescu"
+  },
+  "raw_name_counts": {
+    "Can Xue": 2,
+    "Anne Carson": 21,
+    "César Aira": 2
+  },
+  "configuration_counts": [
+    {
+      "laureate": "Anne Carson",
+      "count": 21,
+      "frequency": 0.84,
+      "prediction_ids": [
+        "pred-02",
+        "pred-03",
+        "pred-04",
+        "pred-05",
+        "pred-06",
+        "pred-07",
+        "pred-08",
+        "pred-09",
+        "pred-10",
+        "pred-11",
+        "pred-12",
+        "pred-13",
+        "pred-14",
+        "pred-15",
+        "pred-16",
+        "pred-18",
+        "pred-19",
+        "pred-20",
+        "pred-22",
+        "pred-23",
+        "pred-24"
+      ]
+    },
+    {
+      "laureate": "Can Xue",
+      "count": 2,
+      "frequency": 0.08,
+      "prediction_ids": [
+        "pred-01",
+        "pred-25"
+      ]
+    },
+    {
+      "laureate": "César Aira",
+      "count": 2,
+      "frequency": 0.08,
+      "prediction_ids": [
+        "pred-17",
+        "pred-21"
+      ]
+    }
+  ],
+  "source_records": [
+    {
+      "prediction_id": "pred-01",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-01.json",
+      "sha256": "84b929ab380744f0442ff2cf81f8921224e6b2a983935451fe54761d861489dd",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-01-attempt-1.jsonl",
+      "runtime_sha256": "7eea4cccb8031c10336be0a0e9e35de73a71b181314c9117ead9ff7415ebf770",
+      "session_id": "fbb60515-4aa1-43aa-9346-b58e89ab2673",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Can Xue"
+    },
+    {
+      "prediction_id": "pred-02",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-02.json",
+      "sha256": "be10f7e5bc4ffb2978682183562e431a4dc8d0e5607264793b0bf87ac5700269",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-02-attempt-1.jsonl",
+      "runtime_sha256": "73d7274d38592943c8b8b008c02654ae7884178e6efe66d8633b907e6a2bbc0e",
+      "session_id": "46e0ab63-478d-4589-967c-5ad64fc4997f",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-03",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-03.json",
+      "sha256": "de44fb359983cbc1790d3aec72b04857ad20d6667faca7907dfe10f6a387e001",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-03-attempt-1.jsonl",
+      "runtime_sha256": "487d8938e36ff45dfbe54c805ceaff2708b6213c15040cdb1cc22620d05ffa7b",
+      "session_id": "166b1483-9205-43fc-b6e1-72818b67edd3",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-04",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-04.json",
+      "sha256": "ed6cf5e878afd07cead307ee8b21828b0eeed2efa1778dddacf2be37a5542e88",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-04-attempt-1.jsonl",
+      "runtime_sha256": "b206f9b296ace39d23c40d88562b3bbee80ca6dc52f6ea5ead7b57302e4cce84",
+      "session_id": "d9c93be4-f613-45e3-80a7-a21008b70d46",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-05",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-05.json",
+      "sha256": "035a3186cb2d2b14b8b7cfdec1747a8ddc1f9f80d3ed43caecc2f3c2fa924dab",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-05-attempt-1.jsonl",
+      "runtime_sha256": "f9271a7207350f5d57e7399f8a7ce30a17dbac66da1b64d4fa5395d4852dc635",
+      "session_id": "66f6910f-b560-4879-bec0-860daa0cccf5",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-06",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-06.json",
+      "sha256": "09d75423fa38ddab8e685f8d2d45a5a48483e64dbf03071e4c5edf4a0984e961",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-06-attempt-1.jsonl",
+      "runtime_sha256": "c937585e4785d508fb85fec2f7bb875789e9487712951539645261e214876f76",
+      "session_id": "9ea3d0a3-1c2f-482f-a749-b9a39f3cc736",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-07",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-07.json",
+      "sha256": "623a13e494e48332a4efdaba87b9d433878f9aedde3400420685239466da91bd",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-07-attempt-1.jsonl",
+      "runtime_sha256": "dff146857a73598b8e28dfeb94f6dc074786583fd411d3e36e76f7f9dc4e6756",
+      "session_id": "702fad38-58c8-430a-bb76-c33b58a27247",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-08",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-08.json",
+      "sha256": "be774b8ff00136c84af3dc0c2cef1fe808989e083cafe1806d89e1943596d95e",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-08-attempt-1.jsonl",
+      "runtime_sha256": "8fa66919f07c04e37e6d0d97c745e80ee1b0ffc302f20f8d28ba4339082c0641",
+      "session_id": "8f576ac5-7a58-4683-8da8-9733646dbb6f",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-09",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-09.json",
+      "sha256": "c8389194f006969765871164b7a1eeb31248002f79236dce58cf2a8e3e1b7841",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-09-attempt-1.jsonl",
+      "runtime_sha256": "483bab5a6b7cac1c69ca4369e3f46255351ca24420f22898c702ce55dc1b0f14",
+      "session_id": "f4c08c96-0f6e-4259-ade7-16f73701585e",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-10",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-10.json",
+      "sha256": "007bf84069cf173ea74a3dd464214208d7584e72aea6230f4fb58bdd719649fe",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-10-attempt-1.jsonl",
+      "runtime_sha256": "e6165a8317cefa22ee3f125b78bbaee32e564003583c92e705f64b15f2fd12d4",
+      "session_id": "c5dd33d7-2c17-44fc-8f42-674e9ab74642",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-11",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-11.json",
+      "sha256": "5a028db3369f689a0878c3ef60986b2a91215a0df7f868d974bbd1a794fd03cd",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-11-attempt-1.jsonl",
+      "runtime_sha256": "fcd6c65d4587e53a663fb694a33b4fd9db0f6db670316be665719744c45b9362",
+      "session_id": "9067466d-18a0-468e-be6a-d4331eb5730d",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-12",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-12.json",
+      "sha256": "75755bde11906a063249767a348e230cdd98d5ea25d796ae49cbd913bef2a34e",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-12-attempt-1.jsonl",
+      "runtime_sha256": "322eae8991c8729d1024fd4ff2d5427289cb418928879e0ba323e46edc2c2bcc",
+      "session_id": "073b5e38-2df8-4b59-9084-360ad512e5d0",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-13",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-13.json",
+      "sha256": "9bc242c2a49945ac73a727cde4a53a51cb0f485a656f1c38b535f1a51ffd8352",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-13-attempt-1.jsonl",
+      "runtime_sha256": "9898425806e7ad20de7abf5aba6e43ee6f988ada302721cddd8bcc0d7e78ffa5",
+      "session_id": "3c4c6a6a-e554-46e2-94cc-3eebd9e7355e",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-14",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-14.json",
+      "sha256": "f101070a0ee3c2f59d582c5d3aac259701710d0663c5e8c8503177e7b8bc26de",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-14-attempt-1.jsonl",
+      "runtime_sha256": "6f81f903f590fae51938dc662f84d680b50e61499a6ae3da0b52d834f31a06b0",
+      "session_id": "7d9f9ef4-0ea0-4a37-a118-16a2c4610a3d",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-15",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-15.json",
+      "sha256": "7fc7a93c3b32887277f9597982110b3aa79cb0f47469035e5c5b46e2aacf5db9",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-15-attempt-1.jsonl",
+      "runtime_sha256": "c99a5cb3668fc1e8c5e69a07e5c0fa87207fde28087ab698c21a9fac5086c1bd",
+      "session_id": "35b1ed43-355e-4005-872c-025b1a7d6188",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-16",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-16.json",
+      "sha256": "b796967f299e275771d244fbdb7023eaf3db4335956a7d2b5c83e4cab73c39f8",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-16-attempt-1.jsonl",
+      "runtime_sha256": "8d9cee149f003e93f3049a545217558809f09440df54fea9f2ece3d0acc84e35",
+      "session_id": "9c7b8d06-c479-448f-99ca-1ff1754bd329",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-17",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-17.json",
+      "sha256": "457214957401ca4b2bc2fa75939ca22acf793b2d8529f9bcd0c826df44a6cc4d",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-17-attempt-1.jsonl",
+      "runtime_sha256": "59b33b5963196047d24983521dad575bedef5a881adb2a6a2bc0ff9f3f0fb7b0",
+      "session_id": "9a9e4e77-c212-459c-bb7d-9c4635a98f71",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "César Aira"
+    },
+    {
+      "prediction_id": "pred-18",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-18.json",
+      "sha256": "d0925b2e672f4198189e46eddcfc4959dd6975ad38fa8a4586faa2ba16f1ab78",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-18-attempt-1.jsonl",
+      "runtime_sha256": "249671e4d1f5b6067a07e60ad7864ffdd7b43a2fd8d335c02f28e7c01bd15ffc",
+      "session_id": "d5119f18-6939-492c-b44a-9c5c4a5a1d0d",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-19",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-19.json",
+      "sha256": "9b24fa4c9a1ded4cb62ac6788c113c947cd9584bcd748138aa5b62abc521b48b",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-19-attempt-1.jsonl",
+      "runtime_sha256": "0b768fae889f8918b2bc6606cba84240024212a2799dd12ff1b9c93c1432e37c",
+      "session_id": "b8c4ebfe-b9bf-4b47-877b-a43a28a7aa79",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-20",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-20.json",
+      "sha256": "474c8f631a160a4725f2975a310c69d4451b35c4370bc2809e1a1167049c14c3",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-20-attempt-1.jsonl",
+      "runtime_sha256": "712985495221d5abc65b349863ae1f2ada75862ec8dd9799fbab6712b831e8c0",
+      "session_id": "ff47a42a-ac4c-436f-bbbb-e3bd81e6ac4c",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-21",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-21.json",
+      "sha256": "393a6d42a4dd8740900ac6c72a5332fc2f95b19da94ceae14237c02bce32d56e",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-21-attempt-1.jsonl",
+      "runtime_sha256": "570f909b5282141aa3e715c879a381773aebb7240197dd263dff7ba16742f081",
+      "session_id": "3c134aa9-02b1-4276-9ae8-90d229303916",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "César Aira"
+    },
+    {
+      "prediction_id": "pred-22",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-22.json",
+      "sha256": "9cfc03416996eaec436c4be18e65290231190291e01c96c5c46d5f8837a63b3a",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-22-attempt-1.jsonl",
+      "runtime_sha256": "ffece47b25b3b8c1e458e12596339d4fe5eca2caebe07f3225772df02da2681b",
+      "session_id": "cb16d21a-dc0b-42dc-b773-a165664530f6",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-23",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-23.json",
+      "sha256": "0ad831c6c307544a7d607a7c58b49513ae5c7a863d1349761f5394f7de03c7ae",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-23-attempt-1.jsonl",
+      "runtime_sha256": "a47749c71e6080e010e0278a474d963cd74ff4502678e6f8349ac65e4a0eb951",
+      "session_id": "fe9ef056-e92f-475a-be9c-ba42c5e64b95",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-24",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-24.json",
+      "sha256": "545da77d0cb6cb1b2782a22cebf28fe9d860fd9dc95a7721e183347294fe1d41",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-24-attempt-1.jsonl",
+      "runtime_sha256": "3a226a2f50664c604e8ebf147e61482723a15579dde591bf4af1dd39c35aa698",
+      "session_id": "9e53467b-0b21-46ed-b3aa-38f946566c68",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Anne Carson"
+    },
+    {
+      "prediction_id": "pred-25",
+      "path": "results/literature/oneshot/claude-opus-5-5/pred-25.json",
+      "sha256": "c63702f1f7300f8597473fe7a30e0651bca504b6eb671537ad75e4ee0e4decc6",
+      "runtime_path": "results/literature/oneshot/claude-opus-5-5/runtime/pred-25-attempt-1.jsonl",
+      "runtime_sha256": "0f44f621cfac51fa853a52cff44de12faf3cc4dd8dba746d86333fb958d5d2b4",
+      "session_id": "46389479-e23e-4b53-97d3-1326cb7eb3b2",
+      "observed_models": [
+        "claude-opus-5-5"
+      ],
+      "tool_calls_observed": [],
+      "raw_laureate": "Can Xue"
+    }
+  ]
+}

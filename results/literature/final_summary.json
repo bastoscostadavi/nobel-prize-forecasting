@@ -1,0 +1,2532 @@
+{
+  "schema_version": 1,
+  "category": "literature",
+  "status": "complete",
+  "snapshot_time_utc": "2026-10-07T17:05:32.216122+00:00",
+  "completed_simulations": 50,
+  "model_counts": {
+    "gpt-5.6-terra": 25,
+    "claude-sonnet-5-5": 25
+  },
+  "aggregation_rule": "One vote per completed committee decision; shared awards remain distinct configurations; no one-shot answers are pooled.",
+  "design": "Five shared neutral profile versions per model, five paired shuffles/repetitions per version; 50 writers and six simulated voting members, including co-opted Carlberg by modeling assumption.",
+  "candidate_input_sha256": "eb3a60d0b6cf267b1fd0c964a3af4e92710003a77d43200df90f871b0d62dfc5",
+  "paired_input_count": 25,
+  "candidate_input": "agent-data/literature/candidates/codex/candidates.json",
+  "recipient_configurations": [
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "C128",
+          "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+          "laureates": [
+            "Mircea Cărtărescu"
+          ]
+        }
+      ],
+      "count": 28,
+      "frequency": 0.56
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "C010",
+          "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+          "laureates": [
+            "Anne Carson"
+          ]
+        }
+      ],
+      "count": 12,
+      "frequency": 0.24
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "C173",
+          "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+          "laureates": [
+            "Thomas Pynchon"
+          ]
+        }
+      ],
+      "count": 4,
+      "frequency": 0.08
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "C003",
+          "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+          "laureates": [
+            "Adonis"
+          ]
+        }
+      ],
+      "count": 2,
+      "frequency": 0.04
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "C069",
+          "discovery": "Experimental writing dissolves boundaries between autobiography, philosophy and fiction. Representative works: The Book of Promethea; The Third Body.",
+          "laureates": [
+            "Hélène Cixous"
+          ]
+        }
+      ],
+      "count": 2,
+      "frequency": 0.04
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "C025",
+          "discovery": "Dreamlike narrative worlds destabilize ordinary psychology, space and causal storytelling. Representative works: Frontier; Love in the New Millennium.",
+          "laureates": [
+            "Can Xue"
+          ]
+        }
+      ],
+      "count": 1,
+      "frequency": 0.02
+    },
+    {
+      "prize_parts": [
+        {
+          "candidate_id": "C061",
+          "discovery": "A radically inward fiction builds distinctive systems of landscape, memory and mental images. Representative works: The Plains; Border Districts.",
+          "laureates": [
+            "Gerald Murnane"
+          ]
+        }
+      ],
+      "count": 1,
+      "frequency": 0.02
+    }
+  ],
+  "models": {
+    "gpt-5.6-terra": {
+      "completed_simulations": 25,
+      "configurations": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "count": 9,
+          "frequency": 0.36
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "count": 8,
+          "frequency": 0.32
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C173",
+              "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+              "laureates": [
+                "Thomas Pynchon"
+              ]
+            }
+          ],
+          "count": 4,
+          "frequency": 0.16
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C069",
+              "discovery": "Experimental writing dissolves boundaries between autobiography, philosophy and fiction. Representative works: The Book of Promethea; The Third Body.",
+              "laureates": [
+                "Hélène Cixous"
+              ]
+            }
+          ],
+          "count": 2,
+          "frequency": 0.08
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C003",
+              "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+              "laureates": [
+                "Adonis"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C061",
+              "discovery": "A radically inward fiction builds distinctive systems of landscape, memory and mental images. Representative works: The Plains; Border Districts.",
+              "laureates": [
+                "Gerald Murnane"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        }
+      ],
+      "profile_groups": {
+        "neutral-terra-v1": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 3,
+              "frequency": 0.6
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C173",
+                  "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+                  "laureates": [
+                    "Thomas Pynchon"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v2": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C173",
+                  "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+                  "laureates": [
+                    "Thomas Pynchon"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v3": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C061",
+                  "discovery": "A radically inward fiction builds distinctive systems of landscape, memory and mental images. Representative works: The Plains; Border Districts.",
+                  "laureates": [
+                    "Gerald Murnane"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C069",
+                  "discovery": "Experimental writing dissolves boundaries between autobiography, philosophy and fiction. Representative works: The Book of Promethea; The Third Body.",
+                  "laureates": [
+                    "Hélène Cixous"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C173",
+                  "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+                  "laureates": [
+                    "Thomas Pynchon"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v4": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 3,
+              "frequency": 0.6
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            }
+          ]
+        },
+        "neutral-terra-v5": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 2,
+              "frequency": 0.4
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C003",
+                  "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+                  "laureates": [
+                    "Adonis"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C069",
+                  "discovery": "Experimental writing dissolves boundaries between autobiography, philosophy and fiction. Representative works: The Book of Promethea; The Third Body.",
+                  "laureates": [
+                    "Hélène Cixous"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        }
+      },
+      "achievement_inclusion_counts": {
+        "C128": 9,
+        "C010": 8,
+        "C173": 4,
+        "C069": 2,
+        "C061": 1,
+        "C003": 1
+      },
+      "shortlist_inclusion_counts": {
+        "C128": 25,
+        "C003": 23,
+        "C010": 24,
+        "C173": 24,
+        "C106": 4,
+        "C186": 18,
+        "C041": 1,
+        "C005": 18,
+        "C150": 13,
+        "C183": 13,
+        "C025": 15,
+        "C061": 10,
+        "C033": 2,
+        "C117": 7,
+        "C076": 2,
+        "C038": 2,
+        "C069": 10,
+        "C074": 2,
+        "C138": 2,
+        "C108": 1,
+        "C008": 1,
+        "C147": 3,
+        "C157": 1
+      },
+      "opening_first_place_counts": {
+        "C010": 26,
+        "C003": 14,
+        "C128": 52,
+        "C173": 24,
+        "C033": 2,
+        "C186": 5,
+        "C150": 1,
+        "C069": 10,
+        "C005": 2,
+        "C117": 1,
+        "C025": 4,
+        "C074": 3,
+        "C183": 1,
+        "C061": 4,
+        "C108": 1
+      },
+      "member_opening_first_places": {
+        "carlberg-ingrid": {
+          "C010": 7,
+          "C128": 8,
+          "C173": 7,
+          "C069": 2,
+          "C108": 1
+        },
+        "mattson-ellen": {
+          "C003": 1,
+          "C010": 3,
+          "C173": 4,
+          "C128": 9,
+          "C117": 1,
+          "C025": 1,
+          "C074": 2,
+          "C186": 1,
+          "C061": 2,
+          "C069": 1
+        },
+        "olsson-anders": {
+          "C003": 12,
+          "C010": 4,
+          "C128": 2,
+          "C173": 6,
+          "C069": 1
+        },
+        "palm-anna-karin": {
+          "C128": 8,
+          "C010": 8,
+          "C069": 3,
+          "C173": 2,
+          "C061": 2,
+          "C025": 1,
+          "C074": 1
+        },
+        "sem-sandberg-steve": {
+          "C128": 18,
+          "C033": 2,
+          "C173": 4,
+          "C183": 1
+        },
+        "sward-anne": {
+          "C128": 7,
+          "C010": 4,
+          "C186": 4,
+          "C150": 1,
+          "C005": 2,
+          "C025": 2,
+          "C069": 3,
+          "C173": 1,
+          "C003": 1
+        }
+      },
+      "round2_configuration_counts": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "count": 55,
+          "frequency": 0.36666666666666664
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "count": 31,
+          "frequency": 0.20666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C173",
+              "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+              "laureates": [
+                "Thomas Pynchon"
+              ]
+            }
+          ],
+          "count": 23,
+          "frequency": 0.15333333333333332
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C003",
+              "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+              "laureates": [
+                "Adonis"
+              ]
+            }
+          ],
+          "count": 9,
+          "frequency": 0.06
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C069",
+              "discovery": "Experimental writing dissolves boundaries between autobiography, philosophy and fiction. Representative works: The Book of Promethea; The Third Body.",
+              "laureates": [
+                "Hélène Cixous"
+              ]
+            }
+          ],
+          "count": 9,
+          "frequency": 0.06
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C186",
+              "discovery": "Bilingual writing turns linguistic estrangement into inventive narrative and poetic forms. Representative works: The Emissary; Memoirs of a Polar Bear.",
+              "laureates": [
+                "Yoko Tawada"
+              ]
+            }
+          ],
+          "count": 6,
+          "frequency": 0.04
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C061",
+              "discovery": "A radically inward fiction builds distinctive systems of landscape, memory and mental images. Representative works: The Plains; Border Districts.",
+              "laureates": [
+                "Gerald Murnane"
+              ]
+            }
+          ],
+          "count": 4,
+          "frequency": 0.02666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C025",
+              "discovery": "Dreamlike narrative worlds destabilize ordinary psychology, space and causal storytelling. Representative works: Frontier; Love in the New Millennium.",
+              "laureates": [
+                "Can Xue"
+              ]
+            }
+          ],
+          "count": 3,
+          "frequency": 0.02
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C074",
+              "discovery": "A long fictional career recovers divided histories through layered voices and social worlds. Representative works: The Guest; Mater 2-10.",
+              "laureates": [
+                "Hwang Sok-yong"
+              ]
+            }
+          ],
+          "count": 3,
+          "frequency": 0.02
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C005",
+              "discovery": "Large, polyphonic narratives remake the novel through Indigenous sovereignty, oral forms and ecological time. Representative works: Carpentaria; The Swan Book.",
+              "laureates": [
+                "Alexis Wright"
+              ]
+            }
+          ],
+          "count": 2,
+          "frequency": 0.013333333333333334
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C033",
+              "discovery": "Hybrid travel, essay and fiction map Europe through borderlands, memory and intellectual history. Representative works: Danube; Microcosms.",
+              "laureates": [
+                "Claudio Magris"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C108",
+              "discovery": "Interwoven lives explore dissent, spiritual pluralism and the moral experience of Soviet history. Representative works: The Big Green Tent; Daniel Stein, Interpreter.",
+              "laureates": [
+                "Ludmila Ulitskaya"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C117",
+              "discovery": "Uncanny narrative voices expose exclusion, family power and unstable belonging. Representative works: Three Strong Women; My Heart Hemmed In.",
+              "laureates": [
+                "Marie NDiaye"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C150",
+              "discovery": "Large poetic sequences and landscape-scale interventions transform suffering into collective memorial form. Representative works: Purgatory; Anteparadise.",
+              "laureates": [
+                "Raúl Zurita"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C183",
+              "discovery": "Grotesque and mythic narrative forms expose the violence of ideology and development. Representative works: The Four Books; The Explosion Chronicles.",
+              "laureates": [
+                "Yan Lianke"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        }
+      ],
+      "immediate_majority_decisions": 12,
+      "runoff_decisions": 13,
+      "simulation_outcomes": [
+        {
+          "simulation_id": "sim-01",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 1,
+            "C003": 2,
+            "C128": 3
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-02",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 5,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-03",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 3,
+            "C173": 1,
+            "C003": 1,
+            "C033": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-04",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 5,
+            "C186": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-05",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C173",
+              "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+              "laureates": [
+                "Thomas Pynchon"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C173": 4,
+            "C010": 1,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-06",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 4,
+            "C003": 1,
+            "C150": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-07",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C173",
+              "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+              "laureates": [
+                "Thomas Pynchon"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C173": 2,
+            "C128": 1,
+            "C003": 1,
+            "C069": 1,
+            "C005": 1
+          },
+          "instant_runoff_rounds": 6
+        },
+        {
+          "simulation_id": "sim-08",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C173",
+              "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+              "laureates": [
+                "Thomas Pynchon"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C173": 2,
+            "C117": 1,
+            "C003": 1,
+            "C128": 1,
+            "C025": 1
+          },
+          "instant_runoff_rounds": 6
+        },
+        {
+          "simulation_id": "sim-09",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C173": 2,
+            "C025": 1,
+            "C010": 2,
+            "C186": 1
+          },
+          "instant_runoff_rounds": 4
+        },
+        {
+          "simulation_id": "sim-10",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 5,
+            "C173": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-11",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C069",
+              "discovery": "Experimental writing dissolves boundaries between autobiography, philosophy and fiction. Representative works: The Book of Promethea; The Third Body.",
+              "laureates": [
+                "Hélène Cixous"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C069": 3,
+            "C074": 1,
+            "C173": 1,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-12",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 2,
+            "C186": 2,
+            "C003": 1,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-13",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 5,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-14",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C173",
+              "discovery": "Encyclopedic fiction links systems of power, scientific knowledge and countercultural imagination. Representative works: Gravity’s Rainbow; Mason & Dixon.",
+              "laureates": [
+                "Thomas Pynchon"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 2,
+            "C173": 3,
+            "C183": 1
+          },
+          "instant_runoff_rounds": 4
+        },
+        {
+          "simulation_id": "sim-15",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C061",
+              "discovery": "A radically inward fiction builds distinctive systems of landscape, memory and mental images. Representative works: The Plains; Border Districts.",
+              "laureates": [
+                "Gerald Murnane"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C173": 2,
+            "C061": 2,
+            "C128": 1,
+            "C005": 1
+          },
+          "instant_runoff_rounds": 4
+        },
+        {
+          "simulation_id": "sim-16",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C108": 1,
+            "C128": 2,
+            "C173": 2,
+            "C033": 1
+          },
+          "instant_runoff_rounds": 5
+        },
+        {
+          "simulation_id": "sim-17",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 4,
+            "C003": 1,
+            "C186": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-18",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 2,
+            "C128": 2,
+            "C003": 1,
+            "C025": 1
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-19",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 3,
+            "C003": 1,
+            "C173": 1,
+            "C069": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-20",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C173": 2,
+            "C010": 2,
+            "C128": 2
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-21",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 5,
+            "C025": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-22",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C069",
+              "discovery": "Experimental writing dissolves boundaries between autobiography, philosophy and fiction. Representative works: The Book of Promethea; The Third Body.",
+              "laureates": [
+                "Hélène Cixous"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C069": 5,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-23",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C003",
+              "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+              "laureates": [
+                "Adonis"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 1,
+            "C074": 2,
+            "C003": 2,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 5
+        },
+        {
+          "simulation_id": "sim-24",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 4,
+            "C003": 1,
+            "C128": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-25",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C173": 1,
+            "C061": 2,
+            "C003": 1,
+            "C128": 1,
+            "C010": 1
+          },
+          "instant_runoff_rounds": 4
+        }
+      ]
+    },
+    "claude-sonnet-5-5": {
+      "completed_simulations": 25,
+      "configurations": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "count": 19,
+          "frequency": 0.76
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "count": 4,
+          "frequency": 0.16
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C003",
+              "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+              "laureates": [
+                "Adonis"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C025",
+              "discovery": "Dreamlike narrative worlds destabilize ordinary psychology, space and causal storytelling. Representative works: Frontier; Love in the New Millennium.",
+              "laureates": [
+                "Can Xue"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.04
+        }
+      ],
+      "profile_groups": {
+        "neutral-terra-v1": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 4,
+              "frequency": 0.8
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v2": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 4,
+              "frequency": 0.8
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C025",
+                  "discovery": "Dreamlike narrative worlds destabilize ordinary psychology, space and causal storytelling. Representative works: Frontier; Love in the New Millennium.",
+                  "laureates": [
+                    "Can Xue"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v3": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 4,
+              "frequency": 0.8
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v4": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 4,
+              "frequency": 0.8
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        },
+        "neutral-terra-v5": {
+          "completed_simulations": 5,
+          "configurations": [
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C128",
+                  "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+                  "laureates": [
+                    "Mircea Cărtărescu"
+                  ]
+                }
+              ],
+              "count": 3,
+              "frequency": 0.6
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C003",
+                  "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+                  "laureates": [
+                    "Adonis"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            },
+            {
+              "prize_parts": [
+                {
+                  "candidate_id": "C010",
+                  "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+                  "laureates": [
+                    "Anne Carson"
+                  ]
+                }
+              ],
+              "count": 1,
+              "frequency": 0.2
+            }
+          ]
+        }
+      },
+      "achievement_inclusion_counts": {
+        "C128": 19,
+        "C010": 4,
+        "C025": 1,
+        "C003": 1
+      },
+      "shortlist_inclusion_counts": {
+        "C128": 25,
+        "C010": 24,
+        "C003": 24,
+        "C150": 22,
+        "C147": 24,
+        "C186": 16,
+        "C005": 23,
+        "C025": 17,
+        "C033": 3,
+        "C118": 12,
+        "C183": 7,
+        "C117": 5,
+        "C122": 1,
+        "C105": 2,
+        "C061": 10,
+        "C076": 2,
+        "C159": 1,
+        "C173": 1
+      },
+      "opening_first_place_counts": {
+        "C128": 98,
+        "C003": 10,
+        "C010": 28,
+        "C150": 3,
+        "C005": 1,
+        "C147": 3,
+        "C025": 6,
+        "C186": 1
+      },
+      "member_opening_first_places": {
+        "carlberg-ingrid": {
+          "C128": 14,
+          "C010": 6,
+          "C005": 1,
+          "C025": 1,
+          "C003": 3
+        },
+        "mattson-ellen": {
+          "C128": 22,
+          "C010": 1,
+          "C147": 2
+        },
+        "olsson-anders": {
+          "C003": 5,
+          "C010": 6,
+          "C150": 3,
+          "C128": 10,
+          "C025": 1
+        },
+        "palm-anna-karin": {
+          "C128": 16,
+          "C010": 8,
+          "C025": 1
+        },
+        "sem-sandberg-steve": {
+          "C128": 22,
+          "C010": 2,
+          "C147": 1
+        },
+        "sward-anne": {
+          "C010": 5,
+          "C128": 14,
+          "C025": 3,
+          "C186": 1,
+          "C003": 2
+        }
+      },
+      "round2_configuration_counts": [
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "count": 104,
+          "frequency": 0.6933333333333334
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "count": 26,
+          "frequency": 0.17333333333333334
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C003",
+              "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+              "laureates": [
+                "Adonis"
+              ]
+            }
+          ],
+          "count": 9,
+          "frequency": 0.06
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C025",
+              "discovery": "Dreamlike narrative worlds destabilize ordinary psychology, space and causal storytelling. Representative works: Frontier; Love in the New Millennium.",
+              "laureates": [
+                "Can Xue"
+              ]
+            }
+          ],
+          "count": 5,
+          "frequency": 0.03333333333333333
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C147",
+              "discovery": "Dense, compressed prose transforms obscure lives and art history into powerful narrative inquiry. Representative works: Small Lives; The Eleven.",
+              "laureates": [
+                "Pierre Michon"
+              ]
+            }
+          ],
+          "count": 3,
+          "frequency": 0.02
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C005",
+              "discovery": "Large, polyphonic narratives remake the novel through Indigenous sovereignty, oral forms and ecological time. Representative works: Carpentaria; The Swan Book.",
+              "laureates": [
+                "Alexis Wright"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C150",
+              "discovery": "Large poetic sequences and landscape-scale interventions transform suffering into collective memorial form. Representative works: Purgatory; Anteparadise.",
+              "laureates": [
+                "Raúl Zurita"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        },
+        {
+          "prize_parts": [
+            {
+              "candidate_id": "C186",
+              "discovery": "Bilingual writing turns linguistic estrangement into inventive narrative and poetic forms. Representative works: The Emissary; Memoirs of a Polar Bear.",
+              "laureates": [
+                "Yoko Tawada"
+              ]
+            }
+          ],
+          "count": 1,
+          "frequency": 0.006666666666666667
+        }
+      ],
+      "immediate_majority_decisions": 21,
+      "runoff_decisions": 4,
+      "simulation_outcomes": [
+        {
+          "simulation_id": "sim-01",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 4,
+            "C003": 1,
+            "C010": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-02",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-03",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 5,
+            "C150": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-04",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-05",
+          "profile_version": "neutral-terra-v1",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C005": 1,
+            "C147": 2,
+            "C003": 1,
+            "C128": 2
+          },
+          "instant_runoff_rounds": 4
+        },
+        {
+          "simulation_id": "sim-06",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-07",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-08",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 3,
+            "C147": 1,
+            "C150": 1,
+            "C025": 1
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-09",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C025",
+              "discovery": "Dreamlike narrative worlds destabilize ordinary psychology, space and causal storytelling. Representative works: Frontier; Love in the New Millennium.",
+              "laureates": [
+                "Can Xue"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C025": 3,
+            "C128": 2,
+            "C150": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-10",
+          "profile_version": "neutral-terra-v2",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-11",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C003": 2,
+            "C128": 4
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-12",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 2,
+            "C128": 2,
+            "C003": 1,
+            "C186": 1
+          },
+          "instant_runoff_rounds": 3
+        },
+        {
+          "simulation_id": "sim-13",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 4,
+            "C128": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-14",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 4,
+            "C010": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-15",
+          "profile_version": "neutral-terra-v3",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-16",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 5,
+            "C010": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-17",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C003": 2,
+            "C128": 4
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-18",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 4,
+            "C128": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-19",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-20",
+          "profile_version": "neutral-terra-v4",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 5,
+            "C010": 1
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-21",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-22",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C128": 6
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-23",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C003",
+              "discovery": "Remade Arabic poetic language through myth, fragmentation and a sustained dialogue with inherited forms. Representative works: Songs of Mihyar the Damascene; A Time Between Ashes and Roses.",
+              "laureates": [
+                "Adonis"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C003": 3,
+            "C128": 2,
+            "C010": 1
+          },
+          "instant_runoff_rounds": 4
+        },
+        {
+          "simulation_id": "sim-24",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C128",
+              "discovery": "Visionary, densely patterned prose turns memory and the body into an expansive metaphysical project. Representative works: Blinding; Solenoid.",
+              "laureates": [
+                "Mircea Cărtărescu"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 2,
+            "C128": 2,
+            "C025": 2
+          },
+          "instant_runoff_rounds": 1
+        },
+        {
+          "simulation_id": "sim-25",
+          "profile_version": "neutral-terra-v5",
+          "winning_configuration": [
+            {
+              "candidate_id": "C010",
+              "discovery": "Hybrid works remake the boundaries between classical scholarship, lyric, narrative and visual form. Representative works: Autobiography of Red; Nox.",
+              "laureates": [
+                "Anne Carson"
+              ]
+            }
+          ],
+          "opening_first_places": {
+            "C010": 4,
+            "C128": 2
+          },
+          "instant_runoff_rounds": 1
+        }
+      ]
+    }
+  },
+  "source_decisions": [
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-01/decision.json",
+      "sha256": "c86dc3abf95f3a170f212615c52f9ef1a401c0006c754aff1b205821adc1987e",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-01/metadata.json",
+      "metadata_sha256": "f3b97a93b8924dcc2b71ddeae2a90930d2199e6c62a4fd74d353321ab7093a62",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-02/decision.json",
+      "sha256": "814e4d079009f8f750100b6e5115e303e75afced667e0470f3fc000ed36d0d69",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-02/metadata.json",
+      "metadata_sha256": "5b2e7bd97c72b784d534659ceae63b74ab2dc74b4300378276ea2a668b4a9dd3",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-03/decision.json",
+      "sha256": "9e05cc979bbabf7434e7726852c6aca1c043a17b6035b9185369d5798bb10017",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-03/metadata.json",
+      "metadata_sha256": "e709555db73852bbf5c50321119b99d41758647b32479efd0767f64ecd7e3bfc",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-04/decision.json",
+      "sha256": "71a375251d49d125d21ce6ca15746d72a2875d3c05624445b68bb93b560ac384",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-04/metadata.json",
+      "metadata_sha256": "e3d14af1137273cccd24e0abcad8802f5793aff2b1cca431c93b4d7a1d6ceddd",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-05/decision.json",
+      "sha256": "6c1e62e3c65593b3a936a6a2a2c56dc25ccca38e19846eedb3a658bfa7885706",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-05/metadata.json",
+      "metadata_sha256": "b1ad28856e661d107b224bdbf1972c50b8e624b1168cde1d01e3f7d29062ce43",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-06/decision.json",
+      "sha256": "7d88c7a7b6acb1e30d2fb402b4b02ae0409a5d253fba7e4c6981462efb4bede2",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-06/metadata.json",
+      "metadata_sha256": "19b1577c88ec321350d81f829d767d354917c75e3a73e49dbbb302c6206223da",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-07/decision.json",
+      "sha256": "721f6af74485c18071da1a978d17d908ba921e636d459d616217c006da05d24f",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-07/metadata.json",
+      "metadata_sha256": "cec276c73f445d729c85492a9beb8b8eb44cd283122d19e757b3148cb20c7282",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-08/decision.json",
+      "sha256": "39e075cfb2b4d796e26aa40d28ef268bd2cd983e96e82ac3d808b441efe7aaf8",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-08/metadata.json",
+      "metadata_sha256": "05b65041a4942d32e902bc54d80ccb0aeb0fabe02a384cd3aa3b107413b27786",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-09/decision.json",
+      "sha256": "5d844a1f1c9b45a96b833856b8530c973a597912847188aa171bc7b013c2605c",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-09/metadata.json",
+      "metadata_sha256": "889f793aa567c4969937ab8fa1aa7689e85cef4105bd1b23024361fa9b6229d1",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-10/decision.json",
+      "sha256": "e544aedec584c39a94218604287e23cd43359ff3c3b53b3a88c3ea60e8fe511a",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-10/metadata.json",
+      "metadata_sha256": "8c456154781f3fda2e178849b718e5d97d43c9b8a52fbe9508a1674f04af389d",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-11/decision.json",
+      "sha256": "2e9ea0ba85a890a8fded3e893c79d8a30df4f45bbbe9003f47da00bcdbf25095",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-11/metadata.json",
+      "metadata_sha256": "01cab8accfddd7816f66cb609e22c4a381e137ecef2684ccaedaef032b2b8777",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-12/decision.json",
+      "sha256": "9c0dcec9bd14b79ee51fa61771637379a984973e360ed4aedfe283a4e18be09e",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-12/metadata.json",
+      "metadata_sha256": "106924018f87b35d9c418f2b90b7e15387ad00158aa10fc463bf7b6a753d4149",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-13/decision.json",
+      "sha256": "cb14f6ca33d6bb4977a11736f935fdb28e36be11be023141c6ea05e4bf9f477a",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-13/metadata.json",
+      "metadata_sha256": "e8175e2641435fc617c5fedb2c7957fe6f33b1eefa6e83007a3e5181d8aa1869",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-14/decision.json",
+      "sha256": "cc1b6c6820c4508d3bdece601854ad112333ac4026de688ea97bda689a29a3c8",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-14/metadata.json",
+      "metadata_sha256": "2d31f85d95eb67f514664ce08fc1a8fefac9bd238900893989e9133dfb531903",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-15/decision.json",
+      "sha256": "9019bbfa4748c34dbcce240c7a451d5507396a448eb165a7047700b0b0160e38",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-15/metadata.json",
+      "metadata_sha256": "1d8f962c0cfe6d1a6ace051bdea0b2c26fee892b7406466a0a446ec9551efeb9",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-16/decision.json",
+      "sha256": "80666408ac6ca560f1a1f3013e6a4b58110ab618e1e20544e50fbf928fa40a96",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-16/metadata.json",
+      "metadata_sha256": "f5f676a3ae6799c7a479bd372ae759e6ef2eb4c1c0e7d205d51c6dce01a8973d",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-17/decision.json",
+      "sha256": "00d43d23fda06a4bd45bcd0050b38f514259601643abe28423d0ce412db2c2c4",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-17/metadata.json",
+      "metadata_sha256": "85d13839a79b33acc0c9eb9b4deb543cc6f4cbc5fb70e76864a7f1ed987f2a84",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-18/decision.json",
+      "sha256": "1fae9c18db28313093865693f2d826aba7625f07529e593afb19e046b92ff80a",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-18/metadata.json",
+      "metadata_sha256": "2646f67db0ade32093ba5eb436af60b71a8b4c12b60617b34e862c5c58bf9560",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-19/decision.json",
+      "sha256": "605b8772aaaa14d1ca2f23b9de0c2a6ebe964ba4c05dc31fe20ab46069b22c79",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-19/metadata.json",
+      "metadata_sha256": "296b01130158bf6176925c28d2cb015e0a27e15bd2da4aa430315dd77dbe7a3d",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-20/decision.json",
+      "sha256": "981c12286d103f03121f4c0df2661e43528eaf313d403640f005a595a90954ed",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-20/metadata.json",
+      "metadata_sha256": "2a1cd1e43c3c1dd849370d3f6e6663525ddb2e4769846b61b0a7996fb644911d",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-21/decision.json",
+      "sha256": "854581e1ac84eff5ed624f0e574d2454f9e7dc362ac03aec6b2fd2be8b28c50b",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-21/metadata.json",
+      "metadata_sha256": "7652ff9f2fbc336d6451d332d4f91b9faa45dea439437f27cb9fa25b3bb3464f",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-22/decision.json",
+      "sha256": "17c75b5507f2536e179ce614f85533dcccc20e98f34fca664249387e10f47019",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-22/metadata.json",
+      "metadata_sha256": "2c2d44a151a478726626d1b7f4d405badc96307604fa1eda22e01344c13deefe",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-23/decision.json",
+      "sha256": "e0c67bfea40a6672d888349a7721d34f24af01f5520c407f7f582aec2cbacbdb",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-23/metadata.json",
+      "metadata_sha256": "c7c11049096abf1c76ab0b12bb5a7cad7480ad2c5fd61de733cc80750cf79a01",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-24/decision.json",
+      "sha256": "25c04a5d29da557ccd4524f778bcb1be5050a56df8d4ee5978dfc58742669492",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-24/metadata.json",
+      "metadata_sha256": "1b96b0b3212606c1dcccdb02cdcfc7000167811b6ecd8fe145ccbd9db55f295d",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/gpt-5.6-terra/sim-25/decision.json",
+      "sha256": "2a2e9e067f40e608a72956b630847a715c24a16afe91b5b590eaabffca25550b",
+      "model": "gpt-5.6-terra",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/gpt-5.6-terra/sim-25/metadata.json",
+      "metadata_sha256": "32d2c8e8ac49155137928308851b73e9d8cfe3e725d362b12667f5ed03ed6464",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-01/decision.json",
+      "sha256": "30831038e306bd86594862f774beb9fb3555fa8096f73e6414972fbb936ea7cc",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-01/metadata.json",
+      "metadata_sha256": "7441ca3371b4fd4234f83d2c11fffe181064538de8d48d6f6e53384da5bd8837",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-02/decision.json",
+      "sha256": "3d123c18a4a7259d3230023bd447b4aede9b67c9c3a41400d278434fc1e38261",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-02/metadata.json",
+      "metadata_sha256": "3a9cfc1bfde19745f61c0957b5e8322d0b2437a4f625f31b5b7664d23bf7edc6",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-03/decision.json",
+      "sha256": "822bb05e6553fa69fe3ea2897cd732bf4b16d7dc9e3e783d3193a3e78af254a7",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-03/metadata.json",
+      "metadata_sha256": "1c47840aed22148d2af8b1ef0c6b1d5b6768caa3cd064debc0513d4620f8abf5",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-04/decision.json",
+      "sha256": "5c636badd3a9a49150aeff6cf959cbcb087bed9dd6dbaa1e6121421d7bcd8e05",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-04/metadata.json",
+      "metadata_sha256": "f5612bccde634778013ffbb7966a26a12a49c5869f76634f471f8e542d66a47d",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-05/decision.json",
+      "sha256": "36ef96a4144d9a7e6305da72926af2dcc3d8027a5072d6322271c89b94e49472",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v1",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-05/metadata.json",
+      "metadata_sha256": "9cdc0f71c0e9a7177a0e675944cd1b48b41993b05955c0b59ac1da902f38da45",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-06/decision.json",
+      "sha256": "d8def78396939f9983204f070b68e51119e3824778d1435d4fa5356a6aee5020",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-06/metadata.json",
+      "metadata_sha256": "04e760455f850599aac218f9f91abad495d549ed58c231e04d353b7e40aff90e",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-07/decision.json",
+      "sha256": "c21035c93065ce3c8579669059b0d508ce4b8e8250a9414f8d76b78d7bc5e64e",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-07/metadata.json",
+      "metadata_sha256": "1aaf374b65c5e008030d88eedac41127a8b7cb75601277992657766102e8e7ce",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-08/decision.json",
+      "sha256": "2e26593828b91ade5e6a05fd0b9cbf9dff763b1abdb5fec7572f10fda5192e8e",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-08/metadata.json",
+      "metadata_sha256": "6c74493d4710afb12e7e53c592c0f99e25ae4351352bde6fe002d87bbdfc8c3f",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-09/decision.json",
+      "sha256": "946184b8b33caac3e64070f8f8e26294092dcd127b47638ac600d7c7c2c7dc98",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-09/metadata.json",
+      "metadata_sha256": "a68b21f1946af091020c5aaeff39ee2a76cff57199d4dfc00bdb8fb0508068f8",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-10/decision.json",
+      "sha256": "fc3af07c65df44e405d290842d495725030866195514f7bc12a4ec7d29e8788e",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v2",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-10/metadata.json",
+      "metadata_sha256": "6b9bf321338c512be7bd1bac485e711a39467a1483d96bafa61a5cac4bc64a94",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-11/decision.json",
+      "sha256": "47cffc91084c8e3cf60bf146eecd59a7cf13516bcbdfd7b6f279610aad10c9b9",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-11/metadata.json",
+      "metadata_sha256": "5a20c71ef0b5311e4bf6c7529e044af1ad376a781477cb2e275ae41b46e5ba89",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-12/decision.json",
+      "sha256": "152eab120788c2f8c2bfeac291cb016910a6fb13ea4d0f571c2cf137dd0ae774",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-12/metadata.json",
+      "metadata_sha256": "fb992f3af1b9722efd738a49fe641a53978222546a4f49fb69b80b8ce1e8f949",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-13/decision.json",
+      "sha256": "10e6a6f29264125e831773addfb5035a56fda73d734befb542ba7d544e40d449",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-13/metadata.json",
+      "metadata_sha256": "3c1ffba8985366e14b3b158a28a8eccccb2a1139d897c6725d81b737bc337add",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-14/decision.json",
+      "sha256": "23cd2dfafc9e4640fdaf1e147f4834bacc05cc422f7c1588f328fc87ab263fb8",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-14/metadata.json",
+      "metadata_sha256": "8fef39d8f82308bb0e6ccc8d84ace52671822749b177cf44e3851726a09ccc83",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-15/decision.json",
+      "sha256": "77fd6dd5c094c2391fc427aac974b55c1199d9738a34eb755f2570697707b701",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v3",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-15/metadata.json",
+      "metadata_sha256": "be98a1fbd6d3aa36518ad90f7697bd0204a4163ec2acf32e5d84465773aad040",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-16/decision.json",
+      "sha256": "b205bdc00a2789e3443d95b00db4180e440022254519a116b300e670a4b70fc8",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-16/metadata.json",
+      "metadata_sha256": "d3700a98a0be0279cc40fd8beeaea666ae0c73f8834da0414d0e72847b13f17e",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-17/decision.json",
+      "sha256": "8e1163dfc5d34fbbd2b703d083a95a0356819e899fdda9d39a187cf33127b557",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-17/metadata.json",
+      "metadata_sha256": "667b6bf12698178c7b47583aaa8065398cf061bb07d02b5ee9ec0956c0ba9749",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-18/decision.json",
+      "sha256": "616b23dfe73a7e7ce3f5c2c730a9259548b79c4599f0b70861b6af5045e63bea",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-18/metadata.json",
+      "metadata_sha256": "185b1ce0ae50282c79641944a2fdacafa71ba8cbca72745eec051e7557450f31",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-19/decision.json",
+      "sha256": "547ba7f8dca90921446eb2bd5e927d079cdd27685391091c9b7499dea4f1cf38",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-19/metadata.json",
+      "metadata_sha256": "2241192154271fa6b27118b37d502bc520644dfde5a7670caad28c691777de41",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-20/decision.json",
+      "sha256": "b57634b54eeb87fc00a522c35110dc37a81ae2600ba0cea1c4485ff003263a78",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v4",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-20/metadata.json",
+      "metadata_sha256": "688a3836b586cc61e87823da41e2a07da838cf640ccf513531b17e8341e0a7ae",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-21/decision.json",
+      "sha256": "1665be7b3c141dc417c28143f7376d60fffef7b81a1a59dda2064f988bc44c84",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-21/metadata.json",
+      "metadata_sha256": "d18abb22fec2a1bc9c762241a1fd6a8cdc3650f930c4bd6b2658d578250aed2c",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-22/decision.json",
+      "sha256": "611e2cb544e4b10a11e8e824d8417e5d388d4504ff3b3bcf07c4918938309dcc",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-22/metadata.json",
+      "metadata_sha256": "8318418ed856ae62cf0a42482ce70d134778d04a31a2f6d90f49c4c8791c7b6e",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-23/decision.json",
+      "sha256": "cb9349a4b378fc2bd78b2fc68905943783b69e597edd9f2334b8c8a34058d50a",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-23/metadata.json",
+      "metadata_sha256": "0c0763b58dee295ce6d3ae792106287efdbb94641b8d2824f5f42c26cb0d710a",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-24/decision.json",
+      "sha256": "460da669eec0a34198f66be77925703ad436abdbafae77f2281a7896b10eaf7a",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-24/metadata.json",
+      "metadata_sha256": "e1b479361fdd596242a5727ba4c1bea29e163963c2fe6bb2d403eb1564abe315",
+      "validated_full_local_records": true
+    },
+    {
+      "path": "results/literature/committee/claude-sonnet-5-5/sim-25/decision.json",
+      "sha256": "5b1f2c1d81015ce47345930add3ecaaf9644f568cb140166f91ec7ffce38dbd5",
+      "model": "claude-sonnet-5-5",
+      "profile_version": "neutral-terra-v5",
+      "metadata_path": "results/literature/committee/claude-sonnet-5-5/sim-25/metadata.json",
+      "metadata_sha256": "a70fc342fe1a9a04868957dc0a2848f885c57e793c1ea860370060ed235d0ab5",
+      "validated_full_local_records": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "pid": 44463,
+  "command": [
+    "/Users/davicosta/miniforge3/bin/python3",
+    "/Users/davicosta/Desktop/projects/nobel-prize-forecasting/scripts/run_literature_committee_claude.py",
+    "run",
+    "--sims",
+    "1-25",
+    "--candidates",
+    "/Users/davicosta/Desktop/projects/nobel-prize-forecasting/agent-data/literature/candidates/codex/candidates.json",
+    "--jobs",
+    "3",
+    "--max-attempts",
+    "2"
+  ],
+  "started_at_utc": "2026-10-06T22:23:22.639824+00:00",
+  "candidate_input": "agent-data/literature/candidates/codex/candidates.json",
+  "candidate_sha256": "eb3a60d0b6cf267b1fd0c964a3af4e92710003a77d43200df90f871b0d62dfc5",
+  "candidate_note": "User instruction: use GPT's (Codex) active 50-writer list (literature-2026-codex-50) directly; no consolidated list.",
+  "simulations": 25,
+  "profile_versions": 5,
+  "repeats_per_version": 5,
+  "committee_members": 6,
+  "model": "claude-sonnet-5-5",
+  "effort": "high",
+  "resumes": [
+    {
+      "pid": 94691,
+      "at_utc": "2026-10-06T22:54:49.310710+00:00",
+      "reason": "usage limit reached; resumed after account login"
+    },
+    {
+      "pid": 44463,
+      "at_utc": "2026-10-07T01:01:57.968333+00:00",
+      "command": [
+        "/Users/davicosta/miniforge3/bin/python3",
+        "/Users/davicosta/Desktop/projects/nobel-prize-forecasting/scripts/run_literature_committee_claude.py",
+        "run",
+        "--sims",
+        "1-25",
+        "--candidates",
+        "/Users/davicosta/Desktop/projects/nobel-prize-forecasting/agent-data/literature/candidates/codex/candidates.json",
+        "--jobs",
+        "3",
+        "--max-attempts",
+        "3"
+      ],
+      "reason": "API server_error on sim-15 chair; resumed with max-attempts 3"
+    }
+  ]
+}

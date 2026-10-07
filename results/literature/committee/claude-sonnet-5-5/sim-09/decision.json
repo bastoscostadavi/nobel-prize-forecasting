@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "list_id": "literature-2026-codex-50",
+  "run": 1,
+  "simulation_id": "sim-09",
+  "committee_model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "rule": {
+    "method": "instant runoff over exhaustive rankings",
+    "majority_votes": 4,
+    "elimination_order": [
+      "fewest current first-active preferences",
+      "fewest explicit round-2 supporters",
+      "lowest full-ballot Borda score",
+      "proposal_id ascending"
+    ],
+    "recusals": "disclosed but not adjudicated in this simulation"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "counts": {
+        "P000": 0,
+        "P001": 4,
+        "P002": 2
+      },
+      "eliminated": null
+    }
+  ],
+  "winner": {
+    "proposal_id": "P001",
+    "no_award": false,
+    "prize_parts": [
+      {
+        "ballot_id": "B001",
+        "candidate_id": "C025",
+        "discovery": "Dreamlike narrative worlds destabilize ordinary psychology, space and causal storytelling. Representative works: Frontier; Love in the New Millennium.",
+        "laureates": [
+          "Can Xue"
+        ]
+      }
+    ]
+  },
+  "committee_provider": "anthropic",
+  "category": "literature"
+}

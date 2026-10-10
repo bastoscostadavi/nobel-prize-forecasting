@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "category": "economics",
+  "committee_provider": "anthropic",
+  "committee_model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "list_id": "economics-2026-consolidated-50-v1",
+  "nomination_run": 1,
+  "simulation_id": "sim-05",
+  "repeat_index": 5,
+  "design": "five factual profile versions, five repetitions per version",
+  "seed_label": "economics-committee-profile-v1:economics-2026-consolidated-50-v1/sim-05",
+  "candidate_input": "agent-data/economics/candidates/candidates.json",
+  "candidate_input_sha256": "3e6190785dce464825b3f20a6d57dc7edcdbf2683cb7c8821c95ff4af7fb6b41",
+  "input_candidate_count": 50,
+  "candidate_count": 50,
+  "excluded_candidates": [],
+  "exclusion_policy": "only explicit prepare --exclude IDs",
+  "profile_version": "neutral-terra-v1",
+  "profiles": "agent-data/economics/committee/<member-id>/profile_terra_v1.md",
+  "profile_inputs": {
+    "andersson-tommy": {
+      "path": "agent-data/economics/committee/andersson-tommy/profile_terra_v1.md",
+      "sha256": "de0aac997a6c3832ad0243e9800dee902dd59ee94310804ad0ffad1392e688d2"
+    },
+    "boppart-timo": {
+      "path": "agent-data/economics/committee/boppart-timo/profile_terra_v1.md",
+      "sha256": "4d3363a1e121cb23c9c45151f196a683eacc3fdaf0fbf73420bab1cf3a5e173d"
+    },
+    "dreber-almenberg-anna": {
+      "path": "agent-data/economics/committee/dreber-almenberg-anna/profile_terra_v1.md",
+      "sha256": "b95020cadb0a0370e3c6eb1e244037dbbe7b069b03318914fbb94c9c842c9fb6"
+    },
+    "enflo-kerstin": {
+      "path": "agent-data/economics/committee/enflo-kerstin/profile_terra_v1.md",
+      "sha256": "86c254ae935584f2c686bd51184d70f13da4d847feaed4684dee4a30cf24b0fe"
+    },
+    "fredriksson-peter": {
+      "path": "agent-data/economics/committee/fredriksson-peter/profile_terra_v1.md",
+      "sha256": "1860b2cc86a383406d806f006d3c5f843a96a1ef0cba806d7a3c8d99ceb7bab0"
+    },
+    "friberg-richard": {
+      "path": "agent-data/economics/committee/friberg-richard/profile_terra_v1.md",
+      "sha256": "3db93df8192e1f133c1dc4320c9a986d34edb3a341d61a5b144d7415180b9792"
+    },
+    "hassler-john": {
+      "path": "agent-data/economics/committee/hassler-john/profile_terra_v1.md",
+      "sha256": "4b1150f1f41a72466392df699393c4a420c4be777f89f4c44d629f0a09e8289a"
+    },
+    "hjalmarsson-randi": {
+      "path": "agent-data/economics/committee/hjalmarsson-randi/profile_terra_v1.md",
+      "sha256": "65eb06315357187925913e4cdb22ca9c509dceb9c020b6f2b6860aa1ea9f578c"
+    },
+    "krusell-per": {
+      "path": "agent-data/economics/committee/krusell-per/profile_terra_v1.md",
+      "sha256": "b103f8f1c9b94d9f0e6e788f1c7cb30ffe8ebe78f5a1c77e49b2451b3a7bd9fd"
+    },
+    "stromberg-per": {
+      "path": "agent-data/economics/committee/stromberg-per/profile_terra_v1.md",
+      "sha256": "54abff1c0610851cc584aa6a66f6cd0749f3b0ab60115689fd7c8fa4413b8d0e"
+    },
+    "teorell-jan": {
+      "path": "agent-data/economics/committee/teorell-jan/profile_terra_v1.md",
+      "sha256": "7d1087cd13044767ff7ae24d41500f32503542ebc1b7feedc738abfd831fdc49"
+    }
+  },
+  "members": [
+    "andersson-tommy",
+    "boppart-timo",
+    "dreber-almenberg-anna",
+    "enflo-kerstin",
+    "fredriksson-peter",
+    "friberg-richard",
+    "hassler-john",
+    "hjalmarsson-randi",
+    "krusell-per",
+    "stromberg-per",
+    "teorell-jan"
+  ],
+  "chair": "hassler-john",
+  "voting": "all eleven listed participants vote by modeling assumption; majority is six; actual secretary and co-opted voting rights are not asserted",
+  "conflict_policy": "disclosed but not adjudicated in this simulation",
+  "conflict_flags": [
+    {
+      "candidate_id": "E021",
+      "flags": [
+        "Giovanni Violante is a documented co-author of committee secretary Per Krusell. HANK builds on the heterogeneous-agent literature; the committee-centred Krusell–Smith entry is excluded."
+      ]
+    },
+    {
+      "candidate_id": "E032",
+      "flags": [
+        "Peter Klenow is a documented co-author of committee member Timo Boppart."
+      ]
+    }
+  ],
+  "prompts": {
+    "opening": "prompts/economics_committee_claude_opening_v1.md",
+    "round1": "prompts/economics_committee_claude_round1_v1.md",
+    "chair": "prompts/economics_committee_claude_chair_summary_v1.md",
+    "round2": "prompts/economics_committee_claude_round2_v1.md",
+    "final": "prompts/economics_committee_claude_final_ballot_v1.md"
+  },
+  "prompt_inputs": {
+    "opening": {
+      "path": "prompts/economics_committee_claude_opening_v1.md",
+      "sha256": "0f4375d61829dacad0c8ed546e91615a18ba727f90e60ce8a80557320822a869"
+    },
+    "round1": {
+      "path": "prompts/economics_committee_claude_round1_v1.md",
+      "sha256": "5469fb83f1ee2f4f921103d39306109b8f9932d2727e7940952d4dc12f8a2798"
+    },
+    "chair": {
+      "path": "prompts/economics_committee_claude_chair_summary_v1.md",
+      "sha256": "e8f74160e054f1f3845128878a69723fe630b0fdb13e8d105d3920354b9a1ce5"
+    },
+    "round2": {
+      "path": "prompts/economics_committee_claude_round2_v1.md",
+      "sha256": "2a3d3839e7963d54a403b33b49244b691727e0e94d1e9982ce8b625e934d216e"
+    },
+    "final": {
+      "path": "prompts/economics_committee_claude_final_ballot_v1.md",
+      "sha256": "a5fb7163b7f7139b2d7192327c7adec791e29a0c3f7a13a066699ee027fadec4"
+    }
+  },
+  "protocol": "docs/ECONOMICS_EXPERIMENT_DESIGN.md"
+}

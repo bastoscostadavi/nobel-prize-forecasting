@@ -142,4 +142,29 @@ For details, including the full distribution, model-specific figures and indepen
 
 ### Economic Sciences
 
-Prediction to be announced.
+The Economics experiment includes **50 committee decisions** (25 GPT-5.6 Terra and 25 Claude Sonnet 5.5) and **100 independent one-shot predictions** (25 each from four models), all at high reasoning effort. The committees use the same consolidated pool of 50 contributions and five factual profile versions.
+
+#### Committee predictions
+
+The three most frequent contributions across the two committee batches are:
+
+| Contribution | GPT-5.6 Terra | Claude Sonnet 5.5 | Combined share of 50 decisions |
+|---|---:|---:|---:|
+| Collateral constraints, credit cycles and the financial accelerator — Kiyotaki, Moore, with Gertler in some awards | 14/25 | 4/25 | 36% |
+| Firm heterogeneity, selection and the gains from trade — Melitz, with varying co-laureates | 6/25 | 6/25 | 24% |
+| Technology, trade shocks and labour demand — Autor, Hanson, with Dorn or Katz | 1/25 | 8/25 | 18% |
+
+Terra favors credit-cycle research; Sonnet favors labour-market research and heterogeneous-firm trade. The combined table groups recipient variants under the same contribution; the detailed results retain every distinct award configuration.
+
+#### Four one-shot comparisons
+
+| Model (high effort; 25 runs each) | Most frequent primary prediction | Runs | Share |
+|---|---|---:|---:|
+| GPT-6.1 Sol | Berry, Levinsohn and Pakes — empirical industrial organization | 12 | 48% |
+| GPT-5.6 Terra | Aghion and Howitt — innovation-driven growth | 9 | 36% |
+| Claude Opus 5.5 | Berry, Levinsohn and Pakes — empirical industrial organization | 14 | 56% |
+| Claude Sonnet 5.5 | Berry, Levinsohn and Pakes — empirical industrial organization | 18 | 72% |
+
+The one-shots receive the same direct question, with no candidate list or committee material. Terra's leading prediction repeats work already recognized in the [2025 Economics prize](https://www.nobelprize.org/prizes/economic-sciences/2025/press-release/): 12 of its 25 answers propose Aghion–Howitt, including three with Mokyr. One Terra answer and one Opus answer also name Jonathan Eaton, [who died in 2024](https://www.bu.edu/econ/?p=34458). These answers remain in the reported counts. Frequencies describe model outputs, not calibrated prize probabilities.
+
+See [the Economics experiments](results/economics/README.md) for all four one-shot distributions, contribution descriptions, both committee distributions, methodology and links to the original answers.

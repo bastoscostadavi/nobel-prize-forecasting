@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "list_id": "economics-2026-consolidated-50-v1",
+  "run": 1,
+  "simulation_id": "sim-14",
+  "member_id": "krusell-per",
+  "model": "claude-sonnet-5-5",
+  "reasoning_effort": "high",
+  "prompt": "prompts/economics_committee_claude_round1_v1.md",
+  "preferred_configuration": {
+    "prize_parts": [
+      {
+        "ballot_id": "B025",
+        "laureates": [
+          "Nobuhiro Kiyotaki",
+          "John Moore"
+        ],
+        "citation": "for showing how collateral constraints interact with asset prices to amplify and propagate economic fluctuations"
+      }
+    ]
+  },
+  "alternatives": [
+    "B001",
+    "B037"
+  ],
+  "statement": {
+    "case_for": "Kiyotaki and Moore (1997) identified a specific, general mechanism: borrowing capacity depends on collateral values, and collateral values depend on the borrowing and investment that the constraint limits. That feedback turns small, temporary shocks into large and persistent fluctuations. It is a discovery about how economies work, not only a modelling convenience. The mechanism is the base for much of modern macro-finance, including quantitative models of financial frictions, and it shaped how both academics and policy institutions read the 2007-09 crisis. Attribution is unusually clean: the core paper is jointly authored by two people, and nobody else has an obvious claim to the originating idea. About three decades of extension, quantitative work and policy use give enough time to judge its durability. On the question of how much it adds beyond 2022, the Bernanke-Diamond-Dybvig prize covered bank runs and the role of banks in the Great Depression. This is a different channel, which runs through asset prices and borrowing limits in the non-bank sector and real activity. I therefore see it as complementary to that prize, not duplicative.",
+    "case_against": "The strongest reservation is that the mechanism is established mainly in stylised theory and calibrated models. Direct empirical identification of collateral-driven amplification is less settled than the theory, and quantitative work has found that the size of amplification depends heavily on calibration and model structure. A second reservation is that the Academy may see this territory as already touched by the 2022 prize and by the financial-accelerator tradition. Finally, I rank this first partly because it fits my own field's sense of what is foundational, so I should discount that instinct and give weight to the cross-field arguments below.",
+    "responses": [
+      {
+        "member_id": "boppart-timo",
+        "point": "Boppart ranks B001 first as a thoroughly confirmed, long-overdue framework. He also treats Kiyotaki-Moore as the sharpest two-name attribution, with Gertler and Gilchrist closer to the already recognised Bernanke contribution, while flagging overlap with the 2022 prize.",
+        "response": "I agree on attribution and on keeping Gertler and Gilchrist out of the core credit. I only partly agree on B001. Obstfeld and Rogoff built a framework that is widely taught and used, but part of its value is synthesis and refinement of intertemporal and nominal-rigidity ideas. Its signature empirical puzzles, such as the disconnect puzzles, remain unresolved. So it is a stronger agenda-setting contribution than a settled discovery. Kiyotaki-Moore is a more specific mechanism that the post-2008 period tested in practice. On 2022, I would put the line at asset-price and collateral feedback in the real economy, which is separate from the bank-run and banking-crisis results already honoured. I do keep B001 as an alternative because the two-name attribution is comparably clean, and I do not think the choice between them is obvious."
+      },
+      {
+        "member_id": "hjalmarsson-randi",
+        "point": "Hjalmarsson ranks B037 first. Her argument is that the task and skill-demand work and the measured local effects of import competition combine new data, transparent designs and an explanatory framework. She notes that the committee must choose between Dorn and Katz, that Katz's work partly overlaps with Goldin's prize, and that the two strands may or may not count as a single discovery.",
+        "response": "I take the empirical-design point seriously, and the policy influence of this work is not in doubt. My hesitation is the same one she raises: the credited set joins two strands with different originators, and a three-person cap forces a choice between Katz and Dorn that is hard to defend on scientific grounds. The skill-premium side also overlaps with the 2023 and 2024 recognitions, and the size and persistence of the China-shock effects are still being debated. A prize built on separable strands is harder to justify than one built on a single mechanism with a clean attribution. I should add that I have a research interest in the skill-premium literature (capital-skill complementarity), so I may misjudge this one in either direction. For that reason I list B037 as an alternative and not as my preferred configuration, and I would want a clearer account of why the two strands belong in one citation."
+      },
+      {
+        "member_id": "stromberg-per",
+        "point": "Strömberg ranks B025 second. He credits the 1997 model as the foundational collateral mechanism, but notes that direct empirical validation is mixed because the mechanism is established largely through calibrated models, and that the 2022 prize could be read as overlapping.",
+        "response": "I accept the point about validation and it is my main uncertainty. Macro mechanisms are usually judged by whether they organise evidence and discipline quantitative models, and here the post-2008 experience and the large literature on financial frictions support the mechanism's relevance. But the quantitative size of the amplification is genuinely contested, and I would not want the citation to claim more than the mechanism's existence and direction. That is why my proposed citation emphasises amplification and propagation and does not assert a particular magnitude. I also agree that Gertler and Gilchrist should not be added just to broaden the award."
+      }
+    ],
+    "uncertainties": [
+      "How large the quantitative amplification from collateral constraints is, and whether the committee regards the evidence as enough to support a prize citation built on that mechanism.",
+      "Whether the committee treats the 2022 prize as covering this ground, or as a separate channel from the one in Kiyotaki-Moore.",
+      "Whether the committee prefers a broader macro-finance award, which would require adding Gertler and Gilchrist and would dilute the clean two-name attribution.",
+      "How to weigh B025 against B001 and B037 when their attribution and maturity problems are different in kind. I am relying on my own knowledge of the literature and have not verified sources independently."
+    ],
+    "conflict_note": "None apparent from the supplied profile for Kiyotaki or Moore. I disclose that I am a co-author of Boppart and of Hassler, who are fellow committee members but not candidates on my preferred part. I also work in macroeconomics, close to the macro-finance field of B025. Separately, my own research on capital-skill complementarity is adjacent to the B037 skill-premium strand, which I list only as an alternative. These are disclosures only, not adjudicated."
+  }
+}

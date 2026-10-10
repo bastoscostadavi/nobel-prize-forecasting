@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Run independent zero-context Claude Opus 5.5 one-shot predictions (resumable).
+"""Run independent zero-context Claude one-shot predictions (resumable; Opus 5.5 by default).
 
 Usage:
   python3 scripts/run_oneshot_claude.py peace --n 50
   python3 scripts/run_oneshot_claude.py literature --n 25
+  python3 scripts/run_oneshot_claude.py economics --n 25
+  python3 scripts/run_oneshot_claude.py economics --n 25 --model claude-sonnet-5-5
 """
 
 from __future__ import annotations
@@ -29,6 +31,14 @@ CATEGORIES = {
                           '"laureates" (array of one to three individual and/or organization names), '
                           '"rationale" (string, concise).'),
         "keys": ("achievement", "laureates", "rationale"),
+        "names_key": "laureates", "max_names": 3,
+    },
+    "economics": {
+        "prompt_file": "prompts/economics_oneshot_claude_v1.md",
+        "user_prompt": (ROOT / "prompts/economics_oneshot_gpt_6_1_sol_v1.txt").read_text().strip(),
+        "system_prompt": ('Answer with only a JSON object with exactly these keys: "contribution" (string), '
+                          '"laureates" (array of one to three names), "rationale" (string, concise).'),
+        "keys": ("contribution", "laureates", "rationale"),
         "names_key": "laureates", "max_names": 3,
     },
     "literature": {
@@ -115,17 +125,20 @@ def run_one(n: int, spec: dict, out: Path, claude: str, max_attempts: int) -> st
                   "prompt": spec["prompt_file"], **{k: value[k] for k in spec["keys"]}}
         path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n")
         names = value[spec["names_key"]] if spec["names_key"] else [value["laureate"]]
-        return f"OK {pid}: {value['achievement'][:70]} - {'; '.join(names)}"
+        return f"OK {pid}: {value.get('achievement', value.get('contribution', ''))[:70]} - {'; '.join(names)}"
     return f"FAIL {pid}: {' | '.join(errors)}"
 
 
 def main() -> None:
+    global MODEL
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("category", choices=sorted(CATEGORIES))
     parser.add_argument("--n", type=int, required=True)
     parser.add_argument("--jobs", type=int, default=5)
     parser.add_argument("--max-attempts", type=int, default=3)
+    parser.add_argument("--model", choices=("claude-opus-5-5", "claude-sonnet-5-5"), default=MODEL)
     args = parser.parse_args()
+    MODEL = args.model
     spec = CATEGORIES[args.category]
     out = ROOT / "results" / args.category / "oneshot" / MODEL
     claude = shutil.which("claude") or str(Path.home() / ".local/bin/claude")

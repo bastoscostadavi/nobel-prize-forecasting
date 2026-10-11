@@ -270,6 +270,76 @@ def comparison_top5_plot(terra: Counter, claude: Counter):
     plt.close(figure)
 
 
+def oneshot_top5_plot(arms: list[tuple[str, str, Counter]]):
+    """Four independently ranked panels in one 2400-by-2400 PNG."""
+    figure = plt.figure(figsize=(12, 12), facecolor='white')
+    figure.text(0.035, 0.967, '2026 Nobel Prize in Economic Sciences',
+                color=INK, fontsize=22, fontweight='bold', va='top')
+    figure.text(0.035, 0.922, 'Top 5 one-shot predictions per model · 25 forecasts each · High reasoning effort',
+                color=MUTED, fontsize=11, va='top')
+    for index, (model, title, counts) in enumerate(arms):
+        left = 0.035 + 0.5 * (index % 2)
+        bottom = 0.54 if index < 2 else 0.15
+        accent = ACCENT if model.startswith('gpt-') else '#7162AA'
+        total = sum(counts.values())
+        rows = ordered(counts)[:5]
+        if total != 25:
+            raise ValueError('The one-shot comparison requires 25 primary picks per model')
+        figure.text(left, bottom + 0.32, title, color=accent, fontsize=16,
+                    fontweight='bold', va='top')
+        axis = figure.add_axes([left, bottom, 0.435, 0.285])
+        axis.set_xlim(0, 129)
+        axis.set_ylim(4.68, -0.35)
+        for row, (configuration, count) in enumerate(rows):
+            names = {n for _, people in configuration for n in people}
+            if 'Ariel Pakes' in names:
+                description = 'Empirical industrial organization'
+            elif 'Elhanan Helpman' in names:
+                description = 'International trade and firm heterogeneity'
+            elif 'Philippe Aghion' in names:
+                description = 'Innovation-driven growth and creative destruction'
+            elif 'Michael Woodford' in names:
+                description = 'New Keynesian macroeconomics and monetary policy'
+            elif 'Ernst Fehr' in names:
+                description = 'Behavioral economics and social preferences'
+            elif 'John Moore' in names:
+                description = 'Credit constraints and macroeconomic fluctuations'
+            elif 'David Autor' in names:
+                description = 'Globalization, automation and labour markets'
+            elif 'Manuel Arellano' in names:
+                description = 'Panel-data methods and household behavior'
+            else:
+                raise ValueError(f'Missing one-shot contribution label: {names}')
+            display = label(configuration).replace('–', ' · ') + marker(configuration, model)
+            axis.text(0, row - 0.11, f'{row+1:02d}  {display}', color=INK,
+                      fontsize=12.1, fontweight='bold' if row == 0 else 'normal', va='center')
+            axis.text(0, row + 0.14, textwrap.fill(description, 50), color=MUTED,
+                      fontsize=9, va='center', linespacing=1.15)
+            share = 100 * count / total
+            axis.barh(row + 0.43, 100, height=0.105, color='#F0F3F5', zorder=1)
+            axis.barh(row + 0.43, share, height=0.105, color=accent, zorder=2)
+            axis.text(129, row - 0.07, f'{share:.0f}%', ha='right', va='center',
+                      fontsize=13.5, fontweight='bold', color=INK)
+            axis.text(129, row + 0.18, f'{count} / {total}', ha='right', va='center',
+                      fontsize=9.5, color=MUTED)
+        if len(rows) < 5:
+            axis.text(0, 4.08, 'Four distinct recipient configurations', color=MUTED,
+                      fontsize=10, va='center')
+            axis.text(0, 4.33, 'All 25 forecasts are shown above', color=MUTED,
+                      fontsize=9, va='center')
+        axis.set_yticks([])
+        axis.set_xticks([0, 25, 50, 75, 100], ['0', '25', '50', '75', '100%'])
+        axis.tick_params(axis='x', colors=MUTED, length=0, pad=8, labelsize=9)
+        axis.spines[['top', 'right', 'left', 'bottom']].set_visible(False)
+        axis.set_xlabel('Share of all 25 one-shot forecasts', color=MUTED, fontsize=9.5, labelpad=8)
+    for y, text in [(0.064, '† Repeats growth work awarded in 2025; all such predictions remain in the counts.'),
+                    (0.044, 'Ties: alphabetical recipient label. Shares are not renormalized to the displayed top five.'),
+                    (0.024, 'Observed model output frequencies, not calibrated probabilities of the actual prize.')]:
+        figure.text(0.035, y, text, color=MUTED, fontsize=8.8, va='bottom')
+    figure.savefig(FIGURES / 'economics-oneshot-comparison-top5.png', dpi=200, facecolor='white')
+    plt.close(figure)
+
+
 def main():
     FIGURES.mkdir(parents=True, exist_ok=True)
     terra = committee_counts('terra', 'gpt-5.6-terra')
@@ -283,6 +353,7 @@ def main():
                                       ('claude-sonnet-5-5', 'Claude Sonnet 5.5', claude, 'claude')]:
         model_plot(counts, model, title + ' · Committee', f'economics-{slug}-committee-distribution.png', 'committee')
         series.append(('committee-' + model, counts))
+    oneshot_arms = []
     for model, title, slug in [('gpt-6.1-sol', 'GPT-6.1 Sol', 'sol'),
                                ('gpt-5.6-terra', 'GPT-5.6 Terra', 'terra'),
                                ('claude-opus-5-5', 'Claude Opus 5.5', 'opus'),
@@ -290,9 +361,17 @@ def main():
         counts = oneshot_counts(model)
         model_plot(counts, model, title + ' · One-shot', f'economics-{slug}-oneshot-distribution.png', 'oneshot')
         series.append(('oneshot-' + model, counts))
+        oneshot_arms.append((model, title, counts))
+    oneshot_top5_plot(oneshot_arms)
     data = {'schema_version': 1, 'aggregation': 'Observed frequencies; primary picks only; recipient configurations remain separate.',
             'claude_name_aliases': CLAUDE_ALIASES,
             'tie_rule': 'Descending count, then alphabetical abbreviated figure label.',
+            'oneshot_top5_comparison': {'file': 'docs/figures/economics-oneshot-comparison-top5.png',
+                                       'panels': [{'model': model, 'denominator': sum(counts.values()),
+                                                   'rows': [{'label': label(k), 'count': count,
+                                                             'frequency': count/sum(counts.values())}
+                                                            for k, count in ordered(counts)[:5]]}
+                                                  for model, _, counts in oneshot_arms]},
             'top5_comparison': {'file': 'docs/figures/economics-committee-comparison-top5.png',
                                 'panels': [{'model': model, 'denominator': sum(counts.values()),
                                             'rows': [{'label': label(k), 'count': count,

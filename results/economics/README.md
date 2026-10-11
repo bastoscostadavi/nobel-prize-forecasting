@@ -14,6 +14,16 @@ The figure shows all **15 winning configurations across 50 committee simulations
 
 ## Four one-shot results
 
+### Four-panel top-five comparison for sharing
+
+This single image shows the top five primary recipient configurations from each model on the same 0–100% scale, retaining the denominator of **25 forecasts per model**. Sonnet has only four distinct configurations, so its panel shows all four. Ties at the cutoff use alphabetical figure-label order. † marks the already-awarded growth work; those predictions remain in the counts.
+
+![Four-panel Economics one-shot top-five comparison: GPT-6.1 Sol, GPT-5.6 Terra, Claude Opus 5.5 and Claude Sonnet 5.5](../../docs/figures/economics-oneshot-comparison-top5.png)
+
+[Download the single 2400 × 2400 PNG for LinkedIn](../../docs/figures/economics-oneshot-comparison-top5.png).
+
+### Full one-shot distributions
+
 The four figures show every primary recipient configuration in each 25-run batch. All use the same 0–100% scale. Surnames abbreviate the full names in the tables below; † marks the already-awarded growth work and ‡ marks a prediction including Jonathan Eaton. Flagged answers remain in the counts.
 
 <table>
@@ -202,7 +212,7 @@ The differences reflect the full change in setup: committees receive a curated c
 
 ## Figure reproduction
 
-Regenerate all nine figures from the saved results with:
+Regenerate all ten figures from the saved results with:
 
 ```sh
 python3 scripts/plot_economics_prediction_distributions.py

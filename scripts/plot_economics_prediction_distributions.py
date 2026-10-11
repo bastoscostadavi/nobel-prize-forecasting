@@ -223,6 +223,53 @@ def model_plot(counts: Counter, model: str, title: str, filename: str, kind: str
     save(figure, filename)
 
 
+def comparison_top5_plot(terra: Counter, claude: Counter):
+    """One 2400-by-1620 PNG with independently ranked top-five panels."""
+    figure = plt.figure(figsize=(12, 8.1), facecolor='white')
+    figure.text(0.035, 0.965, '2026 Nobel Prize in Economic Sciences',
+                color=INK, fontsize=22, fontweight='bold', va='top')
+    figure.text(0.035, 0.902,
+                'Top 5 committee predictions per model · 25 simulations each · High reasoning effort',
+                color=MUTED, fontsize=11, va='top')
+    for left, title, counts, accent in [(0.035, 'GPT-5.6 Terra', terra, ACCENT),
+                                        (0.535, 'Claude Sonnet 5.5', claude, '#7162AA')]:
+        total = sum(counts.values())
+        if total != 25:
+            raise ValueError('The comparison requires 25 completed decisions per model')
+        figure.text(left, 0.822, title, color=accent, fontsize=16,
+                    fontweight='bold', va='top')
+        axis = figure.add_axes([left, 0.14, 0.435, 0.625])
+        axis.set_xlim(0, 129)
+        axis.set_ylim(4.68, -0.35)
+        for row, (configuration, count) in enumerate(ordered(counts)[:5]):
+            share = 100 * count / total
+            names = label(configuration).replace('–', ' · ')
+            description = ' / '.join(DESCRIPTIONS[candidate] for candidate, _ in configuration)
+            axis.text(0, row - 0.11, f'{row+1:02d}  {names}', color=INK,
+                      fontsize=12.4, fontweight='bold' if row == 0 else 'normal', va='center')
+            axis.text(0, row + 0.14, textwrap.fill(description, 50),
+                      color=MUTED, fontsize=9.1, va='center', linespacing=1.15)
+            axis.barh(row + 0.43, 100, height=0.105, color='#F0F3F5', zorder=1)
+            axis.barh(row + 0.43, share, height=0.105, color=accent, zorder=2)
+            axis.text(129, row - 0.07, f'{share:.0f}%', ha='right', va='center',
+                      color=INK, fontsize=13.5, fontweight='bold')
+            axis.text(129, row + 0.18, f'{count} / {total}', ha='right', va='center',
+                      color=MUTED, fontsize=9.5)
+        axis.set_yticks([])
+        axis.set_xticks([0, 25, 50, 75, 100], ['0', '25', '50', '75', '100%'])
+        axis.tick_params(axis='x', colors=MUTED, length=0, pad=8, labelsize=9)
+        axis.spines[['top', 'right', 'left', 'bottom']].set_visible(False)
+        axis.set_xlabel('Share of all 25 committee decisions', color=MUTED, fontsize=9.5, labelpad=8)
+    figure.text(0.035, 0.035,
+                'Recipient variants stay separate. Ties: alphabetical figure label. Shares are not renormalized to the top five.',
+                color=MUTED, fontsize=8.5, va='bottom')
+    figure.text(0.035, 0.015,
+                'Observed model simulation outcomes, not calibrated probabilities of the actual prize.',
+                color=MUTED, fontsize=8.5, va='bottom')
+    figure.savefig(FIGURES / 'economics-committee-comparison-top5.png', dpi=200, facecolor='white')
+    plt.close(figure)
+
+
 def main():
     FIGURES.mkdir(parents=True, exist_ok=True)
     terra = committee_counts('terra', 'gpt-5.6-terra')
@@ -230,6 +277,7 @@ def main():
     combined = terra + claude
     ranked_plot(combined, 'economics-committee-top5.png', limit=5)
     ranked_plot(combined, 'economics-committee-full-distribution.png')
+    comparison_top5_plot(terra, claude)
     series = [('committee-aggregate', combined)]
     for model, title, counts, slug in [('gpt-5.6-terra', 'GPT-5.6 Terra', terra, 'terra'),
                                       ('claude-sonnet-5-5', 'Claude Sonnet 5.5', claude, 'claude')]:
@@ -245,6 +293,13 @@ def main():
     data = {'schema_version': 1, 'aggregation': 'Observed frequencies; primary picks only; recipient configurations remain separate.',
             'claude_name_aliases': CLAUDE_ALIASES,
             'tie_rule': 'Descending count, then alphabetical abbreviated figure label.',
+            'top5_comparison': {'file': 'docs/figures/economics-committee-comparison-top5.png',
+                                'panels': [{'model': model, 'denominator': sum(counts.values()),
+                                            'rows': [{'label': label(k), 'count': count,
+                                                      'frequency': count/sum(counts.values())}
+                                                     for k, count in ordered(counts)[:5]]}
+                                           for model, counts in [('gpt-5.6-terra', terra),
+                                                                 ('claude-sonnet-5-5', claude)]]},
             'series': [{'id': name, 'total': sum(counts.values()),
                         'rows': [{'label': label(k), 'configuration': k, 'count': count,
                                   'frequency': count/sum(counts.values())} for k, count in ordered(counts)]}

@@ -7,6 +7,73 @@
     "Marc Melitz": "Marc J. Melitz"
   },
   "tie_rule": "Descending count, then alphabetical abbreviated figure label.",
+  "top5_comparison": {
+    "file": "docs/figures/economics-committee-comparison-top5.png",
+    "panels": [
+      {
+        "model": "gpt-5.6-terra",
+        "denominator": 25,
+        "rows": [
+          {
+            "label": "Gertler–Kiyotaki–Moore",
+            "count": 9,
+            "frequency": 0.36
+          },
+          {
+            "label": "Kiyotaki–Moore",
+            "count": 5,
+            "frequency": 0.2
+          },
+          {
+            "label": "Melitz",
+            "count": 3,
+            "frequency": 0.12
+          },
+          {
+            "label": "Helpman–Melitz–Redding",
+            "count": 2,
+            "frequency": 0.08
+          },
+          {
+            "label": "Arellano–Blundell–Bond",
+            "count": 1,
+            "frequency": 0.04
+          }
+        ]
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "denominator": 25,
+        "rows": [
+          {
+            "label": "Autor–Dorn–Hanson",
+            "count": 6,
+            "frequency": 0.24
+          },
+          {
+            "label": "Helpman–Melitz",
+            "count": 6,
+            "frequency": 0.24
+          },
+          {
+            "label": "Kiyotaki–Moore",
+            "count": 4,
+            "frequency": 0.16
+          },
+          {
+            "label": "Autor–Hanson–Katz",
+            "count": 2,
+            "frequency": 0.08
+          },
+          {
+            "label": "Berry–Levinsohn–Pakes",
+            "count": 2,
+            "frequency": 0.08
+          }
+        ]
+      }
+    ]
+  },
   "series": [
     {
       "id": "committee-aggregate",

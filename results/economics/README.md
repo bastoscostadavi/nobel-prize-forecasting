@@ -135,6 +135,16 @@ The OpenAI execution manifests ([Sol](oneshot/gpt-6.1-sol/manifest.json), [Terra
 
 ## Committee results
 
+### Top-five comparison for sharing
+
+This single image shows each model's own five leading recipient configurations side by side. Percentages retain the denominator of **25 decisions per model**. Each panel displays 20 of its 25 outcomes (80%); alphabetical figure-label order resolves ties at the cutoff.
+
+![Top five Economics committee predictions per model, GPT-5.6 Terra and Claude Sonnet 5.5 side by side](../../docs/figures/economics-committee-comparison-top5.png)
+
+[Download the single 2400 × 1620 PNG for LinkedIn](../../docs/figures/economics-committee-comparison-top5.png).
+
+### Full model distributions
+
 <table>
   <tr>
     <td align="center" valign="top"><img src="../../docs/figures/economics-terra-committee-distribution.png" alt="GPT-5.6 Terra Economics committee outcome distribution across 25 decisions" width="470"></td>
@@ -192,7 +202,7 @@ The differences reflect the full change in setup: committees receive a curated c
 
 ## Figure reproduction
 
-Regenerate all eight figures from the saved results with:
+Regenerate all nine figures from the saved results with:
 
 ```sh
 python3 scripts/plot_economics_prediction_distributions.py

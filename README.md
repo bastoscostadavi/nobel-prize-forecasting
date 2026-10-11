@@ -158,17 +158,5 @@ The aggregate combines **50 committee decisions**: 25 each from GPT-5.6 Terra an
 
 1. **The models favor different contributions.** Terra selects credit-cycle research in 14/25 decisions (56%); Sonnet selects it in 4/25 (16%). Sonnet selects labour-market research in 8/25 (32%), compared with one Terra decision. Both select heterogeneous-firm trade in 6/25 decisions (24%).
 2. **Recipient variants divide support for the same contribution.** Combining alternate credit configurations gives credit-cycle research 18/50 decisions (36%), heterogeneous-firm trade 12/50 (24%), and labour-market research 9/50 (18%). The figures retain distinct recipient configurations, matching the other prize sections. Ties are ordered alphabetically by figure label.
-3. **The one-shot forecasts point elsewhere.** Sol, Opus and Sonnet favor Berry–Levinsohn–Pakes; Terra favors growth work already awarded in 2025. Candidate context, profiles, discussion and voting all change between the one-shot and committee setups, so the difference cannot be attributed to deliberation alone.
 
-#### Four one-shot comparisons
-
-| Model (high effort; 25 runs each) | Most frequent primary prediction | Runs | Share |
-|---|---|---:|---:|
-| GPT-6.1 Sol | Berry, Levinsohn and Pakes — empirical industrial organization | 12 | 48% |
-| GPT-5.6 Terra | Aghion and Howitt — innovation-driven growth | 9 | 36% |
-| Claude Opus 5.5 | Berry, Levinsohn and Pakes — empirical industrial organization | 14 | 56% |
-| Claude Sonnet 5.5 | Berry, Levinsohn and Pakes — empirical industrial organization | 18 | 72% |
-
-The one-shots receive the same direct question, with no candidate list or committee material. Terra's leading prediction repeats work already recognized in the [2025 Economics prize](https://www.nobelprize.org/prizes/economic-sciences/2025/press-release/): 12 of its 25 answers propose Aghion–Howitt, including three with Mokyr. One Terra answer and one Opus answer also name Jonathan Eaton, [who died in 2024](https://www.bu.edu/econ/?p=34458). These answers remain in the reported counts. Frequencies describe model outputs, not calibrated prize probabilities.
-
-See [the Economics experiments](results/economics/README.md) for all four one-shot distributions, contribution descriptions, both committee distributions, methodology and links to the original answers.
+See [the Economics experiments](results/economics/README.md) for the full distributions, model comparisons, methodology and links to the original answers.

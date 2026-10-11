@@ -6,7 +6,34 @@ The most frequent one-shot prediction is Berry–Levinsohn–Pakes for Sol (48%)
 
 [Candidate list](../../agent-data/economics/candidates/README.md) · [Canonical candidates](../../agent-data/economics/candidates/candidates.json) · [Candidate CSV](../../agent-data/economics/candidates/candidates.csv) · [Experiment design](../../docs/ECONOMICS_EXPERIMENT_DESIGN.md)
 
+## Aggregate simulation outcomes
+
+The figure shows all **15 winning configurations across 50 committee simulations**. Each completed decision has equal weight; alternate recipient configurations remain separate. The [main Economics forecast](../../README.md#economic-sciences) shows the top five in the same format as the other prizes. Ties are ordered alphabetically by abbreviated figure label.
+
+![Full Economics simulation outcome distribution, with counts and shares across 50 committee simulations](../../docs/figures/economics-committee-full-distribution.png)
+
 ## Four one-shot results
+
+The four figures show every primary recipient configuration in each 25-run batch. All use the same 0–100% scale. Surnames abbreviate the full names in the tables below; † marks the already-awarded growth work and ‡ marks a prediction including Jonathan Eaton. Flagged answers remain in the counts.
+
+<table>
+  <tr>
+    <td align="center" valign="top"><img src="../../docs/figures/economics-sol-oneshot-distribution.png" alt="GPT-6.1 Sol Economics one-shot distribution across 25 forecasts" width="470"></td>
+    <td align="center" valign="top"><img src="../../docs/figures/economics-terra-oneshot-distribution.png" alt="GPT-5.6 Terra Economics one-shot distribution across 25 forecasts, retaining flagged predictions" width="470"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>GPT-6.1 Sol</strong></td>
+    <td align="center"><strong>GPT-5.6 Terra</strong></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><img src="../../docs/figures/economics-opus-oneshot-distribution.png" alt="Claude Opus 5.5 Economics one-shot distribution across 25 forecasts" width="470"></td>
+    <td align="center" valign="top"><img src="../../docs/figures/economics-sonnet-oneshot-distribution.png" alt="Claude Sonnet 5.5 Economics one-shot distribution across 25 forecasts" width="470"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Claude Opus 5.5</strong></td>
+    <td align="center"><strong>Claude Sonnet 5.5</strong></td>
+  </tr>
+</table>
 
 | Model | Reasoning effort | Completed runs | Leading recipient configuration | Runs | Share |
 |---|---|---:|---|---:|---:|
@@ -108,6 +135,17 @@ The OpenAI execution manifests ([Sol](oneshot/gpt-6.1-sol/manifest.json), [Terra
 
 ## Committee results
 
+<table>
+  <tr>
+    <td align="center" valign="top"><img src="../../docs/figures/economics-terra-committee-distribution.png" alt="GPT-5.6 Terra Economics committee outcome distribution across 25 decisions" width="470"></td>
+    <td align="center" valign="top"><img src="../../docs/figures/economics-claude-committee-distribution.png" alt="Claude Sonnet 5.5 Economics committee outcome distribution across 25 decisions" width="470"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>GPT-5.6 Terra</strong></td>
+    <td align="center"><strong>Claude Sonnet 5.5</strong></td>
+  </tr>
+</table>
+
 Each model completes 25 simulations using the same 50-contribution pool and five neutral factual profile versions, with five repetitions per version. The four additional versions change presentation while preserving the retained facts and public statements. [The profile manifest](../../agent-data/economics/committee/terra_profile_variants.json) records the generated profiles and source hashes; the `terra` filename is also used for the shared Claude inputs.
 
 All 11 roster participants vote **by modeling assumption**, with John Hassler chairing and a majority of six. This does not establish actual voting rights. The protocol comprises opening rankings, deterministic shortlisting, two discussion rounds with a chair summary, and private final ballots resolved by instant-runoff voting. Each complete simulation uses 45 accepted model responses. Candidate presentation is shuffled and IDs are blinded.
@@ -151,3 +189,13 @@ The following tables preserve distinct contribution-and-recipient configurations
 Terra's committee selects credit constraints and the financial accelerator in 14/25 decisions (56%), whereas its one-shot outputs center on already-awarded growth research. Sonnet's committee selects labour-market research in 8/25 decisions (32%) and heterogeneous-firm trade in 6/25 (24%); its one-shots concentrate on Berry–Levinsohn–Pakes (72%), a trio selected by only 2/25 Sonnet committees (8%).
 
 The differences reflect the full change in setup: committees receive a curated candidate pool, factual participant profiles, discussion and a voting procedure. They therefore cannot be attributed to deliberation alone. Sol and Opus provide additional one-shot comparisons; there are no Sol or Opus Economics committee batches in this experiment.
+
+## Figure reproduction
+
+Regenerate all eight figures from the saved results with:
+
+```sh
+python3 scripts/plot_economics_prediction_distributions.py
+```
+
+The [plotting script](../../scripts/plot_economics_prediction_distributions.py) checks both committee summaries against all 50 saved decisions, checks GPT one-shot counts against their primary-pick records and source hashes, and counts all 25 structured answers in each Claude arm using the documented aliases. The [figure-data manifest](figure_data.json) records the plotted counts, ordering and input hashes. No additional model calls or prediction filtering are involved.

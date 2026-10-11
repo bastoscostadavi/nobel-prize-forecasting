@@ -142,19 +142,23 @@ For details, including the full distribution, model-specific figures and indepen
 
 ### Economic Sciences
 
-The Economics experiment includes **50 committee decisions** (25 GPT-5.6 Terra and 25 Claude Sonnet 5.5) and **100 independent one-shot predictions** (25 each from four models), all at high reasoning effort. The committees use the same consolidated pool of 50 contributions and five factual profile versions.
+![Top five Economics simulation outcomes, with counts and shares across 50 committee simulations](docs/figures/economics-committee-top5.png)
 
-#### Committee predictions
+#### Proposed recognition
 
-The three most frequent contributions across the two committee batches are:
+- **Mark Gertler, Nobuhiro Kiyotaki, and John Moore** for collateral constraints, credit cycles and the financial accelerator.
+- **Nobuhiro Kiyotaki and John Moore** for collateral constraints and credit cycles, with an alternate recipient configuration.
+- **David Autor, David Dorn, and Gordon Hanson** for technology, trade shocks and their effects on employment and wages.
+- **Elhanan Helpman and Marc Melitz** for firm heterogeneity, selection and the gains from trade.
+- **Marc Melitz** for firm heterogeneity and the gains from trade, as a single-recipient award.
 
-| Contribution | GPT-5.6 Terra | Claude Sonnet 5.5 | Combined share of 50 decisions |
-|---|---:|---:|---:|
-| Collateral constraints, credit cycles and the financial accelerator — Kiyotaki, Moore, with Gertler in some awards | 14/25 | 4/25 | 36% |
-| Firm heterogeneity, selection and the gains from trade — Melitz, with varying co-laureates | 6/25 | 6/25 | 24% |
-| Technology, trade shocks and labour demand — Autor, Hanson, with Dorn or Katz | 1/25 | 8/25 | 18% |
+#### What the simulation analysis reveals
 
-Terra favors credit-cycle research; Sonnet favors labour-market research and heterogeneous-firm trade. The combined table groups recipient variants under the same contribution; the detailed results retain every distinct award configuration.
+The aggregate combines **50 committee decisions**: 25 each from GPT-5.6 Terra and Claude Sonnet 5.5, both at high reasoning effort, using the same 50-contribution pool and five factual profile versions. Gertler–Kiyotaki–Moore and Kiyotaki–Moore tie at nine decisions each (18%). Autor–Dorn–Hanson and Helpman–Melitz each win seven (14%); Melitz alone wins three (6%). Ten other recipient configurations account for the remaining 15 decisions. These shares describe simulation outcomes, not calibrated prize probabilities.
+
+1. **The models favor different contributions.** Terra selects credit-cycle research in 14/25 decisions (56%); Sonnet selects it in 4/25 (16%). Sonnet selects labour-market research in 8/25 (32%), compared with one Terra decision. Both select heterogeneous-firm trade in 6/25 decisions (24%).
+2. **Recipient variants divide support for the same contribution.** Combining alternate credit configurations gives credit-cycle research 18/50 decisions (36%), heterogeneous-firm trade 12/50 (24%), and labour-market research 9/50 (18%). The figures retain distinct recipient configurations, matching the other prize sections. Ties are ordered alphabetically by figure label.
+3. **The one-shot forecasts point elsewhere.** Sol, Opus and Sonnet favor Berry–Levinsohn–Pakes; Terra favors growth work already awarded in 2025. Candidate context, profiles, discussion and voting all change between the one-shot and committee setups, so the difference cannot be attributed to deliberation alone.
 
 #### Four one-shot comparisons
 
